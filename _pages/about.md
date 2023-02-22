@@ -46,13 +46,13 @@ This is Shiyu Jiang (江世宇), a master student majoring in computer science a
 
 [HNOXPred: a web tool for the prediction of gas-sensing H-NOX proteins from amino acid sequence](https://academic.oup.com/bioinformatics/article/38/19/4643/6673135)
 
-**Shiyu Jiang**, Hemn Barzan Abdalla, Chuyun Bi, Yi Zhu, Xuechen Tian, Yixin Yang*, Aloysius Wong*
+**Shiyu Jiang**, Hemn Barzan Abdalla, Chuyun Bi, Yi Zhu, Xuechen Tian, Yixin Yang, Aloysius Wong. *Bioinformatics*, (2022)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DBJYZiYAAAAJ&citation_for_view=DBJYZiYAAAAJ:Tyk-4Ss8FVUC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Website**](https://www.hnoxpred.com/) | [**Code**](https://github.com/JasonJiangs/HNOX_Pred)
 
 - H-NOX proteins are gas-sensing hemoproteins found in diverse organisms ranging from bacteria to eukaryotes. HNOXPred is a webserver for the prediction of gas-sensing heme-nitric oxide/oxygen (H-NOX) proteins from amino acid sequence.
+- The tool is developed by Python scripts, Flask framework and MySQL DB.
 </div>
-
 </div>
 
 [comment]: <> (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
