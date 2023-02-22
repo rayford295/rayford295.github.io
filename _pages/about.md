@@ -40,7 +40,7 @@ This is Shiyu Jiang (江世宇), a master student majoring in computer science a
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Bioinformatics</div><img src='images/bioinformatics2022.png' alt="sym" width="100%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
