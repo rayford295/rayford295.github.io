@@ -48,10 +48,23 @@ This is Shiyu Jiang (江世宇), a master student majoring in computer science a
 
 **Shiyu Jiang**, Hemn Barzan Abdalla, Chuyun Bi, Yi Zhu, Xuechen Tian, Yixin Yang, Aloysius Wong. *Bioinformatics*, (2022)
 
-[**Website**](https://www.hnoxpred.com/)  [**Code**](https://github.com/JasonJiangs/HNOX_Pred)
+[Website](https://www.hnoxpred.com/)  [Code](https://github.com/JasonJiangs/HNOX_Pred)
 
 - H-NOX proteins are gas-sensing hemoproteins found in diverse organisms ranging from bacteria to eukaryotes. HNOXPred is a webserver for the prediction of gas-sensing heme-nitric oxide/oxygen (H-NOX) proteins from amino acid sequence.
 - The tool is developed by Python scripts, Flask framework and MySQL DB.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Technology & People</div></div></div>
+
+<div class='paper-box-text' markdown="1">
+
+[The impact of comment history disclosure on online comment posting behaviors](https://www.emerald.com/insight/content/doi/10.1108/ITP-09-2021-0692/full/html)
+
+Jong Min Kim, Jeongsoo Han, **Shiyu Jiang**. *Information Technology & People*, (2022)
+
+- This study aimed to empirically examine the effectiveness of disclosing user comment history without disclosing personal identity as a nudge policy to refrain users from posting malicious content online.
 </div>
 </div>
 
