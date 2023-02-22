@@ -40,21 +40,20 @@ This is Shiyu Jiang (江世宇), a master student majoring in computer science a
 
 # 📝 Publications 
 
-[comment]: <> (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 
-[comment]: <> (<div class='paper-box-text' markdown="1">)
+<div class='paper-box-text' markdown="1">
 
-[comment]: <> ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
+[HNOXPred: a web tool for the prediction of gas-sensing H-NOX proteins from amino acid sequence](https://academic.oup.com/bioinformatics/article/38/19/4643/6673135)
 
-[comment]: <> (**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun)
+**Shiyu Jiang**, Hemn Barzan Abdalla, Chuyun Bi, Yi Zhu, Xuechen Tian, Yixin Yang*, Aloysius Wong*
 
-[comment]: <> ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DBJYZiYAAAAJ&citation_for_view=DBJYZiYAAAAJ:Tyk-4Ss8FVUC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
-[comment]: <> (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+- H-NOX proteins are gas-sensing hemoproteins found in diverse organisms ranging from bacteria to eukaryotes. HNOXPred is a webserver for the prediction of gas-sensing heme-nitric oxide/oxygen (H-NOX) proteins from amino acid sequence.
+</div>
 
-[comment]: <> (</div>)
-
-[comment]: <> (</div>)
+</div>
 
 [comment]: <> (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
 
