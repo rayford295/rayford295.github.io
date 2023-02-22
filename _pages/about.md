@@ -46,7 +46,7 @@ This is Shiyu Jiang (江世宇), a master student majoring in computer science a
 
 [HNOXPred: a web tool for the prediction of gas-sensing H-NOX proteins from amino acid sequence](https://academic.oup.com/bioinformatics/article/38/19/4643/6673135)
 
-**Shiyu Jiang**, Hemn Barzan Abdalla, Chuyun Bi, Yi Zhu, Xuechen Tian, Yixin Yang, Aloysius Wong. *Bioinformatics*, (2022)
+**Shiyu Jiang**, Hemn Barzan Abdalla, Chuyun Bi, Yi Zhu, Xuechen Tian, Yixin Yang, Aloysius Wong. *Bioinformatics*, 2022
 
 [Website](https://www.hnoxpred.com/)  [Code](https://github.com/JasonJiangs/HNOX_Pred)
 
@@ -56,10 +56,28 @@ This is Shiyu Jiang (江世宇), a master student majoring in computer science a
 </div>
 
 
-
 Jong Min Kim, Jeongsoo Han, **Shiyu Jiang**. [The impact of comment history disclosure on online comment posting behaviors](https://www.emerald.com/insight/content/doi/10.1108/ITP-09-2021-0692/full/html)
 . *Information Technology & People*, 2022.
 - This study aimed to empirically examine the effectiveness of disclosing user comment history without disclosing personal identity as a nudge policy to refrain users from posting malicious content online.
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2021</div><img src='images/ijcnn.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box-text' markdown="1">
+
+[Deblur-yolo: Real-time object detection with efficient blind motion deblurring](https://ieeexplore.ieee.org/abstract/document/9534352)
+
+Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *International Joint Conference on Neural Networks*, (2021)
+
+- In this work, we propose Deblur-YOLO, an efficient, YOLO-based and detection-driven approach robust to motion blur photographs.
+</div>
+</div>
+
+
+**Shiyu Jiang**, Junjie Jia, Yi Yuan, Yuxiong Wu, Tianqi Wang. [Research on China’s Primary Industry: Evidence From Regional Analysis Based on SVM and Moran’s Index](https://ieeexplore.ieee.org/abstract/document/9754653)
+. *International Conference on Cloud Computing and Intelligent Systems*, 2021.
+- This article aims to use machine learning and Moran’s I to analyze the current situation of China’s primary industry from a regional perspective.
 
 [comment]: <> (# 🎖 Honors and Awards)
 
