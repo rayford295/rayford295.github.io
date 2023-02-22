@@ -56,19 +56,10 @@ This is Shiyu Jiang (江世宇), a master student majoring in computer science a
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Technology & People</div></div></div>
 
-<div class='paper-box-text' markdown="1">
-
-[The impact of comment history disclosure on online comment posting behaviors](https://www.emerald.com/insight/content/doi/10.1108/ITP-09-2021-0692/full/html)
-
-Jong Min Kim, Jeongsoo Han, **Shiyu Jiang**. *Information Technology & People*, (2022)
-
+Jong Min Kim, Jeongsoo Han, **Shiyu Jiang**. [The impact of comment history disclosure on online comment posting behaviors](https://www.emerald.com/insight/content/doi/10.1108/ITP-09-2021-0692/full/html)
+. *Information Technology & People*, 2022.
 - This study aimed to empirically examine the effectiveness of disclosing user comment history without disclosing personal identity as a nudge policy to refrain users from posting malicious content online.
-</div>
-</div>
-
-[comment]: <> (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
 
 [comment]: <> (# 🎖 Honors and Awards)
 
