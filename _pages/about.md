@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Shiyu Jiang"
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -29,10 +29,10 @@ My research interests include bioinformatics, software engineering, and healthca
 
 # 💻 Internships
 - *2023.01 - Present*, [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
-- *2022.09 - Present*, [Dr. Ghobadi's Lab, Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
+- *2022.09 - Present*, [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
 - *2022.06 - 2022.08*, Software Engineer Intern, [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
 - *2021.09 - 2022.08*, Deep Learning Research Intern, [Institute of Automation, Chinese Academy of Science](https://people.ucas.edu.cn/~zhenshen?language=en), Beijing, China.
-- *2021.08 - 2022.07*, Research Assistant, [Wenzhou Municipal Key Lab for Applied Biomedical and Biopharmaceutical Informatics](https://wku.edu.cn/faculty/aloysius-wong/), Wenzhou, China.
+- *2021.08 - 2022.07*, Research Assistant, [Wenzhou Municipal Key Lab for Applied Biomedical Informatics](https://wku.edu.cn/faculty/aloysius-wong/), Wenzhou, China.
 - *2020.11 - 2021.04*, Undergrad Research Assistant, [Wenzhou-Kean AI Lab](https://www.researchgate.net/lab/Gaurav-Gupta-Lab-7), Wenzhou, China.
 
 [comment]: <> (# 🔥 News)
