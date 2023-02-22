@@ -16,11 +16,8 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-This is Shiyu Jiang (江世宇), a master student majoring in computer science at Whiting School of Engineering, Johns Hopkins University. In the past, I have working experience as a research assistant at the Chinese Academy of Sciences advised by Dr. Zhen Shen in algorithm development, and Wenzhou-Kean University advised by Dr. Aloysius Wong in Bioinformatics.
+This is Shiyu Jiang (江世宇), a master student majoring in computer science at Whiting School of Engineering, Johns Hopkins University.
 
-Currently, I am working as a research assistant at Dr.Ghobadi's Lab at JHU and Chongzhi Zang Lab at UVa School of Medicine.
-
-My research interests include bioinformatics, software engineering, and healthcare systems. I applied deep learning and machine learning skills in fields like spatial analysis, computer vision, quantitative trading. Besides, I built a bioinformatic web tool called HNOXPred by developing protein sequencing algorithms, which leads me get interested in Bioinformatics and comp bio.
 
 # 📖 Educations
 - *2022.08 - 2023.12*, Master of Science in Engineering, Computer Science. Whiting School of Engineering, Johns Hopkins University.
