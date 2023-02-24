@@ -46,7 +46,8 @@ This is Shiyu Jiang (江世宇), a master student majoring in computer science a
 
 Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th International Conference on Human-Computer Interaction*, 2023. 
 
-- ...
+- This paper introduces an artificial intelligence-based interactive learning plat-form that can enhance the mathematical skills of visually impaired children.
+- The proposed platform uses text-to-speech along with tactile and auditory feedback to help visually impaired students arrive at a  better understanding of mathematical material.
 
 </div>
 </div>
