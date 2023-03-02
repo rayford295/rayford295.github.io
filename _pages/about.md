@@ -38,13 +38,31 @@ This is Shiyu Jiang (江世宇), a master student majoring in computer science a
 [comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
 # 📝 Publications 
+Ye, H., Lv, J., Zhan, Y., Xue, Z., Li, T., **Jiang, S.**, Huasng, M., Dong, L., Ren, G., Lei, Q., Fang, W., & Xie, H.. [Phase Behavior and Co-localization of Ovalbumin-Lysozyme Complexes]()
+. *International Journal of Biological Macromolecules*. (Under Review)
+
+[comment]: <> (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ALIFE 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>)
+
+[comment]: <> (<div class='paper-box-text' markdown="1">)
+
+[comment]: <> ([Simulating Disease Spread During Disaster Scenarios]&#40;&#41;)
+
+[comment]: <> (**Shiyu Jiang**, Heejoong Kim, Fabio Henrique Tanaka, Claus Aranha, Anna Bogdanova, Kimia Ghobadi, Anton Dahbura. *The International Conference on Artificial Life*, 2023. &#40;Under Review&#41;)
+
+[comment]: <> ([Code]&#40;https://github.com/caranha/Koudou&#41;)
+
+[comment]: <> (- ...)
+
+[comment]: <> (</div>)
+
+[comment]: <> (</div>)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">HCI International 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [An Artificial Intelligence-Based Interactive Learning Platform to Assist Visually Impaired Children in Learning Mathematics]()
 
-Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th International Conference on Human-Computer Interaction*, 2023. 
+Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th International Conference on Human-Computer Interaction*, 2023. (Accepted)
 
 - This paper introduces an artificial intelligence-based interactive learning plat-form that can enhance the mathematical skills of visually impaired children.
 - The proposed platform uses text-to-speech along with tactile and auditory feedback to help visually impaired students arrive at a  better understanding of mathematical material.
@@ -80,7 +98,7 @@ Jong Min Kim, Jeongsoo Han, **Shiyu Jiang**. [The impact of comment history disc
 
 [Deblur-yolo: Real-time object detection with efficient blind motion deblurring](https://ieeexplore.ieee.org/abstract/document/9534352)
 
-Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *International Joint Conference on Neural Networks*, (2021)
+Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *International Joint Conference on Neural Networks*, 2021
 
 - In this work, we propose Deblur-YOLO, an efficient, YOLO-based and detection-driven approach robust to motion blur photographs.
 </div>
