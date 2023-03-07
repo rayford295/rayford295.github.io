@@ -25,11 +25,25 @@ This is Shiyu Jiang (江世宇), a master student majoring in computer science a
 
 # 💻 Internships
 - *2023.01 - Present*, Research Assistant, [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
-- *2022.09 - Present*, Research Assistant, [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
+    - Working on analyzing and exploring high-throughput genomics data.
+    - **Technology Used**: R, Python, Docker, Shell, SSH.
+- *2022.09 - 2023.03*, Research Assistant, [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
+    - Developed and maintained an agent-based simulation model for imitating pandemic spreading under a disastrous evacuation
+    - **Technology Used**: Python, Dash, SSH.
 - *2022.06 - 2022.08*, Software Engineer Intern, [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
+    - Developed source code Java framework for PolarDB database.
+    - **Technology Used**: Java, MySQL, JDBC, ShardingSphere-Proxy, ZooKeeper, JUnit, Mockito.
 - *2021.09 - 2022.08*, Deep Learning Research Intern, [Institute of Automation, Chinese Academy of Science](https://people.ucas.edu.cn/~zhenshen?language=en), Beijing, China.
+    - Predicted financial futures time-series data with deep learning models and quantitative trading methods.
+    - **Technology Used**: Python, Pytorch.
 - *2021.08 - 2022.07*, Research Assistant, [Wenzhou Municipal Key Lab for Applied Biomedical Informatics](https://wku.edu.cn/faculty/aloysius-wong/), Wenzhou, China.
+    - Developed a user-friendly web server HNOXPred, as a tool for the prediction of gas-sensing H-NOX proteins from amino acid sequence input. 
+    - Recognized the single-line description of FASTA format sequence data to support multiple sequence snippets’ input and analysis.
+    - Designed a protein sequencing algorithm to locate every fitted sequence and calculate its physicochemical properties and assigned confidence scores based on a database of H-NOX proteins.
+    - **Technology Used**: Python, Javascript, MySQL, Flask, HTML/CSS, Nginx. 
 - *2020.11 - 2021.04*, Undergrad Research Assistant, [Wenzhou-Kean AI Lab](https://www.researchgate.net/lab/Gaurav-Gupta-Lab-7), Wenzhou, China.
+    - Assisted in the integration of DeblurGANv2 and YOLOv3 under PyTorch framework, proposed as the Deblur-YOLO algorithm, the proposed model achieves competitive performance against several state-of-the-art image deblurring models.
+    - **Technology Used**: Python, Pytorch
 
 [comment]: <> (# 🔥 News)
 
@@ -114,6 +128,14 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 [comment]: <> (- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
 [comment]: <> (- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+
+[comment]: <> (# 🔥 Personal Projects)
+
+[comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+
+[comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+
+
 
 # 💬 Facts
 - ...
