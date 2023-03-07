@@ -16,7 +16,8 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I'm Shiyu Jiang, a master student majoring in computer science at Whiting School of Engineering, Johns Hopkins University. 
+I'm Shiyu Jiang, a master student majoring in computer science at Whiting School of Engineering, Johns Hopkins University 
+advised by [Prof.Kimia Ghobadi](https://systems.jhu.edu/kimia/). 
 
 I received my B.S. in Computer Science from Wenzhou-Kean University. During my undergrad, I was fortunate to work with 
 Prof.[Aloysius Wong](https://wku.edu.cn/faculty/aloysius-wong/) and Prof.[Zhen Shen](https://people.ucas.edu.cn/~zhenshen?language=en).
@@ -89,7 +90,6 @@ Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th In
 </div>
 </div>
 
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Bioinformatics</div><img src='images/bioinformatics2022.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -104,12 +104,9 @@ Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th In
 </div>
 </div>
 
-
 Jong Min Kim, Jeongsoo Han, **Shiyu Jiang**. [The impact of comment history disclosure on online comment posting behaviors](https://www.emerald.com/insight/content/doi/10.1108/ITP-09-2021-0692/full/html)
 . *Information Technology & People*, 2022.
 - This study aimed to empirically examine the effectiveness of disclosing user comment history without disclosing personal identity as a nudge policy to refrain users from posting malicious content online.
-
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2021</div><img src='images/ijcnn.png' alt="sym" width="100%"></div></div>
 
@@ -122,7 +119,6 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 - In this work, we propose Deblur-YOLO, an efficient, YOLO-based and detection-driven approach robust to motion blur photographs.
 </div>
 </div>
-
 
 **Shiyu Jiang**, Junjie Jia, Yi Yuan, Yuxiong Wu, Tianqi Wang. [Research on China’s Primary Industry: Evidence From Regional Analysis Based on SVM and Moran’s Index](https://ieeexplore.ieee.org/abstract/document/9754653)
 . *International Conference on Cloud Computing and Intelligent Systems*, 2021.
@@ -138,6 +134,7 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 - ...
 - ...
 - ...
+
 [comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
 [comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
