@@ -47,9 +47,9 @@ bioinformatics, and artificial intelligence. I also have experiences in software
     - Recognized the single-line description of FASTA format sequence data to support multiple sequence snippets’ input and analysis.
     - Designed a protein sequencing algorithm to locate every fitted sequence and calculate its physicochemical properties and assigned confidence scores based on a database of H-NOX proteins.
     - **Technology Used**: Python, Javascript, MySQL, Flask, HTML/CSS, Nginx. 
-- *2020.11 - 2021.04*, Undergrad Research Assistant, [Wenzhou-Kean AI Lab](https://www.researchgate.net/lab/Gaurav-Gupta-Lab-7), Wenzhou, China.
+- *2020.11 - 2021.04*, Undergrad Research Assistant, [Wenzhou-Kean AI Lab](https://github.com/WKUAILAB), Wenzhou, China.
     - Assisted in the integration of DeblurGANv2 and YOLOv3 under PyTorch framework, proposed as the Deblur-YOLO algorithm, the proposed model achieves competitive performance against several state-of-the-art image deblurring models.
-    - **Technology Used**: Python, Pytorch
+    - **Technology Used**: Python, Pytorch。
 
 [comment]: <> (# 🔥 News)
 
@@ -77,7 +77,7 @@ Ye, H., Lv, J., Zhan, Y., Xue, Z., Li, T., **Jiang, S.**, Huasng, M., Dong, L., 
 
 [comment]: <> (</div>)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">HCI International 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">HCI International 2023</div><img src='images/hcii.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [An Artificial Intelligence-Based Interactive Learning Platform to Assist Visually Impaired Children in Learning Mathematics]()
