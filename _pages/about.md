@@ -16,24 +16,26 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+
+# 🗨 About Me
 I'm Shiyu Jiang, a master student majoring in computer science at Whiting School of Engineering, Johns Hopkins University 
-advised by [Prof.Kimia Ghobadi](https://systems.jhu.edu/kimia/). 
+advised by [Prof.Kimia Ghobadi](https://systems.jhu.edu/kimia/).
 
 I received my B.S. in Computer Science from Wenzhou-Kean University. During my undergrad, I was fortunate to work with 
-Prof.[Aloysius Wong](https://wku.edu.cn/faculty/aloysius-wong/) and Prof.[Zhen Shen](https://people.ucas.edu.cn/~zhenshen?language=en).
+[Prof.Aloysius Wong](https://wku.edu.cn/faculty/aloysius-wong/) and [Prof.Zhen Shen](https://people.ucas.edu.cn/~zhenshen?language=en).
 
 I like to embrace technologies and use it to explore things. My research interests including analysis on high-throughput genomics data, 
 bioinformatics, and artificial intelligence. I also have experiences in software engineering with programming language Java, Python and Go.
 
 # 📖 Educations
 - *2022.08 - 2023.12*, Master of Science in Engineering, Computer Science. Whiting School of Engineering, Johns Hopkins University. *Baltimore, MD* 
-- *2018.08 - 2022.05*, Bachelor of Science, Computer Science. Wenzhou-Kean University. *Wenzhou, China*
+- *2018.08 - 2022.05*, Bachelor of Science, Computer Science. College of Science and Technology, Wenzhou-Kean University. *Wenzhou, China*
 
 # 💻 Experiences
 - *2023.01 - Present*, Research Assistant, [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
-    - Working on analyzing and exploring high-throughput genomics data.
+    - Working on analyzing and exploring high-throughput genomics data using RNA-seq and ChIP-seq.
     - **Technology Used**: R, Python, Docker, Shell, SSH.
-- *2022.09 - Present*, Research Assistant, [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
+- *2022.09 - 2023.05*, Research Assistant, [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
     - Developed and maintained an agent-based simulation model for imitating pandemic spreading under disastrous events.
     - **Technology Used**: Python, Dash, SSH.
 - *2022.06 - 2022.08*, Software Engineer Intern, [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
@@ -58,7 +60,7 @@ bioinformatics, and artificial intelligence. I also have experiences in software
 [comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
 # 📝 Publications 
-Ye, H., Lv, J., Zhan, Y., Xue, Z., Li, T., **Jiang, S.**, Huasng, M., Dong, L., Ren, G., Lei, Q., Fang, W., & Xie, H.. [Phase Behavior and Co-localization of Ovalbumin-Lysozyme Complexes]()
+Ye, H., Lv, J., Zhan, Y., Xue, Z., Li, T., **Jiang, S.**, Huasng, M., Dong, L., Ren, G., Lei, Q., Fang, W., & Xie, H. [Phase Behavior and Co-localization of Ovalbumin-Lysozyme Complexes]()
 . *International Journal of Biological Macromolecules*. (Under Review)
 
 [comment]: <> (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ALIFE 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>)
@@ -130,7 +132,7 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 
 [comment]: <> (- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
-# 💻 Personal Projects
+# 🧑‍💻 Personal Projects
 - ...
 - ...
 - ...
@@ -151,5 +153,7 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 [comment]: <> (- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]]&#40;https://github.com/&#41;)
 
 <body>
-<a href="https://clustrmaps.com/site/1bt6x"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=aGpjzbKbHZT-5oLEhHvcK0igPnT7IvQmYxySQX6oPb4&cl=ffffff" /></a>
+  <a href="https://clustrmaps.com/site/1bt6x"  title="Visit tracker"  style="margin-left: 40%; margin-right: 40%; width: 20%">
+    <img src="//www.clustrmaps.com/map_v2.png?d=aGpjzbKbHZT-5oLEhHvcK0igPnT7IvQmYxySQX6oPb4&cl=ffffff" />
+  </a>
 </body>
