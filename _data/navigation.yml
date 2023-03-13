@@ -15,12 +15,14 @@ main:
 #  - title: "Invited Talks"
 #    url: "/#-invited-talks"
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Experiences"
+    url: "/#-experiences"
 
   - title: "Publications"
     url: "/#-publications"
 
+  - title: "Personal Projects"
+    url: "/#-personal-projects"
 
   - title: "Facts"
     url: "/#-facts"
