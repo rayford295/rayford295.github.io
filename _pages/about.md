@@ -25,7 +25,7 @@ I received my B.S. in Computer Science from Wenzhou-Kean University. During my u
 [Prof.Aloysius Wong](https://wku.edu.cn/faculty/aloysius-wong/) and [Prof.Zhen Shen](https://people.ucas.edu.cn/~zhenshen?language=en).
 
 I like to embrace technologies and use it to explore things. My research interests including analysis on high-throughput genomics data, 
-bioinformatics, and artificial intelligence. I also have experiences in software engineering with programming language Java, Python and Go.
+bioinformatics, and artificial intelligence. I also have experiences in software engineering with Java, Python, Go, and React.js.
 
 # 📖 Educations
 - *2022.08 - 2023.12*, Master of Science in Engineering, Computer Science. Whiting School of Engineering, Johns Hopkins University. *Baltimore, MD* 
@@ -34,10 +34,10 @@ bioinformatics, and artificial intelligence. I also have experiences in software
 # 💻 Experiences
 - *2023.01 - Present*, Research Assistant, [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
     - Working on analyzing and exploring high-throughput genomics data using RNA-seq and ChIP-seq.
-    - **Technology Used**: R, Python, Docker, Shell, SSH.
+    - **Technology Used**: R, Python, Docker, Shell, Slurm.
 - *2022.09 - 2023.05*, Research Assistant, [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
     - Developed and maintained an agent-based simulation model for imitating pandemic spreading under disastrous events.
-    - **Technology Used**: Python, Dash, SSH.
+    - **Technology Used**: Python, Dash Plotly, Slurm.
 - *2022.06 - 2022.08*, Software Engineer Intern, [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
     - Developed source code Java framework for PolarDB database.
     - **Technology Used**: Java, MySQL, JDBC, ShardingSphere-Proxy, ZooKeeper, JUnit, Mockito.
@@ -60,8 +60,10 @@ bioinformatics, and artificial intelligence. I also have experiences in software
 [comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
 # 📝 Publications 
-Ye, H., Lv, J., Zhan, Y., Xue, Z., Li, T., **Jiang, S.**, Huasng, M., Dong, L., Ren, G., Lei, Q., Fang, W., & Xie, H. [Phase Behavior and Co-localization of Ovalbumin-Lysozyme Complexes]()
-. *International Journal of Biological Macromolecules*. (Under Review)
+
+[comment]: <> (Ye, H., Lv, J., Zhan, Y., Xue, Z., Li, T., **Jiang, S.**, Huasng, M., Dong, L., Ren, G., Lei, Q., Fang, W., & Xie, H. [Phase Behavior and Co-localization of Ovalbumin-Lysozyme Complexes]&#40;&#41;)
+
+[comment]: <> (. *International Journal of Biological Macromolecules*. &#40;Under Review&#41;)
 
 [comment]: <> (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ALIFE 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>)
 
@@ -134,8 +136,6 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 
 # 🧑‍💻 Personal Projects
 - ...
-- ...
-- ...
 
 [comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
@@ -144,8 +144,6 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 
 
 # 💬 Facts
-- ...
-- ...
 - ...
 
 [comment]: <> (- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
