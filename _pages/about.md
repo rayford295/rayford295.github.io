@@ -27,6 +27,8 @@ I received my B.S. in Computer Science from Wenzhou-Kean University. During my u
 I like to embrace technologies and use it to explore things. My research interests including analysis on high-throughput genomics data, 
 bioinformatics, and artificial intelligence. I also have experiences in software engineering with Java, Python, Go, and React.js.
 
+[comment]: <> (I like soccer, CrossFit and piano in my parttime. I also like to )
+
 # 📖 Educations
 - *2022.08 - 2023.12*, Master of Science in Engineering, Computer Science. Whiting School of Engineering, Johns Hopkins University. *Baltimore, MD* 
 - *2018.08 - 2022.05*, Bachelor of Science, Computer Science. College of Science and Technology, Wenzhou-Kean University. *Wenzhou, China*
@@ -134,17 +136,37 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 
 [comment]: <> (- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
-# 🧑‍💻 Personal Projects
-- ...
+# 🧑‍💻 Software
 
-[comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+[comment]: <> (### Package)
 
-[comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+[comment]: <> (- Python Package...)
+
+### Web server
+- [HNOXPred](https://github.com/JasonJiangs/HNOX_Pred) (**Pred**iction of **H**eme-**N**itric oxide/**OX**ygen domains): This web server predicts gas sensing H-NOX proteins from amino acid sequence.
+  The software takes a single or multiple amino acid sequence and returns predicted H-NOX centers accompanied by HNOX scores scaled from 0 to 1, where 1 is closest to the mean of H-NOX proteins in HNOXPred database.
+- [Multi-agent System Analytical Dashboard](https://github.com/caranha/Koudou/tree/dev/src/dashapp): This is a responsive analytical web tool supporting statistical, geographical, and visualization
+  analysis based on the result from a multi-agent system simulating infectious disease. It allows user to upload up to three sets of 
+  result data and output comparative analysis. 
+
+### Full-stack
+- [OfficeAdmin](): Under development
+- [Microservice](): Under development
+
+### Research Pipeline & Model
+- [ABM for COVID-19 Model](https://github.com/caranha/Koudou): This is an agent-based model that considers the effects of 
+  masking and large scale evacuations at the scale of a large university campus and its neighborhood. This
+  project is part of a larger effort to create a simulator that considers how human mobility interacts with large scale events
+  at a neighborhood level in the Japanese context.
+
+[comment]: <> (  Our paper titled "Simulating Disease Spread Duing Disaster Scenarios" is accepted on *ALIFE 2023*. [Paper]&#40;&#41;)
+
+[comment]: <> (- []&#40;&#41;:)
 
 
+[comment]: <> (# 💬 Facts)
 
-# 💬 Facts
-- ...
+[comment]: <> (I am a soccer fan and )
 
 [comment]: <> (- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
