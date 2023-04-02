@@ -21,8 +21,8 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Personal Projects"
-    url: "/#-personal-projects"
+  - title: "Software"
+    url: "/#-software"
 
-  - title: "Facts"
-    url: "/#-facts"
+#  - title: "Facts"
+#    url: "/#-facts"
