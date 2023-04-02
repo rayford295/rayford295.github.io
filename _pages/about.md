@@ -160,8 +160,6 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
   at a neighborhood level in the Japanese context.
 
 
-[comment]: <> (  Our paper titled "Simulating Disease Spread Duing Disaster Scenarios" is accepted on *ALIFE 2023*. [Paper]&#40;&#41;)
-
 
 [comment]: <> (# 💬 Facts)
 
