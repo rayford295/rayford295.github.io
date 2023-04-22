@@ -27,7 +27,6 @@ I received my B.S. in Computer Science from Wenzhou-Kean University. During my u
 I like to embrace technologies and use it to explore things. My research interests including analysis on high-throughput genomics data, 
 bioinformatics, and artificial intelligence. I also have experiences in software engineering with Java, Python, Go, and React.js.
 
-[comment]: <> (I like soccer, CrossFit and piano in my parttime. I also like to )
 
 # 📖 Educations
 - *2022.08 - 2023.12*, Master of Science in Engineering, Computer Science. Whiting School of Engineering, Johns Hopkins University. *Baltimore, MD* 
@@ -150,11 +149,11 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
   result data and output comparative analysis. 
 
 ## Full-stack
-- [OfficeAdmin](): Under development
-- [Microservice](): Under development
+- [OfficeAdmin](https://github.com/JasonJiangs/OfficeAdmin): An office management system developed by Spring Boot, MyBatis-Plus, Vue-admin-template, and MySQL.
+- [Microservice](https://github.com/JasonJiangs/Microservice): The project implements several small scripts and microservices using Golang and its frameworks.
 
 ## Research Pipeline & Model
-- [ABM for COVID-19 Model](https://github.com/caranha/Koudou): This is an agent-based model that considers the effects of 
+- [Agent-based Model for Epidemic Simulation](https://github.com/caranha/Koudou): This is an agent-based model that considers the effects of 
   masking and large scale evacuations at the scale of a large university campus and its neighborhood. This
   project is part of a larger effort to create a simulator that considers how human mobility interacts with large scale events
   at a neighborhood level in the Japanese context.
