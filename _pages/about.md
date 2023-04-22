@@ -149,7 +149,7 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
   result data and output comparative analysis. 
 
 ## Full-stack
-- [OfficeAdmin](https://github.com/JasonJiangs/OfficeAdmin): An office management system developed by Spring Boot, MyBatis-Plus, Vue-admin-template, and MySQL.
+- [OfficeAdmin](https://github.com/JasonJiangs/OfficeAdmin): An office management system developed by Spring Boot, MyBatis-Plus, Redis, MySQL, etc.
 - [Microservice](https://github.com/JasonJiangs/Microservice): The project implements several small scripts and microservices using Golang and its frameworks.
 
 ## Research Pipeline & Model
