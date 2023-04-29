@@ -40,7 +40,9 @@ bioinformatics, and artificial intelligence. I also have experiences in software
     - Developed and maintained an agent-based simulation model for imitating pandemic spreading under disastrous events.
     - **Technology Used**: Python, Dash Plotly, Slurm.
 - *2022.06 - 2022.08*, Software Engineer Intern, [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
-    - Developed source code Java framework for PolarDB database.
+    - Rewrote the official JDBC driver for MySQL to customize a general PolarDB JDBC driver to achieve functions of automatic recognition and reconnection among a master cluster and slave clusters when mastering failovers or master exchanges. 
+    - Implemented the clustering management of ShardingSphere-Proxy based on PolarDB, built a persistence module, and developed a listening mechanism detecting files including updating, adding, and changing by constructing closure tables and polling strategy.
+    - Tested the functionalities using JUnit and Mockito, and published a technical design document and a sharing talk internally.  
     - **Technology Used**: Java, MySQL, JDBC, ShardingSphere-Proxy, ZooKeeper, JUnit, Mockito.
 - *2021.09 - 2022.08*, Deep Learning Research Intern, [Institute of Automation, Chinese Academy of Science](https://people.ucas.edu.cn/~zhenshen?language=en), Beijing, China.
     - Predicted financial futures time-series data with deep learning models and quantitative trading methods.
@@ -157,7 +159,9 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
   masking and large scale evacuations at the scale of a large university campus and its neighborhood. This
   project is part of a larger effort to create a simulator that considers how human mobility interacts with large scale events
   at a neighborhood level in the Japanese context.
-
+- [RNA-seq & ChIP-seq Joint Analysis Pipeline Tool](https://github.com/JasonJiangs/RNAseq-ChIPseq-Joint-Pipeline): The repository contains the workflow and pipelines 
+  for exploring transcriptional regulatory function with high-throughout data using RNA-seq and ChIP-seq. The tool provides 
+  multiple choices for users to perform the analysis at one time.
 
 
 [comment]: <> (# 💬 Facts)
@@ -169,7 +173,7 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 [comment]: <> (- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]]&#40;https://github.com/&#41;)
 
 <body>
-  <a href="https://clustrmaps.com/site/1bt6x"  title="Visit tracker"  style="margin-left: 40%; margin-right: 40%; width: 20%">
+  <a href="https://clustrmaps.com/site/1bt6x"  title="Visit tracker" >
     <img src="//www.clustrmaps.com/map_v2.png?d=aGpjzbKbHZT-5oLEhHvcK0igPnT7IvQmYxySQX6oPb4&cl=ffffff" />
   </a>
 </body>
