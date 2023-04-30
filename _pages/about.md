@@ -35,10 +35,10 @@ bioinformatics, and artificial intelligence. I also have experiences in software
 # 💻 Experiences
 - *2023.01 - Present*, Research Assistant, [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
     - Working on analyzing and exploring high-throughput genomics data using RNA-seq and ChIP-seq.
-    - **Technology Used**: R, Python, Docker, Shell, Slurm.
+    - **Technology Used**: R, Python, Shell, Slurm.
 - *2022.09 - 2023.05*, Research Assistant, [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
     - Developed and maintained an agent-based simulation model for imitating pandemic spreading under disastrous events.
-    - **Technology Used**: Python, Dash Plotly, Slurm.
+    - **Technology Used**: Python, Dash, Plotly, Slurm.
 - *2022.06 - 2022.08*, Software Engineer Intern, [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
     - Rewrote the official JDBC driver for MySQL to customize a general PolarDB JDBC driver to achieve functions of automatic recognition and reconnection among a master cluster and slave clusters when mastering failovers or master exchanges. 
     - Implemented the clustering management of ShardingSphere-Proxy based on PolarDB, built a persistence module, and developed a listening mechanism detecting files including updating, adding, and changing by constructing closure tables and polling strategy.
@@ -87,7 +87,7 @@ bioinformatics, and artificial intelligence. I also have experiences in software
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">HCI International 2023</div><img src='images/hcii.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[An Artificial Intelligence-Based Interactive Learning Platform to Assist Visually Impaired Children in Learning Mathematics]()
+[An Artificial Intelligence-Based Interactive Learning Platform to Assist Visually Impaired Children in Learning Mathematics](https://www.researchgate.net/profile/Shiyu-Jiang-6/publication/370175261_An_Artificial_Intelligence-Based_Interactive_Learning_Platform_to_Assist_Visually_Impaired_Children_in_Learning_Mathematics/links/64431136d749e4340e2b109b/An-Artificial-Intelligence-Based-Interactive-Learning-Platform-to-Assist-Visually-Impaired-Children-in-Learning-Mathematics.pdf)
 
 Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th International Conference on Human-Computer Interaction*, 2023. (Accepted)
 
@@ -159,9 +159,10 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
   masking and large scale evacuations at the scale of a large university campus and its neighborhood. This
   project is part of a larger effort to create a simulator that considers how human mobility interacts with large scale events
   at a neighborhood level in the Japanese context.
-- [RNA-seq & ChIP-seq Joint Analysis Pipeline Tool](https://github.com/JasonJiangs/RNAseq-ChIPseq-Joint-Pipeline): The repository contains the workflow and pipelines 
-  for exploring transcriptional regulatory function with high-throughout data using RNA-seq and ChIP-seq. The tool provides 
-  multiple choices for users to perform the analysis at one time.
+- [RNA-seq & ChIP-seq Joint Analysis Pipeline](https://github.com/JasonJiangs/RNAseq-ChIPseq-Joint-Pipeline): 
+  It is an extensible and modular pipeline combining RNA-seq and ChIP-seq tools for exploring transcriptional regulatory function with high-throughout data, 
+  with easy configuration via YAML files and command line arguments, providing users with phase-based execution 
+  flexibility and advanced modeling analysis options.
 
 
 [comment]: <> (# 💬 Facts)
