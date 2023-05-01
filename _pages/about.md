@@ -68,21 +68,21 @@ bioinformatics, and artificial intelligence. I also have experiences in software
 
 [comment]: <> (. *International Journal of Biological Macromolecules*. &#40;Under Review&#41;)
 
-[comment]: <> (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ALIFE 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ALIFE 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 
-[comment]: <> (<div class='paper-box-text' markdown="1">)
+<div class='paper-box-text' markdown="1">
 
-[comment]: <> ([Simulating Disease Spread During Disaster Scenarios]&#40;&#41;)
+[Simulating Disease Spread During Disaster Scenarios]()
 
-[comment]: <> (**Shiyu Jiang**, Heejoong Kim, Fabio Henrique Tanaka, Claus Aranha, Anna Bogdanova, Kimia Ghobadi, Anton Dahbura. *The International Conference on Artificial Life*, 2023. &#40;Under Review&#41;)
+**Shiyu Jiang**, Heejoong Kim, Fabio Henrique Tanaka, Claus Aranha, Anna Bogdanova, Kimia Ghobadi, Anton Dahbura. *The International Conference on Artificial Life*, 2023. (Accepted)
 
-[comment]: <> ([Code]&#40;https://github.com/caranha/Koudou&#41;)
+[Code](https://github.com/caranha/Koudou)
 
-[comment]: <> (- ...)
+- This research aims to create a comprehensive Agent-Based Model (ABM) to simulate daily agent schedules and movements across Johns Hopkins and University of Tsukuba campuses. The model will compare scenarios related to COVID-19 spread and assess the impact of large-scale events, like earthquakes, on masking policies and disease transmission dynamics.
 
-[comment]: <> (</div>)
+</div>
 
-[comment]: <> (</div>)
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">HCI International 2023</div><img src='images/hcii.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
