@@ -68,15 +68,15 @@ bioinformatics, and artificial intelligence. I also have experiences in software
 
 [comment]: <> (. *International Journal of Biological Macromolecules*. &#40;Under Review&#41;)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ALIFE 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ALIFE 2023</div><img src='images/covid_sim.png' alt="sym" width="100%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
 [Simulating Disease Spread During Disaster Scenarios]()
 
-**Shiyu Jiang**, Heejoong Kim, Fabio Henrique Tanaka, Claus Aranha, Anna Bogdanova, Kimia Ghobadi, Anton Dahbura. *The International Conference on Artificial Life*, 2023. (Accepted)
+**Shiyu Jiang***, Heejoong Kim, Fabio Henrique Tanaka, Claus Aranha*, Anna Bogdanova, Kimia Ghobadi, Anton Dahbura. *The International Conference on Artificial Life*, 2023. (Accepted)
 
-[Code](https://github.com/caranha/Koudou)
+[Code](https://github.com/caranha/Koudou/tree/ALIFE_2023)
 
 - This research aims to create a comprehensive Agent-Based Model (ABM) to simulate daily agent schedules and movements across Johns Hopkins and University of Tsukuba campuses. The model will compare scenarios related to COVID-19 spread and assess the impact of large-scale events, like earthquakes, on masking policies and disease transmission dynamics.
 
@@ -89,7 +89,7 @@ bioinformatics, and artificial intelligence. I also have experiences in software
 
 [An Artificial Intelligence-Based Interactive Learning Platform to Assist Visually Impaired Children in Learning Mathematics](https://www.researchgate.net/profile/Shiyu-Jiang-6/publication/370175261_An_Artificial_Intelligence-Based_Interactive_Learning_Platform_to_Assist_Visually_Impaired_Children_in_Learning_Mathematics/links/64431136d749e4340e2b109b/An-Artificial-Intelligence-Based-Interactive-Learning-Platform-to-Assist-Visually-Impaired-Children-in-Learning-Mathematics.pdf)
 
-Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th International Conference on Human-Computer Interaction*, 2023. (Accepted)
+Muhammad Shoaib*, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt*. *25th International Conference on Human-Computer Interaction*, 2023. (Accepted)
 
 - This paper introduces an artificial intelligence-based interactive learning plat-form that can enhance the mathematical skills of visually impaired children.
 - The proposed platform uses text-to-speech along with tactile and auditory feedback to help visually impaired students arrive at a  better understanding of mathematical material.
@@ -102,7 +102,7 @@ Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th In
 
 [HNOXPred: a web tool for the prediction of gas-sensing H-NOX proteins from amino acid sequence](https://academic.oup.com/bioinformatics/article/38/19/4643/6673135)
 
-**Shiyu Jiang**, Hemn Barzan Abdalla, Chuyun Bi, Yi Zhu, Xuechen Tian, Yixin Yang, Aloysius Wong. *Bioinformatics*, 2022
+**Shiyu Jiang**, Hemn Barzan Abdalla, Chuyun Bi, Yi Zhu, Xuechen Tian, Yixin Yang*, Aloysius Wong*. *Bioinformatics*, 2022
 
 [Website](https://www.hnoxpred.com/)  [Code](https://github.com/JasonJiangs/HNOX_Pred)
 
@@ -111,7 +111,7 @@ Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th In
 </div>
 </div>
 
-Jong Min Kim, Jeongsoo Han, **Shiyu Jiang**. [The impact of comment history disclosure on online comment posting behaviors](https://www.emerald.com/insight/content/doi/10.1108/ITP-09-2021-0692/full/html)
+Jong Min Kim, Jeongsoo Han*, **Shiyu Jiang**. [The impact of comment history disclosure on online comment posting behaviors](https://www.emerald.com/insight/content/doi/10.1108/ITP-09-2021-0692/full/html)
 . *Information Technology & People*, 2022.
 - This study aimed to empirically examine the effectiveness of disclosing user comment history without disclosing personal identity as a nudge policy to refrain users from posting malicious content online.
 
@@ -121,13 +121,13 @@ Jong Min Kim, Jeongsoo Han, **Shiyu Jiang**. [The impact of comment history disc
 
 [Deblur-yolo: Real-time object detection with efficient blind motion deblurring](https://ieeexplore.ieee.org/abstract/document/9534352)
 
-Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *International Joint Conference on Neural Networks*, 2021
+Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta*. *International Joint Conference on Neural Networks*, 2021
 
 - In this work, we propose Deblur-YOLO, an efficient, YOLO-based and detection-driven approach robust to motion blur photographs.
 </div>
 </div>
 
-**Shiyu Jiang**, Junjie Jia, Yi Yuan, Yuxiong Wu, Tianqi Wang. [Research on China’s Primary Industry: Evidence From Regional Analysis Based on SVM and Moran’s Index](https://ieeexplore.ieee.org/abstract/document/9754653)
+**Shiyu Jiang**, Junjie Jia, Yi Yuan, Yuxiong Wu*, Tianqi Wang. [Research on China’s Primary Industry: Evidence From Regional Analysis Based on SVM and Moran’s Index](https://ieeexplore.ieee.org/abstract/document/9754653)
 . *International Conference on Cloud Computing and Intelligent Systems*, 2021.
 - This article aims to use machine learning and Moran’s I to analyze the current situation of China’s primary industry from a regional perspective.
 
@@ -146,7 +146,7 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 ## Web server
 - [HNOXPred](https://github.com/JasonJiangs/HNOX_Pred) (**Pred**iction of **H**eme-**N**itric oxide/**OX**ygen domains): This web server predicts gas sensing H-NOX proteins from amino acid sequence.
   The software takes a single or multiple amino acid sequence and returns predicted H-NOX centers accompanied by HNOX scores scaled from 0 to 1, where 1 is closest to the mean of H-NOX proteins in HNOXPred database.
-- [Multi-agent System Analytical Dashboard](https://github.com/caranha/Koudou/tree/dev/src/dashapp): This is a responsive analytical web tool supporting statistical, geographical, and visualization
+- [Agent-based System Analytical Dashboard](https://github.com/caranha/Koudou/tree/ALIFE_2023/src/dashapp): This is a responsive analytical web tool supporting statistical, geographical, and visualization
   analysis based on the result from a multi-agent system simulating infectious disease. It allows user to upload up to three sets of 
   result data and output comparative analysis. 
 
@@ -155,7 +155,7 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 - [Microservice](https://github.com/JasonJiangs/Microservice): The project implements several small scripts and microservices using Golang and its frameworks.
 
 ## Research Pipeline & Model
-- [Agent-based Model for Epidemic Simulation](https://github.com/caranha/Koudou): This is an agent-based model that considers the effects of 
+- [Agent-based Model for Epidemic Simulation](https://github.com/caranha/Koudou/tree/ALIFE_2023): This is an agent-based model that considers the effects of 
   masking and large scale evacuations at the scale of a large university campus and its neighborhood. This
   project is part of a larger effort to create a simulator that considers how human mobility interacts with large scale events
   at a neighborhood level in the Japanese context.
