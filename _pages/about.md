@@ -33,26 +33,31 @@ bioinformatics, and artificial intelligence. I also have experiences in software
 - *2018.08 - 2022.05*, Bachelor of Science, Computer Science. College of Science and Technology, Wenzhou-Kean University. *Wenzhou, China*
 
 # 💻 Experiences
-- *2023.01 - Present*, Research Assistant, [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
+- *2023.05 - Present*, Research Assistant (Remote), [University of British Columbia](), Vancouver, BC.
+
+[comment]: <> (  - Working on analyzing and exploring high-throughput genomics data using RNA-seq and ChIP-seq.)
+
+[comment]: <> (  - **Technology Used**: R, Python, Shell, Slurm.)
+- *2023.01 - Present*, Research Assistant (Hybrid), [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
     - Working on analyzing and exploring high-throughput genomics data using RNA-seq and ChIP-seq.
     - **Technology Used**: R, Python, Shell, Slurm.
-- *2022.09 - 2023.05*, Research Assistant, [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
+- *2022.09 - 2023.05*, Research Assistant (Hybrid), [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
     - Developed and maintained an agent-based simulation model for imitating pandemic spreading under disastrous events.
     - **Technology Used**: Python, Dash, Plotly, Slurm.
-- *2022.06 - 2022.08*, Software Engineer Intern, [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
+- *2022.06 - 2022.08*, Software Engineer Intern (On-site), [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
     - Rewrote the official JDBC driver for MySQL to customize a general PolarDB JDBC driver to achieve functions of automatic recognition and reconnection among a master cluster and slave clusters when mastering failovers or master exchanges. 
     - Implemented the clustering management of ShardingSphere-Proxy based on PolarDB, built a persistence module, and developed a listening mechanism detecting files including updating, adding, and changing by constructing closure tables and polling strategy.
     - Tested the functionalities using JUnit and Mockito, and published a technical design document and a sharing talk internally.  
     - **Technology Used**: Java, MySQL, JDBC, ShardingSphere-Proxy, ZooKeeper, JUnit, Mockito.
-- *2021.09 - 2022.08*, Deep Learning Research Intern, [Institute of Automation, Chinese Academy of Science](https://people.ucas.edu.cn/~zhenshen?language=en), Beijing, China.
+- *2021.09 - 2022.08*, Deep Learning Research Intern (Hybrid), [Institute of Automation, Chinese Academy of Science](https://people.ucas.edu.cn/~zhenshen?language=en), Beijing, China.
     - Predicted financial futures time-series data with deep learning models and quantitative trading methods.
     - **Technology Used**: Python, Pytorch.
-- *2021.08 - 2022.07*, Research Assistant, [Wenzhou Municipal Key Lab for Applied Biomedical Informatics](https://wku.edu.cn/faculty/aloysius-wong/), Wenzhou, China.
+- *2021.08 - 2022.07*, Research Assistant (On-site), [Wenzhou Municipal Key Lab for Applied Biomedical Informatics](https://wku.edu.cn/faculty/aloysius-wong/), Wenzhou, China.
     - Developed a user-friendly web server HNOXPred, as a tool for the prediction of gas-sensing H-NOX proteins from amino acid sequence input. 
     - Recognized the single-line description of FASTA format sequence data to support multiple sequence snippets’ input and analysis.
     - Designed a protein sequencing algorithm to locate every fitted sequence and calculate its physicochemical properties and assigned confidence scores based on a database of H-NOX proteins.
     - **Technology Used**: Python, Javascript, MySQL, Flask, HTML/CSS, Nginx. 
-- *2020.11 - 2021.04*, Undergrad Research Assistant, [Wenzhou-Kean AI Lab](https://github.com/WKUAILAB), Wenzhou, China.
+- *2020.11 - 2021.04*, Undergrad Research Assistant (On-site), [Wenzhou-Kean AI Lab](https://github.com/WKUAILAB), Wenzhou, China.
     - Assisted in the integration of DeblurGANv2 and YOLOv3 under PyTorch framework, proposed as the Deblur-YOLO algorithm, the proposed model achieves competitive performance against several state-of-the-art image deblurring models.
     - **Technology Used**: Python, Pytorch。
 
