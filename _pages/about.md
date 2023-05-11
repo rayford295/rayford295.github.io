@@ -34,10 +34,7 @@ bioinformatics, and artificial intelligence. I also have experiences in software
 
 # 💻 Experiences
 - *2023.05 - Present*, Research Assistant (Remote), [University of British Columbia](), Vancouver, BC.
-
-[comment]: <> (  - Working on analyzing and exploring high-throughput genomics data using RNA-seq and ChIP-seq.)
-
-[comment]: <> (  - **Technology Used**: R, Python, Shell, Slurm.)
+    - **Technology Used**: Python, Sklearn.
 - *2023.01 - Present*, Research Assistant (Hybrid), [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
     - Working on analyzing and exploring high-throughput genomics data using RNA-seq and ChIP-seq.
     - **Technology Used**: R, Python, Shell, Slurm.
