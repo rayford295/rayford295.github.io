@@ -19,13 +19,14 @@ redirect_from:
 
 # 🗨 About Me
 I'm Shiyu Jiang, a master student majoring in computer science at Whiting School of Engineering, Johns Hopkins University 
-advised by [Prof.Kimia Ghobadi](https://systems.jhu.edu/kimia/).
+advised by [Prof.Kimia Ghobadi](https://systems.jhu.edu/kimia/). I am also working as a research assistant in computational
+genomics advised by [Prof.Chongzhi Zang](https://zanglab.github.io/index.htm).
 
 I received my B.S. in Computer Science from Wenzhou-Kean University. During my undergrad, I was fortunate to work with 
 [Prof.Aloysius Wong](https://wku.edu.cn/faculty/aloysius-wong/) and [Prof.Zhen Shen](https://people.ucas.edu.cn/~zhenshen?language=en).
 
-I like to embrace technologies and use it to explore things. My research interests including analysis on high-throughput genomics data, 
-bioinformatics, and artificial intelligence. I also have experiences in software engineering with Java, Python, Go, and React.js.
+I like to embrace technologies and use it to explore things. My research interests including computational genomics, 
+bioinformatics, and AI4Science. I also have experiences in software engineering with Java, Python, Go, and React.js.
 
 
 # 📖 Educations
@@ -34,20 +35,22 @@ bioinformatics, and artificial intelligence. I also have experiences in software
 
 # 💻 Experiences
 - *2023.05 - Present*, Research Assistant (Remote), [University of British Columbia](), Vancouver, BC.
+    - Clustering and prediction on nano-plastics
     - **Technology Used**: Python, Sklearn.
 - *2023.01 - Present*, Research Assistant (Hybrid), [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
-    - Working on analyzing and exploring high-throughput genomics data using RNA-seq and ChIP-seq.
-    - **Technology Used**: R, Python, Shell, Slurm.
-- *2022.09 - 2023.05*, Research Assistant (Hybrid), [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
-    - Developed and maintained an agent-based simulation model for imitating pandemic spreading under disastrous events.
-    - **Technology Used**: Python, Dash, Plotly, Slurm.
+    - Computational genomics and bioinformatics
+    - **Technology Used**: R, Python, Shell.
+- *2022.09 - 2023.12*, Research Assistant (Hybrid), [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
+    - Multi-agent simulation, affective model, visualization, and network analysis
+    - Master's thesis: Analyzing Epidemic Spread with Agent-based Simulation Model and Network Analysis
+    - **Technology Used**: Python, Dash, Plotly.
 - *2022.06 - 2022.08*, Software Engineer Intern (On-site), [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
     - Rewrote the official JDBC driver for MySQL to customize a general PolarDB JDBC driver to achieve functions of automatic recognition and reconnection among a master cluster and slave clusters when mastering failovers or master exchanges. 
     - Implemented the clustering management of ShardingSphere-Proxy based on PolarDB, built a persistence module, and developed a listening mechanism detecting files including updating, adding, and changing by constructing closure tables and polling strategy.
     - Tested the functionalities using JUnit and Mockito, and published a technical design document and a sharing talk internally.  
     - **Technology Used**: Java, MySQL, JDBC, ShardingSphere-Proxy, ZooKeeper, JUnit, Mockito.
 - *2021.09 - 2022.08*, Deep Learning Research Intern (Hybrid), [Institute of Automation, Chinese Academy of Science](https://people.ucas.edu.cn/~zhenshen?language=en), Beijing, China.
-    - Predicted financial futures time-series data with deep learning models and quantitative trading methods.
+    - Deep Learning application in quantitative trading
     - **Technology Used**: Python, Pytorch.
 - *2021.08 - 2022.07*, Research Assistant (On-site), [Wenzhou Municipal Key Lab for Applied Biomedical Informatics](https://wku.edu.cn/faculty/aloysius-wong/), Wenzhou, China.
     - Developed a user-friendly web server HNOXPred, as a tool for the prediction of gas-sensing H-NOX proteins from amino acid sequence input. 
@@ -166,6 +169,8 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
   with easy configuration via YAML files and command line arguments, providing users with phase-based execution 
   flexibility and advanced modeling analysis options.
 
+# 💬 Blog
+I am recording some of my works and thoughts in form of blog in the link below. [Website Link](https://jasonjiangs.github.io/Tech-Note/)
 
 [comment]: <> (# 💬 Facts)
 
