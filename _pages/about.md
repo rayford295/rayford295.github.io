@@ -19,47 +19,40 @@ redirect_from:
 
 # 🗨 About Me
 I'm Shiyu Jiang, a master student majoring in computer science at Whiting School of Engineering, Johns Hopkins University 
-advised by [Prof.Kimia Ghobadi](https://systems.jhu.edu/kimia/). I am also working as a research assistant in computational
-genomics advised by [Prof.Chongzhi Zang](https://zanglab.github.io/index.htm).
+advised by [Prof.Kimia Ghobadi](https://systems.jhu.edu/kimia/) and [Prof.Claus Aranha](http://conclave.cs.tsukuba.ac.jp/). 
+I am also working as a research assistant in computational genomics advised by [Prof.Chongzhi Zang](https://zanglab.github.io/index.htm).
 
-I received my B.S. in Computer Science from Wenzhou-Kean University. During my undergrad, I was fortunate to work with 
-[Prof.Aloysius Wong](https://wku.edu.cn/faculty/aloysius-wong/) and [Prof.Zhen Shen](https://people.ucas.edu.cn/~zhenshen?language=en).
+I received my Bachelor's degree in Computer Science from Wenzhou-Kean University. 
+During my undergrad, I was fortunate to work with [Prof.Aloysius Wong](https://wku.edu.cn/faculty/aloysius-wong/) 
+and [Prof.Zhen Shen](https://people.ucas.edu.cn/~zhenshen?language=en).
 
 I like to embrace technologies and use it to explore things. My research interests including computational genomics, 
-bioinformatics, and AI4Science. I also have experiences in software engineering with Java, Python, Go, and React.js.
-
+bioinformatics, machine learning, and AI4Science. 
+I also have experiences in software engineering with Java, Python, Go, and React.js.
 
 # 📖 Educations
 - *2022.08 - 2023.12*, Master of Science in Engineering, Computer Science. Whiting School of Engineering, Johns Hopkins University. *Baltimore, MD* 
 - *2018.08 - 2022.05*, Bachelor of Science, Computer Science. College of Science and Technology, Wenzhou-Kean University. *Wenzhou, China*
 
 # 💻 Experiences
-- *2023.05 - Present*, Research Assistant (Remote), [University of British Columbia](), Vancouver, BC.
-    - Clustering and prediction on nano-plastics
-    - **Technology Used**: Python, Sklearn.
-- *2023.01 - Present*, Research Assistant (Hybrid), [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
-    - Computational genomics and bioinformatics
-    - **Technology Used**: R, Python, Shell.
-- *2022.09 - 2023.12*, Research Assistant (Hybrid), [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
-    - Multi-agent simulation, affective model, visualization, and network analysis
-    - Master's thesis: Analyzing Epidemic Spread with Agent-based Simulation Model and Network Analysis
-    - **Technology Used**: Python, Dash, Plotly.
-- *2022.06 - 2022.08*, Software Engineer Intern (On-site), [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
-    - Rewrote the official JDBC driver for MySQL to customize a general PolarDB JDBC driver to achieve functions of automatic recognition and reconnection among a master cluster and slave clusters when mastering failovers or master exchanges. 
-    - Implemented the clustering management of ShardingSphere-Proxy based on PolarDB, built a persistence module, and developed a listening mechanism detecting files including updating, adding, and changing by constructing closure tables and polling strategy.
-    - Tested the functionalities using JUnit and Mockito, and published a technical design document and a sharing talk internally.  
-    - **Technology Used**: Java, MySQL, JDBC, ShardingSphere-Proxy, ZooKeeper, JUnit, Mockito.
-- *2021.09 - 2022.08*, Deep Learning Research Intern (Hybrid), [Institute of Automation, Chinese Academy of Science](https://people.ucas.edu.cn/~zhenshen?language=en), Beijing, China.
-    - Deep Learning application in quantitative trading
-    - **Technology Used**: Python, Pytorch.
-- *2021.08 - 2022.07*, Research Assistant (On-site), [Wenzhou Municipal Key Lab for Applied Biomedical Informatics](https://wku.edu.cn/faculty/aloysius-wong/), Wenzhou, China.
-    - Developed a user-friendly web server HNOXPred, as a tool for the prediction of gas-sensing H-NOX proteins from amino acid sequence input. 
-    - Recognized the single-line description of FASTA format sequence data to support multiple sequence snippets’ input and analysis.
-    - Designed a protein sequencing algorithm to locate every fitted sequence and calculate its physicochemical properties and assigned confidence scores based on a database of H-NOX proteins.
-    - **Technology Used**: Python, Javascript, MySQL, Flask, HTML/CSS, Nginx. 
-- *2020.11 - 2021.04*, Undergrad Research Assistant (On-site), [Wenzhou-Kean AI Lab](https://github.com/WKUAILAB), Wenzhou, China.
-    - Assisted in the integration of DeblurGANv2 and YOLOv3 under PyTorch framework, proposed as the Deblur-YOLO algorithm, the proposed model achieves competitive performance against several state-of-the-art image deblurring models.
-    - **Technology Used**: Python, Pytorch。
+- *2023.06 - Present*, Research Assistant, [Li Lab at University of Florida College of Pharmacy](https://yanjun-li.com/index.html), Gainesville, FL.
+  - AI4Science & deep learning for RNA structures
+- *2023.01 - Present*, Research Assistant, [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
+  - Computational genomics and bioinformatics
+- *2022.09 - 2023.12*, Research Assistant, [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
+  - Multi-agent simulation, affective model, visualization, and network analysis
+  - Master's thesis: Analyzing Epidemic Spread with Agent-based Simulation Model and Network Analysis
+- *2022.06 - 2022.08*, Software Engineer Intern, [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
+  - Rewrote the official JDBC driver for MySQL to customize a general PolarDB JDBC driver to achieve functions of automatic recognition and reconnection among a master cluster and slave clusters when mastering failovers or master exchanges. 
+  - Implemented the clustering management of ShardingSphere-Proxy based on PolarDB, built a persistence module, and developed a listening mechanism detecting files including updating, adding, and changing by constructing closure tables and polling strategy.
+  - Tested the functionalities using JUnit and Mockito, and published a technical design document and a sharing talk internally.  
+  - **Technology Used**: Java, MySQL, JDBC, ShardingSphere-Proxy, ZooKeeper, JUnit, Mockito.
+- *2021.09 - 2022.08*, Deep Learning Research Intern, [Institute of Automation, Chinese Academy of Science](https://people.ucas.edu.cn/~zhenshen?language=en), Beijing, China.
+  - Deep Learning application in quantitative trading
+- *2021.08 - 2022.07*, Research Assistant, [Wenzhou Municipal Key Lab for Applied Biomedical Informatics](https://wku.edu.cn/faculty/aloysius-wong/), Wenzhou, China.
+  - Developed a user-friendly web server HNOXPred, as a tool for the prediction of gas-sensing H-NOX proteins from amino acid sequence input. 
+  - Recognized the single-line description of FASTA format sequence data to support multiple sequence snippets’ input and analysis.
+  - Designed a protein sequencing algorithm to locate every fitted sequence and calculate its physicochemical properties and assigned confidence scores based on a database of H-NOX proteins.
 
 [comment]: <> (# 🔥 News)
 
@@ -68,10 +61,6 @@ bioinformatics, and AI4Science. I also have experiences in software engineering 
 [comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
 # 📝 Publications 
-
-[comment]: <> (Ye, H., Lv, J., Zhan, Y., Xue, Z., Li, T., **Jiang, S.**, Huasng, M., Dong, L., Ren, G., Lei, Q., Fang, W., & Xie, H. [Phase Behavior and Co-localization of Ovalbumin-Lysozyme Complexes]&#40;&#41;)
-
-[comment]: <> (. *International Journal of Biological Macromolecules*. &#40;Under Review&#41;)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ALIFE 2023</div><img src='images/covid_sim.png' alt="sym" width="100%"></div></div>
 
@@ -143,11 +132,6 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 [comment]: <> (- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
 # 🧑‍💻 Software
-
-[comment]: <> (### Package)
-
-[comment]: <> (- Python Package...)
-
 ## Web server
 - [HNOXPred](https://github.com/JasonJiangs/HNOX_Pred) (**Pred**iction of **H**eme-**N**itric oxide/**OX**ygen domains): This web server predicts gas sensing H-NOX proteins from amino acid sequence.
   The software takes a single or multiple amino acid sequence and returns predicted H-NOX centers accompanied by HNOX scores scaled from 0 to 1, where 1 is closest to the mean of H-NOX proteins in HNOXPred database.
@@ -169,8 +153,17 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
   with easy configuration via YAML files and command line arguments, providing users with phase-based execution 
   flexibility and advanced modeling analysis options.
 
-# 💬 Blog
-I am recording some of my works and thoughts in form of blog in the link below. [Website Link](https://jasonjiangs.github.io/Tech-Note/)
+[comment]: <> (- [Nano-plastics Detector: A Machine Learning Approach]&#40;https://github.com/Haoxin01/Nanoplastics-ML&#41;:)
+
+[comment]: <> (    This project aims to develop a machine learning model to detect nano-plastics in water. The model is trained by a dataset of )
+
+[comment]: <> (    1000+ images of nano-plastics and 1000+ images of non-plastics. The model is able to detect nano-plastics with an accuracy of 99.5%.)
+
+# 🌎 Miscellaneous
+[comment]: <> (- [My Blog]&#40;https://jasonjiangs.github.io/Tech-Note/&#41;: I am recording some of my works and thoughts in form of blog.)
+Soccer(Visca Barça~), Gym, Table tennis, Piano, Traveling, etc.
+
+[comment]: <> (I am recording some of my works and thoughts in form of blog in the link below. [Website Link]&#40;https://jasonjiangs.github.io/Tech-Note/&#41;)
 
 [comment]: <> (# 💬 Facts)
 
