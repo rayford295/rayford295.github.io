@@ -20,14 +20,14 @@ redirect_from:
 # 🗨 About Me
 I'm Shiyu Jiang, a master student majoring in computer science at Whiting School of Engineering, Johns Hopkins University 
 advised by [Prof.Kimia Ghobadi](https://systems.jhu.edu/kimia/) and [Prof.Claus Aranha](http://conclave.cs.tsukuba.ac.jp/). 
-I am also working as a research assistant in computational genomics advised by [Prof.Chongzhi Zang](https://zanglab.github.io/index.htm).
+I'm also a research assistant at [Prof.Yanjun Li's Lab](https://yanjun-li.com/index.html) on deep learning for RNA and molecular interaction prediction,
+and [Prof.Chongzhi Zang's Lab](https://zanglab.github.io/index.htm) on computational genomics.
 
 I received my Bachelor's degree in Computer Science from Wenzhou-Kean University. 
 During my undergrad, I was fortunate to work with [Prof.Aloysius Wong](https://wku.edu.cn/faculty/aloysius-wong/) 
 and [Prof.Zhen Shen](https://people.ucas.edu.cn/~zhenshen?language=en).
 
-I like to embrace technologies and use it to explore things. My research interests including computational genomics, 
-bioinformatics, machine learning, and AI4Science. 
+My research interests lie in bioinformatics, computational biology, simulation, machine learning, and AI4Science. 
 I also have experiences in software engineering with Java, Python, Go, and React.js.
 
 # 📖 Educations
@@ -36,9 +36,9 @@ I also have experiences in software engineering with Java, Python, Go, and React
 
 # 💻 Experiences
 - *2023.06 - Present*, Research Assistant, [Li Lab at University of Florida College of Pharmacy](https://yanjun-li.com/index.html), Gainesville, FL.
-  - AI4Science & deep learning for RNA structures
+  - Deep learning for RNA and molecular interaction prediction
 - *2023.01 - Present*, Research Assistant, [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
-  - Computational genomics and bioinformatics
+  - Computational biology and bioinformatics
 - *2022.09 - 2023.12*, Research Assistant, [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
   - Multi-agent simulation, affective model, visualization, and network analysis
   - Master's thesis: Analyzing Epidemic Spread with Agent-based Simulation Model and Network Analysis
@@ -155,9 +155,13 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 
 [comment]: <> (- [Nano-plastics Detector: A Machine Learning Approach]&#40;https://github.com/Haoxin01/Nanoplastics-ML&#41;:)
 
-[comment]: <> (    This project aims to develop a machine learning model to detect nano-plastics in water. The model is trained by a dataset of )
+[comment]: <> (  This is a machine learning model developed for the detection of nano-plastics based on [...]. )
 
-[comment]: <> (    1000+ images of nano-plastics and 1000+ images of non-plastics. The model is able to detect nano-plastics with an accuracy of 99.5%.)
+[comment]: <> (  Isolation Forest is used to detect the input data points that are non-detectable. )
+
+[comment]: <> (  Then KNN, SVM, and Random Forest as well as their ensemble models are used to classify the detected data points into )
+
+[comment]: <> (  different categories. The pipeline is developed by Python and sklearn.)
 
 # 🌎 Miscellaneous
 [comment]: <> (- [My Blog]&#40;https://jasonjiangs.github.io/Tech-Note/&#41;: I am recording some of my works and thoughts in form of blog.)
