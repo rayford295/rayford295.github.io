@@ -18,16 +18,15 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🗨 About Me
-I'm Shiyu Jiang, a master student majoring in computer science at Whiting School of Engineering, Johns Hopkins University 
+Hello, my name is Shiyu, a master student majoring in computer science at Whiting School of Engineering, Johns Hopkins University 
 advised by [Prof.Kimia Ghobadi](https://systems.jhu.edu/kimia/) and [Prof.Claus Aranha](http://conclave.cs.tsukuba.ac.jp/). 
-I'm also a research assistant at [Prof.Yanjun Li's Lab](https://yanjun-li.com/index.html) on deep learning for RNA and molecular interaction prediction,
-and [Prof.Chongzhi Zang's Lab](https://zanglab.github.io/index.htm) on computational genomics.
+I'm current working as a full-time research assistant at [Prof.Chongzhi Zang's Lab](https://zanglab.github.io/index.htm) on computational biology.
+I'm also a research assistant at [Prof.Yanjun Li's Lab](https://yanjun-li.com/index.html) on RNA and molecular interaction prediction.
 
-I received my Bachelor's degree in Computer Science from Wenzhou-Kean University. 
-During my undergrad, I was fortunate to work with [Prof.Aloysius Wong](https://wku.edu.cn/faculty/aloysius-wong/) 
-and [Prof.Zhen Shen](https://people.ucas.edu.cn/~zhenshen?language=en).
+Previously I received my Bachelor's degree in Computer Science from Wenzhou-Kean University. 
+During my undergrad, I was fortunate to work with [Prof.Aloysius Wong](https://wku.edu.cn/faculty/aloysius-wong/).
 
-My research interests lie in bioinformatics, computational biology, simulation, machine learning, and AI4Science. 
+My research interests lie in bioinformatics, computational biology, simulation, machine learning, and AI4Science.
 I also have experiences in software engineering with Java, Python, Go, and React.js.
 
 # 📖 Educations
@@ -36,19 +35,19 @@ I also have experiences in software engineering with Java, Python, Go, and React
 
 # 💻 Experiences
 - *2023.06 - Present*, Research Assistant, [Li Lab at University of Florida College of Pharmacy](https://yanjun-li.com/index.html), Gainesville, FL.
-  - Deep learning for RNA and molecular interaction prediction
-- *2023.01 - Present*, Research Assistant, [Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
-  - Computational biology and bioinformatics
-- *2022.09 - 2023.12*, Research Assistant, [Dr. Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
-  - Multi-agent simulation, affective model, visualization, and network analysis
-  - Master's thesis: Analyzing Epidemic Spread with Agent-based Simulation Model and Network Analysis
+  - Deep learning for RNA and molecular interaction prediction.
+- *2023.01 - Present*, Research Assistant, [Chongzhi Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
+  - Computational biology and bioinformatics.
+- *2022.09 - 2023.06*, Research Assistant, [Dr.Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
+  - Multi-agent simulation, affective model, visualization, and network analysis.
+  - Master's thesis: Analyzing Epidemic Spread with Agent-based Simulation Model and Network Analysis.
 - *2022.06 - 2022.08*, Software Engineer Intern, [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
   - Rewrote the official JDBC driver for MySQL to customize a general PolarDB JDBC driver to achieve functions of automatic recognition and reconnection among a master cluster and slave clusters when mastering failovers or master exchanges. 
   - Implemented the clustering management of ShardingSphere-Proxy based on PolarDB, built a persistence module, and developed a listening mechanism detecting files including updating, adding, and changing by constructing closure tables and polling strategy.
   - Tested the functionalities using JUnit and Mockito, and published a technical design document and a sharing talk internally.  
   - **Technology Used**: Java, MySQL, JDBC, ShardingSphere-Proxy, ZooKeeper, JUnit, Mockito.
-- *2021.09 - 2022.08*, Deep Learning Research Intern, [Institute of Automation, Chinese Academy of Science](https://people.ucas.edu.cn/~zhenshen?language=en), Beijing, China.
-  - Deep Learning application in quantitative trading
+- *2021.09 - 2022.08*, Deep Learning Research Intern, [Institute of Automation, Chinese Academy of Sciences](https://people.ucas.edu.cn/~zhenshen?language=en), Beijing, China.
+  - Deep Learning application in quantitative trading.
 - *2021.08 - 2022.07*, Research Assistant, [Wenzhou Municipal Key Lab for Applied Biomedical Informatics](https://wku.edu.cn/faculty/aloysius-wong/), Wenzhou, China.
   - Developed a user-friendly web server HNOXPred, as a tool for the prediction of gas-sensing H-NOX proteins from amino acid sequence input. 
   - Recognized the single-line description of FASTA format sequence data to support multiple sequence snippets’ input and analysis.
@@ -71,6 +70,8 @@ I also have experiences in software engineering with Java, Python, Go, and React
 **Shiyu Jiang**, Heejoong Kim, Fabio Henrique Tanaka, Claus Aranha, Anna Bogdanova, Kimia Ghobadi, Anton Dahbura. *The International Conference on Artificial Life*, 2023. (Accepted)
 
 [Code](https://github.com/caranha/Koudou/tree/ALIFE_2023)
+
+[comment]: <> ([YouTube]&#40;&#41;)
 
 - This research aims to create a comprehensive Agent-Based Model (ABM) to simulate daily agent schedules and movements across Johns Hopkins and University of Tsukuba campuses. The model will compare scenarios related to COVID-19 spread and assess the impact of large-scale events, like earthquakes, on masking policies and disease transmission dynamics.
 
@@ -137,21 +138,28 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
   The software takes a single or multiple amino acid sequence and returns predicted H-NOX centers accompanied by HNOX scores scaled from 0 to 1, where 1 is closest to the mean of H-NOX proteins in HNOXPred database.
 - [Agent-based System Analytical Dashboard](https://github.com/caranha/Koudou/tree/ALIFE_2023/src/dashapp): This is a responsive analytical web tool supporting statistical, geographical, and visualization
   analysis based on the result from a multi-agent system simulating infectious disease. It allows user to upload up to three sets of 
-  result data and output comparative analysis. 
+  result data and output comparative analysis.
 
-## Full-stack
-- [OfficeAdmin](https://github.com/JasonJiangs/OfficeAdmin): An office management system developed by Spring Boot, MyBatis-Plus, Redis, MySQL, etc.
-- [Microservice](https://github.com/JasonJiangs/Microservice): The project implements several small scripts and microservices using Golang and its frameworks.
+[comment]: <> (## Python/R Package)
+
+[comment]: <> (- [SICER2 Clipper]&#40;&#41; &#40;**S**patial **I**nterpolation for **C**hIP-**E**nriched **R**egions&#41;: This is a Python package for spatial interpolation of ChIP-enriched regions. )
+
+[comment]: <> (  It is a reimplementation of the SICER algorithm in Python, with a focus on improving the performance of the original SICER algorithm.)
 
 ## Research Pipeline & Model
-- [Agent-based Model for Epidemic Simulation](https://github.com/caranha/Koudou/tree/ALIFE_2023): This is an agent-based model that considers the effects of 
-  masking and large scale evacuations at the scale of a large university campus and its neighborhood. This
-  project is part of a larger effort to create a simulator that considers how human mobility interacts with large scale events
-  at a neighborhood level in the Japanese context.
+[comment]: <> (- [Nano-plastic ML Detector]&#40;&#41;:)
+- [Agent-based Model for Epidemic Simulation](https://github.com/caranha/Koudou/tree/ALIFE_2023): 
+  This is an agent-based model that considers the effects of masking and large scale evacuations at the scale of 
+  a large university campus and its neighborhood. This project is part of a larger effort to create a simulator that 
+  considers how human mobility interacts with large scale events at a neighborhood level in the Japanese context.
 - [RNA-seq & ChIP-seq Joint Analysis Pipeline](https://github.com/JasonJiangs/RNAseq-ChIPseq-Joint-Pipeline): 
   It is an extensible and modular pipeline combining RNA-seq and ChIP-seq tools for exploring transcriptional regulatory function with high-throughout data, 
   with easy configuration via YAML files and command line arguments, providing users with phase-based execution 
   flexibility and advanced modeling analysis options.
+
+## Full-stack
+- [OfficeAdmin](https://github.com/JasonJiangs/OfficeAdmin): An office management system developed by Spring Boot, MyBatis-Plus, Redis, MySQL, etc.
+- [Microservice](https://github.com/JasonJiangs/Microservice): The project implements several small scripts and microservices using Golang and its frameworks.
 
 [comment]: <> (- [Nano-plastics Detector: A Machine Learning Approach]&#40;https://github.com/Haoxin01/Nanoplastics-ML&#41;:)
 
@@ -165,7 +173,7 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 
 # 🌎 Miscellaneous
 [comment]: <> (- [My Blog]&#40;https://jasonjiangs.github.io/Tech-Note/&#41;: I am recording some of my works and thoughts in form of blog.)
-Soccer(Visca Barça~), Gym, Table tennis, Piano, Traveling, etc.
+Soccer (Visca Barça~), Gym, Table tennis, Piano, Traveling, etc.
 
 [comment]: <> (I am recording some of my works and thoughts in form of blog in the link below. [Website Link]&#40;https://jasonjiangs.github.io/Tech-Note/&#41;)
 
