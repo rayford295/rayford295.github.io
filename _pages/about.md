@@ -21,7 +21,7 @@ redirect_from:
 Hello, my name is Shiyu, a master student majoring in computer science at Whiting School of Engineering, Johns Hopkins University 
 advised by [Prof.Kimia Ghobadi](https://systems.jhu.edu/kimia/) and [Prof.Claus Aranha](http://conclave.cs.tsukuba.ac.jp/). 
 I'm current working as a full-time research assistant at [Prof.Chongzhi Zang's Lab](https://zanglab.github.io/index.htm) on computational biology.
-I'm also a research assistant at [Prof.Yanjun Li's Lab](https://yanjun-li.com/index.html) on RNA and molecular interaction prediction.
+I'm also a research assistant at [Prof.Yanjun Li's Lab](https://yanjun-li.com/index.html).
 
 Previously I received my Bachelor's degree in Computer Science from Wenzhou-Kean University. 
 During my undergrad, I was fortunate to work with [Prof.Aloysius Wong](https://wku.edu.cn/faculty/aloysius-wong/).
@@ -35,7 +35,7 @@ I also have experiences in software engineering with Java, Python, Go, and React
 
 # 💻 Experiences
 - *2023.06 - Present*, Research Assistant, [Li Lab at University of Florida College of Pharmacy](https://yanjun-li.com/index.html), Gainesville, FL.
-  - Deep learning for RNA and molecular interaction prediction.
+  - AI drug discovery.
 - *2023.01 - Present*, Research Assistant, [Chongzhi Zang Lab at University of Virginia School of Medicine](https://zanglab.github.io/index.htm), Charlottesville, VA.
   - Computational biology and bioinformatics.
 - *2022.09 - 2023.06*, Research Assistant, [Dr.Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
@@ -59,7 +59,7 @@ I also have experiences in software engineering with Java, Python, Go, and React
 
 [comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
-# 📝 Publications 
+# 📝 Featured Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ALIFE 2023</div><img src='images/covid_sim.png' alt="sym" width="100%"></div></div>
 
@@ -106,9 +106,11 @@ Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th In
 </div>
 </div>
 
-Jong Min Kim, Jeongsoo Han, **Shiyu Jiang**. [The impact of comment history disclosure on online comment posting behaviors](https://www.emerald.com/insight/content/doi/10.1108/ITP-09-2021-0692/full/html)
-. *Information Technology & People*, 2022.
-- This study aimed to empirically examine the effectiveness of disclosing user comment history without disclosing personal identity as a nudge policy to refrain users from posting malicious content online.
+[comment]: <> (Jong Min Kim, Jeongsoo Han, **Shiyu Jiang**. [The impact of comment history disclosure on online comment posting behaviors]&#40;https://www.emerald.com/insight/content/doi/10.1108/ITP-09-2021-0692/full/html&#41;)
+
+[comment]: <> (. *Information Technology & People*, 2022.)
+
+[comment]: <> (- This study aimed to empirically examine the effectiveness of disclosing user comment history without disclosing personal identity as a nudge policy to refrain users from posting malicious content online.)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2021</div><img src='images/ijcnn.png' alt="sym" width="100%"></div></div>
 
@@ -122,9 +124,11 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 </div>
 </div>
 
-**Shiyu Jiang**, Junjie Jia, Yi Yuan, Yuxiong Wu, Tianqi Wang. [Research on China’s Primary Industry: Evidence From Regional Analysis Based on SVM and Moran’s Index](https://ieeexplore.ieee.org/abstract/document/9754653)
-. *International Conference on Cloud Computing and Intelligent Systems*, 2021.
-- This article aims to use machine learning and Moran’s I to analyze the current situation of China’s primary industry from a regional perspective.
+[comment]: <> (**Shiyu Jiang**, Junjie Jia, Yi Yuan, Yuxiong Wu, Tianqi Wang. [Research on China’s Primary Industry: Evidence From Regional Analysis Based on SVM and Moran’s Index]&#40;https://ieeexplore.ieee.org/abstract/document/9754653&#41;)
+
+[comment]: <> (. *International Conference on Cloud Computing and Intelligent Systems*, 2021.)
+
+[comment]: <> (- This article aims to use machine learning and Moran’s I to analyze the current situation of China’s primary industry from a regional perspective.)
 
 [comment]: <> (# 🎖 Honors and Awards)
 
@@ -136,7 +140,7 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
 ## Web server
 - [HNOXPred](https://github.com/JasonJiangs/HNOX_Pred) (**Pred**iction of **H**eme-**N**itric oxide/**OX**ygen domains): This web server predicts gas sensing H-NOX proteins from amino acid sequence.
   The software takes a single or multiple amino acid sequence and returns predicted H-NOX centers accompanied by HNOX scores scaled from 0 to 1, where 1 is closest to the mean of H-NOX proteins in HNOXPred database.
-- [Agent-based System Analytical Dashboard](https://github.com/caranha/Koudou/tree/ALIFE_2023/src/dashapp): This is a responsive analytical web tool supporting statistical, geographical, and visualization
+- [Agent-based Model Analysis Dashboard](https://github.com/caranha/Koudou/tree/ALIFE_2023/src/dashapp): This is a responsive analytical web tool supporting statistical, geographical, and visualization
   analysis based on the result from a multi-agent system simulating infectious disease. It allows user to upload up to three sets of 
   result data and output comparative analysis.
 
