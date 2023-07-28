@@ -18,7 +18,7 @@ main:
   - title: "Experiences"
     url: "/#-experiences"
 
-  - title: "Publications"
+  - title: "Featured Publications"
     url: "/#-publications"
 
   - title: "Software"
@@ -26,5 +26,3 @@ main:
 
   - title: "Miscellaneous"
     url: "/#-miscellaneous"
-#  - title: "Facts"
-#    url: "/#-facts"
