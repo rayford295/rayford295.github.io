@@ -59,7 +59,7 @@ I also have experiences in software engineering with Java, Python, Go, and React
 
 [comment]: <> (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
-# 📝 Featured Publications
+# 📝 Publications
 
 [//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChemRxiv</div><img src='images/nanoplasticsML.png' alt="sym" width="100%"></div></div>)
 
