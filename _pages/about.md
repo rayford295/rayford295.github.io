@@ -61,30 +61,48 @@ I also have experiences in software engineering with Java, Python, Go, and React
 
 # 📝 Featured Publications
 
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ChemRxiv</div><img src='images/nanoplasticsML.png' alt="sym" width="100%"></div></div>)
+
+[//]: # ()
+[//]: # (<div class='paper-box-text' markdown="1">)
+
+[//]: # ()
+[//]: # ([Specific Detection and High-Precision Quantification of Nanoscale Plastics Enabled by Surface Enhanced Raman Spectroscopy Coupled with Machine Learning]&#40;&#41;)
+
+[//]: # ()
+[//]: # (Haoxin Ye, **Shiyu Jiang**, . *ChemRxiv*, 2023.)
+
+[//]: # ()
+[//]: # (- This work aims to ...)
+
+[//]: # ()
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (</div>)
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ALIFE 2023</div><img src='images/covid_sim.png' alt="sym" width="100%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
 [Simulating Disease Spread During Disaster Scenarios]()
 
-**Shiyu Jiang**, Heejoong Kim, Fabio Henrique Tanaka, Claus Aranha, Anna Bogdanova, Kimia Ghobadi, Anton Dahbura. *The International Conference on Artificial Life*, 2023. (Accepted)
+**Shiyu Jiang**, Heejoong Kim, Fabio Henrique Tanaka, Claus Aranha, Anna Bogdanova, Kimia Ghobadi, Anton Dahbura. *The International Conference on Artificial Life*, 2023.
 
-[Code](https://github.com/caranha/Koudou/tree/ALIFE_2023)
-
-[comment]: <> ([YouTube]&#40;&#41;)
+[Code](https://github.com/caranha/Koudou/tree/ALIFE_2023) [Talk]()
 
 - This research aims to create a comprehensive Agent-Based Model (ABM) to simulate daily agent schedules and movements across Johns Hopkins and University of Tsukuba campuses. The model will compare scenarios related to COVID-19 spread and assess the impact of large-scale events, like earthquakes, on masking policies and disease transmission dynamics.
 
 </div>
-
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">HCI International 2023</div><img src='images/hcii.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[An Artificial Intelligence-Based Interactive Learning Platform to Assist Visually Impaired Children in Learning Mathematics](https://www.researchgate.net/profile/Shiyu-Jiang-6/publication/370175261_An_Artificial_Intelligence-Based_Interactive_Learning_Platform_to_Assist_Visually_Impaired_Children_in_Learning_Mathematics/links/64431136d749e4340e2b109b/An-Artificial-Intelligence-Based-Interactive-Learning-Platform-to-Assist-Visually-Impaired-Children-in-Learning-Mathematics.pdf)
+[An Artificial Intelligence-Based Interactive Learning Platform to Assist Visually Impaired Children in Learning Mathematics](https://link.springer.com/chapter/10.1007/978-3-031-35992-7_51)
 
-Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th International Conference on Human-Computer Interaction*, 2023. (Accepted)
+Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th International Conference on Human-Computer Interaction*, 2023.
 
 - This paper introduces an artificial intelligence-based interactive learning plat-form that can enhance the mathematical skills of visually impaired children.
 - The proposed platform uses text-to-speech along with tactile and auditory feedback to help visually impaired students arrive at a  better understanding of mathematical material.
@@ -105,12 +123,6 @@ Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th In
 - The tool is developed by Python scripts, Flask framework and MySQL DB.
 </div>
 </div>
-
-[comment]: <> (Jong Min Kim, Jeongsoo Han, **Shiyu Jiang**. [The impact of comment history disclosure on online comment posting behaviors]&#40;https://www.emerald.com/insight/content/doi/10.1108/ITP-09-2021-0692/full/html&#41;)
-
-[comment]: <> (. *Information Technology & People*, 2022.)
-
-[comment]: <> (- This study aimed to empirically examine the effectiveness of disclosing user comment history without disclosing personal identity as a nudge policy to refrain users from posting malicious content online.)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2021</div><img src='images/ijcnn.png' alt="sym" width="100%"></div></div>
 
@@ -144,11 +156,9 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
   analysis based on the result from a multi-agent system simulating infectious disease. It allows user to upload up to three sets of 
   result data and output comparative analysis.
 
-[comment]: <> (## Python/R Package)
+[//]: # (## Python/R Package)
 
-[comment]: <> (- [SICER2 Clipper]&#40;&#41; &#40;**S**patial **I**nterpolation for **C**hIP-**E**nriched **R**egions&#41;: This is a Python package for spatial interpolation of ChIP-enriched regions. )
-
-[comment]: <> (  It is a reimplementation of the SICER algorithm in Python, with a focus on improving the performance of the original SICER algorithm.)
+[//]: # (- [SICER2]&#40;&#41;: This is a Python package for spatial interpolation of ChIP-enriched regions. It is a reimplementation of the SICER algorithm in Python, with a focus on improving the performance of the original SICER algorithm.)
 
 ## Research Pipeline & Model
 [comment]: <> (- [Nano-plastic ML Detector]&#40;&#41;:)
@@ -161,33 +171,18 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
   with easy configuration via YAML files and command line arguments, providing users with phase-based execution 
   flexibility and advanced modeling analysis options.
 
+[//]: # (- [Nano-plastics ML]&#40;&#41;: )
+
+[//]: # (- [RNA-SMOL-RGCN]&#40;&#41;:)
+
 ## Full-stack
 - [OfficeAdmin](https://github.com/JasonJiangs/OfficeAdmin): An office management system developed by Spring Boot, MyBatis-Plus, Redis, MySQL, etc.
 - [Microservice](https://github.com/JasonJiangs/Microservice): The project implements several small scripts and microservices using Golang and its frameworks.
-
-[comment]: <> (- [Nano-plastics Detector: A Machine Learning Approach]&#40;https://github.com/Haoxin01/Nanoplastics-ML&#41;:)
-
-[comment]: <> (  This is a machine learning model developed for the detection of nano-plastics based on [...]. )
-
-[comment]: <> (  Isolation Forest is used to detect the input data points that are non-detectable. )
-
-[comment]: <> (  Then KNN, SVM, and Random Forest as well as their ensemble models are used to classify the detected data points into )
-
-[comment]: <> (  different categories. The pipeline is developed by Python and sklearn.)
 
 # 🌎 Miscellaneous
 [comment]: <> (- [My Blog]&#40;https://jasonjiangs.github.io/Tech-Note/&#41;: I am recording some of my works and thoughts in form of blog.)
 Soccer (Visca Barça~), Gym, Table tennis, Piano, Traveling, etc.
 
-[comment]: <> (I am recording some of my works and thoughts in form of blog in the link below. [Website Link]&#40;https://jasonjiangs.github.io/Tech-Note/&#41;)
-
-[comment]: <> (# 💬 Facts)
-
-[comment]: <> (I am a soccer fan and )
-
-[comment]: <> (- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
-
-[comment]: <> (- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]]&#40;https://github.com/&#41;)
 
 <body>
   <a href="https://clustrmaps.com/site/1bt6x"  title="Visit tracker" >
