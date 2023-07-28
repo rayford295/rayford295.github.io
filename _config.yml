@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Shiyu Jiang"
-  avatar           : "images/img.png"
+  avatar           : "images/img-min.png"
   bio              : ""
   location         : "Baltimore, MD"
   employer         :
