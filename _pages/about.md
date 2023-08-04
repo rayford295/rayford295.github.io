@@ -41,17 +41,12 @@ I also have experiences in software engineering with Java, Python, Go, and React
 - *2022.09 - 2023.06*, Research Assistant, [Dr.Ghobadi's Lab at Johns Hopkins Withing School of Engineering](https://systems.jhu.edu/kimia/), Baltimore, MD.
   - Multi-agent simulation, affective model, visualization, and network analysis.
   - Master's thesis: Analyzing Epidemic Spread with Agent-based Simulation Model and Network Analysis.
-- *2022.06 - 2022.08*, Software Engineer Intern, [Alibaba Cloud](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
-  - Rewrote the official JDBC driver for MySQL to customize a general PolarDB JDBC driver to achieve functions of automatic recognition and reconnection among a master cluster and slave clusters when mastering failovers or master exchanges. 
-  - Implemented the clustering management of ShardingSphere-Proxy based on PolarDB, built a persistence module, and developed a listening mechanism detecting files including updating, adding, and changing by constructing closure tables and polling strategy.
-  - Tested the functionalities using JUnit and Mockito, and published a technical design document and a sharing talk internally.  
-  - **Technology Used**: Java, MySQL, JDBC, ShardingSphere-Proxy, ZooKeeper, JUnit, Mockito.
+- *2022.06 - 2022.08*, Software Engineer Intern, [Alibaba Cloud - PolarDB](https://www.alibabacloud.com/product/polardb), Hangzhou, China.
+  - Technology Used: Java, MySQL, JDBC, ShardingSphere-Proxy, ZooKeeper, JUnit, Mockito.
 - *2021.09 - 2022.08*, Deep Learning Research Intern, [Institute of Automation, Chinese Academy of Sciences](https://people.ucas.edu.cn/~zhenshen?language=en), Beijing, China.
   - Deep Learning application in quantitative trading.
 - *2021.08 - 2022.07*, Research Assistant, [Wenzhou Municipal Key Lab for Applied Biomedical Informatics](https://wku.edu.cn/faculty/aloysius-wong/), Wenzhou, China.
   - Developed a user-friendly web server HNOXPred, as a tool for the prediction of gas-sensing H-NOX proteins from amino acid sequence input. 
-  - Recognized the single-line description of FASTA format sequence data to support multiple sequence snippets’ input and analysis.
-  - Designed a protein sequencing algorithm to locate every fitted sequence and calculate its physicochemical properties and assigned confidence scores based on a database of H-NOX proteins.
 
 [comment]: <> (# 🔥 News)
 
@@ -93,19 +88,6 @@ I also have experiences in software engineering with Java, Python, Go, and React
 [Code](https://github.com/caranha/Koudou/tree/ALIFE_2023) [Talk]()
 
 - This research aims to create a comprehensive Agent-Based Model (ABM) to simulate daily agent schedules and movements across Johns Hopkins and University of Tsukuba campuses. The model will compare scenarios related to COVID-19 spread and assess the impact of large-scale events, like earthquakes, on masking policies and disease transmission dynamics.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">HCI International 2023</div><img src='images/hcii.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[An Artificial Intelligence-Based Interactive Learning Platform to Assist Visually Impaired Children in Learning Mathematics](https://link.springer.com/chapter/10.1007/978-3-031-35992-7_51)
-
-Muhammad Shoaib, **Shiyu Jiang**, Luo Jin, Donal Fitzpatrick, Ian Pitt. *25th International Conference on Human-Computer Interaction*, 2023.
-
-- This paper introduces an artificial intelligence-based interactive learning plat-form that can enhance the mathematical skills of visually impaired children.
-- The proposed platform uses text-to-speech along with tactile and auditory feedback to help visually impaired students arrive at a  better understanding of mathematical material.
 
 </div>
 </div>
@@ -168,8 +150,7 @@ Shen Zheng, Yuxiong Wu, **Shiyu Jiang**, Changjie Lu, Gaurav Gupta. *Internation
   considers how human mobility interacts with large scale events at a neighborhood level in the Japanese context.
 - [RNA-seq & ChIP-seq Joint Analysis Pipeline](https://github.com/JasonJiangs/RNAseq-ChIPseq-Joint-Pipeline): 
   It is an extensible and modular pipeline combining RNA-seq and ChIP-seq tools for exploring transcriptional regulatory function with high-throughout data, 
-  with easy configuration via YAML files and command line arguments, providing users with phase-based execution 
-  flexibility and advanced modeling analysis options.
+  with easy configuration via YAML files and command line arguments.
 
 [//]: # (- [Nano-plastics ML]&#40;&#41;: )
 
