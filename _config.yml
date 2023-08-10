@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Shiyu Jiang"
-description              : "Computer Science Master Student at Johns Hopkins University"
-repository               : "JasonJiangs/JasonJiangs.github.io"
+title                    : "Yifan Yang"
+description              : "Student at USC Spatial Data Science"
+repository               : "rayford295/rayford295.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -24,11 +24,11 @@ author:
   name             : "Shiyu Jiang"
   avatar           : "images/img-min.png"
   bio              : ""
-  location         : "Baltimore, MD"
+  location         : "Los Angeles, CA"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=DBJYZiYAAAAJ&hl=en"
-  email            : "shiyujiang23@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?user=B-fiSHwAAAAJ"
+  email            : "yyf990925@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "JasonJiangs"
+  github           : "rayford295"
   google_plus      :
   keybase          :
-  instagram        : "sssyyj23"
+  instagram        : "yyf_rayford"
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "shiyu-jiang-a942881bb"
+  linkedin         : "yifan-yang-14a898186"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
