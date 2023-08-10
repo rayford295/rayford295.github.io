@@ -43,28 +43,27 @@ My name is Yifan Yang, and I am currently pursuing a master's degree in spatial 
 [3] Yifan Yang, Chenyu Shi, Ge Mou, Haoyuan Wang, Tianyu Liu, Zhengyu Li. Different Loss Functions Used in the Low-rank Approximation. International Core Journal of Engineering, ISSN: 2414-1895, Page: 360-368. DOI： 10.6919/ICJE.202011_6(11).0046
 
 # 👑 Partial Honor
-DNIIT(performance：EXCELLENT)                                                                                                                                              
-2020 National First Prize in the Computer Design Competition for Chinese College Students, Big Data Practice Competition                                                      The third prize of the 10th MathorCup College Mathematical Modeling Challenge in 2020                               
-2020 Second Prize of the 13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Autonomous Society)                               
-2020 China-US Youth Creators Competition, Haikou Region, Third Prize                                                        
-2020 Second Prize of the Third China Youth Cup National University Student Mathematical Modeling           
-Third Prize of the 6th National Mobile Internet Innovation Competition (South China Region)                           
-2020 China University Computer Competition - Third Prize in the Innovation Group of the Artificial Intelligence
-Creative Competition                                                                                                                                              
-Third prize in the final of the Hainan Selection Competition of the 4th China Creative Wings Competition and the
-2020 Hainan Free Trade Port Entrepreneurship Competition                                                                                
-Silver Award of Hainan Creative Group of the 6th China International "Internet+" Student Innovation and
-Entrepreneurship Competition                                                                                                                              
-Bronze Prize in Hainan Region of the Challenge Cup Student Entrepreneurship Plan Competition in 2020       
-Second Prize of the 14th iCAN International Innovation and Entrepreneurship Competition South China Region
-Hainan University First Class Comprehensive Scholarship                                                                                   
-College students with the most innovative spirit and practical ability in Hainan University                               
+--DNIIT(performance：EXCELLENT)                                                                                                                                              
+--2020 National First Prize in the Computer Design Competition for Chinese College Students, Big Data Practice Competition                                                    --The third prize of the 10th MathorCup College Mathematical Modeling Challenge in 2020                               
+--2020 Second Prize of the 13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Autonomous Society)                             
+--2020 China-US Youth Creators Competition, Haikou Region, Third Prize                                                        
+--2020 Second Prize of the Third China Youth Cup National University Student Mathematical Modeling           
+--Third Prize of the 6th National Mobile Internet Innovation Competition (South China Region)                           
+--2020 China University Computer Competition - Third Prize in the Innovation Group of the Artificial Intelligence
+--Creative Competition                                                                                                                                              
+--Third prize in the final of the Hainan Selection Competition of the 4th China Creative Wings Competition and the
+--2020 Hainan Free Trade Port Entrepreneurship Competition                                                                                
+--Silver Award of Hainan Creative Group of the 6th China International "Internet+" Student Innovation and
+--Entrepreneurship Competition                                                                                                                              
+--Bronze Prize in Hainan Region of the Challenge Cup Student Entrepreneurship Plan Competition in 2020       
+--Second Prize of the 14th iCAN International Innovation and Entrepreneurship Competition South China Region
+--Hainan University First Class Comprehensive Scholarship                                                                                   
+--College students with the most innovative spirit and practical ability in Hainan University                               
 
 # 🌎 Miscellaneous
 [comment]: <> ( I am recording some of my works and thoughts in form of blog.)
 I like basketball, football, and I watch many games. Favorite player is Messi
 
-
 <body>
-       <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA"></script>
+<a href="https://clustrmaps.com/site/1bvzy"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA&cl=ffffff" /></a>
 </body>
