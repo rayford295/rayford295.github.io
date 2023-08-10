@@ -18,34 +18,53 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🗨 About Me
-My name is Yifan Yang and I am currently pursuing a Master of Science in Spatial Data Science at the University of Southern California（https://www.usc.edu/）, maintaining an exemplary 4.0 GPA. Before that, I got a bachelor’s degree in software engineering from Hainan University（https://www.hainanu.edu.cn/） in China, majoring in big data.
-
-From August 2023 to May 2024, I will be honored to be with John Wilson(https://spatial.usc.edu/team-view/john-p-wilson/), PhD, Professor of Sociology and Space Science; Yi Qi, PhD, Associate Professor (Teaching) of Space Science: Beau MacDonald, GIS Program Administrator, Working together on Phase III of the USC Urban Trees Initiative: Geospatial Analysis of the City and County of Los Angeles as a Master’s Research Assistant.
-
-During my academic career, I have been fortunate to be involved in many innovative research projects. In the summer vacation of 23 years, I used remote sensing satellite images combined with SAM to analyze the status quo of urban layout. Under the tutelage of Professors Darren Ruddell(https://spatial.usc.edu/team-view/darren-ruddell/) and Diana Ter-Ghazaryan(https://spatial.usc.edu/team-view/diana-k-ter-ghazaryan/), I was able to leverage the capabilities of ArcGIS and Python to improve and optimize urban greening strategies.
-
-Additionally, I worked with Vitally AI to support the CTO’s handling of the neural networks that are at the heart of generative AI. This experience immerses me in the entire life cycle of an AI model - from data collection to fine-tuning.
-
-My research interests are not limited to a single field. I also applied my knowledge to the field of medical technology. My advisor is Professor Cheng Jieren（https://ieeexplore.ieee.org/author/37595925800） from Hainan University. During the height of the COVID-19 pandemic, I was part of a team that used federated learning to analyze chest X-ray images to detect COVID-19 infection, using various models such as MobileNet_v2 and ResNeXt. At the same time, I was also involved in a project aimed at monitoring public sentiment on the epidemic using advanced algorithms to process and visualize Weibo data. These two studies have successfully published papers respectively. For details, please refer to my Google Scholar homepage(https://scholar.google.com/citations?user=B-fiSHwAAAAJ&hl=zh-CN).
-
-In addition, I had the honor to participate in the CIS research course project of Prof. David P. Woodruff(http://www.cs.cmu.edu/~dwoodruf/) at Carnegie Mellon University, which deepened my understanding of big data algorithm models and contributed to the publication of papers on this topic.
+My name is Yifan Yang, and I am currently pursuing a master's degree in spatial data science at the University of Southern California (https://www.usc.edu/), with a GPA of 4.0. Before that, I got a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/), majoring in big data. My current plan is to apply for a PhD in space science, geoAI, and spatial analysis. This is also my interest. I hope to use computer science and space science to make some contributions to the world. I am also an AI4science enthusiast. My hobbies are basketball, football, poker, and talk shows.
 
 # 📖 Educations
-- *2022.08 - 2024.12*, Spatial Data Science from University of Southern California
-- *2018.08 - 2022.05*, software engineering from Hainan University
+- *2022.08 - 2024.12*, MS, Spatial Data Science, University of Southern California, Los Angeles, CA, USA
+- *2018.08 - 2022.05*, BS, software engineering, Hainan University, Haikou, Hainan, China
 
 # 💻 Experiences
+- *2023.08 - 2024.05(expected)*, Phase III of the USC Urban Trees Initiative: Geospatial Analysis of the City and County of Los Angeles
+   Advisor：Prof.John Wilson, Prof.Yi Qi, Prof. Beau MacDonald
+- *2023.06 - 2023.08*, remote sensing satellite images combined with SAM to analyze the status of urban layout
+   Advisor：Prof.Darren Ruddell and Prof. Diana Ter-Ghazaryan
+- *2023.02 - 2023.05*, Vitally AI
+   Assisted the CTO in dealing with the neural network that the core of generative artificial intelligence relies on: model selection, development, and adjustment.
+   Participated in the data engineering required for AI model fine-tuning; Learn the entire process of data collection, data cleaning, data training, and fine-tuning
+- *2021.01 - 2021.06*, Experiments for Federated learning for COVID-19 Chest X-ray Images
+   Advisor：Prof. Cheng Jieren
+[1]Yan, B., Wang, J., Cheng, J., Zhou, Y., Zhang, Y., Yang, Y., ... & Liu, B. (2021). Experiments of federated learning for COVID-19 chest X-ray images. In Advances in Artificial Intelligence and Security: 7th International Conference, ICAIS 2021, Dublin, Ireland, July 19-23, 2021, Proceedings, Part II 7 (pp. 41-53). Springer International Publishing.
+- *2020.03 - 2020.08*, COVID-19 Public Opinion and Emotion Monitoring System
+   Advisor：Prof. Cheng Jieren
+[2]Y. Zhang, J. Cheng, Y. Yang, H. Li, X. Zheng et al., "Covid-19 public opinion and emotion monitoring system based on time series thermal new word mining," Computers, Materials & Continua, vol. 64, no.3, pp. 1415–1434, 2020.
+- *2020.01 - 2020.03*, Big Data Algorithm Model and Its Application, CIS Project with Carnegie Mellon University
+   Advisor：Prof. David P. Woodruff
+[3] Yifan Yang, Chenyu Shi, Ge Mou, Haoyuan Wang, Tianyu Liu, Zhengyu Li. Different Loss Functions Used in the Low-rank Approximation. International Core Journal of Engineering, ISSN: 2414-1895, Page: 360-368. DOI： 10.6919/ICJE.202011_6(11).0046
 
-
-
+# 👑 Partial Honor
+DNIIT(performance：EXCELLENT)                                                                                                                                              
+2020 National First Prize in the Computer Design Competition for Chinese College Students, Big Data Practice Competition                                                      The third prize of the 10th MathorCup College Mathematical Modeling Challenge in 2020                               
+2020 Second Prize of the 13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Autonomous Society)                               
+2020 China-US Youth Creators Competition, Haikou Region, Third Prize                                                        
+2020 Second Prize of the Third China Youth Cup National University Student Mathematical Modeling           
+Third Prize of the 6th National Mobile Internet Innovation Competition (South China Region)                           
+2020 China University Computer Competition - Third Prize in the Innovation Group of the Artificial Intelligence
+Creative Competition                                                                                                                                              
+Third prize in the final of the Hainan Selection Competition of the 4th China Creative Wings Competition and the
+2020 Hainan Free Trade Port Entrepreneurship Competition                                                                                
+Silver Award of Hainan Creative Group of the 6th China International "Internet+" Student Innovation and
+Entrepreneurship Competition                                                                                                                              
+Bronze Prize in Hainan Region of the Challenge Cup Student Entrepreneurship Plan Competition in 2020       
+Second Prize of the 14th iCAN International Innovation and Entrepreneurship Competition South China Region
+Hainan University First Class Comprehensive Scholarship                                                                                   
+College students with the most innovative spirit and practical ability in Hainan University                               
 
 # 🌎 Miscellaneous
-[comment]: <> (- [My Blog]&#40;https://jasonjiangs.github.io/Tech-Note/&#41;: I am recording some of my works and thoughts in form of blog.)
-Soccer (Visca Barça~), Gym, Table tennis, Piano, Traveling, etc.
+[comment]: <> ( I am recording some of my works and thoughts in form of blog.)
+I like basketball, football, and I watch many games. Favorite player is Messi
 
 
 <body>
-  <a href="https://clustrmaps.com/site/1bt6x"  title="Visit tracker" >
-    <img src="//www.clustrmaps.com/map_v2.png?d=aGpjzbKbHZT-5oLEhHvcK0igPnT7IvQmYxySQX6oPb4&cl=ffffff" />
-  </a>
+       <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA"></script>
 </body>
