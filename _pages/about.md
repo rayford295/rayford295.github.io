@@ -20,15 +20,17 @@ redirect_from:
 # 🗨 About Me
 My name is Yifan Yang, and I am currently pursuing a master's degree in spatial data science at the University of Southern California (https://www.usc.edu/), with a GPA of 4.0. Before that, I got a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/), majoring in big data. My current plan is to apply for a PhD in spatial science, geoAI, and spatial analysis. This is also my interest. I hope to use computer science and spatial science to make some contributions to the world. I am also an AI4science enthusiast. My hobbies are basketball, football, poker, and talk shows.
 
-Current ongoing research includes public opinion analysis and spatial analysis of man-land relationships, tree detection based on deep learning technology, and the construction of shadow models.
+Current ongoing research includes research on geographic privacy using LLM and LMM, tree detection based on deep learning technology, construction of shadow models, and research on the use of AI to help tree-based ecosystems.
 
 # 📖 Educations
 - *2022.08 - 2024.05*, MS, Spatial Data Science, University of Southern California, Los Angeles, CA, USA
 - *2018.08 - 2022.05*, BS, software engineering, Hainan University, Haikou, Hainan, China
 
 # 💻 Experiences
+- *2023.11 - now*, Attention: Large Multimodal model is watching your geo-privacy
+   Advisor：Prof.Siqin Wang
 - *2023.10 - now*, Application of AI in the ecosystem
-   Advisor：Dr.Chang Zhao
+   Advisor：Prof.Chang Zhao
 - *2023.08 - now*, Phase III of the USC Urban Trees Initiative: Geospatial Analysis of the City and County of Los Angeles
    Advisor：Prof.John Wilson, Prof.Yi Qi, Prof. Beau MacDonald
 - *2023.06 - 2023.08*,  Status and Optimization Strategies of Urban Greening Based on Remote Sensing Imagery and Deep Learning
@@ -40,12 +42,14 @@ Current ongoing research includes public opinion analysis and spatial analysis o
    Participated in the data engineering required for AI model fine-tuning; Learn the entire process of data collection, data cleaning, data training, and fine-tuning
 - *2021.01 - 2021.06*, Experiments for Federated learning for COVID-19 Chest X-ray Images
    Advisor：Prof. Cheng Jieren
-[1]Yan, B., Wang, J., Cheng, J., Zhou, Y., Zhang, Y., Yang, Y., ... & Liu, B. (2021). Experiments of federated learning for COVID-19 chest X-ray images. In Advances in Artificial Intelligence and Security: 7th International Conference, ICAIS 2021, Dublin, Ireland, July 19-23, 2021, Proceedings, Part II 7 (pp. 41-53). Springer International Publishing.
 - *2020.03 - 2020.08*, COVID-19 Public Opinion and Emotion Monitoring System
    Advisor：Prof. Cheng Jieren
-[2]Y. Zhang, J. Cheng, Y. Yang, H. Li, X. Zheng et al., "Covid-19 public opinion and emotion monitoring system based on time series thermal new word mining," Computers, Materials & Continua, vol. 64, no.3, pp. 1415–1434, 2020.
 - *2020.01 - 2020.03*, Big Data Algorithm Model and Its Application, CIS Project with Carnegie Mellon University
    Advisor：Prof. David P. Woodruff
+
+Publication:
+[1]Yan, B., Wang, J., Cheng, J., Zhou, Y., Zhang, Y., Yang, Y., ... & Liu, B. (2021). Experiments of federated learning for COVID-19 chest X-ray images. In Advances in Artificial Intelligence and Security: 7th International Conference, ICAIS 2021, Dublin, Ireland, July 19-23, 2021, Proceedings, Part II 7 (pp. 41-53). Springer International Publishing.
+[2]Y. Zhang, J. Cheng, Y. Yang, H. Li, X. Zheng et al., "Covid-19 public opinion and emotion monitoring system based on time series thermal new word mining," Computers, Materials & Continua, vol. 64, no.3, pp. 1415–1434, 2020.
 [3] Yifan Yang, Chenyu Shi, Ge Mou, Haoyuan Wang, Tianyu Liu, Zhengyu Li. Different Loss Functions Used in the Low-rank Approximation. International Core Journal of Engineering, ISSN: 2414-1895, Page: 360-368. DOI： 10.6919/ICJE.202011_6(11).0046
 
 # 👑 Partial Honor
