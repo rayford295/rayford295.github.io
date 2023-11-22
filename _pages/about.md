@@ -47,10 +47,12 @@ Current ongoing research includes research on geographic privacy using LLM and L
 - *2020.01 - 2020.03*, Big Data Algorithm Model and Its Application, CIS Project with Carnegie Mellon University
    Advisor：Prof. David P. Woodruff
 
-Publication:
-[1]Yan, B., Wang, J., Cheng, J., Zhou, Y., Zhang, Y., Yang, Y., ... & Liu, B. (2021). Experiments of federated learning for COVID-19 chest X-ray images. In Advances in Artificial Intelligence and Security: 7th International Conference, ICAIS 2021, Dublin, Ireland, July 19-23, 2021, Proceedings, Part II 7 (pp. 41-53). Springer International Publishing.
-[2]Y. Zhang, J. Cheng, Y. Yang, H. Li, X. Zheng et al., "Covid-19 public opinion and emotion monitoring system based on time series thermal new word mining," Computers, Materials & Continua, vol. 64, no.3, pp. 1415–1434, 2020.
-[3] Yifan Yang, Chenyu Shi, Ge Mou, Haoyuan Wang, Tianyu Liu, Zhengyu Li. Different Loss Functions Used in the Low-rank Approximation. International Core Journal of Engineering, ISSN: 2414-1895, Page: 360-368. DOI： 10.6919/ICJE.202011_6(11).0046
+# 📕 Publications
+- *[1]Yan, B., Wang, J., Cheng, J., Zhou, Y., Zhang, Y., Yang, Y., ... & Liu, B. (2021). Experiments of federated learning for COVID-19 chest X-ray images. In Advances in Artificial Intelligence and Security: 7th International Conference, ICAIS 2021, Dublin, Ireland, July 19-23, 2021, Proceedings, Part II 7 (pp. 41-53). Springer International Publishing.
+  
+- *[2]Y. Zhang, J. Cheng, Y. Yang, H. Li, X. Zheng et al., "Covid-19 public opinion and emotion monitoring system based on time series thermal new word mining," Computers, Materials & Continua, vol. 64, no.3, pp. 1415–1434, 2020.
+
+- *[3] Yifan Yang, Chenyu Shi, Ge Mou, Haoyuan Wang, Tianyu Liu, Zhengyu Li. Different Loss Functions Used in the Low-rank Approximation. International Core Journal of Engineering, ISSN: 2414-1895, Page: 360-368. DOI： 10.6919/ICJE.202011_6(11).0046 
 
 # 👑 Partial Honor
 - *DNIIT(performance：EXCELLENT)
