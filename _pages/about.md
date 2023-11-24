@@ -48,11 +48,13 @@ Current ongoing research includes research on geographic privacy using LLM and L
    Advisor：Prof. David P. Woodruff
 
 # 📕 Publications
-- *[1]Yan, B., Wang, J., Cheng, J., Zhou, Y., Zhang, Y., Yang, Y., ... & Liu, B. (2021). Experiments of federated learning for COVID-19 chest X-ray images. In Advances in Artificial Intelligence and Security: 7th International Conference, ICAIS 2021, Dublin, Ireland, July 19-23, 2021, Proceedings, Part II 7 (pp. 41-53). Springer International Publishing.
+- *[1]Yang, Yifan, Yixian Zhang, Daoyang Li, Shuju Sun, Junhong Duan, Junzhou He, Qingyang Wu, and Hao Liu. "Attention: Large Multimodal Model is Watching your Geo-privacy." arXiv preprint arXiv:2311.13018 (2023).
   
-- *[2]Y. Zhang, J. Cheng, Y. Yang, H. Li, X. Zheng et al., "Covid-19 public opinion and emotion monitoring system based on time series thermal new word mining," Computers, Materials & Continua, vol. 64, no.3, pp. 1415–1434, 2020.
+- *[2]Yan, Bingjie, Jun Wang, Jieren Cheng, Yize Zhou, Yixian Zhang, Yifan Yang, Li Liu, Haojiang Zhao, Chunjuan Wang, and Boyi Liu. "Experiments of federated learning for COVID-19 chest X-ray images." In Advances in Artificial Intelligence and Security: 7th International Conference, ICAIS 2021, Dublin, Ireland, July 19-23, 2021, Proceedings, Part II 7, pp. 41-53. Springer International Publishing, 2021.
+  
+- *[3]Y. Zhang, J. Cheng, Y. Yang, H. Li, X. Zheng et al., "Covid-19 public opinion and emotion monitoring system based on time series thermal new word mining," Computers, Materials & Continua, vol. 64, no.3, pp. 1415–1434, 2020.
 
-- *[3] Yifan Yang, Chenyu Shi, Ge Mou, Haoyuan Wang, Tianyu Liu, Zhengyu Li. Different Loss Functions Used in the Low-rank Approximation. International Core Journal of Engineering, ISSN: 2414-1895, Page: 360-368. DOI： 10.6919/ICJE.202011_6(11).0046 
+- *[4] Shi, Chenyu, Ge Mou, Haoyuan Wang, Tianyu Liu, Yifan Yang, and Zhengyu Li. "Different Loss Functions Used in the Low-rank Approximation." International Core Journal of Engineering 6, no. 11 (2020): 360-368. (co-first author)
 
 # 👑 Partial Honor
 - *DNIIT(performance：EXCELLENT)
