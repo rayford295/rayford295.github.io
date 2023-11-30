@@ -26,7 +26,7 @@ Current ongoing research includes research on geographic privacy using LLM and L
 - *2022.08 - 2024.05*, MS, Spatial Data Science, University of Southern California, Los Angeles, CA, USA
 - *2018.08 - 2022.05*, BS, software engineering, Hainan University, Haikou, Hainan, China
 
-# 💻 Experiences
+# 💻 Research Experiences
 - *2023.11 - now*, Attention: Large Multimodal model is watching your geo-privacy
    Advisor：Prof.Siqin Wang
 - *2023.10 - now*, Application of AI in the ecosystem
@@ -35,8 +35,6 @@ Current ongoing research includes research on geographic privacy using LLM and L
    Advisor：Prof.John Wilson, Prof.Yi Qi, Prof. Beau MacDonald
 - *2023.06 - 2023.08*,  Status and Optimization Strategies of Urban Greening Based on Remote Sensing Imagery and Deep Learning
    Advisor：Prof.Darren Ruddell and Prof. Diana Ter-Ghazaryan
-- *2023.05 - 2023.07*, LISUS，intern experience
-   Mineral identification and exploration using machine learning and remote sensing imagery, etc.
 - *2023.02 - 2023.05*, Vitally AI，intern experience
    Assisted the CTO in dealing with the neural network that the core of generative artificial intelligence relies on: model selection, development, and adjustment.
    Participated in the data engineering required for AI model fine-tuning; Learn the entire process of data collection, data cleaning, data training, and fine-tuning
