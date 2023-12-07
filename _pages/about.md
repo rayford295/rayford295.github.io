@@ -27,6 +27,8 @@ Current ongoing research includes research on geographic privacy using LLMs and 
 - *2018.08 - 2022.05*, BS, software engineering, Hainan University, Haikou, Hainan, China
 
 # 💻 Research Experiences
+- *2023.11 - now*, Seeing from reading: How well does GPT comprehend remote sensing images?
+   Advisor：Prof.Xiao Huang, Emory University 
 - *2023.11 - now*, Attention: Large Multimodal model is watching your geo-privacy
    Advisor：Prof.Siqin Wang, University of Southern California
 - *2023.10 - now*, Application of AI in the ecosystem
