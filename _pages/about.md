@@ -56,6 +56,11 @@ Current ongoing research includes research on geographic privacy using LLMs and 
 
 - *[4] Shi, Chenyu, Ge Mou, Haoyuan Wang, Tianyu Liu, Yifan Yang, and Zhengyu Li. "Different Loss Functions Used in the Low-rank Approximation." International Core Journal of Engineering 6, no. 11 (2020): 360-368. (co-first author)
 
+# 🏘 Presentation
+- *American Association of Geographers Annual Meeting，April 16 - 20, 2024，Honolulu, Hawai'i
+   Attention: Large Multimodal Model is Watching Your Geo-Privacy
+
+  
 # 👑 Partial Honor
 - *DNIIT(performance：EXCELLENT)
 - *The 9th China International "Internet +" College Students Innovation and Entrepreneurship Competition (Shanghai Division) Higher Education Main Track International Project Second Runner-up (Youguang Ushine - AI+ Multilingual Talent Service Platform" project)
