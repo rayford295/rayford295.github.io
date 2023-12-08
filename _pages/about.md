@@ -59,7 +59,6 @@ Current ongoing research includes research on geographic privacy using LLMs and 
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，April 16 - 20, 2024，Honolulu, Hawai'i
 
-   Attention: Large Multimodal Model is Watching Your Geo-Privacy
 
   
 # 👑 Partial Honor
