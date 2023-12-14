@@ -29,7 +29,7 @@ Current ongoing research includes research on geographic privacy using LLMs and 
 # 💻 Research Experiences
 - *2023.11 - now*, Seeing from reading: How well does GPT comprehend remote sensing images?
    Advisor：Prof.Xiao Huang, Emory University 
-- *2023.11 - now*, Attention: Large Multimodal model is watching your geo-privacy
+- *2023.11 - now*, GeoLocator: a location-integrated large multimodal model for inferring geo-privacy
    Advisor：Prof.Siqin Wang, University of Southern California
 - *2023.10 - now*, Application of AI in the ecosystem
    Advisor：Prof.Chang Zhao, University of Florida
