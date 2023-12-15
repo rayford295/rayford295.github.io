@@ -58,7 +58,7 @@ Current ongoing research includes research on geographic privacy using LLMs and 
 
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，April 16 - 20, 2024，Honolulu, Hawai'i
-
+- *2024 LOS ANGELES GEOSPATIAL SUMMIT, February 23, 2024, Los Angeles, CA
 
   
 # 👑 Partial Honor
