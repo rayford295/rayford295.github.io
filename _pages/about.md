@@ -18,13 +18,13 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🗨 About Me
-My name is Yifan Yang, and I am currently pursuing a master's degree in spatial data science at the University of Southern California (https://www.usc.edu/). Before that, I got a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/), majoring in big data. My current plan is to apply for a PhD in spatial science, geoAI, spatial analysis, machine learning and deep learning. This is also my interest. I hope to use computer science and spatial science to make some contributions to the world. I am also an AI4science enthusiast. My hobbies are basketball, football, poker, and talk shows.
+My name is Yifan Yang, and I am currently pursuing a master's degree in spatial data science at the University of Southern California (https://www.usc.edu/). Before that, I got a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/). My current plan is to apply for a PhD in spatial science, geoAI, spatial analysis, machine learning and deep learning. This is also my interest. I hope to use computer science and spatial science to make some contributions to the world. I am also an AI4science enthusiast. My hobbies are basketball, football, poker, and talk shows.
 
 Current ongoing research includes research on geographic privacy using LLMs and LMMs, tree detection based on deep learning technology and GPT-4, construction of shade models in Los Angeles Boyle Heights, and research on the use of AI to help tree-based ecosystems.
 
 # 📖 Educations
 - *2022.08 - 2024.05*, MS, Spatial Data Science, University of Southern California, Los Angeles, CA, USA
-- *2018.08 - 2022.05*, BS, software engineering, Hainan University, Haikou, Hainan, China
+- *2018.08 - 2022.05*, BS, Software Engineering, Hainan University, Haikou, Hainan, China
 
 # 💻 Research Experiences
 - *2023.11 - now*, Seeing from reading: How well does GPT comprehend remote sensing images?
@@ -35,11 +35,10 @@ Current ongoing research includes research on geographic privacy using LLMs and 
    Advisor：Prof.Chang Zhao, University of Florida
 - *2023.08 - now*, Phase III of the USC Urban Trees Initiative: Geospatial Analysis of the City and County of Los Angeles
    Advisor：Prof.John Wilson, Prof.Yi Qi, Prof. Beau MacDonald, University of Southern California
-- *2023.06 - 2023.08*,  Status and Optimization Strategies of Urban Greening Based on Remote Sensing Imagery and Deep Learning
+- *2023.06 - 2023.08*,  HSGI Work Book, Status and Optimization Strategies of Urban Greening 
    Advisor：Prof.Darren Ruddell and Prof. Diana Ter-Ghazaryan, University of Southern California
-- *2023.02 - 2023.05*, Vitally AI，intern experience
-   Assisted the CTO in dealing with the neural network that the core of generative artificial intelligence relies on: model selection, development, and adjustment.
-   Participated in the data engineering required for AI model fine-tuning; Learn the entire process of data collection, data cleaning, data training, and fine-tuning
+- *2023.02 - 2023.05*, Fine-Tuning the Stable Diffusion Model: Integrating DreamBooth and LoRA for Specialized Style Image Generation
+   Advisor：Yizhen Jiang, CTO, Vitally AI
 - *2021.01 - 2021.06*, Experiments for Federated learning for COVID-19 Chest X-ray Images
    Advisor：Prof. Cheng Jieren, Hainan University
 - *2020.03 - 2020.08*, COVID-19 Public Opinion and Emotion Monitoring System
