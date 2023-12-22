@@ -28,23 +28,23 @@ Current ongoing research includes research on geographic privacy using LLMs and 
 
 # 💻 Research Experiences
 - *2023.11 - now*, Seeing from reading: How well does GPT comprehend remote sensing images?
-   Advisor：Prof.Xiao Huang, Emory University 
+-  Advisor：Prof.Xiao Huang, Emory University 
 - *2023.11 - now*, GeoLocator: a location-integrated large multimodal model for inferring geo-privacy
-   Advisor：Prof.Siqin Wang, University of Southern California
+-  Advisor：Prof.Siqin Wang, University of Southern California
 - *2023.10 - now*, Application of AI in the ecosystem
-   Advisor：Prof.Chang Zhao, University of Florida
+-  Advisor：Prof.Chang Zhao, University of Florida
 - *2023.08 - now*, Phase III of the USC Urban Trees Initiative: Geospatial Analysis of the City and County of Los Angeles
-   Advisor：Prof.John Wilson, Prof.Yi Qi, Prof. Beau MacDonald, University of Southern California
-- *2023.06 - 2023.08*,  HSGI Work Book, Status and Optimization Strategies of Urban Greening 
-   Advisor：Prof.Darren Ruddell and Prof. Diana Ter-Ghazaryan, University of Southern California
+-  Advisor：Prof.John Wilson, Prof.Yi Qi, Prof. Beau MacDonald, University of Southern California
+- *2023.06 - 2023.08*,  HSGI Work Book, Status and Optimization Strategies of Urban Greening
+-  Advisor：Prof.Darren Ruddell and Prof. Diana Ter-Ghazaryan, University of Southern California
 - *2023.02 - 2023.05*, Fine-Tuning the Stable Diffusion Model: Integrating DreamBooth and LoRA for Specialized Style Image Generation
-   Advisor：Yizhen Jiang, CTO, Vitally AI
+-  Advisor：Yizhen Jiang, CTO, Vitally AI
 - *2021.01 - 2021.06*, Experiments for Federated learning for COVID-19 Chest X-ray Images
-   Advisor：Prof. Cheng Jieren, Hainan University
+-  Advisor：Prof. Cheng Jieren, Hainan University
 - *2020.03 - 2020.08*, COVID-19 Public Opinion and Emotion Monitoring System
-   Advisor：Prof. Cheng Jieren, Hainan University
+-  Advisor：Prof. Cheng Jieren, Hainan University
 - *2020.01 - 2020.03*, Big Data Algorithm Model and Its Application, CIS Project
-   Advisor：Prof. David P. Woodruff, Carnegie Mellon University
+-  Advisor：Prof. David P. Woodruff, Carnegie Mellon University
 
 # 📕 Publications
 - *[1]Yang, Yifan, Yixian Zhang, Daoyang Li, Shuju Sun, Junhong Duan, Junzhou He, Qingyang Wu, and Hao Liu. "Attention: Large Multimodal Model is Watching your Geo-privacy." arXiv preprint arXiv:2311.13018 (2023).
