@@ -29,12 +29,12 @@ Current ongoing research includes research on geographic privacy using LLMs and 
 # 💻 Research Experiences
 - *2023.11 - now*, Seeing from reading: How well does GPT comprehend remote sensing images?
 -  Advisor：Prof.Xiao Huang, Emory University 
-- *2023.11 - now*, GeoLocator: a location-integrated large multimodal model for inferring geo-privacy
--  Advisor：Prof.Siqin Wang, University of Southern California
 - *2023.10 - now*, Application of AI in the ecosystem
 -  Advisor：Prof.Chang Zhao, University of Florida
 - *2023.08 - now*, Phase III of the USC Urban Trees Initiative: Geospatial Analysis of the City and County of Los Angeles
 -  Advisor：Prof.John Wilson, Prof.Yi Qi, Prof. Beau MacDonald, University of Southern California
+- *2023.11 - 2024.01*, GeoLocator: a location-integrated large multimodal model for inferring geo-privacy
+-  Advisor：Prof.Siqin Wang, University of Southern California
 - *2023.06 - 2023.08*,  HSGI Work Book, Status and Optimization Strategies of Urban Greening
 -  Advisor：Prof.Darren Ruddell and Prof. Diana Ter-Ghazaryan, University of Southern California
 - *2023.02 - 2023.05*, Fine-Tuning the Stable Diffusion Model: Integrating DreamBooth and LoRA for Specialized Style Image Generation
