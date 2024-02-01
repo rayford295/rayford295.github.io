@@ -40,11 +40,12 @@ My name is Yifan Yang, and I am currently pursuing a master's degree in spatial 
 
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，April 16 - 20, 2024，Honolulu, Hawai'i
+  
 - *2024 LOS ANGELES GEOSPATIAL SUMMIT, February 23, 2024, Los Angeles, CA
-   GeoLocator: A Novel GeoAI Tool making World Travel without Barriers, Yifan Yang, Daoyang Li, Shuju Sun 
-   Storymap URL:https://storymaps.arcgis.com/stories/a34ffb2aacf74afdb3881b77be65064a
-   Urban tree Shade Model, Yifan Yang
-   Storymap URL:https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6
+-  GeoLocator: A Novel GeoAI Tool making World Travel without Barriers, Yifan Yang, Daoyang Li, Shuju Sun 
+-  Storymap URL:https://storymaps.arcgis.com/stories/a34ffb2aacf74afdb3881b77be65064a
+-  Urban tree Shade Model, Yifan Yang
+-  Storymap URL:https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6
 
   
 # 👑 Partial Honor
