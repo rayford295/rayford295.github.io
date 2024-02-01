@@ -25,10 +25,6 @@ My name is Yifan Yang, and I am currently pursuing a master's degree in spatial 
 - *2018.08 - 2022.05*, BS, Software Engineering, Hainan University, Haikou, Hainan, China
 
 # 💻 Current Research
-- *2023.11 - now*, Seeing from reading: How well does GPT comprehend remote sensing images?
--  Advisor：Prof.Xiao Huang, Emory University 
-- *2023.10 - now*, Application of AI in the ecosystem
--  Advisor：Prof.Chang Zhao, University of Florida
 - *2023.08 - now*, Phase III of the USC Urban Trees Initiative: Geospatial Analysis of the City and County of Los Angeles
 -  Advisor：Prof.John Wilson, Prof.Yi Qi, Prof. Beau MacDonald, University of Southern California
 
@@ -45,6 +41,10 @@ My name is Yifan Yang, and I am currently pursuing a master's degree in spatial 
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，April 16 - 20, 2024，Honolulu, Hawai'i
 - *2024 LOS ANGELES GEOSPATIAL SUMMIT, February 23, 2024, Los Angeles, CA
+   GeoLocator: A Novel GeoAI Tool making World Travel without Barriers, Yifan Yang, Daoyang Li, Shuju Sun 
+   Storymap URL:https://storymaps.arcgis.com/stories/a34ffb2aacf74afdb3881b77be65064a
+   Urban tree Shade Model, Yifan Yang
+   Storymap URL:https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6
 
   
 # 👑 Partial Honor
