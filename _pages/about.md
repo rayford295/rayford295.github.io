@@ -49,11 +49,12 @@ My name is Yifan Yang, and I am currently pursuing a master's degree in spatial 
 - *2024 LOS ANGELES GEOSPATIAL SUMMIT, February 23, 2024, Los Angeles, CA
 -  GeoLocator: A Novel GeoAI Tool making World Travel without Barriers, Yifan Yang, Daoyang Li, Shuju Sun 
 -  Storymap URL:https://storymaps.arcgis.com/stories/a34ffb2aacf74afdb3881b77be65064a
--  Urban tree Shade Model, Yifan Yang
+-  Urban tree Shade Model, Yifan Yang, winning
 -  Storymap URL:https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6
 
   
 # 👑 Partial Honor
+- *2024 Los Angeles Geopatial Summit ArcGIS Storymaps Competition Most Suitably Applied Analysis Methodology Using Map
 - *DNIIT(performance：EXCELLENT)
 - *The 9th China International "Internet +" College Students Innovation and Entrepreneurship Competition (Shanghai Division) Higher Education Main Track International Project Second Runner-up (Youguang Ushine - AI+ Multilingual Talent Service Platform" project)
 - *2020 National First Prize in the Computer Design Competition for Chinese College Students, Big Data Practice Competition
