@@ -54,7 +54,7 @@ My name is Yifan Yang, and I am currently pursuing a master's degree in spatial 
 
   
 # 👑 Partial Honor
-- *2024 Los Angeles Geopatial Summit ArcGIS Storymaps Competition Most Suitably Applied Analysis Methodology Using Map
+- *2024 Los Angeles Geospatial Summit ArcGIS Storymaps Competition Most Suitably Applied Analysis Methodology Using Map
 - *DNIIT(performance：EXCELLENT)
 - *The 9th China International "Internet +" College Students Innovation and Entrepreneurship Competition (Shanghai Division) Higher Education Main Track International Project Second Runner-up (Youguang Ushine - AI+ Multilingual Talent Service Platform" project)
 - *2020 National First Prize in the Computer Design Competition for Chinese College Students, Big Data Practice Competition
