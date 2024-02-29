@@ -28,7 +28,7 @@ My name is Yifan Yang, and I am currently pursuing a master's degree in spatial 
 - *2023.08 - now*, Phase III of the USC Urban Trees Initiative: Geospatial Analysis of the City and County of Los Angeles
 -  Advisor：Prof.John Wilson, Prof.Yi Qi, Prof. Beau MacDonald, University of Southern California
 - *2024.02 - now*, Heatwave and sentiment
--  Advisor：Prof. Siqin Wang
+-  Advisor：Prof. Siqin Wang, University of Southern California
 
 
 # 📕 Publications
@@ -43,8 +43,8 @@ My name is Yifan Yang, and I am currently pursuing a master's degree in spatial 
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，April 16 - 20, 2024，Honolulu, Hawai'i
 
-- *AGI Leap Summit 2024, SuperAGI, February 29, 2024, Virtual
--  Title: GeoLocator: a location-integrated large multimodal model for inferring geo-privacy
+- *AGI Leap Summit 2024, Multimodality, Paper Presentation，SuperAGI, February 29, 2024, Virtual
+-  Paper Title: GeoLocator: a location-integrated large multimodal model for inferring geo-privacy
 
 - *2024 LOS ANGELES GEOSPATIAL SUMMIT, February 23, 2024, Los Angeles, CA
 -  GeoLocator: A Novel GeoAI Tool making World Travel without Barriers, Yifan Yang, Daoyang Li, Shuju Sun 
