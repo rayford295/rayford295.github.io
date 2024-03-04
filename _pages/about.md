@@ -54,7 +54,7 @@ My name is Yifan Yang, and I am currently pursuing a master's degree in spatial 
 
   
 # 👑 Partial Honor
-- *2024 Nu Theta chapter of Gamma Theta Upsilon, lifetime GTU membership, the international geographic honor society Gamma Theta Upsilon
+- *Nu Theta chapter of Gamma Theta Upsilon, lifetime GTU membership, the international geographic honor society Gamma Theta Upsilon
 - *2024 Los Angeles Geospatial Summit ArcGIS Storymaps Competition Most Suitably Applied Analysis Methodology Using Map
 - *DNIIT(performance：EXCELLENT)
 - *The 9th China International "Internet +" College Students Innovation and Entrepreneurship Competition (Shanghai Division) Higher Education Main Track International Project Second Runner-up (Youguang Ushine - AI+ Multilingual Talent Service Platform" project)
