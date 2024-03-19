@@ -18,10 +18,10 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🗨 About Me
-My name is Yifan Yang, and I am currently pursuing a master's degree in spatial data science at the University of Southern California (https://www.usc.edu/). Before that, I got a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/). My current plan is to apply for a PhD in spatial science, geoAI, spatial analysis, machine learning and deep learning. This is also my interest. I hope to use computer science and spatial science to make some contributions to the world. I am also an AI4science enthusiast. My hobbies are basketball, football, poker, and talk shows.
+My name is Yifan Yang, and I am currently pursuing a master's degree in spatial data science at the University of Southern California (https://www.usc.edu/). Before that, I got a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/). My PhD research in spatial science, geoAI, spatial analysis, machine learning and deep learning. This is also my interest. I hope to use computer science and spatial science to make some contributions to the world. I am also an AI4science enthusiast. My hobbies are basketball, football, poker, and talk shows.
 
 # 📖 Educations
-- *2024.08 - 2028.05*, Phd, geography, Texas A&M University, College Station, TX, USA
+- *2024.08 - 2028.05*, Phd, Geography, Texas A&M University, College Station, TX, USA
 - *2022.08 - 2024.05*, MS, Spatial Data Science, University of Southern California, Los Angeles, CA, USA
 - *2018.08 - 2022.05*, BS, Software Engineering, Hainan University, Haikou, Hainan, China
 
