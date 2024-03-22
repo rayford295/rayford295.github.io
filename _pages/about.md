@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🗨 About Me
-My name is Yifan Yang, and I am currently pursuing a master's degree in spatial data science at the University of Southern California (https://www.usc.edu/). Before that, I got a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/). My PhD research in spatial science, geoAI, spatial analysis, machine learning and deep learning. This is also my interest. I hope to use computer science and spatial science to make some contributions to the world. I am also an AI4science enthusiast. My hobbies are basketball, football, poker, and talk shows.
+My name is Yifan Yang, and I am currently pursuing a master's degree in spatial data science at the University of Southern California (https://www.usc.edu/). During my master's degree, I worked in Dr. John Wilson's laboratory, studying urban tree shade models. I will join the Department of Geography at Texas A&M University in August 2024 and become a Phd student of Dr. Lei Zou. Dr. Lei Zou’s laboratory is Geospatial Exploration and Resolution (GEAR) Lab.(https://www.geoearlab.com), our research direction is to build AGI models for solving problems such as natural disasters, social media. And explainability and responsible AI. Before that, I got a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/). I hope to use computer science and spatial science to make some contributions to the world. I am also an AI4science enthusiast. My hobbies are basketball, football, poker, and talk shows.
 
 # 📖 Educations
 - *2024.08 - 2028.05*, Phd, Geography, Texas A&M University, College Station, TX, USA
