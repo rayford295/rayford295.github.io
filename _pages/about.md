@@ -22,14 +22,14 @@ My name is Yifan Yang, and I am currently pursuing a master's degree in spatial 
 
 # 📖 Educations
 - *2024.08 - 2028.05*, Phd, Geography, Texas A&M University, College Station, TX, USA
-- * Advisor: Prof.Lei Zou, Geospatial Exploration and Resolution (GEAR) Lab
+- Advisor: Prof.Lei Zou, Geospatial Exploration and Resolution (GEAR) Lab
     
 - *2022.08 - 2024.05*, MS, Spatial Data Science, University of Southern California, Los Angeles, CA, USA
-- * Advisor: Prof.John Wilson, USC Spatial Sciences Institute, USC Urban Trees Initiative
-- * Advisor: Prof. Siqin Wang, USC Spatial Sciences Institute
+- Advisor: Prof.John Wilson, USC Spatial Sciences Institute, USC Urban Trees Initiative
+- Advisor: Prof. Siqin Wang, USC Spatial Sciences Institute
     
 - *2018.08 - 2022.05*, BS, Software Engineering, Hainan University, Haikou, Hainan, China
-- * Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
+- Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
 # 💻 Current Research
 - *2023.08 - now*, Phase III of the USC Urban Trees Initiative: Geospatial Analysis of the City and County of Los Angeles
