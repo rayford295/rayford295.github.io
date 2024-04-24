@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🗨 About Me
-My name is Yifan Yang, and I am currently pursuing a master's degree in spatial data science at the University of Southern California (https://www.usc.edu/). During my master's degree, I worked in Dr. John Wilson's laboratory, studying urban tree shade models. I will join the Department of Geography at Texas A&M University in August 2024 and become a Phd student of Dr. Lei Zou. Dr. Lei Zou’s laboratory is Geospatial Exploration and Resolution (GEAR) Lab.(https://www.geoearlab.com), our research direction is to build AGI models for solving problems such as natural disasters, social media. And explainability and responsible AI. 
+My name is Yifan Yang, and I am currently pursuing a master's degree in spatial data science at the University of Southern California (https://www.usc.edu/). During my master's degree, I worked in Dr. John Wilson's laboratory, studying urban tree shade models. I will join the Department of Geography at Texas A&M University in August 2024 and become a Phd student of Dr. Lei Zou. Dr. Lei Zou’s laboratory is Geospatial Exploration and Resolution (GEAR) Lab.(https://www.geoearlab.com), our research direction is to build AGI models for solving problems such as natural disasters. We are also interested in explainability and responsible AI. 
 
 Before that, I got a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/). I hope to use computer science and spatial science to make some contributions to the world. I am also an AI4science enthusiast. My hobbies are basketball, football, poker, and talk shows.
 
@@ -33,9 +33,9 @@ Before that, I got a bachelor's degree in software engineering from Hainan Unive
 - *2018.08 - 2022.05*, BS, Software Engineering, Hainan University, Haikou, Hainan, China
 - Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
-# 💻 Current Research
+# 💻 Current and Past core Research
 - *2023.08 - now*, Phase III of the USC Urban Trees Initiative: Geospatial Analysis of the City and County of Los Angeles
--  Advisor：Prof.John Wilson, Prof.Yi Qi, Prof. Beau MacDonald, University of Southern California
+-  Advisor：Prof.John Wilson, Prof.Yi Qi, Beau MacDonald, University of Southern California
 - *2024.02 - now*, Heatwave and sentiment
 -  Advisor：Prof. Siqin Wang, University of Southern California
 
