@@ -34,11 +34,17 @@ Before that, I got a bachelor's degree in software engineering from Hainan Unive
 - Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
 # 💻 Current and Past core Research
-- *2023.08 - now*, Phase III of the USC Urban Trees Initiative: Geospatial Analysis of the City and County of Los Angeles
--  Advisor：Prof.John Wilson, Prof.Yi Qi, Beau MacDonald, University of Southern California
-- *2024.02 - now*, Heatwave and sentiment
+- *2024.02 - now*, Student Researcher
 -  Advisor：Prof. Siqin Wang, University of Southern California
+  
+- *2023.09 - 2024.04*, Master Student Researcher, USC Urban Trees Initiative
+-  Advisor：Prof.John Wilson, Prof.Yi Qi, Beau MacDonald, University of Southern California
+  
+- *2020.03 - 2021.06*, Vice President, Student Researcher，Robot and Artificial Intelligence Association HNU
+-  Advisor：Prof. Cheng Jieren, Hainan University
 
+- *2020.01 - 2020.03*, student, Big Data Algorithm Model and Its Application, CIS Project
+-  Advisor：Prof. David P. Woodruff, Carnegie Mellon University
 
 # 📕 Publications
 - *[1]Yang, Yifan, Siqin Wang, Daoyang Li, Yixian Zhang, Shuju Sun and Junzhou He. “GeoLocator: a location-integrated large multimodal model for inferring geo-privacy.” arXiv preprint arXiv:2311.13018 (2023).
@@ -48,6 +54,8 @@ Before that, I got a bachelor's degree in software engineering from Hainan Unive
 - *[3]Y. Zhang, J. Cheng, Y. Yang, H. Li, X. Zheng et al., "Covid-19 public opinion and emotion monitoring system based on time series thermal new word mining," Computers, Materials & Continua, vol. 64, no.3, pp. 1415–1434, 2020.
 
 - *[4] Shi, Chenyu, Ge Mou, Haoyuan Wang, Tianyu Liu, Yifan Yang, and Zhengyu Li. "Different Loss Functions Used in the Low-rank Approximation." International Core Journal of Engineering 6, no. 11 (2020): 360-368. (co-first author)
+
+- *[5] Wu, Q., Xu, Y., Xiao, T., Xiao, Y., Li, Y., Wang, T., ... & Yang, Y. (2024). Surveying Attitudinal Alignment Between Large Language Models Vs. Humans Towards 17 Sustainable Development Goals. arXiv preprint arXiv:2404.13885.
 
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，April 16 - 20, 2024，Honolulu, Hawai'i
