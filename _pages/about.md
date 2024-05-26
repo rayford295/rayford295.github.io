@@ -18,9 +18,11 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🗨 About Me
-My name is Yifan Yang, and I am currently pursuing a master's degree in spatial data science at the University of Southern California (https://www.usc.edu/). During my master's degree, I worked in Dr. John Wilson's laboratory, studying urban tree shade models. I will join the Department of Geography at Texas A&M University in August 2024 and become a Phd student of Dr. Lei Zou. Dr. Lei Zou’s laboratory is Geospatial Exploration and Resolution (GEAR) Lab.(https://www.geoearlab.com), our research direction is to build AGI models for solving problems such as natural disasters. We are also interested in explainability and responsible AI. 
+My name is Yifan Yang, and I will join the Department of Geography at Texas A&M University in August 2024 and become a doctoral student of Dr. Zou Lei. Dr. Zou Lei’s laboratory is the Geospatial Exploration and Resolution (GEAR) Lab(https://www.geoearlab.com). Our research direction is to establish AGI models to solve problems in geography and other fields. We are also interested in explainable and responsible AI and GIS. 
 
-Before that, I got a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/). I hope to use computer science and spatial science to make some contributions to the world. I am also an AI4science enthusiast. My hobbies are basketball, football, poker, and talk shows.
+Before entering PhD studies, I earned a master's degree in spatial data science from the University of Southern California (https://www.usc.edu/). During my master's degree, I worked in Dr. John Wilson's lab on models of urban tree shading(https://publicexchange.usc.edu/urban-trees-initiative/).
+
+Before graduate school, I received a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/).  I hope to use computer science and spatial science to make some contribution to the world. I am also an AI4science enthusiast. My hobbies are basketball🏀, football⚽, poker🎴 and talk show🎆.
 
 # 📖 Educations
 - *2024.08 - 2028.05*, Phd, Geography, Texas A&M University, College Station, TX, USA
@@ -34,14 +36,17 @@ Before that, I got a bachelor's degree in software engineering from Hainan Unive
 - Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
 # 💻 Current and Past core Research
-- *2024.02 - now*, Student Researcher
+- *2024.05 - now*, GeoAI course producer
+-  Advisor：Prof. Bo Zhao, University of Washington
+
+- *2024.02 - now*, Student Researcher, heatwave
 -  Advisor：Prof. Siqin Wang, University of Southern California
   
 - *2023.09 - 2024.04*, Master Student Researcher, USC Urban Trees Initiative
 -  Advisor：Prof.John Wilson, Prof.Yi Qi, Beau MacDonald, University of Southern California
   
 - *2020.03 - 2021.06*, Vice President, Student Researcher，Robot and Artificial Intelligence Association HNU
--  Advisor：Prof. Cheng Jieren, Hainan University
+-  Advisor：Prof.ieren Cheng, Hainan University
 
 - *2020.01 - 2020.03*, student, Big Data Algorithm Model and Its Application, CIS Project
 -  Advisor：Prof. David P. Woodruff, Carnegie Mellon University
