@@ -48,8 +48,12 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *2020.03 - 2021.06*, Vice President, Student Researcher，Robot and Artificial Intelligence Association HNU
 -  Advisor：Prof.ieren Cheng, Hainan University
 
-- *2020.01 - 2020.03*, student, Big Data Algorithm Model and Its Application, CIS Project
+- *2024.07 - 2024.08*, Teaching Assistant, Neoscholar, On site, shanghai
 -  Advisor：Prof. David P. Woodruff, Carnegie Mellon University
+-  Advisor：Prof. Raja Sooriamurthi, Carnegie Mellon University
+
+- *2020.01 - 2020.03*, student, Algorithms for Big Data, online
+- Advisor：Prof. David P. Woodruff, Carnegie Mellon University
 
 # 📕 Publications
 - *[1]Yang, Yifan, Siqin Wang, Daoyang Li, Yixian Zhang, Shuju Sun and Junzhou He. “GeoLocator: a location-integrated large multimodal model for inferring geo-privacy.” arXiv preprint arXiv:2311.13018 (2023).
