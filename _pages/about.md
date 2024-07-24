@@ -67,6 +67,9 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *[5] Wu, Q., Xu, Y., Xiao, T., Xiao, Y., Li, Y., Wang, T., ... & Yang, Y. (2024). Surveying Attitudinal Alignment Between Large Language Models Vs. Humans Towards 17 Sustainable Development Goals. arXiv preprint arXiv:2404.13885.
 
 # 🏘 Presentation
+- *The Symposium on Spatiotemporal Data Science, Pre-symposium Training Workshop, Washington DC, July 22, 2024(online)
+- Overview of GeoAI and Develop GeoAI Tools using ChatGPT with Dr.Siqin Wang
+
 - *American Association of Geographers Annual Meeting，April 16 - 20, 2024，Honolulu, Hawai'i
 -  Symposium on GeoAI and Deep Learning for Geospatial Research: Human-centered Geospatial Data Science III
 -  Paper Title: GeoLocator: a location-integrated large multimodal model for inferring geo-privacy
