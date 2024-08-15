@@ -56,7 +56,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - Advisor：Prof. David P. Woodruff, Carnegie Mellon University
 
 # 📕 Publications
-- *[1]Yang, Yifan, Siqin Wang, Daoyang Li, Yixian Zhang, Shuju Sun and Junzhou He. “GeoLocator: a location-integrated large multimodal model for inferring geo-privacy.” arXiv preprint arXiv:2311.13018 (2023).
+- *[1]Yang, Yifan, Siqin Wang, Daoyang Li, Shuju Sun, and Qingyang Wu. "GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy." Applied Sciences 14, no. 16 (2024): 7091.
   
 - *[2]Yan, Bingjie, Jun Wang, Jieren Cheng, Yize Zhou, Yixian Zhang, Yifan Yang, Li Liu, Haojiang Zhao, Chunjuan Wang, and Boyi Liu. "Experiments of federated learning for COVID-19 chest X-ray images." In Advances in Artificial Intelligence and Security: 7th International Conference, ICAIS 2021, Dublin, Ireland, July 19-23, 2021, Proceedings, Part II 7, pp. 41-53. Springer International Publishing, 2021.
   
