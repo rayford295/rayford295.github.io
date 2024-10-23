@@ -20,7 +20,7 @@ redirect_from:
 # 🗨 About Me
 My name is Yifan Yang, and I am a first-year Ph.D. student in the Department of Geography at Texas A&M University. I have the honor of working with my advisor, Dr. Lei Zou, in the Geospatial Exploration and Resolution (GEAR) Lab (https://www.geoearlab.com). My research focuses on the integration of Spatial Science and GeoAI, utilizing GIS & Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health. In addition, I am deeply committed to Responsible GIS and GeoAI, particularly in enhancing Explainable GeoAI for improved interpretability in decision-making across critical fields.
 
-Before entering PhD studies, I earned a master's degree in spatial data science from the University of Southern California (https://www.usc.edu/). During my master's degree, I worked in Dr. John Wilson's lab on models of urban tree shading(https://publicexchange.usc.edu/urban-trees-initiative/). and Dr. Siqin Wang gave me a lot of guidance.
+Before entering PhD studies, I earned a master's degree in spatial data science from the University of Southern California (https://www.usc.edu/). During my master's degree, I worked with Dr. John Wilson about urban tree(https://publicexchange.usc.edu/urban-trees-initiative/). and Dr. Siqin Wang gave me a lot of guidance.
 
 Before graduate school, I received a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/).  I hope to use computer science and spatial science to make some contribution to the world. I am also an AI4science enthusiast. My hobbies are basketball🏀, football⚽, poker🎴 and talk show🎆.
 
@@ -35,7 +35,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *2018.08 - 2022.05*, BS, Software Engineering, Hainan University, Haikou, Hainan, China
 - Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
-# 💻 Past core Research Teaching Experience
+# 💻 Past core Research
 - *2024.02 - 2024.08*, Student Researcher, heatwave INLA
 -  Advisor：Prof. Siqin Wang, University of Southern California
   
@@ -50,7 +50,9 @@ Before graduate school, I received a bachelor's degree in software engineering f
 -  GEOG232，lab section 501, 502, 505
 
 - *2024.07 - 2025.01*, Teaching Assistant, Neoscholar
+-  Machine Learning and Data Analysis
 -  Advisor：Prof. Raja Sooriamurthi(08, 10-now), Carnegie Mellon University
+-  Big Data Algorithm
 -  Advisor：Prof. David P. Woodruff(07-09), Carnegie Mellon University
 
 
