@@ -20,8 +20,7 @@ redirect_from:
 # 🗨 About Me
 My name is Yifan Yang, and I am a first-year Ph.D. student in the Department of Geography at Texas A&M University. I have the honor of working with my advisor, Dr. Lei Zou, in the Geospatial Exploration and Resolution (GEAR) Lab (https://www.geoearlab.com). My research focuses on the integration of Spatial Science and GeoAI, utilizing GIS & Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health. In addition, I am deeply committed to Responsible GIS and GeoAI, particularly in enhancing Explainable GeoAI for improved interpretability in decision-making across critical fields.
 
-Before entering PhD studies, I earned a master's degree in spatial data science from the University of Southern California (https://www.usc.edu/). During my master's degree, I worked in Dr. John Wilson's lab on models of urban tree
-shading(https://publicexchange.usc.edu/urban-trees-initiative/). and Dr. Siqin Wang gave me a lot of guidance.
+Before entering PhD studies, I earned a master's degree in spatial data science from the University of Southern California (https://www.usc.edu/). During my master's degree, I worked in Dr. John Wilson's lab on models of urban tree shading(https://publicexchange.usc.edu/urban-trees-initiative/). and Dr. Siqin Wang gave me a lot of guidance.
 
 Before graduate school, I received a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/).  I hope to use computer science and spatial science to make some contribution to the world. I am also an AI4science enthusiast. My hobbies are basketball🏀, football⚽, poker🎴 and talk show🎆.
 
@@ -36,8 +35,8 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *2018.08 - 2022.05*, BS, Software Engineering, Hainan University, Haikou, Hainan, China
 - Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
-# 💻 Current and Past core Research
-- *2024.02 - now*, Student Researcher, heatwave
+# 💻 Past core Research Teaching Experience
+- *2024.02 - 2024.08*, Student Researcher, heatwave INLA
 -  Advisor：Prof. Siqin Wang, University of Southern California
   
 - *2023.09 - 2024.04*, Master Student Researcher, USC Urban Trees Initiative
@@ -46,12 +45,14 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *2020.03 - 2021.06*, Vice President, Student Researcher，Robot and Artificial Intelligence Association HNU
 -  Advisor：Prof.ieren Cheng, Hainan University
 
-- *2024.07 - 2024.08*, Teaching Assistant, Neoscholar, On site, shanghai
--  Advisor：Prof. David P. Woodruff, Carnegie Mellon University
--  Advisor：Prof. Raja Sooriamurthi, Carnegie Mellon University
+# 👨‍🏫 Teaching Experience
+- *2024.08 - now*, Teaching Assistant, Texas A&M University
+-  GEOG232，lab section 501, 502, 505
 
-- *2020.01 - 2020.03*, student, Algorithms for Big Data, online
-- Advisor：Prof. David P. Woodruff, Carnegie Mellon University
+- *2024.07 - 2025.01*, Teaching Assistant, Neoscholar
+-  Advisor：Prof. Raja Sooriamurthi(08, 10-now), Carnegie Mellon University
+-  Advisor：Prof. David P. Woodruff(07-09), Carnegie Mellon University
+
 
 # 📕 Publications
 - *[1]Yang, Yifan, Siqin Wang, Daoyang Li, Shuju Sun, and Qingyang Wu. "GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy." Applied Sciences 14, no. 16 (2024): 7091.
@@ -65,6 +66,11 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *[5] Wu, Q., Xu, Y., Xiao, T., Xiao, Y., Li, Y., Wang, T., ... & Yang, Y. (2024). Surveying Attitudinal Alignment Between Large Language Models Vs. Humans Towards 17 Sustainable Development Goals. arXiv preprint arXiv:2404.13885.
 
 # 🏘 Presentation
+- *Spatial Data Science Symposium: Thematic Session
+- Geoprivacy Challenges and Solutions in the Digital Society
+- https://sdss2024.spatial-data-science.net/ts/zhang.html
+- GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy
+
 - *The Symposium on Spatiotemporal Data Science, Pre-symposium Training Workshop, Washington DC, July 22, 2024(online)
 - Overview of GeoAI and Develop GeoAI Tools using ChatGPT with Dr.Siqin Wang
 
