@@ -36,9 +36,6 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
 # 💻 Past core Research
-- *2024.02 - 2024.08*, Student Researcher, heatwave INLA
--  Advisor：Prof. Siqin Wang, University of Southern California
-  
 - *2023.09 - 2024.04*, Master Student Researcher, USC Urban Trees Initiative
 -  Advisor：Prof.John Wilson, Prof.Yi Qi, Beau MacDonald, University of Southern California
   
@@ -49,7 +46,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *2024.08 - now*, Teaching Assistant, Texas A&M University
 -  GEOG232，lab section 501, 502, 505
 
-- *2024.07 - 2025.01*, Teaching Assistant, Neoscholar
+- *2024.07 - now*, Teaching Assistant, Neoscholar
 -  Machine Learning and Data Analysis
 -  Advisor：Prof. Raja Sooriamurthi(08, 10-now), Carnegie Mellon University
 -  Big Data Algorithm
@@ -68,27 +65,19 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *[5] Wu, Q., Xu, Y., Xiao, T., Xiao, Y., Li, Y., Wang, T., ... & Yang, Y. (2024). Surveying Attitudinal Alignment Between Large Language Models Vs. Humans Towards 17 Sustainable Development Goals. arXiv preprint arXiv:2404.13885.
 
 # 🏘 Presentation
-- *Spatial Data Science Symposium: Thematic Session
-- Geoprivacy Challenges and Solutions in the Digital Society
+- *American Association of Geographers Annual Meeting，March 24 - 28, 2025，Detroit
+- https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23561
+  
+- *Spatial Data Science Symposium: Thematic Session, Geoprivacy Challenges and Solutions in the Digital Society
 - https://sdss2024.spatial-data-science.net/ts/zhang.html
-- GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy
 
 - *The Symposium on Spatiotemporal Data Science, Pre-symposium Training Workshop, Washington DC, July 22, 2024(online)
-- Overview of GeoAI and Develop GeoAI Tools using ChatGPT with Dr.Siqin Wang
 
 - *American Association of Geographers Annual Meeting，April 16 - 20, 2024，Honolulu, Hawai'i
--  Symposium on GeoAI and Deep Learning for Geospatial Research: Human-centered Geospatial Data Science III
--  Paper Title: GeoLocator: a location-integrated large multimodal model for inferring geo-privacy
 
 - *AGI Leap Summit 2024, Multimodality, Paper Presentation，SuperAGI, February 29, 2024, Virtual
--  Paper Title: GeoLocator: a location-integrated large multimodal model for inferring geo-privacy
 
 - *2024 LOS ANGELES GEOSPATIAL SUMMIT, February 23, 2024, Los Angeles, CA
--  GeoLocator: A Novel GeoAI Tool making World Travel without Barriers, Yifan Yang, Daoyang Li, Shuju Sun 
--  Storymap URL:https://storymaps.arcgis.com/stories/a34ffb2aacf74afdb3881b77be65064a
--  Urban tree Shade Model, Yifan Yang, winning
--  Storymap URL:https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6
-
   
 # 👑 Partial Honor
 - *Nu Theta chapter of Gamma Theta Upsilon, lifetime membership, the international geographic honor society Gamma Theta Upsilon
