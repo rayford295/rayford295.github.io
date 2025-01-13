@@ -25,7 +25,7 @@ Before entering PhD studies, I earned a master's degree in spatial data science 
 Before graduate school, I received a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/).  I hope to use computer science and spatial science to make some contribution to the world. I am also an AI4science enthusiast. My hobbies are basketball🏀, football⚽, poker🎴 and talk show🎆.
 
 # 📖 Educations
-- *2024.08 - 2028.05*, Phd, Geography, Texas A&M University, College Station, TX, USA
+- *2024.08 - now*, Phd, Geography, Texas A&M University, College Station, TX, USA
 - Advisor: Prof.Lei Zou, Geospatial Exploration and Resolution (GEAR) Lab
     
 - *2022.08 - 2024.05*, MS, Spatial Data Science, University of Southern California, Los Angeles, CA, USA
@@ -43,14 +43,14 @@ Before graduate school, I received a bachelor's degree in software engineering f
 -  Advisor：Prof.ieren Cheng, Hainan University
 
 # 👨‍🏫 Teaching Experience
-- *2024.08 - now*, Teaching Assistant, Texas A&M University
+- *2024.08 - 2024.12*, Teaching Assistant, Texas A&M University
 -  GEOG232，lab section 501, 502, 505
 
 - *2024.07 - now*, Teaching Assistant, Neoscholar
 -  Machine Learning and Data Analysis
--  Advisor：Prof. Raja Sooriamurthi(08, 10-now), Carnegie Mellon University
+-  Advisor：Prof. Raja Sooriamurthi, Carnegie Mellon University
 -  Big Data Algorithm
--  Advisor：Prof. David P. Woodruff(07-09), Carnegie Mellon University
+-  Advisor：Prof. David P. Woodruff, Carnegie Mellon University
 
 
 # 📕 Publications
@@ -64,20 +64,29 @@ Before graduate school, I received a bachelor's degree in software engineering f
 
 - *[5] Wu, Q., Xu, Y., Xiao, T., Xiao, Y., Li, Y., Wang, T., ... & Yang, Y. (2024). Surveying Attitudinal Alignment Between Large Language Models Vs. Humans Towards 17 Sustainable Development Goals. arXiv preprint arXiv:2404.13885.
 
+- *[6] Wang, Y., Yin, H., Yang, Y., Zhao, C., & Wang, S. (2024). Navigating Spatial Inequities in Freight Truck Crash Severity via Counterfactual Inference in Los Angeles. arXiv preprint arXiv:2411.17554.
+
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，March 24 - 28, 2025，Detroit
 - https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23561
+- https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23718
+- https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104
+- https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/83465
   
 - *Spatial Data Science Symposium: Thematic Session, Geoprivacy Challenges and Solutions in the Digital Society
 - https://sdss2024.spatial-data-science.net/ts/zhang.html
 
 - *The Symposium on Spatiotemporal Data Science, Pre-symposium Training Workshop, Washington DC, July 22, 2024(online)
+- https://sdl.gis.harvard.edu/event/symposium-spatiotemporal-data-science-geoai-social-sciences
 
 - *American Association of Geographers Annual Meeting，April 16 - 20, 2024，Honolulu, Hawai'i
+- https://aag.secure-platform.com/aag2024/solicitations/57/sessiongallery/7825
 
 - *AGI Leap Summit 2024, Multimodality, Paper Presentation，SuperAGI, February 29, 2024, Virtual
+- https://superagi.com/agi-leap-summit/
 
 - *2024 LOS ANGELES GEOSPATIAL SUMMIT, February 23, 2024, Los Angeles, CA
+- https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit/
   
 # 👑 Partial Honor
 - *Nu Theta chapter of Gamma Theta Upsilon, lifetime membership, the international geographic honor society Gamma Theta Upsilon
