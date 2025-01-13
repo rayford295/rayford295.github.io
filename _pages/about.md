@@ -36,11 +36,14 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
 # 💻 Past core Research
+- *2025.01 - now*, Graduate Student Researcher, TAMU
+-  Advisor：Prof.Lei Zou, Texas A&M University
+  
 - *2023.09 - 2024.04*, Master Student Researcher, USC Urban Trees Initiative
 -  Advisor：Prof.John Wilson, Prof.Yi Qi, Beau MacDonald, University of Southern California
   
 - *2020.03 - 2021.06*, Vice President, Student Researcher，Robot and Artificial Intelligence Association HNU
--  Advisor：Prof.ieren Cheng, Hainan University
+-  Advisor：Prof.Renjie Cheng, Hainan University
 
 # 👨‍🏫 Teaching Experience
 - *2024.08 - 2024.12*, Teaching Assistant, Texas A&M University
