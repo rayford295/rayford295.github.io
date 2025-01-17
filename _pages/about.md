@@ -36,6 +36,9 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
 # 💻 Past core Research
+- *2025.01 - now*, Graduate Research Assistant，Geospatial Exploration and Resolution (GEAR) Lab
+- Advisor: Prof.Lei Zou,Texas A&M University
+- 
 - *2023.09 - 2024.04*, Master Student Researcher, USC Urban Trees Initiative
 -  Advisor：Prof.John Wilson, Prof.Yi Qi, Beau MacDonald, University of Southern California
   
@@ -46,7 +49,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *2024.08 - 2024.12*, Teaching Assistant, Texas A&M University
 -  GEOG232，lab section 501, 502, 505
 
-- *2024.07 - now*, Teaching Assistant, Neoscholar
+- *2024.07 - 2024.08*, Teaching Assistant, Neoscholar，Shanghai
 -  Machine Learning and Data Analysis
 -  Advisor：Prof. Raja Sooriamurthi, Carnegie Mellon University
 -  Big Data Algorithm
