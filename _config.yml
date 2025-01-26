@@ -25,7 +25,7 @@ author:
   avatar           : "imagesimg-min.PNG"
   bio              : ""
   location         : "Los Angeles, CA"
-  employer         :
+  employer         : "Texas A&M University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=B-fiSHwAAAAJ"
   email            : "yyf990925@gmail.com"
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : "yifan-yang-14a898186"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/my-orcid?orcid=0009-0009-9496-6925"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
