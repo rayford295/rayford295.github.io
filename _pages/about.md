@@ -38,7 +38,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
 # 💻 Past core Research
 - *2025.01 - now*, Graduate Research Assistant，Geospatial Exploration and Resolution (GEAR) Lab
 - Advisor: Prof.Lei Zou,Texas A&M University
-- 
+
 - *2023.09 - 2024.04*, Master Student Researcher, USC Urban Trees Initiative
 -  Advisor：Prof.John Wilson, Prof.Yi Qi, Beau MacDonald, University of Southern California
   
