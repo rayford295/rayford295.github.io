@@ -116,10 +116,10 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *College students with the most innovative spirit and practical ability in Hainan University
 
 # 👔 Professional Activities and Service
-BOD member of GISphere (https://gisphere.info/), 2024-now
-Student Co-Director of Remote Sensing Specialty Group, American Association of Geographers, 2025-2027
-Student Co-Director of Hazards, Risks, and Disasters, American Association of Geographers, 2025-2027
-Vice President, Association of Robotics and Artificial Intelligence, Hainan University, 2021-2022                             
+- *BOD member of GISphere (https://gisphere.info/), 2024-now
+- *Student Co-Director of Remote Sensing Specialty Group, American Association of Geographers, 2025-2027
+- *Student Co-Director of Hazards, Risks, and Disasters, American Association of Geographers, 2025-2027
+- *Vice President, Association of Robotics and Artificial Intelligence, Hainan University, 2021-2022                             
 
 # 🌎 Miscellaneous
 [comment]: <> ( I am recording some of my works and thoughts in form of blog.)
