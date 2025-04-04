@@ -69,6 +69,8 @@ Before graduate school, I received a bachelor's degree in software engineering f
 
 - *[6] Wang, Y., Yin, H., Yang, Y., Zhao, C., & Wang, S. (2024). Navigating Spatial Inequities in Freight Truck Crash Severity via Counterfactual Inference in Los Angeles. arXiv preprint arXiv:2411.17554.
 
+- *[7] Gong, W., Ye, X., Wu, K., Jamonnak, S., Zhang, W., Yang, Y., & Huang, X. (2025). Integrating Spatiotemporal Vision Transformer into Digital Twins for High-Resolution Heat Stress Forecasting in Campus Environments. arXiv preprint arXiv:2502.09657.
+
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，March 24 - 28, 2025，Detroit
 - https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23561
@@ -92,6 +94,8 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit/
   
 # 👑 Partial Honor
+- *2025 AAG-GISSG Student Honors Paper Competition Honorable Mentions, Top 5 Run-up
+- *2025 AAG Applied Geography Student Travel Awards
 - *Nu Theta chapter of Gamma Theta Upsilon, lifetime membership, the international geographic honor society Gamma Theta Upsilon
 - *2024 Los Angeles Geospatial Summit ArcGIS Storymaps Competition Most Suitably Applied Analysis Methodology Using Map
 - *DNIIT(performance：EXCELLENT)
@@ -109,7 +113,13 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *Bronze Prize in Hainan Region of the Challenge Cup Student Entrepreneurship Plan Competition in 2020       
 - *Second Prize of the 14th iCAN International Innovation and Entrepreneurship Competition South China Region
 - *Hainan University First Class Comprehensive Scholarship
-- *College students with the most innovative spirit and practical ability in Hainan University                               
+- *College students with the most innovative spirit and practical ability in Hainan University
+
+# 👔 Professional Activities and Service
+BOD member of GISphere (https://gisphere.info/), 2024-now
+Student Co-Director of Remote Sensing Specialty Group, American Association of Geographers, 2025-2027
+Student Co-Director of Hazards, Risks, and Disasters, American Association of Geographers, 2025-2027
+Vice President, Association of Robotics and Artificial Intelligence, Hainan University, 2021-2022                             
 
 # 🌎 Miscellaneous
 [comment]: <> ( I am recording some of my works and thoughts in form of blog.)
