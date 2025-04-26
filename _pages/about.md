@@ -59,17 +59,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
 # 📕 Publications
 - *[1]Yang, Yifan, Siqin Wang, Daoyang Li, Shuju Sun, and Qingyang Wu. "GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy." Applied Sciences 14, no. 16 (2024): 7091.
   
-- *[2]Yan, Bingjie, Jun Wang, Jieren Cheng, Yize Zhou, Yixian Zhang, Yifan Yang, Li Liu, Haojiang Zhao, Chunjuan Wang, and Boyi Liu. "Experiments of federated learning for COVID-19 chest X-ray images." In Advances in Artificial Intelligence and Security: 7th International Conference, ICAIS 2021, Dublin, Ireland, July 19-23, 2021, Proceedings, Part II 7, pp. 41-53. Springer International Publishing, 2021.
-  
-- *[3]Y. Zhang, J. Cheng, Y. Yang, H. Li, X. Zheng et al., "Covid-19 public opinion and emotion monitoring system based on time series thermal new word mining," Computers, Materials & Continua, vol. 64, no.3, pp. 1415–1434, 2020.
-
-- *[4] Shi, Chenyu, Ge Mou, Haoyuan Wang, Tianyu Liu, Yifan Yang, and Zhengyu Li. "Different Loss Functions Used in the Low-rank Approximation." International Core Journal of Engineering 6, no. 11 (2020): 360-368. (co-first author)
-
-- *[5] Wu, Q., Xu, Y., Xiao, T., Xiao, Y., Li, Y., Wang, T., ... & Yang, Y. (2024). Surveying Attitudinal Alignment Between Large Language Models Vs. Humans Towards 17 Sustainable Development Goals. arXiv preprint arXiv:2404.13885.
-
-- *[6] Wang, Y., Yin, H., Yang, Y., Zhao, C., & Wang, S. (2024). Navigating Spatial Inequities in Freight Truck Crash Severity via Counterfactual Inference in Los Angeles. arXiv preprint arXiv:2411.17554.
-
-- *[7] Gong, W., Ye, X., Wu, K., Jamonnak, S., Zhang, W., Yang, Y., & Huang, X. (2025). Integrating Spatiotemporal Vision Transformer into Digital Twins for High-Resolution Heat Stress Forecasting in Campus Environments. arXiv preprint arXiv:2502.09657.
+- *[2]Yang, Y., Zou, L., Zhou, B., Li, D., Lin, B., Abedin, J., & Yang, M. (2025). Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models. arXiv preprint arXiv:2504.09066.
 
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，March 24 - 28, 2025，Detroit
