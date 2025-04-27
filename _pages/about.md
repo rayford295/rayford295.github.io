@@ -24,66 +24,94 @@ Before entering PhD studies, I earned a master's degree in spatial data science 
 
 Before graduate school, I received a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/).  I hope to use computer science and spatial science to make some contribution to the world. I am also an AI4science enthusiast. My hobbies are basketball🏀, football⚽, poker🎴 and talk show🎆.
 
-<span id="educations"></span>
+<style>
+  /* 图标统一样式：高度 1.4em，自动等比缩放 */
+  img.logo {
+    height: 1.4em;
+    width: auto;
+    vertical-align: middle;  /* 与文字垂直对齐 */
+    margin-right: 0.5em;     /* 图标与文字间距 */
+  }
+  /* 每条经历 / 教育的容器 */
+  .item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.6em;
+  }
+  .item .text {
+    line-height: 1.6;
+  }
+  /* 标题下的区块内缩进（可选） */
+  #educations, #experiences {
+    padding-left: 0.2em;
+  }
+</style>
 
-# 📖 Educations
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="images/tamu_logo.webp" alt="TAMU" height="18">
-  <div style="margin-left: 8px;">
-    <strong>Texas A&M University</strong><br>
-    Ph.D. in Geography, Aug. 2024 – Present<br>
-    Advisor: Prof. Lei Zou, Geospatial Exploration and Resolution (GEAR) Lab
+<!-- Educations -->
+<section id="educations">
+  <h2>📖 Educations</h2>
+
+  <div class="item">
+    <img src="images/tamu_logo.webp" alt="Texas A&M University logo" class="logo">
+    <div class="text">
+      <strong>Texas A&amp;M University</strong><br>
+      Ph.D. in Geography, Aug. 2024 – Present<br>
+      Advisor: Prof. Lei Zou, Geospatial Exploration and Resolution (GEAR) Lab
+    </div>
   </div>
-</div>
 
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="images/USC-Logo.png" alt="USC" height="18">
-  <div style="margin-left: 8px;">
-    <strong>University of Southern California</strong><br>
-    M.S. in Spatial Data Science, Aug. 2022 – May 2024<br>
-    Advisors: Prof. John Wilson, Prof. Siqin Wang
+  <div class="item">
+    <img src="images/USC-Logo.png" alt="USC logo" class="logo">
+    <div class="text">
+      <strong>University of Southern California</strong><br>
+      M.S. in Spatial Data Science, Aug. 2022 – May 2024<br>
+      Advisors: Prof. John Wilson, Prof. Siqin Wang
+    </div>
   </div>
-</div>
 
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="images/hainan_logo.jpeg" alt="Hainan University" height="18">
-  <div style="margin-left: 8px;">
-    <strong>Hainan University</strong><br>
-    B.S. in Software Engineering, Aug. 2018 – May 2022<br>
-    Advisor: Prof. Jieren Cheng
+  <div class="item">
+    <img src="images/hainan_logo.jpeg" alt="Hainan University logo" class="logo">
+    <div class="text">
+      <strong>Hainan University</strong><br>
+      B.S. in Software Engineering, Aug. 2018 – May 2022<br>
+      Advisor: Prof. Jieren Cheng
+    </div>
   </div>
-</div>
+</section>
 
-<span id="experiences"></span>
+<!-- Experiences -->
+<section id="experiences">
+  <h2>💻 Experiences</h2>
 
-# 💻 Experiences
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="images/tamu_logo.webp" alt="TAMU" height="18">
-  <div style="margin-left: 8px;">
-    <strong>Texas A&M University</strong><br>
-    Graduate Research Assistant, Jan. 2025 – Present<br>
-    Advisor: Prof. Lei Zou, GEAR Lab
+  <div class="item">
+    <img src="images/tamu_logo.webp" alt="Texas A&M University logo" class="logo">
+    <div class="text">
+      <strong>Texas A&amp;M University</strong><br>
+      Graduate Research Assistant, Jan. 2025 – Present<br>
+      Advisor: Prof. Lei Zou, GEAR Lab
+    </div>
   </div>
-</div>
 
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="images/tamu_logo.webp" alt="TAMU" height="18">
-  <div style="margin-left: 8px;">
-    <strong>Texas A&M University</strong><br>
-    Graduate Teaching Assistant, Aug. 2024 – Dec. 2024<br>
-    GEOG232, lab sections 501, 502, 505
+  <div class="item">
+    <img src="images/tamu_logo.webp" alt="Texas A&M University logo" class="logo">
+    <div class="text">
+      <strong>Texas A&amp;M University</strong><br>
+      Graduate Teaching Assistant, Aug. 2024 – Dec. 2024<br>
+      GEOG232, lab sections 501, 502, 505
+    </div>
   </div>
-</div>
 
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <img src="images/USC-Logo.png" alt="USC" height="18">
-  <div style="margin-left: 8px;">
-    <strong>University of Southern California</strong><br>
-    Master Student Researcher, Sept. 2023 – Apr. 2024<br>
-    USC Urban Trees Initiative<br>
-    Advisors: Prof. John Wilson, Prof. Yi Qi, Beau MacDonald
+  <div class="item">
+    <img src="images/USC-Logo.png" alt="USC logo" class="logo">
+    <div class="text">
+      <strong>University of Southern California</strong><br>
+      Master Student Researcher, Sept. 2023 – Apr. 2024<br>
+      USC Urban Trees Initiative<br>
+      Advisors: Prof. John Wilson, Prof. Yi Qi, Beau MacDonald
+    </div>
   </div>
-</div>
+</section>
+
 
 <span id="publications"></span>
 
