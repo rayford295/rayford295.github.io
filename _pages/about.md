@@ -37,9 +37,9 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *2018.08 - 2022.05*, BS, Software Engineering, Hainan University, Haikou, Hainan, China
 - Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
-<span id="experience"></span>
+<span id="experiences"></span>
 
-# 💻 Experience
+# 💻 Experiences
 - *2025.01 - now*, Graduate Research Assistant，Geospatial Exploration and Resolution (GEAR) Lab
 - Advisor: Prof.Lei Zou,Texas A&M University
 
