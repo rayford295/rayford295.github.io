@@ -15,14 +15,41 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<section id="about-me">
+  <h2>🗨 About Me</h2>
+  <p>
+    My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at Texas&nbsp;A&amp;M University.  
+    I have the honor of working with my advisor, <strong>Dr. Lei Zou</strong>, in the 
+    <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
+    My research focuses on the integration of Spatial Science and GeoAI—utilizing GIS &amp; Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health.  
+    I am also deeply committed to Responsible GIS and GeoAI, particularly in enhancing Explainable GeoAI for improved interpretability in decision-making.
+  </p>
+  <p>
+    Before entering PhD studies, I earned a master’s degree in Spatial Data Science from the 
+    <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.  
+    During my master’s I worked with Dr. John Wilson on the 
+    <a href="https://publicexchange.usc.edu/urban-trees-initiative/" target="_blank" rel="noopener">Urban Trees Initiative</a>, 
+    and received invaluable guidance from 
+    <a href="https://dornsife.usc.edu/spatial/profile/siqin-sisi-wang/" target="_blank" rel="noopener">Dr. Siqin Wang</a>.
+  </p>
+  <p>
+    Prior to graduate school, I received a bachelor’s degree in Software Engineering from 
+    <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a> in China.  
+    I hope to use computer science and spatial science to make a positive contribution to the world.  
+    I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, poker🎴, and talk shows🎆.
+  </p>
 
-# 🗨 About Me
-My name is Yifan Yang, and I am a first-year Ph.D. student in the Department of Geography at Texas A&M University. I have the honor of working with my advisor, Dr. Lei Zou, in the Geospatial Exploration and Resolution (GEAR) Lab (https://www.geoearlab.com). My research focuses on the integration of Spatial Science and GeoAI, utilizing GIS & Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health. In addition, I am deeply committed to Responsible GIS and GeoAI, particularly in enhancing Explainable GeoAI for improved interpretability in decision-making across critical fields.
+  <h3>Research Interests</h3>
+  <ul>
+    <li>Autonomous GeoAI Science</li>
+    <li>Spatial Data Science</li>
+    <li>GeoAI</li>
+    <li>AI4Science</li>
+    <li>GIScience</li>
+  </ul>
+</section>
 
-Before entering PhD studies, I earned a master's degree in spatial data science from the University of Southern California (https://www.usc.edu/). During my master's degree, I worked with Dr. John Wilson about urban tree(https://publicexchange.usc.edu/urban-trees-initiative/). and Dr. Siqin Wang gave me a lot of guidance.
 
-Before graduate school, I received a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/).  I hope to use computer science and spatial science to make some contribution to the world. I am also an AI4science enthusiast. My hobbies are basketball🏀, football⚽, poker🎴 and talk show🎆.
 
 <style>
   /* 每条记录的容器 */
@@ -138,30 +165,42 @@ Before graduate school, I received a bachelor's degree in software engineering f
   </div>
 </div>
 
-<span id="presentation"></span>
+<section id="presentation">
+  <h2>🏘 Presentation</h2>
+  <ul>
+    <li>
+      <em>American Association of Geographers Annual Meeting</em>, March 24 – 28, 2025, Detroit  
+      (<a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23561" target="_blank" rel="noopener">Session 23561</a>, 
+       <a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23718" target="_blank" rel="noopener">Session 23718</a>, 
+       <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104" target="_blank" rel="noopener">Detail 82104</a>, 
+       <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/83465" target="_blank" rel="noopener">Detail 83465</a>)
+    </li>
+    <li>
+      <em>Spatial Data Science Symposium: Thematic Session, Geoprivacy Challenges and Solutions in the Digital Society</em>  
+      (<a href="https://sdss2024.spatial-data-science.net/ts/zhang.html" target="_blank" rel="noopener">Session Details</a>)
+    </li>
+    <li>
+      <em>The Symposium on Spatiotemporal Data Science, Pre-symposium Training Workshop</em>, Washington DC, July 22, 2024 (online)  
+      (<a href="https://sdl.gis.harvard.edu/event/symposium-spatiotemporal-data-science-geoai-social-sciences" target="_blank" rel="noopener">Event Page</a>)
+    </li>
+    <li>
+      <em>American Association of Geographers Annual Meeting</em>, April 16 – 20, 2024, Honolulu, Hawai'i  
+      (<a href="https://aag.secure-platform.com/aag2024/solicitations/57/sessiongallery/7825" target="_blank" rel="noopener">Session 7825</a>)
+    </li>
+    <li>
+      <em>AGI Leap Summit 2024, Multimodality</em>, Paper Presentation, SuperAGI, February 29, 2024 (Virtual)  
+      (<a href="https://superagi.com/agi-leap-summit/" target="_blank" rel="noopener">Summit Website</a>)
+    </li>
+    <li>
+      <em>2024 Los Angeles Geospatial Summit</em>, February 23, 2024, Los Angeles, CA  
+      (<a href="https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit/" 
+          target="_blank" rel="noopener">
+        Event Article
+      </a>)
+    </li>
+  </ul>
+</section>
 
-
-# 🏘 Presentation
-- *American Association of Geographers Annual Meeting，March 24 - 28, 2025，Detroit
-- https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23561
-- https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23718
-- https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104
-- https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/83465
-  
-- *Spatial Data Science Symposium: Thematic Session, Geoprivacy Challenges and Solutions in the Digital Society
-- https://sdss2024.spatial-data-science.net/ts/zhang.html
-
-- *The Symposium on Spatiotemporal Data Science, Pre-symposium Training Workshop, Washington DC, July 22, 2024(online)
-- https://sdl.gis.harvard.edu/event/symposium-spatiotemporal-data-science-geoai-social-sciences
-
-- *American Association of Geographers Annual Meeting，April 16 - 20, 2024，Honolulu, Hawai'i
-- https://aag.secure-platform.com/aag2024/solicitations/57/sessiongallery/7825
-
-- *AGI Leap Summit 2024, Multimodality, Paper Presentation，SuperAGI, February 29, 2024, Virtual
-- https://superagi.com/agi-leap-summit/
-
-- *2024 LOS ANGELES GEOSPATIAL SUMMIT, February 23, 2024, Los Angeles, CA
-- https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit/
 
 <span id="partial-honor"></span>
 
