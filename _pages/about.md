@@ -8,103 +8,67 @@ redirect_from:
   - /about.html
 ---
 
-<section id="about-me">
-  <h2>🗨 About Me</h2>
-  <div class="about-content">
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }}</title>
+  <!-- 如果你有全局的样式表，也一并加载： -->
+  <!-- <link rel="stylesheet" href="/assets/css/main.css" /> -->
+
+  <!-- 把你的局部 CSS 放到这里 -->
+  <style>
+    /* 每条记录的容器 */
+    .item {
+      display: flex;
+      align-items: center;    /* ← 垂直居中 */
+      margin-bottom: 0.6em;
+    }
+    /* logo 大小统一 */
+    img.logo {
+      width: 2.5em;
+      height: 2.5em;
+      object-fit: contain;
+      vertical-align: middle;
+      margin-right: 0.5em;
+    }
+    .item .text {
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="about-me">
+    <h2>🗨 About Me</h2>
     <p>
-      My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at
-      <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas A&amp;M University</a>.
-      I have the honor of working with my advisor, <strong>Dr. Lei Zou</strong>, in the
-      <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.
-      My research focuses on the integration of Spatial Science and GeoAI—utilizing GIS & Remote Sensing for mapping and analyzing geographic patterns,
-      exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health.
+      My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at 
+      <a href="https://www.tamu.edu" target="_blank" rel="noopener"><strong>Texas&nbsp;A&amp;M University</strong></a>.  
+      I have the honor of working with my advisor, <strong>Dr. Lei Zou</strong>, in the 
+      <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
+      My research focuses on the integration of Spatial Science and GeoAI—utilizing GIS &amp; Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health.  
       I am also deeply committed to Responsible GIS and GeoAI, particularly in enhancing Explainable GeoAI for improved interpretability in decision-making.
     </p>
     <p>
-      Before entering PhD studies, I earned a master’s degree in Spatial Data Science from the
-      <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.
-      During my master’s I worked with
-      <a href="https://dornsife.usc.edu/spatial/profile/john-p-wilson/" target="_blank" rel="noopener">Dr. John P. Wilson</a>
-      on the Urban Trees Initiative, and received invaluable guidance from
+      Before entering PhD studies, I earned a master’s degree in Spatial Data Science from the 
+      <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.  
+      During my master’s I worked with 
+      <a href="https://dornsife.usc.edu/spatial/profile/john-p-wilson/" target="_blank" rel="noopener">Dr. John P. Wilson</a> on the 
+      <a href="https://publicexchange.usc.edu/urban-trees-initiative/" target="_blank" rel="noopener">Urban Trees Initiative</a>, 
+      and received invaluable guidance from 
       <a href="https://dornsife.usc.edu/spatial/profile/siqin-sisi-wang/" target="_blank" rel="noopener">Dr. Siqin Wang</a>.
     </p>
     <p>
-      Prior to graduate school, I received a bachelor’s degree in Software Engineering from
-      <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a> in China.
-      I hope to use computer science and spatial science to make a positive contribution to the world.
+      Prior to graduate school, I received a bachelor’s degree in Software Engineering from 
+      <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a> in China.  
+      I hope to use computer science and spatial science to make a positive contribution to the world.  
       I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, poker🎴, and talk shows🎆.
     </p>
     <p>
       <strong>Research interests:</strong> Autonomous GeoAI Science, Spatial Data Science, GeoAI, AI4Science, GIScience.
     </p>
-  </div>
-</section>
-
-<section id="education">
-  <h2>📖 Education</h2>
-  <div class="item">
-    <img class="logo" src="/images/tamu_logo.webp" alt="TAMU Logo">
-    <div class="text">
-      <strong>Texas A&amp;M University</strong><br>
-      Ph.D. in Geography, Aug 2024 – Present<br>
-      Advisor: Dr. Lei Zou
-    </div>
-  </div>
-  <div class="item">
-    <img class="logo" src="/images/usc_logo.png" alt="USC Logo">
-    <div class="text">
-      <strong>University of Southern California</strong><br>
-      M.S. in Spatial Data Science, Aug 2022 – May 2024<br>
-      Advisors: Dr. John P. Wilson &amp; Dr. Siqin Wang
-    </div>
-  </div>
-  <div class="item">
-    <img class="logo" src="/images/hainanu_logo.png" alt="Hainan University Logo">
-    <div class="text">
-      <strong>Hainan University</strong><br>
-      B.S. in Software Engineering, Sept 2016 – July 2020
-    </div>
-  </div>
-</section>
-
-<style>
-  /* 容器居中并限制最大宽度 */
-  #about-me, #education {
-    max-width: 700px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-  }
-
-  /* 区块标题 */
-  #about-me h2, #education h2 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
-  }
-
-  /* About Me 段落 */
-  .about-content p {
-    margin-bottom: 1rem;
-    line-height: 1.6;
-    font-size: 1rem;
-  }
-
-  /* 教育经历图标化 */
-  .item {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    margin-bottom: 1rem;
-  }
-  .item img.logo {
-    width: 32px;
-    height: 32px;
-    object-fit: contain;
-  }
-  .item .text {
-    line-height: 1.4;
-    font-size: 1rem;
-  }
-</style>
+  </section>
+</body>
+</html>
 
 <section id="educations">
   <h2>📖 Educations</h2>
