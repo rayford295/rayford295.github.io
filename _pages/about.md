@@ -42,7 +42,8 @@ redirect_from:
   <section id="about-me">
     <h2>🗨 About Me</h2>
     <p>
-      My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at Texas&nbsp;A&amp;M University.  
+      My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at 
+      <a href="https://www.tamu.edu" target="_blank" rel="noopener"><strong>Texas&nbsp;A&amp;M University</strong></a>.  
       I have the honor of working with my advisor, <strong>Dr. Lei Zou</strong>, in the 
       <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
       My research focuses on the integration of Spatial Science and GeoAI—utilizing GIS &amp; Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health.  
@@ -63,7 +64,9 @@ redirect_from:
       I hope to use computer science and spatial science to make a positive contribution to the world.  
       I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, poker🎴, and talk shows🎆.
     </p>
-
+    <p>
+      <strong>Research interests:</strong> Autonomous GeoAI Science, Spatial Data Science, GeoAI, AI4Science, GIScience.
+    </p>
   </section>
 </body>
 </html>
