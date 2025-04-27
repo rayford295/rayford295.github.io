@@ -64,9 +64,48 @@ Before graduate school, I received a bachelor's degree in software engineering f
 <span id="publications"></span>
 
 # 📕 Publications
-- *[1]Yang, Yifan, Siqin Wang, Daoyang Li, Shuju Sun, and Qingyang Wu. "GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy." Applied Sciences 14, no. 16 (2024): 7091.
-  
-- *[2]Yang, Y., Zou, L., Zhou, B., Li, D., Lin, B., Abedin, J., & Yang, M. (2025). Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models. arXiv preprint arXiv:2504.09066.
+<div class="pub-entry">
+  <img src="/images/0st_geolocator.png" alt="GeoLocator paper" class="pub-img">
+  <div class="pub-text">
+    <a href="https://www.mdpi.com/2076-3417/14/16/7091" target="_blank"><b>GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy</b></a><br>
+    <b>Yang, Yifan</b>, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu.<br>
+    <i>Applied Sciences</i>, 14(16), 7091, 2024.
+  </div>
+</div>
+
+<div class="pub-entry">
+  <img src="/images/1st_dual_channel.png" alt="Hyperlocal Disaster Damage Assessment paper" class="pub-img">
+  <div class="pub-text">
+    <a href="https://arxiv.org/abs/2504.09066" target="_blank"><b>Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models</b></a><br>
+    <b>Yang, Yifan</b>, Lei Zou, Bin Zhou, Daoyang Li, Boyuan Lin, Javed Abedin, Mengyang Yang.<br>
+    <i>arXiv preprint</i>, arXiv:2504.09066, 2025.
+  </div>
+</div>
+
+<style>
+.pub-entry {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+.pub-img {
+  width: 120px;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+.pub-text {
+  flex: 1;
+}
+.pub-text a {
+  font-size: 1.05em;
+  color: #0056b3;
+  text-decoration: none;
+}
+.pub-text a:hover {
+  text-decoration: underline;
+}
+</style>
 
 <span id="presentation"></span>
 
