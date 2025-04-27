@@ -64,50 +64,40 @@ Before graduate school, I received a bachelor's degree in software engineering f
 <span id="publications"></span>
 
 # 📕 Publications
-<div class="pub-entry">
-  <img src="/images/0st_geolocator.png" alt="GeoLocator paper" class="pub-img">
-  <div class="pub-text">
-    <a href="https://www.mdpi.com/2076-3417/14/16/7091" target="_blank"><b>GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy</b></a><br>
-    <b>Yang, Yifan</b>, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu.<br>
-    <i>Applied Sciences</i>, 14(16), 7091, 2024.
+# 📝 Publications
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Applied Sciences</div>
+      <img src='images/0st_geolocator.png' alt="GeoLocator" width="75%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy](https://www.mdpi.com/2076-3417/14/16/7091)  
+**Yang, Yifan**, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu.  
+*Applied Sciences*, 14(16), 7091, 2024.  
+[Paper Link](https://www.mdpi.com/2076-3417/14/16/7091)
   </div>
 </div>
 
-<div class="pub-entry">
-  <img src="/images/1st_dual_channel.png" alt="Hyperlocal Disaster Damage Assessment paper" class="pub-img">
-  <div class="pub-text">
-    <a href="https://arxiv.org/abs/2504.09066" target="_blank"><b>Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models</b></a><br>
-    <b>Yang, Yifan</b>, Lei Zou, Bin Zhou, Daoyang Li, Boyuan Lin, Javed Abedin, Mengyang Yang.<br>
-    <i>arXiv preprint</i>, arXiv:2504.09066, 2025.
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">arXiv</div>
+      <img src='images/1st_dual_channel.png' alt="Hyperlocal Disaster" width="75%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models](https://arxiv.org/abs/2504.09066)  
+**Yang, Yifan**, Lei Zou, Bin Zhou, Daoyang Li, Boyuan Lin, Javed Abedin, Mengyang Yang.  
+*arXiv preprint*, arXiv:2504.09066, 2025.  
+[arXiv Link](https://arxiv.org/abs/2504.09066)
   </div>
 </div>
 
-<style>
-.pub-entry {
-  display: flex;
-  margin-bottom: 20px;
-  align-items: flex-start;
-}
-.pub-img {
-  width: 120px;
-  height: auto;
-  margin-right: 15px;
-  border-radius: 8px;
-}
-.pub-text {
-  flex: 1;
-}
-.pub-text a {
-  font-size: 1.05em;
-  color: #0056b3;
-  text-decoration: none;
-}
-.pub-text a:hover {
-  text-decoration: underline;
-}
-</style>
-
-<span id="presentation"></span>
 
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，March 24 - 28, 2025，Detroit
