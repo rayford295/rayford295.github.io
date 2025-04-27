@@ -37,29 +37,17 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *2018.08 - 2022.05*, BS, Software Engineering, Hainan University, Haikou, Hainan, China
 - Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
-<span id="past-core-research"></span>
+<span id="experience"></span>
 
-# 💻 Past core Research
+# 💻 Experience
 - *2025.01 - now*, Graduate Research Assistant，Geospatial Exploration and Resolution (GEAR) Lab
 - Advisor: Prof.Lei Zou,Texas A&M University
 
-- *2023.09 - 2024.04*, Master Student Researcher, USC Urban Trees Initiative
--  Advisor：Prof.John Wilson, Prof.Yi Qi, Beau MacDonald, University of Southern California
-  
-- *2020.03 - 2021.06*, Vice President, Student Researcher，Robot and Artificial Intelligence Association HNU
--  Advisor：Prof.ieren Cheng, Hainan University
-
-<span id="teaching-experiences"></span>
-
-# 👨‍🏫 Teaching Experience
-- *2024.08 - 2024.12*, Teaching Assistant, Texas A&M University
+- *2024.08 - 2024.12*, Graduate Teaching Assistant, Texas A&M University
 -  GEOG232，lab section 501, 502, 505
 
-- *2024.07 - 2024.08*, Teaching Assistant, Neoscholar，Shanghai
--  Machine Learning and Data Analysis
--  Advisor：Prof. Raja Sooriamurthi, Carnegie Mellon University
--  Big Data Algorithm
--  Advisor：Prof. David P. Woodruff, Carnegie Mellon University
+- *2023.09 - 2024.04*, Master Student Researcher, USC Urban Trees Initiative
+-  Advisor：Prof.John Wilson, Prof.Yi Qi, Beau MacDonald, University of Southern California
 
 <span id="publications"></span>
 
