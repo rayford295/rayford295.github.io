@@ -24,6 +24,8 @@ Before entering PhD studies, I earned a master's degree in spatial data science 
 
 Before graduate school, I received a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/).  I hope to use computer science and spatial science to make some contribution to the world. I am also an AI4science enthusiast. My hobbies are basketball🏀, football⚽, poker🎴 and talk show🎆.
 
+<span id="educations"></span>
+
 # 📖 Educations
 - *2024.08 - now*, Phd, Geography, Texas A&M University, College Station, TX, USA
 - Advisor: Prof.Lei Zou, Geospatial Exploration and Resolution (GEAR) Lab
@@ -35,6 +37,8 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *2018.08 - 2022.05*, BS, Software Engineering, Hainan University, Haikou, Hainan, China
 - Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
 
+<span id="past-core-research"></span>
+
 # 💻 Past core Research
 - *2025.01 - now*, Graduate Research Assistant，Geospatial Exploration and Resolution (GEAR) Lab
 - Advisor: Prof.Lei Zou,Texas A&M University
@@ -44,6 +48,8 @@ Before graduate school, I received a bachelor's degree in software engineering f
   
 - *2020.03 - 2021.06*, Vice President, Student Researcher，Robot and Artificial Intelligence Association HNU
 -  Advisor：Prof.ieren Cheng, Hainan University
+
+<span id="teaching-experiences"></span>
 
 # 👨‍🏫 Teaching Experience
 - *2024.08 - 2024.12*, Teaching Assistant, Texas A&M University
@@ -55,11 +61,14 @@ Before graduate school, I received a bachelor's degree in software engineering f
 -  Big Data Algorithm
 -  Advisor：Prof. David P. Woodruff, Carnegie Mellon University
 
+<span id="publications"></span>
 
 # 📕 Publications
 - *[1]Yang, Yifan, Siqin Wang, Daoyang Li, Shuju Sun, and Qingyang Wu. "GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy." Applied Sciences 14, no. 16 (2024): 7091.
   
 - *[2]Yang, Y., Zou, L., Zhou, B., Li, D., Lin, B., Abedin, J., & Yang, M. (2025). Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models. arXiv preprint arXiv:2504.09066.
+
+<span id="presentation"></span>
 
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，March 24 - 28, 2025，Detroit
@@ -82,7 +91,9 @@ Before graduate school, I received a bachelor's degree in software engineering f
 
 - *2024 LOS ANGELES GEOSPATIAL SUMMIT, February 23, 2024, Los Angeles, CA
 - https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit/
-  
+
+<span id="partial-honor"></span>
+
 # 👑 Partial Honor
 - *2025 AAG-GISSG Student Honors Paper Competition Honorable Mentions, Top 5 Run-up
 - *2025 AAG Applied Geography Student Travel Awards
@@ -105,11 +116,15 @@ Before graduate school, I received a bachelor's degree in software engineering f
 - *Hainan University First Class Comprehensive Scholarship
 - *College students with the most innovative spirit and practical ability in Hainan University
 
+<span id="professional-activities-and-service"></span>
+
 # 👔 Professional Activities and Service
 - *BOD member of GISphere (https://gisphere.info/), 2024-now
 - *Student Co-Director of Remote Sensing Specialty Group, American Association of Geographers, 2025-2027
 - *Student Co-Director of Hazards, Risks, and Disasters, American Association of Geographers, 2025-2027
 - *Vice President, Association of Robotics and Artificial Intelligence, Hainan University, 2021-2022                             
+
+<span id="miscellaneous"></span>
 
 # 🌎 Miscellaneous
 [comment]: <> ( I am recording some of my works and thoughts in form of blog.)
