@@ -33,8 +33,8 @@ Before graduate school, I received a bachelor's degree in software engineering f
   }
   /* logo 大小统一 */
   img.logo {
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.9em;
+    height: 1.9em;
     object-fit: contain;
     vertical-align: middle;
     margin-right: 0.5em;
