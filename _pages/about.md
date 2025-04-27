@@ -68,7 +68,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
   <div class='paper-box-image'>
     <div>
       <div class="badge">Applied Sciences</div>
-      <img src='images/0st_geolocator.png' alt="GeoLocator" width="65%">
+      <img src='images/0st_geolocator.png' alt="GeoLocator" width="75%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -84,7 +84,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
   <div class='paper-box-image'>
     <div>
       <div class="badge">arXiv</div>
-      <img src='images/1st_dual_channel.png' alt="Hyperlocal Disaster" width="65%">
+      <img src='images/1st_dual_channel.png' alt="Hyperlocal Disaster" width="75%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -96,6 +96,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
   </div>
 </div>
 
+<span id="presentation"></span>
 
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，March 24 - 28, 2025，Detroit
