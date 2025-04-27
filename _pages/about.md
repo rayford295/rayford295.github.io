@@ -25,43 +25,39 @@ Before entering PhD studies, I earned a master's degree in spatial data science 
 Before graduate school, I received a bachelor's degree in software engineering from Hainan University in China (https://www.hainanu.edu.cn/).  I hope to use computer science and spatial science to make some contribution to the world. I am also an AI4science enthusiast. My hobbies are basketball🏀, football⚽, poker🎴 and talk show🎆.
 
 <style>
-  /* 图标统一样式：高度 1.4em，自动等比缩放 */
-  img.logo {
-    height: 1.4em;
-    width: auto;
-    vertical-align: middle;  /* 与文字垂直对齐 */
-    margin-right: 0.5em;     /* 图标与文字间距 */
-  }
-  /* 每条经历 / 教育的容器 */
+  /* 每条记录的容器 */
   .item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;    /* ← 中线对齐！ */
     margin-bottom: 0.6em;
   }
-  .item .text {
-    line-height: 1.6;
+  /* logo 大小统一 */
+  img.logo {
+    width: 1.2em;
+    height: 1.2em;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 0.5em;
   }
-  /* 标题下的区块内缩进（可选） */
-  #educations, #experiences {
-    padding-left: 0.2em;
+  .item .text {
+    line-height: 1.5;
   }
 </style>
 
-<!-- Educations -->
 <section id="educations">
   <h2>📖 Educations</h2>
 
   <div class="item">
-    <img src="images/tamu_logo.webp" alt="Texas A&M University logo" class="logo">
+    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
     <div class="text">
       <strong>Texas A&amp;M University</strong><br>
       Ph.D. in Geography, Aug. 2024 – Present<br>
-      Advisor: Prof. Lei Zou, Geospatial Exploration and Resolution (GEAR) Lab
+      Advisor: Prof. Lei Zou, GEAR Lab
     </div>
   </div>
 
   <div class="item">
-    <img src="images/USC-Logo.png" alt="USC logo" class="logo">
+    <img class="logo" src="images/USC-Logo.png" alt="USC logo">
     <div class="text">
       <strong>University of Southern California</strong><br>
       M.S. in Spatial Data Science, Aug. 2022 – May 2024<br>
@@ -70,7 +66,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
   </div>
 
   <div class="item">
-    <img src="images/hainan_logo.jpeg" alt="Hainan University logo" class="logo">
+    <img class="logo" src="images/hainan_logo.jpeg" alt="Hainan University logo">
     <div class="text">
       <strong>Hainan University</strong><br>
       B.S. in Software Engineering, Aug. 2018 – May 2022<br>
@@ -79,12 +75,11 @@ Before graduate school, I received a bachelor's degree in software engineering f
   </div>
 </section>
 
-<!-- Experiences -->
 <section id="experiences">
   <h2>💻 Experiences</h2>
 
   <div class="item">
-    <img src="images/tamu_logo.webp" alt="Texas A&M University logo" class="logo">
+    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
     <div class="text">
       <strong>Texas A&amp;M University</strong><br>
       Graduate Research Assistant, Jan. 2025 – Present<br>
@@ -93,7 +88,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
   </div>
 
   <div class="item">
-    <img src="images/tamu_logo.webp" alt="Texas A&M University logo" class="logo">
+    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
     <div class="text">
       <strong>Texas A&amp;M University</strong><br>
       Graduate Teaching Assistant, Aug. 2024 – Dec. 2024<br>
@@ -102,7 +97,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
   </div>
 
   <div class="item">
-    <img src="images/USC-Logo.png" alt="USC logo" class="logo">
+    <img class="logo" src="images/USC-Logo.png" alt="USC logo">
     <div class="text">
       <strong>University of Southern California</strong><br>
       Master Student Researcher, Sept. 2023 – Apr. 2024<br>
@@ -111,7 +106,6 @@ Before graduate school, I received a bachelor's degree in software engineering f
     </div>
   </div>
 </section>
-
 
 <span id="publications"></span>
 
