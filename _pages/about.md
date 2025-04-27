@@ -64,13 +64,11 @@ Before graduate school, I received a bachelor's degree in software engineering f
 <span id="publications"></span>
 
 # 📕 Publications
-# 📝 Publications
-
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">Applied Sciences</div>
-      <img src='images/0st_geolocator.png' alt="GeoLocator" width="75%">
+      <img src='images/0st_geolocator.png' alt="GeoLocator" width="65%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -86,7 +84,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
   <div class='paper-box-image'>
     <div>
       <div class="badge">arXiv</div>
-      <img src='images/1st_dual_channel.png' alt="Hyperlocal Disaster" width="75%">
+      <img src='images/1st_dual_channel.png' alt="Hyperlocal Disaster" width="65%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
