@@ -4,25 +4,25 @@ main:
     url: "/#about-me"
 
   - title: "Educations"
-    url: "/#-educations"
+    url: "/#educations"
 
-  - title: "Past core Research"
-    url: "/#-Past core Research"
+  - title: "Past Core Research"
+    url: "/#past-core-research"
     
   - title: "Teaching Experiences"
-    url: "/#-Teaching experiences"
+    url: "/#teaching-experiences"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "Presentation"
-    url: "/#-Presentation"
+    url: "/#presentation"
 
   - title: "Partial Honor"
-    url: "/#-Partial Honor"
+    url: "/#partial-honor"
 
-  - title: "Professiona Activities and Service"
-    url: "/#-Professiona Activities and Service"
+  - title: "Professional Activities and Service"
+    url: "/#professional-activities-and-service"
 
   - title: "Miscellaneous"
-    url: "/#-miscellaneous"
+    url: "/#miscellaneous"
