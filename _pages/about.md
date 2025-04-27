@@ -3,73 +3,70 @@ permalink: /
 title: "Yifan Yang"
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }}</title>
+  <!-- 如果你有全局的样式表，也一并加载： -->
+  <!-- <link rel="stylesheet" href="/assets/css/main.css" /> -->
 
-<section id="about-me">
-  <h2>🗨 About Me</h2>
-  <p>
-    My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at Texas&nbsp;A&amp;M University.  
-    I have the honor of working with my advisor, <strong>Dr. Lei Zou</strong>, in the 
-    <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
-    My research focuses on the integration of Spatial Science and GeoAI—utilizing GIS &amp; Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health.  
-    I am also deeply committed to Responsible GIS and GeoAI, particularly in enhancing Explainable GeoAI for improved interpretability in decision-making.
-  </p>
-  <p>
-    Before entering PhD studies, I earned a master’s degree in Spatial Data Science from the 
-    <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.  
-    During my master’s I worked with Dr. John Wilson on the 
-    <a href="https://publicexchange.usc.edu/urban-trees-initiative/" target="_blank" rel="noopener">Urban Trees Initiative</a>, 
-    and received invaluable guidance from 
-    <a href="https://dornsife.usc.edu/spatial/profile/siqin-sisi-wang/" target="_blank" rel="noopener">Dr. Siqin Wang</a>.
-  </p>
-  <p>
-    Prior to graduate school, I received a bachelor’s degree in Software Engineering from 
-    <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a> in China.  
-    I hope to use computer science and spatial science to make a positive contribution to the world.  
-    I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, poker🎴, and talk shows🎆.
-  </p>
+  <!-- 把你的局部 CSS 放到这里 -->
+  <style>
+    /* 每条记录的容器 */
+    .item {
+      display: flex;
+      align-items: center;    /* ← 垂直居中 */
+      margin-bottom: 0.6em;
+    }
+    /* logo 大小统一 */
+    img.logo {
+      width: 2.5em;
+      height: 2.5em;
+      object-fit: contain;
+      vertical-align: middle;
+      margin-right: 0.5em;
+    }
+    .item .text {
+      line-height: 1.5;
+    }
+  </style>
+</head>
 
-  <h3>Research Interests</h3>
-  <ul>
-    <li>Autonomous GeoAI Science</li>
-    <li>Spatial Data Science</li>
-    <li>GeoAI</li>
-    <li>AI4Science</li>
-    <li>GIScience</li>
-  </ul>
-</section>
+<body>
+  <section id="about-me">
+    <h2>🗨 About Me</h2>
+    <p>
+      My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at Texas&nbsp;A&amp;M University.  
+      I have the honor of working with my advisor, <strong>Dr. Lei Zou</strong>, in the 
+      <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
+      My research focuses on the integration of Spatial Science and GeoAI—utilizing GIS &amp; Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health.  
+      I am also deeply committed to Responsible GIS and GeoAI, particularly in enhancing Explainable GeoAI for improved interpretability in decision-making.
+    </p>
+    <p>
+      Before entering PhD studies, I earned a master’s degree in Spatial Data Science from the 
+      <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.  
+      During my master’s I worked with 
+      <a href="https://dornsife.usc.edu/spatial/profile/john-p-wilson/" target="_blank" rel="noopener">Dr. John P. Wilson</a> on the 
+      <a href="https://publicexchange.usc.edu/urban-trees-initiative/" target="_blank" rel="noopener">Urban Trees Initiative</a>, 
+      and received invaluable guidance from 
+      <a href="https://dornsife.usc.edu/spatial/profile/siqin-sisi-wang/" target="_blank" rel="noopener">Dr. Siqin Wang</a>.
+    </p>
+    <p>
+      Prior to graduate school, I received a bachelor’s degree in Software Engineering from 
+      <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a> in China.  
+      I hope to use computer science and spatial science to make a positive contribution to the world.  
+      I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, poker🎴, and talk shows🎆.
+    </p>
 
-
-
-<style>
-  /* 每条记录的容器 */
-  .item {
-    display: flex;
-    align-items: center;    /* ← 中线对齐！ */
-    margin-bottom: 0.6em;
-  }
-  /* logo 大小统一 */
-  img.logo {
-    width: 2.5em;
-    height: 2.5em;
-    object-fit: contain;
-    vertical-align: middle;
-    margin-right: 0.5em;
-  }
-  .item .text {
-    line-height: 1.5;
-  }
-</style>
+  </section>
+</body>
+</html>
 
 <section id="educations">
   <h2>📖 Educations</h2>
@@ -226,13 +223,28 @@ redirect_from:
 - *Hainan University First Class Comprehensive Scholarship
 - *College students with the most innovative spirit and practical ability in Hainan University
 
-<span id="professional-activities-and-service"></span>
 
-# 👔 Professional Activities and Service
-- *BOD member of GISphere (https://gisphere.info/), 2024-now
-- *Student Co-Director of Remote Sensing Specialty Group, American Association of Geographers, 2025-2027
-- *Student Co-Director of Hazards, Risks, and Disasters, American Association of Geographers, 2025-2027
-- *Vice President, Association of Robotics and Artificial Intelligence, Hainan University, 2021-2022                             
+<section id="professional-activities-and-service">
+  <h2>👔 Professional Activities and Service</h2>
+  <ul>
+    <li>
+      <em>BOD member of <a href="https://gisphere.info/" target="_blank" rel="noopener">GISphere</a></em>, 2024 – Present
+    </li>
+    <li>
+      <em>Student Co-Director, Remote Sensing Specialty Group</em>,  
+      <a href="https://www.aag.org/" target="_blank" rel="noopener">American Association of Geographers</a>, 2025 – 2027
+    </li>
+    <li>
+      <em>Student Co-Director, Hazards, Risks, and Disasters</em>,  
+      <a href="https://www.aag.org/" target="_blank" rel="noopener">American Association of Geographers</a>, 2025 – 2027
+    </li>
+    <li>
+      <em>Vice President, Association of Robotics and Artificial Intelligence</em>,  
+      <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a>, 2021 – 2022
+    </li>
+  </ul>
+</section>
+                     
 
 <span id="miscellaneous"></span>
 
