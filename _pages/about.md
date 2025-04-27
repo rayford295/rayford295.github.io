@@ -27,27 +27,63 @@ Before graduate school, I received a bachelor's degree in software engineering f
 <span id="educations"></span>
 
 # 📖 Educations
-- *2024.08 - now*, Phd, Geography, Texas A&M University, College Station, TX, USA
-- Advisor: Prof.Lei Zou, Geospatial Exploration and Resolution (GEAR) Lab
-    
-- *2022.08 - 2024.05*, MS, Spatial Data Science, University of Southern California, Los Angeles, CA, USA
-- Advisor: Prof.John Wilson, USC Spatial Sciences Institute, USC Urban Trees Initiative
-- Advisor: Prof. Siqin Wang, USC Spatial Sciences Institute
-    
-- *2018.08 - 2022.05*, BS, Software Engineering, Hainan University, Haikou, Hainan, China
-- Advisor: Prof. Jieren Cheng, Robot and Artificial Intelligence Association for Hainan University
+<div style="display: flex; align-items: center; margin-bottom: 15px;">
+  <img src="images/tamu_logo.webp" alt="TAMU" height="30">
+  <div style="margin-left: 10px;">
+    <strong>Texas A&M University</strong><br>
+    Ph.D. in Geography, Aug. 2024 – Present<br>
+    Advisor: Prof. Lei Zou, Geospatial Exploration and Resolution (GEAR) Lab
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 15px;">
+  <img src="images/USC-Logo.png" alt="USC" height="30">
+  <div style="margin-left: 10px;">
+    <strong>University of Southern California</strong><br>
+    M.S. in Spatial Data Science, Aug. 2022 – May 2024<br>
+    Advisors: Prof. John Wilson, Prof. Siqin Wang
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 15px;">
+  <img src="images/hainan_logo.jpeg" alt="Hainan University" height="30">
+  <div style="margin-left: 10px;">
+    <strong>Hainan University</strong><br>
+    B.S. in Software Engineering, Aug. 2018 – May 2022<br>
+    Advisor: Prof. Jieren Cheng
+  </div>
+</div>
 
 <span id="experiences"></span>
 
 # 💻 Experiences
-- *2025.01 - now*, Graduate Research Assistant，Geospatial Exploration and Resolution (GEAR) Lab
-- Advisor: Prof.Lei Zou,Texas A&M University
+<div style="display: flex; align-items: center; margin-bottom: 15px;">
+  <img src="images/tamu_logo.webp" alt="TAMU" height="30">
+  <div style="margin-left: 10px;">
+    <strong>Texas A&M University</strong><br>
+    Graduate Research Assistant, Jan. 2025 – Present<br>
+    Advisor: Prof. Lei Zou, GEAR Lab
+  </div>
+</div>
 
-- *2024.08 - 2024.12*, Graduate Teaching Assistant, Texas A&M University
--  GEOG232，lab section 501, 502, 505
+<div style="display: flex; align-items: center; margin-bottom: 15px;">
+  <img src="images/tamu_logo.webp" alt="TAMU" height="30">
+  <div style="margin-left: 10px;">
+    <strong>Texas A&M University</strong><br>
+    Graduate Teaching Assistant, Aug. 2024 – Dec. 2024<br>
+    GEOG232, lab sections 501, 502, 505
+  </div>
+</div>
 
-- *2023.09 - 2024.04*, Master Student Researcher, USC Urban Trees Initiative
--  Advisor：Prof.John Wilson, Prof.Yi Qi, Beau MacDonald, University of Southern California
+<div style="display: flex; align-items: center; margin-bottom: 15px;">
+  <img src="images/USC-Logo.png" alt="USC" height="30">
+  <div style="margin-left: 10px;">
+    <strong>University of Southern California</strong><br>
+    Master Student Researcher, Sept. 2023 – Apr. 2024<br>
+    USC Urban Trees Initiative<br>
+    Advisors: Prof. John Wilson, Prof. Yi Qi, Beau MacDonald
+  </div>
+</div>
 
 <span id="publications"></span>
 
