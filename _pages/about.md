@@ -57,7 +57,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
   </div>
 
   <div class="item">
-    <img class="logo" src="images/USC-Logo.png" alt="USC logo">
+    <img class="logo" src="images/USC-Logo-cropped.png" alt="USC logo">
     <div class="text">
       <strong>University of Southern California</strong><br>
       M.S. in Spatial Data Science, Aug. 2022 – May 2024<br>
@@ -97,7 +97,7 @@ Before graduate school, I received a bachelor's degree in software engineering f
   </div>
 
   <div class="item">
-    <img class="logo" src="images/USC-Logo.png" alt="USC logo">
+    <img class="logo" src="images/USC-Logo-cropped.png" alt="USC logo">
     <div class="text">
       <strong>University of Southern California</strong><br>
       Master Student Researcher, Sept. 2023 – Apr. 2024<br>
