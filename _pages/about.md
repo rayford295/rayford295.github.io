@@ -67,36 +67,33 @@ Before graduate school, I received a bachelor's degree in software engineering f
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Applied Sciences</div>
-      <img src='images/0st_geolocator.png' alt="GeoLocator" width="75%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-[GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy](https://www.mdpi.com/2076-3417/14/16/7091)  
-**Yang, Yifan**, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu.  
-*Applied Sciences*, 14(16), 7091, 2024.  
-[Paper Link](https://www.mdpi.com/2076-3417/14/16/7091)
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
       <div class="badge">arXiv</div>
       <img src='images/1st_dual_channel.png' alt="Hyperlocal Disaster" width="75%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models](https://arxiv.org/abs/2504.09066)  
-**Yang, Yifan**, Lei Zou, Bin Zhou, Daoyang Li, Boyuan Lin, Javed Abedin, Mengyang Yang.  
-*arXiv preprint*, arXiv:2504.09066, 2025.  
-[arXiv Link](https://arxiv.org/abs/2504.09066)
+[Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models](https://arxiv.org/abs/2504.09066) **Yang, Yifan**, Lei Zou, Bin Zhou, Daoyang Li, Boyuan Lin, Javed Abedin, Mengyang Yang. *arXiv preprint*, arXiv:2504.09066, 2025. [arXiv Link](https://arxiv.org/abs/2504.09066)
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Applied Sciences</div>
+      <img src='images/0st_geolocator.png' alt="GeoLocator" width="75%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy](https://www.mdpi.com/2076-3417/14/16/7091) **Yang, Yifan**, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu. *Applied Sciences*, 14(16), 7091, 2024. [Paper Link](https://www.mdpi.com/2076-3417/14/16/7091)
+
   </div>
 </div>
 
 <span id="presentation"></span>
+
 
 # 🏘 Presentation
 - *American Association of Geographers Annual Meeting，March 24 - 28, 2025，Detroit
