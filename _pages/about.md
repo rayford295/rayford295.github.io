@@ -27,27 +27,27 @@ Before graduate school, I received a bachelor's degree in software engineering f
 <span id="educations"></span>
 
 # 📖 Educations
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
-  <img src="images/tamu_logo.webp" alt="TAMU" height="30">
-  <div style="margin-left: 10px;">
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="images/tamu_logo.webp" alt="TAMU" height="18">
+  <div style="margin-left: 8px;">
     <strong>Texas A&M University</strong><br>
     Ph.D. in Geography, Aug. 2024 – Present<br>
     Advisor: Prof. Lei Zou, Geospatial Exploration and Resolution (GEAR) Lab
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
-  <img src="images/USC-Logo.png" alt="USC" height="30">
-  <div style="margin-left: 10px;">
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="images/USC-Logo.png" alt="USC" height="18">
+  <div style="margin-left: 8px;">
     <strong>University of Southern California</strong><br>
     M.S. in Spatial Data Science, Aug. 2022 – May 2024<br>
     Advisors: Prof. John Wilson, Prof. Siqin Wang
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
-  <img src="images/hainan_logo.jpeg" alt="Hainan University" height="30">
-  <div style="margin-left: 10px;">
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="images/hainan_logo.jpeg" alt="Hainan University" height="18">
+  <div style="margin-left: 8px;">
     <strong>Hainan University</strong><br>
     B.S. in Software Engineering, Aug. 2018 – May 2022<br>
     Advisor: Prof. Jieren Cheng
@@ -57,27 +57,27 @@ Before graduate school, I received a bachelor's degree in software engineering f
 <span id="experiences"></span>
 
 # 💻 Experiences
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
-  <img src="images/tamu_logo.webp" alt="TAMU" height="30">
-  <div style="margin-left: 10px;">
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="images/tamu_logo.webp" alt="TAMU" height="18">
+  <div style="margin-left: 8px;">
     <strong>Texas A&M University</strong><br>
     Graduate Research Assistant, Jan. 2025 – Present<br>
     Advisor: Prof. Lei Zou, GEAR Lab
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
-  <img src="images/tamu_logo.webp" alt="TAMU" height="30">
-  <div style="margin-left: 10px;">
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="images/tamu_logo.webp" alt="TAMU" height="18">
+  <div style="margin-left: 8px;">
     <strong>Texas A&M University</strong><br>
     Graduate Teaching Assistant, Aug. 2024 – Dec. 2024<br>
     GEOG232, lab sections 501, 502, 505
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 15px;">
-  <img src="images/USC-Logo.png" alt="USC" height="30">
-  <div style="margin-left: 10px;">
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="images/USC-Logo.png" alt="USC" height="18">
+  <div style="margin-left: 8px;">
     <strong>University of Southern California</strong><br>
     Master Student Researcher, Sept. 2023 – Apr. 2024<br>
     USC Urban Trees Initiative<br>
