@@ -135,7 +135,7 @@ redirect_from:
 
 <span id="publications"></span>
 
-# 📕 Publications
+📕 Publications
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -200,32 +200,31 @@ redirect_from:
   </ul>
 </section>
 
-
-<span id="partial-honor"></span>
-
-# 👑 Partial Honors
-- 2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention (Top 5)
-- 2025 AAG Applied Geography Specialty Group — Student Travel Award
-- Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)
-- 2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology
-- DNIIT (Performance: Excellent)
-- Second Runner-up — 9th China International "Internet+" College Students Innovation and Entrepreneurship Competition (Shanghai Division) — International Project Category ("Youguang Ushine – AI+ Multilingual Talent Service Platform")
-- National First Prize — 2020 Computer Design Competition for Chinese College Students (Big Data Practice)
-- Third Prize — 10th MathorCup College Mathematical Modeling Challenge (2020)
-- Second Prize — 13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Region, 2020)
-- Third Prize — China–US Youth Creators Competition (Haikou Region, 2020)
-- Second Prize — 3rd China Youth Cup National University Student Mathematical Modeling Competition (2020)
-- Third Prize — 6th National Mobile Internet Innovation Competition (South China Region)
-- Third Prize — Innovation Group of the 2020 China University Computer Competition (Artificial Intelligence Track)
-- Third Prize — Finalist, Hainan Selection Competition of the 4th China Creative Wings Innovation Competition (2020)
-- Honorable Mention — 2020 Hainan Free Trade Port Entrepreneurship Competition
-- Silver Award — Hainan Creative Group, 6th China International "Internet+" Student Innovation and Entrepreneurship Competition
-- Bronze Prize — Hainan Region, Challenge Cup Student Entrepreneurship Plan Competition (2020)
-- Second Prize — 14th iCAN International Innovation and Entrepreneurship Competition (South China Region)
-- First-Class Comprehensive Scholarship — Hainan University
-- Recognized as "College Student with the Most Innovative Spirit and Practical Ability" — Hainan University
-
-
+<section id="partial-honors">
+  <h2>👑 Partial Honors</h2>
+  <ul>
+    <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention (Top 5)</li>
+    <li>2025 AAG Applied Geography Specialty Group — Student Travel Award</li>
+    <li>Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
+    <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology</li>
+    <li>DNIIT (Performance: Excellent)</li>
+    <li>Second Runner-up — 9th China International "Internet+" College Students Innovation and Entrepreneurship Competition (Shanghai Division) — International Project Category ("Youguang Ushine – AI+ Multilingual Talent Service Platform")</li>
+    <li>National First Prize — 2020 Computer Design Competition for Chinese College Students (Big Data Practice)</li>
+    <li>Third Prize — 10th MathorCup College Mathematical Modeling Challenge (2020)</li>
+    <li>Second Prize — 13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Region, 2020)</li>
+    <li>Third Prize — China–US Youth Creators Competition (Haikou Region, 2020)</li>
+    <li>Second Prize — 3rd China Youth Cup National University Student Mathematical Modeling Competition (2020)</li>
+    <li>Third Prize — 6th National Mobile Internet Innovation Competition (South China Region)</li>
+    <li>Third Prize — Innovation Group of the 2020 China University Computer Competition (Artificial Intelligence Track)</li>
+    <li>Third Prize — Finalist, Hainan Selection Competition of the 4th China Creative Wings Innovation Competition (2020)</li>
+    <li>Honorable Mention — 2020 Hainan Free Trade Port Entrepreneurship Competition</li>
+    <li>Silver Award — Hainan Creative Group, 6th China International "Internet+" Student Innovation and Entrepreneurship Competition</li>
+    <li>Bronze Prize — Hainan Region, Challenge Cup Student Entrepreneurship Plan Competition (2020)</li>
+    <li>Second Prize — 14th iCAN International Innovation and Entrepreneurship Competition (South China Region)</li>
+    <li>First-Class Comprehensive Scholarship — Hainan University</li>
+    <li>Recognized as "College Student with the Most Innovative Spirit and Practical Ability" — Hainan University</li>
+  </ul>
+</section>
 
 <section id="professional-activities-and-service">
   <h2>👔 Professional Activities and Service</h2>
@@ -248,13 +247,14 @@ redirect_from:
   </ul>
 </section>
                      
-
-<span id="miscellaneous"></span>
-
-# 🌎 Miscellaneous
-[comment]: <> ( I am recording some of my works and thoughts in form of blog.)
-I like basketball, football, and I watch many games. Favorite player is Messi
-
-<body>
+<section id="miscellaneous">
+  <h2>🌎 Miscellaneous</h2>
+  <p>I enjoy basketball, football, and following international sports. My favorite player is Messi.</p>
+  <div>
+    <a href="https://clustrmaps.com/site/1bvzy" title="Visit tracker" target="_blank" rel="noopener">
+      <img src="//www.clustrmaps.com/map_v2.png?d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA&cl=ffffff" alt="Visit Tracker Map">
+    </a>
+  </div>
+</section>
 <a href="https://clustrmaps.com/site/1bvzy"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA&cl=ffffff" /></a>
 </body>
