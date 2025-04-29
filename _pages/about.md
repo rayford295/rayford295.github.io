@@ -203,27 +203,28 @@ redirect_from:
 
 <span id="partial-honor"></span>
 
-# 👑 Partial Honor
-- *2025 AAG-GISSG Student Honors Paper Competition Honorable Mentions, Top 5 Run-up
-- *2025 AAG Applied Geography Student Travel Awards
-- *Nu Theta chapter of Gamma Theta Upsilon, lifetime membership, the international geographic honor society Gamma Theta Upsilon
-- *2024 Los Angeles Geospatial Summit ArcGIS Storymaps Competition Most Suitably Applied Analysis Methodology Using Map
-- *DNIIT(performance：EXCELLENT)
-- *The 9th China International "Internet +" College Students Innovation and Entrepreneurship Competition (Shanghai Division) Higher Education Main Track International Project Second Runner-up (Youguang Ushine - AI+ Multilingual Talent Service Platform" project)
-- *2020 National First Prize in the Computer Design Competition for Chinese College Students, Big Data Practice Competition
-- *The third prize of the 10th MathorCup College Mathematical Modeling Challenge in 2020                               
-- *2020 Second Prize of the 13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Autonomous Society)                            
-- *2020 China-US Youth Creators Competition, Haikou Region, Third Prize
-- *2020 Second Prize of the Third China Youth Cup National University Student Mathematical Modeling           
-- *Third Prize of the 6th National Mobile Internet Innovation Competition (South China Region)                           
-- *2020 China University Computer Competition - Third Prize in the Innovation Group of the Artificial Intelligence
-- *Third prize in the final of the Hainan Selection Competition of the 4th China Creative Wings Competition and the
-- *2020 Hainan Free Trade Port Entrepreneurship Competition
-- *Silver Award of Hainan Creative Group of the 6th China International "Internet+" Student Innovation and Entrepreneurship Competition
-- *Bronze Prize in Hainan Region of the Challenge Cup Student Entrepreneurship Plan Competition in 2020       
-- *Second Prize of the 14th iCAN International Innovation and Entrepreneurship Competition South China Region
-- *Hainan University First Class Comprehensive Scholarship
-- *College students with the most innovative spirit and practical ability in Hainan University
+# 👑 Partial Honors
+- 2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention (Top 5)
+- 2025 AAG Applied Geography Specialty Group — Student Travel Award
+- Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)
+- 2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology
+- DNIIT (Performance: Excellent)
+- Second Runner-up — 9th China International "Internet+" College Students Innovation and Entrepreneurship Competition (Shanghai Division) — International Project Category ("Youguang Ushine – AI+ Multilingual Talent Service Platform")
+- National First Prize — 2020 Computer Design Competition for Chinese College Students (Big Data Practice)
+- Third Prize — 10th MathorCup College Mathematical Modeling Challenge (2020)
+- Second Prize — 13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Region, 2020)
+- Third Prize — China–US Youth Creators Competition (Haikou Region, 2020)
+- Second Prize — 3rd China Youth Cup National University Student Mathematical Modeling Competition (2020)
+- Third Prize — 6th National Mobile Internet Innovation Competition (South China Region)
+- Third Prize — Innovation Group of the 2020 China University Computer Competition (Artificial Intelligence Track)
+- Third Prize — Finalist, Hainan Selection Competition of the 4th China Creative Wings Innovation Competition (2020)
+- Honorable Mention — 2020 Hainan Free Trade Port Entrepreneurship Competition
+- Silver Award — Hainan Creative Group, 6th China International "Internet+" Student Innovation and Entrepreneurship Competition
+- Bronze Prize — Hainan Region, Challenge Cup Student Entrepreneurship Plan Competition (2020)
+- Second Prize — 14th iCAN International Innovation and Entrepreneurship Competition (South China Region)
+- First-Class Comprehensive Scholarship — Hainan University
+- Recognized as "College Student with the Most Innovative Spirit and Practical Ability" — Hainan University
+
 
 
 <section id="professional-activities-and-service">
