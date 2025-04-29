@@ -256,5 +256,3 @@ redirect_from:
     </a>
   </div>
 </section>
-<a href="https://clustrmaps.com/site/1bvzy"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA&cl=ffffff" /></a>
-</body>
