@@ -133,36 +133,36 @@ redirect_from:
   </div>
 </section>
 
-<span id="publications"></span>
-
-📕 Publications
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
+<section id="publications">
+  <h2>📕 Publications</h2>
+  <div class="paper-box">
+    <div class="paper-box-image">
       <div class="badge">arXiv</div>
-      <img src='images/1st_dual_channel.png' alt="Hyperlocal Disaster" width="75%">
+      <img src="images/1st_dual_channel.png" alt="Hyperlocal Disaster" width="75%">
+    </div>
+    <div class="paper-box-text">
+      <a href="https://arxiv.org/abs/2504.09066" target="_blank" rel="noopener">
+        Hyperlocal Disaster Damage Assessment Using Bi-temporal Street-view Imagery and Pre-trained Vision Models
+      </a><br>
+      <strong>Yang, Yifan</strong>, Lei Zou, Bin Zhou, Daoyang Li, Boyuan Lin, Javed Abedin, Mengyang Yang. 
+      <em>arXiv preprint</em>, arXiv:2504.09066, 2025.
     </div>
   </div>
-  <div class='paper-box-text' markdown="1">
 
-[Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models](https://arxiv.org/abs/2504.09066) **Yang, Yifan**, Lei Zou, Bin Zhou, Daoyang Li, Boyuan Lin, Javed Abedin, Mengyang Yang. *arXiv preprint*, arXiv:2504.09066, 2025. [arXiv Link](https://arxiv.org/abs/2504.09066)
-
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
+  <div class="paper-box">
+    <div class="paper-box-image">
       <div class="badge">Applied Sciences</div>
-      <img src='images/0st_geolocator.png' alt="GeoLocator" width="75%">
+      <img src="images/0st_geolocator.png" alt="GeoLocator" width="75%">
+    </div>
+    <div class="paper-box-text">
+      <a href="https://www.mdpi.com/2076-3417/14/16/7091" target="_blank" rel="noopener">
+        GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy
+      </a><br>
+      <strong>Yang, Yifan</strong>, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu.
+      <em>Applied Sciences</em>, 14(16), 7091, 2024.
     </div>
   </div>
-  <div class='paper-box-text' markdown="1">
-
-[GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy](https://www.mdpi.com/2076-3417/14/16/7091) **Yang, Yifan**, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu. *Applied Sciences*, 14(16), 7091, 2024. [Paper Link](https://www.mdpi.com/2076-3417/14/16/7091)
-
-  </div>
-</div>
+</section>
 
 <section id="presentation">
   <h2>🏘 Presentation</h2>
