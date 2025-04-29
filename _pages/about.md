@@ -135,6 +135,7 @@ redirect_from:
 
 <section id="publications">
   <h2>📕 Publications</h2>
+
   <div class="paper-box">
     <div class="paper-box-image">
       <div class="badge">arXiv</div>
@@ -143,8 +144,7 @@ redirect_from:
     <div class="paper-box-text">
       <a href="https://arxiv.org/abs/2504.09066" target="_blank" rel="noopener">
         Hyperlocal Disaster Damage Assessment Using Bi-temporal Street-view Imagery and Pre-trained Vision Models
-      </a><br>
-      <strong>Yang, Yifan</strong>, Lei Zou, Bin Zhou, Daoyang Li, Boyuan Lin, Javed Abedin, Mengyang Yang. 
+      </a> — <strong>Yang, Yifan</strong>, Lei Zou, Bing Zhou, Daoyang Li, Binin Lin, Joynal Abedin, Mengyang Yang. 
       <em>arXiv preprint</em>, arXiv:2504.09066, 2025.
     </div>
   </div>
@@ -157,12 +157,12 @@ redirect_from:
     <div class="paper-box-text">
       <a href="https://www.mdpi.com/2076-3417/14/16/7091" target="_blank" rel="noopener">
         GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy
-      </a><br>
-      <strong>Yang, Yifan</strong>, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu.
+      </a> — <strong>Yang, Yifan</strong>, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu.
       <em>Applied Sciences</em>, 14(16), 7091, 2024.
     </div>
   </div>
 </section>
+
 
 <section id="presentation">
   <h2>🏘 Presentation</h2>
