@@ -42,8 +42,9 @@ redirect_from:
     <h2>🗨 About Me</h2>
     <p>
       My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at 
-      <a href="https://www.tamu.edu" target="_blank" rel="noopener"><strong>Texas&nbsp;A&amp;M University</strong></a>.  
-      I have the honor of working with my advisor, <strong>Dr. Lei Zou</strong>, in the 
+      <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>.  
+      I have the honor of working with my advisor, 
+      <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>, in the 
       <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
       My research focuses on the integration of Spatial Science and GeoAI—utilizing GIS &amp; Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health.  
       I am also deeply committed to Responsible GIS and GeoAI, particularly in enhancing Explainable GeoAI for improved interpretability in decision-making.
@@ -51,7 +52,7 @@ redirect_from:
     <p>
       Before entering PhD studies, I earned a master’s degree in Spatial Data Science from the 
       <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.  
-      During my master’s I worked with 
+      During my master’s, I worked with 
       <a href="https://dornsife.usc.edu/spatial/profile/john-p-wilson/" target="_blank" rel="noopener">Dr. John P. Wilson</a> on the 
       <a href="https://publicexchange.usc.edu/urban-trees-initiative/" target="_blank" rel="noopener">Urban Trees Initiative</a>, 
       and received invaluable guidance from 
@@ -68,7 +69,6 @@ redirect_from:
     </p>
   </section>
 </body>
-</html>
 
 <section id="educations">
   <h2>📖 Educations</h2>
