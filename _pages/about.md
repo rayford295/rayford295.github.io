@@ -40,6 +40,11 @@ redirect_from:
 <body>
   <section id="about-me">
     <h2>🗨 About Me</h2>
+    
+    <div style="text-align: center;">
+      <img src="https://github.com/rayford295/rayford295.github.io/blob/main/images/godfather.png?raw=true" alt="Profile Image" style="max-width: 300px; height: auto; border-radius: 10px;">
+    </div>
+    
     <p>
       My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at 
       <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>.  
