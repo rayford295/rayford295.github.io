@@ -37,49 +37,49 @@ redirect_from:
   </style>
 </head>
 
+
 <section id="about-me">
   <h2>🗨 About Me</h2>
 
-  <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
-    <img src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/godfather.png" 
-         alt="Profile Image" 
-         style="max-width: 200px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div>
+    <p>
+      My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at 
+      <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>.  
+      I have the honor of working with my advisor, 
+      <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>, in the 
+      <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
+      My research focuses on the integration of Spatial Science and GeoAI—utilizing GIS &amp; Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health.  
+      I am also deeply committed to Responsible GIS and GeoAI, particularly in enhancing Explainable GeoAI for improved interpretability in decision-making.
+    </p>
 
-    <div style="flex: 1;">
-      <p>
-        My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at 
-        <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>.  
-        I have the honor of working with my advisor, 
-        <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>, in the 
-        <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
-        My research focuses on the integration of Spatial Science and GeoAI—utilizing GIS &amp; Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health.  
-        I am also deeply committed to Responsible GIS and GeoAI, particularly in enhancing Explainable GeoAI for improved interpretability in decision-making.
-      </p>
+    <p>
+      Before entering PhD studies, I earned a master’s degree in Spatial Data Science from the 
+      <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.  
+      During my master’s, I worked with 
+      <a href="https://dornsife.usc.edu/spatial/profile/john-p-wilson/" target="_blank" rel="noopener">Dr. John P. Wilson</a> on the 
+      <a href="https://publicexchange.usc.edu/urban-trees-initiative/" target="_blank" rel="noopener">Urban Trees Initiative</a>, 
+      and received invaluable guidance from 
+      <a href="https://dornsife.usc.edu/spatial/profile/siqin-sisi-wang/" target="_blank" rel="noopener">Dr. Siqin Wang</a>.
+    </p>
 
-      <p>
-        Before entering PhD studies, I earned a master’s degree in Spatial Data Science from the 
-        <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.  
-        During my master’s, I worked with 
-        <a href="https://dornsife.usc.edu/spatial/profile/john-p-wilson/" target="_blank" rel="noopener">Dr. John P. Wilson</a> on the 
-        <a href="https://publicexchange.usc.edu/urban-trees-initiative/" target="_blank" rel="noopener">Urban Trees Initiative</a>, 
-        and received invaluable guidance from 
-        <a href="https://dornsife.usc.edu/spatial/profile/siqin-sisi-wang/" target="_blank" rel="noopener">Dr. Siqin Wang</a>.
-      </p>
+    <p>
+      Prior to graduate school, I received a bachelor’s degree in Software Engineering from 
+      <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a> in China.  
+      I hope to use computer science and spatial science to make a positive contribution to the world.  
+      I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, poker🎴, and talk shows🎆.
+    </p>
 
-      <p>
-        Prior to graduate school, I received a bachelor’s degree in Software Engineering from 
-        <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a> in China.  
-        I hope to use computer science and spatial science to make a positive contribution to the world.  
-        I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, poker🎴, and talk shows🎆.
-      </p>
+    <p>
+      <strong>Research interests:</strong> Autonomous GeoAI Science, Spatial Data Science, GeoAI, AI4Science, GIScience.
+    </p>
 
-      <p>
-        <strong>Research interests:</strong> Autonomous GeoAI Science, Spatial Data Science, GeoAI, AI4Science, GIScience.
-      </p>
+    <div style="text-align: center; margin-top: 30px;">
+      <img src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/godfather.png" 
+           alt="Profile Image" 
+           style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
     </div>
   </div>
 </section>
-
 
 
 <section id="educations">
