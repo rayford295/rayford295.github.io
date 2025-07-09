@@ -258,7 +258,30 @@ redirect_from:
     </li>
   </ul>
 </section>
-                     
+
+<section id="media-coverage">
+  <h2>📺 Media Coverage</h2>
+  <ul>
+    <li>
+      <a href="https://engineering.tamu.edu/news/2024/09/throwing-shade-at-heatwaves.html" target="_blank" rel="noopener">
+        🌡️ TAMU Engineering News: “Throwing Shade at Heatwaves”
+      </a>
+      <p style="margin-left: 1em;">
+        Featured in a Texas A&M Engineering article highlighting my research on mitigating urban heat through shade and geospatial analysis.
+      </p>
+    </li>
+    <li>
+      <a href="https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit" target="_blank" rel="noopener">
+        🗺️ Esri Blog: “Showcasing Innovation in GIS Education at the LA Geospatial Summit”
+      </a>
+      <p style="margin-left: 1em;">
+        Esri featured my project for demonstrating innovative uses of GIS and GeoAI at the Los Angeles Geospatial Summit.
+      </p>
+    </li>
+  </ul>
+</section>
+
+
 <section id="miscellaneous">
   <h2>🌎 Miscellaneous</h2>
   <p>I enjoy basketball, football, and following international sports. My favorite player is Messi.</p>
