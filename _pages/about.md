@@ -188,7 +188,8 @@ redirect_from:
     </li>
     <li>
       <em>Spatial Data Science Symposium: Thematic Session, Geoprivacy Challenges and Solutions in the Digital Society</em>  
-      (<a href="https://sdss2024.spatial-data-science.net/ts/zhang.html" target="_blank" rel="noopener">Session Details</a>)
+      (<a href="https://sdss2024.spatial-data-science.net/ts/zhang.html" target="_blank" rel="noopener">Session Details</a>, 
+       <a href="https://www.youtube.com/watch?v=6pOIemM9y6M&list=PLLPRl7FLqNFScodyhaN0j_y5JMx3H7TRg&index=5" target="_blank" rel="noopener">Watch Video</a>)
     </li>
     <li>
       <em>The Symposium on Spatiotemporal Data Science, Pre-symposium Training Workshop</em>, Washington DC, July 22, 2024 (online)  
