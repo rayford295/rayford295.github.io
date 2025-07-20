@@ -254,11 +254,16 @@ redirect_from:
       <a href="https://www.aag.org/" target="_blank" rel="noopener">American Association of Geographers</a>, 2025 – 2027
     </li>
     <li>
+      <em>Data Science Student Ambassador</em>,  
+      <a href="https://tamids.tamu.edu/2025/07/18/tamids-announces-2025-2026-cohort-of-student-ambassadors/" target="_blank" rel="noopener">Texas A&M Institute of Data Science (TAMIDS)</a>, 2025 – 2026
+    </li>
+    <li>
       <em>Vice President, Association of Robotics and Artificial Intelligence</em>,  
       <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a>, 2021 – 2022
     </li>
   </ul>
 </section>
+
 
 <section id="media-coverage">
   <h2>📺 Media Coverage</h2>
