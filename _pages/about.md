@@ -80,7 +80,7 @@ redirect_from:
     </div>
 
         <div style="text-align: center; margin-top: 30px;">
-      <img src="https://github.com/rayford295/rayford295/blob/main/camus.jpg" 
+      <img src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/camus.jpg" 
            alt="Profile Image" 
            style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
     </div>
