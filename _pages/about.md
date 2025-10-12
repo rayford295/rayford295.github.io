@@ -84,15 +84,28 @@ redirect_from:
            alt="Profile Image" 
            style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
     </div>
-     <!-- ✅ Update Time Button -->
-  <div style="text-align:center; margin-top:40px;">
-    <button 
-      onclick="document.getElementById('update-time').innerText = 'Last updated on: ' + new Date(document.lastModified).toLocaleString();" 
-      style="background-color:#004d80; color:white; border:none; border-radius:6px; padding:10px 18px; cursor:pointer; font-size:14px; box-shadow:0 3px 8px rgba(0,0,0,0.2);">
-      Show Last Update Time
-    </button>
-    <p id="update-time" style="margin-top:10px; font-size:14px; color:#555;"></p>
-  </div>
+<!-- ✅ Fancy Update Time Button -->
+<div style="text-align:center; margin-top:40px;">
+  <button 
+    onclick="showUpdateTime()" 
+    style="background:linear-gradient(90deg,#0078d7,#005fa3); color:white; border:none; border-radius:8px; padding:10px 22px; cursor:pointer; font-size:15px; font-weight:500; box-shadow:0 4px 10px rgba(0,0,0,0.25); transition:0.3s;">
+    💫 Show Last Update Time
+  </button>
+  <p id="update-time" style="margin-top:12px; font-size:14px; color:#666; opacity:0; transition:opacity 0.6s ease;"></p>
+</div>
+
+<script>
+  function showUpdateTime() {
+    const t = new Date(document.lastModified);
+    const formatted = t.toLocaleString('en-US', {
+      year: 'numeric', month: 'short', day: 'numeric',
+      hour: '2-digit', minute: '2-digit'
+    });
+    const p = document.getElementById('update-time');
+    p.innerHTML = "Last updated on " + formatted;
+    p.style.opacity = 1;
+  }
+</script>
   </div>
 
 
@@ -273,7 +286,7 @@ redirect_from:
     <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada</li>
     <li>2025 International Cartographic Conference (ICC), Vancouver, Canada — Best Student Paper Award</li>
     <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention (Top 5)</li>
-    <li>2025 AAG Applied Geography Specialty Group — Student Travel Award</li>
+    <li>2025 AAG Applied Geography Specialty Group — Student Travel Award, $196.</li>
     <li>2024 Travel Grant, Department of Geography, Texas A&M University, $1000.</li>
     <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
     <li>Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
