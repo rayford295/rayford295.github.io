@@ -78,7 +78,24 @@ redirect_from:
            alt="Profile Image" 
            style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
     </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+      <img src="https://github.com/rayford295/rayford295/blob/main/camus.jpg" 
+           alt="Profile Image" 
+           style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+    </div>
+     <!-- ✅ Update Time Button -->
+  <div style="text-align:center; margin-top:40px;">
+    <button 
+      onclick="document.getElementById('update-time').innerText = 'Last updated on: ' + new Date(document.lastModified).toLocaleString();" 
+      style="background-color:#004d80; color:white; border:none; border-radius:6px; padding:10px 18px; cursor:pointer; font-size:14px; box-shadow:0 3px 8px rgba(0,0,0,0.2);">
+      Show Last Update Time
+    </button>
+    <p id="update-time" style="margin-top:10px; font-size:14px; color:#555;"></p>
   </div>
+  </div>
+
+
 </section>
 
 
