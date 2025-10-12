@@ -84,6 +84,13 @@ redirect_from:
            alt="Profile Image" 
            style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
     </div>
+    </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+      <img src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/jackie.JPG" 
+           alt="Profile Image" 
+           style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+    </div>
 <!-- ✅ Fancy Update Time Button -->
 <div style="text-align:center; margin-top:40px;">
   <button 
