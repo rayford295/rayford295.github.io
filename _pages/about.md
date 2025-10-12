@@ -183,7 +183,7 @@ redirect_from:
 </section>
 
 <section id="publications">
-  <h2>📕 Publications</h2>
+  <h2>📕 Selected Publications</h2>
 
   <div class="paper-box">
     <div class="paper-box-image">
