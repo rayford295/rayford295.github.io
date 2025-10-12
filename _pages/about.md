@@ -251,10 +251,14 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
   <ul>
+    <li>Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
+    <li>Texas A&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track (2025–2026 cohort), TAMU, $2,000.</li>
     <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada</li>
     <li>2025 International Cartographic Conference (ICC), Vancouver, Canada — Best Student Paper Award</li>
     <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention (Top 5)</li>
     <li>2025 AAG Applied Geography Specialty Group — Student Travel Award</li>
+    <li>2024 Travel Grant, Department of Geography, Texas A&M University, $1000.</li>
+    <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
     <li>Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
     <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology</li>
     <li>DNIIT (Performance: Excellent)</li>
