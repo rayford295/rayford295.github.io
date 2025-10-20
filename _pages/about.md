@@ -364,6 +364,43 @@ redirect_from:
   </ul>
 </section>
 
+<section id="videos">
+  <h2>🎥 Videos</h2>
+  <ul>
+    <li>
+      <strong>🎓 USC Graduation Ceremony</strong>
+      <p style="margin-left: 1em;">
+        A short highlight from my 2024 USC Commencement Ceremony, where I received my Master’s degree in Spatial Data Science at the University of Southern California.
+      </p>
+      <div style="margin-left: 1em; margin-bottom: 1em;">
+        <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/30hsLMBgjcU?si=QZRSTSTG0jn2OVzQ"
+          title="USC Graduation Ceremony"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </div>
+    </li>
+
+    <li>
+      <strong>🪂 Skydiving Adventure — GoJump America</strong>
+      <p style="margin-left: 1em;">
+        A thrilling moment from my skydiving experience in California, capturing the excitement and beauty of freefall above the Pacific Ocean.
+      </p>
+      <div style="margin-left: 1em; margin-bottom: 1em;">
+        <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/w7AncQ7OeH4?si=0Z61Q_GexChCJzZb"
+          title="Skydiving Adventure — GoJump America"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </div>
+    </li>
+  </ul>
+</section>
+
 
 <section id="miscellaneous">
   <h2>🌎 Miscellaneous</h2>
