@@ -209,6 +209,25 @@ redirect_from:
       <em>Applied Sciences</em>, 14(16), 7091, 2024.
     </div>
   </div>
+  
+  <!-- New Book Chapter (corrected) -->
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div class="badge">Esri Press · Book Chapter</div>
+    <img src="images/object detection.png" alt="Object detection & segmentation of trees using Text SAM" width="75%">
+  </div>
+  <div class="paper-box-text">
+    <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world" target="_blank" rel="noopener">
+      Object detection and segmentation of trees using Text SAM in ArcGIS Online
+    </a> — <strong>Yang, Yifan</strong>, Dominic Borrelli.  
+    In: Darren Martin Ruddell &amp; Diana Ter-Ghazaryan (eds.), 
+    <em>Security First: Geospatial Workflows for a Safe and Equitable World</em>.  
+    Redlands, CA: Esri Press, 2025. ISBN: 9781589487857. (Chapter 7)
+    <br>
+    <a href="https://www.esri.com/content/dam/esrisites/en-us/esri-press/book-pages/toc/security-first.pdf" target="_blank" rel="noopener">Table of Contents</a>
+  </div>
+</div>
+
 </section>
 
 <section id="presentation">
@@ -433,7 +452,7 @@ redirect_from:
   padding-bottom: 52%; /* 控制视频高宽比例 */
   height: 0;
   overflow: hidden;
-  max-width: 480px; /* 视频整体宽度限制 */
+  max-width: 680px; /* 视频整体宽度限制 */
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.15);
