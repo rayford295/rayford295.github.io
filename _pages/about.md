@@ -365,15 +365,15 @@ redirect_from:
 </section>
 
 <section id="videos">
-  <h2>🎥 Videos</h2>
-  <ul>
+  <h2>🎬 Personal Moments — A glimpse into my journey beyond research</h2>
+  <ul class="video-list">
     <li>
       <strong>🎓 USC Graduation Ceremony</strong>
-      <p style="margin-left: 1em;">
+      <p>
         A short highlight from my 2024 USC Commencement Ceremony, where I received my Master’s degree in Spatial Data Science at the University of Southern California.
       </p>
-      <div style="margin-left: 1em; margin-bottom: 1em;">
-        <iframe width="560" height="315"
+      <div class="video-wrapper">
+        <iframe
           src="https://www.youtube.com/embed/30hsLMBgjcU?si=QZRSTSTG0jn2OVzQ"
           title="USC Graduation Ceremony"
           frameborder="0"
@@ -385,11 +385,11 @@ redirect_from:
 
     <li>
       <strong>🪂 Skydiving Adventure — GoJump America</strong>
-      <p style="margin-left: 1em;">
+      <p>
         A thrilling moment from my skydiving experience in California, capturing the excitement and beauty of freefall above the Pacific Ocean.
       </p>
-      <div style="margin-left: 1em; margin-bottom: 1em;">
-        <iframe width="560" height="315"
+      <div class="video-wrapper">
+        <iframe
           src="https://www.youtube.com/embed/w7AncQ7OeH4?si=0Z61Q_GexChCJzZb"
           title="Skydiving Adventure — GoJump America"
           frameborder="0"
@@ -400,6 +400,55 @@ redirect_from:
     </li>
   </ul>
 </section>
+
+<style>
+#videos {
+  margin-top: 40px;
+}
+
+#videos h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.video-list {
+  list-style: none;
+  padding: 0;
+}
+
+.video-list li {
+  margin-bottom: 40px;
+}
+
+.video-list p {
+  margin-left: 1em;
+  color: #444;
+  font-size: 0.95em;
+}
+
+/* 缩小视频比例，使页面更协调 */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 52%; /* 控制视频高宽比例 */
+  height: 0;
+  overflow: hidden;
+  max-width: 480px; /* 视频整体宽度限制 */
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 10px;
+}
+</style>
 
 
 <section id="miscellaneous">
