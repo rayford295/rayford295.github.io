@@ -61,8 +61,8 @@ redirect_from:
      Under the mentorship of 
      <a href="https://dornsife.usc.edu/spatial/profile/siqin-sisi-wang/" target="_blank" rel="noopener">Dr. Siqin Wang</a>,  
      I also completed a research internship at the 
-     <a href="https://datascience.harvard.edu/research/spatial-data-lab" target="_blank" rel="noopener">Harvard Spatial Data Lab</a>,  
-     which deepened my experience in Geospatial AI and interdisciplinary data science.
+     <a href="https://sdl.gis.harvard.edu/" target="_blank" rel="noopener">Spatial Data Lab, Harvard University</a>,  
+     which further strengthened my expertise in Geospatial AI and interdisciplinary data science.
      </p>
 
     <p>
