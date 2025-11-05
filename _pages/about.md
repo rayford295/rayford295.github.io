@@ -48,19 +48,22 @@ redirect_from:
       I have the honor of working with my advisor, 
       <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>, in the 
       <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
-      My research focuses on the integration of Spatial Science and GeoAI—utilizing GIS &amp; Remote Sensing for mapping and analyzing geographic patterns, exploring Disaster Resilience, understanding Climate Change impacts, and investigating Public Health.  
-      I am also deeply committed to Responsible GIS and GeoAI, particularly in enhancing Explainable GeoAI for improved interpretability in decision-making.
+      My research lies at the intersection of Responsible GIS and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making.
     </p>
 
     <p>
-      Before entering PhD studies, I earned a master’s degree in Spatial Data Science from the 
-      <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.  
-      During my master’s, I worked with 
-      <a href="https://dornsife.usc.edu/spatial/profile/john-p-wilson/" target="_blank" rel="noopener">Dr. John P. Wilson</a> on the 
-      <a href="https://publicexchange.usc.edu/urban-trees-initiative/" target="_blank" rel="noopener">Urban Trees Initiative</a>, 
-      and received invaluable guidance from 
-      <a href="https://dornsife.usc.edu/spatial/profile/siqin-sisi-wang/" target="_blank" rel="noopener">Dr. Siqin Wang</a>.
-    </p>
+     Before starting my Ph.D. studies, I earned a master’s degree in Spatial Data Science from the 
+     <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.  
+     During my master’s, I worked with 
+     <a href="https://dornsife.usc.edu/spatial/profile/john-p-wilson/" target="_blank" rel="noopener">Dr. John P. Wilson</a> on the 
+     <a href="https://publicexchange.usc.edu/urban-trees-initiative/" target="_blank" rel="noopener">Urban Trees Initiative</a>, 
+     where I explored geospatial approaches to urban sustainability.  
+     Under the mentorship of 
+     <a href="https://dornsife.usc.edu/spatial/profile/siqin-sisi-wang/" target="_blank" rel="noopener">Dr. Siqin Wang</a>,  
+     I also completed a research internship at the 
+     <a href="https://datascience.harvard.edu/research/spatial-data-lab" target="_blank" rel="noopener">Harvard Spatial Data Lab</a>,  
+     which deepened my experience in Geospatial AI and interdisciplinary data science.
+     </p>
 
     <p>
       Prior to graduate school, I received a bachelor’s degree in Software Engineering from 
@@ -308,11 +311,11 @@ redirect_from:
   <ul>
     <li>Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
     <li>Texas A&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track (2025–2026 cohort), TAMU, $2,000.</li>
-    <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada</li>
+    <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada, $2,100.</li>
     <li>2025 International Cartographic Conference (ICC), Vancouver, Canada — Best Student Paper Award</li>
-    <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention (Top 5)</li>
+    <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention, $200. (Top 5)</li>
     <li>2025 AAG Applied Geography Specialty Group — Student Travel Award, $196.</li>
-    <li>2024 Travel Grant, Department of Geography, Texas A&M University, $1000.</li>
+    <li>2024,25 Travel Grant, Department of Geography, Texas A&M University, totally $2100.</li>
     <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
     <li>Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
     <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology</li>
@@ -357,6 +360,16 @@ redirect_from:
       <em>Vice President, Association of Robotics and Artificial Intelligence</em>,  
       <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a>, 2021 – 2022
     </li>
+    <li>
+      <em>Reviewer for leading journals including:</em>
+      <ul style="margin-left: 1em;">
+        <li><em>ACM Transactions on Autonomous and Adaptive Systems</em></li>
+        <li><em>Computational Urban Science</em></li>
+        <li><em>International Journal of Applied Earth Observation and Geoinformation</em></li>
+        <li><em>International Journal of Geographical Information Science</em></li>
+        <li><em>International Journal of ITS Research</em></li>
+      </ul>
+    </li>
   </ul>
 </section>
 
@@ -378,6 +391,14 @@ redirect_from:
       </a>
       <p style="margin-left: 1em;">
         Esri featured my project for demonstrating innovative uses of GIS and GeoAI at the Los Angeles Geospatial Summit.
+      </p>
+    </li>
+    <li>
+      <a href="https://artsci.tamu.edu/research/updates/five-texas-am-researchers-join-national-climate-health-initiative.html" target="_blank" rel="noopener">
+        🌎 TAMU College of Arts & Sciences: “Five Texas A&M Researchers Join National Climate-Health Initiative”
+      </a>
+      <p style="margin-left: 1em;">
+        Featured as one of the five Texas A&M researchers contributing to a national effort connecting climate science and public health, highlighting my GeoAI-based research on climate resilience and environmental health.
       </p>
     </li>
   </ul>
