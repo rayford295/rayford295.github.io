@@ -50,7 +50,14 @@ redirect_from:
       <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
       My research lies at the intersection of Responsible GIS and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making.
     </p>
-
+    
+    <!-- 🌟 Added Vision Statement -->
+    <p style="font-style: italic; color: #4b5563; border-left: 4px solid #93c5fd; padding-left: 12px; margin-top: 10px;">
+      🔭 Vision: To transcend the boundaries of screens and make the real world our playground of intelligence — 
+      where AI, space, and humanity coexist and co-create.
+    </p>
+    <!-- End Vision -->
+    
     <p>
      Before starting my Ph.D. studies, I earned a master’s degree in Spatial Data Science from the 
      <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.  
