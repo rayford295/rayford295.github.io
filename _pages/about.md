@@ -79,16 +79,18 @@ redirect_from:
       I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, poker🎴, and talk shows🎆.
     </p>
 
-    <div style="text-align: center; margin-top: 30px;">
-  <img src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/Autonomous%20GeoAI%20Research%20Pathway%20for%20Disaster%20Resilience.png"
-       alt="Autonomous GeoAI Research Pathway"
-       style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-  </div>
+<div style="text-align: center; margin-top: 30px; margin-bottom: 35px;">
+  <img 
+    src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/Autonomous%20GeoAI%20Research%20Pathway%20for%20Disaster%20Resilience.png"
+    alt="Autonomous GeoAI Research Pathway"
+    style="max-width: 900px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"
+  >
+</div>
 
+<p>
+  <strong>Research interests:</strong> Autonomous GeoAI Science, Spatial Data Science, GeoAI, AI4Science, GIScience.
+</p>
 
-    <p>
-      <strong>Research interests:</strong> Autonomous GeoAI Science, Spatial Data Science, GeoAI, AI4Science, GIScience.
-    </p>
 
 
 <!-- ✅ Fancy Update Time Button -->
@@ -502,7 +504,7 @@ redirect_from:
            alt="Profile Image" 
            style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
     </div>
-    </div>
+
 
         <div style="text-align: center; margin-top: 30px;">
       <img src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/jackie.JPG" 
