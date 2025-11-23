@@ -309,13 +309,14 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
   <ul>
+    <li>2025 Texas A&M University GIS Day Student Paper Competition, Finalist.<li>
     <li>Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
     <li>Texas A&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track (2025–2026 cohort), TAMU, $2,000.</li>
     <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada, $2,100.</li>
     <li>2025 International Cartographic Conference (ICC), Vancouver, Canada — Best Student Paper Award</li>
     <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention, $200. (Top 5)</li>
     <li>2025 AAG Applied Geography Specialty Group — Student Travel Award, $196.</li>
-    <li>2024,25 Travel Grant, Department of Geography, Texas A&M University, totally $2100.</li>
+    <li>2024–2025 Travel Grant, Department of Geography, Texas A&M University, total amount: $2,100.</li>
     <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
     <li>Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
     <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology</li>
@@ -342,9 +343,6 @@ redirect_from:
   <h2>👔 Professional Activities and Service</h2>
   <ul>
     <li>
-      <em>BOD member of <a href="https://gisphere.info/" target="_blank" rel="noopener">GISphere</a></em>, 2024 – Present
-    </li>
-    <li>
       <em>Student Co-Director, Remote Sensing Specialty Group</em>,  
       <a href="https://www.aag.org/" target="_blank" rel="noopener">American Association of Geographers</a>, 2025 – 2027
     </li>
@@ -355,6 +353,13 @@ redirect_from:
     <li>
       <em>Data Science Student Ambassador</em>,  
       <a href="https://tamids.tamu.edu/2025/07/18/tamids-announces-2025-2026-cohort-of-student-ambassadors/" target="_blank" rel="noopener">Texas A&M Institute of Data Science (TAMIDS)</a>, 2025 – 2026
+    </li>
+    <li>
+      <em>Board Member, 
+      <a href="https://gisphere.info/" target="_blank" rel="noopener">GISphere</a>
+        (responsible for the 
+      <a href="https://space.bilibili.com/1043870260/" target="_blank" rel="noopener">GISalon Roundtable Series</a>)
+      </em>, 2024 – 2025
     </li>
     <li>
       <em>Vice President, Association of Robotics and Artificial Intelligence</em>,  
