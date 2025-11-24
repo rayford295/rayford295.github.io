@@ -239,7 +239,11 @@ redirect_from:
     <li><strong>AAG Annual Meetings</strong>
       <ul>
         <li>
-          <em>American Association of Geographers Annual Meeting</em>, March 24 – 28, 2025, Detroit  
+         <em>American Association of Geographers Annual Meeting</em>, March 17 – 21, 2026, San Francisco, California
+         (<a href="https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541" target="_blank" rel="noopener">Detail 90541</a>)
+        </li>
+        <li>
+          <em>American Association of Geographers Annual Meeting</em>, March 24 – 28, 2025, Detroit, Michigan  
           (<a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23561" target="_blank" rel="noopener">Session 23561</a>, 
            <a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23718" target="_blank" rel="noopener">Session 23718</a>, 
            <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104" target="_blank" rel="noopener">Detail 82104</a>, 
@@ -309,7 +313,7 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
   <ul>
-    <li>2025 Texas A&M University GIS Day Student Paper Competition, Finalist.<li>
+    <li>2025 Texas A&M University GIS Day Student Paper Competition, Finalist.</li>
     <li>Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
     <li>Texas A&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track (2025–2026 cohort), TAMU, $2,000.</li>
     <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada, $2,100.</li>
