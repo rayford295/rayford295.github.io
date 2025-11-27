@@ -42,14 +42,18 @@ redirect_from:
   <h2>🗨 About Me</h2>
 
   <div>
-    <p>
-      My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at 
-      <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>.  
-      I have the honor of working with my advisor, 
-      <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>, in the 
-      <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
-      My research lies at the intersection of Responsible GIS and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making.
-    </p>
+<p>
+  My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at 
+  <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>.  
+  I have the honor of working with my advisor, 
+  <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>, in the 
+  <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
+  My research lies at the intersection of Responsible GIS and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making.  
+  My doctoral committee members include 
+  <a href="https://artsci.tamu.edu/geography/contact/profiles/heng-cai.html" target="_blank" rel="noopener">Dr. Heng Cai</a>,  
+  <a href="https://directory.tamu.edu/people/cc0708b4ad1f2659c7095072dddc4c10/" target="_blank" rel="noopener">Dr. Andrew Klein</a>, and  
+  <a href="https://vztu.github.io/" target="_blank" rel="noopener">Dr. Zhengzhong Tu</a>.
+</p>
     
     <!-- 🌟 Added Vision Statement -->
     <p style="font-style: italic; color: #4b5563; border-left: 4px solid #93c5fd; padding-left: 12px; margin-top: 10px;">
@@ -314,15 +318,15 @@ redirect_from:
   <h2>👑 Partial Honors</h2>
   <ul>
     <li>2025 Texas A&M University GIS Day Student Paper Competition, Finalist.</li>
-    <li>Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
-    <li>Texas A&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track (2025–2026 cohort), TAMU, $2,000.</li>
+    <li>2025 Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
+    <li>2025-2026 Texas A&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track, TAMU, $2,000.</li>
     <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada, $2,100.</li>
     <li>2025 International Cartographic Conference (ICC), Vancouver, Canada — Best Student Paper Award</li>
     <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention, $200. (Top 5)</li>
     <li>2025 AAG Applied Geography Specialty Group — Student Travel Award, $196.</li>
     <li>2024–2025 Travel Grant, Department of Geography, Texas A&M University, total amount: $2,100.</li>
     <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
-    <li>Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
+    <li>2024 Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
     <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology</li>
     <li>DNIIT (Performance: Excellent)</li>
     <li>Second Runner-up — 9th China International "Internet+" College Students Innovation and Entrepreneurship Competition (Shanghai Division) — International Project Category ("Youguang Ushine – AI+ Multilingual Talent Service Platform")</li>
@@ -345,7 +349,7 @@ redirect_from:
 
 <section id="professional-activities-and-service">
   <h2>👔 Professional Activities and Service</h2>
-  <ul>
+    <ul>
     <li>
       <em>Student Co-Director, Remote Sensing Specialty Group</em>,  
       <a href="https://www.aag.org/" target="_blank" rel="noopener">American Association of Geographers</a>, 2025 – 2027
@@ -359,6 +363,10 @@ redirect_from:
       <a href="https://tamids.tamu.edu/2025/07/18/tamids-announces-2025-2026-cohort-of-student-ambassadors/" target="_blank" rel="noopener">Texas A&M Institute of Data Science (TAMIDS)</a>, 2025 – 2026
     </li>
     <li>
+      <em>Executive Committee Member</em>,  
+      <a href="https://geography.tamu.edu/aggie-geographers-graduate-society.html" target="_blank" rel="noopener">Aggie Geographers Graduate Society (AGGS)</a>, 2025 – 2026
+    </li>
+    <li>
       <em>Board Member, 
       <a href="https://gisphere.info/" target="_blank" rel="noopener">GISphere</a>
         (responsible for the 
@@ -369,6 +377,9 @@ redirect_from:
       <em>Vice President, Association of Robotics and Artificial Intelligence</em>,  
       <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a>, 2021 – 2022
     </li>
+  </ul>
+    <ul>
+
     <li>
       <em>Reviewer for leading journals including:</em>
       <ul style="margin-left: 1em;">
@@ -377,6 +388,7 @@ redirect_from:
         <li><em>International Journal of Applied Earth Observation and Geoinformation</em></li>
         <li><em>International Journal of Geographical Information Science</em></li>
         <li><em>International Journal of ITS Research</em></li>
+        <li><em>Scientific Reports</em></li>
       </ul>
     </li>
   </ul>
