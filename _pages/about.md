@@ -244,7 +244,10 @@ redirect_from:
       <ul>
         <li>
          <em>American Association of Geographers Annual Meeting</em>, March 17 – 21, 2026, San Francisco, California
-         (<a href="https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541" target="_blank" rel="noopener">Detail 90541</a>)
+         (<a href="https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541" target="_blank" rel="noopener">Detail 90541</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25333" target="_blank" rel="noopener">Session 25333</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/24774" target="_blank" rel="noopener">Session 24774</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25413" target="_blank" rel="noopener">Session 25413</a>)
         </li>
         <li>
           <em>American Association of Geographers Annual Meeting</em>, March 24 – 28, 2025, Detroit, Michigan  
@@ -317,6 +320,7 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
   <ul>
+    <li>2025 Environment and Sustainability Graduate Fellow Award, Texas A&M University, $2500.</li>
     <li>2025 Texas A&M University GIS Day Student Paper Competition, Finalist.</li>
     <li>2025 Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
     <li>2025-2026 Texas A&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track, TAMU, $2,000.</li>
