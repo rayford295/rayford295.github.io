@@ -235,6 +235,25 @@ redirect_from:
   </div>
 </div>
 
+<!-- Conference Paper -->
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div class="badge">International Cartographic Conference (ICC)</div>
+    <img src="images/disasterVLP.png" alt="DisasterVLP Conference Paper" width="75%">
+  </div>
+  <div class="paper-box-text">
+    <a href="https://doi.org/10.5194/ica-abs-10-310-2025" target="_blank" rel="noopener">
+      Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models
+    </a> — <strong>Yang, Yifan</strong>, Lei Zou.  
+    <em>Abstracts of the International Cartographic Association</em>, Volume 10, 310, 2025.
+    <br>
+    <span style="color:#b22222; font-weight:600;">
+      🏆 Best Student Paper Award
+    </span> — 2025 International Cartographic Conference (ICC), Vancouver, Canada.
+  </div>
+</div>
+
+
 </section>
 
 <section id="presentation">
