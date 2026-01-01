@@ -186,6 +186,19 @@ redirect_from:
       Advisors: Prof. John Wilson, Prof. Yi Qi, Beau MacDonald
     </div>
   </div>
+
+  <div class="item">
+  <img class="logo" src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/vitally%20ai.jpeg" alt="Vitally AI logo">
+  <div class="text">
+    <strong>
+      <a href="https://app.vitally-ai.com/" target="_blank" rel="noopener noreferrer">
+        Vitally AI
+      </a>
+    </strong><br>
+    Data Engineering and AI Model Fine-tuning Intern, Feb. 2023 – May 2023<br>
+    Remote
+  </div>
+</div>
 </section>
 
 <section id="publications">
