@@ -571,9 +571,11 @@ redirect_from:
 <section id="miscellaneous">
   <h2>🌎 Miscellaneous</h2>
   <p>I enjoy basketball, football, and following international sports. My favorite player is Messi.</p>
-  <div>
-    <a href="https://clustrmaps.com/site/1bvzy" title="Visit tracker" target="_blank" rel="noopener">
-      <img src="//www.clustrmaps.com/map_v2.png?d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA&cl=ffffff" alt="Visit Tracker Map">
-    </a>
-  </div>
+  <div style="width: 500px; margin: 0 auto;">
+  <script
+    type="text/javascript"
+    id="clustrmaps"
+    src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=500&t=tt&d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA">
+  </script>
+</div>
 </section>
