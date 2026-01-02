@@ -571,7 +571,7 @@ redirect_from:
 <section id="miscellaneous">
   <h2>🌎 Miscellaneous</h2>
   <p>I enjoy basketball, football, and following international sports. My favorite player is Messi.</p>
-  <div style="width: 500px; margin: 0 auto;">
+  <div style="width: 300px; margin: 0 auto;">
   <script
     type="text/javascript"
     id="clustrmaps"
