@@ -182,16 +182,14 @@ redirect_from:
   <div class="text">
     <strong>University of Southern California</strong><br>
     Master Student Researcher, Sept. 2023 – Apr. 2024<br>
-    USC Urban Trees Initiative<br>
-    <em>Urban Tree Shade Model</em><br>
-    StoryMap:
     <a href="https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6"
        target="_blank" rel="noopener">
-      Urban Tree Shade Model
+      Urban Tree Shade Model (StoryMap)
     </a><br>
     Advisors: Prof. John Wilson, Prof. Yi Qi, Beau MacDonald
   </div>
 </div>
+
   
  <div class="item">
   <img class="logo" src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/vitally%20ai.jpeg" alt="Vitally AI logo">
