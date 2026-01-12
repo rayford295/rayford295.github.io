@@ -107,3 +107,27 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* ===============================
+   Paper Project Links (Badges)
+   =============================== */
+
+.paper-links {
+  margin-top: 6px;
+}
+
+.paper-link {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 2px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: 500;
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+}
