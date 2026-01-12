@@ -184,9 +184,10 @@ redirect_from:
     Master Student Researcher, Sept. 2023 – Apr. 2024<br>
     USC Urban Trees Initiative<br>
     <em>Urban Tree Shade Model</em><br>
-    StoryMap: 
-    <a href="https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6" target="_blank">
-      https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6
+    StoryMap:
+    <a href="https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6"
+       target="_blank" rel="noopener">
+      Urban Tree Shade Model
     </a><br>
     Advisors: Prof. John Wilson, Prof. Yi Qi, Beau MacDonald
   </div>
@@ -208,81 +209,92 @@ redirect_from:
 
 <section id="publications">
   <h2>📕 Selected Publications</h2>
-
-  <div class="paper-box">
+  <!-- CEUS Journal Paper -->
+<div class="paper-box">
   <div class="paper-box-image">
     <div class="badge">Computers, Environment and Urban Systems</div>
     <img src="images/1st_dual_channel.png" alt="Hyperlocal Disaster" width="75%">
   </div>
   <div class="paper-box-text">
-    <a href="https://www.sciencedirect.com/science/article/pii/S0198971525000882" 
+    <a href="https://www.sciencedirect.com/science/article/pii/S0198971525000882"
        target="_blank" rel="noopener">
       Hyperlocal Disaster Damage Assessment Using Bi-temporal Street-view Imagery and Pre-trained Vision Models
     </a>
     — <strong>Yang, Yifan</strong>, Lei Zou, Bing Zhou, Daoyang Li, Binin Lin, Joynal Abedin, Mengyang Yang. <br>
-    <em>Computers, Environment and Urban Systems</em>, Volume 115, 102318, 2025. <br>
-    <a href="https://github.com/rayford295/Bi-Temporal-StreetView" 
-       target="_blank" rel="noopener">
-      [Code & Dataset on GitHub]
-    </a>
+    <em>Computers, Environment and Urban Systems</em>, Volume 115, 102318, 2025.
+
+    <div class="paper-links">
+      <a href="https://www.sciencedirect.com/science/article/pii/S0198971525000882"
+         target="_blank" rel="noopener" class="paper-link">Project</a>
+      <a href="https://github.com/rayford295/Bi-Temporal-StreetView"
+         target="_blank" rel="noopener" class="paper-link">Code</a>
+      <a href="https://github.com/rayford295/Bi-Temporal-StreetView"
+         target="_blank" rel="noopener" class="paper-link">Dataset</a>
+    </div>
   </div>
 </div>
 
 
+<!-- Applied Sciences Journal Paper -->
 <div class="paper-box">
   <div class="paper-box-image">
     <div class="badge">Applied Sciences</div>
     <img src="images/0st_geolocator.png" alt="GeoLocator" width="75%">
   </div>
   <div class="paper-box-text">
-    <a href="https://www.mdpi.com/2076-3417/14/16/7091" 
+    <a href="https://www.mdpi.com/2076-3417/14/16/7091"
        target="_blank" rel="noopener">
       GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy
     </a>
     — <strong>Yang, Yifan</strong>, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu. <br>
-    <em>Applied Sciences</em>, 14(16), 7091, 2024. <br>
-    <a href="https://github.com/rayford295/GeoLocator" 
-       target="_blank" rel="noopener">
-      [Code on GitHub]
-    </a>
+    <em>Applied Sciences</em>, 14(16), 7091, 2024.
+
+    <div class="paper-links">
+      <a href="https://www.mdpi.com/2076-3417/14/16/7091"
+         target="_blank" rel="noopener" class="paper-link">Project</a>
+      <a href="https://github.com/rayford295/GeoLocator"
+         target="_blank" rel="noopener" class="paper-link">Code</a>
+    </div>
   </div>
 </div>
 
-  
-  <!-- New Book Chapter (corrected) -->
+
+<!-- Esri Press Book Chapter -->
 <div class="paper-box">
   <div class="paper-box-image">
     <div class="badge">Esri Press · Book Chapter</div>
     <img src="images/object detection.png" alt="Object detection & segmentation of trees using Text SAM" width="75%">
   </div>
   <div class="paper-box-text">
-    <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world" 
+    <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
        target="_blank" rel="noopener">
       Object detection and segmentation of trees using Text SAM in ArcGIS Online
     </a>
     — <strong>Yang, Yifan</strong>, Dominic Borrelli. <br>
-    In: Darren Martin Ruddell &amp; Diana Ter-Ghazaryan (eds.), 
+    In: Darren Martin Ruddell &amp; Diana Ter-Ghazaryan (eds.),
     <em>Security First: Geospatial Workflows for a Safe and Equitable World</em>. <br>
-    Redlands, CA: Esri Press, 2025. ISBN: 9781589487857. (Chapter 7) <br>
-    <a href="https://www.esri.com/content/dam/esrisites/en-us/esri-press/book-pages/toc/security-first.pdf" 
-       target="_blank" rel="noopener">
-      Table of Contents
-    </a> ·
-    <a href="https://github.com/rayford295/ArcGIS-SAM-TreeSegmentation" 
-       target="_blank" rel="noopener">
-      [Code on GitHub]
-    </a>
+    Redlands, CA: Esri Press, 2025. ISBN: 9781589487857. (Chapter 7)
+
+    <div class="paper-links">
+      <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
+         target="_blank" rel="noopener" class="paper-link">Project</a>
+      <a href="https://www.esri.com/content/dam/esrisites/en-us/esri-press/book-pages/toc/security-first.pdf"
+         target="_blank" rel="noopener" class="paper-link">ToC</a>
+      <a href="https://github.com/rayford295/ArcGIS-SAM-TreeSegmentation"
+         target="_blank" rel="noopener" class="paper-link">Code</a>
+    </div>
   </div>
 </div>
 
-<!-- Conference Paper -->
+
+<!-- ICC Conference Paper -->
 <div class="paper-box">
   <div class="paper-box-image">
     <div class="badge">International Cartographic Conference (ICC)</div>
     <img src="images/disasterVLP.png" alt="DisasterVLP Conference Paper" width="75%">
   </div>
   <div class="paper-box-text">
-    <a href="https://doi.org/10.5194/ica-abs-10-310-2025" 
+    <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
        target="_blank" rel="noopener">
       Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models
     </a>
@@ -291,13 +303,18 @@ redirect_from:
     <span style="color:#b22222; font-weight:600;">
       🏆 Best Student Paper Award
     </span>
-    — 2025 International Cartographic Conference (ICC), Vancouver, Canada. <br>
-    <a href="https://github.com/rayford295/DisasterVLP" 
-       target="_blank" rel="noopener">
-      [Code on GitHub]
-    </a>
+    — 2025 International Cartographic Conference (ICC), Vancouver, Canada.
+
+    <div class="paper-links">
+      <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
+         target="_blank" rel="noopener" class="paper-link">Project</a>
+      <a href="https://github.com/rayford295/DisasterVLP"
+         target="_blank" rel="noopener" class="paper-link">Code</a>
+    </div>
   </div>
 </div>
+
+
 
 
 </section>
