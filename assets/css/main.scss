@@ -131,3 +131,23 @@ h1:before, .anchor:before {
     background-color: #e0e0e0;
   }
 }
+
+/* ===============================
+   Fix: make author avatar a perfect circle
+   =============================== */
+
+/* 让头像容器变成正方形（宽高一致） */
+.author__avatar {
+  width: 180px;   /* 你想要的大小，可改 140/160/200 */
+  height: 180px;  /* 必须和 width 一样 */
+}
+
+/* 让图片不拉伸，裁剪填满，并强制圆形 */
+.author__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
