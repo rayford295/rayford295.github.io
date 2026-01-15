@@ -48,8 +48,10 @@ redirect_from:
   I have the honor of working with my advisor, 
   <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>, in the 
   <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
-  My research lies at the intersection of Responsible GIS and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making.  
-  My doctoral committee members include 
+  My research lies at the intersection of Responsible GIS and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making.  I am also the founder and maintainer of 
+<a href="https://github.com/AutoGeoAI4Sci" target="_blank" rel="noopener">
+  <strong>AutonomousGeoAI4Science</strong>
+</a>, an open research initiative and community hub dedicated to advancing autonomous and responsible GeoAI, which I actively develop and curate.  My doctoral committee members include 
   <a href="https://artsci.tamu.edu/geography/contact/profiles/heng-cai.html" target="_blank" rel="noopener">Dr. Heng Cai</a>,  
   <a href="https://directory.tamu.edu/people/cc0708b4ad1f2659c7095072dddc4c10/" target="_blank" rel="noopener">Dr. Andrew Klein</a>, and  
   <a href="https://vztu.github.io/" target="_blank" rel="noopener">Dr. Zhengzhong Tu</a>.
@@ -184,7 +186,7 @@ redirect_from:
     Master Student Researcher, Sept. 2023 – Apr. 2024<br>
     <a href="https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6"
        target="_blank" rel="noopener">
-      Urban Tree Shade Model (StoryMap)
+      Urban Tree Shade Model
     </a><br>
     Advisors: Prof. John Wilson, Prof. Yi Qi, Beau MacDonald
   </div>
@@ -222,15 +224,12 @@ redirect_from:
     <em>Computers, Environment and Urban Systems</em>, Volume 115, 102318, 2025.
 
     <div class="paper-links">
-      <a href="https://www.sciencedirect.com/science/article/pii/S0198971525000882"
-         target="_blank" rel="noopener" class="paper-link">Project</a>
       <a href="https://github.com/rayford295/Bi-Temporal-StreetView"
-         target="_blank" rel="noopener" class="paper-link">Code</a>
-      <a href="https://github.com/rayford295/Bi-Temporal-StreetView"
-         target="_blank" rel="noopener" class="paper-link">Dataset</a>
+         target="_blank" rel="noopener" class="paper-link">GitHub</a>
     </div>
   </div>
 </div>
+
 
 
 <!-- Applied Sciences Journal Paper -->
@@ -248,20 +247,19 @@ redirect_from:
     <em>Applied Sciences</em>, 14(16), 7091, 2024.
 
     <div class="paper-links">
-      <a href="https://www.mdpi.com/2076-3417/14/16/7091"
-         target="_blank" rel="noopener" class="paper-link">Project</a>
       <a href="https://github.com/rayford295/GeoLocator"
-         target="_blank" rel="noopener" class="paper-link">Code</a>
+         target="_blank" rel="noopener" class="paper-link">GitHub</a>
     </div>
   </div>
 </div>
+
 
 
 <!-- Esri Press Book Chapter -->
 <div class="paper-box">
   <div class="paper-box-image">
     <div class="badge">Esri Press · Book Chapter</div>
-    <img src="images/object detection.png" alt="Object detection & segmentation of trees using Text SAM" width="75%">
+    <img src="images/object detection.png" alt="Text SAM Tree Segmentation" width="75%">
   </div>
   <div class="paper-box-text">
     <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
@@ -271,18 +269,15 @@ redirect_from:
     — <strong>Yang, Yifan</strong>, Dominic Borrelli. <br>
     In: Darren Martin Ruddell &amp; Diana Ter-Ghazaryan (eds.),
     <em>Security First: Geospatial Workflows for a Safe and Equitable World</em>. <br>
-    Redlands, CA: Esri Press, 2025. ISBN: 9781589487857. (Chapter 7)
+    Esri Press, 2025. (Chapter 7)
 
     <div class="paper-links">
-      <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
-         target="_blank" rel="noopener" class="paper-link">Project</a>
-      <a href="https://www.esri.com/content/dam/esrisites/en-us/esri-press/book-pages/toc/security-first.pdf"
-         target="_blank" rel="noopener" class="paper-link">ToC</a>
       <a href="https://github.com/rayford295/ArcGIS-SAM-TreeSegmentation"
-         target="_blank" rel="noopener" class="paper-link">Code</a>
+         target="_blank" rel="noopener" class="paper-link">GitHub</a>
     </div>
   </div>
 </div>
+
 
 
 <!-- ICC Conference Paper -->
@@ -301,18 +296,14 @@ redirect_from:
     <span style="color:#b22222; font-weight:600;">
       🏆 Best Student Paper Award
     </span>
-    — 2025 International Cartographic Conference (ICC), Vancouver, Canada.
+    — ICC 2025, Vancouver, Canada.
 
     <div class="paper-links">
-      <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
-         target="_blank" rel="noopener" class="paper-link">Project</a>
       <a href="https://github.com/rayford295/DisasterVLP"
-         target="_blank" rel="noopener" class="paper-link">Code</a>
+         target="_blank" rel="noopener" class="paper-link">GitHub</a>
     </div>
   </div>
 </div>
-
-
 
 
 </section>
