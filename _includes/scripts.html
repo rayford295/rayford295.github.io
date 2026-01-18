@@ -2,3 +2,163 @@
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
+
+<canvas id="ribbons"></canvas>
+<script>
+(() => {
+  const canvas = document.getElementById("ribbons");
+  const ctx = canvas.getContext("2d");
+
+  // ---------- config ----------
+  const cfg = {
+    ribbonCount: 6,          // 彩带条数（建议 4~10）
+    pointsPerRibbon: 40,     // 每条彩带的控制点数量（越大越顺滑，越耗）
+    ribbonWidth: 18,         // 彩带宽度（像素）
+    speed: 0.6,              // 漂浮速度
+    sway: 0.9,               // 摇摆幅度
+    alpha: 0.55,             // 透明度（不挡正文）
+    // 你也可以换成你喜欢的配色（例如偏蓝、偏紫、偏青）
+    colors: ["#7C3AED", "#A855F7", "#3B82F6", "#06B6D4"]
+  };
+
+  function resize() {
+    const dpr = Math.max(1, window.devicePixelRatio || 1);
+    canvas.width = Math.floor(window.innerWidth * dpr);
+    canvas.height = Math.floor(window.innerHeight * dpr);
+    canvas.style.width = window.innerWidth + "px";
+    canvas.style.height = window.innerHeight + "px";
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+
+  // Ensure canvas is a fixed background layer
+  Object.assign(canvas.style, {
+    position: "fixed",
+    inset: "0",
+    zIndex: "-1",
+    pointerEvents: "none"
+  });
+
+  // ---------- helpers ----------
+  const rand = (a, b) => a + Math.random() * (b - a);
+  const pick = (arr) => arr[(Math.random() * arr.length) | 0];
+
+  class Ribbon {
+    constructor() {
+      this.reset(true);
+    }
+    reset(initial = false) {
+      this.color = pick(cfg.colors);
+      this.phase = rand(0, Math.PI * 2);
+      this.baseY = rand(0, window.innerHeight);
+      this.amp = rand(30, 120) * cfg.sway;
+      this.freq = rand(0.006, 0.018);
+      this.vx = rand(cfg.speed * 0.4, cfg.speed * 1.2);
+      this.width = rand(cfg.ribbonWidth * 0.75, cfg.ribbonWidth * 1.35);
+
+      // Start from left outside
+      this.x0 = initial ? rand(-window.innerWidth, 0) : -rand(80, 240);
+      this.t = rand(0, 10000);
+
+      // Pre-build points along x
+      this.points = [];
+      const dx = (window.innerWidth + 300) / (cfg.pointsPerRibbon - 1);
+      for (let i = 0; i < cfg.pointsPerRibbon; i++) {
+        this.points.push({ x: this.x0 + i * dx, y: this.baseY });
+      }
+    }
+
+    step(dt) {
+      this.t += dt;
+      // advance ribbon
+      for (let i = 0; i < this.points.length; i++) {
+        this.points[i].x += this.vx * dt * 60; // normalize to ~60fps feel
+        const x = this.points[i].x;
+        const wave = Math.sin(this.phase + x * this.freq + this.t * 0.002) * this.amp;
+        this.points[i].y = this.baseY + wave;
+      }
+
+      // If moved out to right, respawn
+      if (this.points[0].x > window.innerWidth + 260) {
+        this.reset(false);
+      }
+    }
+
+    draw() {
+      // draw ribbon as a thick polyline by offsetting normals
+      const pts = this.points;
+
+      ctx.save();
+      ctx.globalAlpha = cfg.alpha;
+
+      // Gradient along ribbon
+      const g = ctx.createLinearGradient(pts[0].x, pts[0].y, pts[pts.length - 1].x, pts[pts.length - 1].y);
+      g.addColorStop(0, this.color);
+      g.addColorStop(1, "#ffffff00"); // fade out
+      ctx.fillStyle = g;
+
+      // Build left and right edges
+      const left = [];
+      const right = [];
+
+      for (let i = 0; i < pts.length; i++) {
+        const p = pts[i];
+        const pPrev = pts[Math.max(0, i - 1)];
+        const pNext = pts[Math.min(pts.length - 1, i + 1)];
+
+        const dx = pNext.x - pPrev.x;
+        const dy = pNext.y - pPrev.y;
+        const len = Math.hypot(dx, dy) || 1;
+        // normal vector
+        const nx = -dy / len;
+        const ny = dx / len;
+
+        const w = this.width * (0.7 + 0.3 * Math.sin(this.t * 0.003 + i * 0.3));
+        left.push({ x: p.x + nx * w, y: p.y + ny * w });
+        right.push({ x: p.x - nx * w, y: p.y - ny * w });
+      }
+
+      // Path: left edge forward + right edge backward
+      ctx.beginPath();
+      ctx.moveTo(left[0].x, left[0].y);
+      for (let i = 1; i < left.length; i++) ctx.lineTo(left[i].x, left[i].y);
+      for (let i = right.length - 1; i >= 0; i--) ctx.lineTo(right[i].x, right[i].y);
+      ctx.closePath();
+      ctx.fill();
+
+      ctx.restore();
+    }
+  }
+
+  let ribbons = [];
+  function init() {
+    ribbons = [];
+    for (let i = 0; i < cfg.ribbonCount; i++) ribbons.push(new Ribbon());
+  }
+
+  // ---------- animation loop ----------
+  let last = performance.now();
+  function loop(now) {
+    const dt = Math.min(0.05, (now - last) / 1000);
+    last = now;
+
+    ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+
+    for (const r of ribbons) {
+      r.step(dt);
+      r.draw();
+    }
+
+    requestAnimationFrame(loop);
+  }
+
+  window.addEventListener("resize", () => {
+    resize();
+    init();
+  });
+
+  resize();
+  init();
+  requestAnimationFrame(loop);
+})();
+</script>
+
