@@ -45,7 +45,7 @@ redirect_from:
 <p>
   My name is <strong>Yifan Yang</strong>, and I am a Ph.D. student in the Department of Geography at 
   <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>.  
-  I have the honor of working with my advisor, 
+  I have the honor of working with the advisor, 
   <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>, in the 
   <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
   My research lies at the intersection of Responsible GIS and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making.  I am also the founder and maintainer of 
@@ -153,7 +153,7 @@ redirect_from:
     <div class="text">
       <strong>Hainan University</strong><br>
       B.S. in Software Engineering, Aug. 2018 – May 2022<br>
-      Advisor: Prof. Jieren Cheng
+      Advisors: Prof. Jieren Cheng, Prof. Qi Qi
     </div>
   </div>
 </section>
@@ -230,29 +230,30 @@ redirect_from:
   </div>
 </div>
 
-
-
-<!-- Applied Sciences Journal Paper -->
+<!-- ICC Conference Paper -->
 <div class="paper-box">
   <div class="paper-box-image">
-    <div class="badge">Applied Sciences</div>
-    <img src="images/0st_geolocator.png" alt="GeoLocator" width="75%">
+    <div class="badge">International Cartographic Conference (ICC)</div>
+    <img src="images/disasterVLP.png" alt="DisasterVLP Conference Paper" width="75%">
   </div>
   <div class="paper-box-text">
-    <a href="https://www.mdpi.com/2076-3417/14/16/7091"
+    <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
        target="_blank" rel="noopener">
-      GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy
+      Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models
     </a>
-    — <strong>Yang, Yifan</strong>, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu. <br>
-    <em>Applied Sciences</em>, 14(16), 7091, 2024.
+    — <strong>Yang, Yifan</strong>, Lei Zou. <br>
+    <em>Abstracts of the International Cartographic Association</em>, Volume 10, 310, 2025. <br>
+    <span style="color:#b22222; font-weight:600;">
+      🏆 Best Student Paper Award
+    </span>
+    — ICC 2025, Vancouver, Canada.
 
     <div class="paper-links">
-      <a href="https://github.com/rayford295/GeoLocator"
+      <a href="https://github.com/rayford295/DisasterVLP"
          target="_blank" rel="noopener" class="paper-link">GitHub</a>
     </div>
   </div>
 </div>
-
 
 
 <!-- Esri Press Book Chapter -->
@@ -278,28 +279,22 @@ redirect_from:
   </div>
 </div>
 
-
-
-<!-- ICC Conference Paper -->
+<!-- Applied Sciences Journal Paper -->
 <div class="paper-box">
   <div class="paper-box-image">
-    <div class="badge">International Cartographic Conference (ICC)</div>
-    <img src="images/disasterVLP.png" alt="DisasterVLP Conference Paper" width="75%">
+    <div class="badge">Applied Sciences</div>
+    <img src="images/0st_geolocator.png" alt="GeoLocator" width="75%">
   </div>
   <div class="paper-box-text">
-    <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
+    <a href="https://www.mdpi.com/2076-3417/14/16/7091"
        target="_blank" rel="noopener">
-      Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models
+      GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy
     </a>
-    — <strong>Yang, Yifan</strong>, Lei Zou. <br>
-    <em>Abstracts of the International Cartographic Association</em>, Volume 10, 310, 2025. <br>
-    <span style="color:#b22222; font-weight:600;">
-      🏆 Best Student Paper Award
-    </span>
-    — ICC 2025, Vancouver, Canada.
+    — <strong>Yang, Yifan</strong>, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu. <br>
+    <em>Applied Sciences</em>, 14(16), 7091, 2024.
 
     <div class="paper-links">
-      <a href="https://github.com/rayford295/DisasterVLP"
+      <a href="https://github.com/rayford295/GeoLocator"
          target="_blank" rel="noopener" class="paper-link">GitHub</a>
     </div>
   </div>
@@ -464,6 +459,7 @@ redirect_from:
         <li><em>International Journal of Geographical Information Science</em></li>
         <li><em>International Journal of ITS Research</em></li>
         <li><em>Scientific Reports</em></li>
+        <li><em>Transactions in GIS</em></li>
       </ul>
     </li>
   </ul>
@@ -607,6 +603,11 @@ redirect_from:
            alt="Profile Image" 
            style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
 
+        <div style="text-align: center; margin-top: 30px;">
+      <img src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/我的团长我的团.jpg" 
+           alt="Profile Image" 
+           style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+           
 <section id="miscellaneous">
   <h2>🌎 Miscellaneous</h2>
   <p>I enjoy basketball, football, and following international sports. My favorite player is Messi.</p>
