@@ -461,6 +461,7 @@ redirect_from:
         <li><em>International Journal of ITS Research</em></li>
         <li><em>Scientific Reports</em></li>
         <li><em>Transactions in GIS</em></li>
+        <li><em>Tourism Geographies</em></li>
       </ul>
     </li>
   </ul>
