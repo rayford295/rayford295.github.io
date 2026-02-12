@@ -48,7 +48,7 @@ redirect_from:
   I have the honor of working with the advisor, 
   <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>, in the 
   <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
-  My research lies at the intersection of Responsible GIS and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making.  I am also the founder and maintainer of 
+  My research lies at the intersection of Responsible GeoAI and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making.  I am also the founder and maintainer of 
 <a href="https://github.com/AutoGeoAI4Sci" target="_blank" rel="noopener">
   <strong>AutonomousGeoAI4Science</strong>
 </a>, an open research initiative and community hub dedicated to advancing autonomous and responsible GeoAI, which I actively develop and curate.  My doctoral committee members include 
@@ -386,6 +386,7 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
   <ul>
+    <li>2026 AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1200.</li>
     <li>2025 Environment and Sustainability Graduate Fellow Award, Texas A&M University, $2500.</li>
     <li>2025 Texas A&M University GIS Day Student Paper Competition, Finalist.</li>
     <li>2025 Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
@@ -471,7 +472,7 @@ redirect_from:
   <ul>
     <li>
       <a href="https://engineering.tamu.edu/news/2024/09/throwing-shade-at-heatwaves.html" target="_blank" rel="noopener">
-        🌡️ TAMU Engineering News: “Throwing Shade at Heatwaves”
+        🌡️ TAMU Engineering News: “Throwing Shade at Heatwaves.”
       </a>
       <p style="margin-left: 1em;">
         Featured in a Texas A&M Engineering article highlighting my research on mitigating urban heat through shade and geospatial analysis.
@@ -479,7 +480,7 @@ redirect_from:
     </li>
     <li>
       <a href="https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit" target="_blank" rel="noopener">
-        🗺️ Esri Blog: “Showcasing Innovation in GIS Education at the LA Geospatial Summit”
+        🗺️ Esri Blog: “Showcasing Innovation in GIS Education at the LA Geospatial Summit.”
       </a>
       <p style="margin-left: 1em;">
         Esri featured my project for demonstrating innovative uses of GIS and GeoAI at the Los Angeles Geospatial Summit.
