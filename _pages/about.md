@@ -462,6 +462,7 @@ redirect_from:
         <li><em>Scientific Reports</em></li>
         <li><em>Transactions in GIS</em></li>
         <li><em>Tourism Geographies</em></li>
+        <li><em>Journal of Transport Geography</em></li>
       </ul>
     </li>
   </ul>
