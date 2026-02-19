@@ -40,95 +40,200 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* ===============================
+   Publications Layout (Your custom)
+   =============================== */
+
 .paper-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 1px #efefef solid;
+  padding: 2em 0 2em 0;
+
+  .paper-box-image {
+    justify-content: center;
     display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    width: 100%;
+    order: 2;
 
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
+    img {
+      max-width: 400px;
+      box-shadow: 3px 3px 6px #888;
+      object-fit: cover;
     }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
+  }
 
+  .paper-box-text {
+    max-width: 100%;
+    order: 1;
+  }
+
+  @include breakpoint($medium) {
+    .paper-box-image {
+      justify-content: left;
+      min-width: 200px;
+      max-width: 40%;
+      order: 1;
     }
 
-
+    .paper-box-text {
+      justify-content: left;
+      padding-left: 2em;
+      max-width: 60%;
+      order: 2;
+    }
+  }
 }
 
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
-}
-
-.badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
-    font-size: .8em;
+$scroll_offset: 2em;
+h1:before,
+.anchor:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 0;
+  height: $scroll_offset;
+  margin-top: -$scroll_offset;
 }
 
 /* ===============================
-   Paper Project Links (Badges)
+   Badge (default + 3-tone extension)
+   - Keep your absolute positioning
+   =============================== */
+
+.badge {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  margin-top: .5em;
+  margin-left: -.5em;
+  color: white;
+  background-color: #00369f; /* default: conference blue */
+  font-size: .8em;
+
+  /* subtle polish */
+  border-radius: 999px;
+  font-weight: 700;
+  letter-spacing: .2px;
+  border: 1px solid rgba(0, 0, 0, .08);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .10);
+}
+
+/* If you add these classes in HTML, badge color follows tones */
+.tone-journal-badge {
+  background-color: #8B0000; /* top journal red */
+}
+
+.tone-conf-badge {
+  background-color: #0B3D91; /* conference blue */
+}
+
+.tone-book-badge {
+  background-color: #B8860B; /* book gold */
+}
+
+/* ===============================
+   Paper Project Links (3-tone system)
+   Top Journal (Red) / Conference (Blue) / Book Chapter (Gold)
    =============================== */
 
 .paper-links {
-  margin-top: 6px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
+/* Base button */
 .paper-link {
-  display: inline-block;
-  margin-right: 6px;
-  padding: 2px 8px;
-  font-size: 12px;
-  border-radius: 4px;
-  background-color: #f0f0f0;
-  color: #0056b3;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border-radius: 10px;
   text-decoration: none;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1;
+  border: 1px solid transparent;
+  transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease, border-color .15s ease, color .15s ease;
+  user-select: none;
+  white-space: nowrap;
 
   &:hover {
-    background-color: #e0e0e0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .10);
+  }
+}
+
+/* ---------- Tone tokens via CSS variables ---------- */
+.tone-journal {
+  --tone-bg: #8B0000;
+  --tone-bg-hover: #A10000;
+  --tone-border: #8B0000;
+  --tone-fg: #ffffff;
+}
+
+.tone-conf {
+  --tone-bg: #0B3D91;
+  --tone-bg-hover: #0E4AAE;
+  --tone-border: #0B3D91;
+  --tone-fg: #ffffff;
+}
+
+.tone-book {
+  --tone-bg: #B8860B;
+  --tone-bg-hover: #D39A13;
+  --tone-border: #B8860B;
+  --tone-fg: #ffffff;
+}
+
+/* ---------- Button types ---------- */
+/* Main “Paper/Book” button: filled with tone */
+.link-paper {
+  background: var(--tone-bg);
+  border-color: var(--tone-border);
+  color: var(--tone-fg);
+
+  &:hover {
+    background: var(--tone-bg-hover);
+  }
+}
+
+/* DOI/Link button: outline with tone */
+.link-doi {
+  background: transparent;
+  border-color: var(--tone-border);
+  color: var(--tone-border);
+
+  &:hover {
+    background: rgba(0, 0, 0, .04);
+  }
+}
+
+/* GitHub button: neutral, consistent across all */
+.link-code {
+  background: #111827; /* slate-900 */
+  border-color: #111827;
+  color: #ffffff;
+
+  &:hover {
+    background: #0b1220;
+  }
+}
+
+/* Optional: if you keep legacy single “GitHub” button without link-paper/link-doi classes,
+   keep it readable */
+.paper-link:not(.link-paper):not(.link-doi):not(.link-code) {
+  background: #f3f4f6;
+  border-color: #e5e7eb;
+  color: #0B3D91;
+
+  &:hover {
+    background: #e5e7eb;
   }
 }
 
@@ -136,13 +241,11 @@ h1:before, .anchor:before {
    Fix: make author avatar a perfect circle
    =============================== */
 
-/* 让头像容器变成正方形（宽高一致） */
 .author__avatar {
-  width: 180px;   /* 你想要的大小，可改 140/160/200 */
-  height: 180px;  /* 必须和 width 一样 */
+  width: 180px;   /* can adjust 140/160/200 */
+  height: 180px;  /* must equal width */
 }
 
-/* 让图片不拉伸，裁剪填满，并强制圆形 */
 .author__avatar img {
   width: 100%;
   height: 100%;
