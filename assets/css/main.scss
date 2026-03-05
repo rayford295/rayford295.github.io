@@ -254,12 +254,11 @@ h1:before,
   display: block;
 }
 
-/* ======================================
-   Custom Styles (Personal Website)
-====================================== */
-
 .news-container{
   margin-top:20px;
+  max-height:220px;
+  overflow-y:auto;
+  padding-right:6px;
 }
 
 .news-item{
