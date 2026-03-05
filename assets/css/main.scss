@@ -254,3 +254,31 @@ h1:before,
   display: block;
 }
 
+/* ======================================
+   Custom Styles (Personal Website)
+====================================== */
+
+.news-container{
+  margin-top:20px;
+}
+
+.news-item{
+  display:flex;
+  background:#ffffff;
+  border-left:5px solid #0078d7;
+  padding:12px 16px;
+  margin-bottom:12px;
+  border-radius:8px;
+  box-shadow:0 3px 8px rgba(0,0,0,0.08);
+  align-items:center;
+}
+
+.news-date{
+  font-weight:600;
+  color:#0078d7;
+  min-width:90px;
+}
+
+.news-text{
+  color:#333;
+}
