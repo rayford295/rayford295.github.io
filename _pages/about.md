@@ -126,6 +126,22 @@ redirect_from:
 
 </section>
 
+<section id="news">
+  <h2>📰 News</h2>
+
+  <div class="news-container">
+
+    <div class="news-item">
+      <div class="news-date">Mar 2026</div>
+      <div class="news-text">
+        Organized the TAMU Data Science Ambassador seminar 
+        <strong>“From Signals to Society”</strong> with colleagues at Texas A&M.
+      </div>
+    </div>
+
+
+  </div>
+</section>
 
 <section id="educations">
   <h2>📖 Educations</h2>
