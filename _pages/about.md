@@ -147,9 +147,6 @@ redirect_from:
 </section>
 
 
-  </div>
-</section>
-
 <section id="educations">
   <h2>📖 Educations</h2>
 
