@@ -135,9 +135,16 @@ redirect_from:
       <div class="news-date">Mar 2026</div>
       <div class="news-text">
         Organized the TAMU Data Science Ambassador seminar 
-        <strong>“From Signals to Society”</strong> with colleagues at Texas A&M.
+        <strong>“From Signals to Society: Data Science for Understanding the Earth and Human Dynamics”</strong> 
+        at Texas A&M University.
+        <a href="https://tamids.tamu.edu/event/from-signals-to-society-data-science-for-understanding-the-earth-and-human-dynamics/" target="_blank">
+          [Event Link]
+        </a>
       </div>
     </div>
+
+  </div>
+</section>
 
 
   </div>
