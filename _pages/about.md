@@ -134,6 +134,15 @@ redirect_from:
     <div class="news-item">
       <div class="news-date">Mar 2026</div>
       <div class="news-text">
+        Will attend the 
+        <strong>American Association of Geographers (AAG) Annual Meeting 2026</strong> 
+        in San Francisco and participate in multiple GeoAI and GIScience sessions.
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-date">Mar 2026</div>
+      <div class="news-text">
         Organized the TAMU Data Science Ambassador seminar 
         <strong>“From Signals to Society: Data Science for Understanding the Earth and Human Dynamics”</strong> 
         at Texas A&M University.
@@ -367,17 +376,21 @@ redirect_from:
       <ul>
         <li>
          <em>American Association of Geographers Annual Meeting</em>, March 17 – 21, 2026, San Francisco, California
-         (<a href="https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541" target="_blank" rel="noopener">Detail 90541</a>,
+         (<a href="https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541" target="_blank" rel="noopener">Session 90541</a>,
           <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25333" target="_blank" rel="noopener">Session 25333</a>,
           <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/24774" target="_blank" rel="noopener">Session 24774</a>,
-          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25413" target="_blank" rel="noopener">Session 25413</a>)
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25413" target="_blank" rel="noopener">Session 25413</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25683" target="_blank" rel="noopener">Session 25683</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25257" target="_blank" rel="noopener">Session 25257</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25338" target="_blank" rel="noopener">Session 25338</a>
+         )
         </li>
         <li>
           <em>American Association of Geographers Annual Meeting</em>, March 24 – 28, 2025, Detroit, Michigan  
           (<a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23561" target="_blank" rel="noopener">Session 23561</a>, 
            <a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23718" target="_blank" rel="noopener">Session 23718</a>, 
-           <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104" target="_blank" rel="noopener">Detail 82104</a>, 
-           <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/83465" target="_blank" rel="noopener">Detail 83465</a>)
+           <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104" target="_blank" rel="noopener">Session 82104</a>, 
+           <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/83465" target="_blank" rel="noopener">Session 83465</a>)
         </li>
         <li>
           <em>American Association of Geographers Annual Meeting</em>, April 16 – 20, 2024, Honolulu, Hawai'i  
