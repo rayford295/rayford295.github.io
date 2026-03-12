@@ -685,8 +685,8 @@ redirect_from:
   <h2>🌎 Miscellaneous</h2>
 
   <p>
-    Outside of research, I enjoy playing <strong>eFootball</strong> and following international football. 
-    I am also a collector of <strong>football trading cards</strong>, especially cards of legendary players such as Messi.
+    Outside of research, I enjoy playing <strong>eFootball</strong> and Messi is the best in my heart. 
+    I am also a collector of <strong>trading cards</strong>.
   </p>
 
   <div class="hobby-gallery">
