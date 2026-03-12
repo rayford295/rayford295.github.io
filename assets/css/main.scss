@@ -281,3 +281,20 @@ h1:before,
 .news-text{
   color:#333;
 }
+
+.hobby-gallery{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:12px;
+}
+
+.hobby-gallery img{
+  border-radius:8px;
+  box-shadow:0 3px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+
+.hobby-gallery img:hover{
+  transform: scale(1.05);
+}
