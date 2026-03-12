@@ -696,7 +696,8 @@ redirect_from:
     <img src="/hobby/football2.jpg" alt="Football match" width="220">
     <img src="/hobby/football3.jpg" alt="Football moment" width="220">
     <img src="/hobby/playcard.jpg" alt="Football trading cards collection" width="220">
-
+    <img src="/hobby/hansen.jpg" alt="Football trading cards collection1" width="220">
+    <img src="/hobby/smart.jpg" alt="Football trading cards collection2" width="220">
   </div>
 
   <br>
