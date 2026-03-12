@@ -684,43 +684,22 @@ redirect_from:
 <section id="miscellaneous">
   <h2>🌎 Miscellaneous</h2>
 
-  <p class="misc-text">
+  <p>
     Outside of research, I enjoy playing <strong>eFootball</strong> and following international football. 
-    I am also a collector of <strong>sports trading cards</strong>. Messi has always been my favorite player.
+    I am also a collector of <strong>football trading cards</strong>, especially cards of legendary players such as Messi.
   </p>
 
-  <div class="hobby-section">
-    <h3>⚽ eFootball</h3>
-    <div class="hobby-gallery">
-      <div class="hobby-card">
-        <img src="/hobby/football-team0.jpg" alt="eFootball squad">
-      </div>
-      <div class="hobby-card">
-        <img src="/hobby/football1.jpg" alt="eFootball collection 1">
-      </div>
-      <div class="hobby-card">
-        <img src="/hobby/football2.jpg" alt="eFootball collection 2">
-      </div>
-      <div class="hobby-card">
-        <img src="/hobby/football3.jpg" alt="eFootball collection 3">
-      </div>
-    </div>
+  <div class="hobby-gallery">
+
+    <img src="/hobby/football-team0.jpg" alt="Football team" width="220">
+    <img src="/hobby/football1.jpg" alt="Playing football" width="220">
+    <img src="/hobby/football2.jpg" alt="Football match" width="220">
+    <img src="/hobby/hansen.jpg" alt="Yang" width="220">
+    <img src="/hobby/playcard.jpg" alt="Football trading cards collection" width="220">
+
   </div>
 
-  <div class="hobby-section">
-    <h3>🃏 Card Collection</h3>
-    <div class="hobby-gallery">
-      <div class="hobby-card">
-        <img src="/hobby/playcard.jpg" alt="Trading card collection">
-      </div>
-      <div class="hobby-card">
-        <img src="/hobby/hansen.jpg" alt="Yang Hansen trading card">
-      </div>
-      <div class="hobby-card">
-        <img src="/hobby/smart.jpg" alt="Marcus Smart trading card">
-      </div>
-    </div>
-  </div>
+  <br>
 
   <div class="clustrmaps-container">
     <script
@@ -729,4 +708,5 @@ redirect_from:
       src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=420&t=tt&d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA">
     </script>
   </div>
+
 </section>
