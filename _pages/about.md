@@ -683,12 +683,30 @@ redirect_from:
            
 <section id="miscellaneous">
   <h2>🌎 Miscellaneous</h2>
-  <p>I enjoy basketball, football, and following international sports. My favorite player is Messi.</p>
+
+  <p>
+    Outside of research, I enjoy playing <strong>eFootball</strong> and following international football. 
+    I am also a collector of <strong>football trading cards</strong>, especially cards of legendary players such as Messi.
+  </p>
+
+  <div class="hobby-gallery">
+
+    <img src="/hobby/football-team0.jpg" alt="Football team" width="220">
+    <img src="/hobby/football1.jpg" alt="Playing football" width="220">
+    <img src="/hobby/football2.jpg" alt="Football match" width="220">
+    <img src="/hobby/football3.jpg" alt="Football moment" width="220">
+    <img src="/hobby/playcard.jpg" alt="Football trading cards collection" width="220">
+
+  </div>
+
+  <br>
+
   <div class="clustrmaps-container">
-  <script
-    type="text/javascript"
-    id="clustrmaps"
-    src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=420&t=tt&d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA">
-  </script>
-</div>
+    <script
+      type="text/javascript"
+      id="clustrmaps"
+      src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=420&t=tt&d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA">
+    </script>
+  </div>
+
 </section>
