@@ -691,11 +691,22 @@ redirect_from:
 
   <div class="hobby-gallery">
 
-    <img src="/hobby/football-team0.jpg" alt="Football team" width="220">
-    <img src="/hobby/football1.jpg" alt="Playing football" width="220">
-    <img src="/hobby/football2.jpg" alt="Football match" width="220">
-    <img src="/hobby/hansen.jpg" alt="Yang" width="220">
-    <img src="/hobby/playcard.jpg" alt="Football trading cards collection" width="220">
+    <!-- 第一行：3张足球 -->
+    <div class="gallery-row">
+      <img src="/hobby/football-team0.jpg" alt="Football team">
+      <img src="/hobby/football1.jpg" alt="Playing football">
+      <img src="/hobby/football2.jpg" alt="Football match">
+    </div>
+
+    <!-- 第二行：Hansen -->
+    <div class="gallery-row single">
+      <img src="/hobby/hansen.jpg" alt="Yang Hansen card">
+    </div>
+
+    <!-- 第三行：球星卡 -->
+    <div class="gallery-row single">
+      <img src="/hobby/playcard.jpg" alt="Football trading cards collection">
+    </div>
 
   </div>
 
