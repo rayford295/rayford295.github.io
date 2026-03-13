@@ -94,7 +94,7 @@ redirect_from:
 </div>
 
 <p>
-  <strong>Research interests:</strong> Autonomous GeoAI Science, Spatial Data Science, GeoAI, AI4Science, GIScience.
+  <strong>Research interests:</strong> Spatial Data Science, GeoAI, AI4Science, GIScience, Disaster Resilience.
 </p>
 
 
@@ -130,6 +130,15 @@ redirect_from:
   <h2>📰 News</h2>
 
   <div class="news-container">
+
+    <div class="news-item">
+     <div class="news-date">Mar 2026</div>
+     <div class="news-text">
+    Invited to visit the <strong>Niantic Spatial</strong> San Francisco office for an 
+    academic research discussion on <strong>GeoAI, multimodal spatial intelligence, and disaster-related spatial analytics</strong>, 
+    exploring connections between academic research and large-scale spatial systems in industry.
+      </div>
+    </div>
 
     <div class="news-item">
       <div class="news-date">Mar 2026</div>
@@ -522,19 +531,20 @@ redirect_from:
     <ul>
 
     <li>
-      <em>Reviewer for leading journals including:</em>
-      <ul style="margin-left: 1em;">
-        <li><em>ACM Transactions on Autonomous and Adaptive Systems</em></li>
-        <li><em>Computational Urban Science</em></li>
-        <li><em>International Journal of Applied Earth Observation and Geoinformation</em></li>
-        <li><em>International Journal of Geographical Information Science</em></li>
-        <li><em>International Journal of ITS Research</em></li>
-        <li><em>Scientific Reports</em></li>
-        <li><em>Transactions in GIS</em></li>
-        <li><em>Tourism Geographies</em></li>
-        <li><em>Journal of Transport Geography</em></li>
-      </ul>
-    </li>
+  <em>Reviewer for leading journals and conferences including:</em>
+  <ul style="margin-left: 1em;">
+    <li><em>ACM Transactions on Autonomous and Adaptive Systems</em></li>
+    <li><em>Computational Urban Science</em></li>
+    <li><em>International Journal of Applied Earth Observation and Geoinformation</em></li>
+    <li><em>International Journal of Geographical Information Science</em></li>
+    <li><em>International Journal of ITS Research</em></li>
+    <li><em>Scientific Reports</em></li>
+    <li><em>Transactions in GIS</em></li>
+    <li><em>Tourism Geographies</em></li>
+    <li><em>Journal of Transport Geography</em></li>
+    <li><em>32nd SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026) – AI for Sciences Track</em></li>
+  </ul>
+</li>
   </ul>
 </section>
 
@@ -685,8 +695,8 @@ redirect_from:
   <h2>🌎 Miscellaneous</h2>
 
   <p>
-    Outside of research, I enjoy playing <strong>eFootball</strong> and following international football. 
-    I am also a collector of <strong>football trading cards</strong>, especially cards of legendary players such as Messi.
+    Outside of research, I enjoy playing <strong>eFootball</strong> and following international football⚽️🏀. 
+    I am also a collector of <strong>football trading cards</strong>, especially cards of legendary players.
   </p>
 
   <div class="hobby-gallery">
