@@ -131,6 +131,24 @@ redirect_from:
 
   <div class="news-container">
 
+<div class="news-item">
+  <div class="news-date">Mar 2026</div>
+  <div class="news-text">
+    Our paper <strong>“Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models”</strong> 
+    has been <strong>accepted</strong> for presentation at <strong>IGARSS 2026</strong>.
+  </div>
+</div>
+
+  <div class="news-item">
+  <div class="news-date">Mar 2026</div>
+  <div class="news-text">
+    Received the <strong>2026 AAG-IGIF Scholarship Award</strong> from the 
+    <strong>AAG International Geographic Information Fund (IGIF)</strong>, and was awarded 
+    <strong>2nd Place</strong> in the <strong>2026 AAG-GISSG Student Honors Paper Competition</strong>, 
+    recognizing contributions to GeoAI-driven disaster research and spatial intelligence.
+  </div>
+</div>
+    
     <div class="news-item">
      <div class="news-date">Mar 2026</div>
      <div class="news-text">
@@ -465,6 +483,7 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
   <ul>
+    <li>2026 AAG-GISSG Student Honors Paper Competition — 🥈2nd Place.</li>
     <li>2026 AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1200.</li>
     <li>2025 Environment and Sustainability Graduate Fellow Award, Texas A&M University, $2500.</li>
     <li>2025 Texas A&M University GIS Day Student Paper Competition, Finalist.</li>
