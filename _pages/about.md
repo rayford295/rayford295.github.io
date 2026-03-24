@@ -335,7 +335,7 @@ redirect_from:
       — <strong>Yang, Yifan</strong>, Lei Zou, Bing Zhou, Daoyang Li, Binin Lin, Joynal Abedin, Mengyang Yang. <br>
       <em>Computers, Environment and Urban Systems</em>, Volume 121, 102335, 2025.
       <span style="font-weight:500;">
-        💐 Honorable Mention — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2025
+        <br>💐 Honorable Mention — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2025
       </span>
 
       <div class="paper-links">
@@ -548,7 +548,7 @@ redirect_from:
     <li>2025 Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
     <li>2025-2026 Texas A&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track, TAMU, $2,000.</li>
     <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada, $2,100.</li>
-    <li>2025 International Cartographic Conference (ICC), Vancouver, Canada — Best Student Paper Award</li>
+    <li>2025 International Cartographic Conference (ICC), Vancouver, Canada — 🏆 Best Student Paper Award</li>
     <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention, $200. (Top 5)</li>
     <li>2025 AAG Applied Geography Specialty Group — Student Travel Award, $196.</li>
     <li>2024–2025 Travel Grant, Department of Geography, Texas A&M University, total amount: $2,100.</li>
