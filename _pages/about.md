@@ -335,7 +335,7 @@ redirect_from:
       — <strong>Yang, Yifan</strong>, Lei Zou, Bing Zhou, Daoyang Li, Binin Lin, Joynal Abedin, Mengyang Yang. <br>
       <em>Computers, Environment and Urban Systems</em>, Volume 121, 102335, 2025.
       <span style="font-weight:500;">
-        Honorable Mention — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2025
+        💐 Honorable Mention — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2025
       </span>
 
       <div class="paper-links">
