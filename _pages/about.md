@@ -266,7 +266,7 @@ redirect_from:
 <section id="publications">
   <h2>📕 Selected Publications</h2>
 
-  <!-- DamageArbiter Paper -->
+  <!-- DamageArbiter Paper(preprint)-->
   <div class="paper-box">
     <div class="paper-box-image">
       <div class="badge">Preprint</div>
@@ -277,9 +277,9 @@ redirect_from:
          target="_blank" rel="noopener">
         DamageArbiter: A CLIP-Enhanced Multimodal Arbitration Framework for Hurricane Damage Assessment from Street-View Imagery
       </a>
-      — <strong>Yang, Yifan</strong>, Lei Zou. <br>
+      — <strong>Yang, Yifan</strong>, Lei Zou, Wenjing Gong, Kani Fu, Zongrong Li, Siqin Wang, Bing Zhou, Heng Cai, Hao Tian.<br>
       <em>arXiv preprint</em>, 2026. <br>
-      <span style="font-weight:600;">
+      <span style="font-weight:500;">
         🏆 2nd Place — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2026
       </span>
 
