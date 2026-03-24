@@ -266,6 +266,32 @@ redirect_from:
 <section id="publications">
   <h2>📕 Selected Publications</h2>
 
+  <!-- Satellite-to-Street Paper -->
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div class="badge">Conference Paper</div>
+    <img src="images/3rd_RS2SVI.png" alt="Satellite-to-Street Framework" width="75%">
+  </div>
+  <div class="paper-box-text">
+    <a href="https://arxiv.org/abs/2603.20697"
+       target="_blank" rel="noopener">
+      Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
+    </a>
+    — <strong>Yang, Yifan</strong>, Lei Zou, Wendy Jepson. <br>
+    <em>Accepted to IGARSS 2026 — IEEE International Geoscience and Remote Sensing Symposium</em>. <br>
+
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2603.20697"
+         target="_blank" rel="noopener"
+         class="paper-link link-paper">📄 Paper</a>
+
+      <a href="https://github.com/rayford295/Sat2Street-DisasterGen"
+         target="_blank" rel="noopener"
+         class="paper-link link-code">💻 GitHub</a>
+    </div>
+  </div>
+</div>
+  
   <!-- DamageArbiter Paper(preprint)-->
   <div class="paper-box">
     <div class="paper-box-image">
@@ -308,6 +334,9 @@ redirect_from:
       </a>
       — <strong>Yang, Yifan</strong>, Lei Zou, Bing Zhou, Daoyang Li, Binin Lin, Joynal Abedin, Mengyang Yang. <br>
       <em>Computers, Environment and Urban Systems</em>, Volume 121, 102335, 2025.
+      <span style="font-weight:500;">
+        Honorable Mention — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2025
+      </span>
 
       <div class="paper-links">
         <a href="https://www.sciencedirect.com/science/article/pii/S0198971525000882"
