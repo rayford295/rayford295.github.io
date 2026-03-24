@@ -266,6 +266,35 @@ redirect_from:
 <section id="publications">
   <h2>📕 Selected Publications</h2>
 
+  <!-- DamageArbiter Paper -->
+  <div class="paper-box">
+    <div class="paper-box-image">
+      <div class="badge">Preprint</div>
+      <img src="images/2nd_disasterclip.png" alt="DamageArbiter Framework" width="75%">
+    </div>
+    <div class="paper-box-text">
+      <a href="https://arxiv.org/abs/2603.14837"
+         target="_blank" rel="noopener">
+        DamageArbiter: A CLIP-Enhanced Multimodal Arbitration Framework for Hurricane Damage Assessment from Street-View Imagery
+      </a>
+      — <strong>Yang, Yifan</strong>, Lei Zou. <br>
+      <em>arXiv preprint</em>, 2026. <br>
+      <span style="font-weight:600;">
+        🏆 2nd Place — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2026
+      </span>
+
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2603.14837"
+           target="_blank" rel="noopener"
+           class="paper-link link-paper">📄 Paper</a>
+
+        <a href="https://github.com/rayford295/DamageArbiter"
+           target="_blank" rel="noopener"
+           class="paper-link link-code">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+
   <!-- CEUS Journal Paper -->
   <div class="paper-box">
     <div class="paper-box-image">
