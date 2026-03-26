@@ -550,7 +550,7 @@ redirect_from:
     <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada, $2,100.</li>
     <li>2025 International Cartographic Conference (ICC), Vancouver, Canada — 🏆 Best Student Paper Award</li>
     <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention, $200. (Top 5)</li>
-    <li>2025 AAG Applied Geography Specialty Group — Student Travel Award, $196.</li>
+    <li>2025 AAG Applied Geography Specialty Group — AGSG Annual Meeting Award, $196.</li>
     <li>2024–2025 Travel Grant, Department of Geography, Texas A&M University, total amount: $2,100.</li>
     <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
     <li>2024 Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
