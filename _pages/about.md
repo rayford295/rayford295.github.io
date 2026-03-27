@@ -85,6 +85,13 @@ redirect_from:
       I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, poker🎴, and talk shows🎆.
     </p>
 
+<p>
+  📄 <strong>Curriculum Vitae:</strong> 
+  <a href="https://docs.google.com/document/d/1gB34qTmRsB4VaJIg16icW_2PCqOT7K8-/edit?usp=sharing" target="_blank">
+    View CV
+  </a>
+</p>
+
 <div style="text-align: center; margin-top: 30px; margin-bottom: 35px;">
   <img 
     src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/Autonomous%20GeoAI%20Research%20Pathway%20for%20Disaster%20Resilience.png"
@@ -546,11 +553,13 @@ redirect_from:
     <li>2025 Environment and Sustainability Graduate Fellow Award, Texas A&M University, $2500.</li>
     <li>2025 Texas A&M University GIS Day Student Paper Competition, Finalist.</li>
     <li>2025 Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
+    <li>2025–2026 NSF I-GUIDE Spatial AI Challenge — GeoAgent4Disaster – Autonomous multi-agent framework for multimodal disaster assessment.</li>
     <li>2025-2026 Texas A&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track, TAMU, $2,000.</li>
     <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada, $2,100.</li>
     <li>2025 International Cartographic Conference (ICC), Vancouver, Canada — 🏆 Best Student Paper Award</li>
     <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention, $200. (Top 5)</li>
     <li>2025 AAG Applied Geography Specialty Group — AGSG Annual Meeting Award, $196.</li>
+    <li>2024–2025 NSF I-GUIDE Spatial AI Challenge — Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models.</li>
     <li>2024–2025 Travel Grant, Department of Geography, Texas A&M University, total amount: $2,100.</li>
     <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
     <li>2024 Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
