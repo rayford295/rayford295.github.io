@@ -53,7 +53,7 @@ redirect_from:
   <strong>AutonomousGeoAI4Science</strong>
 </a>, an open research initiative and community hub dedicated to advancing autonomous and responsible GeoAI, which I actively develop and curate.  My doctoral committee members include 
   <a href="https://artsci.tamu.edu/geography/contact/profiles/heng-cai.html" target="_blank" rel="noopener">Dr. Heng Cai</a>,  
-  <a href="https://directory.tamu.edu/people/cc0708b4ad1f2659c7095072dddc4c10/" target="_blank" rel="noopener">Dr. Andrew Klein</a>, and  
+  <a href="https://artsci.tamu.edu/geography/contact/profiles/andrew-klein.html" target="_blank" rel="noopener">Dr. Andrew Klein</a>, and  
   <a href="https://vztu.github.io/" target="_blank" rel="noopener">Dr. Zhengzhong Tu</a>.
 </p>
     
@@ -588,7 +588,7 @@ redirect_from:
     <li>Silver Award — Hainan Creative Group, 6th China International "Internet+" Student Innovation and Entrepreneurship Competition</li>
     <li>Bronze Prize — Hainan Region, Challenge Cup Student Entrepreneurship Plan Competition (2020)</li>
     <li>Second Prize — 14th iCAN International Innovation and Entrepreneurship Competition (South China Region)</li>
-    <li>First-Class Comprehensive Scholarship — Hainan University</li>
+    <li>First-Class Comprehensive Scholarship — Hainan University, CNY ￥2500.</li>
     <li>Recognized as "College Student with the Most Innovative Spirit and Practical Ability" — Hainan University</li>
   </ul>
 </section>
@@ -797,7 +797,6 @@ redirect_from:
 
   <div class="hobby-gallery">
 
-    <img src="/hobby/football-team0.jpg" alt="Football team" width="220">
     <img src="/hobby/football1.jpg" alt="Playing football" width="220">
     <img src="/hobby/football2.jpg" alt="Football match" width="220">
     <img src="/hobby/hansen.jpg" alt="Yang Hansen card" width="220">
