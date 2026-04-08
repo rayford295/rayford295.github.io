@@ -48,6 +48,17 @@ bash run_server.sh
 # Open http://127.0.0.1:4000
 ```
 
+## Contributors
+
+| Contributor | Role |
+|------------|------|
+| [Yifan Yang](https://github.com/rayford295) | Author & maintainer |
+| [Claude Sonnet 4.6](https://claude.ai) (Anthropic) | AI pair programmer — dark mode, SEO, site enhancements |
+
+> Parts of this site were built with [Claude Code](https://claude.ai/code). All AI-assisted commits are co-authored and traceable in the [commit history](https://github.com/rayford295/rayford295.github.io/commits/main).
+
+---
+
 ## Contact
 
 - Email: yyf990925@gmail.com
