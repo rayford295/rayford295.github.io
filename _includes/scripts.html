@@ -204,20 +204,30 @@ html {
   filter: invert(1) hue-rotate(-145deg) saturate(0.72) brightness(1.15);
 }
 
-/* ── Entry animation: brief flip ── */
+/* ── Continuous Y-axis spin while in Upside Down ── */
+@keyframes ud-spin {
+  0%   { transform: perspective(1200px) rotateY(0deg); }
+  100% { transform: perspective(1200px) rotateY(360deg); }
+}
+
+/* Entry: ramp up from 0 to full speed */
 @keyframes ud-enter {
-  0%   { transform: perspective(900px) rotateX(0deg); filter: brightness(1); }
-  30%  { transform: perspective(900px) rotateX(90deg); filter: brightness(0.05) invert(1); }
-  60%  { transform: perspective(900px) rotateX(180deg); filter: brightness(0.2); }
-  100% { transform: perspective(900px) rotateX(0deg); filter: brightness(1); }
+  0%   { transform: perspective(1200px) rotateY(0deg); filter: brightness(1); }
+  25%  { filter: brightness(0.1); }
+  50%  { filter: brightness(0.6); }
+  100% { transform: perspective(1200px) rotateY(360deg); filter: brightness(1); }
 }
+
+/* Exit: slow down and snap back */
 @keyframes ud-exit {
-  0%   { transform: perspective(900px) rotateX(0deg); }
-  40%  { transform: perspective(900px) rotateX(-90deg); filter: brightness(0.05); }
-  100% { transform: perspective(900px) rotateX(0deg); filter: brightness(1); }
+  0%   { transform: perspective(1200px) rotateY(0deg); }
+  60%  { filter: brightness(0.15); transform: perspective(1200px) rotateY(-180deg); }
+  100% { transform: perspective(1200px) rotateY(0deg); filter: brightness(1); }
 }
-.ud-flipping      { animation: ud-enter 0.8s cubic-bezier(0.4,0,0.2,1) forwards; }
-.ud-flipping-out  { animation: ud-exit  0.6s cubic-bezier(0.4,0,0.2,1) forwards; }
+
+.ud-flipping     { animation: ud-enter 1s ease-in forwards; }
+.ud-flipping-out { animation: ud-exit  0.7s ease-out forwards; }
+.ud-spinning     { animation: ud-spin 9s linear infinite; }
 
 /* ── Vignette overlay for atmosphere ── */
 [data-upside-down] body::after {
@@ -358,20 +368,22 @@ html {
     document.body.classList.add('ud-flipping');
     setTimeout(function () {
       document.body.classList.remove('ud-flipping');
+      document.body.classList.add('ud-spinning');
       html.setAttribute('data-upside-down', '');
       initSpores();
       animateSpores();
-    }, 400);
+    }, 1000);
   }
 
   function exitUpsideDown() {
     active = false;
+    document.body.classList.remove('ud-spinning');
     document.body.classList.add('ud-flipping-out');
     stopSpores();
     html.removeAttribute('data-upside-down');
     setTimeout(function () {
       document.body.classList.remove('ud-flipping-out');
-    }, 600);
+    }, 700);
   }
 
   window.addEventListener('DOMContentLoaded', function () {
