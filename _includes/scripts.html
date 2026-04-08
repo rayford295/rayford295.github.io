@@ -139,6 +139,258 @@ html {
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
 
+<!-- ═══════════════════════════════════════════════
+     THE UPSIDE DOWN — Stranger Things Easter Egg
+     Button: bottom-left 🔦
+     ═══════════════════════════════════════════════ -->
+<button id="upside-down-btn" aria-label="Enter the Upside Down" title="Enter the Upside Down...">🔦</button>
+<canvas id="spore-canvas"></canvas>
+
+<style>
+/* ── Flashlight FAB ── */
+#upside-down-btn {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  z-index: 9999;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  background: #ffffff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+  transition: transform 0.2s cubic-bezier(.34,1.56,.64,1), box-shadow 0.2s;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#upside-down-btn:hover {
+  transform: scale(1.12);
+  box-shadow: 0 8px 28px rgba(180,0,0,0.35);
+}
+[data-upside-down] #upside-down-btn {
+  background: #1a0005;
+  box-shadow: 0 0 18px rgba(255,40,40,0.6);
+  animation: flicker-btn 3s infinite;
+}
+@keyframes flicker-btn {
+  0%,100% { box-shadow: 0 0 18px rgba(255,40,40,0.6); }
+  50%      { box-shadow: 0 0 30px rgba(255,40,40,0.9); }
+  75%      { box-shadow: 0 0 10px rgba(255,40,40,0.3); }
+}
+
+/* ── Spore canvas ── */
+#spore-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+[data-upside-down] #spore-canvas { opacity: 1; }
+
+/* ── Upside Down color takeover ── */
+[data-upside-down] {
+  /* Invert all colors then shift hue to give the red/blue Upside Down palette */
+  filter: invert(1) hue-rotate(145deg) saturate(1.4) brightness(0.85);
+}
+/* But keep the spore canvas and button un-inverted via double-invert */
+[data-upside-down] #spore-canvas,
+[data-upside-down] #upside-down-btn {
+  filter: invert(1) hue-rotate(-145deg) saturate(0.72) brightness(1.15);
+}
+
+/* ── Entry animation: brief flip ── */
+@keyframes ud-enter {
+  0%   { transform: perspective(900px) rotateX(0deg); filter: brightness(1); }
+  30%  { transform: perspective(900px) rotateX(90deg); filter: brightness(0.05) invert(1); }
+  60%  { transform: perspective(900px) rotateX(180deg); filter: brightness(0.2); }
+  100% { transform: perspective(900px) rotateX(0deg); filter: brightness(1); }
+}
+@keyframes ud-exit {
+  0%   { transform: perspective(900px) rotateX(0deg); }
+  40%  { transform: perspective(900px) rotateX(-90deg); filter: brightness(0.05); }
+  100% { transform: perspective(900px) rotateX(0deg); filter: brightness(1); }
+}
+.ud-flipping      { animation: ud-enter 0.8s cubic-bezier(0.4,0,0.2,1) forwards; }
+.ud-flipping-out  { animation: ud-exit  0.6s cubic-bezier(0.4,0,0.2,1) forwards; }
+
+/* ── Vignette overlay for atmosphere ── */
+[data-upside-down] body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9997;
+  background: radial-gradient(ellipse at center,
+    transparent 55%,
+    rgba(100,0,0,0.35) 100%);
+  mix-blend-mode: multiply;
+  animation: vignette-pulse 4s ease-in-out infinite;
+}
+@keyframes vignette-pulse {
+  0%,100% { opacity: 0.7; }
+  50%      { opacity: 1; }
+}
+</style>
+
+<script>
+(function () {
+  var html  = document.documentElement;
+  var btn   = null;
+  var sporeCanvas = null;
+  var sporeCtx    = null;
+  var spores = [];
+  var sporeRAF = null;
+  var active = false;
+
+  /* ── Spore particle system ── */
+  function Spore() { this.reset(true); }
+  Spore.prototype.reset = function (initial) {
+    var W = window.innerWidth, H = window.innerHeight;
+    this.x  = Math.random() * W;
+    this.y  = initial ? Math.random() * H : H + 20;
+    this.r  = 1.2 + Math.random() * 3.5;        // radius
+    this.vx = (Math.random() - 0.5) * 0.4;
+    this.vy = -(0.3 + Math.random() * 0.6);     // drift upward
+    this.wobble = Math.random() * Math.PI * 2;
+    this.wobbleSpeed = 0.008 + Math.random() * 0.012;
+    this.alpha = 0.4 + Math.random() * 0.5;
+    this.glow  = 4 + Math.random() * 8;
+    /* some spores are elongated (stringy) */
+    this.stringy = Math.random() < 0.35;
+    this.len = this.stringy ? 8 + Math.random() * 18 : 0;
+    this.rot = Math.random() * Math.PI * 2;
+    this.vrot = (Math.random() - 0.5) * 0.015;
+    /* faint tendrils */
+    this.tendrils = Math.random() < 0.12 ? Math.floor(2 + Math.random() * 3) : 0;
+  };
+  Spore.prototype.step = function () {
+    this.wobble += this.wobbleSpeed;
+    this.x += this.vx + Math.sin(this.wobble) * 0.25;
+    this.y += this.vy;
+    this.rot += this.vrot;
+    if (this.y < -40) this.reset(false);
+    if (this.x < -40) this.x = window.innerWidth + 40;
+    if (this.x > window.innerWidth + 40) this.x = -40;
+  };
+  Spore.prototype.draw = function (ctx) {
+    ctx.save();
+    ctx.globalAlpha = this.alpha;
+    ctx.shadowColor = 'rgba(220,210,255,0.9)';
+    ctx.shadowBlur  = this.glow;
+    ctx.translate(this.x, this.y);
+    ctx.rotate(this.rot);
+
+    if (this.stringy) {
+      /* elongated wisp */
+      var grad = ctx.createLinearGradient(0, -this.len/2, 0, this.len/2);
+      grad.addColorStop(0,   'rgba(240,235,255,0)');
+      grad.addColorStop(0.5, 'rgba(240,235,255,0.9)');
+      grad.addColorStop(1,   'rgba(240,235,255,0)');
+      ctx.strokeStyle = grad;
+      ctx.lineWidth   = this.r * 0.9;
+      ctx.lineCap     = 'round';
+      ctx.beginPath();
+      ctx.moveTo(0, -this.len/2);
+      ctx.bezierCurveTo(
+        this.r * 1.5, -this.len * 0.2,
+       -this.r * 1.5,  this.len * 0.2,
+        0,             this.len/2
+      );
+      ctx.stroke();
+    } else {
+      /* fluffy round spore */
+      var g = ctx.createRadialGradient(0, 0, 0, 0, 0, this.r * 1.6);
+      g.addColorStop(0,   'rgba(255,252,255,0.95)');
+      g.addColorStop(0.5, 'rgba(230,220,255,0.5)');
+      g.addColorStop(1,   'rgba(200,190,255,0)');
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.arc(0, 0, this.r * 1.6, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    /* tiny tendril hairs */
+    if (this.tendrils > 0) {
+      ctx.strokeStyle = 'rgba(220,215,255,0.35)';
+      ctx.lineWidth   = 0.5;
+      for (var i = 0; i < this.tendrils; i++) {
+        var ang = (i / this.tendrils) * Math.PI * 2;
+        var tlen = this.r * (2.5 + Math.random());
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(Math.cos(ang) * tlen, Math.sin(ang) * tlen);
+        ctx.stroke();
+      }
+    }
+
+    ctx.restore();
+  };
+
+  function initSpores() {
+    var W = sporeCanvas.width  = window.innerWidth;
+    var H = sporeCanvas.height = window.innerHeight;
+    spores = [];
+    for (var i = 0; i < 90; i++) spores.push(new Spore());
+  }
+
+  function animateSpores() {
+    sporeCtx.clearRect(0, 0, sporeCanvas.width, sporeCanvas.height);
+    for (var i = 0; i < spores.length; i++) {
+      spores[i].step();
+      spores[i].draw(sporeCtx);
+    }
+    sporeRAF = requestAnimationFrame(animateSpores);
+  }
+
+  function stopSpores() {
+    if (sporeRAF) { cancelAnimationFrame(sporeRAF); sporeRAF = null; }
+  }
+
+  /* ── Toggle ── */
+  function enterUpsideDown() {
+    active = true;
+    document.body.classList.add('ud-flipping');
+    setTimeout(function () {
+      document.body.classList.remove('ud-flipping');
+      html.setAttribute('data-upside-down', '');
+      initSpores();
+      animateSpores();
+    }, 400);
+  }
+
+  function exitUpsideDown() {
+    active = false;
+    document.body.classList.add('ud-flipping-out');
+    stopSpores();
+    html.removeAttribute('data-upside-down');
+    setTimeout(function () {
+      document.body.classList.remove('ud-flipping-out');
+    }, 600);
+  }
+
+  window.addEventListener('DOMContentLoaded', function () {
+    btn = document.getElementById('upside-down-btn');
+    sporeCanvas = document.getElementById('spore-canvas');
+    sporeCtx    = sporeCanvas.getContext('2d');
+
+    window.addEventListener('resize', function () {
+      if (active) initSpores();
+    });
+
+    btn.addEventListener('click', function () {
+      if (active) { exitUpsideDown(); }
+      else        { enterUpsideDown(); }
+    });
+  });
+})();
+</script>
+
 <!-- Origami / paper-plane particles background -->
 <canvas id="origami-bg"></canvas>
 <script>
