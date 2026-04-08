@@ -49,7 +49,7 @@ redirect_from:
   <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>, in the 
   <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
   My research lies at the intersection of Responsible GeoAI and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making.  I am also the founder and maintainer of 
-<a href="https://github.com/AutoGeoAI4Sci" target="_blank" rel="noopener">
+<a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener">
   <strong>AutonomousGeoAI4Science</strong>
 </a>, an open research initiative and community hub dedicated to advancing autonomous and responsible GeoAI, which I actively develop and curate.  My doctoral committee members include 
   <a href="https://artsci.tamu.edu/geography/contact/profiles/heng-cai.html" target="_blank" rel="noopener">Dr. Heng Cai</a>,  
