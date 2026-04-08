@@ -1,29 +1,135 @@
 <script src="assets/js/main.min.js"></script>
 
-<!-- Dark mode toggle -->
+<!-- Dark mode: apply theme before paint to avoid flash -->
+<script>
+(function () {
+  var saved = localStorage.getItem('color-scheme');
+  if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+</script>
+
+<!-- Dark mode: floating toggle button + circle-reveal transition -->
+<button id="dark-mode-toggle" class="dark-mode-fab" aria-label="Toggle dark mode" title="Toggle dark/light mode">
+  <span class="fab-icon fab-sun">☀️</span>
+  <span class="fab-icon fab-moon">🌙</span>
+  <span class="fab-ripple"></span>
+</button>
+
+<style>
+/* ── Floating Action Button ── */
+.dark-mode-fab {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 9999;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  background: #ffffff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.18), 0 1px 4px rgba(0,0,0,0.10);
+  transition: transform 0.2s cubic-bezier(.34,1.56,.64,1),
+              box-shadow 0.2s ease,
+              background 0.3s ease;
+  overflow: hidden;
+  outline: none;
+}
+.dark-mode-fab:hover {
+  transform: scale(1.12);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.22);
+}
+.dark-mode-fab:active { transform: scale(0.96); }
+
+.fab-icon { line-height: 1; transition: opacity 0.2s, transform 0.3s; }
+.fab-sun  { display: inline; }
+.fab-moon { display: none; }
+
+/* Spin-swap animation on click */
+.dark-mode-fab.switching .fab-sun,
+.dark-mode-fab.switching .fab-moon {
+  animation: icon-spin 0.35s ease forwards;
+}
+@keyframes icon-spin {
+  0%   { transform: rotate(0deg) scale(1); opacity: 1; }
+  50%  { transform: rotate(180deg) scale(0); opacity: 0; }
+  100% { transform: rotate(360deg) scale(1); opacity: 1; }
+}
+
+[data-theme="dark"] .dark-mode-fab {
+  background: #1e2130;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.07);
+}
+[data-theme="dark"] .fab-sun  { display: none; }
+[data-theme="dark"] .fab-moon { display: inline; }
+
+/* ── View Transition: circle-reveal from click point ── */
+@keyframes vt-reveal {
+  from { clip-path: circle(0% at var(--vt-x, 50%) var(--vt-y, 50%)); }
+  to   { clip-path: circle(150% at var(--vt-x, 50%) var(--vt-y, 50%)); }
+}
+@keyframes vt-fadeout {
+  to { opacity: 0; }
+}
+::view-transition-new(root) {
+  animation: vt-reveal 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  z-index: 1;
+}
+::view-transition-old(root) {
+  animation: vt-fadeout 0.55s ease forwards;
+  z-index: 0;
+}
+
+/* Smooth CSS transition fallback (non-Chrome) */
+html {
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+</style>
+
 <script>
 (function () {
   var STORAGE_KEY = 'color-scheme';
   var html = document.documentElement;
 
-  // Apply saved or system preference immediately (before paint)
-  var saved = localStorage.getItem(STORAGE_KEY);
-  if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-    html.setAttribute('data-theme', 'dark');
-  }
-
   window.addEventListener('DOMContentLoaded', function () {
     var btn = document.getElementById('dark-mode-toggle');
     if (!btn) return;
 
-    btn.addEventListener('click', function () {
+    btn.addEventListener('click', function (e) {
       var isDark = html.getAttribute('data-theme') === 'dark';
-      if (isDark) {
-        html.removeAttribute('data-theme');
-        localStorage.setItem(STORAGE_KEY, 'light');
+
+      // Store click coordinates for the circle-reveal origin
+      var rect = btn.getBoundingClientRect();
+      var cx = Math.round(rect.left + rect.width / 2);
+      var cy = Math.round(rect.top + rect.height / 2);
+      html.style.setProperty('--vt-x', cx + 'px');
+      html.style.setProperty('--vt-y', cy + 'px');
+
+      // Spin animation on button icon
+      btn.classList.add('switching');
+      setTimeout(function () { btn.classList.remove('switching'); }, 400);
+
+      function doToggle() {
+        if (isDark) {
+          html.removeAttribute('data-theme');
+          localStorage.setItem(STORAGE_KEY, 'light');
+        } else {
+          html.setAttribute('data-theme', 'dark');
+          localStorage.setItem(STORAGE_KEY, 'dark');
+        }
+      }
+
+      // Use View Transitions API if available, else plain toggle
+      if (document.startViewTransition) {
+        document.startViewTransition(doToggle);
       } else {
-        html.setAttribute('data-theme', 'dark');
-        localStorage.setItem(STORAGE_KEY, 'dark');
+        doToggle();
       }
     });
   });
