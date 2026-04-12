@@ -548,7 +548,7 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
   <ul>
-    <li>2026 AAG-GISSG Student Honors Paper Competition — 🥈2nd Place.</li>
+    <li>2026 AAG-GISSG Student Honors Paper Competition — 🥈2nd Place, $350.</li>
     <li>2026 AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1200.</li>
     <li>2025 Environment and Sustainability Graduate Fellow Award, Texas A&M University, $2500.</li>
     <li>2025 Texas A&M University GIS Day Student Paper Competition, Finalist.</li>
