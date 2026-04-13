@@ -272,6 +272,26 @@ redirect_from:
       GEOG232, lab sections 501, 502, 505
     </div>
   </div>
+
+  <div class="item">
+    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
+    <div class="text">
+      <strong>Texas A&amp;M University</strong><br>
+      Guest Lecturer, GEOG 475: Advanced GIS, Spring 2026<br>
+      Topic: Geographically Weighted Regression (GWR)<br>
+      <a href="https://github.com/rayford295/Tutorial_Geographically-Weighted-Regression" target="_blank" rel="noopener">💻 GitHub</a>
+    </div>
+  </div>
+
+  <div class="item">
+    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
+    <div class="text">
+      <strong>Texas A&amp;M University</strong><br>
+      Guest Lecturer, GEOG 659: GeoDatabase, Fall 2025<br>
+      Topic: Spatial Query Lab — Interactive Spatial SQL &amp; PostGIS<br>
+      <a href="https://github.com/rayford295/Tutorial_SpatialQueryLab" target="_blank" rel="noopener">💻 GitHub</a>
+    </div>
+  </div>
 </section>
 
 <section id="publications">
