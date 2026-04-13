@@ -233,15 +233,6 @@ redirect_from:
     </div>
   </div>
 
-  <div class="item">
-    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
-    <div class="text">
-      <strong>Texas A&amp;M University</strong><br>
-      Graduate Teaching Assistant, Aug. 2024 – Dec. 2024<br>
-      GEOG232, lab sections 501, 502, 505
-    </div>
-  </div>
-
 <div class="item">
   <img class="logo" src="images/USC-Logo-cropped.png" alt="USC logo">
   <div class="text">
@@ -268,6 +259,19 @@ redirect_from:
     Industry Internship (Generative AI)
   </div>
 </div>
+</section>
+
+<section id="teaching">
+  <h2>🖥 Teaching</h2>
+
+  <div class="item">
+    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
+    <div class="text">
+      <strong>Texas A&amp;M University</strong><br>
+      Graduate Teaching Assistant, Aug. 2024 – Dec. 2024<br>
+      GEOG232, lab sections 501, 502, 505
+    </div>
+  </div>
 </section>
 
 <section id="publications">
