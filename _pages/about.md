@@ -139,6 +139,17 @@ redirect_from:
   <div class="news-container">
 
 <div class="news-item">
+  <div class="news-date">Apr 2026</div>
+  <div class="news-text">
+    Featured by <strong>Mosaic</strong> in the article 
+    <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener">
+      <strong>“How Texas A&amp;M is Pioneering Damage Assessment Using Mosaic Imagery from Hurricane Milton”</strong>
+    </a>, 
+    highlighting my research on hyperlocal disaster damage assessment using bi-temporal street-view imagery and GeoAI.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">Mar 2026</div>
   <div class="news-text">
     Our paper <strong>“Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models”</strong> 
@@ -672,6 +683,14 @@ redirect_from:
 <section id="media-coverage">
   <h2>📺 Media Coverage</h2>
   <ul>
+    <li>
+      <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener">
+        📷 Mosaic Featured Story: “How Texas A&amp;M is Pioneering Damage Assessment Using Mosaic Imagery from Hurricane Milton”
+      </a>
+      <p style="margin-left: 1em;">
+        Featured by Mosaic for research led with Dr. Lei Zou on hyperlocal disaster damage assessment, showing how bi-temporal street-view imagery can complement satellite observations for post-disaster analysis.
+      </p>
+    </li>
     <li>
       <a href="https://engineering.tamu.edu/news/2024/09/throwing-shade-at-heatwaves.html" target="_blank" rel="noopener">
         🌡️ TAMU Engineering News: “Throwing Shade at Heatwaves.”
