@@ -342,50 +342,6 @@ redirect_from:
 </div>
 </section>
 
-<section id="industry-engagement">
-  <h2>🏢 Industry Engagement</h2>
-
-  <div class="industry-grid">
-    <div class="industry-card">
-      <div class="industry-kicker">Academic Exchange</div>
-      <h3>Niantic Spatial</h3>
-      <p>
-        Invited by Niantic Spatial for an academic exchange in San Francisco on GeoAI,
-        multimodal spatial intelligence, and disaster-related spatial analytics,
-        highlighting the relevance of my research to large-scale spatial systems in industry.
-      </p>
-      <div class="industry-links">
-        <a href="/images/niantic.png" target="_blank" rel="noopener">📄 Invitation Letter</a>
-      </div>
-    </div>
-
-    <div class="industry-card">
-      <div class="industry-kicker">Featured Research</div>
-      <h3>Mosaic</h3>
-      <p>
-        My disaster assessment research was featured by Mosaic in a story on how
-        Texas A&amp;M is pioneering hyperlocal damage assessment using street-level
-        imagery from Hurricane Milton.
-      </p>
-      <div class="industry-links">
-        <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener">📝 Read Story</a>
-      </div>
-    </div>
-
-    <div class="industry-card">
-      <div class="industry-kicker">Industry Experience</div>
-      <h3>Vitally AI</h3>
-      <p>
-        Completed an industry internship in data engineering and AI model fine-tuning,
-        gaining hands-on experience in applied generative AI systems and production-oriented workflows.
-      </p>
-      <div class="industry-links">
-        <a href="https://app.vitally-ai.com/" target="_blank" rel="noopener">💼 Company</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="teaching">
   <h2>🖥 Teaching</h2>
 
@@ -795,6 +751,50 @@ redirect_from:
   </ul>
 </li>
   </ul>
+</section>
+
+<section id="industry-engagement">
+  <h2>🏢 Industry Engagement</h2>
+
+  <div class="industry-grid">
+    <div class="industry-card">
+      <div class="industry-kicker">Academic Exchange</div>
+      <h3>Niantic Spatial</h3>
+      <p>
+        Invited by Niantic Spatial for an academic exchange in San Francisco on GeoAI,
+        multimodal spatial intelligence, and disaster-related spatial analytics,
+        highlighting the relevance of my research to large-scale spatial systems in industry.
+      </p>
+      <div class="industry-links">
+        <a href="/images/niantic.png" target="_blank" rel="noopener">📄 Invitation Letter</a>
+      </div>
+    </div>
+
+    <div class="industry-card">
+      <div class="industry-kicker">Featured Research</div>
+      <h3>Mosaic</h3>
+      <p>
+        My disaster assessment research was featured by Mosaic in a story on how
+        Texas A&amp;M is pioneering hyperlocal damage assessment using street-level
+        imagery from Hurricane Milton.
+      </p>
+      <div class="industry-links">
+        <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener">📝 Read Story</a>
+      </div>
+    </div>
+
+    <div class="industry-card">
+      <div class="industry-kicker">Industry Experience</div>
+      <h3>Vitally AI</h3>
+      <p>
+        Completed an industry internship in data engineering and AI model fine-tuning,
+        gaining hands-on experience in applied generative AI systems and production-oriented workflows.
+      </p>
+      <div class="industry-links">
+        <a href="https://app.vitally-ai.com/" target="_blank" rel="noopener">💼 Company</a>
+      </div>
+    </div>
+  </div>
 </section>
 
 
