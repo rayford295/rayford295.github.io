@@ -34,6 +34,75 @@ redirect_from:
     .item .text {
       line-height: 1.5;
     }
+
+    .industry-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .industry-card {
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+      border: 1px solid #dbe7f3;
+      border-radius: 14px;
+      padding: 16px 18px;
+      box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+    }
+
+    .industry-kicker {
+      display: inline-block;
+      font-size: 0.72em;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #1d4ed8;
+      background: #e0edff;
+      border-radius: 999px;
+      padding: 4px 10px;
+      margin-bottom: 10px;
+    }
+
+    .industry-card h3 {
+      margin: 0 0 8px 0;
+      font-size: 1.05em;
+      line-height: 1.35;
+    }
+
+    .industry-card p {
+      margin: 0;
+      color: #374151;
+      line-height: 1.6;
+      font-size: 0.95em;
+    }
+
+    .industry-links {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .industry-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      font-size: 0.86em;
+      font-weight: 600;
+      color: #0f3d91;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 999px;
+      padding: 6px 11px;
+      transition: all 0.18s ease;
+    }
+
+    .industry-links a:hover {
+      background: #eff6ff;
+      border-color: #93c5fd;
+      color: #1d4ed8;
+    }
   </style>
 </head>
 
@@ -271,6 +340,50 @@ redirect_from:
     Industry Internship (Generative AI)
   </div>
 </div>
+</section>
+
+<section id="industry-engagement">
+  <h2>🏢 Industry Engagement</h2>
+
+  <div class="industry-grid">
+    <div class="industry-card">
+      <div class="industry-kicker">Academic Exchange</div>
+      <h3>Niantic Spatial</h3>
+      <p>
+        Invited by Niantic Spatial for an academic exchange in San Francisco on GeoAI,
+        multimodal spatial intelligence, and disaster-related spatial analytics,
+        highlighting the relevance of my research to large-scale spatial systems in industry.
+      </p>
+      <div class="industry-links">
+        <a href="/images/niantic.png" target="_blank" rel="noopener">📄 Invitation Letter</a>
+      </div>
+    </div>
+
+    <div class="industry-card">
+      <div class="industry-kicker">Featured Research</div>
+      <h3>Mosaic</h3>
+      <p>
+        My disaster assessment research was featured by Mosaic in a story on how
+        Texas A&amp;M is pioneering hyperlocal damage assessment using street-level
+        imagery from Hurricane Milton.
+      </p>
+      <div class="industry-links">
+        <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener">📝 Read Story</a>
+      </div>
+    </div>
+
+    <div class="industry-card">
+      <div class="industry-kicker">Industry Experience</div>
+      <h3>Vitally AI</h3>
+      <p>
+        Completed an industry internship in data engineering and AI model fine-tuning,
+        gaining hands-on experience in applied generative AI systems and production-oriented workflows.
+      </p>
+      <div class="industry-links">
+        <a href="https://app.vitally-ai.com/" target="_blank" rel="noopener">💼 Company</a>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section id="teaching">
