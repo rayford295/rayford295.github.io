@@ -170,9 +170,9 @@ redirect_from:
     <div class="news-item">
      <div class="news-date">Mar 2026</div>
      <div class="news-text">
-    Invited to visit the <strong>Niantic Spatial</strong> San Francisco office for an 
-    academic research discussion on <strong>GeoAI, multimodal spatial intelligence, and disaster-related spatial analytics</strong>, 
-    exploring connections between academic research and large-scale spatial systems in industry.
+    Invited by <strong>Niantic Spatial</strong> to visit its San Francisco office for an 
+    academic exchange on <strong>GeoAI, multimodal spatial intelligence, and disaster-related spatial analytics</strong>, 
+    with discussions focused on bridging academic research and large-scale spatial systems in industry.
     <a href="/images/niantic.png" target="_blank" rel="noopener">[Invitation Letter]</a>
       </div>
     </div>
