@@ -226,9 +226,20 @@ h1:before,
   }
 }
 
+/* Blog button: bright but softer than GitHub */
+.link-blog {
+  background: #eff6ff;
+  border-color: #93c5fd;
+  color: #1d4ed8;
+
+  &:hover {
+    background: #dbeafe;
+  }
+}
+
 /* Optional: if you keep legacy single “GitHub” button without link-paper/link-doi classes,
    keep it readable */
-.paper-link:not(.link-paper):not(.link-doi):not(.link-code) {
+.paper-link:not(.link-paper):not(.link-doi):not(.link-code):not(.link-blog) {
   background: #f3f4f6;
   border-color: #e5e7eb;
   color: #0B3D91;

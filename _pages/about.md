@@ -392,6 +392,10 @@ redirect_from:
         <a href="https://github.com/rayford295/Bi-Temporal-StreetView"
            target="_blank" rel="noopener"
            class="paper-link link-code">💻 GitHub</a>
+
+        <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/"
+           target="_blank" rel="noopener"
+           class="paper-link link-blog">📝 Blog</a>
       </div>
     </div>
   </div>
