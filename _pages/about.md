@@ -315,7 +315,7 @@ redirect_from:
   </div>
 
 <div class="item">
-  <img class="logo" src="images/harvard_logo.webp" alt="Harvard logo">
+  <img class="logo" src="images/harvard_logo.webp" alt="Harvard logo" style="width: 5em; height: 2.5em;">
   <div class="text">
     <strong>Harvard University</strong><br>
     Spatial Data Lab Research Intern, Mar. 2025 – Aug. 2025<br>
