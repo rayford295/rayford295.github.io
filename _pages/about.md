@@ -306,7 +306,7 @@ redirect_from:
   <h2>💻 Experiences</h2>
 
   <div class="item">
-    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
+    <img class="logo" src="images/gearlab_logo.png" alt="GEAR Lab logo">
     <div class="text">
       <strong>Texas A&amp;M University</strong><br>
       Graduate Research Assistant, Jan. 2025 – Present<br>
