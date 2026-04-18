@@ -315,6 +315,16 @@ redirect_from:
   </div>
 
 <div class="item">
+  <img class="logo" src="images/harvard_logo.png" alt="Harvard logo">
+  <div class="text">
+    <strong>Harvard University</strong><br>
+    Spatial Data Lab Research Intern, Mar. 2025 – Aug. 2025<br>
+    Center for Geographic Analysis<br>
+    Mentor: Dr. Siqin Wang
+  </div>
+</div>
+
+<div class="item">
   <img class="logo" src="images/USC-Logo-cropped.png" alt="USC logo">
   <div class="text">
     <strong>University of Southern California</strong><br>
