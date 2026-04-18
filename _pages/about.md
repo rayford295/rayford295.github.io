@@ -315,11 +315,12 @@ redirect_from:
   </div>
 
 <div class="item">
-  <img class="logo" src="images/harvard_logo.png" alt="Harvard logo">
+  <img class="logo" src="images/harvard_logo.webp" alt="Harvard logo">
   <div class="text">
     <strong>Harvard University</strong><br>
     Spatial Data Lab Research Intern, Mar. 2025 – Aug. 2025<br>
     Center for Geographic Analysis<br>
+    <a href="images/Harvard sds.png" target="_blank" rel="noopener">Certificate of Completion</a><br>
     Mentor: Dr. Siqin Wang
   </div>
 </div>
