@@ -341,7 +341,7 @@ redirect_from:
 <div class="item">
   <img class="logo" src="images/USC-Logo-cropped.png" alt="USC logo">
   <div class="text">
-    <strong>University of Southern California</strong><br>
+    <strong>Spatial Sciences Institute, USC</strong><br>
     Master Student Researcher, Sept. 2023 – Apr. 2024<br>
     <a href="https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6"
        target="_blank" rel="noopener">
