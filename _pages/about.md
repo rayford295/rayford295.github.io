@@ -322,7 +322,7 @@ redirect_from:
         Autonomous GeoAI4Science
       </a>
     </strong><br>
-    Founder, 2025 – Present
+    Founder, Jan. 2026 – Present
   </div>
 </div>
 
