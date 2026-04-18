@@ -315,6 +315,18 @@ redirect_from:
   </div>
 
 <div class="item">
+  <img class="logo" src="images/autogeoai.png" alt="Autonomous GeoAI4Science logo">
+  <div class="text">
+    <strong>
+      <a class="exp-link" href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener noreferrer">
+        Autonomous GeoAI4Science
+      </a>
+    </strong><br>
+    Founder, 2025 – Present
+  </div>
+</div>
+
+<div class="item">
   <img class="logo" src="images/harvard_logo.webp" alt="Harvard logo">
   <div class="text">
     <strong>Harvard University</strong><br>
