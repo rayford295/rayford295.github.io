@@ -322,7 +322,8 @@ redirect_from:
         Autonomous GeoAI4Science
       </a>
     </strong><br>
-    Founder, Jan. 2026 – Present
+    Founder, Jan. 2026 – Present<br>
+    An open research initiative advancing autonomous GeoAI agents for scientific discovery.
   </div>
 </div>
 
