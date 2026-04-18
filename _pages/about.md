@@ -353,7 +353,7 @@ redirect_from:
 
   
  <div class="item">
-  <img class="logo" src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/vitally%20ai.jpeg" alt="Vitally AI logo">
+  <img class="logo" src="images/vitally.png" alt="Vitally AI logo">
   <div class="text">
     <strong>
       <a class="exp-link" href="https://app.vitally-ai.com/" target="_blank" rel="noopener noreferrer">
