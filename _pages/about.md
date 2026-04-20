@@ -397,6 +397,16 @@ redirect_from:
       <a href="https://github.com/rayford295/Tutorial_SpatialQueryLab" target="_blank" rel="noopener">💻 GitHub</a>
     </div>
   </div>
+
+  <div class="item">
+    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
+    <div class="text">
+      <strong>Texas A&amp;M University</strong><br>
+      Guest Lecturer, GIS Practicum, Spring 2026<br>
+      Topic: Git, GitHub &amp; Personal Websites for GIS Researchers<br>
+      <a href="https://github.com/rayford295/Tutorial_Github4GIS" target="_blank" rel="noopener">💻 GitHub</a>
+    </div>
+  </div>
 </section>
 
 <section id="publications">
