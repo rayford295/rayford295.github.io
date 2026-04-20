@@ -382,29 +382,13 @@ redirect_from:
     <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
     <div class="text">
       <strong>Texas A&amp;M University</strong><br>
-      Guest Lecturer, GEOG 475: Advanced GIS, Spring 2026<br>
-      Topic: Geographically Weighted Regression (GWR)<br>
-      <a href="https://github.com/rayford295/Tutorial_Geographically-Weighted-Regression" target="_blank" rel="noopener">💻 GitHub</a>
-    </div>
-  </div>
-
-  <div class="item">
-    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
-    <div class="text">
-      <strong>Texas A&amp;M University</strong><br>
-      Guest Lecturer, GEOG 659: GeoDatabase, Fall 2025<br>
-      Topic: Spatial Query Lab — Interactive Spatial SQL &amp; PostGIS<br>
-      <a href="https://github.com/rayford295/Tutorial_SpatialQueryLab" target="_blank" rel="noopener">💻 GitHub</a>
-    </div>
-  </div>
-
-  <div class="item">
-    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
-    <div class="text">
-      <strong>Texas A&amp;M University</strong><br>
-      Guest Lecturer, GIS Practicum, Spring 2026<br>
-      Topic: Git, GitHub &amp; Personal Websites for GIS Researchers<br>
-      <a href="https://github.com/rayford295/Tutorial_Github4GIS" target="_blank" rel="noopener">💻 GitHub</a>
+      Guest Lecturer, 2025 – 2026<br>
+      &nbsp;&nbsp;· GEOG 475: Advanced GIS, Spring 2026 — Geographically Weighted Regression (GWR)
+      <a href="https://github.com/rayford295/Tutorial_Geographically-Weighted-Regression" target="_blank" rel="noopener">💻</a><br>
+      &nbsp;&nbsp;· GEOG 659: GeoDatabase, Fall 2025 — Spatial Query Lab: Interactive Spatial SQL &amp; PostGIS
+      <a href="https://github.com/rayford295/Tutorial_SpatialQueryLab" target="_blank" rel="noopener">💻</a><br>
+      &nbsp;&nbsp;· GEOG 476: GIS Practicum, Spring 2026 — Git, GitHub &amp; Personal Websites for GIS Researchers
+      <a href="https://github.com/rayford295/Tutorial_Github4GIS" target="_blank" rel="noopener">💻</a>
     </div>
   </div>
 </section>
