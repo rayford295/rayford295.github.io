@@ -125,6 +125,18 @@ redirect_from:
   <a href="https://artsci.tamu.edu/geography/contact/profiles/andrew-klein.html" target="_blank" rel="noopener">Dr. Andrew Klein</a>, and  
   <a href="https://vztu.github.io/" target="_blank" rel="noopener">Dr. Zhengzhong Tu</a>.
 </p>
+
+    <p>
+      I recently founded
+      <a href="https://rayford-ai.com/" target="_blank" rel="noopener">
+        <strong>Rayford AI</strong>
+      </a>, a research-to-venture effort building <strong>Ray</strong>, a
+      property-level resilience AI for disaster damage assessment, claims triage,
+      and recovery intelligence. Rayford AI translates my work on disaster GeoAI,
+      street-view damage assessment, and multimodal spatial intelligence into
+      auditable evidence workflows for insurers, governments, adjusters, and
+      recovery teams.
+    </p>
     
     <!-- 🌟 Added Vision Statement -->
     <p style="font-style: italic; color: #4b5563; border-left: 4px solid #93c5fd; padding-left: 12px; margin-top: 10px;">
@@ -311,6 +323,20 @@ redirect_from:
       <strong>Texas A&amp;M University</strong><br>
       Graduate Research Assistant, Jan. 2025 – Present<br>
       Advisor: Prof. Lei Zou, GEAR Lab
+    </div>
+  </div>
+
+  <div class="item">
+    <img class="logo" src="images/rayford-ai-mark.svg" alt="Rayford AI logo">
+    <div class="text">
+      <strong>
+        <a class="exp-link" href="https://rayford-ai.com/" target="_blank" rel="noopener noreferrer">
+          Rayford AI
+        </a>
+      </strong><br>
+      Founder, Apr. 2026 – Present<br>
+      Building Ray, a property-level resilience AI for disaster damage assessment,
+      claims triage, and recovery intelligence.
     </div>
   </div>
 
