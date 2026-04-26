@@ -327,7 +327,7 @@ redirect_from:
   </div>
 
   <div class="item">
-    <img class="logo" src="images/rayford-ai-mark.svg" alt="Rayford AI logo">
+    <img class="logo" src="images/rayford-ai-logo.png" alt="Rayford AI logo">
     <div class="text">
       <strong>
         <a class="exp-link" href="https://rayford-ai.com/" target="_blank" rel="noopener noreferrer">
