@@ -792,6 +792,7 @@ redirect_from:
     <li><em>Tourism Geographies</em></li>
     <li><em>Journal of Transport Geography</em></li>
     <li><em>32nd SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026) – AI for Sciences Track</em></li>
+    <li><em>International Journal of Remote Sensing</em></li>
   </ul>
 </li>
   </ul>
