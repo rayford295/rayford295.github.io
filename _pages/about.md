@@ -127,15 +127,14 @@ redirect_from:
 </p>
 
     <p>
-      I recently founded
+      I founded
       <a href="https://rayford-ai.com/" target="_blank" rel="noopener">
         <strong>Rayford AI</strong>
-      </a>, a research-to-venture effort building <strong>Ray</strong>, a
-      property-level resilience AI for disaster damage assessment, claims triage,
-      and recovery intelligence. Rayford AI translates my work on disaster GeoAI,
-      street-view damage assessment, and multimodal spatial intelligence into
-      auditable evidence workflows for insurers, governments, adjusters, and
-      recovery teams.
+      </a>, a company building <strong>Ray</strong>, a property-level resilience AI
+      for disaster damage assessment, claims triage, and recovery intelligence.
+      Rayford AI turns my work on disaster GeoAI, street-view damage assessment,
+      and multimodal spatial intelligence into auditable evidence workflows for
+      insurers, governments, adjusters, and recovery teams.
     </p>
     
     <!-- 🌟 Added Vision Statement -->
