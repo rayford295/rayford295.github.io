@@ -221,6 +221,13 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Apr 2026</div>
   <div class="news-text">
+    Received an <strong>IEEE GRSS Travel Grant</strong> to support my attendance and paper presentation at <strong>IGARSS 2026</strong> in Washington, D.C., with <strong>US $500</strong> in conference travel funding.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Apr 2026</div>
+  <div class="news-text">
     Featured by <strong>Mosaic</strong> in the article 
     <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener">
       <strong>“How Texas A&amp;M is Pioneering Damage Assessment Using Mosaic Imagery from Hurricane Milton”</strong>
@@ -700,9 +707,10 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
   <ul>
-    <li>2026 AAG-GISSG Student Honors Paper Competition — 🥈2nd Place, $350.</li>
-    <li>2026 AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1200.</li>
-    <li>2025 Environment and Sustainability Graduate Fellow Award, Texas A&M University, $2500.</li>
+    <li>2026 IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C., US $500.</li>
+    <li>2026 AAG-GISSG Student Honors Paper Competition — 🥈 2nd Place, $350.</li>
+    <li>2026 AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1,200.</li>
+    <li>2025 Environment and Sustainability Graduate Fellow Award, Texas A&amp;M University, $2,500.</li>
     <li>2025 Texas A&M University GIS Day Student Paper Competition, Finalist.</li>
     <li>2025 Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
     <li>
