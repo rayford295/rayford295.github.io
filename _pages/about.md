@@ -130,7 +130,7 @@ redirect_from:
       I founded
       <a href="https://rayford-ai.com/" target="_blank" rel="noopener">
         <strong>Rayford AI</strong>
-      </a>, a company building <strong>Ray</strong>, a property-level resilience AI
+      </a>, a company building <strong>Ray (Resilience For You)</strong>, a property-level resilience AI
       for disaster damage assessment, claims triage, and recovery intelligence.
       Rayford AI turns my work on disaster GeoAI, street-view damage assessment,
       and multimodal spatial intelligence into auditable evidence workflows for
@@ -707,7 +707,7 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
   <ul>
-    <li>2026 IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C., US $500.</li>
+    <li>2026 IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C., $500.</li>
     <li>2026 AAG-GISSG Student Honors Paper Competition — 🥈 2nd Place, $350.</li>
     <li>2026 AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1,200.</li>
     <li>2025 Environment and Sustainability Graduate Fellow Award, Texas A&amp;M University, $2,500.</li>
