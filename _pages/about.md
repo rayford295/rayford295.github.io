@@ -117,12 +117,15 @@ redirect_from:
   I have the honor of working with the advisor, 
   <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>, in the 
   <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.  
-  My research lies at the intersection of Responsible GeoAI and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making.  I am also the founder and maintainer of 
-<a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener">
-  <strong>AutonomousGeoAI4Science</strong>
-</a>, an open research initiative and community hub dedicated to advancing autonomous and responsible GeoAI, which I actively develop and curate.  My doctoral committee members include 
-  <a href="https://artsci.tamu.edu/geography/contact/profiles/heng-cai.html" target="_blank" rel="noopener">Dr. Heng Cai</a>,  
-  <a href="https://artsci.tamu.edu/geography/contact/profiles/andrew-klein.html" target="_blank" rel="noopener">Dr. Andrew Klein</a>, and  
+  My research lies at the intersection of Responsible GeoAI and Autonomous GeoAI, where I work to develop explainable and trustworthy GeoAI systems that enhance transparency and interpretability in spatial decision-making. I am also the founder and maintainer of
+  <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener">
+    <strong>AutonomousGeoAI4Science</strong>
+  </a>, an open research initiative and community hub dedicated to advancing autonomous and responsible GeoAI, which I actively develop and curate. I also maintain
+  <a href="https://github.com/rayford295/awesome-autonomous-geoai" target="_blank" rel="noopener">
+    <strong>Awesome Autonomous GeoAI</strong>
+  </a>, a curated GitHub repository of papers, tools, benchmarks, and community resources for researchers and builders working on autonomous geospatial AI. My doctoral committee members include
+  <a href="https://artsci.tamu.edu/geography/contact/profiles/heng-cai.html" target="_blank" rel="noopener">Dr. Heng Cai</a>,
+  <a href="https://artsci.tamu.edu/geography/contact/profiles/andrew-klein.html" target="_blank" rel="noopener">Dr. Andrew Klein</a>, and
   <a href="https://vztu.github.io/" target="_blank" rel="noopener">Dr. Zhengzhong Tu</a>.
 </p>
 
