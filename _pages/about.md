@@ -119,9 +119,7 @@ redirect_from:
   My research centers on Responsible GeoAI and Autonomous GeoAI, with a focus on explainable and trustworthy systems for spatial decision-making.
   Beyond my research, I founded
   <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener"><strong>AutonomousGeoAI4Science</strong></a>,
-  and maintain
-  <a href="https://github.com/rayford295/awesome-autonomous-geoai" target="_blank" rel="noopener"><strong>Awesome Autonomous GeoAI</strong></a>,
-  a curated hub for papers, tools, benchmarks, and community links. My doctoral committee members are
+  an open community hub for papers, tools, benchmarks, and collaboration. My doctoral committee members are
   <a href="https://artsci.tamu.edu/geography/contact/profiles/heng-cai.html" target="_blank" rel="noopener">Dr. Heng Cai</a>,
   <a href="https://artsci.tamu.edu/geography/contact/profiles/andrew-klein.html" target="_blank" rel="noopener">Dr. Andrew Klein</a>, and
   <a href="https://vztu.github.io/" target="_blank" rel="noopener">Dr. Zhengzhong Tu</a>.
