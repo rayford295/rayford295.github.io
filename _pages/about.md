@@ -103,156 +103,6 @@ redirect_from:
       border-color: #93c5fd;
       color: #1d4ed8;
     }
-
-    .founder-reveal {
-      margin: 0.75em 0 1.1em;
-      border: 1px solid #bfdbfe;
-      border-radius: 8px;
-      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
-      box-shadow: 0 8px 22px rgba(15, 23, 42, 0.07);
-      overflow: hidden;
-    }
-
-    .founder-toggle {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      min-height: 44px;
-      padding: 10px 14px;
-      cursor: pointer;
-      list-style: none;
-      color: #0f172a;
-      font-weight: 700;
-      user-select: none;
-    }
-
-    .founder-toggle::-webkit-details-marker {
-      display: none;
-    }
-
-    .founder-toggle:focus-visible {
-      outline: 3px solid rgba(37, 99, 235, 0.28);
-      outline-offset: -3px;
-    }
-
-    .founder-toggle-label {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      min-width: 0;
-    }
-
-    .founder-toggle-label strong {
-      color: #0f3d91;
-    }
-
-    .founder-toggle-badge {
-      display: inline-flex;
-      align-items: center;
-      border: 1px solid #cbd5e1;
-      border-radius: 999px;
-      padding: 2px 8px;
-      background: #ffffff;
-      color: #475569;
-      font-size: 0.72em;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-      white-space: nowrap;
-    }
-
-    .founder-toggle-icon {
-      flex: 0 0 auto;
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
-      background: #dbeafe;
-      color: #1d4ed8;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.05em;
-      font-weight: 800;
-      transition: transform 0.24s ease, background 0.24s ease;
-    }
-
-    .founder-toggle-icon::before {
-      content: "+";
-      transform: translateY(-1px);
-    }
-
-    .founder-reveal[open] .founder-toggle-icon {
-      transform: rotate(135deg);
-      background: #bfdbfe;
-    }
-
-    .founder-panel {
-      border-top: 1px solid #dbeafe;
-      padding: 14px 16px 16px;
-      animation: founder-panel-in 0.32s ease both;
-    }
-
-    .founder-panel p {
-      margin: 0;
-      color: #334155;
-      line-height: 1.65;
-    }
-
-    [data-theme="dark"] .founder-reveal {
-      border-color: rgba(147, 197, 253, 0.35);
-      background: linear-gradient(180deg, #161b2a 0%, #111827 100%);
-      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
-    }
-
-    [data-theme="dark"] .founder-toggle {
-      color: #e5e7eb;
-    }
-
-    [data-theme="dark"] .founder-toggle-label strong {
-      color: #93c5fd;
-    }
-
-    [data-theme="dark"] .founder-toggle-badge {
-      border-color: rgba(148, 163, 184, 0.45);
-      background: rgba(15, 23, 42, 0.8);
-      color: #cbd5e1;
-    }
-
-    [data-theme="dark"] .founder-toggle-icon {
-      background: rgba(37, 99, 235, 0.28);
-      color: #bfdbfe;
-    }
-
-    [data-theme="dark"] .founder-reveal[open] .founder-toggle-icon {
-      background: rgba(37, 99, 235, 0.45);
-    }
-
-    [data-theme="dark"] .founder-panel {
-      border-top-color: rgba(147, 197, 253, 0.26);
-    }
-
-    [data-theme="dark"] .founder-panel p {
-      color: #d1d5db;
-    }
-
-    @keyframes founder-panel-in {
-      from {
-        opacity: 0;
-        transform: translateY(-8px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .founder-panel,
-      .founder-toggle-icon {
-        animation: none;
-        transition: none;
-      }
-    }
   </style>
 </head>
 
@@ -275,27 +125,16 @@ redirect_from:
   <a href="https://vztu.github.io/" target="_blank" rel="noopener">Dr. Zhengzhong Tu</a>.
 </p>
 
-    <details class="founder-reveal">
-      <summary class="founder-toggle">
-        <span class="founder-toggle-label">
-          <strong>Rayford AI</strong>
-          <span class="founder-toggle-badge">Founder Note</span>
-        </span>
-        <span class="founder-toggle-icon" aria-hidden="true"></span>
-      </summary>
-      <div class="founder-panel">
-        <p>
-          I founded
-          <a href="https://rayford-ai.com/" target="_blank" rel="noopener">
-            <strong>Rayford AI</strong>
-          </a>, a company building <strong>Ray (Resilience For You)</strong>, a property-level resilience AI
-          for disaster damage assessment, claims triage, and recovery intelligence.
-          Rayford AI turns my work on disaster GeoAI, street-view damage assessment,
-          and multimodal spatial intelligence into auditable evidence workflows for
-          insurers, governments, adjusters, and recovery teams.
-        </p>
-      </div>
-    </details>
+    <p>
+      I founded
+      <a href="https://rayford-ai.com/" target="_blank" rel="noopener">
+        <strong>Rayford AI</strong>
+      </a>, a company building <strong>Ray (Resilience For You)</strong>, a property-level resilience AI
+      for disaster damage assessment, claims triage, and recovery intelligence.
+      Rayford AI turns my work on disaster GeoAI, street-view damage assessment,
+      and multimodal spatial intelligence into auditable evidence workflows for
+      insurers, governments, adjusters, and recovery teams.
+    </p>
     
     <!-- 🌟 Added Vision Statement -->
     <p style="font-style: italic; color: #4b5563; border-left: 4px solid #93c5fd; padding-left: 12px; margin-top: 10px;">
