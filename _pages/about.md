@@ -103,6 +103,95 @@ redirect_from:
       border-color: #93c5fd;
       color: #1d4ed8;
     }
+
+    .writing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .writing-card {
+      background: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+      border: 1px solid #dbe4ee;
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+    }
+
+    .writing-card-featured {
+      border-color: #bfdbfe;
+      background: linear-gradient(180deg, #f8fbff 0%, #eef6ff 100%);
+    }
+
+    .writing-kicker {
+      display: inline-block;
+      font-size: 0.72em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #1d4ed8;
+      background: #e0edff;
+      border-radius: 999px;
+      padding: 4px 10px;
+      margin-bottom: 10px;
+    }
+
+    .writing-card h3 {
+      margin: 0 0 8px 0;
+      font-size: 1.03em;
+      line-height: 1.4;
+    }
+
+    .writing-card h3 a {
+      text-decoration: none;
+      color: #111827;
+    }
+
+    .writing-card h3 a:hover {
+      color: #1d4ed8;
+    }
+
+    .writing-card p {
+      margin: 0;
+      color: #374151;
+      line-height: 1.65;
+      font-size: 0.95em;
+    }
+
+    .writing-meta {
+      margin-top: 10px;
+      color: #6b7280;
+      font-size: 0.84em;
+    }
+
+    .writing-links {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .writing-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      font-size: 0.86em;
+      font-weight: 600;
+      color: #0f3d91;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 999px;
+      padding: 6px 11px;
+      transition: all 0.18s ease;
+    }
+
+    .writing-links a:hover {
+      background: #eff6ff;
+      border-color: #93c5fd;
+      color: #1d4ed8;
+    }
   </style>
 </head>
 
@@ -287,6 +376,66 @@ redirect_from:
   </div>
 </section>
 
+<section id="writing-and-reflections">
+  <h2>✍️ Writing & Reflections</h2>
+  <p>
+    这里用来分享我的阅读反思、研究札记、公共写作与博士阶段的思考。
+    相比正式发表的论文，这些内容更接近研究发生的过程本身：
+    我如何阅读，如何提问，如何理解 GeoAI、灾害韧性、Autonomous Science，
+    以及如何在真实生活中慢慢成为一个研究者。
+  </p>
+
+  <div class="writing-grid">
+    <article class="writing-card writing-card-featured">
+      <div class="writing-kicker">Featured Essay</div>
+      <h3>
+        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">
+          In the Autonomous Era, What Should a PhD Student Hold Onto?
+        </a>
+      </h3>
+      <p>
+        关于自动化科学、AI 辅助科研、博士训练、阅读、勇气与创造力的一篇阅读反思。
+        当越来越多研究工作被自动化之后，我更想追问：博士生真正不能丢掉的东西到底是什么。
+      </p>
+      <div class="writing-meta">May 2026 · Reading Reflection</div>
+      <div class="writing-links">
+        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">📝 阅读文章</a>
+      </div>
+    </article>
+
+    <article class="writing-card">
+      <div class="writing-kicker">Public Writing</div>
+      <h3>
+        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">
+          WeChat Essays / Public Notes
+        </a>
+      </h3>
+      <p>
+        这里收录我面向公众写作的中文内容，包括论文解读、研究速递、阅读笔记、
+        博士生活反思，以及一些关于研究方法、技术变迁与真实世界问题的持续记录。
+      </p>
+      <div class="writing-links">
+        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">🔗 查看内容</a>
+      </div>
+    </article>
+
+    <article class="writing-card">
+      <div class="writing-kicker">Research Philosophy</div>
+      <h3>
+        <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">
+          Research Philosophy: GeoAI, Disaster Resilience, and Autonomous Science
+        </a>
+      </h3>
+      <p>
+        一份持续更新的研究哲学文档，用来整理我对 GeoAI、灾害韧性、
+        Responsible AI、Autonomous Science 以及长期研究问题的理解与判断。
+      </p>
+      <div class="writing-links">
+        <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">📖 阅读文档</a>
+      </div>
+    </article>
+  </div>
+</section>
 
 <section id="educations">
   <h2>📖 Educations</h2>
