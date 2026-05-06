@@ -376,67 +376,6 @@ redirect_from:
   </div>
 </section>
 
-<section id="writing-and-reflections">
-  <h2>✍️ Writing & Reflections</h2>
-  <p>
-    这里用来分享我的阅读反思、研究札记、公共写作与博士阶段的思考。
-    相比正式发表的论文，这些内容更接近研究发生的过程本身：
-    我如何阅读，如何提问，如何理解 GeoAI、灾害韧性、Autonomous Science，
-    以及如何在真实生活中慢慢成为一个研究者。
-  </p>
-
-  <div class="writing-grid">
-    <article class="writing-card writing-card-featured">
-      <div class="writing-kicker">Featured Essay</div>
-      <h3>
-        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">
-          In the Autonomous Era, What Should a PhD Student Hold Onto?
-        </a>
-      </h3>
-      <p>
-        关于自动化科学、AI 辅助科研、博士训练、阅读、勇气与创造力的一篇阅读反思。
-        当越来越多研究工作被自动化之后，我更想追问：博士生真正不能丢掉的东西到底是什么。
-      </p>
-      <div class="writing-meta">May 2026 · Reading Reflection</div>
-      <div class="writing-links">
-        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">📝 阅读文章</a>
-      </div>
-    </article>
-
-    <article class="writing-card">
-      <div class="writing-kicker">Public Writing</div>
-      <h3>
-        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">
-          WeChat Essays / Public Notes
-        </a>
-      </h3>
-      <p>
-        这里收录我面向公众写作的中文内容，包括论文解读、研究速递、阅读笔记、
-        博士生活反思，以及一些关于研究方法、技术变迁与真实世界问题的持续记录。
-      </p>
-      <div class="writing-links">
-        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">🔗 查看内容</a>
-      </div>
-    </article>
-
-    <article class="writing-card">
-      <div class="writing-kicker">Research Philosophy</div>
-      <h3>
-        <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">
-          Research Philosophy: GeoAI, Disaster Resilience, and Autonomous Science
-        </a>
-      </h3>
-      <p>
-        一份持续更新的研究哲学文档，用来整理我对 GeoAI、灾害韧性、
-        Responsible AI、Autonomous Science 以及长期研究问题的理解与判断。
-      </p>
-      <div class="writing-links">
-        <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">📖 阅读文档</a>
-      </div>
-    </article>
-  </div>
-</section>
-
 <section id="educations">
   <h2>📖 Educations</h2>
 
@@ -1034,6 +973,73 @@ redirect_from:
       </p>
     </li>
   </ul>
+</section>
+
+<section id="writing-and-reflections">
+  <h2>✍️ Writing & Reflections</h2>
+  <p>
+    This section gathers my reading reflections, research notes, public essays,
+    and thoughts from my Ph.D. journey. Compared with formal publications, these
+    pieces stay closer to the process of research itself: how I read, ask
+    questions, think through GeoAI, disaster resilience, and autonomous science,
+    and slowly grow into a researcher through everyday practice.
+  </p>
+
+  <div class="writing-grid">
+    <article class="writing-card writing-card-featured">
+      <div class="writing-kicker">Featured Essay</div>
+      <h3>
+        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">
+          In the Autonomous Era, What Should a PhD Student Hold Onto?
+        </a>
+      </h3>
+      <p>
+        A reading reflection on automated science, AI-assisted research,
+        doctoral training, reading, courage, and creativity. As more research
+        work becomes automated, I ask what a Ph.D. student should still hold
+        onto.
+      </p>
+      <div class="writing-meta">May 2026 · Reading Reflection</div>
+      <div class="writing-links">
+        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">📝 Read Essay</a>
+      </div>
+    </article>
+
+    <article class="writing-card">
+      <div class="writing-kicker">Public Writing</div>
+      <h3>
+        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">
+          WeChat Essays / Public Notes
+        </a>
+      </h3>
+      <p>
+        A collection of public-facing essays, including paper commentaries,
+        research updates, reading notes, reflections on Ph.D. life, and ongoing
+        records about research methods, technical change, and real-world
+        problems.
+      </p>
+      <div class="writing-links">
+        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">🔗 View Notes</a>
+      </div>
+    </article>
+
+    <article class="writing-card">
+      <div class="writing-kicker">Research Philosophy</div>
+      <h3>
+        <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">
+          Research Philosophy: GeoAI, Disaster Resilience, and Autonomous Science
+        </a>
+      </h3>
+      <p>
+        A living research philosophy document that organizes my thinking and
+        judgment on GeoAI, disaster resilience, responsible AI, autonomous
+        science, and long-term research questions.
+      </p>
+      <div class="writing-links">
+        <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">📖 Read Document</a>
+      </div>
+    </article>
+  </div>
 </section>
 
 <section id="videos">

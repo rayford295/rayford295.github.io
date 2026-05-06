@@ -6,9 +6,6 @@ main:
   - title: "News"
     url: "/#news"
 
-  - title: "Writing & Reflections"
-    url: "/#writing-and-reflections"
-    
   - title: "Educations"
     url: "/#educations"
 
@@ -32,6 +29,9 @@ main:
 
   - title: "Media Coverage"
     url: "/#media-coverage"
+
+  - title: "Writing & Reflections"
+    url: "/#writing-and-reflections"
     
   - title: "Videos"
     url: "/#videos"
