@@ -1006,24 +1006,6 @@ redirect_from:
     </article>
 
     <article class="writing-card">
-      <div class="writing-kicker">Public Writing</div>
-      <h3>
-        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">
-          WeChat Essays / Public Notes
-        </a>
-      </h3>
-      <p>
-        A collection of public-facing essays, including paper commentaries,
-        research updates, reading notes, reflections on Ph.D. life, and ongoing
-        records about research methods, technical change, and real-world
-        problems.
-      </p>
-      <div class="writing-links">
-        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">🔗 View Notes</a>
-      </div>
-    </article>
-
-    <article class="writing-card">
       <div class="writing-kicker">Research Philosophy</div>
       <h3>
         <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">
@@ -1037,6 +1019,7 @@ redirect_from:
       </p>
       <div class="writing-links">
         <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">📖 Read Document</a>
+        <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY_SUMMARY_ZH.md" target="_blank" rel="noopener">中文摘要</a>
       </div>
     </article>
   </div>
