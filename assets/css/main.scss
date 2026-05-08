@@ -237,9 +237,19 @@ h1:before,
   }
 }
 
+.link-wechat {
+  background: #ecfdf5;
+  border-color: #86efac;
+  color: #047857;
+
+  &:hover {
+    background: #d1fae5;
+  }
+}
+
 /* Optional: if you keep legacy single “GitHub” button without link-paper/link-doi classes,
    keep it readable */
-.paper-link:not(.link-paper):not(.link-doi):not(.link-code):not(.link-blog) {
+.paper-link:not(.link-paper):not(.link-doi):not(.link-code):not(.link-blog):not(.link-wechat) {
   background: #f3f4f6;
   border-color: #e5e7eb;
   color: #0B3D91;

@@ -603,6 +603,10 @@ redirect_from:
         <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/"
            target="_blank" rel="noopener"
            class="paper-link link-blog">📝 Blog</a>
+
+        <a href="https://mp.weixin.qq.com/s/I_5YYTeRy9UWIrApRzBU2A"
+           target="_blank" rel="noopener"
+           class="paper-link link-wechat">💬 WeChat</a>
       </div>
     </div>
   </div>
