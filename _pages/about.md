@@ -35,163 +35,6 @@ redirect_from:
       line-height: 1.5;
     }
 
-    .industry-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 16px;
-      margin-top: 12px;
-    }
-
-    .industry-card {
-      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
-      border: 1px solid #dbe7f3;
-      border-radius: 14px;
-      padding: 16px 18px;
-      box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
-    }
-
-    .industry-kicker {
-      display: inline-block;
-      font-size: 0.72em;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: #1d4ed8;
-      background: #e0edff;
-      border-radius: 999px;
-      padding: 4px 10px;
-      margin-bottom: 10px;
-    }
-
-    .industry-card h3 {
-      margin: 0 0 8px 0;
-      font-size: 1.05em;
-      line-height: 1.35;
-    }
-
-    .industry-card p {
-      margin: 0;
-      color: #374151;
-      line-height: 1.6;
-      font-size: 0.95em;
-    }
-
-    .industry-links {
-      margin-top: 12px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .industry-links a {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      text-decoration: none;
-      font-size: 0.86em;
-      font-weight: 600;
-      color: #0f3d91;
-      background: #ffffff;
-      border: 1px solid #cbd5e1;
-      border-radius: 999px;
-      padding: 6px 11px;
-      transition: all 0.18s ease;
-    }
-
-    .industry-links a:hover {
-      background: #eff6ff;
-      border-color: #93c5fd;
-      color: #1d4ed8;
-    }
-
-    .writing-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 16px;
-      margin-top: 12px;
-    }
-
-    .writing-card {
-      background: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
-      border: 1px solid #dbe4ee;
-      border-radius: 16px;
-      padding: 18px;
-      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
-    }
-
-    .writing-card-featured {
-      border-color: #bfdbfe;
-      background: linear-gradient(180deg, #f8fbff 0%, #eef6ff 100%);
-    }
-
-    .writing-kicker {
-      display: inline-block;
-      font-size: 0.72em;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      color: #1d4ed8;
-      background: #e0edff;
-      border-radius: 999px;
-      padding: 4px 10px;
-      margin-bottom: 10px;
-    }
-
-    .writing-card h3 {
-      margin: 0 0 8px 0;
-      font-size: 1.03em;
-      line-height: 1.4;
-    }
-
-    .writing-card h3 a {
-      text-decoration: none;
-      color: #111827;
-    }
-
-    .writing-card h3 a:hover {
-      color: #1d4ed8;
-    }
-
-    .writing-card p {
-      margin: 0;
-      color: #374151;
-      line-height: 1.65;
-      font-size: 0.95em;
-    }
-
-    .writing-meta {
-      margin-top: 10px;
-      color: #6b7280;
-      font-size: 0.84em;
-    }
-
-    .writing-links {
-      margin-top: 12px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .writing-links a {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      text-decoration: none;
-      font-size: 0.86em;
-      font-weight: 600;
-      color: #0f3d91;
-      background: #ffffff;
-      border: 1px solid #cbd5e1;
-      border-radius: 999px;
-      padding: 6px 11px;
-      transition: all 0.18s ease;
-    }
-
-    .writing-links a:hover {
-      background: #eff6ff;
-      border-color: #93c5fd;
-      color: #1d4ed8;
-    }
   </style>
 </head>
 
@@ -899,45 +742,36 @@ redirect_from:
 <section id="industry-engagement">
   <h2>🏢 Industry Engagement</h2>
 
-  <div class="industry-grid">
-    <div class="industry-card">
-      <div class="industry-kicker">Academic Exchange</div>
-      <h3>Niantic Spatial</h3>
-      <p>
+  <ul>
+    <li>
+      <strong>Niantic Spatial</strong> — <em>Academic Exchange</em>
+      <p style="margin-left: 1em;">
         Invited by Niantic Spatial for an academic exchange in San Francisco on GeoAI,
         multimodal spatial intelligence, and disaster-related spatial analytics,
         highlighting the relevance of my research to large-scale spatial systems in industry.
+        <a href="/images/niantic.png" target="_blank" rel="noopener">Invitation Letter</a>.
       </p>
-      <div class="industry-links">
-        <a href="/images/niantic.png" target="_blank" rel="noopener">📄 Invitation Letter</a>
-      </div>
-    </div>
+    </li>
 
-    <div class="industry-card">
-      <div class="industry-kicker">Featured Research</div>
-      <h3>Mosaic</h3>
-      <p>
+    <li>
+      <strong>Mosaic</strong> — <em>Featured Research</em>
+      <p style="margin-left: 1em;">
         My disaster assessment research was featured by Mosaic in a story on how
         Texas A&amp;M is pioneering hyperlocal damage assessment using street-level
         imagery from Hurricane Milton.
+        <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener">Read Story</a>.
       </p>
-      <div class="industry-links">
-        <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener">📝 Read Story</a>
-      </div>
-    </div>
+    </li>
 
-    <div class="industry-card">
-      <div class="industry-kicker">Industry Experience</div>
-      <h3>Vitally AI</h3>
-      <p>
+    <li>
+      <strong>Vitally AI</strong> — <em>Industry Experience</em>
+      <p style="margin-left: 1em;">
         Completed an industry internship in data engineering and AI model fine-tuning,
         gaining hands-on experience in applied generative AI systems and production-oriented workflows.
+        <a href="https://app.vitally-ai.com/" target="_blank" rel="noopener">Company</a>.
       </p>
-      <div class="industry-links">
-        <a href="https://app.vitally-ai.com/" target="_blank" rel="noopener">💼 Company</a>
-      </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 </section>
 
 
@@ -989,44 +823,39 @@ redirect_from:
     and slowly grow into a researcher through everyday practice.
   </p>
 
-  <div class="writing-grid">
-    <article class="writing-card writing-card-featured">
-      <div class="writing-kicker">Featured Essay</div>
-      <h3>
+  <ul>
+    <li>
+      <strong>
         <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">
           In the Autonomous Era, What Should a PhD Student Hold Onto?
         </a>
-      </h3>
-      <p>
+      </strong>
+      — <em>Featured Essay, May 2026</em>
+      <p style="margin-left: 1em;">
         A reading reflection on automated science, AI-assisted research,
         doctoral training, reading, courage, and creativity. As more research
         work becomes automated, I ask what a Ph.D. student should still hold
         onto.
+        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">Read Essay</a>.
       </p>
-      <div class="writing-meta">May 2026 · Reading Reflection</div>
-      <div class="writing-links">
-        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">📝 Read Essay</a>
-      </div>
-    </article>
+    </li>
 
-    <article class="writing-card">
-      <div class="writing-kicker">Research Philosophy</div>
-      <h3>
+    <li>
+      <strong>
         <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">
           Research Philosophy: GeoAI, Disaster Resilience, and Autonomous Science
         </a>
-      </h3>
-      <p>
+      </strong>
+      — <em>Research Philosophy</em>
+      <p style="margin-left: 1em;">
         A living research philosophy document that organizes my thinking and
         judgment on GeoAI, disaster resilience, responsible AI, autonomous
         science, and long-term research questions.
+        <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">Read Document</a>;
+        <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY_SUMMARY_ZH.md" target="_blank" rel="noopener">中文摘要</a>.
       </p>
-      <div class="writing-links">
-        <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">📖 Read Document</a>
-        <a href="https://github.com/AutoGeoAI4Sci/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY_SUMMARY_ZH.md" target="_blank" rel="noopener">中文摘要</a>
-      </div>
-    </article>
-  </div>
+    </li>
+  </ul>
 </section>
 
 <section id="videos">
