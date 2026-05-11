@@ -251,20 +251,6 @@ redirect_from:
     </div>
   </div>
 
-  <div class="item">
-    <img class="logo" src="images/rayford-ai-logo.png" alt="Rayford AI logo">
-    <div class="text">
-      <strong>
-        <a class="exp-link" href="https://rayford-ai.com/" target="_blank" rel="noopener noreferrer">
-          Rayford AI
-        </a>
-      </strong><br>
-      Founder, Apr. 2026 – Present<br>
-      Building Ray, a property-level resilience AI for disaster damage assessment,
-      claims triage, and recovery intelligence.
-    </div>
-  </div>
-
 <div class="item">
   <img class="logo" src="images/autogeoai.png" alt="Autonomous GeoAI4Science logo">
   <div class="text">
@@ -732,6 +718,15 @@ redirect_from:
   <h2>🏢 Industry Engagement</h2>
 
   <ul>
+    <li>
+      <strong>Rayford AI</strong> — <em>Founder-led Venture</em>
+      <p style="margin-left: 1em;">
+        Translating disaster GeoAI, street-view damage assessment, and multimodal spatial intelligence
+        into property-level resilience workflows for damage assessment, claims triage, and recovery intelligence.
+        <a href="https://rayford-ai.com/" target="_blank" rel="noopener">Company</a>.
+      </p>
+    </li>
+
     <li>
       <strong>Niantic Spatial</strong> — <em>Academic Exchange</em>
       <p style="margin-left: 1em;">
