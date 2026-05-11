@@ -139,6 +139,18 @@ redirect_from:
   <div class="news-container">
 
 <div class="news-item">
+  <div class="news-date">May 2026</div>
+  <div class="news-text">
+    Selected as one of 30 participants from 150+ applicants for
+    <a href="https://i-guide.io/summer-school/summer-school-2026/" target="_blank" rel="noopener">
+      <strong>I-GUIDE Summer School 2026: Spatial AI &amp; Convergence Science</strong>
+    </a>
+    at the <strong>University of Illinois Urbana-Champaign</strong> (July 13–17, 2026),
+    with NSF-supported travel funding.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">Apr 2026</div>
   <div class="news-text">
     Received an <strong>IEEE GRSS Travel Grant</strong> to support my attendance and paper presentation at <strong>IGARSS 2026</strong> in Washington, D.C., with <strong>US $500</strong> in conference travel funding.
