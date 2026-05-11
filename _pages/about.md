@@ -57,17 +57,6 @@ redirect_from:
   <a href="https://vztu.github.io/" target="_blank" rel="noopener">Dr. Zhengzhong Tu</a>.
 </p>
 
-    <p>
-      I founded
-      <a href="https://rayford-ai.com/" target="_blank" rel="noopener">
-        <strong>Rayford AI</strong>
-      </a>, a company building <strong>Ray (Resilience For You)</strong>, a property-level resilience AI
-      for disaster damage assessment, claims triage, and recovery intelligence.
-      Rayford AI turns my work on disaster GeoAI, street-view damage assessment,
-      and multimodal spatial intelligence into auditable evidence workflows for
-      insurers, governments, adjusters, and recovery teams.
-    </p>
-    
     <!-- 🌟 Added Vision Statement -->
     <p style="font-style: italic; color: #4b5563; border-left: 4px solid #93c5fd; padding-left: 12px; margin-top: 10px;">
       🔭 Vision: To transcend the boundaries of screens and make the real world our playground of intelligence — 
