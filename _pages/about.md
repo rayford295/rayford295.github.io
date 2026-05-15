@@ -141,6 +141,19 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">May 2026</div>
   <div class="news-text">
+    The <strong>IGARSS 2026</strong> technical program scheduled our paper
+    <a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585" target="_blank" rel="noopener">
+      <strong>“Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models”</strong>
+    </a>
+    as <strong>Paper TH3.R6.4</strong> in Session <strong>TH3.R6</strong>,
+    with presentation time <strong>Thursday, August 13, 2026, 14:30–14:45</strong>
+    in Washington, D.C.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">May 2026</div>
+  <div class="news-text">
     Selected as one of 30 participants from 150+ applicants for
     <a href="https://i-guide.io/summer-school/summer-school-2026/" target="_blank" rel="noopener">
       <strong>I-GUIDE Summer School 2026: Spatial AI &amp; Convergence Science</strong>
@@ -544,6 +557,18 @@ redirect_from:
 <section id="presentation">
   <h2>🏘 Presentation</h2>
   <ul>
+    <li><strong>IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</strong>
+      <ul>
+        <li>
+          <em>Leveraging AI, LLMs, and Geospatial Technologies for Rapid and Explainable Post-Disaster Damage Intelligence</em>,
+          Washington, D.C., August 13, 2026 —
+          <strong>Yifan Yang, Lei Zou, and Wendy Jepson</strong>:
+          Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
+          (<a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585" target="_blank" rel="noopener">Paper TH3.R6.4</a>)
+        </li>
+      </ul>
+    </li>
+
     <li><strong>AAG Annual Meetings</strong>
       <ul>
         <li>
