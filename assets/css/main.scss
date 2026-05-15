@@ -314,11 +314,11 @@ h1:before,
 }
 
 .personal-gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 16px;
-  margin: 24px auto 40px;
-  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  margin: 24px auto 44px;
 }
 
 .personal-gallery-grid figure,
@@ -328,8 +328,8 @@ h1:before,
 
 .personal-gallery-grid img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  max-width: 560px;
+  height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 14px rgba(15, 23, 42, .14);
   display: block;
