@@ -940,50 +940,70 @@ redirect_from:
 }
 </style>
 
-<h2 style="text-align:center; margin-top: 50px;">📸 Personal Gallery — Moments That Inspire Me</h2>
+<section id="personal-gallery" class="personal-gallery">
+  <h2>📸 Personal Gallery — Moments That Inspire Me</h2>
 
+  <div class="personal-gallery-grid">
+    <figure>
+      <img src="/images/godfather.png" alt="The Godfather film poster" loading="lazy" decoding="async">
+    </figure>
+    <figure>
+      <img src="/images/camus.jpg" alt="Albert Camus portrait" loading="lazy" decoding="async">
+    </figure>
+    <figure>
+      <img src="/images/jackie.JPG" alt="Jackie Chan portrait" loading="lazy" decoding="async">
+    </figure>
+    <figure>
+      <img src="/images/我的团长我的团.jpg" alt="My Chief and My Regiment poster" loading="lazy" decoding="async">
+    </figure>
+  </div>
+</section>
 
-  <div style="text-align: center; margin-top: 30px;">
-      <img src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/godfather.png" 
-           alt="Profile Image" 
-           style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-    </div>
-
-        <div style="text-align: center; margin-top: 30px;">
-      <img src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/camus.jpg" 
-           alt="Profile Image" 
-           style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-    </div>
-
-
-        <div style="text-align: center; margin-top: 30px;">
-      <img src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/jackie.JPG" 
-           alt="Profile Image" 
-           style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-
-        <div style="text-align: center; margin-top: 30px;">
-      <img src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/我的团长我的团.jpg" 
-           alt="Profile Image" 
-           style="max-width: 500px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-           
-<section id="miscellaneous">
+<section id="miscellaneous" class="misc-section">
   <h2>🌎 Miscellaneous</h2>
 
-  <p>
-    Outside of research, I enjoy playing <strong>eFootball</strong> and following international football⚽️🏀. 
-    I am also a collector of <strong>football trading cards</strong>, especially cards of legendary players.
+  <p class="misc-text">
+    Outside of research, I enjoy playing <strong>eFootball</strong>, following football and basketball,
+    and collecting <strong>trading cards</strong>, especially limited and signed cards from athletes I admire.
   </p>
 
   <div class="hobby-gallery">
-
-    <img src="/hobby/football1.jpg" alt="Playing football" width="220">
-    <img src="/hobby/football2.jpg" alt="Football match" width="220">
-    <img src="/hobby/hansen.jpg" alt="Yang Hansen card" width="220">
-    <img src="/hobby/playcard.jpg" alt="Football trading cards collection" width="220">
-
+    <figure class="hobby-card">
+      <img src="/hobby/leah-macy-autograph-card.jpg" alt="Leah Macy autographed Notre Dame trading card" loading="lazy" decoding="async">
+      <figcaption>
+        <strong>Autographed Card</strong>
+        <span>Leah Macy, Notre Dame, 48/99.</span>
+      </figcaption>
+    </figure>
+    <figure class="hobby-card">
+      <img src="/hobby/football1.jpg" alt="Playing football" loading="lazy" decoding="async">
+      <figcaption>
+        <strong>Football</strong>
+        <span>Weekend matches and pickup games.</span>
+      </figcaption>
+    </figure>
+    <figure class="hobby-card">
+      <img src="/hobby/football2.jpg" alt="Football match" loading="lazy" decoding="async">
+      <figcaption>
+        <strong>Match Days</strong>
+        <span>Following the game beyond research hours.</span>
+      </figcaption>
+    </figure>
+    <figure class="hobby-card">
+      <img src="/hobby/hansen.jpg" alt="Yang Hansen trading card" loading="lazy" decoding="async">
+      <figcaption>
+        <strong>Cards</strong>
+        <span>Collecting players and stories on cardboard.</span>
+      </figcaption>
+    </figure>
+    <figure class="hobby-card">
+      <img src="/hobby/playcard.jpg" alt="Trading cards collection" loading="lazy" decoding="async">
+      <figcaption>
+        <strong>Collection</strong>
+        <span>Favorite cards from the binder.</span>
+      </figcaption>
+    </figure>
   </div>
-
-  <br>
 
   <div class="clustrmaps-container">
     <script
