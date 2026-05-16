@@ -141,6 +141,15 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">May 2026</div>
   <div class="news-text">
+    Our paper <strong>“RAPIDMap: Rapid multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery”</strong>
+    has been accepted for presentation at the <strong>CaGIS 2026 Conference</strong>
+    in <strong>St. Louis, Missouri</strong> (September 8–11, 2026).
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">May 2026</div>
+  <div class="news-text">
     The <strong>IGARSS 2026</strong> technical program scheduled our paper
     <a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585" target="_blank" rel="noopener">
       <strong>“Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models”</strong>
