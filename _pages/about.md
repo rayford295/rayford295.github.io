@@ -922,6 +922,22 @@ redirect_from:
           allowfullscreen></iframe>
       </div>
     </li>
+
+    <li>
+      <strong>🌐 GISalon Roundtable: GeoAI and the Future of GIS</strong>
+      <p>
+        A GISalon roundtable conversation on GeoAI and whether AI will replace GIS, featuring my perspective as a Texas A&amp;M Geography Ph.D. student.
+        <a href="https://www.bilibili.com/video/BV1e8Lg64EMz/" target="_blank" rel="noopener">Watch on Bilibili</a>.
+      </p>
+      <div class="video-wrapper">
+        <iframe
+          src="https://player.bilibili.com/player.html?isOutside=true&amp;bvid=BV1e8Lg64EMz&amp;cid=38375326637&amp;p=1"
+          title="GIS真的要被AI取代了吗？先听懂GeoAI"
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen></iframe>
+      </div>
+    </li>
   </ul>
 </section>
 
