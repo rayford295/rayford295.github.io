@@ -930,12 +930,21 @@ redirect_from:
         <a href="https://www.bilibili.com/video/BV1e8Lg64EMz/" target="_blank" rel="noopener">Watch on Bilibili</a>.
       </p>
       <div class="video-wrapper">
-        <iframe
-          src="https://player.bilibili.com/player.html?isOutside=true&amp;bvid=BV1e8Lg64EMz&amp;cid=38375326637&amp;p=1"
-          title="GIS真的要被AI取代了吗？先听懂GeoAI"
-          scrolling="no"
-          frameborder="0"
-          allowfullscreen></iframe>
+        <button
+          class="video-cover"
+          type="button"
+          data-video-src="https://player.bilibili.com/player.html?isOutside=true&amp;bvid=BV1e8Lg64EMz&amp;cid=38375326637&amp;p=1&amp;autoplay=1"
+          data-video-title="GIS真的要被AI取代了吗？先听懂GeoAI"
+          aria-label="Play GISalon Roundtable: GeoAI and the Future of GIS">
+          <img
+            src="/images/gisalon-geoai-cover.jpg"
+            alt="Cover image for the GISalon GeoAI roundtable video"
+            loading="lazy"
+            decoding="async">
+          <span class="video-cover-overlay" aria-hidden="true">
+            <span class="video-play-icon"></span>
+          </span>
+        </button>
       </div>
     </li>
   </ul>
@@ -988,7 +997,77 @@ redirect_from:
   border: 0;
   border-radius: 10px;
 }
+
+.video-cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  overflow: hidden;
+  background: #000;
+  border-radius: 10px;
+}
+
+.video-cover img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.video-cover-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.18);
+  transition: background 160ms ease;
+}
+
+.video-cover:hover .video-cover-overlay,
+.video-cover:focus-visible .video-cover-overlay {
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.video-play-icon {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.video-play-icon::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-42%, -50%);
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-left: 24px solid #111;
+}
 </style>
+
+<script>
+document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cover) {
+  cover.addEventListener("click", function () {
+    var iframe = document.createElement("iframe");
+    iframe.src = cover.dataset.videoSrc;
+    iframe.title = cover.dataset.videoTitle || cover.getAttribute("aria-label") || "Video player";
+    iframe.setAttribute("scrolling", "no");
+    iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("allow", "autoplay; fullscreen; picture-in-picture");
+    iframe.setAttribute("allowfullscreen", "");
+    cover.replaceWith(iframe);
+  });
+});
+</script>
 
 <section id="personal-gallery" class="personal-gallery">
   <h2>📸 Personal Gallery — Moments That Inspire Me</h2>
