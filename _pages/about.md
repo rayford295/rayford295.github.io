@@ -1112,10 +1112,10 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       </figcaption>
     </figure>
     <figure class="hobby-card">
-      <img src="/hobby/football2.jpg" alt="Football match" loading="lazy" decoding="async">
+      <img src="/hobby/card-pulls.png" alt="Trading card pulls featuring football legends and pop-culture cards" loading="lazy" decoding="async">
       <figcaption>
-        <strong>Match Days</strong>
-        <span>Following the game beyond research hours.</span>
+        <strong>Card Pulls</strong>
+        <span>Collecting football legends and pop-culture hits beyond research hours.</span>
       </figcaption>
     </figure>
     <figure class="hobby-card">
