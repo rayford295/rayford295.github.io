@@ -1006,7 +1006,7 @@ redirect_from:
   <ul>
     <li>
       <strong>
-        <a href="https://mp.weixin.qq.com/s/d96wzMorwGsIGaO5N3mh9A" target="_blank" rel="noopener">
+        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">
           In the Autonomous Era, What Should a PhD Student Hold Onto?
         </a>
       </strong>
@@ -1016,6 +1016,21 @@ redirect_from:
         doctoral training, reading, courage, and creativity. As more research
         work becomes automated, I ask what a Ph.D. student should still hold
         onto.
+        <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">Read Essay</a>.
+      </p>
+    </li>
+
+    <li>
+      <strong>
+        <a href="https://mp.weixin.qq.com/s/d96wzMorwGsIGaO5N3mh9A" target="_blank" rel="noopener">
+          博二小节｜胜人者有力，自胜者强
+        </a>
+      </strong>
+      — <em>Ph.D. Year-Two Reflection, May 2026</em>
+      <p style="margin-left: 1em;">
+        A Chinese personal reflection on the second year of Ph.D. life, building
+        a reading and review system, training inner strength, and learning to
+        become steadier, braver, and more responsible through writing.
         <a href="https://mp.weixin.qq.com/s/d96wzMorwGsIGaO5N3mh9A" target="_blank" rel="noopener">Read Essay</a>.
       </p>
     </li>
