@@ -395,21 +395,30 @@ redirect_from:
 <section id="writing-and-reflections">
   <h2>✍️ Writing &amp; Reflections</h2>
 
-  <div class="writing-grid">
-    <div class="writing-card writing-card-featured">
-      <div class="writing-kicker">Featured Essay</div>
-      <h3>PhD Year Two Reflection: Reading, Courage, and Inner Strength</h3>
-      <p>
-        一篇关于博士阶段、阅读体系、理想主义、勇气与“修炼内功”的中文反思写作。
-        这篇文章记录了我如何通过阅读、复盘与写作来建立自己的研究哲学，
-        也写下了我对焦虑、不确定性、责任与成长的理解。
-      </p>
-      <div class="writing-meta">WeChat Public Account · 2026</div>
-      <div class="writing-links">
-        <a href="https://mp.weixin.qq.com/s/d96wzMorwGsIGaO5N3mh9A" target="_blank" rel="noopener">Read the essay</a>
-      </div>
-    </div>
-  </div>
+  <p>
+    This section gathers my reading reflections, research notes, public essays, and thoughts from my Ph.D. journey.
+    Compared with formal publications, these pieces stay closer to the process of research itself: how I read,
+    ask questions, think through GeoAI, disaster resilience, and autonomous science, and slowly grow into a
+    researcher through everyday practice.
+  </p>
+
+  <ul>
+    <li>
+      <strong>In the Autonomous Era, What Should a PhD Student Hold Onto?</strong>
+      — Featured Essay, May 2026<br>
+      A reading reflection on automated science, AI-assisted research, doctoral training, reading, courage,
+      and creativity. As more research work becomes automated, I ask what a Ph.D. student should still hold onto.
+      <a href="https://mp.weixin.qq.com/s/d96wzMorwGsIGaO5N3mh9A" target="_blank" rel="noopener">Read Essay</a>.
+    </li>
+    <li>
+      <strong>Research Philosophy: GeoAI, Disaster Resilience, and Autonomous Science</strong>
+      — Research Philosophy<br>
+      A living research philosophy document that organizes my thinking and judgment on GeoAI, disaster resilience,
+      responsible AI, autonomous science, and long-term research questions.
+      <a href="https://github.com/rayford295/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY.md" target="_blank" rel="noopener">Read Document</a>;
+      <a href="https://github.com/rayford295/awesome-autonomous-geoai/blob/main/RESEARCH_PHILOSOPHY_SUMMARY_ZH.md" target="_blank" rel="noopener">中文摘要</a>.
+    </li>
+  </ul>
 </section>
 
 <section id="educations">
