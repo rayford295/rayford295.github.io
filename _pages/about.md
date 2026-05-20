@@ -1023,7 +1023,7 @@ redirect_from:
     <li>
       <strong>
         <a href="https://mp.weixin.qq.com/s/d96wzMorwGsIGaO5N3mh9A" target="_blank" rel="noopener">
-          博二小节｜胜人者有力，自胜者强
+          Ph.D. Year Two: Self-Mastery Makes One Strong
         </a>
       </strong>
       — <em>Ph.D. Year-Two Reflection, May 2026</em>
