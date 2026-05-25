@@ -232,7 +232,7 @@ redirect_from:
       Prior to graduate school, I received a bachelor’s degree in Software Engineering from 
       <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a> in China.  
       I hope to use computer science and spatial science to make a positive contribution to the world.  
-      I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, poker🎴, and talk shows🎆.
+      I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, golf🏌️‍♀️, poker🎴, and talk shows🎆.
     </p>
 
 <p>
