@@ -516,6 +516,9 @@ redirect_from:
 
 <section id="publications">
   <h2>📕 Selected Publications</h2>
+  <p style="font-size: 0.95em; color: #6b7280; margin-top: -6px; margin-bottom: 18px; font-style: italic;">
+    I do not really have a single representative work; I love all of my first-author papers equally, because each of them records a part of my growth.
+  </p>
 
   <!-- Satellite-to-Street Paper -->
 <div class="paper-box">
