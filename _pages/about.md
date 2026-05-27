@@ -35,8 +35,6 @@ redirect_from:
       line-height: 1.5;
     }
 
-<<<<<<< HEAD
-=======
     .industry-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1306,12 +1304,67 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
     </figure>
   </div>
 
-  <div class="clustrmaps-container">
+  <div class="clustrmaps-container" data-visitor-map>
+    <div class="visitor-map-fallback" role="status">
+      <svg class="visitor-map-fallback__map" viewBox="0 0 320 160" aria-hidden="true" focusable="false">
+        <path d="M48 65c10-17 32-29 55-28 15 1 27 6 38 15 7 6 16 8 27 6 15-3 29 1 41 10 13 9 27 11 43 6 13-4 26-2 36 6 9 8 14 19 14 31 0 14-7 26-19 34-13 9-30 10-45 3-13-6-27-6-40 0-18 8-39 7-56-3-11-6-24-7-36-3-16 6-34 4-47-7-20-16-24-45-11-70Z" />
+        <circle cx="86" cy="69" r="5" />
+        <circle cx="143" cy="91" r="4" />
+        <circle cx="206" cy="75" r="5" />
+        <circle cx="252" cy="104" r="4" />
+      </svg>
+      <div>
+        <strong>Visitor Map</strong>
+        <span>Live visitor map is temporarily unavailable.</span>
+      </div>
+    </div>
     <script
       type="text/javascript"
       id="clustrmaps"
       src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=420&t=tt&d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA">
     </script>
   </div>
+
+  <script>
+  (function () {
+    var container = document.querySelector("[data-visitor-map]");
+    if (!container) {
+      return;
+    }
+
+    var fallback = container.querySelector(".visitor-map-fallback");
+    var script = container.querySelector("#clustrmaps");
+
+    function hasLiveMap() {
+      return Array.prototype.some.call(container.children, function (child) {
+        if (child === fallback || child === script) {
+          return false;
+        }
+
+        return child.tagName !== "SCRIPT";
+      });
+    }
+
+    function refreshFallback() {
+      if (!fallback) {
+        return;
+      }
+
+      fallback.hidden = hasLiveMap();
+    }
+
+    if (script) {
+      script.addEventListener("load", function () {
+        window.setTimeout(refreshFallback, 600);
+      });
+      script.addEventListener("error", refreshFallback);
+    }
+
+    window.addEventListener("load", function () {
+      window.setTimeout(refreshFallback, 1200);
+    });
+    window.setTimeout(refreshFallback, 4000);
+  }());
+  </script>
 
 </section>
