@@ -920,8 +920,9 @@ redirect_from:
     <li>
       <strong>Rayford AI</strong> — <em>Founder-led Venture</em>
       <p style="margin-left: 1em;">
-        Translating disaster GeoAI, street-view damage assessment, and multimodal spatial intelligence
-        into property-level resilience workflows for damage assessment, claims triage, and recovery intelligence.
+        Building a geospatial physical AI company that combines remote sensing, street-level imagery,
+        and multimodal spatial intelligence into auditable real-world workflows for property and infrastructure
+        decisions, starting with disaster assessment, claims triage, and resilience operations.
         <a href="https://rayford-ai.com/" target="_blank" rel="noopener">Company</a>.
       </p>
     </li>
