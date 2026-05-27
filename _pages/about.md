@@ -183,6 +183,75 @@ redirect_from:
       border-color: #a5b4fc;
       color: #4338ca;
     }
+
+    /* Keep the visitor-map fallback inline so stale cached CSS still renders it. */
+    .clustrmaps-container {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      overflow: hidden;
+    }
+
+    .visitor-map-fallback {
+      width: min(100%, 420px);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 16px;
+      background: #ffffff;
+      border: 1px solid #d8dee8;
+      border-radius: 8px;
+      box-shadow: 0 4px 14px rgba(15, 23, 42, .08);
+      color: #2f3a4a;
+    }
+
+    .visitor-map-fallback[hidden] {
+      display: none;
+    }
+
+    .visitor-map-fallback__map {
+      flex: 0 0 116px;
+      width: 116px;
+      max-width: 34%;
+      height: auto;
+      fill: #dbeafe;
+      stroke: #3b82f6;
+      stroke-width: 3;
+    }
+
+    .visitor-map-fallback__map circle {
+      fill: #ef4444;
+      stroke: #ffffff;
+      stroke-width: 2;
+    }
+
+    .visitor-map-fallback strong {
+      display: block;
+      color: #1f2937;
+      font-size: .92rem;
+      line-height: 1.25;
+    }
+
+    .visitor-map-fallback span {
+      display: block;
+      margin-top: 4px;
+      color: #52525b;
+      font-size: .82rem;
+      line-height: 1.35;
+    }
+
+    @media (max-width: 520px) {
+      .visitor-map-fallback {
+        align-items: flex-start;
+      }
+
+      .visitor-map-fallback__map {
+        flex-basis: 96px;
+      }
+    }
   </style>
 </head>
 
