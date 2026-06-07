@@ -197,14 +197,23 @@ redirect_from:
 
     .visitor-map-widgets {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 18px;
+      gap: 22px;
+      width: 100%;
     }
 
     .visitor-map-widgets > div {
+      width: min(100%, 480px);
+      display: flex;
+      justify-content: center;
+    }
+
+    .visitor-map-widgets > div img,
+    .visitor-map-widgets > div a {
       max-width: 100%;
+      height: auto;
     }
 
     .visitor-map-fallback {
