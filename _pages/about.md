@@ -185,7 +185,7 @@ redirect_from:
     }
 
     /* Keep the visitor-map fallback inline so stale cached CSS still renders it. */
-    .clustrmaps-container {
+    .visitor-map-wrap {
       margin-top: 30px;
       display: flex;
       flex-direction: column;
@@ -193,6 +193,18 @@ redirect_from:
       justify-content: center;
       gap: 14px;
       overflow: hidden;
+    }
+
+    .visitor-map-widgets {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+    }
+
+    .visitor-map-widgets > div {
+      max-width: 100%;
     }
 
     .visitor-map-fallback {
@@ -1378,8 +1390,8 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
     </figure>
   </div>
 
-  <div class="clustrmaps-container" data-visitor-map>
-    <div class="visitor-map-fallback" role="status">
+  <div class="visitor-map-wrap" data-visitor-map>
+    <div class="visitor-map-fallback" role="status" hidden>
       <svg class="visitor-map-fallback__map" viewBox="0 0 320 160" aria-hidden="true" focusable="false">
         <path d="M48 65c10-17 32-29 55-28 15 1 27 6 38 15 7 6 16 8 27 6 15-3 29 1 41 10 13 9 27 11 43 6 13-4 26-2 36 6 9 8 14 19 14 31 0 14-7 26-19 34-13 9-30 10-45 3-13-6-27-6-40 0-18 8-39 7-56-3-11-6-24-7-36-3-16 6-34 4-47-7-20-16-24-45-11-70Z" />
         <circle cx="86" cy="69" r="5" />
@@ -1392,11 +1404,14 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
         <span>Live visitor map is temporarily unavailable.</span>
       </div>
     </div>
-    <script
-      type="text/javascript"
-      id="clustrmaps"
-      src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=420&t=tt&d=ew9JD5D1fDG0V7A7Uc0mx-mp4-J3v9AA6jUiCkkFMXA">
-    </script>
+    <div class="visitor-map-widgets">
+      <div class="visitor-map-globe" data-visitor-widget>
+        <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=EWutPc8jfJkbf-s1AAIwRid1As7jHp6IstmaEMxhWT0"></script>
+      </div>
+      <div class="visitor-map-flat" data-visitor-widget>
+        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Qrv5eIcxwcPpgsi2Ge8d293SVIT9aODPJGzL0ZRIB-c&cl=ffffff&w=a"></script>
+      </div>
+    </div>
   </div>
 
   <script>
@@ -1407,31 +1422,22 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
     }
 
     var fallback = container.querySelector(".visitor-map-fallback");
-    var script = container.querySelector("#clustrmaps");
+    var widgets = Array.prototype.slice.call(container.querySelectorAll("[data-visitor-widget]"));
 
+    // A widget is "live" once MapMyVisitors injects a non-script element
+    // (the map or globe image/anchor) beside its script tag.
     function hasLiveMap() {
-      return Array.prototype.some.call(container.children, function (child) {
-        if (child === fallback || child === script) {
-          return false;
-        }
-
-        return child.tagName !== "SCRIPT";
+      return widgets.some(function (widget) {
+        return Array.prototype.some.call(widget.children, function (child) {
+          return child.tagName !== "SCRIPT";
+        });
       });
     }
 
     function refreshFallback() {
-      if (!fallback) {
-        return;
+      if (fallback) {
+        fallback.hidden = hasLiveMap();
       }
-
-      fallback.hidden = hasLiveMap();
-    }
-
-    if (script) {
-      script.addEventListener("load", function () {
-        window.setTimeout(refreshFallback, 600);
-      });
-      script.addEventListener("error", refreshFallback);
     }
 
     window.addEventListener("load", function () {
