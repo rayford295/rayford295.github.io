@@ -210,12 +210,13 @@ redirect_from:
       justify-content: center;
     }
 
-    .visitor-map-widgets > div img,
-    .visitor-map-widgets > div a,
-    .visitor-map-widgets > div canvas {
-      max-width: 100% !important;
-      width: 100% !important;
-      height: auto !important;
+    /* The MapMyVisitors globe auto-sizes to its container width; only guard
+       against accidental overflow, never force the inner anchor's height
+       (its globe is drawn with absolutely-positioned layers and would
+       collapse to zero height). */
+    .visitor-map-widgets > div img {
+      max-width: 100%;
+      height: auto;
     }
 
     .visitor-map-fallback {
