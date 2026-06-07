@@ -205,15 +205,17 @@ redirect_from:
     }
 
     .visitor-map-widgets > div {
-      width: min(100%, 480px);
+      width: min(100%, 300px);
       display: flex;
       justify-content: center;
     }
 
     .visitor-map-widgets > div img,
-    .visitor-map-widgets > div a {
-      max-width: 100%;
-      height: auto;
+    .visitor-map-widgets > div a,
+    .visitor-map-widgets > div canvas {
+      max-width: 100% !important;
+      width: 100% !important;
+      height: auto !important;
     }
 
     .visitor-map-fallback {
@@ -1416,9 +1418,6 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
     <div class="visitor-map-widgets">
       <div class="visitor-map-globe" data-visitor-widget>
         <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=EWutPc8jfJkbf-s1AAIwRid1As7jHp6IstmaEMxhWT0"></script>
-      </div>
-      <div class="visitor-map-flat" data-visitor-widget>
-        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Qrv5eIcxwcPpgsi2Ge8d293SVIT9aODPJGzL0ZRIB-c&cl=ffffff&w=a"></script>
       </div>
     </div>
   </div>
