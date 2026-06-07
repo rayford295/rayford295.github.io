@@ -319,10 +319,11 @@ redirect_from:
 
 <p>
   <strong>Research interests:</strong>
-  <span style="color: #551A8B; margin-right: 1.4em;">AI4Science</span>
-  <span style="color: #0000EE; margin-right: 1.4em;">Data Science</span>
-  <span style="color: #0000EE; margin-right: 1.4em;">GeoAI</span>
-  <span style="color: #551A8B;">Disaster Resilience</span>
+  <span style="color: #000000; margin-right: 1.4em;">AI4Science</span>
+  <span style="color: #000000; margin-right: 1.4em;">Data Science</span>
+  <span style="color: #000000; margin-right: 1.4em;">GeoAI</span>
+  <span style="color: #000000; margin-right: 1.4em;">Disaster Resilience</span>
+  <span style="color: #000000;">Multimodal AI</span>
 </p>
 
 
