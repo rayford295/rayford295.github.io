@@ -15,6 +15,9 @@ main:
   - title: "Experiences"
     url: "/#experiences"
 
+  - title: "Founder & Initiatives"
+    url: "/#founder-initiatives"
+
   - title: "Publications"
     url: "/#publications"
 

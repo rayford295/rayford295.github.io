@@ -530,19 +530,6 @@ redirect_from:
   </div>
 
 <div class="item">
-  <img class="logo" src="images/autogeoai.png" alt="Autonomous GeoAI4Science logo">
-  <div class="text">
-    <strong>
-      <a class="exp-link" href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener noreferrer">
-        Autonomous GeoAI4Science
-      </a>
-    </strong><br>
-    Founder, Jan. 2026 – Present<br>
-    An open research initiative advancing autonomous GeoAI agents for scientific discovery.
-  </div>
-</div>
-
-<div class="item">
   <img class="logo" src="images/harvard_logo.webp" alt="Harvard logo">
   <div class="text">
     <strong>Harvard University</strong><br>
@@ -579,6 +566,23 @@ redirect_from:
     Industry Internship (Generative AI)
   </div>
 </div>
+</section>
+
+<section id="founder-initiatives">
+  <h2>🚀 Founder &amp; Initiatives</h2>
+
+  <div class="item">
+    <img class="logo" src="images/autogeoai.png" alt="Autonomous GeoAI4Science logo">
+    <div class="text">
+      <strong>
+        <a class="exp-link" href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener noreferrer">
+          Autonomous GeoAI4Science
+        </a>
+      </strong><br>
+      Founder, Jan. 2026 – Present<br>
+      An open research initiative advancing autonomous GeoAI agents for scientific discovery.
+    </div>
+  </div>
 </section>
 
 <section id="teaching">
