@@ -205,15 +205,13 @@ redirect_from:
     }
 
     .visitor-map-widgets > div {
-      width: min(100%, 300px);
+      width: min(100%, 420px);
       display: flex;
       justify-content: center;
     }
 
-    /* The MapMyVisitors globe auto-sizes to its container width; only guard
-       against accidental overflow, never force the inner anchor's height
-       (its globe is drawn with absolutely-positioned layers and would
-       collapse to zero height). */
+    /* The MapMyVisitors flat map renders an <a><img>; keep it responsive
+       within its container without forcing dimensions. */
     .visitor-map-widgets > div img {
       max-width: 100%;
       height: auto;
@@ -1417,8 +1415,8 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       </div>
     </div>
     <div class="visitor-map-widgets">
-      <div class="visitor-map-globe" data-visitor-widget>
-        <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=EWutPc8jfJkbf-s1AAIwRid1As7jHp6IstmaEMxhWT0"></script>
+      <div class="visitor-map-flat" data-visitor-widget>
+        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Qrv5eIcxwcPpgsi2Ge8d293SVIT9aODPJGzL0ZRIB-c&cl=ffffff&w=a"></script>
       </div>
     </div>
   </div>
