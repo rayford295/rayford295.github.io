@@ -828,6 +828,20 @@ redirect_from:
 <section id="presentation">
   <h2>🏘 Presentation</h2>
   <ul>
+    <li><strong>Symposium on Spatiotemporal Data Science (2026)</strong>
+      <ul>
+        <li>
+          <em>Session Organizer</em> — “Spatiotemporal AI for Urban and Environmental Intelligence: Sensing, Inference, and Human-Centered Applications,”
+          Virginia Tech Academic Building One, Alexandria, VA, August 7–8, 2026
+        </li>
+        <li>
+          <em>Onsite Oral Presentation</em>, Alexandria, VA, August 7–8, 2026 —
+          <strong>Yifan Yang, Lei Zou, and Wendy Jepson</strong>:
+          Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
+        </li>
+      </ul>
+    </li>
+
     <li><strong>IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</strong>
       <ul>
         <li>
