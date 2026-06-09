@@ -383,6 +383,17 @@ redirect_from:
   <div class="news-container">
 
 <div class="news-item">
+  <div class="news-date">Jun 2026</div>
+  <div class="news-text">
+    Heading to the <strong>2026 Symposium on Spatiotemporal Data Science</strong>
+    (August 7–8, 2026, Virginia Tech Academic Building One, Alexandria, VA): organizing the session
+    <strong>“Spatiotemporal AI for Urban and Environmental Intelligence: Sensing, Inference, and Human-Centered Applications,”</strong>
+    and presenting an accepted onsite oral talk,
+    <strong>“Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models.”</strong>
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">May 2026</div>
   <div class="news-text">
     Our paper <strong>“RAPIDMap: Rapid multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery”</strong>
