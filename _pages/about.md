@@ -836,7 +836,7 @@ redirect_from:
         </li>
         <li>
           <em>Onsite Oral Presentation</em>, Alexandria, VA, August 7–8, 2026 —
-          <strong>Yifan Yang, Lei Zou, and Wendy Jepson</strong>:
+          <strong>Yifan Yang</strong>:
           Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
         </li>
       </ul>
