@@ -1,19 +1,9 @@
-# main links links
-main:
-  - title: "Home"
-    url: "/"
-
-  - title: "Research"
-    url: "/research/"
-
-  - title: "Experience"
-    url: "/experience/"
-
-  - title: "Service & Honors"
-    url: "/service-honors/"
-
-  - title: "Writing & Media"
-    url: "/writing-media/"
-
-  - title: "More"
-    url: "/more/"
+pages:
+- name: Home
+  url: /
+- name: Publications
+  url: /publications
+- name: Projects
+  url: /projects
+- name: Showcase
+  url: /showcase

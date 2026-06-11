@@ -1,0 +1,88 @@
+---
+layout: default
+title : Zongrong(Jasper) Li
+navbar_title: Home
+---
+{% include widgets/profile_card.html %}
+
+{% if site.data.display.homepage.show_experience %}
+    {% include widgets/experience_card.html %}
+{% endif %}
+
+{% if site.data.display.homepage.show_news %}
+    {% assign count_news = site.news | size %}
+    {% if count_news > 0 %}
+        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+    {% endif %}
+{% endif %}
+
+{% if site.data.display.homepage.show_selected_publications %}
+    {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+    {%
+        include widgets/publication_card.html
+        publications=pubs
+        title='<i class="fas fa-book-open"></i> Selected Publications'
+    %}
+{% endif %}
+
+{% assign selected_projects = site.projects | sort: "date" | reverse | where: "selected", true %}
+{% if selected_projects.size > 0 %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-sm">
+    <h6 class="border-bottom border-gray p-3 mb-0">
+        <i class="fas fa-code"></i> Selected Projects
+        <a href="{{ 'projects' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a>
+    </h6>
+    {% for item in selected_projects %}
+        {% assign is_last = forloop.last %}
+        {% include widgets/project_item.html item=item hide_bottom_border=is_last %}
+    {% endfor %}
+    <h6 class="d-block p-3 mt-0 text-right">
+        <a href="{{ 'projects' | relative_url }}">All projects <i class="fas fa-angle-double-right"></i></a>
+    </h6>
+</div>
+{% endif %}
+
+{% assign showcase_items = site.showcase | sort: "date" | reverse | where: "show", true | where: "group", "Not Just Research" %}
+{% if showcase_items.size > 0 %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-sm">
+    <h6 class="border-bottom border-gray p-3 mb-0">
+        <i class="fas fa-camera"></i> Not Just Research
+        <a href="{{ 'showcase' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a>
+    </h6>
+    <div class="p-3">
+        <div class="showcase-mosaic">
+            {% for item in showcase_items limit: 5 %}
+            <div class="showcase-mosaic-item{% if forloop.first %} showcase-mosaic-feature{% endif %}">
+                {{ item.content }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<div class="my-3 p-0 bg-white shadow-sm rounded-sm">
+    <h6 class="border-bottom border-gray p-3 mb-0">
+        <i class="fas fa-globe-americas"></i> Visitor Map
+    </h6>
+    <div class="p-4">
+        <div class="row align-items-center">
+            <div class="col-md-5 text-center mb-3 mb-md-0">
+                <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=71GfT4klwD9MnbJgI2F6Uz_LRwFkKb7I2aM1juOKF9s"></script>
+            </div>
+            <div class="col-md-7 pl-md-4">
+                <h5 class="font-weight-bold mb-2">Hello, World! 🌍</h5>
+                <p class="text-muted mb-3" style="font-size: 0.95rem;">
+                    Thanks for stopping by! Visitors from research institutions, universities, and tech communities around the world have explored this site.
+                    If you're interested in collaborating or just want to say hi, feel free to reach out!
+                </p>
+
+                <p class="text-muted mb-2" style="font-size: 0.9rem;">
+                    <i class="fas fa-university"></i> &nbsp;Texas A&amp;M University, College Station, TX<br/>
+                    <i class="fas fa-envelope"></i> &nbsp;zongrong@tamu.edu<br/>
+                    <i class="fas fa-map-marker-alt"></i> &nbsp;Visitor locations tracked by <a href="https://mapmyvisitors.com" target="_blank">MapMyVisitors</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

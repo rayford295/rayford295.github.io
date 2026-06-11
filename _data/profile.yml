@@ -1,0 +1,91 @@
+primary_name: "Yifan Yang"
+secondary_name: "杨一帆"
+navbar_name: "Yifan Yang"
+
+positions:
+- name: Ph.D. Student in Geography, Texas A&M University
+
+email: "yyang295@tamu.edu"
+cv_link: https://drive.google.com/file/d/1YND_1Yaf2yoktBEhzV7hauO4I2DF1wJ7/view?usp=sharing
+github: rayford295
+
+short_bio_text_justify: true
+short_bio: >-
+  <p>
+    I am <strong>Yifan Yang</strong>, a Ph.D. student in the Department of Geography at
+    <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>,
+    advised by <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>
+    in the <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.
+    My research centers on <strong>Responsible and Autonomous GeoAI</strong>, with a focus on explainable,
+    trustworthy systems for spatial decision-making and disaster resilience.
+    I founded <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener"><strong>AutonomousGeoAI4Science</strong></a>,
+    an open community hub for papers, tools, benchmarks, and collaboration.
+  </p>
+  <p style="font-style: italic; color: #4b5563; border-left: 4px solid #93c5fd; padding-left: 12px;">
+    🔭 Vision: To transcend the boundaries of screens and make the real world our playground of intelligence —
+    where AI, space, and humanity coexist and co-create.
+  </p>
+  <p>
+    Before my Ph.D., I earned an M.S. in Spatial Data Science from the
+    <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>,
+    where I worked with Dr. John P. Wilson on the Urban Trees Initiative, and completed a research internship at the
+    <a href="https://sdl.gis.harvard.edu/" target="_blank" rel="noopener">Spatial Data Lab, Harvard University</a>
+    under Dr. Siqin Wang. I received my B.S. in Software Engineering from
+    <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a>, China.
+  </p>
+  <p>
+    <strong>Research interests:</strong> AI4Science · Data Science · GeoAI · Disaster Resilience · Multimodal AI.
+    My doctoral committee members are Dr. Heng Cai, Dr. Andrew Klein, and Dr. Zhengzhong Tu.
+    Beyond research, I enjoy basketball 🏀, football ⚽, golf 🏌️, poker 🎴, and talk shows 🎆.
+  </p>
+
+portrait_url: /assets/images/photos/profile.jpg
+portrait_caption: >-
+  Responsible & Autonomous GeoAI for disaster resilience.
+
+education:
+- name: Texas A&M University
+  position: Ph.D. in Geography
+  date: Aug. 2024 - Present
+- name: University of Southern California
+  position: M.S. in Spatial Data Science
+  date: Aug. 2022 - May 2024
+- name: Hainan University
+  position: B.S. in Software Engineering
+  date: Aug. 2018 - May 2022
+
+experience:
+- name: Texas A&M University — GEAR Lab
+  position: "Graduate Research Assistant (Advisor: Dr. Lei Zou)"
+  date: Jan. 2025 - Present
+- name: Harvard University — Spatial Data Lab, CGA
+  position: "Research Intern (Mentor: Dr. Siqin Wang)"
+  date: Mar. 2025 - Aug. 2025
+- name: Spatial Sciences Institute, USC
+  position: Master Student Researcher — Urban Tree Shade Model
+  date: Sep. 2023 - Apr. 2024
+- name: Vitally AI
+  position: Data Engineering & AI Model Fine-tuning Intern (Generative AI)
+  date: Feb. 2023 - May 2023
+
+awards:
+- name: IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C. ($500)
+  date: 2026
+- name: AAG-GISSG Student Honors Paper Competition — 2nd Place ($350)
+  date: 2026
+- name: AAG International Geographic Information Funds (IGIF) Scholarship ($1,200)
+  date: 2026
+- name: Best Student Paper Award, International Cartographic Conference (ICC), Vancouver
+  date: 2025
+- name: Environment and Sustainability Graduate Fellow Award, Texas A&M University ($2,500)
+  date: 2025
+- name: TAMIDS Student Ambassador Scholarship, Domain Data Science Track ($2,000)
+  date: 2025
+- name: CaGIS International Travel Grant — 2025 ICC, Vancouver ($2,100)
+  date: 2025
+- name: AAG-GISSG Student Honors Paper Competition — Honorable Mention (Top 5, $200)
+  date: 2025
+- name: AAG Applied Geography Specialty Group — AGSG Annual Meeting Award ($196)
+  date: 2025
+- name: Outstanding Graduate Award, Hainan University
+  date: 2022
