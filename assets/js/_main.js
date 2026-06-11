@@ -58,7 +58,14 @@ $(document).ready(function(){
   });
 
   // init smooth scroll
-  $("a").smoothScroll({offset: -20});
+  $("a").smoothScroll({
+    offset: -92,
+    afterScroll: function() {
+      if (this.hash && document.getElementById(this.hash.substring(1)) && window.history && window.history.pushState) {
+        window.history.pushState(null, "", this.hash);
+      }
+    }
+  });
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
