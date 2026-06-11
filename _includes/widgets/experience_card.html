@@ -2,7 +2,7 @@
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
             <div class="card-body p-4">
-                <div class="row" data-masonry='{"percentPosition": true }'>
+                <div class="row">
 
                     <!-- 左侧：Education + Honors & Awards -->
                     <div class="col-md-6">
@@ -12,8 +12,8 @@
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.education %}
                                 <li class="media mb-1">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
-                                    <div class="media-body">
+                                    {% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">{% endif %}
+                                    <div class="media-body" style="min-width:0;">
                                         <div>{{ item.name }}</div>
                                         <div class="small">{{ item.dept }}</div>
                                         <div class="small d-flex">
@@ -52,8 +52,8 @@
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.experience %}
                                 <li class="media mb-1">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
-                                    <div class="media-body">
+                                    {% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">{% endif %}
+                                    <div class="media-body" style="min-width:0;">
                                         <div>{{ item.name }}</div>
                                         <div class="small">{{ item.dept }}</div>
                                         <div class="small d-flex">
