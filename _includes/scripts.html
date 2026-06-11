@@ -1,4 +1,4 @@
-<script src="assets/js/main.min.js"></script>
+<script src="{{ '/assets/js/main.min.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
 
 <!-- Dark mode: apply theme before paint to avoid flash -->
 <script>
@@ -9,6 +9,7 @@
   }
 })();
 </script>
+
 
 <!-- Dark mode: floating toggle button + circle-reveal transition -->
 <button id="dark-mode-toggle" class="dark-mode-fab" aria-label="Toggle dark mode" title="Toggle dark/light mode">
@@ -587,4 +588,3 @@ html {
   requestAnimationFrame(loop);
 })();
 </script>
-
