@@ -1,19 +1,43 @@
 # main links links
 main:
-  - title: "Home"
-    url: "/"
+  - title: "About Me"
+    url: "/#about-me"
 
-  - title: "Research"
-    url: "/research/"
+  - title: "News"
+    url: "/#news"
 
-  - title: "Experience"
-    url: "/experience/"
+  - title: "Writing & Reflections"
+    url: "/#writing-and-reflections"
+    
+  - title: "Educations"
+    url: "/#educations"
 
-  - title: "Service & Honors"
-    url: "/service-honors/"
+  - title: "Experiences"
+    url: "/#experiences"
 
-  - title: "Writing & Media"
-    url: "/writing-media/"
+  - title: "Founder & Initiatives"
+    url: "/#founder-initiatives"
 
-  - title: "More"
-    url: "/more/"
+  - title: "Publications"
+    url: "/#publications"
+
+  - title: "Presentation"
+    url: "/#presentation"
+
+  - title: "Partial Honors"
+    url: "/#partial-honors"
+
+  - title: "Professional Activities and Service"
+    url: "/#professional-activities-and-service"
+
+  - title: "Industry Engagement"
+    url: "/#industry-engagement"
+
+  - title: "Media Coverage"
+    url: "/#media-coverage"
+
+  - title: "Videos"
+    url: "/#videos"
+    
+  - title: "Miscellaneous"
+    url: "/#miscellaneous"
