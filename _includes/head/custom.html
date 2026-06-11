@@ -20,4 +20,30 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<!-- Nav overflow toggle: show a clear "More" dropdown instead of a gray box -->
+<style>
+.greedy-nav button {
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+  padding: 0.4em 0.7em !important;
+  margin: 0 !important;
+  color: #494e52 !important;
+  font-weight: 600;
+  align-self: center;
+}
+.greedy-nav button .navicon { display: none !important; }
+.greedy-nav button::after { content: "More \25BE"; white-space: nowrap; font-size: 0.95rem; }
+.greedy-nav button:hover::after { color: #000; }
+.greedy-nav .hidden-links {
+  background: #fff !important;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.16) !important;
+  border-radius: 8px !important;
+  padding: 6px 0 !important;
+  border: 1px solid #eee !important;
+}
+.greedy-nav .hidden-links a { color: #333 !important; padding: 6px 16px !important; }
+.greedy-nav .hidden-links a:hover { background: #f4f6f8 !important; }
+</style>
+
 <!-- end custom head snippets -->

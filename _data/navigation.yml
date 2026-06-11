@@ -1,21 +1,21 @@
 # main links links
 main:
-  - title: "About Me"
+  - title: "About"
     url: "/#about-me"
 
   - title: "News"
     url: "/#news"
 
-  - title: "Writing & Reflections"
+  - title: "Writing"
     url: "/#writing-and-reflections"
-    
-  - title: "Educations"
+
+  - title: "Education"
     url: "/#educations"
 
-  - title: "Experiences"
+  - title: "Experience"
     url: "/#experiences"
 
-  - title: "Founder & Initiatives"
+  - title: "Initiatives"
     url: "/#founder-initiatives"
 
   - title: "Publications"
@@ -24,20 +24,20 @@ main:
   - title: "Presentation"
     url: "/#presentation"
 
-  - title: "Partial Honors"
+  - title: "Honors"
     url: "/#partial-honors"
 
-  - title: "Professional Activities and Service"
+  - title: "Service"
     url: "/#professional-activities-and-service"
 
-  - title: "Industry Engagement"
+  - title: "Industry"
     url: "/#industry-engagement"
 
-  - title: "Media Coverage"
+  - title: "Media"
     url: "/#media-coverage"
 
   - title: "Videos"
     url: "/#videos"
-    
-  - title: "Miscellaneous"
+
+  - title: "More"
     url: "/#miscellaneous"
