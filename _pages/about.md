@@ -1178,6 +1178,11 @@ redirect_from:
       </p>
     </li>
   </ul>
+
+  <div style="text-align:center; margin:30px auto 6px;">
+    <img src="/images/wechat-mp-qr.png" alt="WeChat Official Account QR code" loading="lazy" decoding="async" style="width:160px; height:auto; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.15);">
+    <p style="margin:8px 0 0; color:#555; font-size:0.9em;">📩 扫码关注我的微信公众号 · Follow my WeChat Official Account</p>
+  </div>
 </section>
 
 <section id="videos">
@@ -1265,6 +1270,11 @@ redirect_from:
       </div>
     </li>
   </ul>
+
+  <div style="text-align:center; margin:30px auto 6px;">
+    <img src="/images/wechat-channels-qr.png" alt="WeChat Channels (视频号) QR code" loading="lazy" decoding="async" style="width:200px; height:auto; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.15);">
+    <p style="margin:8px 0 0; color:#555; font-size:0.9em;">📺 扫码关注我的微信视频号 · Follow my WeChat Channels</p>
+  </div>
 </section>
 
 <style>
