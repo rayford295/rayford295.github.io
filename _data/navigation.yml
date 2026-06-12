@@ -6,9 +6,6 @@ main:
   - title: "News"
     url: "/#news"
 
-  - title: "Writing"
-    url: "/#writing-and-reflections"
-
   - title: "Education"
     url: "/#educations"
 
@@ -17,6 +14,9 @@ main:
 
   - title: "Initiatives"
     url: "/#founder-initiatives"
+
+  - title: "Teaching"
+    url: "/#teaching"
 
   - title: "Publications"
     url: "/#publications"
@@ -36,8 +36,14 @@ main:
   - title: "Media"
     url: "/#media-coverage"
 
+  - title: "Writing"
+    url: "/#writing-and-reflections"
+
   - title: "Videos"
     url: "/#videos"
 
-  - title: "More"
+  - title: "Gallery"
+    url: "/#personal-gallery"
+
+  - title: "Misc."
     url: "/#miscellaneous"

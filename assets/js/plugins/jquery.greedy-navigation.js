@@ -14,7 +14,21 @@ var breaks = [];
 
 function updateNav() {
 
-  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+  var buttonWidth = $btn.data('width');
+
+  if(!buttonWidth) {
+    if($btn.hasClass('hidden')) {
+      $btn.removeClass('hidden').css('visibility', 'hidden');
+      buttonWidth = $btn.outerWidth();
+      $btn.addClass('hidden').css('visibility', '');
+    } else {
+      buttonWidth = $btn.outerWidth();
+    }
+
+    $btn.data('width', buttonWidth);
+  }
+
+  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - buttonWidth - 30;
 
   // The visible list is overflowing the nav
   if($vlinks.width() > availableSpace) {
@@ -28,6 +42,8 @@ function updateNav() {
     // Show the dropdown btn
     if($btn.hasClass('hidden')) {
       $btn.removeClass('hidden');
+      updateNav();
+      return;
     }
 
   // The visible list is not overflowing

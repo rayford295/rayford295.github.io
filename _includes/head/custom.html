@@ -20,29 +20,59 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
-<!-- Nav overflow toggle: show a clear "More" dropdown instead of a gray box -->
+<!-- Nav overflow toggle: use a measured text button and clean dropdown -->
 <style>
-.greedy-nav button {
-  background: transparent !important;
-  width: auto !important;
-  height: auto !important;
-  padding: 0.4em 0.7em !important;
-  margin: 0 !important;
-  color: #494e52 !important;
-  font-weight: 600;
-  align-self: center;
+.greedy-nav .visible-links a {
+  margin-left: .7rem !important;
+  margin-right: .7rem !important;
 }
-.greedy-nav button .navicon { display: none !important; }
-.greedy-nav button::after { content: "More \25BE"; white-space: nowrap; font-size: 0.95rem; }
-.greedy-nav button:hover::after { color: #000; }
+.greedy-nav .masthead__menu-home-item a {
+  margin-left: 0 !important;
+}
+.greedy-nav button {
+  position: absolute !important;
+  top: 50% !important;
+  right: 0 !important;
+  transform: translateY(-50%) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: auto !important;
+  height: 32px !important;
+  padding: 0 12px !important;
+  margin: 0 !important;
+  border: 1px solid #d7dee8 !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
+  color: #3f4650 !important;
+  font-size: .86rem !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, .08) !important;
+}
+.greedy-nav button:hover {
+  border-color: #b8c3d0 !important;
+  color: #111827 !important;
+}
+.greedy-nav button.close {
+  background: #f4f6f8 !important;
+}
+.greedy-nav button.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
 .greedy-nav .hidden-links {
+  top: calc(100% + 8px) !important;
+  right: 0 !important;
+  margin-top: 0 !important;
+  min-width: 180px !important;
   background: #fff !important;
-  box-shadow: 0 8px 22px rgba(0,0,0,0.16) !important;
+  box-shadow: 0 12px 28px rgba(15,23,42,0.16) !important;
   border-radius: 8px !important;
   padding: 6px 0 !important;
-  border: 1px solid #eee !important;
+  border: 1px solid #e5e7eb !important;
 }
-.greedy-nav .hidden-links a { color: #333 !important; padding: 6px 16px !important; }
+.greedy-nav .hidden-links a { color: #333 !important; padding: 7px 16px !important; margin: 0 !important; }
 .greedy-nav .hidden-links a:hover { background: #f4f6f8 !important; }
 html { scroll-behavior: smooth; }
 .page__content > section[id] { scroll-margin-top: 92px; }
