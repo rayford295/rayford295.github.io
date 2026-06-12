@@ -1274,7 +1274,7 @@ redirect_from:
   padding-bottom: 52%; /* 控制视频高宽比例 */
   height: 0;
   overflow: hidden;
-  max-width: 680px; /* 视频整体宽度限制 */
+  max-width: 460px; /* 视频整体宽度限制 */
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.15);
