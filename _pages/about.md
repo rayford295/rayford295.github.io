@@ -1256,10 +1256,20 @@ redirect_from:
 .video-list {
   list-style: none;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 32px;
+  align-items: start;
+}
+
+@media (max-width: 640px) {
+  .video-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 .video-list li {
-  margin-bottom: 40px;
+  margin-bottom: 0;
 }
 
 .video-list p {
@@ -1274,7 +1284,7 @@ redirect_from:
   padding-bottom: 52%; /* 控制视频高宽比例 */
   height: 0;
   overflow: hidden;
-  max-width: 460px; /* 视频整体宽度限制 */
+  max-width: 100%; /* 填满所在网格列(每行两个) */
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.15);
