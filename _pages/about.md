@@ -1239,6 +1239,31 @@ redirect_from:
         </button>
       </div>
     </li>
+
+    <li>
+      <strong>🎤 GISalon Roundtable: Is Studying Abroad Really That Lonely?</strong>
+      <p>
+        A GISalon roundtable I hosted on the real experience of overseas campus life — exploring whether studying abroad is as isolating as it is often imagined.
+        <a href="https://www.bilibili.com/video/BV1HeVdzyEkP" target="_blank" rel="noopener">Watch on Bilibili</a>.
+      </p>
+      <div class="video-wrapper">
+        <button
+          class="video-cover"
+          type="button"
+          data-video-src="https://player.bilibili.com/player.html?isOutside=true&amp;bvid=BV1HeVdzyEkP&amp;cid=29889334394&amp;p=1&amp;autoplay=1"
+          data-video-title="留学生活真的那么孤独吗？探索海外校园的真实体验！"
+          aria-label="Play GISalon Roundtable: Is Studying Abroad Really That Lonely?">
+          <img
+            src="/images/gisalon-studyabroad-cover.jpg"
+            alt="Cover image for the GISalon study-abroad roundtable video"
+            loading="lazy"
+            decoding="async">
+          <span class="video-cover-overlay" aria-hidden="true">
+            <span class="video-play-icon"></span>
+          </span>
+        </button>
+      </div>
+    </li>
   </ul>
 </section>
 
