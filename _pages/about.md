@@ -339,14 +339,14 @@ redirect_from:
   >
 </div>
 
-<p>
-  <strong>Research interests:</strong>
-  <span style="color: #000000; margin-right: 1.4em;">AI4Science</span>
-  <span style="color: #000000; margin-right: 1.4em;">Data Science</span>
-  <span style="color: #000000; margin-right: 1.4em;">GeoAI</span>
-  <span style="color: #000000; margin-right: 1.4em;">Disaster Resilience</span>
-  <span style="color: #000000;">Multimodal AI</span>
-</p>
+<p style="margin-bottom: 10px;"><strong>Research interests:</strong></p>
+<div style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:10px;">
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">AI4Science</span>
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Data Science</span>
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">GeoAI</span>
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Disaster Resilience</span>
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Generative AI</span>
+</div>
 
 
 
