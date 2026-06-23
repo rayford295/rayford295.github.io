@@ -629,6 +629,32 @@ redirect_from:
     I do not really have a single representative work; I love all of my first-author papers equally, because each of them records a part of my growth.
   </p>
 
+  <!-- RAPID Paper(preprint)-->
+  <div class="paper-box">
+    <div class="paper-box-image">
+      <div class="badge">Preprint</div>
+      <img src="images/rapid_framework.png" alt="RAPID Framework" width="75%">
+    </div>
+    <div class="paper-box-text">
+      <a href="https://arxiv.org/abs/2606.21819"
+         target="_blank" rel="noopener">
+        RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery
+      </a>
+      — <strong>Yang, Yifan</strong>, Wenjing Gong, Kaili Zhang, Lei Zou, Zhengzhong Tu, Hao Li, Zongrong Li, Xinyue Ye.<br>
+      <em>arXiv preprint</em>, 2026.
+
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2606.21819"
+           target="_blank" rel="noopener"
+           class="paper-link link-paper">📄 Paper</a>
+
+        <a href="https://github.com/rayford295/RAPID"
+           target="_blank" rel="noopener"
+           class="paper-link link-code">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+
   <!-- Satellite-to-Street Paper -->
 <div class="paper-box">
   <div class="paper-box-image">
