@@ -690,7 +690,7 @@ redirect_from:
     <div class="paper-box-text">
       <a href="https://arxiv.org/abs/2603.14837"
          target="_blank" rel="noopener">
-        DamageArbiter: A CLIP-Enhanced Multimodal Arbitration Framework for Hurricane Damage Assessment from Street-View Imagery
+        DamageArbiter: A Multimodal Arbitration Framework for Disaster Damage Assessment from Street-View Imagery
       </a>
       — <strong>Yang, Yifan</strong>, Lei Zou, Wenjing Gong, Kani Fu, Zongrong Li, Siqin Wang, Bing Zhou, Heng Cai, Hao Tian.<br>
       <em>arXiv preprint</em>, 2026. <br>
