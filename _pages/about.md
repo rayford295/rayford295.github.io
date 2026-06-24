@@ -385,6 +385,18 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Jun 2026</div>
   <div class="news-text">
+    On <strong>June 24, 2026</strong>, I passed my <strong>preliminary examination</strong>.
+    The date made the milestone especially meaningful: it is both Lionel Messi's birthday and
+    <a href="https://artsci.tamu.edu/geography/contact/profiles/heng-cai.html" target="_blank" rel="noopener">
+      <strong>Dr. Heng Cai</strong>
+    </a>'s birthday. In the most Ph.D. way possible, I advanced from Ph.D. student to, somehow,
+    still <strong>Ph.D. student</strong>.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Jun 2026</div>
+  <div class="news-text">
     Heading to the <strong>2026 Symposium on Spatiotemporal Data Science</strong>
     (August 7–8, 2026, Virginia Tech Academic Building One, Alexandria, VA): organizing the session
     <strong>“Spatiotemporal AI for Urban and Environmental Intelligence: Sensing, Inference, and Human-Centered Applications,”</strong>
