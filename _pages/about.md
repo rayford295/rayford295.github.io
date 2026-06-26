@@ -976,13 +976,7 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
   <ul>
-    <li>
-      2026
-      <a href="https://i-guide.io/summer-school/summer-school-2026/" target="_blank" rel="noopener">
-        NSF I-GUIDE Summer School: Spatial AI &amp; Convergence Science
-      </a>
-      — Selected Travel Award, University of Illinois, Urbana-Champaign, July 13–17, 2026.
-    </li>
+    <li>2026 NSF I-GUIDE Summer School: Spatial AI &amp; Convergence Science — Selected Travel Award.</li>
     <li>2026 IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C., $500.</li>
     <li>2026 AAG-GISSG Student Honors Paper Competition — 🥈 2nd Place, $350.</li>
     <li>2026 AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1,200.</li>
