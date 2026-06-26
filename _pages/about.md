@@ -999,7 +999,6 @@ redirect_from:
     Perceiving Multidimensional Disaster Damages (Accepted Abstract)
   </a>.
 </li>
-    <li>2024–2025 Travel Grant, Department of Geography, Texas A&M University, total amount: $2,100.</li>
     <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
     <li>2024 Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
     <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology</li>
