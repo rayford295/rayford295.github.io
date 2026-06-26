@@ -987,7 +987,6 @@ redirect_from:
     <li>2026 AAG-GISSG Student Honors Paper Competition — 🥈 2nd Place, $350.</li>
     <li>2026 AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1,200.</li>
     <li>2025 Environment and Sustainability Graduate Fellow Award, Texas A&amp;M University, $2,500.</li>
-    <li>2025 Texas A&M University GIS Day Student Paper Competition, Finalist.</li>
     <li>2025 Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
     <li>
   2025–2026 NSF I-GUIDE Spatial AI Challenge — 
@@ -1010,7 +1009,6 @@ redirect_from:
     <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
     <li>2024 Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
     <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology</li>
-    <li>DNIIT (Performance: Excellent)</li>
     <li>Second Runner-up — 9th China International "Internet+" College Students Innovation and Entrepreneurship Competition (Shanghai Division) — International Project Category ("Youguang Ushine – AI+ Multilingual Talent Service Platform")</li>
     <li>National First Prize — 2020 Computer Design Competition for Chinese College Students (Big Data Practice)</li>
     <li>Third Prize — 10th MathorCup College Mathematical Modeling Challenge (2020)</li>
