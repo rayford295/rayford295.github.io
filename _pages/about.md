@@ -1007,7 +1007,7 @@ redirect_from:
     <li>2024 Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
     <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology</li>
     <li>2023 9th China International "Internet+" College Students Innovation and Entrepreneurship Competition (Shanghai Division), International Project Category ("Youguang Ushine - AI+ Multilingual Talent Service Platform") — Second Runner-up.</li>
-    <li>2020 Computer Design Competition for Chinese College Students (Big Data Practice) — National First Prize.</li>
+    <li>2020 Computer Design Competition for Chinese College Students (Big Data Practice) — 🏆 National First Prize.</li>
     <li>2020 10th MathorCup College Mathematical Modeling Challenge — Third Prize.</li>
     <li>2020 13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Region) — Second Prize.</li>
     <li>2020 China-US Youth Creators Competition (Haikou Region) — Third Prize.</li>
