@@ -342,8 +342,12 @@ redirect_from:
 <p style="margin-bottom: 10px;"><strong>Research interests:</strong></p>
 <div style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:10px;">
   <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">AI4Science</span>
-  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Data Science</span>
+  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=zh-CN&amp;mauthors=label:spatial_data_science" target="_blank" rel="noopener" style="text-decoration:none;">
+    <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Spatial Data Science</span>
+  </a>
   <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">GeoAI</span>
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">GIScience</span>
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Multimodal AI</span>
   <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Disaster Resilience</span>
   <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Generative AI</span>
 </div>

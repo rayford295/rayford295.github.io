@@ -23,8 +23,8 @@ He is also the founder and maintainer of [AutonomousGeoAI4Science](https://githu
 
 ### Research Interests
 
-- AI4Science · Data Science · GeoAI
-- Disaster Resilience · Generative AI
+- AI4Science · [Spatial Data Science](https://scholar.google.com/citations?view_op=search_authors&hl=zh-CN&mauthors=label:spatial_data_science) · GeoAI
+- GIScience · Multimodal AI · Disaster Resilience · Generative AI
 
 ### Education
 
