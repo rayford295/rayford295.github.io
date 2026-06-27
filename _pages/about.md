@@ -1006,21 +1006,21 @@ redirect_from:
     <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
     <li>2024 Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
     <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology</li>
-    <li>Second Runner-up — 9th China International "Internet+" College Students Innovation and Entrepreneurship Competition (Shanghai Division) — International Project Category ("Youguang Ushine – AI+ Multilingual Talent Service Platform")</li>
-    <li>National First Prize — 2020 Computer Design Competition for Chinese College Students (Big Data Practice)</li>
-    <li>Third Prize — 10th MathorCup College Mathematical Modeling Challenge (2020)</li>
-    <li>Second Prize — 13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Region, 2020)</li>
-    <li>Third Prize — China–US Youth Creators Competition (Haikou Region, 2020)</li>
-    <li>Second Prize — 3rd China Youth Cup National University Student Mathematical Modeling Competition (2020)</li>
-    <li>Third Prize — 6th National Mobile Internet Innovation Competition (South China Region)</li>
-    <li>Third Prize — Innovation Group of the 2020 China University Computer Competition (Artificial Intelligence Track)</li>
-    <li>Third Prize — Finalist, Hainan Selection Competition of the 4th China Creative Wings Innovation Competition (2020)</li>
-    <li>Honorable Mention — 2020 Hainan Free Trade Port Entrepreneurship Competition</li>
-    <li>Silver Award — Hainan Creative Group, 6th China International "Internet+" Student Innovation and Entrepreneurship Competition</li>
-    <li>Bronze Prize — Hainan Region, Challenge Cup Student Entrepreneurship Plan Competition (2020)</li>
-    <li>Second Prize — 14th iCAN International Innovation and Entrepreneurship Competition (South China Region)</li>
-    <li>First-Class Comprehensive Scholarship — Hainan University, CNY ￥2500.</li>
-    <li>Recognized as "College Student with the Most Innovative Spirit and Practical Ability" — Hainan University</li>
+    <li>2023 9th China International "Internet+" College Students Innovation and Entrepreneurship Competition (Shanghai Division), International Project Category ("Youguang Ushine - AI+ Multilingual Talent Service Platform") — Second Runner-up.</li>
+    <li>2020 Computer Design Competition for Chinese College Students (Big Data Practice) — National First Prize.</li>
+    <li>2020 10th MathorCup College Mathematical Modeling Challenge — Third Prize.</li>
+    <li>2020 13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Region) — Second Prize.</li>
+    <li>2020 China-US Youth Creators Competition (Haikou Region) — Third Prize.</li>
+    <li>2020 3rd China Youth Cup National University Student Mathematical Modeling Competition — Second Prize.</li>
+    <li>2020 6th National Mobile Internet Innovation Competition (South China Region) — Third Prize.</li>
+    <li>2020 China University Computer Competition, Innovation Group (Artificial Intelligence Track) — Third Prize.</li>
+    <li>2020 Hainan Selection Competition of the 4th China Creative Wings Innovation Competition — Third Prize / Finalist.</li>
+    <li>2020 Hainan Free Trade Port Entrepreneurship Competition — Honorable Mention.</li>
+    <li>2020 6th China International "Internet+" Student Innovation and Entrepreneurship Competition, Hainan Creative Group — Silver Award.</li>
+    <li>2020 Challenge Cup Student Entrepreneurship Plan Competition (Hainan Region) — Bronze Prize.</li>
+    <li>2020 14th iCAN International Innovation and Entrepreneurship Competition (South China Region) — Second Prize.</li>
+    <li>2020 Hainan University First-Class Comprehensive Scholarship — CNY 2,500.</li>
+    <li>2020 Hainan University "College Student with the Most Innovative Spirit and Practical Ability" Recognition.</li>
   </ul>
 </section>
 
