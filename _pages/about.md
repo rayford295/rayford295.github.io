@@ -986,23 +986,11 @@ redirect_from:
     <li>2026 AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1,200.</li>
     <li>2025 Environment and Sustainability Graduate Fellow Award, Texas A&amp;M University, $2,500.</li>
     <li>2025 Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
-    <li>
-  2025–2026 NSF I-GUIDE Spatial AI Challenge — 
-  <a href="https://i-guide.io/spatial-ai-challenge-2025-26-accepted-projects/" target="_blank" rel="noopener">
-    GeoAgent4Disaster (Accepted Project)
-  </a>.
-</li>
     <li>2025-2026 Texas A&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track, TAMU, $2,000.</li>
     <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada, $2,100.</li>
     <li>2025 International Cartographic Conference (ICC), Vancouver, Canada — 🏆 Best Student Paper Award</li>
     <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention, $200. (Top 5)</li>
     <li>2025 AAG Applied Geography Specialty Group — AGSG Annual Meeting Award, $196.</li>
-<li>
-  2024–2025 NSF I-GUIDE Spatial AI Challenge — 
-  <a href="https://i-guide.io/spatial-ai-challenge-2024/accepted-abstracts/" target="_blank" rel="noopener">
-    Perceiving Multidimensional Disaster Damages (Accepted Abstract)
-  </a>.
-</li>
     <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
     <li>2024 Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
     <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology</li>
