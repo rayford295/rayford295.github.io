@@ -35,6 +35,97 @@ redirect_from:
       line-height: 1.5;
     }
 
+    #presentation .presentation-timeline {
+      list-style: none;
+      margin: 0.9em 0 0 0;
+      padding: 0;
+    }
+
+    #presentation .presentation-year {
+      display: grid;
+      grid-template-columns: 4.4rem minmax(0, 1fr);
+      column-gap: 1.15rem;
+      list-style: none;
+      margin: 0;
+      padding: 1rem 0 1.1rem;
+      border-top: 1px solid #dbe7f3;
+    }
+
+    #presentation .presentation-year:first-child {
+      border-top: 0;
+      padding-top: 0.2rem;
+    }
+
+    #presentation .presentation-year-label {
+      color: #005fa3;
+      font-size: 1.18em;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      line-height: 1;
+      padding-top: 0.16rem;
+    }
+
+    #presentation .presentation-year-label::after {
+      content: "";
+      display: block;
+      width: 2.8rem;
+      height: 2px;
+      margin-top: 0.45rem;
+      background: #9cc7e8;
+    }
+
+    #presentation .presentation-items {
+      list-style: none;
+      margin: 0;
+      padding: 0 0 0 1.15rem;
+      border-left: 2px solid #dbe7f3;
+    }
+
+    #presentation .presentation-items > li {
+      position: relative;
+      list-style: none;
+      margin: 0 0 0.85rem;
+      padding-left: 1rem;
+      line-height: 1.55;
+    }
+
+    #presentation .presentation-items > li:last-child {
+      margin-bottom: 0;
+    }
+
+    #presentation .presentation-items > li::before {
+      content: "";
+      position: absolute;
+      left: -1.36rem;
+      top: 0.62em;
+      width: 0.42rem;
+      height: 0.42rem;
+      border: 0;
+      border-radius: 50%;
+      background: #79add4;
+      box-shadow: none;
+    }
+
+    #presentation .presentation-subitems {
+      margin: 0.35rem 0 0;
+      padding-left: 1.1rem;
+    }
+
+    #presentation .presentation-subitems li {
+      margin: 0.25rem 0;
+    }
+
+    @media (max-width: 640px) {
+      #presentation .presentation-year {
+        grid-template-columns: 1fr;
+        row-gap: 0.45rem;
+      }
+
+      #presentation .presentation-year-label::after {
+        width: 3.2rem;
+      }
+    }
+
     .industry-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -869,12 +960,13 @@ redirect_from:
 
 <section id="presentation">
   <h2>🏘 Presentation</h2>
-  <ul>
-    <li><strong>2026</strong>
-      <ul>
+  <ul class="presentation-timeline">
+    <li class="presentation-year">
+      <span class="presentation-year-label">2026</span>
+      <ul class="presentation-items">
         <li>
           <strong>Symposium on Spatiotemporal Data Science</strong>, Virginia Tech Academic Building One, Alexandria, VA, August 7–8, 2026.
-          <ul>
+          <ul class="presentation-subitems">
             <li>
               <em>Session Organizer</em> — “Spatiotemporal AI for Urban and Environmental Intelligence: Sensing, Inference, and Human-Centered Applications.”
             </li>
@@ -888,7 +980,7 @@ redirect_from:
         <li>
           <strong>IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</strong>,
           Washington, D.C., August 13, 2026.
-          <ul>
+          <ul class="presentation-subitems">
             <li>
               <em>Leveraging AI, LLMs, and Geospatial Technologies for Rapid and Explainable Post-Disaster Damage Intelligence</em> —
               <strong>Yifan Yang, Lei Zou, and Wendy Jepson</strong>:
@@ -910,11 +1002,12 @@ redirect_from:
       </ul>
     </li>
 
-    <li><strong>2025</strong>
-      <ul>
+    <li class="presentation-year">
+      <span class="presentation-year-label">2025</span>
+      <ul class="presentation-items">
         <li>
           <strong>International Cartographic Conference (ICC)</strong>, Vancouver, Canada, August 18–22, 2025.
-          <ul>
+          <ul class="presentation-subitems">
             <li>
               <em>Student Paper Session</em> —
               <strong>Yifan Yang</strong>: Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models.
@@ -936,8 +1029,9 @@ redirect_from:
       </ul>
     </li>
 
-    <li><strong>2024</strong>
-      <ul>
+    <li class="presentation-year">
+      <span class="presentation-year-label">2024</span>
+      <ul class="presentation-items">
         <li>
           <strong>American Association of Geographers Annual Meeting</strong>, April 16–20, 2024, Honolulu, Hawai'i
           (<a href="https://aag.secure-platform.com/aag2024/solicitations/57/sessiongallery/7825" target="_blank" rel="noopener">Session 7825</a>).
