@@ -1134,6 +1134,7 @@ redirect_from:
   <em>Reviewer for leading journals and conferences including:</em>
   <ul style="margin-left: 1em;">
     <li><em>ACM Transactions on Autonomous and Adaptive Systems</em></li>
+    <li><em>Climatic Change</em></li>
     <li><em>Computational Urban Science</em></li>
     <li><em>International Journal of Applied Earth Observation and Geoinformation</em></li>
     <li><em>International Journal of Geographical Information Science</em></li>
