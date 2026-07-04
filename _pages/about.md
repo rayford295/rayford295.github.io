@@ -478,6 +478,15 @@ redirect_from:
   <div class="news-container">
 
 <div class="news-item">
+  <div class="news-date">Jul 2026</div>
+  <div class="news-text">
+    Honored to receive the <strong>2026 Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award</strong>
+    with <strong>$1,000</strong> in scholarship support. I am grateful to the CaGIS Scholarship Committee for recognizing my
+    academic achievements and research contributions to cartography and geographic information science.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">Jun 2026</div>
   <div class="news-text">
     On <strong>June 24, 2026</strong>, I passed my <strong>preliminary examination</strong>.
@@ -1065,6 +1074,7 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
   <ul>
+    <li>2026 Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award, $1000.</li>
     <li>2026 NSF I-GUIDE Summer School: Spatial AI &amp; Convergence Science — Selected Travel Award.</li>
     <li>2026 IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C., $500.</li>
     <li>2026 AAG-GISSG Student Honors Paper Competition — 🥈 2nd Place, $350.</li>
