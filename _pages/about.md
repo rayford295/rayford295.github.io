@@ -1088,7 +1088,7 @@ redirect_from:
     <li>2025 AAG Applied Geography Specialty Group — AGSG Annual Meeting Award, $196.</li>
     <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
     <li>2024 Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
-    <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology</li>
+    <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: 🏆 Most Suitably Applied Analysis Methodology</li>
     <li>2023 9th China International "Internet+" College Students Innovation and Entrepreneurship Competition (Shanghai Division), International Project Category ("Youguang Ushine - AI+ Multilingual Talent Service Platform") — Second Runner-up.</li>
     <li>2020 Computer Design Competition for Chinese College Students (Big Data Practice) — 🏆 National First Prize.</li>
     <li>2020 10th MathorCup College Mathematical Modeling Challenge — Third Prize.</li>
