@@ -487,6 +487,18 @@ redirect_from:
 </div>
 
 <div class="news-item">
+  <div class="news-date">Jul 2026</div>
+  <div class="news-text">
+    The <a href="https://cartogis.org/conferences/cagis2026/program/" target="_blank" rel="noopener">
+      <strong>CaGIS 2026 Conference program</strong>
+    </a>
+    lists our paper <strong>“RAPIDMap: Rapid multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery”</strong>
+    in <strong>Session 1B: GeoAI, Disaster Mapping, and Hydrography (Research)</strong>,
+    scheduled for <strong>Tuesday, September 8, 2026, 2:00 pm</strong> in <strong>Rooms 352/353</strong>.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">Jun 2026</div>
   <div class="news-text">
     On <strong>June 24, 2026</strong>, I passed my <strong>preliminary examination</strong>.
@@ -506,15 +518,6 @@ redirect_from:
     <strong>“Spatiotemporal AI for Urban and Environmental Intelligence: Sensing, Inference, and Human-Centered Applications,”</strong>
     and presenting an accepted onsite oral talk,
     <strong>“Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models.”</strong>
-  </div>
-</div>
-
-<div class="news-item">
-  <div class="news-date">May 2026</div>
-  <div class="news-text">
-    Our paper <strong>“RAPIDMap: Rapid multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery”</strong>
-    has been accepted for presentation at the <strong>CaGIS 2026 Conference</strong>
-    in <strong>St. Louis, Missouri</strong> (September 8–11, 2026).
   </div>
 </div>
 
@@ -973,6 +976,19 @@ redirect_from:
     <li class="presentation-year">
       <span class="presentation-year-label">2026</span>
       <ul class="presentation-items">
+        <li>
+          <strong>Cartography and Geographic Information Society (CaGIS) Conference</strong>,
+          St. Louis, Missouri, September 8–11, 2026
+          (<a href="https://cartogis.org/conferences/cagis2026/program/" target="_blank" rel="noopener">Program</a>).
+          <ul class="presentation-subitems">
+            <li>
+              <em>Session 1B: GeoAI, Disaster Mapping, and Hydrography (Research)</em> —
+              <strong>Yifan Yang and Lei Zou</strong>:
+              RAPIDMap: Rapid multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery.
+              Tuesday, September 8, 2026, 2:00 pm, Rooms 352/353.
+            </li>
+          </ul>
+        </li>
         <li>
           <strong>Symposium on Spatiotemporal Data Science</strong>, Virginia Tech Academic Building One, Alexandria, VA, August 7–8, 2026.
           <ul class="presentation-subitems">
