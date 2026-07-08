@@ -513,7 +513,9 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Jun 2026</div>
   <div class="news-text">
-    Heading to the <strong>2026 Symposium on Spatiotemporal Data Science</strong>
+    Heading to the <a href="https://stds.stcenter.net/index.php/resources/" target="_blank" rel="noopener">
+      <strong>2026 Symposium on Spatiotemporal Data Science</strong>
+    </a>
     (August 7–8, 2026, Virginia Tech Academic Building One, Alexandria, VA): organizing the session
     <strong>“Spatiotemporal AI for Urban and Environmental Intelligence: Sensing, Inference, and Human-Centered Applications,”</strong>
     and presenting an accepted onsite oral talk,
@@ -990,7 +992,8 @@ redirect_from:
           </ul>
         </li>
         <li>
-          <strong>Symposium on Spatiotemporal Data Science</strong>, Virginia Tech Academic Building One, Alexandria, VA, August 7–8, 2026.
+          <strong>Symposium on Spatiotemporal Data Science</strong>, Virginia Tech Academic Building One, Alexandria, VA, August 7–8, 2026
+          (<a href="https://stds.stcenter.net/index.php/resources/" target="_blank" rel="noopener">Program</a>).
           <ul class="presentation-subitems">
             <li>
               <em>Session Organizer</em> — “Spatiotemporal AI for Urban and Environmental Intelligence: Sensing, Inference, and Human-Centered Applications.”
