@@ -480,7 +480,7 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Jul 2026</div>
   <div class="news-text">
-    Honored to receive the <strong>2026 Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award</strong>
+    Honored to receive the <a href="https://cartogis.org/awards/students/" target="_blank" rel="noopener"><strong>2026 Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award</strong></a>
     with <strong>$1,000</strong> in scholarship support. I am grateful to the CaGIS Scholarship Committee for recognizing my
     academic achievements and research contributions to cartography and geographic information science.
   </div>
