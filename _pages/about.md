@@ -653,6 +653,20 @@ redirect_from:
   <h2>💻 Experiences</h2>
 
   <div class="item">
+    <img class="logo" src="images/iguide_logo.png" alt="I-GUIDE logo">
+    <div class="text">
+      <strong>
+        <a class="exp-link" href="https://i-guide.io/summer-school/summer-school-2026/summer-school-2026-agenda/" target="_blank" rel="noopener noreferrer">
+          I-GUIDE Summer School 2026
+        </a>
+      </strong><br>
+      Student Researcher, Jul. 2026<br>
+      University of Illinois Urbana-Champaign<br>
+      Spatial AI &amp; Convergence Science (NSF I-GUIDE)
+    </div>
+  </div>
+
+  <div class="item">
     <img class="logo" src="images/gearlab_logo.png" alt="GEAR Lab logo">
     <div class="text">
       <strong>Texas A&amp;M University</strong><br>
