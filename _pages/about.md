@@ -659,6 +659,9 @@ redirect_from:
         <a class="exp-link" href="https://i-guide.io/summer-school/summer-school-2026/summer-school-2026-agenda/" target="_blank" rel="noopener noreferrer">
           I-GUIDE Summer School 2026
         </a>
+        <a href="https://github.com/rayford295/vgi-spatial-bias" target="_blank" rel="noopener noreferrer" aria-label="I-GUIDE Summer School GitHub repository" title="GitHub repository">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
       </strong><br>
       Student Researcher, Jul. 2026<br>
       University of Illinois Urbana-Champaign<br>
