@@ -35,6 +35,35 @@ redirect_from:
       line-height: 1.5;
     }
 
+    #experiences .experience-scroll {
+      max-height: 38rem;
+      overflow-y: auto;
+      padding-right: 0.9rem;
+      scrollbar-width: thin;
+      scrollbar-color: #9db2c8 transparent;
+    }
+
+    #experiences .experience-scroll::-webkit-scrollbar {
+      width: 0.55rem;
+    }
+
+    #experiences .experience-scroll::-webkit-scrollbar-thumb {
+      border-radius: 999px;
+      background: #9db2c8;
+    }
+
+    #experiences .experience-scroll::-webkit-scrollbar-track {
+      background: #edf2f7;
+      border-radius: 999px;
+    }
+
+    @media (max-width: 640px) {
+      #experiences .experience-scroll {
+        max-height: 32rem;
+        padding-right: 0.55rem;
+      }
+    }
+
     #presentation .presentation-timeline {
       list-style: none;
       margin: 0.9em 0 0 0;
@@ -652,6 +681,7 @@ redirect_from:
 <section id="experiences">
   <h2>💻 Experiences</h2>
 
+  <div class="experience-scroll" tabindex="0" aria-label="Scrollable experience history">
   <div class="item">
     <img class="logo" src="images/iguide_logo.png" alt="I-GUIDE logo">
     <div class="text">
@@ -714,7 +744,8 @@ redirect_from:
     Data Engineering and AI Model Fine-tuning Intern, Feb. 2023 – May 2023<br>
     Industry Internship (Generative AI)
   </div>
-</div>
+ </div>
+  </div>
 </section>
 
 <section id="founder-initiatives">
