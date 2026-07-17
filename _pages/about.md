@@ -37,7 +37,7 @@ redirect_from:
 
     #experiences .experience-strip {
       display: flex;
-      gap: 1.4rem;
+      gap: 1rem;
       overflow-x: auto;
       padding: 0.4rem 0 1.1rem;
       margin: 0;
@@ -46,27 +46,27 @@ redirect_from:
     }
 
     #experiences .experience-card {
-      flex: 0 0 min(27rem, 86vw);
-      min-height: 9.6rem;
+      flex: 0 0 min(22rem, 80vw);
+      min-height: 8.4rem;
       box-sizing: border-box;
       align-items: center;
-      gap: 1.15rem;
+      gap: 0.9rem;
       margin: 0;
-      padding: 1.4rem;
+      padding: 1rem 1.1rem;
       border: 1px solid #e5eaf1;
-      border-radius: 1.5rem;
+      border-radius: 1.15rem;
       background: linear-gradient(145deg, #ffffff 0%, #f7f9fc 100%);
       box-shadow: 0 0.7rem 1.8rem rgba(31, 46, 68, 0.1);
       scroll-snap-align: start;
     }
 
     #experiences .experience-card img.logo {
-      width: 5.6rem;
-      height: 5.6rem;
-      flex: 0 0 5.6rem;
+      width: 4.6rem;
+      height: 4.6rem;
+      flex: 0 0 4.6rem;
       margin: 0;
       padding: 0.35rem;
-      border-radius: 1.2rem;
+      border-radius: 0.9rem;
       background: #ffffff;
     }
 
@@ -79,7 +79,7 @@ redirect_from:
     #experiences .experience-card strong,
     #experiences .experience-card strong a {
       color: #1f2329;
-      font-size: 1.16em;
+      font-size: 1.06em;
     }
 
     #experiences .experience-card .experience-meta {
@@ -88,14 +88,14 @@ redirect_from:
 
     @media (max-width: 640px) {
       #experiences .experience-card {
-        flex-basis: min(22rem, 88vw);
-        padding: 1.15rem;
+        flex-basis: min(19rem, 84vw);
+        padding: 0.9rem;
       }
 
       #experiences .experience-card img.logo {
-        width: 4.4rem;
-        height: 4.4rem;
-        flex-basis: 4.4rem;
+        width: 4rem;
+        height: 4rem;
+        flex-basis: 4rem;
       }
     }
 
