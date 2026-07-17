@@ -35,70 +35,6 @@ redirect_from:
       line-height: 1.5;
     }
 
-    #experiences .experience-strip {
-      display: flex;
-      gap: 1.4rem;
-      overflow-x: auto;
-      padding: 0.4rem 0 1.1rem;
-      margin: 0;
-      scrollbar-width: thin;
-      scroll-snap-type: x proximity;
-    }
-
-    #experiences .experience-card {
-      flex: 0 0 min(27rem, 86vw);
-      min-height: 9.6rem;
-      box-sizing: border-box;
-      align-items: center;
-      gap: 1.15rem;
-      margin: 0;
-      padding: 1.4rem;
-      border: 1px solid #e5eaf1;
-      border-radius: 1.5rem;
-      background: linear-gradient(145deg, #ffffff 0%, #f7f9fc 100%);
-      box-shadow: 0 0.7rem 1.8rem rgba(31, 46, 68, 0.1);
-      scroll-snap-align: start;
-    }
-
-    #experiences .experience-card img.logo {
-      width: 5.6rem;
-      height: 5.6rem;
-      flex: 0 0 5.6rem;
-      margin: 0;
-      padding: 0.35rem;
-      border-radius: 1.2rem;
-      background: #ffffff;
-    }
-
-    #experiences .experience-card .text {
-      min-width: 0;
-      color: #535861;
-      line-height: 1.5;
-    }
-
-    #experiences .experience-card strong,
-    #experiences .experience-card strong a {
-      color: #1f2329;
-      font-size: 1.16em;
-    }
-
-    #experiences .experience-card .experience-meta {
-      color: #777d87;
-    }
-
-    @media (max-width: 640px) {
-      #experiences .experience-card {
-        flex-basis: min(22rem, 88vw);
-        padding: 1.15rem;
-      }
-
-      #experiences .experience-card img.logo {
-        width: 4.4rem;
-        height: 4.4rem;
-        flex-basis: 4.4rem;
-      }
-    }
-
     #presentation .presentation-timeline {
       list-style: none;
       margin: 0.9em 0 0 0;
@@ -716,8 +652,7 @@ redirect_from:
 <section id="experiences">
   <h2>💻 Experiences</h2>
 
-  <div class="experience-strip" aria-label="Experience history">
-  <div class="item experience-card">
+  <div class="item">
     <img class="logo" src="images/iguide_logo.png" alt="I-GUIDE logo">
     <div class="text">
       <strong>
@@ -725,8 +660,7 @@ redirect_from:
           I-GUIDE Summer School 2026
         </a>
       </strong><br>
-      Student Researcher<br>
-      <span class="experience-meta">Jul. 2026</span>
+      Student Researcher, Jul. 2026
       <a href="https://github.com/rayford295/vgi-spatial-bias" target="_blank" rel="noopener noreferrer" aria-label="I-GUIDE Summer School GitHub repository" title="GitHub repository">
         <i class="fab fa-github" aria-hidden="true"></i>
       </a><br>
@@ -735,34 +669,31 @@ redirect_from:
     </div>
   </div>
 
-  <div class="item experience-card">
+  <div class="item">
     <img class="logo" src="images/gearlab_logo.png" alt="GEAR Lab logo">
     <div class="text">
       <strong>Texas A&amp;M University</strong><br>
-      Graduate Research Assistant<br>
-      <span class="experience-meta">Jan. 2025 – Present</span><br>
+      Graduate Research Assistant, Jan. 2025 – Present<br>
       Advisor: Prof. Lei Zou, GEAR Lab
     </div>
   </div>
 
-<div class="item experience-card">
+<div class="item">
   <img class="logo" src="images/harvard_logo.webp" alt="Harvard logo">
   <div class="text">
     <strong>Harvard University</strong><br>
-    Spatial Data Lab Research Intern<br>
-    <span class="experience-meta">Mar. 2025 – Aug. 2025</span><br>
+    Spatial Data Lab Research Intern, Mar. 2025 – Aug. 2025<br>
     Center for Geographic Analysis<br>
     <a href="images/Harvard sds.png" target="_blank" rel="noopener">Certificate of Completion</a><br>
     Mentor: Dr. Siqin Wang
   </div>
 </div>
 
-<div class="item experience-card">
+<div class="item">
   <img class="logo" src="images/USC-Logo-cropped.png" alt="USC logo">
   <div class="text">
     <strong>Spatial Sciences Institute, USC</strong><br>
-    Master Student Researcher<br>
-    <span class="experience-meta">Sept. 2023 – Apr. 2024</span><br>
+    Master Student Researcher, Sept. 2023 – Apr. 2024<br>
     <a href="https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6"
        target="_blank" rel="noopener">
       Urban Tree Shade Model
@@ -772,7 +703,7 @@ redirect_from:
 </div>
 
   
- <div class="item experience-card">
+ <div class="item">
   <img class="logo" src="images/vitally.png" alt="Vitally AI logo">
   <div class="text">
     <strong>
@@ -780,12 +711,10 @@ redirect_from:
         Vitally AI
       </a>
     </strong><br>
-    Data Engineering &amp; AI Model Fine-tuning Intern<br>
-    <span class="experience-meta">Feb. 2023 – May 2023</span><br>
+    Data Engineering and AI Model Fine-tuning Intern, Feb. 2023 – May 2023<br>
     Industry Internship (Generative AI)
   </div>
 </div>
-  </div>
 </section>
 
 <section id="founder-initiatives">
