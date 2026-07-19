@@ -825,34 +825,22 @@ redirect_from:
     I do not really have a single representative work; I love all of my first-author papers equally, because each of them records a part of my growth.
   </p>
 
-  <div class="publication-filters">
-    <button class="publication-filters__toggle" type="button" aria-expanded="true" aria-controls="publication-filter-panel">
-      <span>🔎 Filter Publications by Year</span>
-      <span class="publication-filters__chevron" aria-hidden="true">⌃</span>
-    </button>
-    <div class="publication-filters__panel" id="publication-filter-panel" role="group" aria-label="Filter selected publications by year">
-      <span class="publication-filters__label">Select a year</span>
-      <button class="publication-filter is-active" type="button" data-publication-filter="all" aria-pressed="true">All Publications</button>
-      <button class="publication-filter" type="button" data-publication-filter="2026" aria-pressed="false">2026</button>
-      <button class="publication-filter" type="button" data-publication-filter="2025" aria-pressed="false">2025</button>
-      <button class="publication-filter" type="button" data-publication-filter="2024" aria-pressed="false">2024</button>
-    </div>
+  <div class="publication-filters" role="group" aria-label="Filter selected publications by year">
+    <span class="publication-filters__label">Browse by year</span>
+    <button class="publication-filter is-active" type="button" data-publication-filter="all" aria-pressed="true">All</button>
+    <button class="publication-filter" type="button" data-publication-filter="2026" aria-pressed="false">2026</button>
+    <button class="publication-filter" type="button" data-publication-filter="2025" aria-pressed="false">2025</button>
+    <button class="publication-filter" type="button" data-publication-filter="2024" aria-pressed="false">2024</button>
   </div>
 
-  <div class="publication-filters">
-    <button class="publication-filters__toggle" type="button" aria-expanded="true" aria-controls="publication-keyword-filter-panel">
-      <span>🔎 Filter Publications by Research Keyword</span>
-      <span class="publication-filters__chevron" aria-hidden="true">⌃</span>
-    </button>
-    <div class="publication-filters__panel" id="publication-keyword-filter-panel" role="group" aria-label="Filter selected publications by research keyword">
-      <span class="publication-filters__label">Select a research keyword</span>
-      <button class="publication-filter is-active" type="button" data-publication-keyword="all" aria-pressed="true">All Keywords</button>
-      <button class="publication-filter" type="button" data-publication-keyword="disaster-resilience" aria-pressed="false">Disaster Resilience</button>
-      <button class="publication-filter" type="button" data-publication-keyword="multimodal-ai" aria-pressed="false">Multimodal AI</button>
-      <button class="publication-filter" type="button" data-publication-keyword="generative-ai" aria-pressed="false">Generative AI</button>
-      <button class="publication-filter" type="button" data-publication-keyword="autonomous-geoai" aria-pressed="false">Autonomous GeoAI</button>
-      <button class="publication-filter" type="button" data-publication-keyword="geoprivacy" aria-pressed="false">Geo-Privacy</button>
-    </div>
+  <div class="publication-filters" role="group" aria-label="Filter selected publications by research keyword">
+    <span class="publication-filters__label">Browse by research keyword</span>
+    <button class="publication-filter is-active" type="button" data-publication-keyword="all" aria-pressed="true">All</button>
+    <button class="publication-filter" type="button" data-publication-keyword="disaster-resilience" aria-pressed="false">Disaster Resilience</button>
+    <button class="publication-filter" type="button" data-publication-keyword="multimodal-ai" aria-pressed="false">Multimodal AI</button>
+    <button class="publication-filter" type="button" data-publication-keyword="generative-ai" aria-pressed="false">Generative AI</button>
+    <button class="publication-filter" type="button" data-publication-keyword="autonomous-geoai" aria-pressed="false">Autonomous GeoAI</button>
+    <button class="publication-filter" type="button" data-publication-keyword="geoprivacy" aria-pressed="false">Geo-Privacy</button>
   </div>
 
   <!-- RAPID Paper(preprint)-->
