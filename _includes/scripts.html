@@ -18,6 +18,16 @@
   }
 
   window.addEventListener('DOMContentLoaded', function () {
+    var publicationFilters = document.querySelector('.publication-filters');
+    var filterToggle = document.querySelector('.publication-filters__toggle');
+
+    if (publicationFilters && filterToggle) {
+      filterToggle.addEventListener('click', function () {
+        var isCollapsed = publicationFilters.classList.toggle('is-collapsed');
+        filterToggle.setAttribute('aria-expanded', String(!isCollapsed));
+      });
+    }
+
     document.querySelectorAll('[data-publication-filter]').forEach(function (filter) {
       filter.addEventListener('click', function () {
         setPublicationFilter(filter.dataset.publicationFilter);
