@@ -25,15 +25,6 @@
   }
 
   window.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.publication-filters').forEach(function (publicationFilters) {
-      var filterToggle = publicationFilters.querySelector('.publication-filters__toggle');
-
-      filterToggle.addEventListener('click', function () {
-        var isCollapsed = publicationFilters.classList.toggle('is-collapsed');
-        filterToggle.setAttribute('aria-expanded', String(!isCollapsed));
-      });
-    });
-
     document.querySelectorAll('[data-publication-filter]').forEach(function (filter) {
       filter.addEventListener('click', function () {
         activePublicationYear = filter.dataset.publicationFilter;
