@@ -839,8 +839,24 @@ redirect_from:
     </div>
   </div>
 
+  <div class="publication-filters">
+    <button class="publication-filters__toggle" type="button" aria-expanded="true" aria-controls="publication-keyword-filter-panel">
+      <span>🔎 Filter Publications by Research Keyword</span>
+      <span class="publication-filters__chevron" aria-hidden="true">⌃</span>
+    </button>
+    <div class="publication-filters__panel" id="publication-keyword-filter-panel" role="group" aria-label="Filter selected publications by research keyword">
+      <span class="publication-filters__label">Select a research keyword</span>
+      <button class="publication-filter is-active" type="button" data-publication-keyword="all" aria-pressed="true">All Keywords</button>
+      <button class="publication-filter" type="button" data-publication-keyword="disaster-resilience" aria-pressed="false">Disaster Resilience</button>
+      <button class="publication-filter" type="button" data-publication-keyword="multimodal-ai" aria-pressed="false">Multimodal AI</button>
+      <button class="publication-filter" type="button" data-publication-keyword="generative-ai" aria-pressed="false">Generative AI</button>
+      <button class="publication-filter" type="button" data-publication-keyword="autonomous-geoai" aria-pressed="false">Autonomous GeoAI</button>
+      <button class="publication-filter" type="button" data-publication-keyword="geoprivacy" aria-pressed="false">Geo-Privacy</button>
+    </div>
+  </div>
+
   <!-- RAPID Paper(preprint)-->
-  <div class="paper-box" data-publication-year="2026">
+  <div class="paper-box" data-publication-year="2026" data-publication-keywords="disaster-resilience multimodal-ai autonomous-geoai">
     <div class="paper-box-image">
       <div class="badge">Preprint</div>
       <img src="images/rapid_framework.png" alt="RAPID Framework" width="75%">
@@ -866,7 +882,7 @@ redirect_from:
   </div>
 
   <!-- Satellite-to-Street Paper -->
-<div class="paper-box" data-publication-year="2026">
+<div class="paper-box" data-publication-year="2026" data-publication-keywords="disaster-resilience generative-ai multimodal-ai">
   <div class="paper-box-image">
     <div class="badge">Conference Paper</div>
     <img src="images/3rd_RS2SVI.png" alt="Satellite-to-Street Framework" width="75%">
@@ -892,7 +908,7 @@ redirect_from:
 </div>
   
   <!-- DamageArbiter Paper(preprint)-->
-  <div class="paper-box" data-publication-year="2026">
+  <div class="paper-box" data-publication-year="2026" data-publication-keywords="disaster-resilience multimodal-ai autonomous-geoai">
     <div class="paper-box-image">
       <div class="badge">Preprint</div>
       <img src="images/2nd_disasterclip.png" alt="DamageArbiter Framework" width="75%">
@@ -921,7 +937,7 @@ redirect_from:
   </div>
 
   <!-- CEUS Journal Paper -->
-  <div class="paper-box" data-publication-year="2025">
+  <div class="paper-box" data-publication-year="2025" data-publication-keywords="disaster-resilience multimodal-ai">
     <div class="paper-box-image">
       <div class="badge">Journal Article</div>
       <img src="images/1st_dual_channel.png" alt="Hyperlocal Disaster" width="75%">
@@ -963,7 +979,7 @@ redirect_from:
 
 
   <!-- ICC Conference Paper -->
-  <div class="paper-box" data-publication-year="2025">
+  <div class="paper-box" data-publication-year="2025" data-publication-keywords="disaster-resilience multimodal-ai">
     <div class="paper-box-image">
       <div class="badge">Conference Paper</div>
       <img src="images/disasterVLP.png" alt="DisasterVLP Conference Paper" width="75%">
@@ -997,7 +1013,7 @@ redirect_from:
 
 
   <!-- Esri Press Book Chapter -->
-  <div class="paper-box" data-publication-year="2025">
+  <div class="paper-box" data-publication-year="2025" data-publication-keywords="multimodal-ai">
     <div class="paper-box-image">
       <div class="badge">Book Chapter</div>
       <img src="images/object detection.png" alt="Text SAM Tree Segmentation" width="75%">
@@ -1030,7 +1046,7 @@ redirect_from:
 
 
   <!-- Applied Sciences Journal Paper -->
-  <div class="paper-box" data-publication-year="2024">
+  <div class="paper-box" data-publication-year="2024" data-publication-keywords="multimodal-ai geoprivacy">
     <div class="paper-box-image">
       <div class="badge">Journal Article</div>
       <img src="images/0st_geolocator.png" alt="GeoLocator" width="75%">

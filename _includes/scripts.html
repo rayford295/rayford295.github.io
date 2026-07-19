@@ -2,35 +2,51 @@
 
 <script>
 (function () {
-  function setPublicationFilter(year) {
+  var activePublicationYear = 'all';
+  var activePublicationKeyword = 'all';
+
+  function applyPublicationFilters() {
     var papers = document.querySelectorAll('#publications [data-publication-year]');
-    var filters = document.querySelectorAll('[data-publication-filter]');
 
     papers.forEach(function (paper) {
-      paper.hidden = year !== 'all' && paper.dataset.publicationYear !== year;
+      var matchesYear = activePublicationYear === 'all' || paper.dataset.publicationYear === activePublicationYear;
+      var keywords = paper.dataset.publicationKeywords.split(' ');
+      var matchesKeyword = activePublicationKeyword === 'all' || keywords.indexOf(activePublicationKeyword) !== -1;
+      paper.hidden = !matchesYear || !matchesKeyword;
     });
+  }
 
-    filters.forEach(function (filter) {
-      var isActive = filter.dataset.publicationFilter === year;
+  function updatePublicationButtons(selector, activeValue, dataAttribute) {
+    document.querySelectorAll(selector).forEach(function (filter) {
+      var isActive = filter.dataset[dataAttribute] === activeValue;
       filter.classList.toggle('is-active', isActive);
       filter.setAttribute('aria-pressed', String(isActive));
     });
   }
 
   window.addEventListener('DOMContentLoaded', function () {
-    var publicationFilters = document.querySelector('.publication-filters');
-    var filterToggle = document.querySelector('.publication-filters__toggle');
+    document.querySelectorAll('.publication-filters').forEach(function (publicationFilters) {
+      var filterToggle = publicationFilters.querySelector('.publication-filters__toggle');
 
-    if (publicationFilters && filterToggle) {
       filterToggle.addEventListener('click', function () {
         var isCollapsed = publicationFilters.classList.toggle('is-collapsed');
         filterToggle.setAttribute('aria-expanded', String(!isCollapsed));
       });
-    }
+    });
 
     document.querySelectorAll('[data-publication-filter]').forEach(function (filter) {
       filter.addEventListener('click', function () {
-        setPublicationFilter(filter.dataset.publicationFilter);
+        activePublicationYear = filter.dataset.publicationFilter;
+        updatePublicationButtons('[data-publication-filter]', activePublicationYear, 'publicationFilter');
+        applyPublicationFilters();
+      });
+    });
+
+    document.querySelectorAll('[data-publication-keyword]').forEach(function (filter) {
+      filter.addEventListener('click', function () {
+        activePublicationKeyword = filter.dataset.publicationKeyword;
+        updatePublicationButtons('[data-publication-keyword]', activePublicationKeyword, 'publicationKeyword');
+        applyPublicationFilters();
       });
     });
   });
