@@ -1,5 +1,32 @@
 <script src="{{ '/assets/js/main.min.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
 
+<script>
+(function () {
+  function setPublicationFilter(year) {
+    var papers = document.querySelectorAll('#publications [data-publication-year]');
+    var filters = document.querySelectorAll('[data-publication-filter]');
+
+    papers.forEach(function (paper) {
+      paper.hidden = year !== 'all' && paper.dataset.publicationYear !== year;
+    });
+
+    filters.forEach(function (filter) {
+      var isActive = filter.dataset.publicationFilter === year;
+      filter.classList.toggle('is-active', isActive);
+      filter.setAttribute('aria-pressed', String(isActive));
+    });
+  }
+
+  window.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-publication-filter]').forEach(function (filter) {
+      filter.addEventListener('click', function () {
+        setPublicationFilter(filter.dataset.publicationFilter);
+      });
+    });
+  });
+})();
+</script>
+
 <!-- Dark mode: apply theme before paint to avoid flash -->
 <script>
 (function () {

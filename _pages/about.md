@@ -64,6 +64,28 @@ redirect_from:
       }
     }
 
+    #presentation .presentation-scroll {
+      max-height: 38rem;
+      overflow-y: auto;
+      padding-right: 0.9rem;
+      scrollbar-width: thin;
+      scrollbar-color: #9db2c8 transparent;
+    }
+
+    #presentation .presentation-scroll::-webkit-scrollbar {
+      width: 0.55rem;
+    }
+
+    #presentation .presentation-scroll::-webkit-scrollbar-thumb {
+      border-radius: 999px;
+      background: #9db2c8;
+    }
+
+    #presentation .presentation-scroll::-webkit-scrollbar-track {
+      background: #edf2f7;
+      border-radius: 999px;
+    }
+
     #presentation .presentation-timeline {
       list-style: none;
       margin: 0.9em 0 0 0;
@@ -152,6 +174,11 @@ redirect_from:
 
       #presentation .presentation-year-label::after {
         width: 3.2rem;
+      }
+
+      #presentation .presentation-scroll {
+        max-height: 32rem;
+        padding-right: 0.55rem;
       }
     }
 
@@ -798,8 +825,16 @@ redirect_from:
     I do not really have a single representative work; I love all of my first-author papers equally, because each of them records a part of my growth.
   </p>
 
+  <div class="publication-filters" role="group" aria-label="Filter selected publications by year">
+    <span class="publication-filters__label">Browse by year</span>
+    <button class="publication-filter is-active" type="button" data-publication-filter="all" aria-pressed="true">All</button>
+    <button class="publication-filter" type="button" data-publication-filter="2026" aria-pressed="false">2026</button>
+    <button class="publication-filter" type="button" data-publication-filter="2025" aria-pressed="false">2025</button>
+    <button class="publication-filter" type="button" data-publication-filter="2024" aria-pressed="false">2024</button>
+  </div>
+
   <!-- RAPID Paper(preprint)-->
-  <div class="paper-box">
+  <div class="paper-box" data-publication-year="2026">
     <div class="paper-box-image">
       <div class="badge">Preprint</div>
       <img src="images/rapid_framework.png" alt="RAPID Framework" width="75%">
@@ -825,7 +860,7 @@ redirect_from:
   </div>
 
   <!-- Satellite-to-Street Paper -->
-<div class="paper-box">
+<div class="paper-box" data-publication-year="2026">
   <div class="paper-box-image">
     <div class="badge">Conference Paper</div>
     <img src="images/3rd_RS2SVI.png" alt="Satellite-to-Street Framework" width="75%">
@@ -851,7 +886,7 @@ redirect_from:
 </div>
   
   <!-- DamageArbiter Paper(preprint)-->
-  <div class="paper-box">
+  <div class="paper-box" data-publication-year="2026">
     <div class="paper-box-image">
       <div class="badge">Preprint</div>
       <img src="images/2nd_disasterclip.png" alt="DamageArbiter Framework" width="75%">
@@ -880,7 +915,7 @@ redirect_from:
   </div>
 
   <!-- CEUS Journal Paper -->
-  <div class="paper-box">
+  <div class="paper-box" data-publication-year="2025">
     <div class="paper-box-image">
       <div class="badge">Journal Article</div>
       <img src="images/1st_dual_channel.png" alt="Hyperlocal Disaster" width="75%">
@@ -922,7 +957,7 @@ redirect_from:
 
 
   <!-- ICC Conference Paper -->
-  <div class="paper-box">
+  <div class="paper-box" data-publication-year="2025">
     <div class="paper-box-image">
       <div class="badge">Conference Paper</div>
       <img src="images/disasterVLP.png" alt="DisasterVLP Conference Paper" width="75%">
@@ -956,7 +991,7 @@ redirect_from:
 
 
   <!-- Esri Press Book Chapter -->
-  <div class="paper-box">
+  <div class="paper-box" data-publication-year="2025">
     <div class="paper-box-image">
       <div class="badge">Book Chapter</div>
       <img src="images/object detection.png" alt="Text SAM Tree Segmentation" width="75%">
@@ -989,7 +1024,7 @@ redirect_from:
 
 
   <!-- Applied Sciences Journal Paper -->
-  <div class="paper-box">
+  <div class="paper-box" data-publication-year="2024">
     <div class="paper-box-image">
       <div class="badge">Journal Article</div>
       <img src="images/0st_geolocator.png" alt="GeoLocator" width="75%">
@@ -1022,7 +1057,8 @@ redirect_from:
 
 <section id="presentation">
   <h2>🏘 Presentation</h2>
-  <ul class="presentation-timeline">
+  <div class="presentation-scroll" tabindex="0" aria-label="Scrollable presentation history">
+    <ul class="presentation-timeline">
     <li class="presentation-year">
       <span class="presentation-year-label">2026</span>
       <ul class="presentation-items">
@@ -1135,7 +1171,8 @@ redirect_from:
         </li>
       </ul>
     </li>
-  </ul>
+    </ul>
+  </div>
 </section>
 
 <section id="partial-honors">
