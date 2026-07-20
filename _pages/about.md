@@ -1361,6 +1361,19 @@ redirect_from:
   <ul>
     <li>
       <strong>
+        <a href="https://mp.weixin.qq.com/s/vMM1a9wQ_ry1chNy58x0pA" target="_blank" rel="noopener">
+          Latest WeChat Article
+        </a>
+      </strong>
+      — <em>Featured Essay, July 2026</em>
+      <p style="margin-left: 1em;">
+        My latest public essay, published through my WeChat Official Account.
+        <a href="https://mp.weixin.qq.com/s/vMM1a9wQ_ry1chNy58x0pA" target="_blank" rel="noopener">Read Essay</a>.
+      </p>
+    </li>
+
+    <li>
+      <strong>
         <a href="https://mp.weixin.qq.com/s/deemE3X03aam_LTA2dljxg" target="_blank" rel="noopener">
           In the Autonomous Era, What Should a PhD Student Hold Onto?
         </a>
