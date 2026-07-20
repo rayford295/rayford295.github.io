@@ -1362,12 +1362,13 @@ redirect_from:
     <li>
       <strong>
         <a href="https://mp.weixin.qq.com/s/vMM1a9wQ_ry1chNy58x0pA" target="_blank" rel="noopener">
-          Latest WeChat Article
+          借我一抹潘帕斯的蓝｜足球人生
         </a>
       </strong>
       — <em>Featured Essay, July 2026</em>
       <p style="margin-left: 1em;">
-        My latest public essay, published through my WeChat Official Account.
+        A personal reflection on football, Messi, Argentina, resilience, and
+        growing through victory and defeat.
         <a href="https://mp.weixin.qq.com/s/vMM1a9wQ_ry1chNy58x0pA" target="_blank" rel="noopener">Read Essay</a>.
       </p>
     </li>
