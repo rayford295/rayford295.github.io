@@ -430,7 +430,7 @@ redirect_from:
 
   <div>
 <p>
-  I am <strong>Yifan Yang</strong>, a Ph.D. student in the Department of Geography at
+  I am <strong>Yifan Yang</strong>, a third-year Ph.D. student in the Department of Geography at
   <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>,
   advised by <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>
   in the <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.
