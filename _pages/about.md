@@ -1679,10 +1679,10 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       </figcaption>
     </figure>
     <figure class="hobby-card">
-      <img src="/hobby/football1.jpg" alt="Playing football" loading="lazy" decoding="async">
+      <img src="/hobby/football1.jpg" alt="eFootball collection featuring legendary footballers" loading="lazy" decoding="async">
       <figcaption>
-        <strong>Football</strong>
-        <span>Weekend matches and pickup games.</span>
+        <strong>eFootball Legends</strong>
+        <span>A growing collection of legendary players, from Messi and Cruyff to Baresi and Vieira.</span>
       </figcaption>
     </figure>
     <figure class="hobby-card">
