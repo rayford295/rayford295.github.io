@@ -1686,10 +1686,10 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       </figcaption>
     </figure>
     <figure class="hobby-card">
-      <img src="/hobby/card-pulls.png" alt="Trading card pulls featuring football legends and pop-culture cards" loading="lazy" decoding="async">
+      <img src="/hobby/efootball-rodri-card-reveal.jpg" alt="Rodri's 87-rated defensive-midfielder card reveal in eFootball" loading="lazy" decoding="async">
       <figcaption>
-        <strong>Card Pulls</strong>
-        <span>Collecting football legends and pop-culture hits beyond research hours.</span>
+        <strong>eFootball Card Reveal</strong>
+        <span>Rodri's 87-rated defensive-midfielder card, revealed in the Spain kit.</span>
       </figcaption>
     </figure>
     <figure class="hobby-card">
