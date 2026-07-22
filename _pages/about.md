@@ -1679,10 +1679,10 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       </figcaption>
     </figure>
     <figure class="hobby-card">
-      <img src="/hobby/football1.jpg" alt="eFootball collection featuring legendary footballers" loading="lazy" decoding="async">
+      <img src="/hobby/football1.jpg" alt="eFootball squad lineup with a 3,304 overall team strength" loading="lazy" decoding="async">
       <figcaption>
-        <strong>eFootball Legends</strong>
-        <span>A growing collection of legendary players, from Messi and Cruyff to Baresi and Vieira.</span>
+        <strong>eFootball Squad</strong>
+        <span>A 3,304-strength lineup built around football legends and current stars.</span>
       </figcaption>
     </figure>
     <figure class="hobby-card">
