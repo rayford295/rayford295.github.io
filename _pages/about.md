@@ -472,7 +472,7 @@ redirect_from:
 
 <p>
   📄 <strong>Curriculum Vitae:</strong> 
-  <a href="https://drive.google.com/file/d/1YND_1Yaf2yoktBEhzV7hauO4I2DF1wJ7/view?usp=sharing" target="_blank">
+  <a href="/resume/Yifan_Yang_CV.pdf" target="_blank">
     View CV
   </a>
 </p>
