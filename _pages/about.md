@@ -1659,6 +1659,9 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
     <figure style="margin:0; text-align:center;">
       <img src="/images/road-not-taken-zh.png" alt="The Road Not Taken Chinese translation page" loading="lazy" decoding="async" style="max-width:680px; width:100%; height:auto; aspect-ratio:auto; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2); display:block; margin:0 auto;">
     </figure>
+    <figure style="margin:0; text-align:center;">
+      <img src="/images/talk-stage-good-arrangement.png" alt="Stage performance with the phrase Everything is the best arrangement in Chinese" loading="lazy" decoding="async" style="max-width:680px; width:100%; height:auto; aspect-ratio:auto; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2); display:block; margin:0 auto;">
+    </figure>
   </div>
 </section>
 
