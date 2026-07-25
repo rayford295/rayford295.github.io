@@ -429,11 +429,19 @@ redirect_from:
   <h2>🗨 About Me</h2>
 
   <div>
-    <p>
-      I am <strong>Yifan Yang</strong>, a geospatial AI researcher building responsible and autonomous systems for understanding the physical world.
-      My work asks how AI can move beyond image-level recognition toward spatial representations that are explainable, trustworthy, and useful for real-world decisions under uncertainty.
-      I am especially interested in disaster resilience, cross-view observations, geospatial foundation models, and human-centered spatial intelligence.
-    </p>
+<p>
+  I am <strong>Yifan Yang</strong>, a third-year Ph.D. student in the Department of Geography at
+  <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>,
+  advised by <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>
+  in the <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.
+  My research centers on Responsible GeoAI and Autonomous GeoAI, with a focus on explainable and trustworthy systems for spatial decision-making.
+  Beyond my research, I founded
+  <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener"><strong>AutonomousGeoAI4Science</strong></a>,
+  an open community hub for papers, tools, benchmarks, and collaboration. My doctoral committee members are
+  <a href="https://artsci.tamu.edu/geography/contact/profiles/heng-cai.html" target="_blank" rel="noopener">Dr. Heng Cai</a>,
+  <a href="https://artsci.tamu.edu/geography/contact/profiles/andrew-klein.html" target="_blank" rel="noopener">Dr. Andrew Klein</a>, and
+  <a href="https://vztu.github.io/" target="_blank" rel="noopener">Dr. Zhengzhong Tu</a>.
+</p>
 
     <!-- 🌟 Added Vision Statement -->
     <p style="font-style: italic; color: #4b5563; border-left: 4px solid #93c5fd; padding-left: 12px; margin-top: 10px;">
@@ -441,16 +449,26 @@ redirect_from:
       where AI, space, and humanity coexist and co-create.
     </p>
     <!-- End Vision -->
+    
     <p>
-      My research centers on <strong>Responsible GeoAI</strong> and <strong>Autonomous GeoAI</strong>: systems that can see spatial evidence, explain uncertainty, reason across places and scales, and support action in incomplete or changing environments.
-      Beyond my research, I founded
-      <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener"><strong>AutonomousGeoAI4Science</strong></a>,
-      an open community hub for papers, tools, benchmarks, and collaboration.
-      I am also an AI4Science enthusiast, and I hope to use computer science and spatial science to make a positive contribution to the world.
-    </p>
+     Before starting my Ph.D. studies, I earned a master’s degree in Spatial Data Science from the 
+     <a href="https://www.usc.edu" target="_blank" rel="noopener">University of Southern California</a>.  
+     During my master’s, I worked with 
+     <a href="https://dornsife.usc.edu/spatial/profile/john-p-wilson/" target="_blank" rel="noopener">Dr. John P. Wilson</a> on the 
+     <a href="https://publicexchange.usc.edu/urban-trees-initiative/" target="_blank" rel="noopener">Urban Trees Initiative</a>, 
+     where I explored geospatial approaches to urban sustainability.  
+     Under the mentorship of 
+     <a href="https://dornsife.usc.edu/spatial/profile/siqin-sisi-wang/" target="_blank" rel="noopener">Dr. Siqin Wang</a>,  
+     I also completed a research internship at the 
+     <a href="https://sdl.gis.harvard.edu/" target="_blank" rel="noopener">Spatial Data Lab, Harvard University</a>,  
+     which further strengthened my expertise in Geospatial AI and interdisciplinary data science.
+     </p>
 
     <p>
-      Outside research, my hobbies are basketball🏀, football⚽, golf🏌️‍♀️, poker🎴, and talk shows🎆.
+      Prior to graduate school, I received a bachelor’s degree in Software Engineering from 
+      <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a> in China.  
+      I hope to use computer science and spatial science to make a positive contribution to the world.  
+      I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, golf🏌️‍♀️, poker🎴, and talk shows🎆.
     </p>
 
 <p>
