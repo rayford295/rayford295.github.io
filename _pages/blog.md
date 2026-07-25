@@ -23,40 +23,23 @@ author_profile: true
 
 <h1 class="page__title">✍️ Writing</h1>
 
-<p class="blog-lead">
-  Reading reflections, research notes, public essays, and thoughts from my Ph.D.
-  journey. Some pieces live here; others were first published on my WeChat
-  official account and are linked out.
-  <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-</p>
+<p class="blog-lead">Reading reflections, research notes, public essays, and thoughts from my Ph.D. journey. Some pieces live here; others were first published on my WeChat official account and are linked out. <a href="{{ '/feed.xml' | relative_url }}">RSS</a></p>
 
 {% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 {% for year in years %}
-  <h2 class="blog-year">{{ year.name }}</h2>
-
-  {% for post in year.items %}
-    {% assign link = post.external_url | default: post.url %}
-    <div class="blog-item">
-      <h3>
-        {% if post.external_url %}
-          <a href="{{ link }}" target="_blank" rel="noopener">{{ post.title }}</a>
-          <span class="blog-tag">{{ post.source | default: "external" }}</span>
-        {% else %}
-          <a href="{{ link | relative_url }}">{{ post.title }}</a>
-        {% endif %}
-      </h3>
-      <p class="blog-meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-      </p>
-      {% if post.excerpt %}
-        <p class="blog-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 220 }}</p>
-      {% endif %}
-    </div>
-  {% endfor %}
+<h2 class="blog-year">{{ year.name }}</h2>
+{% for post in year.items %}
+{% assign link = post.external_url | default: post.url %}
+<div class="blog-item">
+<h3>{% if post.external_url %}<a href="{{ link }}" target="_blank" rel="noopener">{{ post.title }}</a> <span class="blog-tag">{{ post.source | default: "external" }}</span>{% else %}<a href="{{ link | relative_url }}">{{ post.title }}</a>{% endif %}</h3>
+<p class="blog-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></p>
+{% if post.excerpt %}<p class="blog-excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 220 }}</p>{% endif %}
+</div>
+{% endfor %}
 {% endfor %}
 
 {% if site.posts.size == 0 %}
-  <p><em>Nothing here yet.</em></p>
+<p><em>Nothing here yet.</em></p>
 {% endif %}
 
 <hr>
