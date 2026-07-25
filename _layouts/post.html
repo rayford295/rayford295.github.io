@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<style>
+  .post-meta { font-size: .8em; color: #7a8288; margin: -.5em 0 2em;
+               font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  .post-body { font-size: .95em; line-height: 1.8; }
+  .post-body h2 { margin-top: 1.8em; }
+  .post-body blockquote { border-left: 3px solid #f2f3f3; padding-left: 1em; color: #494e52; }
+  .post-nav { font-size: .85em; margin-top: 2.5em; }
+</style>
+
+<h1 class="page__title">{{ page.title }}</h1>
+
+<p class="post-meta">
+  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+  {% if page.reading_time %} · {{ content | number_of_words | divided_by: 220 | plus: 1 }} min read{% endif %}
+</p>
+
+<div class="post-body">
+  {{ content }}
+</div>
+
+<hr>
+
+<p class="post-nav">
+  <a href="{{ '/blog/' | relative_url }}">← All writing</a>
+  {% if page.previous %} &nbsp;·&nbsp; <a href="{{ page.previous.url | relative_url }}">Previous: {{ page.previous.title }}</a>{% endif %}
+  {% if page.next %} &nbsp;·&nbsp; <a href="{{ page.next.url | relative_url }}">Next: {{ page.next.title }}</a>{% endif %}
+</p>
