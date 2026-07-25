@@ -434,7 +434,7 @@ redirect_from:
   <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>,
   advised by <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>
   in the <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.
-  My research centers on Responsible GeoAI and Autonomous GeoAI, with a focus on explainable and trustworthy systems for spatial decision-making.
+  My research centers on Responsible GeoAI and Autonomous GeoAI for explainable spatial reasoning under incomplete, changing, and real-world observations.
   Beyond my research, I founded
   <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener"><strong>AutonomousGeoAI4Science</strong></a>,
   an open community hub for papers, tools, benchmarks, and collaboration. My doctoral committee members are
@@ -467,7 +467,6 @@ redirect_from:
     <p>
       Prior to graduate school, I received a bachelor’s degree in Software Engineering from 
       <a href="https://www.hainanu.edu.cn/" target="_blank" rel="noopener">Hainan University</a> in China.  
-      I hope to use computer science and spatial science to make a positive contribution to the world.  
       I’m also an AI4Science enthusiast, and my hobbies are basketball🏀, football⚽, golf🏌️‍♀️, poker🎴, and talk shows🎆.
     </p>
 
