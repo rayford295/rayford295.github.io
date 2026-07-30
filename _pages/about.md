@@ -1460,47 +1460,6 @@ redirect_from:
       </div>
     </li>
 
-    <li>
-      <strong>🌐 GISalon Roundtable: GeoAI and the Future of GIS</strong>
-      <p>
-        A GISalon roundtable conversation on GeoAI and whether AI will replace GIS, featuring my perspective as a Texas A&amp;M Geography Ph.D. student.
-        <a href="https://www.bilibili.com/video/BV1e8Lg64EMz/" target="_blank" rel="noopener">Watch on Bilibili</a>.
-      </p>
-      <div class="video-wrapper">
-        <button
-          class="video-cover"
-          type="button"
-          data-video-src="https://player.bilibili.com/player.html?isOutside=true&amp;bvid=BV1e8Lg64EMz&amp;cid=38375326637&amp;p=1&amp;autoplay=1"
-          data-video-title="GIS真的要被AI取代了吗？先听懂GeoAI"
-          aria-label="Play GISalon Roundtable: GeoAI and the Future of GIS">
-          <img
-            src="/images/gisalon-geoai-cover.jpg"
-            alt="Cover image for the GISalon GeoAI roundtable video"
-            loading="lazy"
-            decoding="async">
-          <span class="video-cover-overlay" aria-hidden="true">
-            <span class="video-play-icon"></span>
-          </span>
-        </button>
-      </div>
-    </li>
-
-    <li>
-      <strong>🏀 Basketball Highlights</strong>
-      <p>
-        A quick highlight from one of my basketball games — staying active on and off campus.
-        <a href="https://www.youtube.com/shorts/9nPEMg---YA" target="_blank" rel="noopener">Watch on YouTube</a>.
-      </p>
-      <div class="video-wrapper">
-        <iframe
-          src="https://www.youtube.com/embed/9nPEMg---YA"
-          title="Basketball Highlights"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen></iframe>
-      </div>
-    </li>
   </ul>
 
   <div style="text-align:center; margin:30px auto 6px;">
