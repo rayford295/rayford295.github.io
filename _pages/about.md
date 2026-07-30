@@ -1237,7 +1237,7 @@ redirect_from:
       </em>, 2024 – 2025
     </li>
     <li>
-      <a href="https://baike.baidu.com/item/%E6%B5%B7%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%8D%8F%E4%BC%9A/23612980" target="_blank" rel="noopener"><em>Vice President, Association of Robotics and Artificial Intelligence</em>, Hainan University</a>, 2021 – 2022
+      <em>Vice President, <a href="https://baike.baidu.com/item/%E6%B5%B7%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%8D%8F%E4%BC%9A/23612980" target="_blank" rel="noopener">Robotics and Artificial Intelligence Association of Hainan University</a></em>, 2021 – 2022
     </li>
   </ul>
     <ul>
