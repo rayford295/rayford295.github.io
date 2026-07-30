@@ -1286,6 +1286,28 @@ redirect_from:
   margin-top: 1.3rem;
 }
 
+#partial-honors .honors-scroll {
+  max-height: 38rem;
+  overflow-y: auto;
+  padding-right: 0.9rem;
+  scrollbar-width: thin;
+  scrollbar-color: #9db2c8 transparent;
+}
+
+#partial-honors .honors-scroll::-webkit-scrollbar {
+  width: 0.55rem;
+}
+
+#partial-honors .honors-scroll::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: #9db2c8;
+}
+
+#partial-honors .honors-scroll::-webkit-scrollbar-track {
+  border-radius: 999px;
+  background: #edf2f7;
+}
+
 #partial-honors .honor-group {
   display: grid;
   grid-template-columns: 4.7rem minmax(0, 1fr);
@@ -1347,6 +1369,10 @@ redirect_from:
 }
 
 @media (max-width: 640px) {
+  #partial-honors .honors-scroll {
+    max-height: 32rem;
+    padding-right: 0.55rem;
+  }
   #partial-honors .honors-timeline { gap: 1.2rem; }
   #partial-honors .honor-group {
     grid-template-columns: 3.7rem minmax(0, 1fr);
@@ -1360,6 +1386,7 @@ redirect_from:
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
 
+  <div class="honors-scroll" tabindex="0" aria-label="Scrollable selected honors">
   <div class="honors-timeline" aria-label="Selected honors and awards">
     <section class="honor-group">
       <h3 class="honor-year">2026</h3>
@@ -1420,6 +1447,7 @@ redirect_from:
         <li>Hainan University "College Student with the Most Innovative Spirit and Practical Ability" Recognition.</li>
       </ul>
     </section>
+  </div>
   </div>
 </section>
 
