@@ -35,7 +35,7 @@ redirect_from:
       line-height: 1.5;
     }
 
-    #experiences .experience-timeline {
+    .experience-timeline {
       position: relative;
       display: grid;
       gap: 2.1rem;
@@ -43,7 +43,7 @@ redirect_from:
       padding: 0.35rem 0 0.15rem;
     }
 
-    #experiences .experience-timeline::before {
+    .experience-timeline::before {
       position: absolute;
       top: 1rem;
       bottom: 1rem;
@@ -54,7 +54,7 @@ redirect_from:
       content: "";
     }
 
-    #experiences .experience-entry {
+    .experience-entry {
       position: relative;
       z-index: 0;
       display: grid;
@@ -63,7 +63,7 @@ redirect_from:
       align-items: start;
     }
 
-    #experiences .experience-logo-card {
+    .experience-logo-card {
       z-index: 1;
       display: flex;
       align-items: center;
@@ -77,83 +77,83 @@ redirect_from:
       box-shadow: 0 3px 11px rgba(31, 41, 55, 0.12);
     }
 
-    #experiences .experience-logo-card img {
+    .experience-logo-card img {
       width: 100%;
       height: 100%;
       object-fit: contain;
     }
 
-    #experiences .experience-content {
+    .experience-content {
       padding-top: 0.1rem;
       line-height: 1.45;
     }
 
-    #experiences .experience-date {
+    .experience-date {
       margin: 0 0 0.2rem;
       color: #4b5563;
       font-size: 0.9em;
       font-weight: 600;
     }
 
-    #experiences .experience-role {
+    .experience-role {
       margin: 0;
       color: inherit;
       font-size: 1em;
       font-weight: 700;
     }
 
-    #experiences .experience-summary {
+    .experience-summary {
       margin: 0.12rem 0 0;
       color: inherit;
       font-size: 0.94em;
     }
 
-    #experiences .experience-organization {
+    .experience-organization {
       margin: 0.15rem 0 0;
       color: #1684dc;
       font-size: 0.96em;
       font-weight: 600;
     }
 
-    #experiences .experience-organization a {
+    .experience-organization a {
       color: inherit;
       text-decoration: none;
     }
 
-    #experiences .experience-organization a:hover,
-    #experiences .experience-organization a:focus-visible {
+    .experience-organization a:hover,
+    .experience-organization a:focus-visible {
       text-decoration: underline;
     }
 
-    [data-theme="dark"] #experiences .experience-timeline::before {
+    [data-theme="dark"] .experience-timeline::before {
       background: #303746;
     }
 
-    [data-theme="dark"] #experiences .experience-logo-card {
+    [data-theme="dark"] .experience-logo-card {
       border-color: #303746;
       background: #fff;
       box-shadow: 0 3px 11px rgba(0, 0, 0, 0.28);
     }
 
-    [data-theme="dark"] #experiences .experience-date {
+    [data-theme="dark"] .experience-date {
       color: #aab4c1;
     }
 
     @media (max-width: 640px) {
-      #experiences .experience-timeline {
+      .experience-timeline {
         gap: 1.7rem;
       }
 
-      #experiences .experience-timeline::before {
+      .experience-timeline::before {
         left: 1.7rem;
       }
 
-      #experiences .experience-entry {
+      .experience-entry {
         grid-template-columns: 3.5rem minmax(0, 1fr);
         gap: 1rem;
       }
 
-      #experiences .experience-logo-card {
+      .experience-logo-card {
         width: 3.5rem;
         height: 3.5rem;
         padding: 0.35rem;
@@ -772,31 +772,42 @@ redirect_from:
 <section id="educations">
   <h2>📖 Educations</h2>
 
-  <div class="item">
-    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
-    <div class="text">
-      <strong>Texas A&amp;M University</strong><br>
-      Ph.D. in Geography, Aug. 2024 – Present<br>
-      Advisor: Prof. Lei Zou, GEAR Lab
-    </div>
-  </div>
+  <div class="experience-timeline" aria-label="Education history">
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/tamu_logo.webp" alt="Texas A&amp;M University logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Aug. 2024 – Present</p>
+        <p class="experience-role">Ph.D. Student in Geography</p>
+        <p class="experience-summary">Advisor: Prof. Lei Zou, GEAR Lab.</p>
+        <p class="experience-organization">Texas A&amp;M University</p>
+      </div>
+    </article>
 
-  <div class="item">
-    <img class="logo" src="images/USC-Logo-cropped.png" alt="USC logo">
-    <div class="text">
-      <strong>University of Southern California</strong><br>
-      M.S. in Spatial Data Science, Aug. 2022 – May 2024<br>
-      Advisors: Prof. John Wilson, Prof. Siqin Wang
-    </div>
-  </div>
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/USC-Logo-cropped.png" alt="University of Southern California logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Aug. 2022 – May 2024</p>
+        <p class="experience-role">M.S. Student in Spatial Data Science</p>
+        <p class="experience-summary">Advisors: Prof. John Wilson and Prof. Siqin Wang.</p>
+        <p class="experience-organization">University of Southern California</p>
+      </div>
+    </article>
 
-  <div class="item">
-    <img class="logo" src="images/hainan_logo.jpeg" alt="Hainan University logo">
-    <div class="text">
-      <strong>Hainan University</strong><br>
-      B.S. in Software Engineering, Aug. 2018 – May 2022<br>
-      Advisors: Prof. Jieren Cheng, Prof. Qi Qi
-    </div>
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/hainan_logo.jpeg" alt="Hainan University logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Aug. 2018 – May 2022</p>
+        <p class="experience-role">B.S. Student in Software Engineering</p>
+        <p class="experience-summary">Advisors: Prof. Jieren Cheng and Prof. Qi Qi.</p>
+        <p class="experience-organization">Hainan University</p>
+      </div>
+    </article>
   </div>
 </section>
 
