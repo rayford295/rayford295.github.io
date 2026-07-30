@@ -1279,40 +1279,148 @@ redirect_from:
   </div>
 </section>
 
+<style>
+#partial-honors .honors-timeline {
+  display: grid;
+  gap: 1.45rem;
+  margin-top: 1.3rem;
+}
+
+#partial-honors .honor-group {
+  display: grid;
+  grid-template-columns: 4.7rem minmax(0, 1fr);
+  gap: 1.2rem;
+  align-items: start;
+}
+
+#partial-honors .honor-year {
+  margin: 0;
+  padding-top: 0.1rem;
+  color: #236fa5;
+  font-size: 1.12em;
+  font-weight: 750;
+  line-height: 1.3;
+}
+
+#partial-honors .honor-list {
+  position: relative;
+  display: grid;
+  gap: 0.1rem;
+  margin: 0;
+  padding: 0 0 0 1.15rem;
+  list-style: none;
+  border-left: 2px solid #e4e9ef;
+}
+
+#partial-honors .honor-list li {
+  position: relative;
+  margin: 0;
+  padding: 0.06rem 0 0.62rem;
+  border-bottom: 1px solid #eef1f4;
+  color: inherit;
+  line-height: 1.48;
+}
+
+#partial-honors .honor-list li::before {
+  position: absolute;
+  top: 0.62rem;
+  left: -1.48rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border: 2px solid #4e93c4;
+  border-radius: 50%;
+  background: #fff;
+  content: "";
+}
+
+#partial-honors .honor-list li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+[data-theme="dark"] #partial-honors .honor-year { color: #7eb8f7; }
+[data-theme="dark"] #partial-honors .honor-list { border-left-color: #303746; }
+[data-theme="dark"] #partial-honors .honor-list li { border-bottom-color: #2a2d3a; }
+[data-theme="dark"] #partial-honors .honor-list li::before {
+  border-color: #7eb8f7;
+  background: #0f1117;
+}
+
+@media (max-width: 640px) {
+  #partial-honors .honors-timeline { gap: 1.2rem; }
+  #partial-honors .honor-group {
+    grid-template-columns: 3.7rem minmax(0, 1fr);
+    gap: 0.8rem;
+  }
+  #partial-honors .honor-list { padding-left: 0.95rem; }
+  #partial-honors .honor-list li::before { left: -1.28rem; }
+}
+</style>
+
 <section id="partial-honors">
   <h2>👑 Partial Honors</h2>
-  <ul>
-    <li>2026 Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award, $1000.</li>
-    <li>2026 NSF I-GUIDE Summer School: Spatial AI &amp; Convergence Science — Selected Travel Award.</li>
-    <li>2026 IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C., $500.</li>
-    <li>2026 AAG-GISSG Student Honors Paper Competition — 🥈 2nd Place, $350.</li>
-    <li>2026 AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1,200.</li>
-    <li>2025 Environment and Sustainability Graduate Fellow Award, Texas A&amp;M University, $2,500.</li>
-    <li>2025 Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
-    <li>2025-2026 Texas A&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track, TAMU, $2,000.</li>
-    <li>2025 CaGIS International Travel Grant - 2025 ICC, Vancouver, Canada, $2,100.</li>
-    <li>2025 International Cartographic Conference (ICC), Vancouver, Canada — 🏆 Best Student Paper Award</li>
-    <li>2025 AAG-GISSG Student Honors Paper Competition — Honorable Mention, $200. (Top 5)</li>
-    <li>2025 AAG Applied Geography Specialty Group — AGSG Annual Meeting Award, $196.</li>
-    <li>2024 Travel Grant(Visiting), Department of Geography, University of South Carolina, $400.</li>
-    <li>2024 Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society)</li>
-    <li>2024 Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: 🏆 Most Suitably Applied Analysis Methodology</li>
-    <li>2023 9th China International "Internet+" College Students Innovation and Entrepreneurship Competition, Higher Education Main Track, International Project Special Competition (Shanghai Division) ("Ushine — AI+ Multilingual Talent Service Platform") — 🏆 Gold Award.</li>
-    <li>2020 Computer Design Competition for Chinese College Students (Big Data Practice) — 🏆 National First Prize.</li>
-    <li>2020 10th MathorCup College Mathematical Modeling Challenge — Third Prize.</li>
-    <li>2020 13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Region) — Second Prize.</li>
-    <li>2020 China-US Youth Creators Competition (Haikou Region) — Third Prize.</li>
-    <li>2020 3rd China Youth Cup National University Student Mathematical Modeling Competition — Second Prize.</li>
-    <li>2020 6th National Mobile Internet Innovation Competition (South China Region) — Third Prize.</li>
-    <li>2020 China University Computer Competition, Innovation Group (Artificial Intelligence Track) — Third Prize.</li>
-    <li>2020 Hainan Selection Competition of the 4th China Creative Wings Innovation Competition — Third Prize / Finalist.</li>
-    <li>2020 Hainan Free Trade Port Entrepreneurship Competition — Honorable Mention.</li>
-    <li>2020 6th China International "Internet+" Student Innovation and Entrepreneurship Competition, Hainan Creative Group — Silver Award.</li>
-    <li>2020 Challenge Cup Student Entrepreneurship Plan Competition (Hainan Region) — Bronze Prize.</li>
-    <li>2020 14th iCAN International Innovation and Entrepreneurship Competition (South China Region) — Second Prize.</li>
-    <li>2020 Hainan University First-Class Comprehensive Scholarship — CNY 2,500.</li>
-    <li>2020 Hainan University "College Student with the Most Innovative Spirit and Practical Ability" Recognition.</li>
-  </ul>
+
+  <div class="honors-timeline" aria-label="Selected honors and awards">
+    <section class="honor-group">
+      <h3 class="honor-year">2026</h3>
+      <ul class="honor-list">
+        <li>Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award, $1,000.</li>
+        <li>NSF I-GUIDE Summer School: Spatial AI &amp; Convergence Science — Selected Travel Award.</li>
+        <li>IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C., $500.</li>
+        <li>AAG-GISSG Student Honors Paper Competition — 🥈 2nd Place, $350.</li>
+        <li>AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1,200.</li>
+      </ul>
+    </section>
+
+    <section class="honor-group">
+      <h3 class="honor-year">2025</h3>
+      <ul class="honor-list">
+        <li>Environment and Sustainability Graduate Fellow Award, Texas A&amp;M University, $2,500.</li>
+        <li>Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
+        <li>2025–2026 Texas A&amp;M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track, TAMU, $2,000.</li>
+        <li>CaGIS International Travel Grant — 2025 ICC, Vancouver, Canada, $2,100.</li>
+        <li>International Cartographic Conference (ICC), Vancouver, Canada — 🏆 Best Student Paper Award.</li>
+        <li>AAG-GISSG Student Honors Paper Competition — Honorable Mention, $200 (Top 5).</li>
+        <li>AAG Applied Geography Specialty Group — AGSG Annual Meeting Award, $196.</li>
+      </ul>
+    </section>
+
+    <section class="honor-group">
+      <h3 class="honor-year">2024</h3>
+      <ul class="honor-list">
+        <li>Travel Grant (Visiting), Department of Geography, University of South Carolina, $400.</li>
+        <li>Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society).</li>
+        <li>Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: 🏆 Most Suitably Applied Analysis Methodology.</li>
+      </ul>
+    </section>
+
+    <section class="honor-group">
+      <h3 class="honor-year">2023</h3>
+      <ul class="honor-list">
+        <li>9th China International "Internet+" College Students Innovation and Entrepreneurship Competition, Higher Education Main Track, International Project Special Competition (Shanghai Division) ("Ushine — AI+ Multilingual Talent Service Platform") — 🏆 Gold Award.</li>
+      </ul>
+    </section>
+
+    <section class="honor-group">
+      <h3 class="honor-year">2020</h3>
+      <ul class="honor-list">
+        <li>Computer Design Competition for Chinese College Students (Big Data Practice) — 🏆 National First Prize.</li>
+        <li>10th MathorCup College Mathematical Modeling Challenge — Third Prize.</li>
+        <li>13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Region) — Second Prize.</li>
+        <li>China-US Youth Creators Competition (Haikou Region) — Third Prize.</li>
+        <li>3rd China Youth Cup National University Student Mathematical Modeling Competition — Second Prize.</li>
+        <li>6th National Mobile Internet Innovation Competition (South China Region) — Third Prize.</li>
+        <li>China University Computer Competition, Innovation Group (Artificial Intelligence Track) — Third Prize.</li>
+        <li>Hainan Selection Competition of the 4th China Creative Wings Innovation Competition — Third Prize / Finalist.</li>
+        <li>Hainan Free Trade Port Entrepreneurship Competition — Honorable Mention.</li>
+        <li>6th China International "Internet+" Student Innovation and Entrepreneurship Competition, Hainan Creative Group — Silver Award.</li>
+        <li>Challenge Cup Student Entrepreneurship Plan Competition (Hainan Region) — Bronze Prize.</li>
+        <li>14th iCAN International Innovation and Entrepreneurship Competition (South China Region) — Second Prize.</li>
+        <li>Hainan University First-Class Comprehensive Scholarship — CNY 2,500.</li>
+        <li>Hainan University "College Student with the Most Innovative Spirit and Practical Ability" Recognition.</li>
+      </ul>
+    </section>
+  </div>
 </section>
 
 <section id="professional-activities-and-service">
