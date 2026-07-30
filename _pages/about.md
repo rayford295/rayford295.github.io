@@ -35,32 +35,128 @@ redirect_from:
       line-height: 1.5;
     }
 
-    #experiences .experience-scroll {
-      max-height: 38rem;
-      overflow-y: auto;
-      padding-right: 0.9rem;
-      scrollbar-width: thin;
-      scrollbar-color: #9db2c8 transparent;
+    #experiences .experience-timeline {
+      position: relative;
+      display: grid;
+      gap: 2.1rem;
+      margin: 1.5rem 0 0.5rem;
+      padding: 0.35rem 0 0.15rem;
     }
 
-    #experiences .experience-scroll::-webkit-scrollbar {
-      width: 0.55rem;
-    }
-
-    #experiences .experience-scroll::-webkit-scrollbar-thumb {
+    #experiences .experience-timeline::before {
+      position: absolute;
+      top: 1rem;
+      bottom: 1rem;
+      left: 2.3rem;
+      width: 3px;
       border-radius: 999px;
-      background: #9db2c8;
+      background: #e4e9ef;
+      content: "";
     }
 
-    #experiences .experience-scroll::-webkit-scrollbar-track {
-      background: #edf2f7;
-      border-radius: 999px;
+    #experiences .experience-entry {
+      position: relative;
+      z-index: 0;
+      display: grid;
+      grid-template-columns: 4.7rem minmax(0, 1fr);
+      gap: 1.6rem;
+      align-items: start;
+    }
+
+    #experiences .experience-logo-card {
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 4.7rem;
+      height: 4.7rem;
+      padding: 0.45rem;
+      border: 1px solid #e4e9ef;
+      border-radius: 0.7rem;
+      background: #fff;
+      box-shadow: 0 3px 11px rgba(31, 41, 55, 0.12);
+    }
+
+    #experiences .experience-logo-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    #experiences .experience-content {
+      padding-top: 0.1rem;
+      line-height: 1.45;
+    }
+
+    #experiences .experience-date {
+      margin: 0 0 0.2rem;
+      color: #4b5563;
+      font-size: 0.9em;
+      font-weight: 600;
+    }
+
+    #experiences .experience-role {
+      margin: 0;
+      color: inherit;
+      font-size: 1em;
+      font-weight: 700;
+    }
+
+    #experiences .experience-summary {
+      margin: 0.12rem 0 0;
+      color: inherit;
+      font-size: 0.94em;
+    }
+
+    #experiences .experience-organization {
+      margin: 0.15rem 0 0;
+      color: #1684dc;
+      font-size: 0.96em;
+      font-weight: 600;
+    }
+
+    #experiences .experience-organization a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    #experiences .experience-organization a:hover,
+    #experiences .experience-organization a:focus-visible {
+      text-decoration: underline;
+    }
+
+    [data-theme="dark"] #experiences .experience-timeline::before {
+      background: #303746;
+    }
+
+    [data-theme="dark"] #experiences .experience-logo-card {
+      border-color: #303746;
+      background: #fff;
+      box-shadow: 0 3px 11px rgba(0, 0, 0, 0.28);
+    }
+
+    [data-theme="dark"] #experiences .experience-date {
+      color: #aab4c1;
     }
 
     @media (max-width: 640px) {
-      #experiences .experience-scroll {
-        max-height: 32rem;
-        padding-right: 0.55rem;
+      #experiences .experience-timeline {
+        gap: 1.7rem;
+      }
+
+      #experiences .experience-timeline::before {
+        left: 1.7rem;
+      }
+
+      #experiences .experience-entry {
+        grid-template-columns: 3.5rem minmax(0, 1fr);
+        gap: 1rem;
+      }
+
+      #experiences .experience-logo-card {
+        width: 3.5rem;
+        height: 3.5rem;
+        padding: 0.35rem;
       }
     }
 
@@ -707,70 +803,68 @@ redirect_from:
 <section id="experiences">
   <h2>💻 Experiences</h2>
 
-  <div class="experience-scroll" tabindex="0" aria-label="Scrollable experience history">
-  <div class="item">
-    <img class="logo" src="images/iguide_logo.png" alt="I-GUIDE logo">
-    <div class="text">
-      <strong>
-        <a class="exp-link" href="https://i-guide.io/summer-school/summer-school-2026/summer-school-2026-agenda/" target="_blank" rel="noopener noreferrer">
-          I-GUIDE Summer School 2026
-        </a>
-      </strong><br>
-      Student Researcher, Jul. 2026
-      <a href="https://github.com/rayford295/vgi-spatial-bias" target="_blank" rel="noopener noreferrer" aria-label="I-GUIDE Summer School GitHub repository" title="GitHub repository">
-        <i class="fab fa-github" aria-hidden="true"></i>
-      </a><br>
-      University of Illinois Urbana-Champaign<br>
-      Spatial AI &amp; Convergence Science (NSF I-GUIDE)
-    </div>
-  </div>
+  <div class="experience-timeline" aria-label="Experience history">
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/iguide_logo.png" alt="I-GUIDE logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Jul. 2026</p>
+        <p class="experience-role">Student Researcher</p>
+        <p class="experience-summary">
+          Spatial AI &amp; Convergence Science (NSF I-GUIDE). <a href="https://github.com/rayford295/vgi-spatial-bias" target="_blank" rel="noopener noreferrer">Project repository</a>.
+        </p>
+        <p class="experience-organization"><a href="https://i-guide.io/summer-school/summer-school-2026/summer-school-2026-agenda/" target="_blank" rel="noopener noreferrer">I-GUIDE Summer School 2026, University of Illinois Urbana-Champaign</a></p>
+      </div>
+    </article>
 
-  <div class="item">
-    <img class="logo" src="images/gearlab_logo.png" alt="GEAR Lab logo">
-    <div class="text">
-      <strong>Texas A&amp;M University</strong><br>
-      Graduate Research Assistant, Jan. 2025 – Present<br>
-      Advisor: Prof. Lei Zou, GEAR Lab
-    </div>
-  </div>
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/gearlab_logo.png" alt="GEAR Lab logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Jan. 2025 – Present</p>
+        <p class="experience-role">Graduate Research Assistant</p>
+        <p class="experience-summary">Advisor: Prof. Lei Zou, GEAR Lab.</p>
+        <p class="experience-organization">Texas A&amp;M University</p>
+      </div>
+    </article>
 
-<div class="item">
-  <img class="logo" src="images/harvard_logo.webp" alt="Harvard logo">
-  <div class="text">
-    <strong>Harvard University</strong><br>
-    Spatial Data Lab Research Intern, Mar. 2025 – Aug. 2025<br>
-    Center for Geographic Analysis<br>
-    <a href="images/Harvard sds.png" target="_blank" rel="noopener">Certificate of Completion</a><br>
-    Mentor: Dr. Siqin Wang
-  </div>
-</div>
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/harvard_logo.webp" alt="Harvard University logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Mar. 2025 – Aug. 2025</p>
+        <p class="experience-role">Spatial Data Lab Research Intern</p>
+        <p class="experience-summary">Center for Geographic Analysis. Mentor: Dr. Siqin Wang. <a href="images/Harvard sds.png" target="_blank" rel="noopener">Certificate of Completion</a>.</p>
+        <p class="experience-organization">Harvard University</p>
+      </div>
+    </article>
 
-<div class="item">
-  <img class="logo" src="images/USC-Logo-cropped.png" alt="USC logo">
-  <div class="text">
-    <strong>Spatial Sciences Institute, USC</strong><br>
-    Master Student Researcher, Sept. 2023 – Apr. 2024<br>
-    <a href="https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6"
-       target="_blank" rel="noopener">
-      Urban Tree Shade Model
-    </a><br>
-    Advisors: Prof. John Wilson, Prof. Yi Qi, Beau MacDonald
-  </div>
-</div>
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/USC-Logo-cropped.png" alt="University of Southern California logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Sept. 2023 – Apr. 2024</p>
+        <p class="experience-role">Master Student Researcher</p>
+        <p class="experience-summary"><a href="https://storymaps.arcgis.com/stories/7f5c570fa0ff4d2eb918f933d869a2d6" target="_blank" rel="noopener">Urban Tree Shade Model</a>. Advisors: Prof. John Wilson, Prof. Yi Qi, and Beau MacDonald.</p>
+        <p class="experience-organization">Spatial Sciences Institute, University of Southern California</p>
+      </div>
+    </article>
 
-  
- <div class="item">
-  <img class="logo" src="images/vitally.png" alt="Vitally AI logo">
-  <div class="text">
-    <strong>
-      <a class="exp-link" href="https://app.vitally-ai.com/" target="_blank" rel="noopener noreferrer">
-        Vitally AI
-      </a>
-    </strong><br>
-    Data Engineering and AI Model Fine-tuning Intern, Feb. 2023 – May 2023<br>
-    Industry Internship (Generative AI)
-  </div>
- </div>
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/vitally.png" alt="Vitally AI logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Feb. 2023 – May 2023</p>
+        <p class="experience-role">Data Engineering and AI Model Fine-tuning Intern</p>
+        <p class="experience-summary">Industry internship in generative AI.</p>
+        <p class="experience-organization"><a href="https://app.vitally-ai.com/" target="_blank" rel="noopener noreferrer">Vitally AI</a></p>
+      </div>
+    </article>
   </div>
 </section>
 
