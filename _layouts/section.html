@@ -22,9 +22,9 @@ layout: compress
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
 
-{% assign homepage = site.pages | where: "url", "/" | first %}
-{% if homepage %}
-  {% assign style_blocks = homepage.content | split: '<style>' %}
+{% assign profile_page = site.pages | where: "url", "/about/" | first %}
+{% if profile_page %}
+  {% assign style_blocks = profile_page.content | split: '<style>' %}
   {% assign base_style = style_blocks[1] | split: '</style>' | first %}
   <style>{{ base_style }}</style>
 
@@ -45,7 +45,7 @@ layout: compress
 
   {% if page.full_profile %}
     {% assign section_start = '<section id="about-me">' %}
-    {% assign section_body = homepage.content | split: section_start | last %}
+    {% assign section_body = profile_page.content | split: section_start | last %}
     {{ section_start }}{{ section_body }}
   {% else %}
     {% if page.section_start %}
@@ -53,7 +53,7 @@ layout: compress
     {% else %}
       {% assign section_start = '<section id="' | append: page.section_id | append: '">' %}
     {% endif %}
-    {% assign after_start = homepage.content | split: section_start | last %}
+    {% assign after_start = profile_page.content | split: section_start | last %}
     {% if page.next_section_id %}
       {% assign section_end = '<section id="' | append: page.next_section_id | append: '">' %}
       {% assign section_body = after_start | split: section_end | first %}

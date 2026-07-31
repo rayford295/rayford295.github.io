@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /about/
 title: "Yifan Yang"
 excerpt: ""
 author_profile: true
