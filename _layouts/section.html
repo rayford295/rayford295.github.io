@@ -1,0 +1,52 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <base href="{{ '/' | absolute_url }}">
+  </head>
+
+  <body>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div id="main" role="main">
+      {% include sidebar.html %}
+
+      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        <div class="page__inner-wrap">
+          <section class="page__content" itemprop="text">
+
+{% assign homepage = site.pages | where: "url", "/" | first %}
+{% if homepage %}
+  {% assign style_blocks = homepage.content | split: '<style>' %}
+  {% assign base_style = style_blocks[1] | split: '</style>' | first %}
+  <style>{{ base_style }}</style>
+
+  {% if page.section_id == "partial-honors" %}
+    {% assign honors_style = style_blocks[2] | split: '</style>' | first %}
+    <style>{{ honors_style }}</style>
+  {% endif %}
+
+  {% assign section_start = '<section id="' | append: page.section_id | append: '">' %}
+  {% assign after_start = homepage.content | split: section_start | last %}
+  {% assign section_end = '<section id="' | append: page.next_section_id | append: '">' %}
+  {% assign section_body = after_start | split: section_end | first %}
+
+  {{ section_start }}{{ section_body }}
+{% else %}
+  <p>This section is temporarily unavailable.</p>
+{% endif %}
+          </section>
+        </div>
+      </article>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>

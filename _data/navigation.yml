@@ -1,40 +1,40 @@
 # main links links
 main:
   - title: "About"
-    url: "/#about-me"
+    url: "/about/"
 
   - title: "News"
-    url: "/#news"
+    url: "/news/"
 
   - title: "Education"
-    url: "/#educations"
+    url: "/education/"
 
   - title: "Experience"
-    url: "/#experiences"
+    url: "/experience/"
 
   - title: "Initiatives"
-    url: "/#founder-initiatives"
+    url: "/initiatives/"
 
   - title: "Teaching"
-    url: "/#teaching"
+    url: "/teaching/"
 
   - title: "Publications"
-    url: "/#publications"
+    url: "/publications/"
 
   - title: "Presentation"
-    url: "/#presentation"
+    url: "/presentation/"
 
   - title: "Honors"
-    url: "/#partial-honors"
+    url: "/honors/"
 
   - title: "Service"
-    url: "/#professional-activities-and-service"
+    url: "/service/"
 
   - title: "Industry"
-    url: "/#industry-engagement"
+    url: "/industry/"
 
   - title: "Media"
-    url: "/#media-coverage"
+    url: "/media/"
 
   - title: "Writing"
     url: "/blog/"
