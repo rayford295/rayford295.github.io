@@ -809,6 +809,18 @@ redirect_from:
 
     <article class="experience-entry">
       <div class="experience-logo-card">
+        <img src="images/autogeoai.png" alt="Autonomous GeoAI4Science logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Jan. 2026 – Present</p>
+        <p class="experience-role">Founder</p>
+        <p class="experience-summary">An open research initiative advancing autonomous GeoAI agents for scientific discovery.</p>
+        <p class="experience-organization"><a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener noreferrer">Autonomous GeoAI4Science</a></p>
+      </div>
+    </article>
+
+    <article class="experience-entry">
+      <div class="experience-logo-card">
         <img src="images/gearlab_logo.png" alt="GEAR Lab logo">
       </div>
       <div class="experience-content">
@@ -854,23 +866,6 @@ redirect_from:
         <p class="experience-organization"><a href="https://app.vitally-ai.com/" target="_blank" rel="noopener noreferrer">Vitally AI</a></p>
       </div>
     </article>
-  </div>
-</section>
-
-<section id="founder-initiatives">
-  <h2>🚀 Founder &amp; Initiatives</h2>
-
-  <div class="item">
-    <img class="logo" src="images/autogeoai.png" alt="Autonomous GeoAI4Science logo">
-    <div class="text">
-      <strong>
-        <a class="exp-link" href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener noreferrer">
-          Autonomous GeoAI4Science
-        </a>
-      </strong><br>
-      Founder, Jan. 2026 – Present<br>
-      An open research initiative advancing autonomous GeoAI agents for scientific discovery.
-    </div>
   </div>
 </section>
 

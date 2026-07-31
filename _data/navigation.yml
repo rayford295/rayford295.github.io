@@ -12,9 +12,6 @@ main:
   - title: "Experience"
     url: "/experience/"
 
-  - title: "Initiatives"
-    url: "/initiatives/"
-
   - title: "Teaching"
     url: "/teaching/"
 
