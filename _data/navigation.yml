@@ -12,6 +12,9 @@ main:
   - title: "Experience"
     url: "/experience/"
 
+  - title: "Teaching"
+    url: "/teaching/"
+
   - title: "Publications"
     url: "/publications/"
 
@@ -23,6 +26,9 @@ main:
 
   - title: "Service"
     url: "/service/"
+
+  - title: "Industry"
+    url: "/industry/"
 
   - title: "Media"
     url: "/media/"

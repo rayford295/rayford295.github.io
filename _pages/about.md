@@ -83,17 +83,6 @@ redirect_from:
       object-fit: contain;
     }
 
-    .experience-logo-card--monogram {
-      color: #1d5d7b;
-      font-size: 2.1rem;
-      font-weight: 800;
-      letter-spacing: -0.08em;
-    }
-
-    .experience-logo-card--mosaic {
-      color: #b77528;
-    }
-
     .experience-content {
       padding-top: 0.1rem;
       line-height: 1.45;
@@ -819,38 +808,6 @@ redirect_from:
     </article>
 
     <article class="experience-entry">
-      <div class="experience-logo-card experience-logo-card--monogram experience-logo-card--mosaic" aria-label="Mosaic">M</div>
-      <div class="experience-content">
-        <p class="experience-date">Apr. 2026</p>
-        <p class="experience-role">Featured Research</p>
-        <p class="experience-summary">My disaster assessment research was featured in a story on how Texas A&amp;M is pioneering hyperlocal damage assessment using street-level imagery from Hurricane Milton.</p>
-        <p class="experience-organization"><a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener noreferrer">Mosaic</a></p>
-      </div>
-    </article>
-
-    <article class="experience-entry">
-      <div class="experience-logo-card experience-logo-card--monogram" aria-label="Niantic Spatial">N</div>
-      <div class="experience-content">
-        <p class="experience-date">Mar. 2026</p>
-        <p class="experience-role">Academic Exchange</p>
-        <p class="experience-summary">Invited for an academic exchange in San Francisco on GeoAI, multimodal spatial intelligence, and disaster-related spatial analytics, highlighting the relevance of my research to large-scale spatial systems in industry.</p>
-        <p class="experience-organization"><a href="/images/niantic.png" target="_blank" rel="noopener">Niantic Spatial · Invitation Letter</a></p>
-      </div>
-    </article>
-
-    <article class="experience-entry">
-      <div class="experience-logo-card">
-        <img src="images/rayford-ai-logo.png" alt="Rayford AI logo">
-      </div>
-      <div class="experience-content">
-        <p class="experience-date">2026 – Present</p>
-        <p class="experience-role">Founder-led Venture</p>
-        <p class="experience-summary">Building a geospatial physical AI company that combines remote sensing, street-level imagery, and multimodal spatial intelligence into auditable workflows for property and infrastructure decisions.</p>
-        <p class="experience-organization"><a href="https://rayford-ai.com/" target="_blank" rel="noopener noreferrer">Rayford AI</a></p>
-      </div>
-    </article>
-
-    <article class="experience-entry">
       <div class="experience-logo-card">
         <img src="images/autogeoai.png" alt="Autonomous GeoAI4Science logo">
       </div>
@@ -859,18 +816,6 @@ redirect_from:
         <p class="experience-role">Founder</p>
         <p class="experience-summary">An open research initiative advancing autonomous GeoAI agents for scientific discovery.</p>
         <p class="experience-organization"><a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener noreferrer">Autonomous GeoAI4Science</a></p>
-      </div>
-    </article>
-
-    <article class="experience-entry">
-      <div class="experience-logo-card">
-        <img src="images/tamu_logo.webp" alt="Texas A&amp;M University logo">
-      </div>
-      <div class="experience-content">
-        <p class="experience-date">2025 – 2026</p>
-        <p class="experience-role">Guest Lecturer</p>
-        <p class="experience-summary">Guest lectures in Advanced GIS, GeoDatabase, and GIS Practicum, covering <a href="https://github.com/rayford295/Tutorial_Geographically-Weighted-Regression" target="_blank" rel="noopener noreferrer">geographically weighted regression</a>, <a href="https://github.com/rayford295/Tutorial_SpatialQueryLab" target="_blank" rel="noopener noreferrer">spatial SQL and PostGIS</a>, and <a href="https://github.com/rayford295/Tutorial_Github4GIS" target="_blank" rel="noopener noreferrer">Git, GitHub, and personal websites for GIS researchers</a>.</p>
-        <p class="experience-organization">Texas A&amp;M University</p>
       </div>
     </article>
 
@@ -900,18 +845,6 @@ redirect_from:
 
     <article class="experience-entry">
       <div class="experience-logo-card">
-        <img src="images/tamu_logo.webp" alt="Texas A&amp;M University logo">
-      </div>
-      <div class="experience-content">
-        <p class="experience-date">Aug. 2024 – Dec. 2024</p>
-        <p class="experience-role">Graduate Teaching Assistant</p>
-        <p class="experience-summary">GEOG 232, lab sections 501, 502, and 505.</p>
-        <p class="experience-organization">Texas A&amp;M University</p>
-      </div>
-    </article>
-
-    <article class="experience-entry">
-      <div class="experience-logo-card">
         <img src="images/USC-Logo-cropped.png" alt="University of Southern California logo">
       </div>
       <div class="experience-content">
@@ -929,10 +862,37 @@ redirect_from:
       <div class="experience-content">
         <p class="experience-date">Feb. 2023 – May 2023</p>
         <p class="experience-role">Data Engineering and AI Model Fine-tuning Intern</p>
-        <p class="experience-summary">Completed an industry internship in data engineering and AI model fine-tuning, gaining hands-on experience in applied generative AI systems and production-oriented workflows.</p>
+        <p class="experience-summary">Industry internship in generative AI.</p>
         <p class="experience-organization"><a href="https://app.vitally-ai.com/" target="_blank" rel="noopener noreferrer">Vitally AI</a></p>
       </div>
     </article>
+  </div>
+</section>
+
+<section id="teaching">
+  <h2>🖥 Teaching</h2>
+
+  <div class="item">
+    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
+    <div class="text">
+      <strong>Texas A&amp;M University</strong><br>
+      Graduate Teaching Assistant, Aug. 2024 – Dec. 2024<br>
+      GEOG232, lab sections 501, 502, 505
+    </div>
+  </div>
+
+  <div class="item">
+    <img class="logo" src="images/tamu_logo.webp" alt="Texas A&M logo">
+    <div class="text">
+      <strong>Texas A&amp;M University</strong><br>
+      Guest Lecturer, 2025 – 2026<br>
+      &nbsp;&nbsp;· GEOG 475: Advanced GIS, Spring 2026 — Geographically Weighted Regression (GWR)
+      <a href="https://github.com/rayford295/Tutorial_Geographically-Weighted-Regression" target="_blank" rel="noopener">💻</a><br>
+      &nbsp;&nbsp;· GEOG 659: GeoDatabase, Fall 2025 — Spatial Query Lab: Interactive Spatial SQL &amp; PostGIS
+      <a href="https://github.com/rayford295/Tutorial_SpatialQueryLab" target="_blank" rel="noopener">💻</a><br>
+      &nbsp;&nbsp;· GEOG 476: GIS Practicum, Spring 2026 — Git, GitHub &amp; Personal Websites for GIS Researchers
+      <a href="https://github.com/rayford295/Tutorial_Github4GIS" target="_blank" rel="noopener">💻</a>
+    </div>
   </div>
 </section>
 
@@ -1515,6 +1475,52 @@ redirect_from:
 </li>
   </ul>
 </section>
+
+<section id="industry-engagement">
+  <h2>🏢 Industry Engagement</h2>
+
+  <ul>
+    <li>
+      <strong>Rayford AI</strong> — <em>Founder-led Venture</em>
+      <p style="margin-left: 1em;">
+        Building a geospatial physical AI company that combines remote sensing, street-level imagery,
+        and multimodal spatial intelligence into auditable real-world workflows for property and infrastructure
+        decisions, starting with disaster assessment, claims triage, and resilience operations.
+        <a href="https://rayford-ai.com/" target="_blank" rel="noopener">Company</a>.
+      </p>
+    </li>
+
+    <li>
+      <strong>Niantic Spatial</strong> — <em>Academic Exchange</em>
+      <p style="margin-left: 1em;">
+        Invited by Niantic Spatial for an academic exchange in San Francisco on GeoAI,
+        multimodal spatial intelligence, and disaster-related spatial analytics,
+        highlighting the relevance of my research to large-scale spatial systems in industry.
+        <a href="/images/niantic.png" target="_blank" rel="noopener">Invitation Letter</a>.
+      </p>
+    </li>
+
+    <li>
+      <strong>Mosaic</strong> — <em>Featured Research</em>
+      <p style="margin-left: 1em;">
+        My disaster assessment research was featured by Mosaic in a story on how
+        Texas A&amp;M is pioneering hyperlocal damage assessment using street-level
+        imagery from Hurricane Milton.
+        <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener">Read Story</a>.
+      </p>
+    </li>
+
+    <li>
+      <strong>Vitally AI</strong> — <em>Industry Experience</em>
+      <p style="margin-left: 1em;">
+        Completed an industry internship in data engineering and AI model fine-tuning,
+        gaining hands-on experience in applied generative AI systems and production-oriented workflows.
+        <a href="https://app.vitally-ai.com/" target="_blank" rel="noopener">Company</a>.
+      </p>
+    </li>
+  </ul>
+</section>
+
 
 <section id="media-coverage">
   <h2>📺 Media Coverage</h2>
