@@ -131,14 +131,17 @@ layout: compress
         padding: 7.25rem 1.5rem 2.5rem;
       }
 
-      .homepage-minimal__time {
+      .homepage-minimal__time-suite {
         position: absolute;
         top: clamp(7rem, 17vh, 12.5rem);
         left: 50%;
         width: min(calc(100% - 3rem), 52rem);
+        transform: translateX(-50%);
+      }
+
+      .homepage-minimal__time {
         color: #18344e;
         text-align: center;
-        transform: translateX(-50%);
       }
 
       .homepage-minimal__time-location,
@@ -200,14 +203,11 @@ layout: compress
       }
 
       .homepage-minimal__world-clocks {
-        position: absolute;
-        top: clamp(16.25rem, 23.5vh, 19rem);
-        left: 50%;
         display: grid;
         grid-template-columns: repeat(5, minmax(4.8rem, 1fr));
-        width: min(calc(100% - 3rem), 42rem);
+        width: min(100%, 42rem);
+        margin: 1.35rem auto 0;
         gap: clamp(0.55rem, 1.7vw, 1.4rem);
-        transform: translateX(-50%);
       }
 
       .homepage-minimal__world-clock {
@@ -307,7 +307,7 @@ layout: compress
         background: linear-gradient(145deg, rgba(255, 255, 255, 0.78), rgba(252, 254, 255, 0.56));
         box-shadow: 0 1.2rem 4rem rgba(37, 56, 78, 0.14);
         text-align: center;
-        transform: translateY(clamp(4.5rem, 7vh, 6.5rem));
+        transform: translateY(clamp(1rem, 2.5vh, 2rem));
         backdrop-filter: blur(16px);
       }
 
@@ -469,7 +469,7 @@ layout: compress
           padding-top: 6rem;
         }
 
-        .homepage-minimal__time {
+        .homepage-minimal__time-suite {
           top: 6.75rem;
         }
 
@@ -478,9 +478,9 @@ layout: compress
         }
 
         .homepage-minimal__world-clocks {
-          top: 15.75rem;
           grid-template-columns: repeat(3, minmax(4.5rem, 1fr));
-          width: min(calc(100% - 2rem), 24rem);
+          width: min(100%, 24rem);
+          margin-top: 1.2rem;
           gap: 0.95rem 0.65rem;
         }
 
@@ -507,12 +507,13 @@ layout: compress
     {% include masthead.html %}
 
     <main class="homepage-minimal__main" aria-labelledby="homepage-title">
-      <section class="homepage-minimal__time" aria-label="Current time in College Station, Texas">
-        <p class="homepage-minimal__time-location">College Station, Texas</p>
-        <time id="homepage-clock" class="homepage-minimal__time-value" datetime="">--:--:--</time>
-        <p id="homepage-clock-date" class="homepage-minimal__time-date">Central Time</p>
-      </section>
-      <section class="homepage-minimal__world-clocks" aria-label="World clocks">
+      <div class="homepage-minimal__time-suite">
+        <section class="homepage-minimal__time" aria-label="Current time in College Station, Texas">
+          <p class="homepage-minimal__time-location">College Station, Texas</p>
+          <time id="homepage-clock" class="homepage-minimal__time-value" datetime="">--:--:--</time>
+          <p id="homepage-clock-date" class="homepage-minimal__time-date">Central Time</p>
+        </section>
+        <section class="homepage-minimal__world-clocks" aria-label="World clocks">
         <article class="homepage-minimal__world-clock" data-time-zone="Asia/Shanghai">
           <p class="homepage-minimal__world-clock-city">Xi'an</p>
           <div class="homepage-minimal__world-clock-face" aria-hidden="true">
@@ -558,7 +559,8 @@ layout: compress
           </div>
           <time class="homepage-minimal__world-clock-digital" datetime="">--:--</time>
         </article>
-      </section>
+        </section>
+      </div>
       <section class="homepage-minimal__panel">
         <p class="homepage-minimal__site-title">
           <span>Field Notes on</span>
