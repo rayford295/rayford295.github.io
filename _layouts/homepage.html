@@ -44,6 +44,52 @@ layout: compress
       margin-bottom: 0.75rem;
     }
 
+    .homepage-featured {
+      margin: 2.25rem 0;
+      padding: 1.1rem 1.25rem;
+      border-left: 4px solid #1d5fa7;
+      border-radius: 0 0.65rem 0.65rem 0;
+      background: #f8fbff;
+    }
+
+    .homepage-featured h2,
+    .homepage-featured h3 {
+      margin-top: 0;
+    }
+
+    .homepage-featured h3 {
+      margin-bottom: 0.35rem;
+      font-size: 1.05rem;
+    }
+
+    .homepage-featured p {
+      margin: 0 0 0.5rem;
+    }
+
+    .homepage-featured a {
+      font-weight: 700;
+    }
+
+    .section-page #news {
+      position: relative;
+    }
+
+    .homepage-news-updated {
+      position: absolute;
+      top: 0.25rem;
+      right: 0;
+      margin: 0;
+      color: #6b7280;
+      font-size: 0.82rem;
+    }
+
+    @media (max-width: 640px) {
+      .homepage-news-updated {
+        position: static;
+        margin: -0.25rem 0 0.75rem;
+      }
+    }
+
   </style>
 
   {% assign about_start = '<section id="about-me">' %}
@@ -52,10 +98,28 @@ layout: compress
   {% assign about_body = after_about_start | split: news_start | first %}
   {{ about_start }}{{ about_body }}
 
+  <section class="homepage-featured" aria-labelledby="homepage-featured-title">
+    <h2 id="homepage-featured-title">📌 Featured Now</h2>
+    <h3><a href="https://cartogis.org/conferences/cagis2026/program/" target="_blank" rel="noopener">RAPIDMap: Rapid multi-Agent Pipeline for Interpretable Disaster Mapping</a></h3>
+    <p>Scheduled for presentation at CaGIS 2026 on September 8, 2026, in the GeoAI, Disaster Mapping, and Hydrography session.</p>
+    <a href="/publications/">View Publications →</a>
+  </section>
+
   {% assign after_news_start = profile_page.content | split: news_start | last %}
   {% assign news_end = '<section id="educations">' %}
   {% assign news_body = after_news_start | split: news_end | first %}
-  {{ news_start }}{{ news_body }}
+  {{ news_start }}
+  <p class="homepage-news-updated">Last updated <time id="homepage-update-time"></time></p>
+  <script>
+    (function () {
+      var target = document.getElementById("homepage-update-time");
+      if (!target) return;
+      target.textContent = new Date(document.lastModified).toLocaleDateString("en-US", {
+        year: "numeric", month: "short", day: "numeric"
+      });
+    }());
+  </script>
+  {{ news_body }}
 
   <section class="homepage-connect" aria-labelledby="homepage-connect-title">
     <h2 id="homepage-connect-title">🤝 Let’s Connect</h2>

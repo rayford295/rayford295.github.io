@@ -596,28 +596,6 @@ redirect_from:
 
 
 
-<!-- ✅ Fancy Update Time Button -->
-<div style="text-align:center; margin-top:40px;">
-  <button 
-    onclick="showUpdateTime()" 
-    style="background:linear-gradient(90deg,#0078d7,#005fa3); color:white; border:none; border-radius:8px; padding:10px 22px; cursor:pointer; font-size:15px; font-weight:500; box-shadow:0 4px 10px rgba(0,0,0,0.25); transition:0.3s;">
-    💫 Show Last Update Time
-  </button>
-  <p id="update-time" style="margin-top:12px; font-size:14px; color:#666; opacity:0; transition:opacity 0.6s ease;"></p>
-</div>
-
-<script>
-  function showUpdateTime() {
-    const t = new Date(document.lastModified);
-    const formatted = t.toLocaleString('en-US', {
-      year: 'numeric', month: 'short', day: 'numeric',
-      hour: '2-digit', minute: '2-digit'
-    });
-    const p = document.getElementById('update-time');
-    p.innerHTML = "Last updated on " + formatted;
-    p.style.opacity = 1;
-  }
-</script>
   </div>
 
 
