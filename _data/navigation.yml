@@ -40,10 +40,10 @@ main:
     url: "/blog/"
 
   - title: "Videos"
-    url: "/#videos"
+    url: "/videos/"
 
   - title: "Gallery"
-    url: "/#personal-gallery"
+    url: "/gallery/"
 
   - title: "Misc."
-    url: "/#miscellaneous"
+    url: "/misc/"

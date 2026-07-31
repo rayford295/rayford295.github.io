@@ -44,8 +44,12 @@ layout: compress
 
   {% assign section_start = '<section id="' | append: page.section_id | append: '">' %}
   {% assign after_start = homepage.content | split: section_start | last %}
-  {% assign section_end = '<section id="' | append: page.next_section_id | append: '">' %}
-  {% assign section_body = after_start | split: section_end | first %}
+  {% if page.next_section_id %}
+    {% assign section_end = '<section id="' | append: page.next_section_id | append: '">' %}
+    {% assign section_body = after_start | split: section_end | first %}
+  {% else %}
+    {% assign section_body = after_start %}
+  {% endif %}
 
   {{ section_start }}{{ section_body }}
 {% else %}
