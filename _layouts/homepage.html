@@ -131,6 +131,44 @@ layout: compress
         padding: 7.25rem 1.5rem 2.5rem;
       }
 
+      .homepage-minimal__time {
+        position: absolute;
+        top: clamp(7rem, 17vh, 12.5rem);
+        left: 50%;
+        width: min(calc(100% - 3rem), 52rem);
+        color: #18344e;
+        text-align: center;
+        transform: translateX(-50%);
+      }
+
+      .homepage-minimal__time-location,
+      .homepage-minimal__time-date {
+        margin: 0;
+        color: #5a7289;
+        font-size: clamp(0.66rem, 1.2vw, 0.78rem);
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        line-height: 1.45;
+        text-transform: uppercase;
+      }
+
+      .homepage-minimal__time-value {
+        display: block;
+        margin: 0.24rem 0 0.2rem;
+        color: #18344e;
+        font-size: clamp(3.1rem, 8vw, 6.6rem);
+        font-variant-numeric: tabular-nums;
+        font-weight: 650;
+        letter-spacing: -0.075em;
+        line-height: 0.98;
+        text-shadow: 0 0.5rem 1.8rem rgba(86, 117, 142, 0.12);
+      }
+
+      .homepage-minimal__time-date {
+        color: #3f6780;
+        letter-spacing: 0.1em;
+      }
+
       .homepage-minimal__panel {
         position: relative;
         overflow: hidden;
@@ -195,9 +233,10 @@ layout: compress
       .homepage-minimal__name {
         margin: 0;
         color: #18344e;
-        font-size: clamp(1.8rem, 5vw, 2.7rem);
+        font-size: clamp(1.55rem, 4.6vw, 2.45rem);
         font-weight: 700;
-        letter-spacing: -0.04em;
+        letter-spacing: -0.05em;
+        white-space: nowrap;
       }
 
       .homepage-minimal__tagline {
@@ -295,6 +334,14 @@ layout: compress
           padding-top: 6rem;
         }
 
+        .homepage-minimal__time {
+          top: 6.75rem;
+        }
+
+        .homepage-minimal__time-value {
+          font-size: clamp(2.7rem, 13vw, 4rem);
+        }
+
         .homepage-minimal__panel {
           padding: 1.45rem 1.1rem;
         }
@@ -312,6 +359,11 @@ layout: compress
     {% include masthead.html %}
 
     <main class="homepage-minimal__main" aria-labelledby="homepage-title">
+      <section class="homepage-minimal__time" aria-label="Current time in College Station, Texas">
+        <p class="homepage-minimal__time-location">College Station, Texas</p>
+        <time id="homepage-clock" class="homepage-minimal__time-value" datetime="">--:--:--</time>
+        <p id="homepage-clock-date" class="homepage-minimal__time-date">Central Time</p>
+      </section>
       <section class="homepage-minimal__panel">
         <p class="homepage-minimal__site-title">
           <span>Field Notes on</span>
@@ -325,7 +377,7 @@ layout: compress
           </span>
           <span class="screen-reader-text">Space, Intelligence, and Discovery</span>
         </p>
-        <h1 id="homepage-title" class="homepage-minimal__name">Yifan Yang</h1>
+        <h1 id="homepage-title" class="homepage-minimal__name">Yifan (Rayford) Yang</h1>
         <p class="homepage-minimal__tagline">Ambition gives direction, courage sustains exploration.</p>
         <nav class="homepage-minimal__links" aria-label="Homepage shortcuts">
           <a href="/about/">About</a>
@@ -337,6 +389,45 @@ layout: compress
         </nav>
       </section>
     </main>
+
+    <script>
+      (function () {
+        var clock = document.getElementById("homepage-clock");
+        var date = document.getElementById("homepage-clock-date");
+        var timeZone = "America/Chicago";
+
+        function updateClock() {
+          var now = new Date();
+          var time = new Intl.DateTimeFormat("en-US", {
+            timeZone: timeZone,
+            hour: "numeric",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: true
+          }).format(now);
+          var day = new Intl.DateTimeFormat("en-US", {
+            timeZone: timeZone,
+            weekday: "long",
+            month: "long",
+            day: "numeric",
+            year: "numeric"
+          }).format(now);
+          var zone = new Intl.DateTimeFormat("en-US", {
+            timeZone: timeZone,
+            timeZoneName: "short"
+          }).formatToParts(now).find(function (part) {
+            return part.type === "timeZoneName";
+          }).value;
+
+          clock.textContent = time;
+          clock.dateTime = now.toISOString();
+          date.textContent = day + " · " + zone;
+        }
+
+        updateClock();
+        window.setInterval(updateClock, 1000);
+      }());
+    </script>
 
     {% include scripts.html %}
   </body>

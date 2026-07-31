@@ -1,6 +1,6 @@
 ---
 permalink: /
 layout: homepage
-title: "Yifan Yang"
+title: "Yifan (Rayford) Yang"
 author_profile: true
 ---
