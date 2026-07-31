@@ -1858,10 +1858,10 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       </figcaption>
     </figure>
     <figure class="hobby-card">
-      <img src="/hobby/football1.jpg" alt="eFootball squad lineup with a 3,304 overall team strength" loading="lazy" decoding="async">
+      <img src="/hobby/football1.jpg" alt="Yifan's eFootball all-time XI, featuring the final dance of Lionel Messi and Cristiano Ronaldo" loading="lazy" decoding="async">
       <figcaption>
-        <strong>eFootball Squad</strong>
-        <span>A 3,304-strength lineup built around football legends and current stars.</span>
+        <strong>My All-Time XI</strong>
+        <span>My dream team, with Messi and Ronaldo's final dance marking the end of an era.</span>
       </figcaption>
     </figure>
     <figure class="hobby-card">
