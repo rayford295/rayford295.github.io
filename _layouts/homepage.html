@@ -9,319 +9,153 @@ layout: compress
     {% include head/custom.html %}
     <base href="{{ '/' | absolute_url }}">
     <style>
-      .homepage-hero {
-        position: relative;
-        isolation: isolate;
-        display: grid;
-        min-height: clamp(25rem, 54vh, 33rem);
-        overflow: hidden;
-        place-items: center;
-        padding: 5.5rem 1.5rem;
-        color: #e7edf9;
+      html,
+      body {
+        min-height: 100%;
+      }
+
+      body.homepage-minimal {
+        min-height: 100svh;
+        color: #eef5ff;
         background:
-          radial-gradient(circle at 18% 22%, rgba(18, 198, 228, 0.2), transparent 28rem),
-          radial-gradient(circle at 82% 75%, rgba(119, 72, 255, 0.24), transparent 30rem),
-          linear-gradient(135deg, #070c1b 0%, #0a1021 50%, #090c19 100%);
+          linear-gradient(180deg, rgba(3, 10, 25, 0.18) 0%, rgba(3, 10, 25, 0.42) 100%),
+          url("/images/homepage-geoai-wallpaper.png") center / cover no-repeat fixed;
       }
 
-      .homepage-hero::before,
-      .homepage-hero::after {
+      .homepage-minimal .masthead {
         position: absolute;
-        z-index: -1;
-        inset: 0;
-        content: "";
-        pointer-events: none;
+        z-index: 10;
+        width: 100%;
+        border-bottom: 1px solid rgba(222, 237, 255, 0.16);
+        background: rgba(5, 14, 33, 0.32);
+        box-shadow: none;
+        backdrop-filter: blur(12px);
       }
 
-      .homepage-hero::before {
-        opacity: 0.3;
-        background-image:
-          linear-gradient(rgba(129, 158, 197, 0.13) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(129, 158, 197, 0.13) 1px, transparent 1px);
-        background-size: 4.6rem 4.6rem;
-        -webkit-mask-image: radial-gradient(ellipse at center, #000 0%, transparent 74%);
-        mask-image: radial-gradient(ellipse at center, #000 0%, transparent 74%);
+      .homepage-minimal .greedy-nav,
+      .homepage-minimal .greedy-nav a,
+      .homepage-minimal .masthead__menu-item a {
+        background: transparent;
+        color: #edf4ff;
       }
 
-      .homepage-hero::after {
-        opacity: 0.75;
-        background-image:
-          radial-gradient(circle at 8% 18%, #d9f7ff 0 1px, transparent 1.5px),
-          radial-gradient(circle at 16% 71%, #9bc6ff 0 1px, transparent 1.5px),
-          radial-gradient(circle at 31% 37%, #d9f7ff 0 1px, transparent 1.5px),
-          radial-gradient(circle at 56% 18%, #b9b2ff 0 1px, transparent 1.5px),
-          radial-gradient(circle at 68% 68%, #d9f7ff 0 1px, transparent 1.5px),
-          radial-gradient(circle at 89% 28%, #93ecff 0 1px, transparent 1.5px),
-          radial-gradient(circle at 94% 82%, #b9b2ff 0 1px, transparent 1.5px);
+      .homepage-minimal .greedy-nav a:hover {
+        color: #9deeff;
       }
 
-      .homepage-hero__content {
-        width: min(100%, 58rem);
+      .homepage-minimal .greedy-nav__toggle {
+        border-color: rgba(222, 237, 255, 0.36);
+        background: rgba(8, 20, 45, 0.32);
+        color: #edf4ff;
+      }
+
+      .homepage-minimal .hidden-links {
+        border: 1px solid rgba(222, 237, 255, 0.18);
+        background: rgba(7, 17, 38, 0.94);
+        box-shadow: 0 0.8rem 2.5rem rgba(0, 0, 0, 0.28);
+        backdrop-filter: blur(16px);
+      }
+
+      .homepage-minimal .hidden-links a {
+        color: #edf4ff;
+      }
+
+      .homepage-minimal__main {
+        display: grid;
+        min-height: 100svh;
+        place-items: center;
+        padding: 7.25rem 1.5rem 2.5rem;
+      }
+
+      .homepage-minimal__panel {
+        width: min(100%, 31rem);
+        padding: clamp(1.5rem, 4vw, 2.35rem);
+        border: 1px solid rgba(231, 242, 255, 0.28);
+        border-radius: 1.1rem;
+        background: rgba(5, 15, 35, 0.34);
+        box-shadow: 0 1.2rem 4rem rgba(0, 0, 0, 0.28);
         text-align: center;
+        backdrop-filter: blur(16px);
       }
 
-      .homepage-hero__eyebrow {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.45rem;
-        margin-bottom: 1.35rem;
-        padding: 0.42rem 0.82rem;
-        border: 1px solid rgba(78, 215, 255, 0.38);
-        border-radius: 999px;
-        background: rgba(5, 15, 35, 0.55);
-        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
-        color: #7fe9ff;
-        font-size: 0.78rem;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-
-      .homepage-hero__eyebrow::before {
-        width: 0.45rem;
-        height: 0.45rem;
-        border-radius: 50%;
-        background: #4cf5ba;
-        box-shadow: 0 0 0.8rem #4cf5ba;
-        content: "";
-      }
-
-      .homepage-hero h1 {
+      .homepage-minimal__name {
         margin: 0;
-        color: #f3f6fe;
-        font-size: clamp(2.65rem, 6vw, 5.5rem);
-        font-weight: 800;
-        letter-spacing: -0.055em;
-        line-height: 0.95;
+        color: #f7fbff;
+        font-size: clamp(1.8rem, 5vw, 2.7rem);
+        font-weight: 700;
+        letter-spacing: -0.04em;
       }
 
-      .homepage-hero h1 span {
-        display: block;
-        margin-top: 0.16em;
-        background: linear-gradient(100deg, #22c8ff 0%, #6280ff 44%, #a655ff 74%, #41d8e7 100%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        font-size: 0.76em;
+      .homepage-minimal__focus {
+        margin: 0.45rem 0 1.45rem;
+        color: #c7d8ec;
+        font-size: clamp(0.92rem, 2.5vw, 1.04rem);
       }
 
-      .homepage-hero__lede {
-        max-width: 43rem;
-        margin: 1.45rem auto 0;
-        color: #aebfd8;
-        font-size: clamp(1rem, 2vw, 1.18rem);
-        line-height: 1.65;
-      }
-
-      .homepage-hero__actions,
-      .homepage-hero__tags {
+      .homepage-minimal__links {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 0.7rem;
+        gap: 0.58rem;
       }
 
-      .homepage-hero__actions {
-        margin-top: 1.8rem;
-      }
-
-      .homepage-hero__button {
+      .homepage-minimal__links a {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        min-width: 9.7rem;
-        padding: 0.68rem 1rem;
-        border: 1px solid rgba(174, 192, 222, 0.22);
-        border-radius: 0.55rem;
-        background: rgba(255, 255, 255, 0.045);
-        color: #eef4ff !important;
-        font-size: 0.92rem;
-        font-weight: 700;
-        text-decoration: none !important;
-        transition: transform 150ms ease, border-color 150ms ease, background 150ms ease;
-      }
-
-      .homepage-hero__button:hover {
-        transform: translateY(-2px);
-        border-color: rgba(127, 233, 255, 0.75);
-        background: rgba(255, 255, 255, 0.1);
-      }
-
-      .homepage-hero__button--primary {
-        border-color: transparent;
-        background: linear-gradient(100deg, #08b8ec, #5269f2 55%, #8245e9);
-        box-shadow: 0 0.65rem 1.8rem rgba(46, 109, 240, 0.34);
-      }
-
-      .homepage-hero__tags {
-        margin-top: 1.45rem;
-      }
-
-      .homepage-hero__tags span {
-        padding: 0.25rem 0.6rem;
-        border: 1px solid rgba(160, 189, 228, 0.2);
+        min-width: 6.9rem;
+        padding: 0.58rem 0.78rem;
+        border: 1px solid rgba(225, 240, 255, 0.3);
         border-radius: 999px;
-        color: #b7c8e4;
-        font-size: 0.78rem;
+        background: rgba(255, 255, 255, 0.07);
+        color: #f4f9ff;
+        font-size: 0.9rem;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
+      }
+
+      .homepage-minimal__links a:hover,
+      .homepage-minimal__links a:focus-visible {
+        transform: translateY(-1px);
+        border-color: rgba(126, 229, 255, 0.78);
+        background: rgba(55, 181, 226, 0.22);
+        color: #fff;
       }
 
       @media (max-width: 640px) {
-        .homepage-hero {
-          min-height: 29rem;
-          padding: 4rem 1.15rem;
+        body.homepage-minimal {
+          background-position: 56% center;
+          background-attachment: scroll;
         }
 
-        .homepage-hero__actions {
-          flex-direction: column;
-          align-items: stretch;
-          max-width: 18rem;
-          margin-right: auto;
-          margin-left: auto;
+        .homepage-minimal__main {
+          padding-top: 6rem;
+        }
+
+        .homepage-minimal__panel {
+          padding: 1.45rem 1.1rem;
         }
       }
     </style>
   </head>
 
-  <body>
+  <body class="homepage-minimal">
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <section class="homepage-hero" aria-labelledby="homepage-hero-title">
-      <div class="homepage-hero__content">
-        <p class="homepage-hero__eyebrow">Ph.D. Researcher · Texas A&amp;M University</p>
-        <h1 id="homepage-hero-title">Yifan Yang<span>Responsible &amp; Autonomous GeoAI</span></h1>
-        <p class="homepage-hero__lede">Building explainable spatial reasoning systems for incomplete, changing, and real-world observations.</p>
-        <div class="homepage-hero__actions" aria-label="Homepage shortcuts">
-          <a class="homepage-hero__button homepage-hero__button--primary" href="#homepage-featured">Latest Work</a>
-          <a class="homepage-hero__button" href="/publications/">Publications</a>
-          <a class="homepage-hero__button" href="/resume/Yifan_Yang_CV.pdf">Curriculum Vitae</a>
-        </div>
-        <div class="homepage-hero__tags" aria-label="Research areas">
-          <span>Explainable Spatial Reasoning</span>
-          <span>AI4Science</span>
-          <span>Disaster Resilience</span>
-        </div>
-      </div>
-    </section>
-
-    <div id="main" role="main">
-      {% include sidebar.html %}
-
-      <article class="page section-page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-
-{% assign profile_page = site.pages | where: "url", "/about/" | first %}
-{% if profile_page %}
-  {% assign style_blocks = profile_page.content | split: '<style>' %}
-  {% assign base_style = style_blocks[1] | split: '</style>' | first %}
-  <style>{{ base_style }}</style>
-  <style>
-    .homepage-connect {
-      margin: 2.25rem 0 0;
-      padding: 1.4rem 1.55rem;
-      border: 1px solid #d7e4f1;
-      border-radius: 0.85rem;
-      background: linear-gradient(135deg, #f8fbff, #f3fbf8);
-    }
-
-    .homepage-connect h2 {
-      margin-top: 0;
-    }
-
-    .homepage-connect p {
-      margin-bottom: 0.75rem;
-    }
-
-    .homepage-featured {
-      margin: 2.25rem 0;
-      padding: 1.1rem 1.25rem;
-      border-left: 4px solid #1d5fa7;
-      border-radius: 0 0.65rem 0.65rem 0;
-      background: #f8fbff;
-    }
-
-    .homepage-featured h2,
-    .homepage-featured h3 {
-      margin-top: 0;
-    }
-
-    .homepage-featured h3 {
-      margin-bottom: 0.35rem;
-      font-size: 1.05rem;
-    }
-
-    .homepage-featured p {
-      margin: 0 0 0.5rem;
-    }
-
-    .homepage-featured a {
-      font-weight: 700;
-    }
-
-    .section-page #news {
-      position: relative;
-    }
-
-    .homepage-news-updated {
-      position: absolute;
-      top: 0.25rem;
-      right: 0;
-      margin: 0;
-      color: #6b7280;
-      font-size: 0.82rem;
-    }
-
-    @media (max-width: 640px) {
-      .homepage-news-updated {
-        position: static;
-        margin: -0.25rem 0 0.75rem;
-      }
-    }
-
-  </style>
-
-  {% assign about_start = '<section id="about-me">' %}
-  {% assign after_about_start = profile_page.content | split: about_start | last %}
-  {% assign news_start = '<section id="news">' %}
-  {% assign about_body = after_about_start | split: news_start | first %}
-  {{ about_start }}{{ about_body }}
-
-  <section id="homepage-featured" class="homepage-featured" aria-labelledby="homepage-featured-title">
-    <h2 id="homepage-featured-title">📌 Featured Now</h2>
-    <h3><a href="https://cartogis.org/conferences/cagis2026/program/" target="_blank" rel="noopener">RAPIDMap: Rapid multi-Agent Pipeline for Interpretable Disaster Mapping</a></h3>
-    <p>Scheduled for presentation at CaGIS 2026 on September 8, 2026, in the GeoAI, Disaster Mapping, and Hydrography session.</p>
-    <a href="/publications/">View Publications →</a>
-  </section>
-
-  {% assign after_news_start = profile_page.content | split: news_start | last %}
-  {% assign news_end = '<section id="educations">' %}
-  {% assign news_body = after_news_start | split: news_end | first %}
-  {{ news_start }}
-  <p class="homepage-news-updated">Last updated <time id="homepage-update-time"></time></p>
-  <script>
-    (function () {
-      var target = document.getElementById("homepage-update-time");
-      if (!target) return;
-      target.textContent = new Date(document.lastModified).toLocaleDateString("en-US", {
-        year: "numeric", month: "short", day: "numeric"
-      });
-    }());
-  </script>
-  {{ news_body }}
-
-  <section class="homepage-connect" aria-labelledby="homepage-connect-title">
-    <h2 id="homepage-connect-title">🤝 Let’s Connect</h2>
-    <p>欢迎交流。I welcome conversations about Responsible GeoAI, research collaboration, and ideas that connect AI, space, and society.</p>
-  </section>
-{% else %}
-  <p>This profile is temporarily unavailable.</p>
-{% endif %}
-          </section>
-        </div>
-      </article>
-    </div>
+    <main class="homepage-minimal__main" aria-labelledby="homepage-title">
+      <section class="homepage-minimal__panel">
+        <h1 id="homepage-title" class="homepage-minimal__name">Yifan Yang</h1>
+        <p class="homepage-minimal__focus">Responsible &amp; Autonomous GeoAI</p>
+        <nav class="homepage-minimal__links" aria-label="Homepage shortcuts">
+          <a href="/about/">About</a>
+          <a href="/news/">News</a>
+          <a href="/publications/">Publications</a>
+          <a href="/resume/Yifan_Yang_CV.pdf">Curriculum Vitae</a>
+        </nav>
+      </section>
+    </main>
 
     {% include scripts.html %}
   </body>
