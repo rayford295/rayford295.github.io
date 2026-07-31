@@ -132,14 +132,64 @@ layout: compress
       }
 
       .homepage-minimal__panel {
+        position: relative;
+        overflow: hidden;
         width: min(100%, 31rem);
         padding: clamp(1.5rem, 4vw, 2.35rem);
         border: 1px solid rgba(38, 69, 99, 0.18);
         border-radius: 1.1rem;
-        background: rgba(255, 255, 255, 0.62);
+        background: linear-gradient(145deg, rgba(255, 255, 255, 0.78), rgba(252, 254, 255, 0.56));
         box-shadow: 0 1.2rem 4rem rgba(37, 56, 78, 0.14);
         text-align: center;
         backdrop-filter: blur(16px);
+      }
+
+      .homepage-minimal__panel::before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 7.5rem;
+        height: 0.18rem;
+        border-radius: 0 0 999px 999px;
+        background: linear-gradient(90deg, #78b8cd, #d3a557, #78b8cd);
+        content: "";
+        transform: translateX(-50%);
+      }
+
+      .homepage-minimal__site-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.42rem;
+        margin: 0 0 0.85rem;
+        color: #58718a;
+        font-size: 0.69rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        line-height: 1.35;
+        text-transform: uppercase;
+      }
+
+      .homepage-minimal__title-cycle {
+        display: inline-block;
+        min-width: 7.6rem;
+        height: 1.35em;
+        overflow: hidden;
+        color: #1b6682;
+        letter-spacing: 0.05em;
+        text-align: left;
+      }
+
+      .homepage-minimal__title-cycle-words {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        animation: homepage-title-cycle 9s ease-in-out infinite;
+      }
+
+      .homepage-minimal__title-cycle-words span {
+        display: block;
+        height: 1.35em;
       }
 
       .homepage-minimal__name {
@@ -150,12 +200,21 @@ layout: compress
         letter-spacing: -0.04em;
       }
 
+      .homepage-minimal__tagline {
+        margin: 0.72rem auto 0;
+        color: #486277;
+        font-size: clamp(0.88rem, 2vw, 1rem);
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        line-height: 1.45;
+      }
+
       .homepage-minimal__links {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 0.58rem;
-        margin-top: 1.35rem;
+        margin-top: 1.18rem;
       }
 
       .homepage-minimal__links a {
@@ -207,9 +266,17 @@ layout: compress
         to { transform: rotate(18deg) translate3d(3.6rem, 1.2rem, 0); }
       }
 
+      @keyframes homepage-title-cycle {
+        0%, 25% { transform: translateY(0); }
+        33%, 58% { transform: translateY(-1.35em); }
+        66%, 91% { transform: translateY(-2.7em); }
+        99%, 100% { transform: translateY(-4.05em); }
+      }
+
       @media (prefers-reduced-motion: reduce) {
         body.homepage-minimal::before,
-        .homepage-ribbon {
+        .homepage-ribbon,
+        .homepage-minimal__title-cycle-words {
           animation: none;
         }
 
@@ -246,7 +313,20 @@ layout: compress
 
     <main class="homepage-minimal__main" aria-labelledby="homepage-title">
       <section class="homepage-minimal__panel">
+        <p class="homepage-minimal__site-title">
+          <span>Field Notes on</span>
+          <span class="homepage-minimal__title-cycle" aria-hidden="true">
+            <span class="homepage-minimal__title-cycle-words">
+              <span>Space</span>
+              <span>Intelligence</span>
+              <span>Discovery</span>
+              <span>Space</span>
+            </span>
+          </span>
+          <span class="screen-reader-text">Space, Intelligence, and Discovery</span>
+        </p>
         <h1 id="homepage-title" class="homepage-minimal__name">Yifan Yang</h1>
+        <p class="homepage-minimal__tagline">Read carefully. Think spatially. Explore with courage.</p>
         <nav class="homepage-minimal__links" aria-label="Homepage shortcuts">
           <a href="/about/">About</a>
           <a href="/news/">News</a>
