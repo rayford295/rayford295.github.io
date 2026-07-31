@@ -1,0 +1,47 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <base href="{{ '/' | absolute_url }}">
+  </head>
+
+  <body>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div id="main" role="main">
+      {% include sidebar.html %}
+
+      <article class="page section-page" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        <div class="page__inner-wrap">
+          <section class="page__content" itemprop="text">
+
+{% assign profile_page = site.pages | where: "url", "/about/" | first %}
+{% if profile_page %}
+  {% assign style_blocks = profile_page.content | split: '<style>' %}
+  {% assign base_style = style_blocks[1] | split: '</style>' | first %}
+  <style>{{ base_style }}</style>
+
+  {% assign section_start = '<section id="about-me">' %}
+  {% assign after_start = profile_page.content | split: section_start | last %}
+  {% assign section_end = '<section id="news">' %}
+  {% assign section_body = after_start | split: section_end | first %}
+
+  {{ section_start }}{{ section_body }}
+{% else %}
+  <p>This profile is temporarily unavailable.</p>
+{% endif %}
+          </section>
+        </div>
+      </article>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>

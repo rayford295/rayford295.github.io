@@ -1,5 +1,6 @@
 ---
 permalink: /about/
+layout: profile
 title: "Yifan Yang"
 excerpt: ""
 author_profile: true
