@@ -15,11 +15,27 @@ layout: compress
       }
 
       body.homepage-minimal {
+        position: relative;
+        isolation: isolate;
         min-height: 100svh;
         color: #14283d;
         background:
           linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.18) 100%),
-          url("/images/homepage-geoai-wallpaper-football.png") center / cover no-repeat fixed;
+          url("/images/homepage-geoai-wallpaper-ai-reading.png") center / cover no-repeat fixed;
+      }
+
+      body.homepage-minimal::before {
+        position: fixed;
+        z-index: 0;
+        inset: -14%;
+        background:
+          radial-gradient(ellipse at 18% 72%, rgba(187, 222, 235, 0.22), transparent 35%),
+          radial-gradient(ellipse at 78% 23%, rgba(235, 215, 177, 0.18), transparent 34%);
+        content: "";
+        opacity: 0.72;
+        pointer-events: none;
+        transform: translate3d(-1%, 0.8%, 0) scale(1.02);
+        animation: homepage-aura-drift 18s ease-in-out infinite alternate;
       }
 
       .homepage-minimal .masthead {
@@ -61,6 +77,8 @@ layout: compress
       }
 
       .homepage-minimal__main {
+        position: relative;
+        z-index: 1;
         display: grid;
         min-height: 100svh;
         place-items: center;
@@ -116,6 +134,23 @@ layout: compress
         border-color: rgba(18, 117, 145, 0.6);
         background: rgba(222, 244, 246, 0.85);
         color: #123e5a;
+      }
+
+      @keyframes homepage-aura-drift {
+        from {
+          transform: translate3d(-1%, 0.8%, 0) scale(1.02);
+        }
+
+        to {
+          transform: translate3d(1.4%, -1%, 0) scale(1.06);
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        body.homepage-minimal::before {
+          animation: none;
+          transform: none;
+        }
       }
 
       @media (max-width: 640px) {
