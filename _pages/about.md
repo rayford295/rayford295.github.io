@@ -516,9 +516,42 @@ redirect_from:
         flex-basis: 96px;
       }
     }
+
+    .homepage-profile-cta {
+      margin: 0 0 2rem;
+      padding: 1.1rem 1.25rem;
+      border: 1px solid #d7e4f1;
+      border-radius: 0.75rem;
+      background: #f8fbff;
+      text-align: center;
+    }
+
+    .homepage-profile-cta p {
+      margin: 0 0 0.75rem;
+      color: #4b5563;
+    }
+
+    .homepage-profile-cta__button {
+      display: inline-block;
+      padding: 0.55rem 1rem;
+      border-radius: 999px;
+      background: #1d5fa7;
+      color: #fff !important;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .homepage-profile-cta__button:hover {
+      background: #174f8b;
+      color: #fff !important;
+    }
   </style>
 </head>
 
+<div class="homepage-profile-cta">
+  <p>Looking for my complete profile?</p>
+  <a class="homepage-profile-cta__button" href="/about/">View Full About Page →</a>
+</div>
 
 <section id="about-me">
   <h2>🗨 About Me</h2>

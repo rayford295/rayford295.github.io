@@ -28,7 +28,7 @@ layout: compress
   {% assign base_style = style_blocks[1] | split: '</style>' | first %}
   <style>{{ base_style }}</style>
 
-  {% if page.section_id == "partial-honors" %}
+  {% if page.section_id == "partial-honors" or page.full_profile %}
     {% assign honors_style = style_blocks[2] | split: '</style>' | first %}
     <style>{{ honors_style }}</style>
   {% endif %}
@@ -43,20 +43,26 @@ layout: compress
     }
   </style>
 
-  {% if page.section_start %}
-    {% assign section_start = page.section_start %}
+  {% if page.full_profile %}
+    {% assign section_start = '<section id="about-me">' %}
+    {% assign section_body = homepage.content | split: section_start | last %}
+    {{ section_start }}{{ section_body }}
   {% else %}
-    {% assign section_start = '<section id="' | append: page.section_id | append: '">' %}
-  {% endif %}
-  {% assign after_start = homepage.content | split: section_start | last %}
-  {% if page.next_section_id %}
-    {% assign section_end = '<section id="' | append: page.next_section_id | append: '">' %}
-    {% assign section_body = after_start | split: section_end | first %}
-  {% else %}
-    {% assign section_body = after_start %}
-  {% endif %}
+    {% if page.section_start %}
+      {% assign section_start = page.section_start %}
+    {% else %}
+      {% assign section_start = '<section id="' | append: page.section_id | append: '">' %}
+    {% endif %}
+    {% assign after_start = homepage.content | split: section_start | last %}
+    {% if page.next_section_id %}
+      {% assign section_end = '<section id="' | append: page.next_section_id | append: '">' %}
+      {% assign section_body = after_start | split: section_end | first %}
+    {% else %}
+      {% assign section_body = after_start %}
+    {% endif %}
 
-  {{ section_start }}{{ section_body }}
+    {{ section_start }}{{ section_body }}
+  {% endif %}
 {% else %}
   <p>This section is temporarily unavailable.</p>
 {% endif %}
