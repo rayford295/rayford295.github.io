@@ -8,11 +8,201 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
     <base href="{{ '/' | absolute_url }}">
+    <style>
+      .homepage-hero {
+        position: relative;
+        isolation: isolate;
+        display: grid;
+        min-height: clamp(25rem, 54vh, 33rem);
+        overflow: hidden;
+        place-items: center;
+        padding: 5.5rem 1.5rem;
+        color: #e7edf9;
+        background:
+          radial-gradient(circle at 18% 22%, rgba(18, 198, 228, 0.2), transparent 28rem),
+          radial-gradient(circle at 82% 75%, rgba(119, 72, 255, 0.24), transparent 30rem),
+          linear-gradient(135deg, #070c1b 0%, #0a1021 50%, #090c19 100%);
+      }
+
+      .homepage-hero::before,
+      .homepage-hero::after {
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        content: "";
+        pointer-events: none;
+      }
+
+      .homepage-hero::before {
+        opacity: 0.3;
+        background-image:
+          linear-gradient(rgba(129, 158, 197, 0.13) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(129, 158, 197, 0.13) 1px, transparent 1px);
+        background-size: 4.6rem 4.6rem;
+        -webkit-mask-image: radial-gradient(ellipse at center, #000 0%, transparent 74%);
+        mask-image: radial-gradient(ellipse at center, #000 0%, transparent 74%);
+      }
+
+      .homepage-hero::after {
+        opacity: 0.75;
+        background-image:
+          radial-gradient(circle at 8% 18%, #d9f7ff 0 1px, transparent 1.5px),
+          radial-gradient(circle at 16% 71%, #9bc6ff 0 1px, transparent 1.5px),
+          radial-gradient(circle at 31% 37%, #d9f7ff 0 1px, transparent 1.5px),
+          radial-gradient(circle at 56% 18%, #b9b2ff 0 1px, transparent 1.5px),
+          radial-gradient(circle at 68% 68%, #d9f7ff 0 1px, transparent 1.5px),
+          radial-gradient(circle at 89% 28%, #93ecff 0 1px, transparent 1.5px),
+          radial-gradient(circle at 94% 82%, #b9b2ff 0 1px, transparent 1.5px);
+      }
+
+      .homepage-hero__content {
+        width: min(100%, 58rem);
+        text-align: center;
+      }
+
+      .homepage-hero__eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        margin-bottom: 1.35rem;
+        padding: 0.42rem 0.82rem;
+        border: 1px solid rgba(78, 215, 255, 0.38);
+        border-radius: 999px;
+        background: rgba(5, 15, 35, 0.55);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+        color: #7fe9ff;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .homepage-hero__eyebrow::before {
+        width: 0.45rem;
+        height: 0.45rem;
+        border-radius: 50%;
+        background: #4cf5ba;
+        box-shadow: 0 0 0.8rem #4cf5ba;
+        content: "";
+      }
+
+      .homepage-hero h1 {
+        margin: 0;
+        color: #f3f6fe;
+        font-size: clamp(2.65rem, 6vw, 5.5rem);
+        font-weight: 800;
+        letter-spacing: -0.055em;
+        line-height: 0.95;
+      }
+
+      .homepage-hero h1 span {
+        display: block;
+        margin-top: 0.16em;
+        background: linear-gradient(100deg, #22c8ff 0%, #6280ff 44%, #a655ff 74%, #41d8e7 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 0.76em;
+      }
+
+      .homepage-hero__lede {
+        max-width: 43rem;
+        margin: 1.45rem auto 0;
+        color: #aebfd8;
+        font-size: clamp(1rem, 2vw, 1.18rem);
+        line-height: 1.65;
+      }
+
+      .homepage-hero__actions,
+      .homepage-hero__tags {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.7rem;
+      }
+
+      .homepage-hero__actions {
+        margin-top: 1.8rem;
+      }
+
+      .homepage-hero__button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 9.7rem;
+        padding: 0.68rem 1rem;
+        border: 1px solid rgba(174, 192, 222, 0.22);
+        border-radius: 0.55rem;
+        background: rgba(255, 255, 255, 0.045);
+        color: #eef4ff !important;
+        font-size: 0.92rem;
+        font-weight: 700;
+        text-decoration: none !important;
+        transition: transform 150ms ease, border-color 150ms ease, background 150ms ease;
+      }
+
+      .homepage-hero__button:hover {
+        transform: translateY(-2px);
+        border-color: rgba(127, 233, 255, 0.75);
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .homepage-hero__button--primary {
+        border-color: transparent;
+        background: linear-gradient(100deg, #08b8ec, #5269f2 55%, #8245e9);
+        box-shadow: 0 0.65rem 1.8rem rgba(46, 109, 240, 0.34);
+      }
+
+      .homepage-hero__tags {
+        margin-top: 1.45rem;
+      }
+
+      .homepage-hero__tags span {
+        padding: 0.25rem 0.6rem;
+        border: 1px solid rgba(160, 189, 228, 0.2);
+        border-radius: 999px;
+        color: #b7c8e4;
+        font-size: 0.78rem;
+      }
+
+      @media (max-width: 640px) {
+        .homepage-hero {
+          min-height: 29rem;
+          padding: 4rem 1.15rem;
+        }
+
+        .homepage-hero__actions {
+          flex-direction: column;
+          align-items: stretch;
+          max-width: 18rem;
+          margin-right: auto;
+          margin-left: auto;
+        }
+      }
+    </style>
   </head>
 
   <body>
     {% include browser-upgrade.html %}
     {% include masthead.html %}
+
+    <section class="homepage-hero" aria-labelledby="homepage-hero-title">
+      <div class="homepage-hero__content">
+        <p class="homepage-hero__eyebrow">Ph.D. Researcher · Texas A&amp;M University</p>
+        <h1 id="homepage-hero-title">Yifan Yang<span>Responsible &amp; Autonomous GeoAI</span></h1>
+        <p class="homepage-hero__lede">Building explainable spatial reasoning systems for incomplete, changing, and real-world observations.</p>
+        <div class="homepage-hero__actions" aria-label="Homepage shortcuts">
+          <a class="homepage-hero__button homepage-hero__button--primary" href="#homepage-featured">Latest Work</a>
+          <a class="homepage-hero__button" href="/publications/">Publications</a>
+          <a class="homepage-hero__button" href="/resume/Yifan_Yang_CV.pdf">Curriculum Vitae</a>
+        </div>
+        <div class="homepage-hero__tags" aria-label="Research areas">
+          <span>Explainable Spatial Reasoning</span>
+          <span>AI4Science</span>
+          <span>Disaster Resilience</span>
+        </div>
+      </div>
+    </section>
 
     <div id="main" role="main">
       {% include sidebar.html %}
@@ -98,7 +288,7 @@ layout: compress
   {% assign about_body = after_about_start | split: news_start | first %}
   {{ about_start }}{{ about_body }}
 
-  <section class="homepage-featured" aria-labelledby="homepage-featured-title">
+  <section id="homepage-featured" class="homepage-featured" aria-labelledby="homepage-featured-title">
     <h2 id="homepage-featured-title">📌 Featured Now</h2>
     <h3><a href="https://cartogis.org/conferences/cagis2026/program/" target="_blank" rel="noopener">RAPIDMap: Rapid multi-Agent Pipeline for Interpretable Disaster Mapping</a></h3>
     <p>Scheduled for presentation at CaGIS 2026 on September 8, 2026, in the GeoAI, Disaster Mapping, and Hydrography session.</p>
