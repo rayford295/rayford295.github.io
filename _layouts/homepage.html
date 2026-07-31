@@ -1,0 +1,102 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <base href="{{ '/' | absolute_url }}">
+  </head>
+
+  <body>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div id="main" role="main">
+      {% include sidebar.html %}
+
+      <article class="page section-page" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        <div class="page__inner-wrap">
+          <section class="page__content" itemprop="text">
+
+{% assign profile_page = site.pages | where: "url", "/about/" | first %}
+{% if profile_page %}
+  {% assign style_blocks = profile_page.content | split: '<style>' %}
+  {% assign base_style = style_blocks[1] | split: '</style>' | first %}
+  <style>{{ base_style }}</style>
+  <style>
+    .homepage-connect {
+      margin: 2.25rem 0 0;
+      padding: 1.4rem 1.55rem;
+      border: 1px solid #d7e4f1;
+      border-radius: 0.85rem;
+      background: linear-gradient(135deg, #f8fbff, #f3fbf8);
+    }
+
+    .homepage-connect h2 {
+      margin-top: 0;
+    }
+
+    .homepage-connect p {
+      margin-bottom: 0.75rem;
+    }
+
+    .homepage-connect__wechat {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      padding: 0.55rem 0.8rem;
+      border-radius: 0.55rem;
+      background: #fff;
+      box-shadow: 0 1px 4px rgba(31, 41, 55, 0.08);
+      color: #1f2937;
+      font-weight: 700;
+    }
+
+    .homepage-connect__wechat code {
+      color: #137a43;
+      font-family: inherit;
+      font-size: 1rem;
+    }
+
+    .homepage-connect__note {
+      margin: 0.8rem 0 0 !important;
+      color: #5b6470;
+      font-size: 0.92rem;
+    }
+  </style>
+
+  {% assign about_start = '<section id="about-me">' %}
+  {% assign after_about_start = profile_page.content | split: about_start | last %}
+  {% assign news_start = '<section id="news">' %}
+  {% assign about_body = after_about_start | split: news_start | first %}
+  {{ about_start }}{{ about_body }}
+
+  {% assign after_news_start = profile_page.content | split: news_start | last %}
+  {% assign news_end = '<section id="educations">' %}
+  {% assign news_body = after_news_start | split: news_end | first %}
+  {{ news_start }}{{ news_body }}
+
+  <section class="homepage-connect" aria-labelledby="homepage-connect-title">
+    <h2 id="homepage-connect-title">🤝 Let’s Connect</h2>
+    <p>欢迎交流。Whether you would like to discuss Responsible GeoAI, research collaboration, or simply exchange ideas, I would be glad to hear from you.</p>
+    <div class="homepage-connect__wechat" aria-label="WeChat ID">
+      <span>💬 WeChat</span>
+      <code>yf8386626967</code>
+    </div>
+    <p class="homepage-connect__note">Feel free to add me on WeChat and say hello.</p>
+  </section>
+{% else %}
+  <p>This profile is temporarily unavailable.</p>
+{% endif %}
+          </section>
+        </div>
+      </article>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>
