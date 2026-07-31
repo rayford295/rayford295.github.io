@@ -199,6 +199,104 @@ layout: compress
         background: linear-gradient(90deg, rgba(202, 162, 91, 0.56), transparent);
       }
 
+      .homepage-minimal__world-clocks {
+        position: absolute;
+        top: clamp(16.25rem, 23.5vh, 19rem);
+        left: 50%;
+        display: grid;
+        grid-template-columns: repeat(5, minmax(4.8rem, 1fr));
+        width: min(calc(100% - 3rem), 42rem);
+        gap: clamp(0.55rem, 1.7vw, 1.4rem);
+        transform: translateX(-50%);
+      }
+
+      .homepage-minimal__world-clock {
+        min-width: 0;
+        text-align: center;
+      }
+
+      .homepage-minimal__world-clock-city {
+        min-height: 1.5em;
+        margin: 0 0 0.4rem;
+        color: #426278;
+        font-size: clamp(0.56rem, 0.9vw, 0.67rem);
+        font-weight: 700;
+        letter-spacing: 0.075em;
+        line-height: 1.25;
+        text-transform: uppercase;
+      }
+
+      .homepage-minimal__world-clock-face {
+        position: relative;
+        width: clamp(3.65rem, 5.2vw, 4.55rem);
+        aspect-ratio: 1;
+        margin: 0 auto;
+        border: 1px solid rgba(35, 71, 98, 0.48);
+        border-radius: 50%;
+        background: repeating-conic-gradient(from -2deg, rgba(34, 73, 101, 0.54) 0deg 1.2deg, transparent 1.2deg 6deg);
+        box-shadow: 0 0.45rem 1rem rgba(43, 73, 99, 0.12), inset 0 0 0 0.18rem rgba(255, 255, 255, 0.76);
+      }
+
+      .homepage-minimal__world-clock-face::before {
+        position: absolute;
+        inset: 0.25rem;
+        border-radius: inherit;
+        background: rgba(255, 255, 255, 0.64);
+        content: "";
+      }
+
+      .homepage-minimal__world-clock-face::after {
+        position: absolute;
+        z-index: 3;
+        top: 50%;
+        left: 50%;
+        width: 0.34rem;
+        height: 0.34rem;
+        border-radius: 50%;
+        background: #1e4f6d;
+        box-shadow: 0 0 0 0.13rem rgba(255, 255, 255, 0.8);
+        content: "";
+        transform: translate(-50%, -50%);
+      }
+
+      .homepage-minimal__world-clock-hand {
+        position: absolute;
+        z-index: 2;
+        bottom: 50%;
+        left: 50%;
+        border-radius: 999px 999px 0 0;
+        transform-origin: bottom center;
+      }
+
+      .homepage-minimal__world-clock-hand--hour {
+        width: 0.16rem;
+        height: 27%;
+        background: #1c3f5a;
+      }
+
+      .homepage-minimal__world-clock-hand--minute {
+        width: 0.12rem;
+        height: 36%;
+        background: #1c3f5a;
+      }
+
+      .homepage-minimal__world-clock-hand--second {
+        width: 1px;
+        height: 39%;
+        background: #c79b56;
+      }
+
+      .homepage-minimal__world-clock-digital {
+        display: block;
+        margin-top: 0.42rem;
+        color: #2d5874;
+        font-size: clamp(0.58rem, 0.95vw, 0.7rem);
+        font-variant-numeric: tabular-nums;
+        font-weight: 700;
+        letter-spacing: 0.025em;
+        line-height: 1.2;
+      }
+
       .homepage-minimal__panel {
         position: relative;
         overflow: hidden;
@@ -209,6 +307,7 @@ layout: compress
         background: linear-gradient(145deg, rgba(255, 255, 255, 0.78), rgba(252, 254, 255, 0.56));
         box-shadow: 0 1.2rem 4rem rgba(37, 56, 78, 0.14);
         text-align: center;
+        transform: translateY(clamp(4.5rem, 7vh, 6.5rem));
         backdrop-filter: blur(16px);
       }
 
@@ -378,8 +477,21 @@ layout: compress
           font-size: clamp(3rem, 14vw, 4.7rem);
         }
 
+        .homepage-minimal__world-clocks {
+          top: 15.75rem;
+          grid-template-columns: repeat(3, minmax(4.5rem, 1fr));
+          width: min(calc(100% - 2rem), 24rem);
+          gap: 0.95rem 0.65rem;
+        }
+
+        .homepage-minimal__world-clock-face {
+          width: clamp(3.45rem, 15vw, 4.1rem);
+        }
+
         .homepage-minimal__panel {
+          margin: 25rem auto 2rem;
           padding: 1.45rem 1.1rem;
+          transform: none;
         }
       }
     </style>
@@ -399,6 +511,53 @@ layout: compress
         <p class="homepage-minimal__time-location">College Station, Texas</p>
         <time id="homepage-clock" class="homepage-minimal__time-value" datetime="">--:--:--</time>
         <p id="homepage-clock-date" class="homepage-minimal__time-date">Central Time</p>
+      </section>
+      <section class="homepage-minimal__world-clocks" aria-label="World clocks">
+        <article class="homepage-minimal__world-clock" data-time-zone="Asia/Shanghai">
+          <p class="homepage-minimal__world-clock-city">Xi'an</p>
+          <div class="homepage-minimal__world-clock-face" aria-hidden="true">
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--hour"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--minute"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--second"></span>
+          </div>
+          <time class="homepage-minimal__world-clock-digital" datetime="">--:--</time>
+        </article>
+        <article class="homepage-minimal__world-clock" data-time-zone="America/Los_Angeles">
+          <p class="homepage-minimal__world-clock-city">Los Angeles</p>
+          <div class="homepage-minimal__world-clock-face" aria-hidden="true">
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--hour"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--minute"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--second"></span>
+          </div>
+          <time class="homepage-minimal__world-clock-digital" datetime="">--:--</time>
+        </article>
+        <article class="homepage-minimal__world-clock" data-time-zone="Europe/Helsinki">
+          <p class="homepage-minimal__world-clock-city">Helsinki, Finland</p>
+          <div class="homepage-minimal__world-clock-face" aria-hidden="true">
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--hour"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--minute"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--second"></span>
+          </div>
+          <time class="homepage-minimal__world-clock-digital" datetime="">--:--</time>
+        </article>
+        <article class="homepage-minimal__world-clock" data-time-zone="America/Chicago">
+          <p class="homepage-minimal__world-clock-city">Texas, USA</p>
+          <div class="homepage-minimal__world-clock-face" aria-hidden="true">
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--hour"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--minute"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--second"></span>
+          </div>
+          <time class="homepage-minimal__world-clock-digital" datetime="">--:--</time>
+        </article>
+        <article class="homepage-minimal__world-clock" data-time-zone="America/New_York">
+          <p class="homepage-minimal__world-clock-city">New York</p>
+          <div class="homepage-minimal__world-clock-face" aria-hidden="true">
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--hour"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--minute"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--second"></span>
+          </div>
+          <time class="homepage-minimal__world-clock-digital" datetime="">--:--</time>
+        </article>
       </section>
       <section class="homepage-minimal__panel">
         <p class="homepage-minimal__site-title">
@@ -430,7 +589,38 @@ layout: compress
       (function () {
         var clock = document.getElementById("homepage-clock");
         var date = document.getElementById("homepage-clock-date");
+        var worldClocks = document.querySelectorAll(".homepage-minimal__world-clock");
         var timeZone = "America/Chicago";
+
+        function partValue(parts, type) {
+          return Number(parts.find(function (part) {
+            return part.type === type;
+          }).value);
+        }
+
+        function updateWorldClock(worldClock, now) {
+          var worldTimeZone = worldClock.getAttribute("data-time-zone");
+          var parts = new Intl.DateTimeFormat("en-US", {
+            timeZone: worldTimeZone,
+            hour: "numeric",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: true
+          }).formatToParts(now);
+          var hour = partValue(parts, "hour") % 12;
+          var minute = partValue(parts, "minute");
+          var second = partValue(parts, "second");
+
+          worldClock.querySelector(".homepage-minimal__world-clock-hand--hour").style.transform = "rotate(" + (hour * 30 + minute * 0.5) + "deg)";
+          worldClock.querySelector(".homepage-minimal__world-clock-hand--minute").style.transform = "rotate(" + (minute * 6 + second * 0.1) + "deg)";
+          worldClock.querySelector(".homepage-minimal__world-clock-hand--second").style.transform = "rotate(" + (second * 6) + "deg)";
+          worldClock.querySelector(".homepage-minimal__world-clock-digital").textContent = new Intl.DateTimeFormat("en-US", {
+            timeZone: worldTimeZone,
+            hour: "numeric",
+            minute: "2-digit",
+            hour12: true
+          }).format(now);
+        }
 
         function updateClock() {
           var now = new Date();
@@ -458,6 +648,9 @@ layout: compress
           clock.textContent = time;
           clock.dateTime = now.toISOString();
           date.textContent = day + " · " + zone;
+          Array.prototype.forEach.call(worldClocks, function (worldClock) {
+            updateWorldClock(worldClock, now);
+          });
         }
 
         updateClock();
