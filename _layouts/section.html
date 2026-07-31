@@ -17,7 +17,7 @@ layout: compress
     <div id="main" role="main">
       {% include sidebar.html %}
 
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+      <article class="page section-page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
@@ -32,6 +32,15 @@ layout: compress
     {% assign honors_style = style_blocks[2] | split: '</style>' | first %}
     <style>{{ honors_style }}</style>
   {% endif %}
+
+  <style>
+    .section-page #presentation .presentation-scroll,
+    .section-page #partial-honors .honors-scroll {
+      max-height: none;
+      overflow: visible;
+      padding-right: 0;
+    }
+  </style>
 
   {% assign section_start = '<section id="' | append: page.section_id | append: '">' %}
   {% assign after_start = homepage.content | split: section_start | last %}
