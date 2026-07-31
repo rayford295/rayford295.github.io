@@ -152,21 +152,51 @@ layout: compress
         text-transform: uppercase;
       }
 
+      .homepage-minimal__time-location::before {
+        display: inline-block;
+        width: 0.48rem;
+        height: 0.48rem;
+        margin: 0 0.5rem 0.06rem 0;
+        border-radius: 50%;
+        background: #77b6cb;
+        box-shadow: 0 0 0 0.24rem rgba(119, 182, 203, 0.14);
+        content: "";
+        animation: homepage-clock-pulse 2.4s ease-in-out infinite;
+      }
+
       .homepage-minimal__time-value {
         display: block;
-        margin: 0.24rem 0 0.2rem;
+        margin: 0.3rem 0 0.28rem;
+        background: linear-gradient(120deg, #102e49 10%, #1f5874 58%, #173b57 100%);
+        background-clip: text;
         color: #18344e;
-        font-size: clamp(3.1rem, 8vw, 6.6rem);
+        font-size: clamp(3.7rem, 9.8vw, 8.7rem);
         font-variant-numeric: tabular-nums;
-        font-weight: 650;
-        letter-spacing: -0.075em;
+        font-weight: 700;
+        letter-spacing: -0.082em;
         line-height: 0.98;
-        text-shadow: 0 0.5rem 1.8rem rgba(86, 117, 142, 0.12);
+        text-shadow: 0 0.7rem 2.2rem rgba(86, 117, 142, 0.16);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
 
       .homepage-minimal__time-date {
         color: #3f6780;
         letter-spacing: 0.1em;
+      }
+
+      .homepage-minimal__time-date::before,
+      .homepage-minimal__time-date::after {
+        display: inline-block;
+        width: clamp(1.5rem, 4vw, 3.5rem);
+        height: 1px;
+        margin: 0 0.7rem 0.22rem;
+        background: linear-gradient(90deg, transparent, rgba(72, 124, 150, 0.56));
+        content: "";
+      }
+
+      .homepage-minimal__time-date::after {
+        background: linear-gradient(90deg, rgba(202, 162, 91, 0.56), transparent);
       }
 
       .homepage-minimal__panel {
@@ -312,10 +342,16 @@ layout: compress
         99%, 100% { transform: translateY(-4.05em); }
       }
 
+      @keyframes homepage-clock-pulse {
+        0%, 100% { box-shadow: 0 0 0 0.24rem rgba(119, 182, 203, 0.14); }
+        50% { box-shadow: 0 0 0 0.42rem rgba(119, 182, 203, 0.05); }
+      }
+
       @media (prefers-reduced-motion: reduce) {
         body.homepage-minimal::before,
         .homepage-ribbon,
-        .homepage-minimal__title-cycle-words {
+        .homepage-minimal__title-cycle-words,
+        .homepage-minimal__time-location::before {
           animation: none;
         }
 
@@ -339,7 +375,7 @@ layout: compress
         }
 
         .homepage-minimal__time-value {
-          font-size: clamp(2.7rem, 13vw, 4rem);
+          font-size: clamp(3rem, 14vw, 4.7rem);
         }
 
         .homepage-minimal__panel {
