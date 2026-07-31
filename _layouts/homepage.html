@@ -410,6 +410,44 @@ layout: compress
         color: #123e5a;
       }
 
+      .homepage-minimal__contact {
+        position: absolute;
+        bottom: clamp(1.7rem, 5vh, 4rem);
+        left: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        width: min(calc(100% - 2rem), 42rem);
+        margin: 0;
+        color: #58718a;
+        font-size: clamp(0.68rem, 1.25vw, 0.78rem);
+        letter-spacing: 0.025em;
+        line-height: 1.45;
+        text-align: center;
+        transform: translateX(-50%);
+      }
+
+      .homepage-minimal__contact-label {
+        color: #2e607b;
+        font-weight: 700;
+      }
+
+      .homepage-minimal__contact a {
+        color: inherit;
+        text-decoration-color: rgba(46, 96, 123, 0.35);
+        text-underline-offset: 0.14em;
+      }
+
+      .homepage-minimal__contact a:hover,
+      .homepage-minimal__contact a:focus-visible {
+        color: #0b6e8a;
+      }
+
+      .homepage-minimal__contact-divider {
+        color: #b59a65;
+      }
+
       @keyframes homepage-aura-drift {
         from {
           transform: translate3d(-1%, 0.8%, 0) scale(1.02);
@@ -467,6 +505,7 @@ layout: compress
         }
 
         .homepage-minimal__main {
+          flex-direction: column;
           padding: 30rem 1rem 2rem;
         }
 
@@ -492,6 +531,13 @@ layout: compress
         .homepage-minimal__panel {
           margin: 0 auto 2rem;
           padding: 1.45rem 1.1rem;
+        }
+
+        .homepage-minimal__contact {
+          position: static;
+          margin: -0.8rem auto 1.5rem;
+          flex-wrap: wrap;
+          transform: none;
         }
       }
     </style>
@@ -585,6 +631,13 @@ layout: compress
           <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener">AutoGeoAI4Sci</a>
         </nav>
       </section>
+      <aside class="homepage-minimal__contact" aria-label="Contact information">
+        <span class="homepage-minimal__contact-label">Let’s connect</span>
+        <span class="homepage-minimal__contact-divider" aria-hidden="true">·</span>
+        <a href="mailto:yyf990925@gmail.com">yyf990925@gmail.com</a>
+        <span class="homepage-minimal__contact-divider" aria-hidden="true">·</span>
+        <span>WeChat: yf8386626967</span>
+      </aside>
     </main>
 
     <script>
