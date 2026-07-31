@@ -38,6 +38,52 @@ layout: compress
         animation: homepage-aura-drift 18s ease-in-out infinite alternate;
       }
 
+      .homepage-ribbons {
+        position: fixed;
+        z-index: 0;
+        inset: 0;
+        overflow: hidden;
+        pointer-events: none;
+      }
+
+      .homepage-ribbon {
+        position: absolute;
+        display: block;
+        height: 0.82rem;
+        border-radius: 999px;
+        opacity: 0.56;
+        will-change: transform;
+      }
+
+      .homepage-ribbon--blue {
+        bottom: 10vh;
+        left: -13rem;
+        width: min(58rem, 62vw);
+        background: linear-gradient(90deg, transparent, rgba(60, 118, 161, 0.5) 33%, rgba(109, 171, 197, 0.58) 57%, transparent);
+        transform: rotate(-17deg);
+        animation: homepage-ribbon-blue 24s ease-in-out infinite alternate;
+      }
+
+      .homepage-ribbon--gold {
+        top: 15vh;
+        right: -17rem;
+        width: min(49rem, 54vw);
+        height: 0.64rem;
+        background: linear-gradient(90deg, transparent, rgba(201, 159, 83, 0.5) 34%, rgba(232, 196, 125, 0.55) 57%, transparent);
+        transform: rotate(-31deg);
+        animation: homepage-ribbon-gold 28s ease-in-out infinite alternate;
+      }
+
+      .homepage-ribbon--cyan {
+        top: 23vh;
+        left: -19rem;
+        width: min(45rem, 52vw);
+        height: 0.58rem;
+        background: linear-gradient(90deg, transparent, rgba(111, 192, 208, 0.42) 38%, rgba(177, 224, 229, 0.48) 58%, transparent);
+        transform: rotate(21deg);
+        animation: homepage-ribbon-cyan 31s ease-in-out infinite alternate;
+      }
+
       .homepage-minimal .masthead {
         position: absolute;
         z-index: 10;
@@ -146,9 +192,28 @@ layout: compress
         }
       }
 
+      @keyframes homepage-ribbon-blue {
+        from { transform: rotate(-17deg) translate3d(-1.2rem, 0, 0); }
+        to { transform: rotate(-15deg) translate3d(2rem, -0.7rem, 0); }
+      }
+
+      @keyframes homepage-ribbon-gold {
+        from { transform: rotate(-31deg) translate3d(0, 0, 0); }
+        to { transform: rotate(-28deg) translate3d(-2.1rem, 0.8rem, 0); }
+      }
+
+      @keyframes homepage-ribbon-cyan {
+        from { transform: rotate(21deg) translate3d(0, 0, 0); }
+        to { transform: rotate(18deg) translate3d(1.4rem, 0.85rem, 0); }
+      }
+
       @media (prefers-reduced-motion: reduce) {
-        body.homepage-minimal::before {
+        body.homepage-minimal::before,
+        .homepage-ribbon {
           animation: none;
+        }
+
+        body.homepage-minimal::before {
           transform: none;
         }
       }
@@ -172,6 +237,11 @@ layout: compress
 
   <body class="homepage-minimal">
     {% include browser-upgrade.html %}
+    <div class="homepage-ribbons" aria-hidden="true">
+      <span class="homepage-ribbon homepage-ribbon--blue"></span>
+      <span class="homepage-ribbon homepage-ribbon--gold"></span>
+      <span class="homepage-ribbon homepage-ribbon--cyan"></span>
+    </div>
     {% include masthead.html %}
 
     <main class="homepage-minimal__main" aria-labelledby="homepage-title">
