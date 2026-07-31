@@ -125,10 +125,12 @@ layout: compress
       .homepage-minimal__main {
         position: relative;
         z-index: 1;
-        display: grid;
+        display: flex;
         min-height: 100svh;
-        place-items: center;
-        padding: 7.25rem 1.5rem 2.5rem;
+        box-sizing: border-box;
+        align-items: flex-start;
+        justify-content: center;
+        padding: clamp(30rem, 63vh, 39rem) 1.5rem 2.5rem;
       }
 
       .homepage-minimal__time-suite {
@@ -307,7 +309,6 @@ layout: compress
         background: linear-gradient(145deg, rgba(255, 255, 255, 0.78), rgba(252, 254, 255, 0.56));
         box-shadow: 0 1.2rem 4rem rgba(37, 56, 78, 0.14);
         text-align: center;
-        transform: translateY(clamp(1rem, 2.5vh, 2rem));
         backdrop-filter: blur(16px);
       }
 
@@ -466,7 +467,7 @@ layout: compress
         }
 
         .homepage-minimal__main {
-          padding-top: 6rem;
+          padding: 30rem 1rem 2rem;
         }
 
         .homepage-minimal__time-suite {
@@ -489,9 +490,8 @@ layout: compress
         }
 
         .homepage-minimal__panel {
-          margin: 25rem auto 2rem;
+          margin: 0 auto 2rem;
           padding: 1.45rem 1.1rem;
-          transform: none;
         }
       }
     </style>
