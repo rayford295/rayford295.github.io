@@ -34,12 +34,17 @@ layout: compress
   {% endif %}
 
   <style>
-    .section-page #news .news-container,
     .section-page #presentation .presentation-scroll,
     .section-page #partial-honors .honors-scroll {
       max-height: none;
       overflow: visible;
       padding-right: 0;
+    }
+    /* News page: show first 7 items, scroll for the rest (JS refines the exact height) */
+    .section-page #news .news-container {
+      max-height: 560px;
+      overflow-y: auto;
+      padding-right: 6px;
     }
   </style>
 
@@ -72,5 +77,26 @@ layout: compress
     </div>
 
     {% include scripts.html %}
+    <script>
+      /* News page: cap the list at exactly 7 visible items; the rest scroll */
+      document.addEventListener('DOMContentLoaded', function () {
+        var container = document.querySelector('.section-page #news .news-container');
+        if (!container) return;
+        var items = container.querySelectorAll('.news-item');
+        var VISIBLE = 7;
+        function capHeight() {
+          if (items.length <= VISIBLE) {
+            container.style.maxHeight = 'none';
+            container.style.overflowY = 'visible';
+            return;
+          }
+          var last = items[VISIBLE - 1];
+          var height = last.offsetTop + last.offsetHeight - items[0].offsetTop;
+          container.style.maxHeight = height + 'px';
+        }
+        capHeight();
+        window.addEventListener('resize', capHeight);
+      });
+    </script>
   </body>
 </html>
