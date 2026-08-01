@@ -46,6 +46,33 @@ layout: compress
       overflow-y: auto;
       padding-right: 6px;
     }
+    /* Teaching / Industry / Media standalone pages: roomier layout */
+    .section-page #teaching h2,
+    .section-page #industry-engagement h2,
+    .section-page #media-coverage h2 {
+      margin-bottom: 1.2em;
+    }
+    .section-page #teaching .item {
+      margin-bottom: 1.8em;
+    }
+    .section-page #teaching .item .text {
+      line-height: 1.8;
+    }
+    .section-page #industry-engagement > ul,
+    .section-page #media-coverage > ul {
+      margin-top: 0.5em;
+    }
+    .section-page #industry-engagement > ul > li,
+    .section-page #media-coverage > ul > li {
+      margin-bottom: 2em;
+      line-height: 1.8;
+    }
+    .section-page #industry-engagement li p,
+    .section-page #media-coverage li p {
+      margin-top: 0.5em;
+      margin-bottom: 0;
+      line-height: 1.8;
+    }
   </style>
 
   {% if page.full_profile %}
