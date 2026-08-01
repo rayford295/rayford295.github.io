@@ -386,7 +386,8 @@ layout: compress
         margin-top: 1.18rem;
       }
 
-      .homepage-minimal__links a {
+      .homepage-minimal__links a,
+      .homepage-minimal__updated-btn {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -402,12 +403,33 @@ layout: compress
         transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
       }
 
+      .homepage-minimal__updated-btn {
+        font-family: inherit;
+        cursor: pointer;
+      }
+
       .homepage-minimal__links a:hover,
-      .homepage-minimal__links a:focus-visible {
+      .homepage-minimal__links a:focus-visible,
+      .homepage-minimal__updated-btn:hover,
+      .homepage-minimal__updated-btn:focus-visible {
         transform: translateY(-1px);
         border-color: rgba(18, 117, 145, 0.6);
         background: rgba(222, 244, 246, 0.85);
         color: #123e5a;
+      }
+
+      .homepage-minimal__updated {
+        margin: 0.85rem 0 0;
+        color: #58718a;
+        font-size: 0.82rem;
+        letter-spacing: 0.02em;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 420ms ease;
+      }
+
+      .homepage-minimal__updated.is-visible {
+        opacity: 1;
       }
 
       .homepage-minimal__contact {
@@ -629,7 +651,10 @@ layout: compress
           <a href="/resume/Yifan_Yang_CV.pdf">Curriculum Vitae</a>
           <a href="https://github.com/rayford295" target="_blank" rel="noopener">GitHub</a>
           <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener">AutoGeoAI4Sci</a>
+          <button type="button" id="homepage-updated-btn" class="homepage-minimal__updated-btn"
+                  aria-expanded="false" aria-controls="homepage-updated">💫 Last Updated</button>
         </nav>
+        <p id="homepage-updated" class="homepage-minimal__updated" data-updated="{{ site.time | date_to_xmlschema }}" hidden></p>
       </section>
       <aside class="homepage-minimal__contact" aria-label="Contact information">
         <span class="homepage-minimal__contact-label">Let’s connect</span>
@@ -710,6 +735,42 @@ layout: compress
 
         updateClock();
         window.setInterval(updateClock, 1000);
+      }());
+    </script>
+
+    <script>
+      (function () {
+        var btn = document.getElementById("homepage-updated-btn");
+        var line = document.getElementById("homepage-updated");
+        if (!btn || !line) return;
+
+        var updated = new Date(line.getAttribute("data-updated"));
+        var formatted = new Intl.DateTimeFormat("en-US", {
+          timeZone: "America/Chicago",
+          year: "numeric",
+          month: "short",
+          day: "numeric",
+          hour: "numeric",
+          minute: "2-digit",
+          hour12: true,
+          timeZoneName: "short"
+        }).format(updated);
+
+        btn.addEventListener("click", function () {
+          var showing = btn.getAttribute("aria-expanded") === "true";
+          if (showing) {
+            line.classList.remove("is-visible");
+            btn.setAttribute("aria-expanded", "false");
+            window.setTimeout(function () { line.hidden = true; }, 420);
+          } else {
+            line.textContent = "Site last updated on " + formatted;
+            line.hidden = false;
+            window.requestAnimationFrame(function () {
+              line.classList.add("is-visible");
+            });
+            btn.setAttribute("aria-expanded", "true");
+          }
+        });
       }());
     </script>
 
