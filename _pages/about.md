@@ -656,7 +656,7 @@ redirect_from:
   <div class="news-date">May 2026</div>
   <div class="news-text">
     The <strong>IGARSS 2026</strong> technical program scheduled our paper
-    <a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585" target="_blank" rel="noopener">
+    <a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585&amp;SessionID=1704" target="_blank" rel="noopener">
       <strong>“Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models”</strong>
     </a>
     as <strong>Paper TH3.R6.4</strong> in Session <strong>TH3.R6</strong>,
@@ -1178,7 +1178,7 @@ redirect_from:
               <em>Leveraging AI, LLMs, and Geospatial Technologies for Rapid and Explainable Post-Disaster Damage Intelligence</em> —
               <strong>Yifan Yang, Lei Zou, and Wendy Jepson</strong>:
               Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
-              (<a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585" target="_blank" rel="noopener">Paper TH3.R6.4</a>).
+              (<a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585&amp;SessionID=1704" target="_blank" rel="noopener">Paper TH3.R6.4</a>).
             </li>
           </ul>
         </li>
