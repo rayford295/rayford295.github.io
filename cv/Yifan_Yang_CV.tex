@@ -1,0 +1,396 @@
+%==============================================================
+%  Yifan Yang — Academic Curriculum Vitae
+%  Overleaf-ready.  Compile with pdfLaTeX (or XeLaTeX).
+%  Style: classic academic (serif, ruled section headings)
+%==============================================================
+\documentclass[10pt,letterpaper]{article}
+
+%---------------- Page geometry -------------------------------
+\usepackage[left=0.75in,right=0.75in,top=0.70in,bottom=0.70in,footskip=0.3in]{geometry}
+
+%---------------- Encoding & fonts ----------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{charter}          % Bitstream Charter: clean academic serif
+\usepackage{textcomp}
+\usepackage{microtype}
+
+%---------------- Layout packages -----------------------------
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+%---------------- Colours -------------------------------------
+\definecolor{accent}{HTML}{500000}   % Texas A&M maroon
+\definecolor{rulegray}{HTML}{999999}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=accent,
+  urlcolor=accent,
+  citecolor=accent,
+  pdftitle={Yifan Yang -- Curriculum Vitae},
+  pdfauthor={Yifan Yang}
+}
+
+%---------------- Section formatting --------------------------
+\titleformat{\section}
+  {\normalfont\large\bfseries\color{accent}\scshape}
+  {}{0em}{}[\vspace{-0.15em}{\color{rulegray}\titlerule[0.7pt]}]
+\titlespacing*{\section}{0pt}{1.15em}{0.55em}
+
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries}
+  {}{0em}{}
+\titlespacing*{\subsection}{0pt}{0.75em}{0.25em}
+
+\titleformat{\subsubsection}[runin]
+  {\normalfont\normalsize\itshape}
+  {}{0em}{}[.]
+\titlespacing*{\subsubsection}{0pt}{0.5em}{0.4em}
+
+%---------------- Footer --------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\itshape Yifan Yang}
+\fancyfoot[R]{\footnotesize\thepage}
+
+%---------------- Helper macros -------------------------------
+% \entry{Title / Institution}{Right-hand info (dates)}
+\newcommand{\entry}[2]{%
+  \par\vspace{0.30em}\noindent\textbf{#1}\hfill{\small #2}\par}
+
+% \subentry{Role / degree}{Right-hand info (location)}
+\newcommand{\subentry}[2]{%
+  \par\nobreak\vspace{0.05em}\noindent #1\hfill{\small\itshape #2}\par}
+
+% Compact bullet list
+\newenvironment{tight}
+  {\begin{itemize}[leftmargin=1.25em,itemsep=0.10em,topsep=0.20em,parsep=0pt,label=\textbullet]}
+  {\end{itemize}}
+
+% Compact list with no bullet marker (for award / service lines)
+\newenvironment{plainlist}
+  {\begin{itemize}[leftmargin=1.1em,itemsep=0.10em,topsep=0.20em,parsep=0pt,label={}]}
+  {\end{itemize}}
+
+% Numbered-reference list where numbers are typed manually
+\newenvironment{reflist}
+  {\begin{list}{}{%
+     \setlength{\leftmargin}{1.7em}\setlength{\itemindent}{-1.7em}%
+     \setlength{\itemsep}{0.22em}\setlength{\parsep}{0pt}\setlength{\topsep}{0.25em}}}
+  {\end{list}}
+
+\newcommand{\award}[1]{\textbf{\textit{#1}}}
+\newcommand{\dt}[1]{\textbf{#1}\hspace{0.6em}}
+
+\setlength{\parindent}{0pt}
+\raggedright
+
+%==============================================================
+\begin{document}
+%==============================================================
+
+%---------------- Header --------------------------------------
+\begin{center}
+  {\LARGE\bfseries\scshape Yifan Yang}\\[0.45em]
+  {\small
+   College Station, TX \,$\cdot$\,
+   \href{mailto:yyf990925@gmail.com}{yyf990925@gmail.com} \,$\cdot$\,
+   (213)\,590-8972 \,$\cdot$\,
+   \href{https://rayford295.github.io/}{rayford295.github.io} \,$\cdot$\,
+   \href{https://scholar.google.com/citations?user=B-fiSHwAAAAJ}{Google Scholar}}
+\end{center}
+\vspace{0.35em}
+
+%==============================================================
+\section{Education}
+%==============================================================
+
+\entry{Texas A\&M University}{2024 -- present}
+\subentry{Ph.D. Student, Geography (GIScience) \, --- \, GPA 3.80/4}{College Station, TX, USA}
+\subentry{Advisor: Dr.~Lei Zou}{}
+
+\entry{University of Southern California}{2022 -- 2024}
+\subentry{Master of Science, Spatial Data Science \, --- \, GPA 3.96/4}{Los Angeles, CA, USA}
+\subentry{Advisors: Dr.~John P. Wilson and Dr.~Siqin Wang}{}
+
+\entry{Hainan University}{2018 -- 2022}
+\subentry{Bachelor of Engineering, Software Engineering \, --- \, Average score 87.4/100}{Haikou, China}
+\subentry{Advisors: Dr.~Jieren Cheng and Dr.~Qi Qi}{}
+
+%==============================================================
+\section{Research Interests}
+%==============================================================
+
+Geographic Information Science (GIScience) \,$\cdot$\, Geospatial Artificial Intelligence (GeoAI) \,$\cdot$\, Cartography \,$\cdot$\, Spatial Data Science \,$\cdot$\, Autonomous GeoAI \,$\cdot$\, Generative AI \,$\cdot$\, Multimodal AI \,$\cdot$\, Disaster Resilience
+
+\vspace{0.5em}
+\textit{Vision:} To transcend the boundaries of screens and make the real world our playground of intelligence --- where AI, space, and humanity coexist and co-create.
+
+%==============================================================
+\section{Current Projects}
+%==============================================================
+
+\entry{Sat2Street-DisasterGen --- Satellite-to-Street View Synthesis for Post-Disaster Assessment}{\href{https://github.com/rayford295/Sat2Street-DisasterGen}{GitHub}}
+\vspace{0.15em}
+Developed a multimodal generative framework for satellite-to-street view synthesis under post-disaster scenarios. The system benchmarks cross-view image generation strategies that integrate diffusion models, ControlNet, and VLM-guided semantic conditioning to synthesize realistic street-view imagery from post-disaster satellite imagery.
+\begin{tight}
+  \item Designed a unified evaluation framework ensuring consistent satellite inputs, data splits, and protocols across generative methods
+  \item Implemented multiple cross-view generation pipelines, including Pix2Pix (cGAN), SD1.5 + ControlNet, VLM-guided synthesis, and Disaster-MoE (Mixture-of-Experts)
+  \item Built a multi-stage LoRA training pipeline for damage-severity-aware generation (Mild / Moderate / Severe)
+  \item Evaluated outputs using pixel-level metrics (FID, SSIM, LPIPS), semantic consistency (ResNet-based classification), and VLM perceptual scoring
+  \item Developed reproducible dataset structure, inference scripts, and evaluation modules for controlled benchmarking
+\end{tight}
+
+\entry{RAPID --- A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery}{\href{https://github.com/rayford295/RAPID}{GitHub}}
+\vspace{0.15em}
+Developed an autonomous multi-agent GeoAI framework for hyperlocal, interpretable, and near--real-time disaster damage assessment. The system orchestrates multiple specialized agents leveraging vision--language foundation models to perform cross-view perception, damage recognition, reasoning, and automated report generation without task-specific retraining.
+\begin{tight}
+  \item Designed a modular multi-agent architecture, including Disaster Perception, Image Restoration, Damage Recognition, and Disaster Reasoning agents
+  \item Integrated multimodal inputs: satellite imagery, street-view imagery, textual cues, and temporal change signals
+  \item Implemented agent-based orchestration for zero-/few-shot disaster analysis using VLMs (e.g., GPT, Gemini)
+  \item Enabled cross-view semantic alignment and causal reasoning for damage assessment and recovery recommendation
+  \item Built an interpretable evaluation and reporting pipeline for structured disaster intelligence outputs
+\end{tight}
+
+\entry{DamageArbiter --- CLIP-Enhanced Multimodal Framework for Hurricane Damage Assessment}{\href{https://github.com/rayford295/DamageArbiter}{GitHub}}
+\vspace{0.15em}
+Developed a CLIP-enhanced multimodal arbitration framework for hyperlocal hurricane damage assessment using bi-temporal street-view imagery. The system integrates vision-language models (e.g., CLIP) with deep vision backbones (e.g., ViT-B/16) to improve the robustness of damage classification under real-world post-disaster uncertainty.
+\begin{tight}
+  \item Designed a multimodal arbitration mechanism to reconcile conflicting visual and semantic signals
+  \item Implemented image classification pipelines using ViT-B/16 and transformer-based architectures
+  \item Evaluated performance on hurricane street-view datasets with precision, recall, F1, and cross-validation
+  \item Built a reproducible codebase, including dataset structure, model training scripts, and figure generation
+\end{tight}
+
+\entry{BiTemporal-StreetView --- Hyperlocal Disaster Assessment via Bi-Temporal Street-View Imagery}{\href{https://github.com/rayford295/Bi-Temporal-StreetView}{GitHub}}
+\vspace{0.15em}
+Developed a bi-temporal street-view image analysis framework for hyperlocal disaster damage assessment using pre- and post-disaster imagery. The system employs dual-channel architectures with pre-trained vision backbones (Swin Transformer, ConvNeXt) to improve classification accuracy and the interpretability of damage-severity estimation.
+\begin{tight}
+  \item Designed a dual-channel fusion architecture for comparative reasoning between pre- and post-disaster imagery
+  \item Constructed a dataset of 2,249 labeled street-view image pairs with fine-grained severity annotations
+  \item Achieved performance improvement from 66.14\% (post-only) to 77.11\% (bi-temporal) classification accuracy
+  \item Applied Grad-CAM visualization to demonstrate enhanced spatial attention using pre-disaster inputs
+  \item Evaluated multiple fusion strategies (cross-attention, weighted fusion, Siamese difference)
+  \item Enabled fine-grained damage mapping for climate-resilient urban planning
+\end{tight}
+\vspace{0.25em}
+\textit{Industry engagement:} The research is promoted by \textbf{Mosaic --- Geospatial Imaging Leaders} (Prague, Czech Republic), highlighting its relevance to 360\textdegree{} street-level surveying, urban mapping, and disaster-intelligence applications. \href{https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/}{[feature article]}
+
+%==============================================================
+\section{Professional Experience}
+%==============================================================
+
+\entry{Graduate Research Assistant, Texas A\&M University}{Aug 2024 -- Present, TX}
+\begin{tight}
+  \item Conduct research on GeoAI, multimodal disaster assessment, and spatial intelligence using remote sensing and street-view imagery.
+  \item Develop deep learning pipelines (CLIP, BLIP, ViT, ConvNeXt, Swin, LLM-based reasoning) for bi-temporal disaster perception and geospatial representation.
+  \item Build geospatial databases, run spatial analysis (PostGIS, ArcGIS Pro), and implement Python ML workflows for classification, localization, and explainability (Grad-CAM, semantic probing).
+\end{tight}
+
+\entry{Research Intern, Spatial Data Lab, Harvard University}{Mar 2025 -- Aug 2025, Remote}
+\begin{tight}
+  \item Conducted research on wildfire modeling and Autonomous GeoAI, focusing on Los Angeles wildfire dynamics using multimodal geospatial data (satellite imagery, fire perimeters, VIIRS/GOES data, and weather layers).
+  \item Developed RL- and POMDP-based frameworks to simulate wildfire spread and evaluate autonomous decision-making strategies for response, resource allocation, and risk-aware planning.
+\end{tight}
+
+\entry{Graduate Teaching Assistant, Texas A\&M University}{Aug 2024 -- Dec 2024, TX}
+\begin{tight}
+  \item Assisted in teaching Cartography (GEOG/GEOS course), including weekly labs, visualization exercises, and map design principles.
+  \item Guided students in applying GIScience concepts, cartographic design, spatial thinking, and geovisualization techniques using ArcGIS Pro and related tools.
+\end{tight}
+
+\entry{Student Worker (Graduate Research), University of Southern California}{Sept 2023 -- May 2024, CA}
+\begin{tight}
+  \item Conducted research on urban tree shade modeling to evaluate microclimate impacts and heat mitigation benefits across Los Angeles neighborhoods.
+  \item Built 3D urban environment models in ArcGIS Pro using building footprints, tree canopy data, LiDAR, and DSM/DEM layers.
+  \item Performed sun--shade and solar radiation analysis to quantify shading patterns, assess thermal comfort variation, and support urban greening strategies.
+\end{tight}
+
+\entry{Data Engineering and AI Model Fine-tuning, Vitally AI}{Feb 2023 -- May 2023, Remote}
+\begin{tight}
+  \item Fine-tuned Stable Diffusion models using DreamBooth for personalized pet-style image generation, including embedding extraction, class/instance image balancing, and training with LoRA and prior-preservation loss to capture unique style features.
+  \item Prepared and curated training datasets, performed image preprocessing (cropping, normalization, augmentations), optimized model configurations (learning rate, steps, scheduler, batch size).
+  \item Developed Python scripts and automated data pipelines for dataset preparation, model training, and inference deployment; integrated workflows using PyTorch, HuggingFace Diffusers, and custom training utilities to support AI product prototyping and internal model experimentation.
+\end{tight}
+
+%==============================================================
+\section{Publications}
+%==============================================================
+
+\href{https://scholar.google.com/citations?user=B-fiSHwAAAAJ}{Google Scholar Page} \,---\, Total citations: \textbf{382} \,$\cdot$\, \textit{h}-index: \textbf{6} \,$\cdot$\, \textit{i10}-index: \textbf{5}
+
+\subsection{Publications as the First Author}
+
+\subsubsection{Journal Articles}
+\begin{reflist}
+  \item[] [1] Yang, \textbf{Y.}, Zou, L., Zhou, B., Li, D., Lin, B., Abedin, J., \& Yang, M. (2025). Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models. \textit{Computers, Environment and Urban Systems}, 121, 102335.
+  \item[] [2] Yang, \textbf{Y.}, Wang, S., Li, D., Sun, S., \& Wu, Q. (2024). GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy. \textit{Applied Sciences}, 14(16), 7091.
+\end{reflist}
+
+\subsubsection{Book Chapters}
+\begin{reflist}
+  \item[] [1] Yang, \textbf{Y.}, \& Borrelli, D. (2025). Object detection and segmentation of trees using Text SAM in ArcGIS Online. In D. M. Ruddell \& D. Ter-Ghazaryan (Eds.), \textit{Security First: Geospatial Workflows for a Safe and Equitable World} (pp.~113--122). Redlands, CA: Esri Press.
+\end{reflist}
+
+\subsubsection{Conference Proceedings}
+\begin{reflist}
+  \item[] [1] Yang, \textbf{Y.}, \& Zou, L. (2025). Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models. \textit{Abstracts of the ICA}, 10, 310. \award{Best Student Paper Award}
+  \item[] [2] Yang, \textbf{Y.}, Zou, L., \& Jepson, W. (2026). Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models. \textit{ArXiv}. \href{https://arxiv.org/abs/2603.20697}{arXiv:2603.20697}. \textit{Accepted by the 2026 IEEE International Geoscience and Remote Sensing Symposium.}
+\end{reflist}
+
+\subsubsection{Preprints}
+\begin{reflist}
+  \item[] [1] Yang, \textbf{Y.}, Gong, W., Zhang, K., Zou, L., Tu, Z., Li, H., Li, Z., \& Ye, X. (2026). RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery. \textit{ArXiv}. \href{https://arxiv.org/abs/2606.21819}{arXiv:2606.21819}
+  \item[] [2] Yang, \textbf{Y.}, Zou, L., Gong, W., Fu, K., Li, Z., Wang, S., \ldots\ \& Tian, H. (2026). DamageArbiter: A CLIP-Enhanced Multimodal Arbitration Framework for Hurricane Damage Assessment from Street-View Imagery. \textit{arXiv preprint} arXiv:2603.14837.
+\end{reflist}
+
+\subsection{Publications as a Co-Author}
+
+\subsubsection{Journal Articles}
+\begin{reflist}
+  \item[] [1] Wang, S., Liu, H., Wu, C. Y., Huang, X., Wang, R., \textbf{Yang, Y.}, Corcoran, J., Lai, S., Xia, X., \& Liu, Y. (2026). The Boiling Frog Effect: Global Warming Delays Emotional Impacts of Air Pollution in Warmer Climates. \textit{Journal of Hazardous Materials}, 142440. \href{https://doi.org/10.1016/j.jhazmat.2026.142440}{doi:10.1016/j.jhazmat.2026.142440}
+  \item[] [2] Li, Z., Li, H., \textbf{Yang, Y.}, Wang, S., \& Zhu, Y. (2026). Integrating earth observation data into the tri-environmental evaluation of the economic cost of natural disasters: A case study of 2025 LA wildfire. \textit{International Journal of Applied Earth Observation and Geoinformation}, 150, 105342. \href{https://doi.org/10.1016/j.jag.2026.105342}{doi:10.1016/j.jag.2026.105342}
+  \item[] [3] Ye, X., Gong, W., \textbf{Yang, Y.}, Zou, L., Tu, Z., Huang, X., \ldots\ \& Wu, L. (2026). Towards Agentic Urban Digital Twins (AUDiTs): advancing new urban science through Human-AI co-learning agents. \textit{Urban Informatics}, 5(1), 9.
+  \item[] [4] Wang, Y., Yin, H., \textbf{Yang, Y.}, Zhao, C., \& Wang, S. (2025). Navigating spatial inequities in freight truck crash severity via counterfactual inference in Los Angeles. \textit{Journal of Transport Geography}, 128, 104387.
+  \item[] [5] Gong, W., Ye, X., Wu, K., Jamonnak, S., Zhang, W., \textbf{Yang, Y.}, \& Huang, X. (2025). Integrating spatiotemporal vision transformer into digital twins for high-resolution heat stress forecasting in campus environments. \textit{Journal of Planning Education and Research}, 1--15. \href{https://doi.org/10.1177/0739456X251391121}{doi:10.1177/0739456X251391121}
+  \item[] [6] Zhang, Y., Chen, J., Liu, B., \textbf{Yang, Y.}, Li, H., Zheng, X., Chen, X., Ren, T., \& Xiong, N. (2020). COVID-19 public opinion and emotion monitoring system based on time series thermal new word mining. \textit{Computers, Materials \& Continua}, 64(3), 1415--1434. \href{https://doi.org/10.32604/cmc.2020.011316}{doi:10.32604/cmc.2020.011316}
+  \item[] [7] Shi, C., Mou, G., Wang, H., Liu, T., \textbf{Yang, Y.}, \& Li, Z. (2020). Different Loss Functions Used in the Low-rank Approximation. \textit{International Core Journal of Engineering}, 6(11), 360--368.
+\end{reflist}
+
+\subsubsection{Conference Proceedings}
+\begin{reflist}
+  \item[] [1] Zou, L., Mandal, D., Zhou, B., \textbf{Yang, Y.}, \& Yang, M. (2025). Resilience in 4D: AI-Driven Geospatial Digital Twins for Urban Flood Simulation and Management. \textit{AGU25}.
+  \item[] [2] Yan, B., Wang, J., Cheng, J., Zhou, Y., Zhang, Y., \textbf{Yang, Y.}, \ldots\ \& Liu, B. (2021, June). Experiments of federated learning for COVID-19 chest X-ray images. In \textit{International Conference on Artificial Intelligence and Security} (pp.~41--53). Cham: Springer International Publishing.
+\end{reflist}
+
+\subsubsection{Preprints}
+\begin{reflist}
+  \item[] [1] Gong, W., Srivastava, U., Wang, Y., Jia, Y., Wu, Q., Bai, W., \ldots\ \& Ye, X. (2026). Earth Embeddings Reveal Diverse Urban Signals from Space. \textit{arXiv preprint} arXiv:2604.03456.
+  \item[] [2] Lin, B., Zou, L., Tian, H., Cai, H., \textbf{Yang, Y.}, \& Zhou, B. (2026). Predicting Healthcare System Visitation Flow by Integrating Hospital Attributes and Population Socioeconomics with Human Mobility Data. \textit{arXiv preprint} \href{https://arxiv.org/abs/2601.15977}{arXiv:2601.15977}.
+  \item[] [3] Wu, Q., Xu, Y., Xiao, T., Xiao, Y., Li, Y., Wang, T., \ldots\ \& \textbf{Yang, Y.} (2024). Surveying attitudinal alignment between large language models vs. humans towards 17 sustainable development goals. \textit{arXiv preprint} arXiv:2404.13885.
+\end{reflist}
+
+%==============================================================
+\section{Presentations (Presenting Author)}
+%==============================================================
+
+\begin{reflist}
+  \item[] [1] \dt{2026} RAPIDMap: Rapid multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery. \textit{Cartography and Geographic Information Society (CaGIS) Conference}, St.~Louis, Missouri, September 8--11, 2026.
+  \item[] [2] \dt{2026} DamageArbiter: A Disagreement-driven Arbitration Framework for Hurricane Damage Assessment from Street-View Imagery. \textit{AAG GISS Specialty Group Honors Competition for Student Papers 2}, AAG 2026 Annual Meeting, San Francisco, California.
+  \item[] [3] \dt{2026} Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models. \textit{IEEE International Geoscience and Remote Sensing Symposium (IGARSS)}, Washington, D.C., August 13, 2026.
+  \item[] [4] \dt{2026} Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models. \textit{Symposium on Spatiotemporal Data Science}, Virginia Tech Academic Building One, Alexandria, VA, August 7--8, 2026.
+  \item[] [5] \dt{2025} Seeing Disagreements: An Explainable Multimodal Framework for Disaster Assessment and Spatial Mapping. \textit{Texas A\&M University GIS Day Student Paper Competition}, Texas A\&M University, College Station, USA (Oral).
+  \item[] [6] \dt{2025} Yang, Y., Gong, W., Zhang, K. DisasterVLP: Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models. \textit{Summer School on Cyberinfrastructure and Disaster Resilience}, August 15, 2025, Texas A\&M University, College Station, USA (Oral).
+  \item[] [7] \dt{2025} Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models. \textit{Student Paper Session, International Cartographic Conference (ICC)}, Vancouver, Canada.
+  \item[] [8] \dt{2025} DisasterVLP: A Vision-Language Pretrained Framework for Multidimensional Disaster Damage Assessment Using Street-View Images. \textit{GeoAnalytics for Sustainable and Livable Cities Symposium, International Cartographic Conference (ICC)}, Vancouver, Canada.
+  \item[] [9] \dt{2025} Hyperlocal Disaster Damage Assessment Using Bi-Temporal Street-View Imagery and Pre-Trained Image Processing Models. \textit{GISS Specialty Group Paper Competition II}, AAG 2025 Annual Meeting, Detroit, Michigan.
+  \item[] [10] \dt{2024} GeoLocator: A Location-Integrated Large Multimodal Model for Inferring Geo-Privacy. \textit{Symposium on GeoAI and Deep Learning for Geospatial Research: Human-Centered Geospatial Data Science III}, AAG 2024 Annual Meeting, Honolulu, Hawai\textquoteleft i.
+  \item[] [11] \dt{2024} GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy. \textit{Spatial Data Science Symposium --- Thematic Session ``Geoprivacy Challenges and Solutions in the Digital Society.''} Online Symposium.
+  \item[] [12] \dt{2024} GeoLocator: A Novel GeoAI Tool Making World Travel without Barriers \& Urban Tree Shade Model. \textit{2024 Los Angeles Geospatial Summit}, February 23, 2024, Los Angeles, California.
+  \item[] [13] \dt{2024} GeoLocator: A Location-Integrated Large Multimodal Model for Inferring Geo-Privacy. \textit{AGI Leap Summit --- Multimodality Session}, SuperAGI, February 29, 2024 (Virtual).
+\end{reflist}
+
+%==============================================================
+\section{Session Organizer \& Chair}
+%==============================================================
+
+\begin{reflist}
+  \item[] [1] Spatiotemporal AI for Urban and Environmental Intelligence: Sensing, Inference, and Human-Centered Applications. \textit{Symposium on Spatiotemporal Data Science}, Virginia Tech Academic Building One, Alexandria, VA, August 7--8, 2026. \textit{Session Organizer.}
+  \item[] [2] GeoAI and Data Science for Disaster Resilience. \textit{33rd International Conference on Geoinformatics (GeoInformatics 2026)}, Singapore. Co-organized with Lei Zou, Yi Qiang, Yingjie Hu, Qunying Huang, Xiao Huang, and Bing Zhou. \href{https://blog.nus.edu.sg/cpgis2026/programme/sessions/}{[programme]}
+  \item[] [3] GeoAI and Deep Learning Symposium: GeoAI for Disaster Resilience. \textit{AAG 2026 Annual Meeting}, San Francisco, California. Co-organized with Lei Zou, Yingjie Hu, Qunying Huang, Yi Qiang, Marcela Suarez, and Morteza Karimzadeh.
+  \item[] [4] Panel and Symposium Organization, \textit{GISER Symposium: Past, Present, and Future of GIScience}, AAG Annual Meeting, San Francisco, USA, 2026. \textit{Organizer.}
+  \item[] [5] AAG Remote Sensing Specialty Group Student Illustrated Paper Competition. \textit{AAG 2026 Annual Meeting}, San Francisco, California. Co-organized with Ying Lu.
+  \item[] [6] Symposium on Human Dynamics Research: Urban Environmental Intelligence and Human--Climate Interactions (Sessions 1--2). \textit{AAG 2025 Annual Meeting}, Detroit, Michigan. Co-organized with Wenjing Gong, Sisi Wang, Xinyue Ye, and Xiao Huang.
+\end{reflist}
+
+%==============================================================
+\section{Selected Honors, Awards, and Sponsorships}
+%==============================================================
+
+\begin{plainlist}
+  \item \dt{2026} Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award, \$1,000.
+  \item \dt{2026} IEEE GRSS Travel Grant --- IGARSS 2026, Washington, D.C., \$500.
+  \item \dt{2026} NSF I-GUIDE Summer School: Spatial AI \& Convergence Science --- Selected Travel Award.
+  \item \dt{2026} AAG-GISSG Student Honors Paper Competition --- 2nd Place, \$350.
+  \item \dt{2026} AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), \$1,200.
+  \item \dt{2025} Environment and Sustainability Graduate Fellow Award, Texas A\&M University, \$2,500.
+  \item \dt{2025} Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), \$200.
+  \item \dt{2025} Texas A\&M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track, TAMU, \$2,000.
+  \item \dt{2025} CaGIS International Travel Grant --- 2025 ICC, Vancouver, Canada, \$2,100.
+  \item \dt{2025} International Cartographic Conference (ICC), Vancouver, Canada --- \award{Best Student Paper Award}.
+  \item \dt{2025} AAG-GISSG Student Honors Paper Competition --- Honorable Mention, \$200 (Top 5).
+  \item \dt{2025} AAG Applied Geography Specialty Group --- Student Travel Award, \$196.
+  \item \dt{2024} Travel Grant (Visiting), Department of Geography, University of South Carolina, \$400.
+  \item \dt{2024} Lifetime Membership --- Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society).
+  \item \dt{2024} Los Angeles Geospatial Summit --- ArcGIS StoryMaps Competition: Most Suitably Applied Analysis Methodology.
+  \item \dt{2020} National First Prize --- Computer Design Competition for Chinese College Students (Big Data Practice).
+  \item \dt{2020} Third Prize --- 10th MathorCup College Mathematical Modeling Challenge.
+  \item \dt{2020} Second Prize --- 13th ``Certification Cup'' Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Region).
+  \item \dt{2020} Third Prize --- China--US Youth Creators Competition (Haikou Region).
+  \item \dt{2020} Second Prize --- 3rd China Youth Cup National University Student Mathematical Modeling Competition.
+  \item \dt{2020} Third Prize --- 6th National Mobile Internet Innovation Competition (South China Region).
+  \item \dt{2020} Third Prize --- Innovation Group of the 2020 China University Computer Competition (Artificial Intelligence Track).
+  \item \dt{2020} Third Prize --- Finalist, Hainan Selection Competition of the 4th China Creative Wings Innovation Competition.
+  \item \dt{2020} Honorable Mention --- 2020 Hainan Free Trade Port Entrepreneurship Competition.
+  \item \dt{2020} Silver Award --- Hainan Creative Group, 6th China International ``Internet+'' Student Innovation and Entrepreneurship Competition.
+  \item \dt{2020} Bronze Prize --- Hainan Region, Challenge Cup Student Entrepreneurship Plan Competition.
+  \item \dt{2020} Second Prize --- 14th iCAN International Innovation and Entrepreneurship Competition (South China Region).
+  \item \dt{2020--2021} First-Class Comprehensive Scholarship --- Hainan University, \textyen 2,500.
+  \item \dt{2020--2021} Recognized as ``College Student with the Most Innovative Spirit and Practical Ability'' --- Hainan University.
+\end{plainlist}
+
+\vspace{0.4em}
+\entry{2024--2025 NSF I-GUIDE Spatial AI Challenge --- Selected Abstract (2 consecutive years)}{}
+\begin{tight}
+  \item Selected in a competitive international challenge on Spatial AI and GeoAI innovation
+  \item \textbf{2025:} GeoAgent4Disaster --- Autonomous multi-agent framework for multimodal disaster assessment
+  \item \textbf{2024:} Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models
+\end{tight}
+
+%==============================================================
+\section{Professional Activities and Service}
+%==============================================================
+
+\begin{plainlist}
+  \item \dt{2025--2026} Data Science Student Ambassador, Texas A\&M Institute of Data Science (TAMIDS).
+  \item \dt{2025--2026} Executive Committee Member, Aggie Geographers Graduate Society (AGGS).
+  \item \dt{2025--2027} Student Co-Director of Remote Sensing Specialty Group, American Association of Geographers.
+  \item \dt{2025--2027} Student Co-Director of Hazards, Risks, and Disasters, American Association of Geographers.
+  \item \dt{2024--2025} Board Member, GISphere (responsible for the GISalon Roundtable Series).
+  \item \dt{2021--2022} Vice President, Association of Robotics and Artificial Intelligence, Hainan University.
+\end{plainlist}
+
+\vspace{0.4em}
+\textbf{Reviewer for leading journals and conferences, including:}
+ACM Transactions on Autonomous and Adaptive Systems \,$\cdot$\, Computational Urban Science \,$\cdot$\, Climatic Change \,$\cdot$\, International Journal of Applied Earth Observation and Geoinformation \,$\cdot$\, International Journal of Geographical Information Science \,$\cdot$\, International Journal of ITS Research \,$\cdot$\, Scientific Reports \,$\cdot$\, Transactions in GIS \,$\cdot$\, Tourism Geographies \,$\cdot$\, Journal of Transport Geography \,$\cdot$\, International Journal of Remote Sensing \,$\cdot$\, 32nd SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026) --- AI for Sciences Track
+
+%==============================================================
+\section{Open-Source Leadership}
+%==============================================================
+
+\entry{Founder, AutonomousGeoAI4Science (AutoGeoAI4Sci)}{\href{https://github.com/AutoGeoAI4Sci}{GitHub Organization}}
+\vspace{0.15em}
+Founded and led an open research community advancing autonomous and multimodal GeoAI for scientific discovery. The initiative integrates tutorials, open-source research code, cross-view modeling projects, and agent-based spatial intelligence systems.
+\begin{tight}
+  \item Curate and maintain 40+ repositories on cross-view GeoAI, disaster intelligence, and autonomous spatial reasoning
+  \item Develop open-source tutorials and research frameworks for multimodal geospatial AI
+  \item Build a collaborative platform connecting AI, GIScience, and Earth observation communities
+  \item Promote reproducible research in autonomous geospatial intelligence
+\end{tight}
+
+%==============================================================
+\section{Technical Skills}
+%==============================================================
+
+\begin{plainlist}
+  \item \textbf{Applications:} PyTorch, TensorFlow, Scikit-learn, HuggingFace Transformers, Stable Diffusion, Visual Studio Code, Git/GitHub, Jupyter Notebook, Anaconda, Linux/Unix, Docker, Esri ArcGIS Pro, MS SQL Server, SQL Server Management Studio, PgAdmin, PostgreSQL \& PostGIS
+  \item \textbf{Programming:} C, C++, Java, Python, SQL, R, ArcGIS API (JavaScript, Python), JavaScript, HTML
+\end{plainlist}
+
+\end{document}
