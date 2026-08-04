@@ -87,7 +87,7 @@ layout: compress
     {% endif %}
     {% assign after_start = profile_page.content | split: section_start | last %}
     {% if page.next_section_id %}
-      {% assign section_end = '<section id="' | append: page.next_section_id | append: '">' %}
+      {% assign section_end = '<section id="' | append: page.next_section_id | append: '"' %}
       {% assign section_body = after_start | split: section_end | first %}
     {% else %}
       {% assign section_body = after_start %}
