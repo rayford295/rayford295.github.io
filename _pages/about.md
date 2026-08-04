@@ -1818,24 +1818,30 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
 <section id="personal-gallery" class="personal-gallery">
   <h2>📸 Personal Gallery — Moments That Inspire Me</h2>
 
-  <div class="personal-gallery-grid" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; max-width:760px; margin:24px auto 44px; align-items:start;">
-    <figure style="margin:0; text-align:center;">
-      <img src="/images/godfather.png" alt="The Godfather film poster" loading="lazy" decoding="async" style="max-width:680px; width:100%; height:auto; aspect-ratio:auto; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2); display:block; margin:0 auto;">
+  <div class="personal-gallery-grid">
+    <figure>
+      <img src="/images/godfather.png" alt="The Godfather film poster" loading="lazy" decoding="async">
+      <figcaption><em>The Godfather</em> — those who see the essence of things in a second are destined for a different fate.</figcaption>
     </figure>
-    <figure style="margin:0; text-align:center;">
-      <img src="/images/camus.jpg" alt="Albert Camus portrait" loading="lazy" decoding="async" style="max-width:680px; width:100%; height:auto; aspect-ratio:auto; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2); display:block; margin:0 auto;">
+    <figure>
+      <img src="/images/camus.jpg" alt="Albert Camus portrait" loading="lazy" decoding="async">
+      <figcaption>Albert Camus — "Just walk beside me and be my friend."</figcaption>
     </figure>
-    <figure style="margin:0; text-align:center;">
-      <img src="/images/jackie.JPG" alt="Jackie Chan portrait" loading="lazy" decoding="async" style="max-width:680px; width:100%; height:auto; aspect-ratio:auto; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2); display:block; margin:0 auto;">
+    <figure>
+      <img src="/images/jackie.JPG" alt="Jackie Chan portrait" loading="lazy" decoding="async">
+      <figcaption>Jackie Chan — be the only one, not just the first.</figcaption>
     </figure>
-    <figure style="margin:0; text-align:center;">
-      <img src="/images/我的团长我的团.jpg" alt="My Chief and My Regiment poster" loading="lazy" decoding="async" style="max-width:680px; width:100%; height:auto; aspect-ratio:auto; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2); display:block; margin:0 auto;">
+    <figure>
+      <img src="/images/我的团长我的团.jpg" alt="My Chief and My Regiment poster" loading="lazy" decoding="async">
+      <figcaption><em>My Chief and My Regiment</em> — my favorite Chinese war drama.</figcaption>
     </figure>
-    <figure style="margin:0; text-align:center;">
-      <img src="/images/road-not-taken-zh.png" alt="The Road Not Taken Chinese translation page" loading="lazy" decoding="async" style="max-width:680px; width:100%; height:auto; aspect-ratio:auto; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2); display:block; margin:0 auto;">
+    <figure>
+      <img src="/images/road-not-taken-zh.png" alt="The Road Not Taken Chinese translation page" loading="lazy" decoding="async">
+      <figcaption>Robert Frost — <em>The Road Not Taken</em>.</figcaption>
     </figure>
-    <figure style="margin:0; text-align:center;">
-      <img src="/images/talk-stage-good-arrangement.png" alt="Stage performance with the phrase Everything is the best arrangement in Chinese" loading="lazy" decoding="async" style="max-width:680px; width:100%; height:auto; aspect-ratio:auto; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2); display:block; margin:0 auto;">
+    <figure>
+      <img src="/images/talk-stage-good-arrangement.png" alt="Stage performance with the phrase Everything is the best arrangement in Chinese" loading="lazy" decoding="async">
+      <figcaption>On stage — "Everything is the best arrangement."</figcaption>
     </figure>
   </div>
 </section>

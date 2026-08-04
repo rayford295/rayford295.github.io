@@ -384,25 +384,43 @@ h1:before,
 }
 
 .personal-gallery-grid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 28px;
+  columns: 3 220px;
+  column-gap: 18px;
+  max-width: 860px;
   margin: 24px auto 44px;
 }
 
-.personal-gallery-grid figure,
-.hobby-card {
-  margin: 0;
+.personal-gallery-grid figure {
+  margin: 0 0 18px;
+  break-inside: avoid;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, .08);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.personal-gallery-grid figure:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, .16);
 }
 
 .personal-gallery-grid img {
   width: 100%;
-  max-width: 560px;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 14px rgba(15, 23, 42, .14);
   display: block;
+}
+
+.personal-gallery-grid figcaption {
+  padding: 9px 12px 11px;
+  color: #52525b;
+  font-size: .8rem;
+  line-height: 1.4;
+}
+
+.hobby-card {
+  margin: 0;
 }
 
 .misc-section {
