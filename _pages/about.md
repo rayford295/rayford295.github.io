@@ -160,28 +160,6 @@ redirect_from:
       }
     }
 
-    #presentation .presentation-scroll {
-      max-height: 38rem;
-      overflow-y: auto;
-      padding-right: 0.9rem;
-      scrollbar-width: thin;
-      scrollbar-color: #9db2c8 transparent;
-    }
-
-    #presentation .presentation-scroll::-webkit-scrollbar {
-      width: 0.55rem;
-    }
-
-    #presentation .presentation-scroll::-webkit-scrollbar-thumb {
-      border-radius: 999px;
-      background: #9db2c8;
-    }
-
-    #presentation .presentation-scroll::-webkit-scrollbar-track {
-      background: #edf2f7;
-      border-radius: 999px;
-    }
-
     #presentation .presentation-timeline {
       list-style: none;
       margin: 0.9em 0 0 0;
@@ -189,50 +167,27 @@ redirect_from:
     }
 
     #presentation .presentation-year {
-      display: grid;
-      grid-template-columns: 4.4rem minmax(0, 1fr);
-      column-gap: 1.15rem;
       list-style: none;
-      margin: 0;
-      padding: 1rem 0 1.1rem;
-      border-top: 1px solid #dbe7f3;
-    }
-
-    #presentation .presentation-year:first-child {
-      border-top: 0;
-      padding-top: 0.2rem;
+      margin: 0 0 1.4rem;
+      padding: 0;
     }
 
     #presentation .presentation-year-label {
-      color: #005fa3;
-      font-size: 1.18em;
-      font-weight: 800;
-      letter-spacing: 0.02em;
-      line-height: 1;
-      padding-top: 0.16rem;
-    }
-
-    #presentation .presentation-year-label::after {
-      content: "";
       display: block;
-      width: 2.8rem;
-      height: 2px;
-      margin-top: 0.45rem;
-      background: #9cc7e8;
+      font-size: 1.12em;
+      font-weight: 750;
+      line-height: 1.3;
+      margin-bottom: 0.55rem;
     }
 
     #presentation .presentation-items {
-      list-style: none;
+      list-style: disc;
       margin: 0;
-      padding: 0 0 0 1.15rem;
-      border-left: 2px solid #dbe7f3;
+      padding: 0 0 0 1.5rem;
     }
 
     #presentation .presentation-items > li {
-      position: relative;
-      list-style: none;
-      margin: 0 0 0.85rem;
-      padding-left: 1rem;
+      margin: 0 0 0.6rem;
       line-height: 1.55;
     }
 
@@ -240,42 +195,14 @@ redirect_from:
       margin-bottom: 0;
     }
 
-    #presentation .presentation-items > li::before {
-      content: "";
-      position: absolute;
-      left: -1.36rem;
-      top: 0.62em;
-      width: 0.42rem;
-      height: 0.42rem;
-      border: 0;
-      border-radius: 50%;
-      background: #79add4;
-      box-shadow: none;
-    }
-
     #presentation .presentation-subitems {
+      list-style: square;
       margin: 0.35rem 0 0;
-      padding-left: 1.1rem;
+      padding-left: 1.3rem;
     }
 
     #presentation .presentation-subitems li {
       margin: 0.25rem 0;
-    }
-
-    @media (max-width: 640px) {
-      #presentation .presentation-year {
-        grid-template-columns: 1fr;
-        row-gap: 0.45rem;
-      }
-
-      #presentation .presentation-year-label::after {
-        width: 3.2rem;
-      }
-
-      #presentation .presentation-scroll {
-        max-height: 32rem;
-        padding-right: 0.55rem;
-      }
     }
 
     .industry-grid {
