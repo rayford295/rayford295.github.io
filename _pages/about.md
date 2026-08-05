@@ -1396,32 +1396,32 @@ redirect_from:
       <h3 class="honor-year">2026</h3>
       <ul class="honor-list">
         <li>Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award, $1,000.</li>
-        <li>NSF I-GUIDE Summer School: Spatial AI &amp; Convergence Science — Selected Travel Award, over $2,000.</li>
-        <li>IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C., $500.</li>
         <li>AAG-GISSG Student Honors Paper Competition — 🥈 2nd Place, $350.</li>
         <li>AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1,200.</li>
+        <li>NSF I-GUIDE Summer School: Spatial AI &amp; Convergence Science — Selected Travel Award, over $2,000.</li>
+        <li>IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C., $500.</li>
       </ul>
     </section>
 
     <section class="honor-group">
       <h3 class="honor-year">2025</h3>
       <ul class="honor-list">
+        <li>International Cartographic Conference (ICC), Vancouver, Canada — 🏆 Best Student Paper Award.</li>
         <li>Environment and Sustainability Graduate Fellow Award, Texas A&amp;M University, $2,500.</li>
-        <li>Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
         <li>2025–2026 Texas A&amp;M Institute of Data Science (TAMIDS) Student Ambassador Scholarship, Domain Data Science Track, TAMU, $2,000.</li>
         <li>CaGIS International Travel Grant — 2025 ICC, Vancouver, Canada, $2,100.</li>
-        <li>International Cartographic Conference (ICC), Vancouver, Canada — 🏆 Best Student Paper Award.</li>
         <li>AAG-GISSG Student Honors Paper Competition — Honorable Mention, $200 (Top 5).</li>
         <li>AAG Applied Geography Specialty Group — AGSG Annual Meeting Award, $196.</li>
+        <li>Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
       </ul>
     </section>
 
     <section class="honor-group">
       <h3 class="honor-year">2024</h3>
       <ul class="honor-list">
-        <li>Travel Grant (Visiting), Department of Geography, University of South Carolina, $400.</li>
-        <li>Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society).</li>
         <li>Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: 🏆 Most Suitably Applied Analysis Methodology.</li>
+        <li>Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society).</li>
+        <li>Travel Grant (Visiting), Department of Geography, University of South Carolina, $400.</li>
       </ul>
     </section>
 
@@ -1436,17 +1436,17 @@ redirect_from:
       <h3 class="honor-year">2020</h3>
       <ul class="honor-list">
         <li>Computer Design Competition for Chinese College Students (Big Data Practice) — 🏆 National First Prize.</li>
-        <li>10th MathorCup College Mathematical Modeling Challenge — Third Prize.</li>
-        <li>13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Region) — Second Prize.</li>
-        <li>China-US Youth Creators Competition (Haikou Region) — Third Prize.</li>
-        <li>3rd China Youth Cup National University Student Mathematical Modeling Competition — Second Prize.</li>
-        <li>6th National Mobile Internet Innovation Competition (South China Region) — Third Prize.</li>
-        <li>China University Computer Competition, Innovation Group (Artificial Intelligence Track) — Third Prize.</li>
-        <li>Hainan Selection Competition of the 4th China Creative Wings Innovation Competition — Third Prize / Finalist.</li>
-        <li>Hainan Free Trade Port Entrepreneurship Competition — Honorable Mention.</li>
         <li>6th China International "Internet+" Student Innovation and Entrepreneurship Competition, Hainan Creative Group — Silver Award.</li>
-        <li>Challenge Cup Student Entrepreneurship Plan Competition (Hainan Region) — Bronze Prize.</li>
+        <li>3rd China Youth Cup National University Student Mathematical Modeling Competition — Second Prize.</li>
         <li>14th iCAN International Innovation and Entrepreneurship Competition (South China Region) — Second Prize.</li>
+        <li>13th "Certification Cup" Mathematics China Mathematical Modeling Network Challenge (Inner Mongolia Region) — Second Prize.</li>
+        <li>10th MathorCup College Mathematical Modeling Challenge — Third Prize.</li>
+        <li>China University Computer Competition, Innovation Group (Artificial Intelligence Track) — Third Prize.</li>
+        <li>China-US Youth Creators Competition (Haikou Region) — Third Prize.</li>
+        <li>6th National Mobile Internet Innovation Competition (South China Region) — Third Prize.</li>
+        <li>Hainan Selection Competition of the 4th China Creative Wings Innovation Competition — Third Prize / Finalist.</li>
+        <li>Challenge Cup Student Entrepreneurship Plan Competition (Hainan Region) — Bronze Prize.</li>
+        <li>Hainan Free Trade Port Entrepreneurship Competition — Honorable Mention.</li>
         <li>Hainan University First-Class Comprehensive Scholarship — CNY 2,500.</li>
         <li>Hainan University "College Student with the Most Innovative Spirit and Practical Ability" Recognition.</li>
       </ul>
