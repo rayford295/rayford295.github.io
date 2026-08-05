@@ -1093,7 +1093,8 @@ redirect_from:
 <section id="presentation">
   <h2>🏘 Presentation</h2>
   <style>
-    .pres-badge { display:inline-block; padding:1px 9px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.78em; font-weight:600; vertical-align:middle; margin-left:6px; white-space:nowrap; }
+    .pres-badge { display:inline-block; min-width:4.6em; text-align:center; padding:1px 9px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.78em; font-weight:600; vertical-align:middle; margin-right:8px; white-space:nowrap; }
+    .pres-badge + .pres-badge { margin-left:-2px; }
     html[data-theme="dark"] .pres-badge { background:rgba(124,184,232,.12); color:#7cb8e8; border-color:rgba(124,184,232,.35); }
   </style>
   <div class="presentation-scroll" tabindex="0" aria-label="Scrollable presentation history">
@@ -1102,8 +1103,8 @@ redirect_from:
       <span class="presentation-year-label">2026</span>
       <ul class="presentation-items">
         <li>
-          <strong>IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</strong>
-          <span class="pres-badge">Paper</span>,
+          <span class="pres-badge">Paper</span>
+          <strong>IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</strong>,
           Washington, D.C., August 13, 2026.
           <ul class="presentation-subitems">
             <li>
@@ -1115,9 +1116,8 @@ redirect_from:
           </ul>
         </li>
         <li>
-          <strong>Symposium on Spatiotemporal Data Science</strong>
-          <span class="pres-badge">Session Organizer</span>
-          <span class="pres-badge">Oral</span>,
+          <span class="pres-badge">Organizer</span><span class="pres-badge">Oral</span>
+          <strong>Symposium on Spatiotemporal Data Science</strong>,
           Virginia Tech Academic Building One, Alexandria, VA, August 7–8, 2026
           (<a href="https://stds.stcenter.net/index.php/resources/" target="_blank" rel="noopener">Program</a>).
           <ul class="presentation-subitems">
@@ -1132,8 +1132,8 @@ redirect_from:
           </ul>
         </li>
         <li>
-          <strong>Cartography and Geographic Information Society (CaGIS) Conference</strong>
-          <span class="pres-badge">Oral</span>,
+          <span class="pres-badge">Oral</span>
+          <strong>Cartography and Geographic Information Society (CaGIS) Conference</strong>,
           St. Louis, Missouri, September 8–11, 2026
           (<a href="https://cartogis.org/conferences/cagis2026/program/" target="_blank" rel="noopener">Program</a>).
           <ul class="presentation-subitems">
@@ -1162,8 +1162,8 @@ redirect_from:
       <span class="presentation-year-label">2025</span>
       <ul class="presentation-items">
         <li>
-          <strong>International Cartographic Conference (ICC)</strong>
-          <span class="pres-badge">Oral</span>,
+          <span class="pres-badge">Oral</span>
+          <strong>International Cartographic Conference (ICC)</strong>,
           Vancouver, Canada, August 18–22, 2025.
           <ul class="presentation-subitems">
             <li>
@@ -1191,15 +1191,15 @@ redirect_from:
       <span class="presentation-year-label">2024</span>
       <ul class="presentation-items">
         <li>
-          <strong>Spatial Data Science Symposium</strong>
-          <span class="pres-badge">Talk</span> —
+          <span class="pres-badge">Talk</span>
+          <strong>Spatial Data Science Symposium</strong> —
           <em>Thematic Session, Geoprivacy Challenges and Solutions in the Digital Society</em>
           (<a href="https://sdss2024.spatial-data-science.net/ts/zhang.html" target="_blank" rel="noopener">Session Details</a>,
           <a href="https://www.youtube.com/watch?v=6pOIemM9y6M&list=PLLPRl7FLqNFScodyhaN0j_y5JMx3H7TRg&index=5" target="_blank" rel="noopener">Watch Video</a>).
         </li>
         <li>
-          <strong>AGI Leap Summit</strong>
-          <span class="pres-badge">Paper</span> —
+          <span class="pres-badge">Paper</span>
+          <strong>AGI Leap Summit</strong> —
           <em>Multimodality</em>, Paper Presentation, SuperAGI, February 29, 2024 (Virtual)
           (<a href="https://superagi.com/agi-leap-summit/" target="_blank" rel="noopener">Summit Website</a>).
         </li>
@@ -1213,8 +1213,8 @@ redirect_from:
               target="_blank" rel="noopener">Event Article</a>).
         </li>
         <li>
-          <strong>Spatiotemporal Data Science Symposium</strong>
-          <span class="pres-badge">Workshop</span> —
+          <span class="pres-badge">Workshop</span>
+          <strong>Spatiotemporal Data Science Symposium</strong> —
           <em>Pre-symposium Training Workshop</em>, Washington DC, July 22, 2024 (online)
           (<a href="https://sdl.gis.harvard.edu/event/symposium-spatiotemporal-data-science-geoai-social-sciences" target="_blank" rel="noopener">Event Page</a>).
         </li>
