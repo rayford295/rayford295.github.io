@@ -584,22 +584,27 @@ redirect_from:
 <p style="margin-bottom: 10px;"><strong>Research interests:</strong></p>
 <p style="margin-bottom: 14px;">My current research interests mainly lie in <strong>Geospatial AI</strong>, especially in:</p>
 
-<div style="display:flex; flex-direction:column; gap:12px; margin-bottom:26px;">
-  <div style="border-left:4px solid #93c5fd; background:#f7fafd; border-radius:0 10px 10px 0; padding:12px 16px; line-height:1.6; color:#334155;">
-    <strong style="color:#005fa3;">Spatial Reasoning under Incomplete Observation:</strong>
+<style>
+  .ri-list p { margin: 0 0 14px; line-height: 1.65; }
+  .ri-list strong { color: #005fa3; }
+  html[data-theme="dark"] .ri-list strong { color: #7cb8e8; }
+</style>
+<div class="ri-list" style="margin-bottom:26px;">
+  <p>
+    <strong>Spatial Reasoning under Incomplete Observation:</strong>
     Real-world geographic evidence is never complete — imagery arrives stale, views are partial, and coverage is biased.
     A model must reason from fragments and, crucially, know when the evidence supports action and when it does not.
-  </div>
-  <div style="border-left:4px solid #93c5fd; background:#f7fafd; border-radius:0 10px 10px 0; padding:12px 16px; line-height:1.6; color:#334155;">
-    <strong style="color:#005fa3;">Cross-View Evidence Fusion:</strong>
+  </p>
+  <p>
+    <strong>Cross-View Evidence Fusion:</strong>
     Aerial and ground-level views often tell conflicting stories about the same place.
     How should a model arbitrate disagreeing observations, weigh the credibility of each source, and fuse them into a single defensible judgment?
-  </div>
-  <div style="border-left:4px solid #93c5fd; background:#f7fafd; border-radius:0 10px 10px 0; padding:12px 16px; line-height:1.6; color:#334155;">
-    <strong style="color:#005fa3;">Closed-Loop Autonomous GeoAI:</strong>
+  </p>
+  <p>
+    <strong>Closed-Loop Autonomous GeoAI:</strong>
     Moving beyond one-shot prediction toward agents that sense, reason, decide, and re-observe —
     closing the loop so that every geospatial decision builds on what earlier observations revealed.
-  </div>
+  </p>
 </div>
 
 <p style="margin-bottom: 10px;"><strong>Keywords:</strong></p>
