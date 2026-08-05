@@ -585,27 +585,28 @@ redirect_from:
 <p style="margin-bottom: 14px;">My current research interests mainly lie in <strong>Geospatial AI</strong>, especially in:</p>
 
 <style>
-  .ri-list p { margin: 0 0 14px; line-height: 1.65; }
-  .ri-list strong { color: #005fa3; }
+  .ri-list { margin: 0 0 26px; padding-left: 1.4em; }
+  .ri-list li { margin-bottom: 10px; line-height: 1.65; }
+  .ri-list strong { color: #005fa3; font-style: italic; text-decoration: underline; text-underline-offset: 3px; }
   html[data-theme="dark"] .ri-list strong { color: #7cb8e8; }
 </style>
-<div class="ri-list" style="margin-bottom:26px;">
-  <p>
-    <strong>Spatial Reasoning under Incomplete Observation:</strong>
+<ul class="ri-list">
+  <li>
+    <strong>Spatial Reasoning under Incomplete Observation</strong>:
     Real-world geographic evidence is never complete — imagery arrives stale, views are partial, and coverage is biased.
     A model must reason from fragments and, crucially, know when the evidence supports action and when it does not.
-  </p>
-  <p>
-    <strong>Cross-View Evidence Fusion:</strong>
+  </li>
+  <li>
+    <strong>Cross-View Evidence Fusion</strong>:
     Aerial and ground-level views often tell conflicting stories about the same place.
     How should a model arbitrate disagreeing observations, weigh the credibility of each source, and fuse them into a single defensible judgment?
-  </p>
-  <p>
-    <strong>Closed-Loop Autonomous GeoAI:</strong>
+  </li>
+  <li>
+    <strong>Closed-Loop Autonomous GeoAI</strong>:
     Moving beyond one-shot prediction toward agents that sense, reason, decide, and re-observe —
     closing the loop so that every geospatial decision builds on what earlier observations revealed.
-  </p>
-</div>
+  </li>
+</ul>
 
 <p style="margin-bottom: 10px;"><strong>Keywords:</strong></p>
 <div style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:10px;">
