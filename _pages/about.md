@@ -1396,7 +1396,7 @@ redirect_from:
       <h3 class="honor-year">2026</h3>
       <ul class="honor-list">
         <li>Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award, $1,000.</li>
-        <li>NSF I-GUIDE Summer School: Spatial AI &amp; Convergence Science — Selected Travel Award.</li>
+        <li>NSF I-GUIDE Summer School: Spatial AI &amp; Convergence Science — Selected Travel Award, over $2,000.</li>
         <li>IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C., $500.</li>
         <li>AAG-GISSG Student Honors Paper Competition — 🥈 2nd Place, $350.</li>
         <li>AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1,200.</li>
