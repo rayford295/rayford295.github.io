@@ -1843,6 +1843,10 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       <img src="/images/talk-stage-good-arrangement.png" alt="Stage performance with the phrase Everything is the best arrangement in Chinese" loading="lazy" decoding="async">
       <figcaption>On stage — "Everything is the best arrangement."</figcaption>
     </figure>
+    <figure>
+      <img src="/images/great-power-great-responsibility.jpg" alt="Handwritten note reading Great Power Great Responsibility pinned above a city map" loading="lazy" decoding="async">
+      <figcaption><em>Spider-Man</em> — with great power comes great responsibility.</figcaption>
+    </figure>
   </div>
 </section>
 
