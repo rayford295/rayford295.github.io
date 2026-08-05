@@ -1092,18 +1092,12 @@ redirect_from:
 
 <section id="presentation">
   <h2>🏘 Presentation</h2>
-  <style>
-    .pres-badge { display:inline-block; min-width:4.6em; text-align:center; padding:1px 9px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.78em; font-weight:600; vertical-align:middle; margin-right:8px; white-space:nowrap; }
-    .pres-badge + .pres-badge { margin-left:-2px; }
-    html[data-theme="dark"] .pres-badge { background:rgba(124,184,232,.12); color:#7cb8e8; border-color:rgba(124,184,232,.35); }
-  </style>
   <div class="presentation-scroll" tabindex="0" aria-label="Scrollable presentation history">
     <ul class="presentation-timeline">
     <li class="presentation-year">
       <span class="presentation-year-label">2026</span>
       <ul class="presentation-items">
         <li>
-          <span class="pres-badge">Paper</span>
           <strong>IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</strong>,
           Washington, D.C., August 13, 2026.
           <ul class="presentation-subitems">
@@ -1116,9 +1110,7 @@ redirect_from:
           </ul>
         </li>
         <li>
-          <span class="pres-badge">Organizer</span><span class="pres-badge">Oral</span>
-          <strong>Symposium on Spatiotemporal Data Science</strong>,
-          Virginia Tech Academic Building One, Alexandria, VA, August 7–8, 2026
+          <strong>Symposium on Spatiotemporal Data Science</strong>, Alexandria, Virginia, August 7–8, 2026
           (<a href="https://stds.stcenter.net/index.php/resources/" target="_blank" rel="noopener">Program</a>).
           <ul class="presentation-subitems">
             <li>
@@ -1132,7 +1124,6 @@ redirect_from:
           </ul>
         </li>
         <li>
-          <span class="pres-badge">Oral</span>
           <strong>Cartography and Geographic Information Society (CaGIS) Conference</strong>,
           St. Louis, Missouri, September 8–11, 2026
           (<a href="https://cartogis.org/conferences/cagis2026/program/" target="_blank" rel="noopener">Program</a>).
@@ -1146,7 +1137,7 @@ redirect_from:
           </ul>
         </li>
         <li>
-          <strong>American Association of Geographers Annual Meeting</strong>, March 17–21, 2026, San Francisco, California
+          <strong>American Association of Geographers Annual Meeting</strong>, San Francisco, California, March 17–21, 2026
           (<a href="https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541" target="_blank" rel="noopener">Session 90541</a>,
           <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25333" target="_blank" rel="noopener">Session 25333</a>,
           <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/24774" target="_blank" rel="noopener">Session 24774</a>,
@@ -1162,7 +1153,6 @@ redirect_from:
       <span class="presentation-year-label">2025</span>
       <ul class="presentation-items">
         <li>
-          <span class="pres-badge">Oral</span>
           <strong>International Cartographic Conference (ICC)</strong>,
           Vancouver, Canada, August 18–22, 2025.
           <ul class="presentation-subitems">
@@ -1178,7 +1168,7 @@ redirect_from:
           </ul>
         </li>
         <li>
-          <strong>American Association of Geographers Annual Meeting</strong>, March 24–28, 2025, Detroit, Michigan
+          <strong>American Association of Geographers Annual Meeting</strong>, Detroit, Michigan, March 24–28, 2025
           (<a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23561" target="_blank" rel="noopener">Session 23561</a>,
            <a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23718" target="_blank" rel="noopener">Session 23718</a>,
            <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104" target="_blank" rel="noopener">Session 82104</a>,
@@ -1191,31 +1181,28 @@ redirect_from:
       <span class="presentation-year-label">2024</span>
       <ul class="presentation-items">
         <li>
-          <span class="pres-badge">Talk</span>
           <strong>Spatial Data Science Symposium</strong> —
           <em>Thematic Session, Geoprivacy Challenges and Solutions in the Digital Society</em>
           (<a href="https://sdss2024.spatial-data-science.net/ts/zhang.html" target="_blank" rel="noopener">Session Details</a>,
           <a href="https://www.youtube.com/watch?v=6pOIemM9y6M&list=PLLPRl7FLqNFScodyhaN0j_y5JMx3H7TRg&index=5" target="_blank" rel="noopener">Watch Video</a>).
         </li>
         <li>
-          <span class="pres-badge">Paper</span>
-          <strong>AGI Leap Summit</strong> —
-          <em>Multimodality</em>, Paper Presentation, SuperAGI, February 29, 2024 (Virtual)
+          <strong>AGI Leap Summit</strong>, SuperAGI (virtual), February 29, 2024 —
+          <em>Multimodality</em>, Paper Presentation
           (<a href="https://superagi.com/agi-leap-summit/" target="_blank" rel="noopener">Summit Website</a>).
         </li>
         <li>
-          <strong>American Association of Geographers Annual Meeting</strong>, April 16–20, 2024, Honolulu, Hawai'i
+          <strong>American Association of Geographers Annual Meeting</strong>, Honolulu, Hawai'i, April 16–20, 2024
           (<a href="https://aag.secure-platform.com/aag2024/solicitations/57/sessiongallery/7825" target="_blank" rel="noopener">Session 7825</a>).
         </li>
         <li>
-          <strong>Los Angeles Geospatial Summit</strong>, February 23, 2024, Los Angeles, CA
+          <strong>Los Angeles Geospatial Summit</strong>, Los Angeles, California, February 23, 2024
           (<a href="https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit/"
               target="_blank" rel="noopener">Event Article</a>).
         </li>
         <li>
-          <span class="pres-badge">Workshop</span>
-          <strong>Spatiotemporal Data Science Symposium</strong> —
-          <em>Pre-symposium Training Workshop</em>, Washington DC, July 22, 2024 (online)
+          <strong>Spatiotemporal Data Science Symposium</strong>, Washington, D.C. (online), July 22, 2024 —
+          <em>Pre-symposium Training Workshop</em>
           (<a href="https://sdl.gis.harvard.edu/event/symposium-spatiotemporal-data-science-geoai-social-sciences" target="_blank" rel="noopener">Event Page</a>).
         </li>
       </ul>
