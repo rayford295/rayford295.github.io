@@ -889,7 +889,7 @@ redirect_from:
         RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery
       </a>
       — <strong>Yang, Yifan</strong>, Wenjing Gong, Kaili Zhang, Lei Zou, Zhengzhong Tu, Hao Li, Zongrong Li, Xinyue Ye.<br>
-      <em>ACM SIGSPATIAL 2026 Applications Track</em>, full paper.
+      <em>Accepted to ACM SIGSPATIAL 2026 — Applications Track Full Paper</em>.
 
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2606.21819"
