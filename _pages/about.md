@@ -880,7 +880,7 @@ redirect_from:
   <!-- RAPID Paper -->
   <div class="paper-box" data-publication-year="2026">
     <div class="paper-box-image">
-      <div class="badge">Accepted Full Paper</div>
+      <div class="badge">Conference Paper</div>
       <img src="images/rapid_framework.png" alt="RAPID Framework" width="75%">
     </div>
     <div class="paper-box-text">
@@ -925,6 +925,10 @@ redirect_from:
       <a href="https://arxiv.org/abs/2603.20697"
          target="_blank" rel="noopener"
          class="paper-link link-paper">📄 Paper</a>
+
+      <a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585&SessionID=1704"
+         target="_blank" rel="noopener"
+         class="paper-link link-doi">🔗 Conference</a>
 
       <a href="https://github.com/rayford295/Sat2Street-DisasterGen"
          target="_blank" rel="noopener"
