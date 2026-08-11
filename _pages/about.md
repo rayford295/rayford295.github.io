@@ -898,7 +898,7 @@ redirect_from:
 
         <a href="https://sigspatial2026.sigspatial.org/application-accepted/"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 Acceptance</a>
+           class="paper-link link-doi">🔗 Conference</a>
 
         <a href="https://github.com/rayford295/RAPID"
            target="_blank" rel="noopener"
