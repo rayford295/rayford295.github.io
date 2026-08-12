@@ -758,6 +758,30 @@ redirect_from:
   <div class="experience-timeline" aria-label="Experience history">
     <article class="experience-entry">
       <div class="experience-logo-card">
+        <img src="images/autogeoai.png" alt="Autonomous GeoAI4Science logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Jan. 2026 – Present</p>
+        <p class="experience-role">Founder</p>
+        <p class="experience-summary">An open research initiative advancing autonomous GeoAI agents for scientific discovery.</p>
+        <p class="experience-organization"><a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener noreferrer">Autonomous GeoAI4Science</a></p>
+      </div>
+    </article>
+
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/gearlab_logo.png" alt="GEAR Lab logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Jan. 2025 – Present</p>
+        <p class="experience-role">Graduate Research Assistant</p>
+        <p class="experience-summary">Advisor: Prof. Lei Zou, GEAR Lab.</p>
+        <p class="experience-organization">Texas A&amp;M University</p>
+      </div>
+    </article>
+
+    <article class="experience-entry">
+      <div class="experience-logo-card">
         <img src="images/iguide_logo.png" alt="I-GUIDE logo">
       </div>
       <div class="experience-content">
@@ -779,30 +803,6 @@ redirect_from:
         <p class="experience-role">Student Researcher</p>
         <p class="experience-summary">Advisor: <a href="https://scholar.google.com/citations?user=KQAEqFgAAAAJ&amp;hl=zh-CN&amp;oi=ao" target="_blank" rel="noopener noreferrer">Dr. Jooho Kim</a>.</p>
         <p class="experience-organization"><a href="https://idrt.tamu.edu/" target="_blank" rel="noopener noreferrer">Institute for a Disaster Resilient Texas (IDRT), Texas A&amp;M University</a></p>
-      </div>
-    </article>
-
-    <article class="experience-entry">
-      <div class="experience-logo-card">
-        <img src="images/autogeoai.png" alt="Autonomous GeoAI4Science logo">
-      </div>
-      <div class="experience-content">
-        <p class="experience-date">Jan. 2026 – Present</p>
-        <p class="experience-role">Founder</p>
-        <p class="experience-summary">An open research initiative advancing autonomous GeoAI agents for scientific discovery.</p>
-        <p class="experience-organization"><a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener noreferrer">Autonomous GeoAI4Science</a></p>
-      </div>
-    </article>
-
-    <article class="experience-entry">
-      <div class="experience-logo-card">
-        <img src="images/gearlab_logo.png" alt="GEAR Lab logo">
-      </div>
-      <div class="experience-content">
-        <p class="experience-date">Jan. 2025 – Present</p>
-        <p class="experience-role">Graduate Research Assistant</p>
-        <p class="experience-summary">Advisor: Prof. Lei Zou, GEAR Lab.</p>
-        <p class="experience-organization">Texas A&amp;M University</p>
       </div>
     </article>
 
