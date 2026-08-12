@@ -796,7 +796,7 @@ redirect_from:
 
     <article class="experience-entry">
       <div class="experience-logo-card">
-        <img src="images/idrt_logo.png" alt="IDRT logo">
+        <img src="images/idrt_logo.png?v=2" alt="IDRT logo">
       </div>
       <div class="experience-content">
         <p class="experience-date">Apr. 2026 – Aug. 2026</p>
