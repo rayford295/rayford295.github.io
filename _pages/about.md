@@ -777,7 +777,7 @@ redirect_from:
       <div class="experience-content">
         <p class="experience-date">Apr. 2026 – Aug. 2026</p>
         <p class="experience-role">Student Researcher</p>
-        <p class="experience-summary">Worked with Dr. Jooho Kim on disaster resilience research and data analytics.</p>
+        <p class="experience-summary">Advisor: <a href="https://scholar.google.com/citations?user=KQAEqFgAAAAJ&amp;hl=zh-CN&amp;oi=ao" target="_blank" rel="noopener noreferrer">Dr. Jooho Kim</a>.</p>
         <p class="experience-organization"><a href="https://idrt.tamu.edu/" target="_blank" rel="noopener noreferrer">Institute for a Disaster Resilient Texas (IDRT), Texas A&amp;M University</a></p>
       </div>
     </article>
