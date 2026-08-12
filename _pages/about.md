@@ -772,6 +772,18 @@ redirect_from:
 
     <article class="experience-entry">
       <div class="experience-logo-card">
+        <img src="images/idrt_logo.png" alt="IDRT logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Apr. 2026 – Aug. 2026</p>
+        <p class="experience-role">Student Researcher</p>
+        <p class="experience-summary">Worked with Dr. Jooho Kim on disaster resilience research and data analytics.</p>
+        <p class="experience-organization"><a href="https://idrt.tamu.edu/" target="_blank" rel="noopener noreferrer">Institute for a Disaster Resilient Texas (IDRT), Texas A&amp;M University</a></p>
+      </div>
+    </article>
+
+    <article class="experience-entry">
+      <div class="experience-logo-card">
         <img src="images/autogeoai.png" alt="Autonomous GeoAI4Science logo">
       </div>
       <div class="experience-content">
