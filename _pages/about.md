@@ -570,6 +570,15 @@ redirect_from:
 </div>
 
 <div class="news-item">
+  <div class="news-date">Aug 2026</div>
+  <div class="news-text">
+    Excited to share that our short paper <strong>“BEACON: Behavioral and Semantic Enrichment of AlphaEarth Embeddings through Tri-Modal Contrastive Learning”</strong>
+    has been accepted as a <a href="https://sigspatial2026.sigspatial.org/short-paper-accepted/" target="_blank" rel="noopener"><strong>short paper</strong></a> at <strong>ACM SIGSPATIAL 2026</strong>.
+    Congratulations to Hao Tian and Heng Cai, and many thanks to the SIGSPATIAL reviewers.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">Jul 2026</div>
   <div class="news-text">
     Honored to receive the <a href="https://cartogis.org/awards/students/" target="_blank" rel="noopener"><strong>2026 Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award</strong></a>
