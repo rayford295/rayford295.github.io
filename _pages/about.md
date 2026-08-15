@@ -1369,6 +1369,7 @@ redirect_from:
     <section class="honor-group">
       <h3 class="honor-year">2026</h3>
       <ul class="honor-list">
+        <li>Geography Graduate Student Enhancement Scholarship, Department of Geography, Texas A&amp;M University, $1,111.</li>
         <li>Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award, $1,000.</li>
         <li>AAG-GISSG Student Honors Paper Competition — 🥈 2nd Place, $350.</li>
         <li>AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1,200.</li>
