@@ -563,6 +563,14 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Aug 2026</div>
   <div class="news-text">
+    Honored to receive the <strong>2026 Geography Graduate Student Enhancement Scholarship</strong> from the <strong>Department of Geography, Texas A&amp;M University</strong>,
+    with <strong>$1,111</strong> in scholarship support. I am grateful to the department for supporting my graduate research and academic development.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Aug 2026</div>
+  <div class="news-text">
     Thrilled to share that our paper <strong>“RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery”</strong>
     has been accepted as a <a href="https://sigspatial2026.sigspatial.org/application-accepted/" target="_blank" rel="noopener"><strong>full Applications Track paper</strong></a> at the <strong>34th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL 2026)</strong>.
     The Applications Track accepted <a href="https://sigspatial2026.sigspatial.org/application-accepted/" target="_blank" rel="noopener"><strong>35 of 111 submissions (31.5%)</strong></a> as full papers. Huge thanks to my collaborators, mentors, and the SIGSPATIAL reviewers.
