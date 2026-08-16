@@ -205,6 +205,133 @@ redirect_from:
       margin: 0.25rem 0;
     }
 
+    #presentation .conference-footprint {
+      margin-top: 1.75rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e3e8ef;
+    }
+
+    #presentation .conference-footprint h3 {
+      margin: 0 0 0.8rem;
+      font-size: 0.98em;
+      font-weight: 750;
+      line-height: 1.3;
+    }
+
+    #presentation .conference-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    #presentation .conference-badges li {
+      margin: 0;
+    }
+
+    #presentation .conference-badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 3rem;
+      border: 1px solid #d8e0ea;
+      border-radius: 8px;
+      background: #fff;
+      color: #42484f;
+      text-decoration: none;
+      overflow: hidden;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    }
+
+    #presentation .conference-badge:hover,
+    #presentation .conference-badge:focus {
+      border-color: #9fb1c5;
+      box-shadow: 0 5px 14px rgba(15, 23, 42, 0.08);
+      color: #1f2933;
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    #presentation .conference-mark {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 3.25rem;
+      align-self: stretch;
+      padding: 0.35rem;
+      color: #fff;
+      font-size: 0.74rem;
+      font-weight: 800;
+      letter-spacing: 0;
+      line-height: 1;
+      text-align: center;
+    }
+
+    #presentation .conference-name {
+      display: block;
+      padding: 0.45rem 0.7rem 0.45rem 0.62rem;
+      font-size: 0.82rem;
+      font-weight: 700;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    #presentation .conference-years {
+      display: block;
+      margin-top: 0.12rem;
+      color: #66717d;
+      font-size: 0.74rem;
+      font-weight: 650;
+    }
+
+    #presentation .conference-badge--igarss .conference-mark {
+      background: #195e9f;
+    }
+
+    #presentation .conference-badge--stds .conference-mark {
+      background: #00856f;
+    }
+
+    #presentation .conference-badge--cagis .conference-mark {
+      background: #7a3f92;
+    }
+
+    #presentation .conference-badge--aag .conference-mark {
+      background: #c84b31;
+    }
+
+    #presentation .conference-badge--icc .conference-mark {
+      background: #2f6b4f;
+    }
+
+    #presentation .conference-badge--sdss .conference-mark {
+      background: #4567a8;
+    }
+
+    #presentation .conference-badge--agi .conference-mark {
+      background: #20242b;
+    }
+
+    #presentation .conference-badge--la .conference-mark {
+      background: #b2762d;
+    }
+
+    @media (max-width: 520px) {
+      #presentation .conference-badges {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      #presentation .conference-badge {
+        width: 100%;
+      }
+
+      #presentation .conference-name {
+        white-space: normal;
+      }
+    }
+
     .industry-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1253,6 +1380,59 @@ redirect_from:
         </li>
       </ul>
     </li>
+    </ul>
+  </div>
+  <div class="conference-footprint" aria-label="Conference footprint">
+    <h3>Conference Footprint</h3>
+    <ul class="conference-badges">
+      <li>
+        <a class="conference-badge conference-badge--igarss" href="https://2026.ieeeigarss.org/" target="_blank" rel="noopener">
+          <span class="conference-mark">IGARSS</span>
+          <span class="conference-name">IEEE IGARSS<span class="conference-years">2026</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="conference-badge conference-badge--stds" href="https://stds.stcenter.net/" target="_blank" rel="noopener">
+          <span class="conference-mark">STDS</span>
+          <span class="conference-name">Spatiotemporal Data Science<span class="conference-years">2024, 2026</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="conference-badge conference-badge--cagis" href="https://cartogis.org/conferences/cagis2026/" target="_blank" rel="noopener">
+          <span class="conference-mark">CaGIS</span>
+          <span class="conference-name">CaGIS Conference<span class="conference-years">2026</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="conference-badge conference-badge--aag" href="https://www.aag.org/events/aag2026/" target="_blank" rel="noopener">
+          <span class="conference-mark">AAG</span>
+          <span class="conference-name">AAG Annual Meeting<span class="conference-years">2024-2026</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="conference-badge conference-badge--icc" href="https://icc2025.com/" target="_blank" rel="noopener">
+          <span class="conference-mark">ICC</span>
+          <span class="conference-name">International Cartographic Conference<span class="conference-years">2025</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="conference-badge conference-badge--sdss" href="https://spatial-data-science.net/" target="_blank" rel="noopener">
+          <span class="conference-mark">SDSS</span>
+          <span class="conference-name">Spatial Data Science Symposium<span class="conference-years">2024</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="conference-badge conference-badge--agi" href="https://superagi.com/agi-leap-summit/" target="_blank" rel="noopener">
+          <span class="conference-mark">AGI</span>
+          <span class="conference-name">AGI Leap Summit<span class="conference-years">2024</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="conference-badge conference-badge--la" href="https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit/" target="_blank" rel="noopener">
+          <span class="conference-mark">LA Geo</span>
+          <span class="conference-name">LA Geospatial Summit<span class="conference-years">2024</span></span>
+        </a>
+      </li>
     </ul>
   </div>
 </section>
