@@ -997,7 +997,7 @@ redirect_from:
       <img src="images/rapid_framework.png" alt="RAPID Framework" width="75%">
     </div>
     <div class="paper-box-text">
-      <a href="https://arxiv.org/abs/2606.21819"
+      <a href="https://doi.org/10.1145/3841645.3843346"
          target="_blank" rel="noopener">
         RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery
       </a>
@@ -1012,6 +1012,10 @@ redirect_from:
         <a href="https://sigspatial2026.sigspatial.org/application-accepted/"
            target="_blank" rel="noopener"
            class="paper-link link-doi">🔗 Conference</a>
+
+        <a href="https://doi.org/10.1145/3841645.3843346"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">🔗 DOI</a>
 
         <a href="https://github.com/rayford295/RAPID"
            target="_blank" rel="noopener"
