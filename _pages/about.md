@@ -656,8 +656,7 @@ redirect_from:
   <div class="news-date">Aug 2026</div>
   <div class="news-text">
     Thrilled to share that our paper <strong>“RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery”</strong>
-    has been accepted as a <a href="https://sigspatial2026.sigspatial.org/application-accepted/" target="_blank" rel="noopener"><strong>full Applications Track paper</strong></a> at the <strong>34th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL 2026)</strong>.
-    The Applications Track accepted <a href="https://sigspatial2026.sigspatial.org/application-accepted/" target="_blank" rel="noopener"><strong>35 of 111 submissions (31.5%)</strong></a> as full papers. Huge thanks to my collaborators, mentors, and the SIGSPATIAL reviewers.
+    has been accepted as a <a href="https://sigspatial2026.sigspatial.org/application-accepted/" target="_blank" rel="noopener"><strong>full Applications Track paper</strong></a> at the <strong>34th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL 2026)</strong> after a highly competitive review process. Huge thanks to my collaborators, mentors, and the SIGSPATIAL reviewers.
   </div>
 </div>
 
