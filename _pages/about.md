@@ -1560,6 +1560,10 @@ redirect_from:
   <h2>👔 Professional Activities and Service</h2>
     <ul>
     <li>
+      <em>Social Media Outreach Representative</em>, <em>Annals of GIS</em>, 2025 – present
+      (responsible for promoting the journal on X)
+    </li>
+    <li>
       <em>Communications Fellow</em>,
       <a href="/assets/GeoSAT_Certificate_Yifan_Yang.pdf" target="_blank" rel="noopener">GeoSAT Student Fellowship Program</a>, 2026 – 2027
     </li>
