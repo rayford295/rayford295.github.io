@@ -1494,7 +1494,7 @@ redirect_from:
     <section class="honor-group">
       <h3 class="honor-year">2026</h3>
       <ul class="honor-list">
-        <li><a href="/assets/GeoSAT_Certificate_Yifan_Yang.pdf" target="_blank" rel="noopener">GeoSAT Student Fellowship Program</a> — Communications Fellow, 2026–2027.</li>
+        <li>GeoSAT Student Fellowship Program — Communications Fellow, 2026–2027, $500.</li>
         <li>Geography Graduate Student Enhancement Scholarship, Department of Geography, Texas A&amp;M University, $1,111.</li>
         <li>Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award, $1,000.</li>
         <li>AAG-GISSG Student Honors Paper Competition — 🥈 2nd Place, $350.</li>
