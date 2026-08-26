@@ -650,10 +650,6 @@ redirect_from:
     Honored to be selected as a <strong>Communications Fellow</strong> for the
     <a href="/assets/GeoSAT_Certificate_Yifan_Yang.pdf" target="_blank" rel="noopener"><strong>GeoSAT Student Fellowship Program</strong></a>
     for the 2026–2027 academic year.
-    I will share the role with <strong>Wenyu Zhang</strong>, with a <strong>$500 stipend</strong>
-    for each fellow. I look forward to supporting GeoSAT’s communications and outreach,
-    drawing on my experience managing social media outreach for <em>Annals of GIS</em>
-    and my network across AAG specialty groups.
   </div>
 </div>
 
