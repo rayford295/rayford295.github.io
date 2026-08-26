@@ -1560,8 +1560,8 @@ redirect_from:
   <h2>👔 Professional Activities and Service</h2>
     <ul>
     <li>
-      <em>Social Media Outreach Representative</em>, <em>Annals of GIS</em>, 2025 – present
-      (responsible for promoting the journal on X)
+      <em>Social Media Outreach Representative</em>,
+      <a href="https://www.tandfonline.com/journals/tagi20" target="_blank" rel="noopener" style="text-decoration: underline;"><em>Annals of GIS</em></a>, 2025 – now
     </li>
     <li>
       <em>Communications Fellow</em>,
