@@ -647,6 +647,19 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Aug 2026</div>
   <div class="news-text">
+    Honored to be selected as a <strong>Communications Fellow</strong> for the
+    <a href="/assets/GeoSAT_Certificate_Yifan_Yang.pdf" target="_blank" rel="noopener"><strong>GeoSAT Student Fellowship Program</strong></a>
+    for the 2026–2027 academic year.
+    I will share the role with <strong>Wenyu Zhang</strong>, with a <strong>$500 stipend</strong>
+    for each fellow. I look forward to supporting GeoSAT’s communications and outreach,
+    drawing on my experience managing social media outreach for <em>Annals of GIS</em>
+    and my network across AAG specialty groups.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Aug 2026</div>
+  <div class="news-text">
     Honored to receive the <strong>2026 Geography Graduate Student Enhancement Scholarship</strong> from the <strong>Department of Geography, Texas A&amp;M University</strong>,
     with <strong>$1,111</strong> in scholarship support. I am grateful to the department for supporting my graduate research and academic development.
   </div>
