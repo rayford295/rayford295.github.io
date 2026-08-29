@@ -1159,11 +1159,11 @@ redirect_from:
   </div>
 
 
-  <!-- ICC Conference Paper -->
+  <!-- ICC Conference Abstract -->
   <div class="paper-box" data-publication-year="2025">
     <div class="paper-box-image">
-      <div class="badge">Conference Paper</div>
-      <img src="images/disasterVLP.png" alt="DisasterVLP Conference Paper" width="75%">
+      <div class="badge">Conference Abstract</div>
+      <img src="images/disasterVLP.png" alt="DisasterVLP Conference Abstract" width="75%">
     </div>
     <div class="paper-box-text">
       <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
