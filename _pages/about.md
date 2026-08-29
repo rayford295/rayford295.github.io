@@ -1001,7 +1001,7 @@ redirect_from:
   <!-- RAPIDMap CaGIS Abstract -->
   <div class="paper-box" data-publication-year="2026">
     <div class="paper-box-image">
-      <div class="badge">Conference Abstract</div>
+      <div class="badge">Conference Proceedings</div>
       <img src="images/rapidmap_cagis.png" alt="RAPIDMap disaster mapping results" width="75%">
     </div>
     <div class="paper-box-text">
@@ -1027,7 +1027,7 @@ redirect_from:
   <!-- RAPID Paper -->
   <div class="paper-box" data-publication-year="2026">
     <div class="paper-box-image">
-      <div class="badge">Conference Paper</div>
+      <div class="badge">Conference Proceedings</div>
       <img src="images/rapid_framework.png" alt="RAPID Framework" width="75%">
     </div>
     <div class="paper-box-text">
@@ -1061,7 +1061,7 @@ redirect_from:
   <!-- Satellite-to-Street Paper -->
 <div class="paper-box" data-publication-year="2026">
   <div class="paper-box-image">
-    <div class="badge">Conference Paper</div>
+    <div class="badge">Conference Proceedings</div>
     <img src="images/3rd_RS2SVI.png" alt="Satellite-to-Street Framework" width="75%">
   </div>
   <div class="paper-box-text">
@@ -1162,7 +1162,7 @@ redirect_from:
   <!-- ICC Conference Abstract -->
   <div class="paper-box" data-publication-year="2025">
     <div class="paper-box-image">
-      <div class="badge">Conference Abstract</div>
+      <div class="badge">Conference Proceedings</div>
       <img src="images/disasterVLP.png" alt="DisasterVLP Conference Abstract" width="75%">
     </div>
     <div class="paper-box-text">
