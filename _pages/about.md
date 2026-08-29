@@ -1015,7 +1015,7 @@ redirect_from:
       <div class="paper-links">
         <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Paper</a>
+           class="paper-link link-paper">📄 Abstract</a>
 
         <a href="https://cartogis.org/conferences/cagis2026/"
            target="_blank" rel="noopener"
@@ -1179,7 +1179,7 @@ redirect_from:
       <div class="paper-links">
         <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Paper</a>
+           class="paper-link link-paper">📄 Abstract</a>
 
         <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
            target="_blank" rel="noopener"
@@ -1212,7 +1212,7 @@ redirect_from:
       <div class="paper-links">
         <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Paper</a>
+           class="paper-link link-paper">📘 Book</a>
 
         <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
            target="_blank" rel="noopener"
