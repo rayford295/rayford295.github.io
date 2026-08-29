@@ -998,6 +998,32 @@ redirect_from:
     <button class="publication-filter" type="button" data-publication-filter="2024" aria-pressed="false">2024</button>
   </div>
 
+  <!-- RAPIDMap CaGIS Abstract -->
+  <div class="paper-box" data-publication-year="2026">
+    <div class="paper-box-image">
+      <div class="badge">Conference Abstract</div>
+      <img src="images/rapidmap_cagis.png" alt="RAPIDMap disaster mapping results" width="75%">
+    </div>
+    <div class="paper-box-text">
+      <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
+         target="_blank" rel="noopener">
+        RAPIDMap: Rapid Multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery
+      </a>
+      — <strong>Yang, Yifan</strong>, Lei Zou.<br>
+      <em>CaGIS Conference 2026</em>, September 8–11, 2026, St. Louis, MO, USA.
+
+      <div class="paper-links">
+        <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
+           target="_blank" rel="noopener"
+           class="paper-link link-paper">📄 Abstract</a>
+
+        <a href="https://cartogis.org/conferences/cagis2026/"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">🔗 CaGIS 2026</a>
+      </div>
+    </div>
+  </div>
+
   <!-- RAPID Paper -->
   <div class="paper-box" data-publication-year="2026">
     <div class="paper-box-image">
