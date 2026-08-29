@@ -1179,7 +1179,7 @@ redirect_from:
       <div class="paper-links">
         <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Paper</a>
+           class="paper-link link-paper">📄 Abstract</a>
 
         <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
            target="_blank" rel="noopener"
