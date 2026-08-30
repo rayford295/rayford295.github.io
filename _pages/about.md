@@ -1001,7 +1001,7 @@ redirect_from:
   <!-- RAPIDMap CaGIS Abstract -->
   <div class="paper-box" data-publication-year="2026">
     <div class="paper-box-image">
-      <div class="badge">Conference</div>
+      <div class="badge">Conference Proceedings</div>
       <img src="images/rapidmap_cagis.png" alt="RAPIDMap disaster mapping results" width="75%">
     </div>
     <div class="paper-box-text">
