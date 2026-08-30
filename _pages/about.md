@@ -1019,7 +1019,7 @@ redirect_from:
 
         <a href="https://cartogis.org/conferences/cagis2026/"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 CaGIS 2026</a>
+           class="paper-link link-doi">🔗 Conference</a>
 
         <a href="https://github.com/rayford295/RAPID"
            target="_blank" rel="noopener"
