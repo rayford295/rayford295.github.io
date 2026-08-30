@@ -1001,7 +1001,7 @@ redirect_from:
   <!-- RAPIDMap CaGIS Abstract -->
   <div class="paper-box" data-publication-year="2026">
     <div class="paper-box-image">
-      <div class="badge">Conference Proceedings</div>
+      <div class="badge">Conference</div>
       <img src="images/rapidmap_cagis.png" alt="RAPIDMap disaster mapping results" width="75%">
     </div>
     <div class="paper-box-text">
@@ -1020,6 +1020,10 @@ redirect_from:
         <a href="https://cartogis.org/conferences/cagis2026/"
            target="_blank" rel="noopener"
            class="paper-link link-doi">🔗 CaGIS 2026</a>
+
+        <a href="https://github.com/rayford295/RAPID"
+           target="_blank" rel="noopener"
+           class="paper-link link-code">💻 GitHub</a>
       </div>
     </div>
   </div>
