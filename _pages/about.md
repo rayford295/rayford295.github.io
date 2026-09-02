@@ -645,6 +645,16 @@ redirect_from:
   <div class="news-container">
 
 <div class="news-item">
+  <div class="news-date">Sep 2026</div>
+  <div class="news-text">
+    Honored to serve on the <strong>Program Committee</strong> of
+    <a href="https://geosearch-workshop.github.io/geosearch2026/" target="_blank" rel="noopener"><strong>GeoSearch 2026</strong></a>,
+    the <strong>5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data</strong>,
+    held in conjunction with <strong>ACM SIGSPATIAL 2026</strong> on <strong>November 3, 2026</strong>.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">Aug 2026</div>
   <div class="news-text">
     Honored to be selected as a <strong>Communications Fellow</strong> for the
