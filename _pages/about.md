@@ -1600,6 +1600,10 @@ redirect_from:
   <h2>👔 Professional Activities and Service</h2>
     <ul>
     <li>
+      <em>Program Committee Member</em>,
+      <a href="https://geosearch-workshop.github.io/geosearch2026/" target="_blank" rel="noopener">GeoSearch 2026: 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data</a>, 2026
+    </li>
+    <li>
       <em>Social Media Outreach Representative</em>,
       <a href="https://www.tandfonline.com/journals/tagi20" target="_blank" rel="noopener" style="text-decoration: underline;"><em>Annals of GIS</em></a>, 2025 – now
     </li>
