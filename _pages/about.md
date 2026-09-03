@@ -1031,6 +1031,10 @@ redirect_from:
            target="_blank" rel="noopener"
            class="paper-link link-doi">🔗 Conference</a>
 
+        <a href="https://doi.org/10.48550/arXiv.2609.00046"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">🔗 DOI</a>
+
         <a href="https://github.com/rayford295/RAPID"
            target="_blank" rel="noopener"
            class="paper-link link-code">💻 GitHub</a>
