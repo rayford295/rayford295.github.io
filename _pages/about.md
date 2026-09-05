@@ -580,7 +580,11 @@ redirect_from:
 <p>
   📄 <strong>Curriculum Vitae:</strong> 
   <a href="/resume/Yifan_Yang_CV.pdf" target="_blank">
-    View CV
+    View CV (PDF)
+  </a>
+  ·
+  <a href="/resume/Yifan_Yang_CV.docx">
+    Word
   </a>
 </p>
 
