@@ -75,6 +75,8 @@ layout: compress
     }
   </style>
 
+  {{ content }}
+
   {% if page.full_profile %}
     {% assign section_start = '<section id="about-me">' %}
     {% assign section_body = profile_page.content | split: section_start | last %}
