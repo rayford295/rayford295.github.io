@@ -21,7 +21,6 @@ next_section_id: industry-engagement
     <li>
       <strong>2025–Present</strong> —
       <a href="https://cartogis.org/" target="_blank" rel="noopener noreferrer">Cartography and Geographic Information Society (CaGIS)</a>
-      <span> (Student Member)</span>
     </li>
     <li>
       <strong>2024–Present</strong> —
