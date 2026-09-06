@@ -1723,6 +1723,14 @@ redirect_from:
       </p>
     </li>
     <li>
+      <a href="https://tamids.tamu.edu/2025/07/18/tamids-announces-2025-2026-cohort-of-student-ambassadors/" target="_blank" rel="noopener">
+        📊 TAMIDS Announces 2025-2026 Cohort of Student Ambassadors.
+      </a>
+      <p style="margin-left: 1em;">
+        Recognized as a Data Science Student Ambassador in the Texas A&amp;M Institute of Data Science (TAMIDS) 2025–2026 cohort.
+      </p>
+    </li>
+    <li>
       <a href="https://engineering.tamu.edu/news/2024/09/throwing-shade-at-heatwaves.html" target="_blank" rel="noopener">
         🌡️ TAMU Engineering News: “Throwing Shade at Heatwaves.”
       </a>
