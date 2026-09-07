@@ -1660,7 +1660,7 @@ redirect_from:
     <li><em>Journal of Transport Geography</em></li>
     <li><em>32nd SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026) – AI for Sciences Track</em></li>
     <li><em>International Journal of Remote Sensing</em></li>
-    <li><em><a href="https://geosearch-workshop.github.io/geosearch2026/" target="_blank" rel="noopener">GeoSearch 2026: 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data</a></em></li>
+    <li><em>GeoSearch 2026: 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data</em></li>
   </ul>
 </li>
   </ul>
