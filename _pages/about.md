@@ -648,6 +648,21 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Sep 2026</div>
   <div class="news-text">
+    Thrilled to share that our poster <strong>“Optimizing HPC Performance for CDC-Based Storage and Reconstruction of High-Resolution Imagery”</strong>
+    has been accepted to the <a href="https://sc26.supercomputing.org/program/posters" target="_blank" rel="noopener"><strong>Poster Session</strong></a>
+    at <strong>SC26</strong>, the <strong>International Conference for High Performance Computing, Networking, Storage, and Analysis</strong>,
+    to be held in <strong>Chicago, Illinois</strong> in <strong>November 2026</strong>.
+    This work grew out of my time as a <strong>Student Researcher</strong> at the
+    <a href="https://idrt.tamu.edu/" target="_blank" rel="noopener"><strong>Institute for a Disaster Resilient Texas (IDRT), Texas A&amp;M University</strong></a>,
+    working with <a href="https://scholar.google.com/citations?user=KQAEqFgAAAAJ&amp;hl=zh-CN&amp;oi=ao" target="_blank" rel="noopener"><strong>Dr. Jooho Kim</strong></a>.
+    Code and figures are available on the
+    <a href="https://rayford295.github.io/drone-compression-hpc/" target="_blank" rel="noopener"><strong>project page</strong></a>.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Sep 2026</div>
+  <div class="news-text">
     Honored to serve on the <strong>Program Committee</strong> of
     <a href="https://geosearch-workshop.github.io/geosearch2026/" target="_blank" rel="noopener"><strong>GeoSearch 2026</strong></a>,
     the <strong>5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data</strong>,
