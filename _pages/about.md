@@ -975,66 +975,40 @@ redirect_from:
 </section>
 
 <section id="teaching">
-  <div class="teaching-heading">
-    <p class="teaching-kicker">Teaching &amp; mentorship</p>
-    <h2>Teaching</h2>
-    <p class="teaching-intro">Courses, labs, and practical workshops at Texas A&amp;M University.</p>
-  </div>
+  <h2>🖥 Teaching</h2>
 
-  <div class="teaching-list">
-    <article class="teaching-card">
-      <header class="teaching-card__header">
-        <div class="teaching-card__logo">
-          <img src="images/tamu_logo.webp" alt="Texas A&amp;M University logo">
-        </div>
-        <div>
-          <p class="teaching-card__period">Aug. 2024 – Dec. 2024</p>
-          <h3>Graduate Teaching Assistant</h3>
-          <p class="teaching-card__institution">Texas A&amp;M University</p>
-        </div>
-      </header>
-      <div class="teaching-card__body">
-        <p class="teaching-card__label">Course support</p>
-        <p>GEOG 232 · Lab sections 501, 502, and 505</p>
+  <div class="experience-timeline" aria-label="Teaching history">
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/tamu_logo.webp" alt="Texas A&amp;M University logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">Aug. 2024 – Dec. 2024</p>
+        <p class="experience-role">Graduate Teaching Assistant</p>
+        <p class="experience-summary">GEOG 232 · Lab sections 501, 502, and 505.</p>
+        <p class="experience-organization">Texas A&amp;M University</p>
       </div>
     </article>
 
-    <article class="teaching-card teaching-card--lecturer">
-      <header class="teaching-card__header">
-        <div class="teaching-card__logo">
-          <img src="images/tamu_logo.webp" alt="Texas A&amp;M University logo">
-        </div>
-        <div>
-          <p class="teaching-card__period">2025 – 2026</p>
-          <h3>Guest Lecturer</h3>
-          <p class="teaching-card__institution">Texas A&amp;M University</p>
-        </div>
-      </header>
-      <div class="teaching-card__body">
-        <p class="teaching-card__label">Selected lectures and labs</p>
-        <ul class="teaching-courses">
-          <li>
-            <span class="teaching-course__term">Spring 2026 · GEOG 475</span>
-            <span class="teaching-course__title">Advanced GIS</span>
-            <span class="teaching-course__detail">Geographically Weighted Regression (GWR)
-              <a class="teaching-course__link" href="https://github.com/rayford295/Tutorial_Geographically-Weighted-Regression" target="_blank" rel="noopener" aria-label="Open the GEOG 475 tutorial">View tutorial <span aria-hidden="true">↗</span></a>
-            </span>
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/tamu_logo.webp" alt="Texas A&amp;M University logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-date">2025 – 2026</p>
+        <p class="experience-role">Guest Lecturer</p>
+        <ul class="teaching-course-list">
+          <li>GEOG 475: Advanced GIS, Spring 2026 — Geographically Weighted Regression (GWR)
+            <a href="https://github.com/rayford295/Tutorial_Geographically-Weighted-Regression" target="_blank" rel="noopener" aria-label="Open the GEOG 475 tutorial">💻</a>
           </li>
-          <li>
-            <span class="teaching-course__term">Fall 2025 · GEOG 659</span>
-            <span class="teaching-course__title">GeoDatabase</span>
-            <span class="teaching-course__detail">Spatial Query Lab: Interactive Spatial SQL &amp; PostGIS
-              <a class="teaching-course__link" href="https://github.com/rayford295/Tutorial_SpatialQueryLab" target="_blank" rel="noopener" aria-label="Open the GEOG 659 tutorial">View tutorial <span aria-hidden="true">↗</span></a>
-            </span>
+          <li>GEOG 659: GeoDatabase, Fall 2025 — Spatial Query Lab: Interactive Spatial SQL &amp; PostGIS
+            <a href="https://github.com/rayford295/Tutorial_SpatialQueryLab" target="_blank" rel="noopener" aria-label="Open the GEOG 659 tutorial">💻</a>
           </li>
-          <li>
-            <span class="teaching-course__term">Spring 2026 · GEOG 476</span>
-            <span class="teaching-course__title">GIS Practicum</span>
-            <span class="teaching-course__detail">Git, GitHub &amp; Personal Websites for GIS Researchers
-              <a class="teaching-course__link" href="https://github.com/rayford295/Tutorial_Github4GIS" target="_blank" rel="noopener" aria-label="Open the GEOG 476 tutorial">View tutorial <span aria-hidden="true">↗</span></a>
-            </span>
+          <li>GEOG 476: GIS Practicum, Spring 2026 — Git, GitHub &amp; Personal Websites for GIS Researchers
+            <a href="https://github.com/rayford295/Tutorial_Github4GIS" target="_blank" rel="noopener" aria-label="Open the GEOG 476 tutorial">💻</a>
           </li>
         </ul>
+        <p class="experience-organization">Texas A&amp;M University</p>
       </div>
     </article>
   </div>
