@@ -17,7 +17,7 @@ layout: compress
     <div id="main" role="main">
       {% include sidebar.html %}
 
-      <article class="page section-page" itemscope itemtype="http://schema.org/CreativeWork">
+      <article class="page section-page section-page--{{ page.section_id }}" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
@@ -52,11 +52,200 @@ layout: compress
     .section-page #media-coverage h2 {
       margin-bottom: 1.2em;
     }
-    .section-page #teaching .item {
-      margin-bottom: 1.8em;
+    .section-page--teaching #teaching {
+      --teaching-ink: #28323a;
+      --teaching-muted: #6b7781;
+      --teaching-line: #e5e9ed;
+      --teaching-accent: #7a1f2b;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: clamp(1.5rem, 3vw, 3rem) clamp(1rem, 3vw, 2.5rem) 2rem;
+      border: 1px solid var(--teaching-line);
+      border-radius: 1.25rem;
+      background: linear-gradient(145deg, #ffffff 0%, #fbfcfd 100%);
+      box-shadow: 0 16px 42px rgba(32, 45, 56, 0.08);
     }
-    .section-page #teaching .item .text {
-      line-height: 1.8;
+    .section-page--teaching #teaching .teaching-heading {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(220px, .55fr);
+      column-gap: 2rem;
+      align-items: end;
+      margin-bottom: 2rem;
+      padding-bottom: 1.35rem;
+      border-bottom: 1px solid var(--teaching-line);
+    }
+    .section-page--teaching #teaching .teaching-kicker {
+      grid-column: 1 / -1;
+      margin: 0 0 .55rem;
+      color: var(--teaching-accent);
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .section-page--teaching #teaching h2 {
+      margin: 0;
+      color: var(--teaching-ink);
+      font-size: clamp(1.65rem, 3vw, 2.25rem);
+      letter-spacing: -.03em;
+    }
+    .section-page--teaching #teaching .teaching-intro {
+      margin: 0;
+      color: var(--teaching-muted);
+      font-size: .95rem;
+      line-height: 1.65;
+    }
+    .section-page--teaching #teaching .teaching-list {
+      display: grid;
+      gap: 1.15rem;
+    }
+    .section-page--teaching #teaching .teaching-card {
+      overflow: hidden;
+      border: 1px solid var(--teaching-line);
+      border-radius: .95rem;
+      background: #fff;
+      box-shadow: 0 7px 18px rgba(32, 45, 56, 0.055);
+    }
+    .section-page--teaching #teaching .teaching-card__header {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      padding: 1.15rem 1.25rem 1rem;
+    }
+    .section-page--teaching #teaching .teaching-card__logo {
+      display: grid;
+      flex: 0 0 3.5rem;
+      place-items: center;
+      width: 3.5rem;
+      height: 3.5rem;
+      border: 1px solid #eadfe1;
+      border-radius: .8rem;
+      background: #fffafa;
+    }
+    .section-page--teaching #teaching .teaching-card__logo img {
+      width: 2.65rem;
+      height: 2.65rem;
+      object-fit: contain;
+    }
+    .section-page--teaching #teaching .teaching-card__period,
+    .section-page--teaching #teaching .teaching-card__institution,
+    .section-page--teaching #teaching .teaching-card__label,
+    .section-page--teaching #teaching .teaching-card__body p {
+      margin: 0;
+    }
+    .section-page--teaching #teaching .teaching-card__period {
+      color: var(--teaching-accent);
+      font-size: .74rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .section-page--teaching #teaching .teaching-card h3 {
+      margin: .2rem 0 .15rem;
+      color: var(--teaching-ink);
+      font-size: 1.1rem;
+    }
+    .section-page--teaching #teaching .teaching-card__institution {
+      color: var(--teaching-muted);
+      font-size: .9rem;
+    }
+    .section-page--teaching #teaching .teaching-card__body {
+      padding: 1rem 1.25rem 1.2rem;
+      border-top: 1px solid var(--teaching-line);
+      color: var(--teaching-ink);
+      font-size: .94rem;
+      line-height: 1.65;
+    }
+    .section-page--teaching #teaching .teaching-card__label {
+      margin-bottom: .7rem;
+      color: var(--teaching-muted);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .section-page--teaching #teaching .teaching-courses {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: .75rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .section-page--teaching #teaching .teaching-courses li {
+      display: flex;
+      flex-direction: column;
+      gap: .3rem;
+      margin: 0;
+      padding: .85rem;
+      border: 1px solid #edf0f2;
+      border-radius: .7rem;
+      background: #fbfcfd;
+    }
+    .section-page--teaching #teaching .teaching-course__term {
+      color: var(--teaching-accent);
+      font-size: .69rem;
+      font-weight: 700;
+      letter-spacing: .05em;
+      line-height: 1.35;
+      text-transform: uppercase;
+    }
+    .section-page--teaching #teaching .teaching-course__title {
+      color: var(--teaching-ink);
+      font-weight: 700;
+      line-height: 1.35;
+    }
+    .section-page--teaching #teaching .teaching-course__detail {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      gap: .55rem;
+      color: var(--teaching-muted);
+      font-size: .84rem;
+      line-height: 1.5;
+    }
+    .section-page--teaching #teaching .teaching-course__link {
+      align-self: flex-start;
+      color: var(--teaching-accent);
+      font-size: .78rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .section-page--teaching #teaching .teaching-course__link:hover,
+    .section-page--teaching #teaching .teaching-course__link:focus-visible {
+      text-decoration: underline;
+    }
+    @media (max-width: 760px) {
+      .section-page--teaching #teaching .teaching-heading {
+        display: block;
+      }
+      .section-page--teaching #teaching .teaching-intro {
+        margin-top: .7rem;
+      }
+      .section-page--teaching #teaching .teaching-courses {
+        grid-template-columns: 1fr;
+      }
+    }
+    [data-theme="dark"] .section-page--teaching #teaching {
+      --teaching-ink: #edf2f5;
+      --teaching-muted: #aeb9c2;
+      --teaching-line: #35414b;
+      --teaching-accent: #e5a6ae;
+      background: linear-gradient(145deg, #1a2025 0%, #151a1e 100%);
+      box-shadow: 0 16px 42px rgba(0, 0, 0, 0.24);
+    }
+    [data-theme="dark"] .section-page--teaching #teaching .teaching-card {
+      border-color: var(--teaching-line);
+      background: #20272d;
+      box-shadow: none;
+    }
+    [data-theme="dark"] .section-page--teaching #teaching .teaching-card__logo {
+      border-color: #4d3f42;
+      background: #fffafa;
+    }
+    [data-theme="dark"] .section-page--teaching #teaching .teaching-courses li {
+      border-color: #35414b;
+      background: #1a2025;
     }
     .section-page #industry-engagement > ul,
     .section-page #media-coverage > ul {
