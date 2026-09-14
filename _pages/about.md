@@ -2101,7 +2101,7 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       <img src="/hobby/hansen.jpg" alt="Yang Hansen trading card" loading="lazy" decoding="async">
       <figcaption>
         <strong>Yang Hansen</strong>
-        <span>球衣物料</span>
+        <span>Jersey Relic</span>
       </figcaption>
     </figure>
     <figure class="hobby-card">
