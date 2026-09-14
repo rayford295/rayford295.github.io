@@ -2100,7 +2100,7 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
     <figure class="hobby-card">
       <img src="/hobby/hansen.jpg" alt="Yang Hansen trading card" loading="lazy" decoding="async">
       <figcaption>
-        <strong>Cards</strong>
+        <strong>Yang Hansen</strong>
         <span>Collecting players and stories on cardboard.</span>
       </figcaption>
     </figure>
@@ -2118,14 +2118,14 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
         <span>Marcus Smart, Memphis Grizzlies.</span>
       </figcaption>
     </figure>
-    <figure class="hobby-card">
+    <figure class="hobby-card hobby-card--portrait">
       <img src="/hobby/lionel-messi-071-825.jpg" alt="Lionel Messi Road to FIFA World Cup 2026 trading card, serial numbered 071/825" loading="lazy" decoding="async">
       <figcaption>
         <strong>Lionel Messi</strong>
         <span>Road to FIFA World Cup 2026, 071/825.</span>
       </figcaption>
     </figure>
-    <figure class="hobby-card">
+    <figure class="hobby-card hobby-card--portrait">
       <img src="/hobby/tomas-hubschman-autograph.jpg" alt="Tomas Hübschman Czechia signed Road to FIFA World Cup 2026 trading card" loading="lazy" decoding="async">
       <figcaption>
         <strong>Autographed Card</strong>
