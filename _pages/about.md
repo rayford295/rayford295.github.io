@@ -2102,6 +2102,7 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       <figcaption>
         <strong>Yang Hansen</strong>
         <span>Jersey Relic</span>
+        <span>Gifted to Love.</span>
       </figcaption>
     </figure>
     <figure class="hobby-card hobby-card--portrait">
