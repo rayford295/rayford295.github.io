@@ -2104,6 +2104,13 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
         <span>Jersey Relic</span>
       </figcaption>
     </figure>
+    <figure class="hobby-card hobby-card--portrait">
+      <img src="/hobby/kylian-mbappe-177-299.jpg" alt="Kylian Mbappé Real Madrid trading card, serial numbered 177/299" loading="lazy" decoding="async">
+      <figcaption>
+        <strong>Kylian Mbappé</strong>
+        <span>Real Madrid, 177/299.</span>
+      </figcaption>
+    </figure>
     <figure class="hobby-card">
       <img src="/hobby/marcus-smart-relic.jpg" alt="Marcus Smart Memphis Grizzlies game-used relic trading card" loading="lazy" decoding="async">
       <figcaption>
