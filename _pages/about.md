@@ -648,6 +648,15 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Sep 2026</div>
   <div class="news-text">
+    Our abstract <strong>“GATES: A Geothermal Acceptance Tracking and Evaluation System Using Multi-Source Social Sensing”</strong>
+    has been accepted for an oral/poster presentation at the <strong>10th Annual Texas A&amp;M Conference on Energy</strong>
+    in College Station, Texas, on <strong>September 25, 2026</strong>.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Sep 2026</div>
+  <div class="news-text">
     Our poster <strong>“Optimizing HPC Performance for CDC-Based Storage and Reconstruction of High-Resolution Imagery”</strong>
     has been accepted to the <a href="https://sc26.supercomputing.org/program/posters" target="_blank" rel="noopener"><strong>SC26 Poster Session</strong></a>
     (Chicago, November 2026), from my time as a Student Researcher at the
