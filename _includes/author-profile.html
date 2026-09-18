@@ -120,6 +120,9 @@
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
+      {% if author.alphaxiv %}
+        <li><a href="{{ author.alphaxiv }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> AlphaXiv</a></li>
+      {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
       {% endif %}
@@ -214,6 +217,9 @@
       {% endif %}
       {% if author.googlescholar %}
         <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
+      {% endif %}
+      {% if author.alphaxiv %}
+        <a href="{{ author.alphaxiv }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.pubmed %}
         <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i></a>
