@@ -1646,7 +1646,7 @@ redirect_from:
     <ul>
     <li>
       <em>Student Director</em>,
-      <a href="https://www.aag.org/groups/geographic-information-science-and-systems/" target="_blank" rel="noopener">AAG Geographic Information Science and Systems (GISS) Specialty Group</a>, 2026 – Present
+      <a href="https://www.aag.org/groups/geographic-information-science-and-systems/" target="_blank" rel="noopener">AAG Geographic Information Science and Systems (GISS) Specialty Group</a>, 2026 – 2027
     </li>
     <li>
       <em>Program Committee Member</em>,
