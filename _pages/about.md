@@ -648,6 +648,14 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Sep 2026</div>
   <div class="news-text">
+    Honored to serve as the <strong>Student Director</strong> on the newly elected Board of Directors of the
+    <a href="https://www.aag.org/groups/geographic-information-science-and-systems/" target="_blank" rel="noopener"><strong>AAG Geographic Information Science and Systems (GISS) Specialty Group</strong></a>.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Sep 2026</div>
+  <div class="news-text">
     Our abstract <strong>“GATES: A Geothermal Acceptance Tracking and Evaluation System Using Multi-Source Social Sensing”</strong>
     has been accepted for an oral/poster presentation at the <strong>10th Annual Texas A&amp;M Conference on Energy</strong>
     in College Station, Texas, on <strong>September 25, 2026</strong>.
@@ -1636,6 +1644,10 @@ redirect_from:
 <section id="professional-activities-and-service">
   <h2>👔 Professional Activities and Service</h2>
     <ul>
+    <li>
+      <em>Student Director</em>,
+      <a href="https://www.aag.org/groups/geographic-information-science-and-systems/" target="_blank" rel="noopener">AAG Geographic Information Science and Systems (GISS) Specialty Group</a>, 2026 – Present
+    </li>
     <li>
       <em>Program Committee Member</em>,
       <a href="https://geosearch-workshop.github.io/geosearch2026/" target="_blank" rel="noopener">GeoSearch 2026: 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data</a>, 2026
