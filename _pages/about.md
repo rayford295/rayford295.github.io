@@ -1816,7 +1816,7 @@ redirect_from:
     <li>
       <strong>
         <a href="https://mp.weixin.qq.com/s/vMM1a9wQ_ry1chNy58x0pA" target="_blank" rel="noopener">
-          借我一抹潘帕斯的蓝｜足球人生
+          A Touch of Pampa Blue | A Football Life
         </a>
       </strong>
       — <em>Featured Essay, July 2026</em>

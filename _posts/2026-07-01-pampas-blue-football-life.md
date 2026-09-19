@@ -1,5 +1,5 @@
 ---
-title: "借我一抹潘帕斯的蓝｜足球人生"
+title: "A Touch of Pampa Blue | A Football Life"
 date: 2026-07-01
 external_url: "https://mp.weixin.qq.com/s/vMM1a9wQ_ry1chNy58x0pA"
 source: "WeChat"
