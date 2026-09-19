@@ -1815,6 +1815,48 @@ redirect_from:
   <ul>
     <li>
       <strong>
+        <a href="https://mp.weixin.qq.com/s/usJs3j2HPjrPcmDVKcf6cg" target="_blank" rel="noopener">
+          A Fantasy Novel: The Protagonist Has a Cheat Code, So What About Me?
+        </a>
+      </strong>
+      — <em>Featured Essay, September 2026</em>
+      <p style="margin-left: 1em;">
+        A personal reflection on comparison, self-doubt, and finding a path of
+        one’s own when other people seem to have an easier script.
+        <a href="https://mp.weixin.qq.com/s/usJs3j2HPjrPcmDVKcf6cg" target="_blank" rel="noopener">Read Essay</a>.
+      </p>
+    </li>
+
+    <li>
+      <strong>
+        <a href="https://mp.weixin.qq.com/s/GomBzrRoo_UrxAbkbw2Ddg" target="_blank" rel="noopener">
+          The 2026 World Cup: Japan, the Light of East Asia
+        </a>
+      </strong>
+      — <em>Featured Essay, June 2026</em>
+      <p style="margin-left: 1em;">
+        A reflection on Japan’s football, East Asian pride, and the road through
+        the 2026 FIFA World Cup in Canada, Mexico, and the United States.
+        <a href="https://mp.weixin.qq.com/s/GomBzrRoo_UrxAbkbw2Ddg" target="_blank" rel="noopener">Read Essay</a>.
+      </p>
+    </li>
+
+    <li>
+      <strong>
+        <a href="https://mp.weixin.qq.com/s/VLMZR-tcICg2Qkl_MSJHcQ" target="_blank" rel="noopener">
+          To My Father: You Taught Me Courage and Responsibility
+        </a>
+      </strong>
+      — <em>Featured Essay, June 2026</em>
+      <p style="margin-left: 1em;">
+        A personal reflection on fatherhood, gratitude, courage, and the
+        responsibility passed from one generation to the next.
+        <a href="https://mp.weixin.qq.com/s/VLMZR-tcICg2Qkl_MSJHcQ" target="_blank" rel="noopener">Read Essay</a>.
+      </p>
+    </li>
+
+    <li>
+      <strong>
         <a href="https://mp.weixin.qq.com/s/vMM1a9wQ_ry1chNy58x0pA" target="_blank" rel="noopener">
           A Touch of Pampa Blue | A Football Life
         </a>
