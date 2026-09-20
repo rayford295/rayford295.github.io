@@ -1072,9 +1072,9 @@ redirect_from:
            target="_blank" rel="noopener"
            class="paper-link link-doi">🔗 Conference</a>
 
-        <a href="https://doi.org/10.48550/arXiv.2609.00046"
+        <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 DOI</a>
+           class="paper-link link-paper">📄 PDF</a>
 
         <a href="https://github.com/rayford295/RAPID"
            target="_blank" rel="noopener"
