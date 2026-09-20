@@ -1064,7 +1064,7 @@ redirect_from:
       <em>CaGIS Conference 2026</em>, September 8–11, 2026, St. Louis, MO, USA.
 
       <div class="paper-links">
-        <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
+        <a href="https://arxiv.org/abs/2609.00046"
            target="_blank" rel="noopener"
            class="paper-link link-paper">📄 Abstract</a>
 
