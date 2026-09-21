@@ -1373,6 +1373,18 @@ redirect_from:
           <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25257" target="_blank" rel="noopener">Session 25257</a>,
           <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25338" target="_blank" rel="noopener">Session 25338</a>).
         </li>
+        <li>
+          <strong>10th Annual Texas A&amp;M Conference on Energy</strong>, College Station, Texas, September 24–25, 2026
+          (<a href="https://www.tamuers.com" target="_blank" rel="noopener">Program</a>).
+          <ul class="presentation-subitems">
+            <li>
+              <em>Oral Presentation, Data Science and Statistical Learning Session</em> —
+              <strong>Yifan Yang, Lei Zou, Ting Chen, Christian Brannstrom, Xiaowei Chen, Randy Harsuko, Nori Nakata, Michael Gross, Jolante van Wijk, and Saeed Montazeri</strong>:
+              GATES: A Geothermal Acceptance Tracking and Evaluation System Using Multi-Source Social Sensing.
+              Friday, September 25, 2026, 10:15 am, MSC 2502.
+            </li>
+          </ul>
+        </li>
       </ul>
     </li>
 
