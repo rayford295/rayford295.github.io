@@ -1325,16 +1325,14 @@ redirect_from:
       <span class="presentation-year-label">2026</span>
       <ul class="presentation-items">
         <li>
-          <strong>IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</strong>,
-          Washington, D.C., August 13, 2026.
-          <ul class="presentation-subitems">
-            <li>
-              <em>Leveraging AI, LLMs, and Geospatial Technologies for Rapid and Explainable Post-Disaster Damage Intelligence</em> —
-              <strong>Yifan Yang, Lei Zou, and Wendy Jepson</strong>:
-              Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
-              (<a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585&amp;SessionID=1704" target="_blank" rel="noopener">Paper TH3.R6.4</a>).
-            </li>
-          </ul>
+          <strong>American Association of Geographers Annual Meeting</strong>, San Francisco, California, March 17–21, 2026
+          (<a href="https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541" target="_blank" rel="noopener">Session 90541</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25333" target="_blank" rel="noopener">Session 25333</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/24774" target="_blank" rel="noopener">Session 24774</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25413" target="_blank" rel="noopener">Session 25413</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25683" target="_blank" rel="noopener">Session 25683</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25257" target="_blank" rel="noopener">Session 25257</a>,
+          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25338" target="_blank" rel="noopener">Session 25338</a>).
         </li>
         <li>
           <strong>Symposium on Spatiotemporal Data Science</strong>, Alexandria, Virginia, August 7–8, 2026
@@ -1351,6 +1349,18 @@ redirect_from:
           </ul>
         </li>
         <li>
+          <strong>IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</strong>,
+          Washington, D.C., August 13, 2026.
+          <ul class="presentation-subitems">
+            <li>
+              <em>Leveraging AI, LLMs, and Geospatial Technologies for Rapid and Explainable Post-Disaster Damage Intelligence</em> —
+              <strong>Yifan Yang, Lei Zou, and Wendy Jepson</strong>:
+              Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
+              (<a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585&amp;SessionID=1704" target="_blank" rel="noopener">Paper TH3.R6.4</a>).
+            </li>
+          </ul>
+        </li>
+        <li>
           <strong>Cartography and Geographic Information Society (CaGIS) Conference</strong>,
           St. Louis, Missouri, September 8–11, 2026
           (<a href="https://cartogis.org/conferences/cagis2026/program/" target="_blank" rel="noopener">Program</a>).
@@ -1362,16 +1372,6 @@ redirect_from:
               Tuesday, September 8, 2026, 2:00 pm, Rooms 352/353.
             </li>
           </ul>
-        </li>
-        <li>
-          <strong>American Association of Geographers Annual Meeting</strong>, San Francisco, California, March 17–21, 2026
-          (<a href="https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541" target="_blank" rel="noopener">Session 90541</a>,
-          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25333" target="_blank" rel="noopener">Session 25333</a>,
-          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/24774" target="_blank" rel="noopener">Session 24774</a>,
-          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25413" target="_blank" rel="noopener">Session 25413</a>,
-          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25683" target="_blank" rel="noopener">Session 25683</a>,
-          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25257" target="_blank" rel="noopener">Session 25257</a>,
-          <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25338" target="_blank" rel="noopener">Session 25338</a>).
         </li>
         <li>
           <strong>10th Annual Texas A&amp;M Conference on Energy</strong>, College Station, Texas, September 24–25, 2026
@@ -1392,26 +1392,26 @@ redirect_from:
       <span class="presentation-year-label">2025</span>
       <ul class="presentation-items">
         <li>
-          <strong>International Cartographic Conference (ICC)</strong>,
-          Vancouver, Canada, August 18–22, 2025.
-          <ul class="presentation-subitems">
-            <li>
-              <em>Student Paper Session</em> —
-              <strong>Yifan Yang</strong>: Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models.
-            </li>
-            <li>
-              <em>GeoAnalytics for Sustainable and Livable Cities</em>, ICC pre-conference symposium, Vancouver, Canada, August 17, 2025 —
-              <strong>Yifan Yang and Lei Zou</strong>: DisasterVLP: A Vision-Language Pretrained Framework for Multidimensional Disaster Damage Assessment Using Street-View Images
-              (<a href="https://asiacarto.org/ica2025/" target="_blank" rel="noopener">Symposium Page</a>).
-            </li>
-          </ul>
-        </li>
-        <li>
           <strong>American Association of Geographers Annual Meeting</strong>, Detroit, Michigan, March 24–28, 2025
           (<a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23561" target="_blank" rel="noopener">Session 23561</a>,
            <a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23718" target="_blank" rel="noopener">Session 23718</a>,
            <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104" target="_blank" rel="noopener">Session 82104</a>,
            <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/83465" target="_blank" rel="noopener">Session 83465</a>).
+        </li>
+        <li>
+          <strong>International Cartographic Conference (ICC)</strong>,
+          Vancouver, Canada, August 18–22, 2025.
+          <ul class="presentation-subitems">
+            <li>
+              <em>GeoAnalytics for Sustainable and Livable Cities</em>, ICC pre-conference symposium, Vancouver, Canada, August 17, 2025 —
+              <strong>Yifan Yang and Lei Zou</strong>: DisasterVLP: A Vision-Language Pretrained Framework for Multidimensional Disaster Damage Assessment Using Street-View Images
+              (<a href="https://asiacarto.org/ica2025/" target="_blank" rel="noopener">Symposium Page</a>).
+            </li>
+            <li>
+              <em>Student Paper Session</em> —
+              <strong>Yifan Yang</strong>: Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models.
+            </li>
+          </ul>
         </li>
       </ul>
     </li>
@@ -1420,10 +1420,10 @@ redirect_from:
       <span class="presentation-year-label">2024</span>
       <ul class="presentation-items">
         <li>
-          <strong>Spatial Data Science Symposium</strong> —
-          <em>Thematic Session, Geoprivacy Challenges and Solutions in the Digital Society</em>
-          (<a href="https://sdss2024.spatial-data-science.net/ts/zhang.html" target="_blank" rel="noopener">Session Details</a>,
-          <a href="https://www.youtube.com/watch?v=6pOIemM9y6M&list=PLLPRl7FLqNFScodyhaN0j_y5JMx3H7TRg&index=5" target="_blank" rel="noopener">Watch Video</a>).
+        <li>
+          <strong>Los Angeles Geospatial Summit</strong>, Los Angeles, California, February 23, 2024
+          (<a href="https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit/"
+              target="_blank" rel="noopener">Event Article</a>).
         </li>
         <li>
           <strong>AGI Leap Summit</strong>, SuperAGI (virtual), February 29, 2024 —
@@ -1435,14 +1435,15 @@ redirect_from:
           (<a href="https://aag.secure-platform.com/aag2024/solicitations/57/sessiongallery/7825" target="_blank" rel="noopener">Session 7825</a>).
         </li>
         <li>
-          <strong>Los Angeles Geospatial Summit</strong>, Los Angeles, California, February 23, 2024
-          (<a href="https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit/"
-              target="_blank" rel="noopener">Event Article</a>).
-        </li>
-        <li>
           <strong>Spatiotemporal Data Science Symposium</strong>, Washington, D.C. (online), July 22, 2024 —
           <em>Pre-symposium Training Workshop</em>
           (<a href="https://sdl.gis.harvard.edu/event/symposium-spatiotemporal-data-science-geoai-social-sciences" target="_blank" rel="noopener">Event Page</a>).
+        </li>
+        <li>
+          <strong>Spatial Data Science Symposium</strong>, October 23, 2024 —
+          <em>Thematic Session, Geoprivacy Challenges and Solutions in the Digital Society</em>
+          (<a href="https://sdss2024.spatial-data-science.net/ts/zhang.html" target="_blank" rel="noopener">Session Details</a>,
+          <a href="https://www.youtube.com/watch?v=6pOIemM9y6M&list=PLLPRl7FLqNFScodyhaN0j_y5JMx3H7TRg&index=5" target="_blank" rel="noopener">Watch Video</a>).
         </li>
       </ul>
     </li>
