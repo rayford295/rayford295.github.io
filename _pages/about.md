@@ -1420,7 +1420,6 @@ redirect_from:
       <span class="presentation-year-label">2024</span>
       <ul class="presentation-items">
         <li>
-        <li>
           <strong>Los Angeles Geospatial Summit</strong>, Los Angeles, California, February 23, 2024
           (<a href="https://www.esri.com/en-us/industries/blog/articles/showcasing-innovation-in-gis-education-through-student-projects-at-the-la-geospatial-summit/"
               target="_blank" rel="noopener">Event Article</a>).
