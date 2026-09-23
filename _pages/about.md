@@ -2145,7 +2145,7 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
     </figure>
     <figure>
       <img src="/images/man-of-science.png" alt="A man of science in a green shirt with the caption I am a man of science" loading="lazy" decoding="async">
-      <figcaption>“I am a man of science.”</figcaption>
+      <figcaption><em>The Big Bang Theory</em> — “I am a man of science.”</figcaption>
     </figure>
   </div>
 </section>
