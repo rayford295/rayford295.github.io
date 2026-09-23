@@ -2143,6 +2143,10 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       <img src="/images/goro-first-class.png?v=20260923" alt="Portrait with a white giant tower and the quote A first-rate person does everything first-rate" loading="lazy" decoding="async">
       <figcaption>White Giant Tower — “A first-rate person does everything first-rate.”</figcaption>
     </figure>
+    <figure>
+      <img src="/images/man-of-science.png" alt="A man of science in a green shirt with the caption I am a man of science" loading="lazy" decoding="async">
+      <figcaption>“I am a man of science.”</figcaption>
+    </figure>
   </div>
 </section>
 
