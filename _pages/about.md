@@ -2139,6 +2139,10 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       <img src="/images/great-power-great-responsibility.jpg" alt="Handwritten note reading Great Power Great Responsibility pinned above a city map" loading="lazy" decoding="async">
       <figcaption><em>Spider-Man</em> — with great power comes great responsibility.</figcaption>
     </figure>
+    <figure>
+      <img src="/images/goro-first-class.png" alt="Portrait with the quote A first-rate person does everything first-rate" loading="lazy" decoding="async">
+      <figcaption>“A first-rate person does everything first-rate.”</figcaption>
+    </figure>
   </div>
 </section>
 
