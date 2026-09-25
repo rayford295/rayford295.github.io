@@ -648,6 +648,15 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Sep 2026</div>
   <div class="news-text">
+    My paper <strong>“Trust the View That Sees the Target: Mining Cross-View Conflicts for Reliability-Gated Disaster Damage Assessment”</strong>
+    has been accepted to the <a href="https://geosearch-workshop.github.io/geosearch2026/" target="_blank" rel="noopener"><strong>GeoSearch’26 Workshop</strong></a>
+    as Paper 18.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Sep 2026</div>
+  <div class="news-text">
     Honored to serve as the <strong>Student Director</strong> on the newly elected Board of Directors of the
     <a href="https://www.aag.org/groups/geographic-information-science-and-systems/" target="_blank" rel="noopener"><strong>AAG Geographic Information Science and Systems (GISS) Specialty Group</strong></a>.
   </div>
