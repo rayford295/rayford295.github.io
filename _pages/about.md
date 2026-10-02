@@ -1049,24 +1049,14 @@ redirect_from:
     <a href="https://scholar.google.com/citations?user=B-fiSHwAAAAJ" target="_blank" rel="noopener">Google Scholar profile</a>.
   </p>
 
-  <div class="stage-legend" aria-label="Publications by degree stage">
-    <div class="stage-card stage-card--phd">
-      <span class="stage-card__dot"></span>
-      <div>
-        <p class="stage-card__title">Ph.D. period <span class="stage-card__count">6 works</span></p>
-        <p class="stage-card__meta">Texas A&amp;M University · Aug. 2024 – Present</p>
-      </div>
-    </div>
-    <div class="stage-card stage-card--ms">
-      <span class="stage-card__dot"></span>
-      <div>
-        <p class="stage-card__title">M.S. period <span class="stage-card__count">2 works</span></p>
-        <p class="stage-card__meta">University of Southern California · Aug. 2022 – May 2024</p>
-      </div>
-    </div>
+  <div class="publication-filters" role="group" aria-label="Filter selected publications by degree stage">
+    <span class="publication-filters__label">Browse by stage</span>
+    <button class="publication-filter is-active" type="button" data-stage-filter="all" aria-pressed="true">All</button>
+    <button class="publication-filter publication-filter--phd" type="button" data-stage-filter="phd" aria-pressed="false" title="Texas A&amp;M University · Aug. 2024 – Present"><span class="stage-dot"></span>Ph.D. period <span class="publication-filter__count">6</span></button>
+    <button class="publication-filter publication-filter--ms" type="button" data-stage-filter="ms" aria-pressed="false" title="University of Southern California · Aug. 2022 – May 2024"><span class="stage-dot"></span>M.S. period <span class="publication-filter__count">2</span></button>
   </div>
 
-  <div class="publication-filters" role="group" aria-label="Filter selected publications by year">
+  <div class="publication-filters publication-filters--tight" role="group" aria-label="Filter selected publications by year">
     <span class="publication-filters__label">Browse by year</span>
     <button class="publication-filter is-active" type="button" data-publication-filter="all" aria-pressed="true">All</button>
     <button class="publication-filter" type="button" data-publication-filter="2026" aria-pressed="false">2026</button>

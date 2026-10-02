@@ -2,25 +2,34 @@
 
 <script>
 (function () {
-  function setPublicationFilter(year) {
-    var papers = document.querySelectorAll('#publications [data-publication-year]');
-    var filters = document.querySelectorAll('[data-publication-filter]');
+  var state = { year: 'all', stage: 'all' };
 
-    papers.forEach(function (paper) {
-      paper.hidden = year !== 'all' && paper.dataset.publicationYear !== year;
+  function applyPublicationFilters() {
+    document.querySelectorAll('#publications [data-publication-year]').forEach(function (paper) {
+      paper.hidden = (state.year !== 'all' && paper.dataset.publicationYear !== state.year) ||
+                     (state.stage !== 'all' && paper.dataset.stage !== state.stage);
     });
 
-    filters.forEach(function (filter) {
-      var isActive = filter.dataset.publicationFilter === year;
-      filter.classList.toggle('is-active', isActive);
-      filter.setAttribute('aria-pressed', String(isActive));
+    [['publicationFilter', 'year'], ['stageFilter', 'stage']].forEach(function (pair) {
+      document.querySelectorAll('[data-' + pair[0].replace(/[A-Z]/g, function (c) { return '-' + c.toLowerCase(); }) + ']').forEach(function (filter) {
+        var isActive = filter.dataset[pair[0]] === state[pair[1]];
+        filter.classList.toggle('is-active', isActive);
+        filter.setAttribute('aria-pressed', String(isActive));
+      });
     });
   }
 
   window.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('[data-publication-filter]').forEach(function (filter) {
       filter.addEventListener('click', function () {
-        setPublicationFilter(filter.dataset.publicationFilter);
+        state.year = filter.dataset.publicationFilter;
+        applyPublicationFilters();
+      });
+    });
+    document.querySelectorAll('[data-stage-filter]').forEach(function (filter) {
+      filter.addEventListener('click', function () {
+        state.stage = filter.dataset.stageFilter;
+        applyPublicationFilters();
       });
     });
   });
