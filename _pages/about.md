@@ -1052,8 +1052,8 @@ redirect_from:
   <div class="publication-filters" role="group" aria-label="Filter selected publications by degree stage">
     <span class="publication-filters__label">Browse by stage</span>
     <button class="publication-filter is-active" type="button" data-stage-filter="all" aria-pressed="true">All</button>
-    <button class="publication-filter publication-filter--phd" type="button" data-stage-filter="phd" aria-pressed="false" title="Texas A&amp;M University · Aug. 2024 – Present"><span class="stage-dot"></span>Ph.D. period <span class="publication-filter__count">6</span></button>
-    <button class="publication-filter publication-filter--ms" type="button" data-stage-filter="ms" aria-pressed="false" title="University of Southern California · Aug. 2022 – May 2024"><span class="stage-dot"></span>M.S. period <span class="publication-filter__count">2</span></button>
+    <button class="publication-filter publication-filter--phd" type="button" data-stage-filter="phd" aria-pressed="false" title="Texas A&amp;M University · Aug. 2024 – Present"><span class="stage-dot"></span>Ph.D. period</button>
+    <button class="publication-filter publication-filter--ms" type="button" data-stage-filter="ms" aria-pressed="false" title="University of Southern California · Aug. 2022 – May 2024"><span class="stage-dot"></span>M.S. period</button>
   </div>
 
   <div class="publication-filters publication-filters--tight" role="group" aria-label="Filter selected publications by year">
@@ -1071,7 +1071,6 @@ redirect_from:
       <img src="images/rapidmap_cagis.png" alt="RAPIDMap disaster mapping results" width="75%">
     </div>
     <div class="paper-box-text">
-      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
       <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
          target="_blank" rel="noopener">
         RAPIDMap: Rapid Multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery
@@ -1106,7 +1105,6 @@ redirect_from:
       <img src="images/rapid_framework.png" alt="RAPID Framework" width="75%">
     </div>
     <div class="paper-box-text">
-      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
       <a href="https://doi.org/10.1145/3841645.3843346"
          target="_blank" rel="noopener">
         RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery
@@ -1141,7 +1139,6 @@ redirect_from:
     <img src="images/3rd_RS2SVI.png" alt="Satellite-to-Street Framework" width="75%">
   </div>
   <div class="paper-box-text">
-      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
     <a href="https://arxiv.org/abs/2603.20697"
        target="_blank" rel="noopener">
       Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
@@ -1172,7 +1169,6 @@ redirect_from:
       <img src="images/2nd_disasterclip.png" alt="DamageArbiter Framework" width="75%">
     </div>
     <div class="paper-box-text">
-      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
       <a href="https://arxiv.org/abs/2603.14837"
          target="_blank" rel="noopener">
         DamageArbiter: A Multimodal Arbitration Framework for Disaster Damage Assessment from Street-View Imagery
@@ -1202,7 +1198,6 @@ redirect_from:
       <img src="images/1st_dual_channel.png" alt="Hyperlocal Disaster" width="75%">
     </div>
     <div class="paper-box-text">
-      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
       <a href="https://www.sciencedirect.com/science/article/pii/S0198971525000882"
          target="_blank" rel="noopener">
         Hyperlocal Disaster Damage Assessment Using Bi-temporal Street-view Imagery and Pre-trained Vision Models
@@ -1245,7 +1240,6 @@ redirect_from:
       <img src="images/disasterVLP.png" alt="DisasterVLP Conference Abstract" width="75%">
     </div>
     <div class="paper-box-text">
-      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
       <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
          target="_blank" rel="noopener">
         Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models
@@ -1280,7 +1274,6 @@ redirect_from:
       <img src="images/object detection.png" alt="Text SAM Tree Segmentation" width="75%">
     </div>
     <div class="paper-box-text">
-      <span class="stage-tag stage-tag--ms">M.S. period</span><br>
       <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
          target="_blank" rel="noopener">
         Object detection and segmentation of trees using Text SAM in ArcGIS Online
@@ -1314,7 +1307,6 @@ redirect_from:
       <img src="images/0st_geolocator.png" alt="GeoLocator" width="75%">
     </div>
     <div class="paper-box-text">
-      <span class="stage-tag stage-tag--ms">M.S. period</span><br>
       <a href="https://www.mdpi.com/2076-3417/14/16/7091"
          target="_blank" rel="noopener">
         GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy

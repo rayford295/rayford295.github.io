@@ -559,7 +559,7 @@ h1:before,
 }
 
 /* ===============================
-   Publication degree-stage filter + tags
+   Publication degree-stage filter
    =============================== */
 
 .publication-filters--tight { margin-top: -.6rem; }
@@ -583,35 +583,11 @@ h1:before,
     background: var(--stage-color);
     color: #fff;
     .stage-dot { background: #fff; }
-    .publication-filter__count { background: rgba(255, 255, 255, .25); color: #fff; }
   }
 }
 
-.publication-filter__count {
-  padding: .12rem .42rem;
-  border-radius: 999px;
-  background: var(--stage-tint);
-  color: var(--stage-color);
-  font-size: .82em;
-  font-weight: 700;
-}
-
-.stage-tag {
-  display: inline-block;
-  margin-bottom: .35rem;
-  padding: .12rem .6rem;
-  border: 1px solid var(--stage-color);
-  border-radius: 999px;
-  background: var(--stage-tint);
-  color: var(--stage-color);
-  font-size: .74em;
-  font-weight: 700;
-  letter-spacing: .3px;
-  text-transform: uppercase;
-}
-
-.publication-filter--phd, .stage-tag--phd { --stage-color: #6b1d2a; --stage-tint: #fbf3f4; }
-.publication-filter--ms,  .stage-tag--ms  { --stage-color: #8a5a00; --stage-tint: #fdf8ec; }
+.publication-filter--phd { --stage-color: #6b1d2a; --stage-tint: #fbf3f4; }
+.publication-filter--ms { --stage-color: #8a5a00; --stage-tint: #fdf8ec; }
 
 [data-theme="dark"] {
   .publication-filter--phd:hover, .publication-filter--ms:hover {
@@ -623,8 +599,7 @@ h1:before,
     background: var(--stage-color);
     color: #111827;
     .stage-dot { background: #111827; }
-    .publication-filter__count { background: rgba(17, 24, 39, .15); color: #111827; }
   }
-  .publication-filter--phd, .stage-tag--phd { --stage-color: #f0a3ae; --stage-tint: rgba(240, 163, 174, .08); }
-  .publication-filter--ms,  .stage-tag--ms  { --stage-color: #f2c66d; --stage-tint: rgba(242, 198, 109, .08); }
+  .publication-filter--phd { --stage-color: #f0a3ae; --stage-tint: rgba(240, 163, 174, .08); }
+  .publication-filter--ms { --stage-color: #f2c66d; --stage-tint: rgba(242, 198, 109, .08); }
 }
