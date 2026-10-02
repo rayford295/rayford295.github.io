@@ -1049,6 +1049,23 @@ redirect_from:
     <a href="https://scholar.google.com/citations?user=B-fiSHwAAAAJ" target="_blank" rel="noopener">Google Scholar profile</a>.
   </p>
 
+  <div class="stage-legend" aria-label="Publications by degree stage">
+    <div class="stage-card stage-card--phd">
+      <span class="stage-card__dot"></span>
+      <div>
+        <p class="stage-card__title">Ph.D. period <span class="stage-card__count">6 works</span></p>
+        <p class="stage-card__meta">Texas A&amp;M University · Aug. 2024 – Present</p>
+      </div>
+    </div>
+    <div class="stage-card stage-card--ms">
+      <span class="stage-card__dot"></span>
+      <div>
+        <p class="stage-card__title">M.S. period <span class="stage-card__count">2 works</span></p>
+        <p class="stage-card__meta">University of Southern California · Aug. 2022 – May 2024</p>
+      </div>
+    </div>
+  </div>
+
   <div class="publication-filters" role="group" aria-label="Filter selected publications by year">
     <span class="publication-filters__label">Browse by year</span>
     <button class="publication-filter is-active" type="button" data-publication-filter="all" aria-pressed="true">All</button>
@@ -1058,12 +1075,13 @@ redirect_from:
   </div>
 
   <!-- RAPIDMap CaGIS Abstract -->
-  <div class="paper-box" data-publication-year="2026">
+  <div class="paper-box" data-publication-year="2026" data-stage="phd">
     <div class="paper-box-image">
       <div class="badge">Conference Proceedings</div>
       <img src="images/rapidmap_cagis.png" alt="RAPIDMap disaster mapping results" width="75%">
     </div>
     <div class="paper-box-text">
+      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
       <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
          target="_blank" rel="noopener">
         RAPIDMap: Rapid Multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery
@@ -1092,12 +1110,13 @@ redirect_from:
   </div>
 
   <!-- RAPID Paper -->
-  <div class="paper-box" data-publication-year="2026">
+  <div class="paper-box" data-publication-year="2026" data-stage="phd">
     <div class="paper-box-image">
       <div class="badge">Conference Proceedings</div>
       <img src="images/rapid_framework.png" alt="RAPID Framework" width="75%">
     </div>
     <div class="paper-box-text">
+      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
       <a href="https://doi.org/10.1145/3841645.3843346"
          target="_blank" rel="noopener">
         RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery
@@ -1126,12 +1145,13 @@ redirect_from:
   </div>
 
   <!-- Satellite-to-Street Paper -->
-<div class="paper-box" data-publication-year="2026">
+<div class="paper-box" data-publication-year="2026" data-stage="phd">
   <div class="paper-box-image">
     <div class="badge">Conference Proceedings</div>
     <img src="images/3rd_RS2SVI.png" alt="Satellite-to-Street Framework" width="75%">
   </div>
   <div class="paper-box-text">
+      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
     <a href="https://arxiv.org/abs/2603.20697"
        target="_blank" rel="noopener">
       Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
@@ -1156,12 +1176,13 @@ redirect_from:
 </div>
   
   <!-- DamageArbiter Paper(preprint)-->
-  <div class="paper-box" data-publication-year="2026">
+  <div class="paper-box" data-publication-year="2026" data-stage="phd">
     <div class="paper-box-image">
       <div class="badge">Preprint</div>
       <img src="images/2nd_disasterclip.png" alt="DamageArbiter Framework" width="75%">
     </div>
     <div class="paper-box-text">
+      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
       <a href="https://arxiv.org/abs/2603.14837"
          target="_blank" rel="noopener">
         DamageArbiter: A Multimodal Arbitration Framework for Disaster Damage Assessment from Street-View Imagery
@@ -1185,12 +1206,13 @@ redirect_from:
   </div>
 
   <!-- CEUS Journal Paper -->
-  <div class="paper-box" data-publication-year="2025">
+  <div class="paper-box" data-publication-year="2025" data-stage="phd">
     <div class="paper-box-image">
       <div class="badge">Journal Article</div>
       <img src="images/1st_dual_channel.png" alt="Hyperlocal Disaster" width="75%">
     </div>
     <div class="paper-box-text">
+      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
       <a href="https://www.sciencedirect.com/science/article/pii/S0198971525000882"
          target="_blank" rel="noopener">
         Hyperlocal Disaster Damage Assessment Using Bi-temporal Street-view Imagery and Pre-trained Vision Models
@@ -1227,12 +1249,13 @@ redirect_from:
 
 
   <!-- ICC Conference Abstract -->
-  <div class="paper-box" data-publication-year="2025">
+  <div class="paper-box" data-publication-year="2025" data-stage="phd">
     <div class="paper-box-image">
       <div class="badge">Conference Proceedings</div>
       <img src="images/disasterVLP.png" alt="DisasterVLP Conference Abstract" width="75%">
     </div>
     <div class="paper-box-text">
+      <span class="stage-tag stage-tag--phd">Ph.D. period</span><br>
       <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
          target="_blank" rel="noopener">
         Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models
@@ -1261,12 +1284,13 @@ redirect_from:
 
 
   <!-- Esri Press Book Chapter -->
-  <div class="paper-box" data-publication-year="2025">
+  <div class="paper-box" data-publication-year="2025" data-stage="ms">
     <div class="paper-box-image">
       <div class="badge">Book Chapter</div>
       <img src="images/object detection.png" alt="Text SAM Tree Segmentation" width="75%">
     </div>
     <div class="paper-box-text">
+      <span class="stage-tag stage-tag--ms">M.S. period</span><br>
       <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
          target="_blank" rel="noopener">
         Object detection and segmentation of trees using Text SAM in ArcGIS Online
@@ -1294,12 +1318,13 @@ redirect_from:
 
 
   <!-- Applied Sciences Journal Paper -->
-  <div class="paper-box" data-publication-year="2024">
+  <div class="paper-box" data-publication-year="2024" data-stage="ms">
     <div class="paper-box-image">
       <div class="badge">Journal Article</div>
       <img src="images/0st_geolocator.png" alt="GeoLocator" width="75%">
     </div>
     <div class="paper-box-text">
+      <span class="stage-tag stage-tag--ms">M.S. period</span><br>
       <a href="https://www.mdpi.com/2076-3417/14/16/7091"
          target="_blank" rel="noopener">
         GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy
