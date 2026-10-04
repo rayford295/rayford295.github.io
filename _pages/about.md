@@ -646,6 +646,14 @@ redirect_from:
   <div class="news-container">
 
 <div class="news-item">
+  <div class="news-date">Oct 2026</div>
+  <div class="news-text">
+    Our co-authored paper <strong>“Debris-Cast: A Two-Stage Machine Learning Framework for Hurricane Debris Prediction Using Multi-Source Geospatial Data”</strong>
+    is now available online in the <a href="https://www.sciencedirect.com/science/article/pii/S2212420926004826" target="_blank" rel="noopener"><em>International Journal of Disaster Risk Reduction</em></a>.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">Sep 2026</div>
   <div class="news-text">
     My paper <strong>“Trust the View That Sees the Target: Mining Cross-View Conflicts for Reliability-Gated Disaster Damage Assessment”</strong>
