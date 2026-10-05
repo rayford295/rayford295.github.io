@@ -951,7 +951,7 @@ redirect_from:
         <p class="experience-date">Jul. 2026</p>
         <p class="experience-role">Student Researcher</p>
         <p class="experience-summary">
-          Spatial AI &amp; Convergence Science (NSF I-GUIDE). <a href="https://github.com/rayford295/vgi-spatial-bias" target="_blank" rel="noopener noreferrer">Project repository</a>.
+          Spatial AI &amp; Convergence Science (NSF I-GUIDE). <a href="https://github.com/rayford295/vgi-spatial-bias" target="_blank" rel="noopener noreferrer">Project repository</a>. <a href="/assets/I-GUIDE_Certificate_Yifan_Yang.pdf" target="_blank" rel="noopener noreferrer">Certificate of Achievement</a>.
         </p>
         <p class="experience-organization"><a href="https://i-guide.io/summer-school/summer-school-2026/summer-school-2026-agenda/" target="_blank" rel="noopener noreferrer">I-GUIDE Summer School 2026, University of Illinois Urbana-Champaign</a></p>
       </div>
