@@ -1072,6 +1072,40 @@ redirect_from:
     <button class="publication-filter" type="button" data-publication-filter="2024" aria-pressed="false">2024</button>
   </div>
 
+  <!-- CrossViewGate GeoSearch Paper -->
+  <div class="paper-box" data-publication-year="2026" data-stage="phd">
+    <div class="paper-box-image">
+      <div class="badge">Conference Proceedings</div>
+      <img src="images/crossviewgate_pipeline.png" alt="CrossViewGate reliability-gated cross-view framework" width="75%">
+    </div>
+    <div class="paper-box-text">
+      <a href="https://github.com/rayford295/CrossViewGate/blob/main/paper/geosearch2026_short/main.pdf"
+         target="_blank" rel="noopener">
+        Trust the View That Sees the Target: Mining Cross-View Conflicts for Reliability-Gated Disaster Damage Assessment
+      </a>
+      — <strong>Yang, Yifan</strong>.<br>
+      <em>Proceedings of the 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data (GeoSearch '26)</em>, November 3–6, 2026, Riverside, CA, USA. ACM, New York, NY, USA, 4 pages. (Lightning talk)
+
+      <div class="paper-links">
+        <a href="https://github.com/rayford295/CrossViewGate/blob/main/paper/geosearch2026_short/main.pdf"
+           target="_blank" rel="noopener"
+           class="paper-link link-paper">📄 Paper</a>
+
+        <a href="https://geosearch-workshop.github.io/geosearch2026/"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">🔗 Conference</a>
+
+        <a href="https://rayford295.github.io/CrossViewGate/"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">🌐 Project Page</a>
+
+        <a href="https://github.com/rayford295/CrossViewGate"
+           target="_blank" rel="noopener"
+           class="paper-link link-code">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+
   <!-- RAPIDMap CaGIS Abstract -->
   <div class="paper-box" data-publication-year="2026" data-stage="phd">
     <div class="paper-box-image">
