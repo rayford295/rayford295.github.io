@@ -1266,38 +1266,6 @@ redirect_from:
     </div>
   </div>
 
-  <!-- Esri Press Book Chapter -->
-  <div class="paper-box" data-publication-year="2025" data-stage="ms">
-    <div class="paper-box-image">
-      <div class="badge">Book Chapter</div>
-      <img src="images/object detection.png" alt="Text SAM Tree Segmentation" width="75%">
-    </div>
-    <div class="paper-box-text">
-      <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
-         target="_blank" rel="noopener">
-        Object detection and segmentation of trees using Text SAM in ArcGIS Online
-      </a>
-      — <strong>Yang, Yifan</strong>, Dominic Borrelli. <br>
-      In: Darren Martin Ruddell &amp; Diana Ter-Ghazaryan (eds.),
-      <em>Security First: Geospatial Workflows for a Safe and Equitable World</em>. <br>
-      Esri Press, 2025. (Chapter 7)
-
-      <div class="paper-links">
-        <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
-           target="_blank" rel="noopener"
-           class="paper-link link-paper">📘 Book</a>
-
-        <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
-           target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 Link</a>
-
-        <a href="https://github.com/rayford295/ArcGIS-SAM-TreeSegmentation"
-           target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
-      </div>
-    </div>
-  </div>
-
   <!-- CEUS Journal Paper -->
   <div class="paper-box" data-publication-year="2025" data-stage="phd">
     <div class="paper-box-image">
@@ -1335,6 +1303,38 @@ redirect_from:
         <a href="https://mp.weixin.qq.com/s/I_5YYTeRy9UWIrApRzBU2A"
            target="_blank" rel="noopener"
            class="paper-link link-wechat">💬 WeChat</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Esri Press Book Chapter -->
+  <div class="paper-box" data-publication-year="2025" data-stage="ms">
+    <div class="paper-box-image">
+      <div class="badge">Book Chapter</div>
+      <img src="images/object detection.png" alt="Text SAM Tree Segmentation" width="75%">
+    </div>
+    <div class="paper-box-text">
+      <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
+         target="_blank" rel="noopener">
+        Object detection and segmentation of trees using Text SAM in ArcGIS Online
+      </a>
+      — <strong>Yang, Yifan</strong>, Dominic Borrelli. <br>
+      In: Darren Martin Ruddell &amp; Diana Ter-Ghazaryan (eds.),
+      <em>Security First: Geospatial Workflows for a Safe and Equitable World</em>. <br>
+      Esri Press, 2025. (Chapter 7)
+
+      <div class="paper-links">
+        <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
+           target="_blank" rel="noopener"
+           class="paper-link link-paper">📘 Book</a>
+
+        <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">🔗 Link</a>
+
+        <a href="https://github.com/rayford295/ArcGIS-SAM-TreeSegmentation"
+           target="_blank" rel="noopener"
+           class="paper-link link-code">💻 GitHub</a>
       </div>
     </div>
   </div>
