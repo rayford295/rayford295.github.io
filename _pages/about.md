@@ -1076,7 +1076,7 @@ redirect_from:
   <div class="paper-box" data-publication-year="2026" data-stage="phd">
     <div class="paper-box-image">
       <div class="badge">Conference Proceedings</div>
-      <img src="images/crossviewgate_showcase.png" alt="A real Eaton-fire conflict case: the street view sees the damaged building while the overhead view misses it; conflict density tracks tile damage" width="75%">
+      <img src="images/crossviewgate_pipeline.png" alt="CrossViewGate overview: street and overhead models, conflict cases, linear trust gate, gated prediction and conflict-density map" width="75%">
     </div>
     <div class="paper-box-text">
       <a href="https://arxiv.org/abs/2610.04327"
