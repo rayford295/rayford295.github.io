@@ -1076,7 +1076,7 @@ redirect_from:
   <div class="paper-box" data-publication-year="2026" data-stage="phd">
     <div class="paper-box-image">
       <div class="badge">Conference Proceedings</div>
-      <img src="images/crossviewgate_pipeline.png" alt="CrossViewGate reliability-gated cross-view framework" width="75%">
+      <img src="images/crossviewgate_showcase.png" alt="A real Eaton-fire conflict case: the street view sees the damaged building while the overhead view misses it; conflict density tracks tile damage" width="75%">
     </div>
     <div class="paper-box-text">
       <a href="https://github.com/rayford295/CrossViewGate/blob/main/paper/geosearch2026_short/main.pdf"
@@ -1095,9 +1095,9 @@ redirect_from:
            target="_blank" rel="noopener"
            class="paper-link link-doi">🔗 Conference</a>
 
-        <a href="https://rayford295.github.io/CrossViewGate/"
+        <a href="https://doi.org/10.1145/3849732.3857333"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🌐 Project Page</a>
+           class="paper-link link-doi">🔗 DOI</a>
 
         <a href="https://github.com/rayford295/CrossViewGate"
            target="_blank" rel="noopener"
