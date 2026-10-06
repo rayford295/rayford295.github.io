@@ -1443,6 +1443,20 @@ redirect_from:
             </li>
           </ul>
         </li>
+        <li>
+          <strong>SC26: The International Conference for High Performance Computing, Networking, Storage, and Analysis</strong>,
+          Chicago, Illinois, November 15–20, 2026
+          (<a href="https://sc26.conference-program.com/presentation/?id=rpost101&amp;sess=sess313" target="_blank" rel="noopener">Program</a>).
+          <ul class="presentation-subitems">
+            <li>
+              <em>Research Poster, Posters Display</em> —
+              <strong>Jooho Kim, Yifan Yang, Anish Shakya, and Jacob Kelly</strong>:
+              Optimizing HPC Performance for CDC-Based Storage and Reconstruction of High-Resolution Imagery
+              (<a href="https://rayford295.github.io/drone-compression-hpc/" target="_blank" rel="noopener">Project Page</a>).
+              Tuesday, November 17, 2026, 10:00 am–5:00 pm, North Pre-Function, McCormick Place.
+            </li>
+          </ul>
+        </li>
       </ul>
     </li>
 
