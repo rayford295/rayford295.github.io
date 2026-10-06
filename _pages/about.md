@@ -685,6 +685,9 @@ redirect_from:
     has been accepted to the <a href="https://sc26.supercomputing.org/program/posters" target="_blank" rel="noopener"><strong>SC26 Poster Session</strong></a>
     (Chicago, November 2026), from my time as a Student Researcher at the
     <a href="https://idrt.tamu.edu/" target="_blank" rel="noopener"><strong>Institute for a Disaster Resilient Texas (IDRT), Texas A&amp;M University</strong></a>.
+    It will be on display on <strong>Tuesday, November 17, 2026</strong> (10:00 AM&ndash;5:00 PM CST, North Pre-Function)
+    [<a href="https://sc26.conference-program.com/presentation/?id=rpost101&amp;sess=sess313" target="_blank" rel="noopener">Program</a>]
+    [<a href="https://rayford295.github.io/drone-compression-hpc/" target="_blank" rel="noopener">Project Page</a>].
   </div>
 </div>
 
