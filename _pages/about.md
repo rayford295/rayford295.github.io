@@ -1106,40 +1106,6 @@ redirect_from:
     </div>
   </div>
 
-  <!-- RAPIDMap CaGIS Abstract -->
-  <div class="paper-box" data-publication-year="2026" data-stage="phd">
-    <div class="paper-box-image">
-      <div class="badge">Conference Proceedings</div>
-      <img src="images/rapidmap_cagis.png" alt="RAPIDMap disaster mapping results" width="75%">
-    </div>
-    <div class="paper-box-text">
-      <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
-         target="_blank" rel="noopener">
-        RAPIDMap: Rapid Multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery
-      </a>
-      — <strong>Yang, Yifan</strong>, Lei Zou.<br>
-      <em>CaGIS Conference 2026</em>, September 8–11, 2026, St. Louis, MO, USA.
-
-      <div class="paper-links">
-        <a href="https://arxiv.org/abs/2609.00046"
-           target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Abstract</a>
-
-        <a href="https://cartogis.org/conferences/cagis2026/"
-           target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 Conference</a>
-
-        <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
-           target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 PDF</a>
-
-        <a href="https://github.com/rayford295/RAPID"
-           target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
-      </div>
-    </div>
-  </div>
-
   <!-- RAPID Paper -->
   <div class="paper-box" data-publication-year="2026" data-stage="phd">
     <div class="paper-box-image">
@@ -1166,6 +1132,40 @@ redirect_from:
         <a href="https://doi.org/10.1145/3841645.3843346"
            target="_blank" rel="noopener"
            class="paper-link link-doi">🔗 DOI</a>
+
+        <a href="https://github.com/rayford295/RAPID"
+           target="_blank" rel="noopener"
+           class="paper-link link-code">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- RAPIDMap CaGIS Abstract -->
+  <div class="paper-box" data-publication-year="2026" data-stage="phd">
+    <div class="paper-box-image">
+      <div class="badge">Conference Proceedings</div>
+      <img src="images/rapidmap_cagis.png" alt="RAPIDMap disaster mapping results" width="75%">
+    </div>
+    <div class="paper-box-text">
+      <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
+         target="_blank" rel="noopener">
+        RAPIDMap: Rapid Multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery
+      </a>
+      — <strong>Yang, Yifan</strong>, Lei Zou.<br>
+      <em>CaGIS Conference 2026</em>, September 8–11, 2026, St. Louis, MO, USA.
+
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2609.00046"
+           target="_blank" rel="noopener"
+           class="paper-link link-paper">📄 Abstract</a>
+
+        <a href="https://cartogis.org/conferences/cagis2026/"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">🔗 Conference</a>
+
+        <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
+           target="_blank" rel="noopener"
+           class="paper-link link-paper">📄 PDF</a>
 
         <a href="https://github.com/rayford295/RAPID"
            target="_blank" rel="noopener"
@@ -1203,7 +1203,7 @@ redirect_from:
     </div>
   </div>
 </div>
-  
+
   <!-- DamageArbiter Paper(preprint)-->
   <div class="paper-box" data-publication-year="2026" data-stage="phd">
     <div class="paper-box-image">
@@ -1227,6 +1227,71 @@ redirect_from:
            class="paper-link link-paper">📄 Paper</a>
 
         <a href="https://github.com/rayford295/DamageArbiter"
+           target="_blank" rel="noopener"
+           class="paper-link link-code">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ICC Conference Abstract -->
+  <div class="paper-box" data-publication-year="2025" data-stage="phd">
+    <div class="paper-box-image">
+      <div class="badge">Conference Proceedings</div>
+      <img src="images/disasterVLP.png" alt="DisasterVLP Conference Abstract" width="75%">
+    </div>
+    <div class="paper-box-text">
+      <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
+         target="_blank" rel="noopener">
+        Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models
+      </a>
+      — <strong>Yang, Yifan</strong>, Lei Zou. <br>
+      <em>Abstracts of the International Cartographic Association</em>, Volume 10, 310, 2025. <br>
+      <span style="font-weight:600;">
+        🏆 Best Student Paper Award — ICC 2025, Vancouver, Canada
+      </span>
+
+      <div class="paper-links">
+        <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
+           target="_blank" rel="noopener"
+           class="paper-link link-paper">📄 Abstract</a>
+
+        <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">🔗 DOI</a>
+
+        <a href="https://github.com/rayford295/DisasterVLP"
+           target="_blank" rel="noopener"
+           class="paper-link link-code">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Esri Press Book Chapter -->
+  <div class="paper-box" data-publication-year="2025" data-stage="ms">
+    <div class="paper-box-image">
+      <div class="badge">Book Chapter</div>
+      <img src="images/object detection.png" alt="Text SAM Tree Segmentation" width="75%">
+    </div>
+    <div class="paper-box-text">
+      <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
+         target="_blank" rel="noopener">
+        Object detection and segmentation of trees using Text SAM in ArcGIS Online
+      </a>
+      — <strong>Yang, Yifan</strong>, Dominic Borrelli. <br>
+      In: Darren Martin Ruddell &amp; Diana Ter-Ghazaryan (eds.),
+      <em>Security First: Geospatial Workflows for a Safe and Equitable World</em>. <br>
+      Esri Press, 2025. (Chapter 7)
+
+      <div class="paper-links">
+        <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
+           target="_blank" rel="noopener"
+           class="paper-link link-paper">📘 Book</a>
+
+        <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">🔗 Link</a>
+
+        <a href="https://github.com/rayford295/ArcGIS-SAM-TreeSegmentation"
            target="_blank" rel="noopener"
            class="paper-link link-code">💻 GitHub</a>
       </div>
@@ -1274,74 +1339,6 @@ redirect_from:
     </div>
   </div>
 
-
-  <!-- ICC Conference Abstract -->
-  <div class="paper-box" data-publication-year="2025" data-stage="phd">
-    <div class="paper-box-image">
-      <div class="badge">Conference Proceedings</div>
-      <img src="images/disasterVLP.png" alt="DisasterVLP Conference Abstract" width="75%">
-    </div>
-    <div class="paper-box-text">
-      <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
-         target="_blank" rel="noopener">
-        Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models
-      </a>
-      — <strong>Yang, Yifan</strong>, Lei Zou. <br>
-      <em>Abstracts of the International Cartographic Association</em>, Volume 10, 310, 2025. <br>
-      <span style="font-weight:600;">
-        🏆 Best Student Paper Award — ICC 2025, Vancouver, Canada
-      </span>
-
-      <div class="paper-links">
-        <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
-           target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Abstract</a>
-
-        <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
-           target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 DOI</a>
-
-        <a href="https://github.com/rayford295/DisasterVLP"
-           target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Esri Press Book Chapter -->
-  <div class="paper-box" data-publication-year="2025" data-stage="ms">
-    <div class="paper-box-image">
-      <div class="badge">Book Chapter</div>
-      <img src="images/object detection.png" alt="Text SAM Tree Segmentation" width="75%">
-    </div>
-    <div class="paper-box-text">
-      <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
-         target="_blank" rel="noopener">
-        Object detection and segmentation of trees using Text SAM in ArcGIS Online
-      </a>
-      — <strong>Yang, Yifan</strong>, Dominic Borrelli. <br>
-      In: Darren Martin Ruddell &amp; Diana Ter-Ghazaryan (eds.),
-      <em>Security First: Geospatial Workflows for a Safe and Equitable World</em>. <br>
-      Esri Press, 2025. (Chapter 7)
-
-      <div class="paper-links">
-        <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
-           target="_blank" rel="noopener"
-           class="paper-link link-paper">📘 Book</a>
-
-        <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
-           target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 Link</a>
-
-        <a href="https://github.com/rayford295/ArcGIS-SAM-TreeSegmentation"
-           target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
-      </div>
-    </div>
-  </div>
-
-
   <!-- Applied Sciences Journal Paper -->
   <div class="paper-box" data-publication-year="2024" data-stage="ms">
     <div class="paper-box-image">
@@ -1371,6 +1368,7 @@ redirect_from:
       </div>
     </div>
   </div>
+
 </section>
 
 
