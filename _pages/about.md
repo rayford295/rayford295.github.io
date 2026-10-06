@@ -1079,7 +1079,7 @@ redirect_from:
       <img src="images/crossviewgate_showcase.png" alt="A real Eaton-fire conflict case: the street view sees the damaged building while the overhead view misses it; conflict density tracks tile damage" width="75%">
     </div>
     <div class="paper-box-text">
-      <a href="https://github.com/rayford295/CrossViewGate/blob/main/paper/geosearch2026_short/main.pdf"
+      <a href="https://arxiv.org/abs/2610.04327"
          target="_blank" rel="noopener">
         Trust the View That Sees the Target: Mining Cross-View Conflicts for Reliability-Gated Disaster Damage Assessment
       </a>
@@ -1087,7 +1087,7 @@ redirect_from:
       <em>Proceedings of the 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data (GeoSearch '26)</em>, November 3–6, 2026, Riverside, CA, USA. ACM, New York, NY, USA, 4 pages. (Lightning talk)
 
       <div class="paper-links">
-        <a href="https://github.com/rayford295/CrossViewGate/blob/main/paper/geosearch2026_short/main.pdf"
+        <a href="https://arxiv.org/abs/2610.04327"
            target="_blank" rel="noopener"
            class="paper-link link-paper">📄 Paper</a>
 
