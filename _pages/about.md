@@ -320,51 +320,12 @@ redirect_from:
       transition: border-color 0.18s ease, transform 0.18s ease;
     }
 
-    #professional-societies .society-logo-mark {
-      display: grid;
-      place-items: center;
-      width: 5.2rem;
-      height: 4.2rem;
-      padding: 0.35rem;
-      border: 1px solid #cbd7e3;
-      border-radius: 0.7rem;
-      background: #f5f8fb;
-      color: #24445f;
-      font-size: 0.78rem;
-      font-weight: 800;
-      letter-spacing: 0.03em;
-      line-height: 1.1;
-      text-align: center;
-    }
-
-    #professional-societies .society-logo-mark--sigspatial {
-      border-color: #7ca8c8;
-      background: #edf6fb;
-      color: #14628b;
-    }
-
-    #professional-societies .society-logo-mark--grss {
-      border-color: #8aa6c6;
-      background: #eef3fa;
-      color: #31547c;
-    }
-
-    #professional-societies .society-logo-mark--cagis {
-      border-color: #9eb99d;
-      background: #f1f8f0;
-      color: #3b6a43;
-    }
-
-    #professional-societies .society-logo-mark--aag {
-      border-color: #c9a77f;
-      background: #fbf6ee;
-      color: #6d4c2d;
-    }
-
-    #professional-societies .society-logo-mark--gtu {
-      border-color: #bda5ca;
-      background: #f8f1fb;
-      color: #63416f;
+    #professional-societies .society-logo {
+      display: block;
+      width: 100%;
+      max-width: 10rem;
+      height: 5rem;
+      object-fit: contain;
     }
 
     #professional-societies .society-logo-caption {
@@ -1931,32 +1892,32 @@ redirect_from:
     <h3>Society Footprint</h3>
     <ul class="society-logo-wall">
       <li>
-        <a class="society-logo-link" href="https://www.sigspatial.org/about/" target="_blank" rel="noopener">
-          <span class="society-logo-frame"><span class="society-logo-mark society-logo-mark--sigspatial" aria-hidden="true">SIG<br>SPATIAL</span></span>
+        <a class="society-logo-link" href="https://www.acm.org/special-interest-groups/sigs/sigspatial" target="_blank" rel="noopener">
+          <span class="society-logo-frame"><img class="society-logo" src="{{ '/images/societies/acm-sigspatial.png' | relative_url }}" alt="ACM SIGSPATIAL logo"></span>
           <span class="society-logo-caption">ACM SIGSPATIAL</span>
         </a>
       </li>
       <li>
         <a class="society-logo-link" href="https://www.grss-ieee.org/" target="_blank" rel="noopener">
-          <span class="society-logo-frame"><span class="society-logo-mark society-logo-mark--grss" aria-hidden="true">IEEE<br>GRSS</span></span>
+          <span class="society-logo-frame"><img class="society-logo" src="{{ '/images/societies/ieee-grss.png' | relative_url }}" alt="IEEE Geoscience and Remote Sensing Society logo"></span>
           <span class="society-logo-caption">IEEE GRSS</span>
         </a>
       </li>
       <li>
         <a class="society-logo-link" href="https://cartogis.org/" target="_blank" rel="noopener">
-          <span class="society-logo-frame"><span class="society-logo-mark society-logo-mark--cagis" aria-hidden="true">CaGIS</span></span>
+          <span class="society-logo-frame"><img class="society-logo" src="{{ '/images/conferences/cagis.png' | relative_url }}" alt="Cartography and Geographic Information Society logo"></span>
           <span class="society-logo-caption">CaGIS</span>
         </a>
       </li>
       <li>
         <a class="society-logo-link" href="https://www.aag.org/" target="_blank" rel="noopener">
-          <span class="society-logo-frame"><span class="society-logo-mark society-logo-mark--aag" aria-hidden="true">AAG</span></span>
+          <span class="society-logo-frame"><img class="society-logo" src="{{ '/images/conferences/aag.svg' | relative_url }}" alt="American Association of Geographers logo"></span>
           <span class="society-logo-caption">AAG</span>
         </a>
       </li>
       <li>
         <a class="society-logo-link" href="https://www.gammathetaupsilon.org/" target="_blank" rel="noopener">
-          <span class="society-logo-frame"><span class="society-logo-mark society-logo-mark--gtu" aria-hidden="true">GTU</span></span>
+          <span class="society-logo-frame"><img class="society-logo" src="{{ '/images/societies/gamma-theta-upsilon.png' | relative_url }}" alt="Gamma Theta Upsilon key emblem"></span>
           <span class="society-logo-caption">Gamma Theta Upsilon</span>
         </a>
       </li>
