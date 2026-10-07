@@ -1794,6 +1794,28 @@ redirect_from:
   </ul>
 </section>
 
+<section id="professional-societies">
+  <h2>👥 Professional Societies</h2>
+  <ul>
+    <li>
+      <a href="https://sigspatial.org/" target="_blank" rel="noopener noreferrer">ACM Special Interest Group on Spatial Information (ACM SIGSPATIAL)</a>
+    </li>
+    <li>
+      <a href="https://www.grss-ieee.org/" target="_blank" rel="noopener noreferrer">IEEE Geoscience and Remote Sensing Society (IEEE GRSS)</a>
+    </li>
+    <li>
+      <a href="https://cartogis.org/" target="_blank" rel="noopener noreferrer">Cartography and Geographic Information Society (CaGIS)</a>
+    </li>
+    <li>
+      <a href="https://www.aag.org/" target="_blank" rel="noopener noreferrer">American Association of Geographers (AAG)</a>
+    </li>
+    <li>
+      <a href="https://www.gammathetaupsilon.org/" target="_blank" rel="noopener noreferrer">Gamma Theta Upsilon (GTU), International Geographic Honor Society, Nu Theta Chapter</a>
+      <span> (Lifetime Member)</span>
+    </li>
+  </ul>
+</section>
+
 <section id="industry-engagement">
   <h2>🏢 Industry Engagement</h2>
 
