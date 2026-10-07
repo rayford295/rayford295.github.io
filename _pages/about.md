@@ -278,6 +278,110 @@ redirect_from:
       transform: translateY(-2px);
     }
 
+    #professional-societies .society-footprint {
+      margin-top: 1.75rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e3e8ef;
+    }
+
+    #professional-societies .society-footprint h3 {
+      margin: 0 0 0.8rem;
+      font-size: 0.98em;
+      font-weight: 750;
+      line-height: 1.3;
+    }
+
+    #professional-societies .society-logo-wall {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 1rem 1.25rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    #professional-societies .society-logo-wall li {
+      margin: 0;
+    }
+
+    #professional-societies .society-logo-link {
+      display: block;
+      color: #42484f;
+      text-decoration: none;
+    }
+
+    #professional-societies .society-logo-frame {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 5.5rem;
+      padding: 0.4rem;
+      border-bottom: 1px solid #d8e0ea;
+      transition: border-color 0.18s ease, transform 0.18s ease;
+    }
+
+    #professional-societies .society-logo-mark {
+      display: grid;
+      place-items: center;
+      width: 5.2rem;
+      height: 4.2rem;
+      padding: 0.35rem;
+      border: 1px solid #cbd7e3;
+      border-radius: 0.7rem;
+      background: #f5f8fb;
+      color: #24445f;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      line-height: 1.1;
+      text-align: center;
+    }
+
+    #professional-societies .society-logo-mark--sigspatial {
+      border-color: #7ca8c8;
+      background: #edf6fb;
+      color: #14628b;
+    }
+
+    #professional-societies .society-logo-mark--grss {
+      border-color: #8aa6c6;
+      background: #eef3fa;
+      color: #31547c;
+    }
+
+    #professional-societies .society-logo-mark--cagis {
+      border-color: #9eb99d;
+      background: #f1f8f0;
+      color: #3b6a43;
+    }
+
+    #professional-societies .society-logo-mark--aag {
+      border-color: #c9a77f;
+      background: #fbf6ee;
+      color: #6d4c2d;
+    }
+
+    #professional-societies .society-logo-mark--gtu {
+      border-color: #bda5ca;
+      background: #f8f1fb;
+      color: #63416f;
+    }
+
+    #professional-societies .society-logo-caption {
+      display: block;
+      padding-top: 0.45rem;
+      font-size: 0.78rem;
+      font-weight: 700;
+      line-height: 1.25;
+      text-align: center;
+    }
+
+    #professional-societies .society-logo-link:hover .society-logo-frame,
+    #professional-societies .society-logo-link:focus .society-logo-frame {
+      border-color: #91a8c0;
+      transform: translateY(-2px);
+    }
+
     @media (max-width: 520px) {
       #presentation .conference-logo-wall {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -285,6 +389,15 @@ redirect_from:
       }
 
       #presentation .conference-logo-frame {
+        min-height: 4.75rem;
+      }
+
+      #professional-societies .society-logo-wall {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      #professional-societies .society-logo-frame {
         min-height: 4.75rem;
       }
     }
@@ -1798,22 +1911,57 @@ redirect_from:
   <h2>👥 Professional Societies</h2>
   <ul>
     <li>
-      <a href="https://sigspatial.org/" target="_blank" rel="noopener noreferrer">ACM Special Interest Group on Spatial Information (ACM SIGSPATIAL)</a>
+      ACM Special Interest Group on Spatial Information (ACM SIGSPATIAL)
     </li>
     <li>
-      <a href="https://www.grss-ieee.org/" target="_blank" rel="noopener noreferrer">IEEE Geoscience and Remote Sensing Society (IEEE GRSS)</a>
+      IEEE Geoscience and Remote Sensing Society (IEEE GRSS)
     </li>
     <li>
-      <a href="https://cartogis.org/" target="_blank" rel="noopener noreferrer">Cartography and Geographic Information Society (CaGIS)</a>
+      Cartography and Geographic Information Society (CaGIS)
     </li>
     <li>
-      <a href="https://www.aag.org/" target="_blank" rel="noopener noreferrer">American Association of Geographers (AAG)</a>
+      American Association of Geographers (AAG)
     </li>
     <li>
-      <a href="https://www.gammathetaupsilon.org/" target="_blank" rel="noopener noreferrer">Gamma Theta Upsilon (GTU), International Geographic Honor Society, Nu Theta Chapter</a>
+      Gamma Theta Upsilon (GTU), International Geographic Honor Society, Nu Theta Chapter
       <span> (Lifetime Member)</span>
     </li>
   </ul>
+  <div class="society-footprint" aria-label="Professional society links">
+    <h3>Society Footprint</h3>
+    <ul class="society-logo-wall">
+      <li>
+        <a class="society-logo-link" href="https://www.sigspatial.org/about/" target="_blank" rel="noopener">
+          <span class="society-logo-frame"><span class="society-logo-mark society-logo-mark--sigspatial" aria-hidden="true">SIG<br>SPATIAL</span></span>
+          <span class="society-logo-caption">ACM SIGSPATIAL</span>
+        </a>
+      </li>
+      <li>
+        <a class="society-logo-link" href="https://www.grss-ieee.org/" target="_blank" rel="noopener">
+          <span class="society-logo-frame"><span class="society-logo-mark society-logo-mark--grss" aria-hidden="true">IEEE<br>GRSS</span></span>
+          <span class="society-logo-caption">IEEE GRSS</span>
+        </a>
+      </li>
+      <li>
+        <a class="society-logo-link" href="https://cartogis.org/" target="_blank" rel="noopener">
+          <span class="society-logo-frame"><span class="society-logo-mark society-logo-mark--cagis" aria-hidden="true">CaGIS</span></span>
+          <span class="society-logo-caption">CaGIS</span>
+        </a>
+      </li>
+      <li>
+        <a class="society-logo-link" href="https://www.aag.org/" target="_blank" rel="noopener">
+          <span class="society-logo-frame"><span class="society-logo-mark society-logo-mark--aag" aria-hidden="true">AAG</span></span>
+          <span class="society-logo-caption">AAG</span>
+        </a>
+      </li>
+      <li>
+        <a class="society-logo-link" href="https://www.gammathetaupsilon.org/" target="_blank" rel="noopener">
+          <span class="society-logo-frame"><span class="society-logo-mark society-logo-mark--gtu" aria-hidden="true">GTU</span></span>
+          <span class="society-logo-caption">Gamma Theta Upsilon</span>
+        </a>
+      </li>
+    </ul>
+  </div>
 </section>
 
 <section id="industry-engagement">
