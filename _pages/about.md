@@ -722,6 +722,14 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Oct 2026</div>
   <div class="news-text">
+    Our co-authored paper <strong>“Modeling Hospital Visitation Flows Through Distance-Attractiveness Tradeoffs: Integrating Human Mobility, Hospital Attributes, and Socioeconomic Context”</strong>
+    has been accepted for publication in <em>Transactions in GIS</em>.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Oct 2026</div>
+  <div class="news-text">
     Our co-authored paper <strong>“Debris-Cast: A Two-Stage Machine Learning Framework for Hurricane Debris Prediction Using Multi-Source Geospatial Data”</strong>
     is now available online in the <a href="https://www.sciencedirect.com/science/article/pii/S2212420926004826" target="_blank" rel="noopener"><em>International Journal of Disaster Risk Reduction</em></a>.
   </div>
