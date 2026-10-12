@@ -722,6 +722,13 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Oct 2026</div>
   <div class="news-text">
+    Selected for a <strong>$500 Travel Award</strong> to attend the <strong>34th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL 2026)</strong>.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Oct 2026</div>
+  <div class="news-text">
     Our co-authored paper <strong>“Modeling Hospital Visitation Flows Through Distance-Attractiveness Tradeoffs: Integrating Human Mobility, Hospital Attributes, and Socioeconomic Context”</strong>
     has been accepted for publication in <em>Transactions in GIS</em>.
   </div>
@@ -1745,6 +1752,7 @@ redirect_from:
     <section class="honor-group">
       <h3 class="honor-year">2026</h3>
       <ul class="honor-list">
+        <li>ACM SIGSPATIAL 2026 — Travel Award, $500.</li>
         <li>GeoSAT Student Fellowship Program — Communications Fellow, 2026–2027, $500.</li>
         <li>Geography Graduate Student Enhancement Scholarship, Department of Geography, Texas A&amp;M University, $1,111.</li>
         <li>Cartography and Geographic Information Society (CaGIS) Doctoral Scholarship Award, $1,000.</li>
