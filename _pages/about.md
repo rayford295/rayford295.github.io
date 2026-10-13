@@ -745,8 +745,8 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Sep 2026</div>
   <div class="news-text">
-    My paper <strong>“Trust the View That Sees the Target: Mining Cross-View Conflicts for Reliability-Gated Disaster Damage Assessment”</strong>
-    has been accepted to the <a href="https://geosearch-workshop.github.io/geosearch2026/" target="_blank" rel="noopener"><strong>GeoSearch’26 Workshop</strong></a>.
+    My paper <strong>“When Satellite and Street Views Disagree: Cross-View Complementarity in Disaster Damage Assessment”</strong>
+    (with Lei Zou) has been accepted to the <a href="https://geosearch-workshop.github.io/geosearch2026/" target="_blank" rel="noopener"><strong>GeoSearch’26 Workshop</strong></a>.
   </div>
 </div>
 
@@ -1168,20 +1168,24 @@ redirect_from:
   <div class="paper-box" data-publication-year="2026" data-stage="phd">
     <div class="paper-box-image">
       <div class="badge">Conference Proceedings</div>
-      <img src="images/crossviewgate_pipeline.png" alt="CrossViewGate overview: street and overhead models, conflict cases, linear trust gate, gated prediction and conflict-density map" width="75%">
+      <img src="images/crossviewgate_pipeline.png" alt="CrossViewGate overview: street and overhead models, conflict cases, linear fusion gate, gated prediction and conflict-density map" width="75%">
     </div>
     <div class="paper-box-text">
-      <a href="https://arxiv.org/abs/2610.04327"
+      <a href="https://github.com/rayford295/CrossViewGate/blob/main/paper/geosearch2026_short/main.pdf"
          target="_blank" rel="noopener">
-        Trust the View That Sees the Target: Mining Cross-View Conflicts for Reliability-Gated Disaster Damage Assessment
+        When Satellite and Street Views Disagree: Cross-View Complementarity in Disaster Damage Assessment
       </a>
-      — <strong>Yang, Yifan</strong>.<br>
+      — <strong>Yang, Yifan</strong> and Zou, Lei.<br>
       <em>Proceedings of the 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data (GeoSearch '26)</em>, November 3–6, 2026, Riverside, CA, USA. ACM, New York, NY, USA, 4 pages. (Lightning talk)
 
       <div class="paper-links">
-        <a href="https://arxiv.org/abs/2610.04327"
+        <a href="https://github.com/rayford295/CrossViewGate/blob/main/paper/geosearch2026_short/main.pdf"
            target="_blank" rel="noopener"
            class="paper-link link-paper">📄 Paper</a>
+
+        <a href="https://arxiv.org/abs/2610.04327"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">🔗 arXiv</a>
 
         <a href="https://geosearch-workshop.github.io/geosearch2026/"
            target="_blank" rel="noopener"
