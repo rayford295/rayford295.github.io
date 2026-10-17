@@ -206,8 +206,8 @@ layout: compress
 
       .homepage-minimal__world-clocks {
         display: grid;
-        grid-template-columns: repeat(5, minmax(4.8rem, 1fr));
-        width: min(100%, 42rem);
+        grid-template-columns: repeat(6, minmax(4.8rem, 1fr));
+        width: min(100%, 48rem);
         margin: 1.35rem auto 0;
         gap: clamp(0.55rem, 1.7vw, 1.4rem);
       }
@@ -584,6 +584,15 @@ layout: compress
         <section class="homepage-minimal__world-clocks" aria-label="World clocks">
         <article class="homepage-minimal__world-clock" data-time-zone="Asia/Shanghai">
           <p class="homepage-minimal__world-clock-city">Xi'an, China</p>
+          <div class="homepage-minimal__world-clock-face" aria-hidden="true">
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--hour"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--minute"></span>
+            <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--second"></span>
+          </div>
+          <time class="homepage-minimal__world-clock-digital" datetime="">--:--</time>
+        </article>
+        <article class="homepage-minimal__world-clock" data-time-zone="Asia/Shanghai">
+          <p class="homepage-minimal__world-clock-city">Shenzhen, China</p>
           <div class="homepage-minimal__world-clock-face" aria-hidden="true">
             <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--hour"></span>
             <span class="homepage-minimal__world-clock-hand homepage-minimal__world-clock-hand--minute"></span>
