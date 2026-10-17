@@ -1667,6 +1667,18 @@ redirect_from:
           <span class="conference-logo-caption">International Cartographic Conference<span class="conference-years">2025</span></span>
         </a>
       </li>
+      <li>
+        <a class="conference-logo-link" href="https://geoaiconference.org/" target="_blank" rel="noopener">
+          <span class="conference-logo-frame"><img class="conference-logo" src="{{ '/images/conferences/geoai-2026.png' | relative_url }}" alt="GeoAI 2026 logo"></span>
+          <span class="conference-logo-caption">GeoAI Conference<span class="conference-years">2026</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="conference-logo-link" href="https://energy.tamu.edu/event/2026-texas-am-conference-on-energy/" target="_blank" rel="noopener">
+          <span class="conference-logo-frame"><img class="conference-logo" src="{{ '/images/tamu_logo.webp' | relative_url }}" alt="Texas A&amp;M University logo"></span>
+          <span class="conference-logo-caption">TAMU Energy Conference<span class="conference-years">2026</span></span>
+        </a>
+      </li>
     </ul>
   </div>
 </section>
