@@ -1482,6 +1482,16 @@ redirect_from:
           <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25338" target="_blank" rel="noopener">Session 25338</a>).
         </li>
         <li>
+          <strong>1st Geospatial AI Conference</strong>, Ghent, Belgium, 2026.
+          <ul class="presentation-subitems">
+            <li>
+              <em>Conference Presentation</em> —
+              <strong>Lei Zou, Bing Zhou, and Yifan Yang</strong>:
+              Responsible GeoAI: Thoughtful Integration of GIScience and AI in the Real World.
+            </li>
+          </ul>
+        </li>
+        <li>
           <strong>Symposium on Spatiotemporal Data Science</strong>, Alexandria, Virginia, August 7–8, 2026
           (<a href="https://stds.stcenter.net/index.php/resources/" target="_blank" rel="noopener">Program</a>).
           <ul class="presentation-subitems">
