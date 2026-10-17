@@ -1469,6 +1469,22 @@ redirect_from:
   <div class="presentation-scroll" tabindex="0" aria-label="Scrollable presentation history">
     <ul class="presentation-timeline">
     <li class="presentation-year">
+      <span class="presentation-year-label">2027</span>
+      <ul class="presentation-items">
+        <li>
+          <strong>American Association of Geographers Annual Meeting</strong>, New York, New York, February 8–12, 2027
+          (<a href="https://aag.secure-platform.com/aag2027/gallery/rounds/161/details/108301" target="_blank" rel="noopener">Abstract 108301</a>).
+          <ul class="presentation-subitems">
+            <li>
+              <em>Paper Abstract</em> —
+              <strong>Yifan Yang and Lei Zou</strong>:
+              Seeing Hurricane Damage Before It Happens: Multimodal GeoAI for Street-Level Prediction and Visualization.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li class="presentation-year">
       <span class="presentation-year-label">2026</span>
       <ul class="presentation-items">
         <li>
@@ -1652,7 +1668,7 @@ redirect_from:
       <li>
         <a class="conference-logo-link" href="https://www.aag.org/events/aag2026/" target="_blank" rel="noopener">
           <span class="conference-logo-frame"><img class="conference-logo" src="{{ '/images/conferences/aag.svg' | relative_url }}" alt="American Association of Geographers logo"></span>
-          <span class="conference-logo-caption">AAG Annual Meeting<span class="conference-years">2024-2026</span></span>
+          <span class="conference-logo-caption">AAG Annual Meeting<span class="conference-years">2024-2027</span></span>
         </a>
       </li>
       <li>
