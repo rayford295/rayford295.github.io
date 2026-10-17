@@ -1549,6 +1549,19 @@ redirect_from:
           </ul>
         </li>
         <li>
+          <strong>I-GUIDE Virtual Consulting Office (VCO) Webinar</strong>, online, September 23, 2026
+          (<a href="https://i-guide.io/i-guide-vco/detecting-and-correcting-spatial-bias-in-vgi-using-remote-sensing/" target="_blank" rel="noopener">Event Page</a>).
+          <ul class="presentation-subitems">
+            <li>
+              <em>Invited Webinar Talk</em> —
+              <strong>Kristina Fillman, Nowshin Nawar, Ravi Thapaliya, Yifan Yang, and Fangzheng Lyu</strong>:
+              Detecting and Correcting Spatial Bias in VGI Using Remote Sensing
+              (<a href="https://github.com/rayford295/vgi-spatial-bias" target="_blank" rel="noopener">GitHub</a>).
+              Wednesday, September 23, 2026, 11:00 am CT.
+            </li>
+          </ul>
+        </li>
+        <li>
           <strong>10th Annual Texas A&amp;M Conference on Energy</strong>, College Station, Texas, September 24–25, 2026
           (<a href="https://www.tamuers.com" target="_blank" rel="noopener">Program</a>).
           <ul class="presentation-subitems">
