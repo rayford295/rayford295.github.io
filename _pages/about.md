@@ -1539,7 +1539,8 @@ redirect_from:
             <li>
               <em>Oral Presentation, Data Science and Statistical Learning Session</em> —
               <strong>Yifan Yang, Lei Zou, Ting Chen, Christian Brannstrom, Xiaowei Chen, Randy Harsuko, Nori Nakata, Michael Gross, Jolante van Wijk, and Saeed Montazeri</strong>:
-              GATES: A Geothermal Acceptance Tracking and Evaluation System Using Multi-Source Social Sensing.
+              GATES: A Geothermal Acceptance Tracking and Evaluation System Using Multi-Source Social Sensing
+              (<a href="{{ '/assets/GATES-TAMU-Conference-on-Energy-2026.pdf' | relative_url }}" target="_blank" rel="noopener">📄 PDF</a>).
               Friday, September 25, 2026, 10:15 am, MSC 2502.
             </li>
           </ul>
