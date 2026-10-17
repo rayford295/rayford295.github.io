@@ -1543,6 +1543,24 @@ redirect_from:
           </ul>
         </li>
         <li>
+          <strong>ACM SIGSPATIAL 2026 / GeoSearch '26</strong>, Riverside, California, November 3–6, 2026
+          (<a href="https://sigspatial2026.sigspatial.org/detailed-program.html" target="_blank" rel="noopener">Detailed Program</a>).
+          <ul class="presentation-subitems">
+            <li>
+              <em>GeoSearch '26 Lightning Talk</em> —
+              <a href="https://arxiv.org/abs/2610.04327" target="_blank" rel="noopener">When Satellite and Street Views Disagree: Cross-View Complementarity in Disaster Damage Assessment</a>
+              — <strong>Yang, Yifan</strong>, Lei Zou.
+              <em>Proceedings of the 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data</em>, 4 pages.
+            </li>
+            <li>
+              <em>Applications Track, Application 2: Disaster &amp; Flood</em> —
+              <strong>Yang, Yifan, Wenjing Gong, Kaili Zhang, Lei Zou, Zhengzhong Tu, Hao Li, Zongrong Li, and Xinyue Ye</strong>:
+              <a href="https://doi.org/10.1145/3841645.3843346" target="_blank" rel="noopener">RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery</a>.
+              Wednesday, November 4, 2026, 4:00–5:30 pm.
+            </li>
+          </ul>
+        </li>
+        <li>
           <strong>SC26: The International Conference for High Performance Computing, Networking, Storage, and Analysis</strong>,
           Chicago, Illinois, November 15–20, 2026
           (<a href="https://sc26.conference-program.com/presentation/?id=rpost101&amp;sess=sess313" target="_blank" rel="noopener">Program</a>).
