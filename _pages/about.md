@@ -1619,6 +1619,16 @@ redirect_from:
            <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/83465" target="_blank" rel="noopener">Session 83465</a>).
         </li>
         <li>
+          <strong>Summer School on Cyberinfrastructure and Disaster Resilience</strong>, Texas A&amp;M University, College Station, Texas, August 15, 2025.
+          <ul class="presentation-subitems">
+            <li>
+              <em>Oral Presentation</em> —
+              <strong>Yifan Yang, Wenjing Gong, and Kaili Zhang</strong>:
+              DisasterVLP: Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models.
+            </li>
+          </ul>
+        </li>
+        <li>
           <strong>International Cartographic Conference (ICC)</strong>,
           Vancouver, Canada, August 18–22, 2025.
           <ul class="presentation-subitems">
