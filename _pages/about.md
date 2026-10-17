@@ -1679,6 +1679,12 @@ redirect_from:
           <span class="conference-logo-caption">TAMU Energy Conference<span class="conference-years">2026</span></span>
         </a>
       </li>
+      <li>
+        <a class="conference-logo-link" href="https://sigspatial2026.sigspatial.org/" target="_blank" rel="noopener">
+          <span class="conference-logo-frame"><img class="conference-logo" src="{{ '/images/societies/acm-sigspatial.png' | relative_url }}" alt="ACM SIGSPATIAL 2026 logo"></span>
+          <span class="conference-logo-caption">ACM SIGSPATIAL<span class="conference-years">2026</span></span>
+        </a>
+      </li>
     </ul>
   </div>
 </section>
