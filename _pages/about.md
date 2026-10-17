@@ -1482,12 +1482,14 @@ redirect_from:
           <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25338" target="_blank" rel="noopener">Session 25338</a>).
         </li>
         <li>
-          <strong>1st Geospatial AI Conference</strong>, Ghent, Belgium, 2026.
+          <strong>1st International Conference on Geospatial Artificial Intelligence (GeoAI 2026)</strong>, Ghent, Belgium, June 3–6, 2026
+          (<a href="https://geoaiconference.org/" target="_blank" rel="noopener">Conference Website</a>).
           <ul class="presentation-subitems">
             <li>
               <em>Conference Presentation</em> —
               <strong>Lei Zou, Bing Zhou, and Yifan Yang</strong>:
-              Responsible GeoAI: Thoughtful Integration of GIScience and AI in the Real World.
+              Responsible GeoAI: Thoughtful Integration of GIScience and AI in the Real World
+              (<a href="{{ '/assets/Responsible-GeoAI-Ghent-2026.pdf' | relative_url }}" target="_blank" rel="noopener">📄 PDF</a>).
             </li>
           </ul>
         </li>
