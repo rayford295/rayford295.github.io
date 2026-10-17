@@ -1593,6 +1593,18 @@ redirect_from:
             </li>
           </ul>
         </li>
+        <li>
+          <strong>Texas A&amp;M University GIS Day (TxGIS Day 2026)</strong>, College Station, Texas, November 17, 2026
+          (<a href="https://txgisday.org/sessions/details/816c4a80-f28d-431b-95ad-e6dddca0245d" target="_blank" rel="noopener">Session Page</a>).
+          <ul class="presentation-subitems">
+            <li>
+              <em>Student Paper Competition, Graduate Student Research (Oral)</em> —
+              <strong>Yifan Yang</strong>:
+              Seeing Disagreements: An Explainable Multimodal Framework for Disaster Assessment and Spatial Mapping.
+              Tuesday, November 17, 2026, 3:00–4:00 pm, MSC Bethancourt Ballroom 2300 C.
+            </li>
+          </ul>
+        </li>
       </ul>
     </li>
 
