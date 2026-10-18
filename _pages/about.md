@@ -1487,7 +1487,7 @@ redirect_from:
       <ul class="presentation-items">
         <li>
           <strong>American Association of Geographers Annual Meeting</strong>, New York, New York, February 8–12, 2027
-          (<a href="https://aag.secure-platform.com/aag2027/gallery/rounds/161/details/108301" target="_blank" rel="noopener">Session 108301</a>,
+          (<a href="https://aag.secure-platform.com/aag2027/gallery/rounds/161/details/108301" target="_blank" rel="noopener">Abstract 108301</a>,
           <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/26496" target="_blank" rel="noopener">Session 26496</a>).
         </li>
       </ul>
@@ -1497,7 +1497,7 @@ redirect_from:
       <ul class="presentation-items">
         <li>
           <strong>American Association of Geographers Annual Meeting</strong>, San Francisco, California, March 17–21, 2026
-          (<a href="https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541" target="_blank" rel="noopener">Session 90541</a>,
+          (<a href="https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541" target="_blank" rel="noopener">Abstract 90541</a>,
           <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25333" target="_blank" rel="noopener">Session 25333</a>,
           <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/24774" target="_blank" rel="noopener">Session 24774</a>,
           <a href="https://aag-meetings.secure-platform.com/aag2026/solicitations/93/sessiongallery/25413" target="_blank" rel="noopener">Session 25413</a>,
@@ -1624,8 +1624,8 @@ redirect_from:
           <strong>American Association of Geographers Annual Meeting</strong>, Detroit, Michigan, March 24–28, 2025
           (<a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23561" target="_blank" rel="noopener">Session 23561</a>,
           <a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23718" target="_blank" rel="noopener">Session 23718</a>,
-          <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104" target="_blank" rel="noopener">Session 82104</a>,
-          <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/83465" target="_blank" rel="noopener">Session 83465</a>).
+          <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104" target="_blank" rel="noopener">Abstract 82104</a>,
+          <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/83465" target="_blank" rel="noopener">Abstract 83465</a>).
         </li>
         <li>
           <strong>Summer School on Cyberinfrastructure and Disaster Resilience</strong>, Texas A&amp;M University, College Station, Texas, August 15, 2025.
