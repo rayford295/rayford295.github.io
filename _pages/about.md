@@ -678,19 +678,22 @@ redirect_from:
 </style>
 <ul class="ri-list">
   <li>
-    <strong>Spatial Reasoning under Incomplete Observation</strong>:
-    Real-world geographic evidence is never complete — imagery arrives stale, views are partial, and coverage is biased.
-    A model must reason from fragments and, crucially, know when the evidence supports action and when it does not.
+    <strong>Spatiotemporal Complementarity</strong>:
+    Any single view, time slice, or model observes a place only partially. The pre-disaster baseline, the overhead view, and the
+    ground-level view carry evidence that cannot substitute for one another, and disagreement between them is information, not noise.
+    How can a model restore the missing baseline, arbitrate conflicting observations, and turn partial evidence into a defensible judgment?
   </li>
   <li>
-    <strong>Cross-View Evidence Fusion</strong>:
-    Aerial and ground-level views often tell conflicting stories about the same place.
-    How should a model arbitrate disagreeing observations, weigh the credibility of each source, and fuse them into a single defensible judgment?
+    <strong>Place Specificity vs. Transferability</strong>:
+    Disasters are geographically specific, yet response demands methods that are general. Task-specific models win on specificity;
+    generative foundation models win on zero-shot transfer across hazards and regions, and no single model achieves both.
+    How should this trade-off be managed at the level of the framework, and how do we evaluate semantic correctness rather than mere perceptual realism?
   </li>
   <li>
-    <strong>Closed-Loop Autonomous GeoAI</strong>:
-    Moving beyond one-shot prediction toward agents that sense, reason, decide, and re-observe —
-    closing the loop so that every geospatial decision builds on what earlier observations revealed.
+    <strong>Accountability as a Constitutive Condition of GeoAI</strong>:
+    Once GeoAI moves from emitting labels to recommending decisions, evidence lineage, process validity, and the ability to refuse when
+    evidence is insufficient are no longer add-ons but preconditions for the output to count as geographic knowledge.
+    How do we build agentic GeoAI that anticipates, inspects, and communicates place-based impacts, and remains auditable while doing so?
   </li>
 </ul>
 
