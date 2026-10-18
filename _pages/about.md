@@ -697,23 +697,28 @@ redirect_from:
   </li>
 </ul>
 
-<p style="margin-bottom: 10px;"><strong>Keywords</strong> <span style="color:#777; font-size:0.9em;">(Google Scholar labels)</span>:</p>
+<p style="margin-bottom: 10px;"><strong>Keywords:</strong></p>
 <div style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:10px;">
-  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:ai4science" target="_blank" rel="noopener" style="text-decoration:none;">
+  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:ai4science" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
     <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">AI4Science</span>
   </a>
-  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:geoai" target="_blank" rel="noopener" style="text-decoration:none;">
+  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:geoai" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
     <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">GeoAI</span>
   </a>
-  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:disaster_resilience" target="_blank" rel="noopener" style="text-decoration:none;">
+  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:disaster_resilience" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
     <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Disaster Resilience</span>
   </a>
-  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:generative_ai" target="_blank" rel="noopener" style="text-decoration:none;">
+  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:generative_ai" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
     <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Generative AI</span>
   </a>
-  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:agentic_ai" target="_blank" rel="noopener" style="text-decoration:none;">
+  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:agentic_ai" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
     <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Agentic AI</span>
   </a>
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">GIScience</span>
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Multimodal Learning</span>
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Street-View Imagery</span>
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Remote Sensing</span>
+  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Responsible AI</span>
 </div>
 
 
