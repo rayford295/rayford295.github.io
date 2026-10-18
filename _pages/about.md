@@ -1624,7 +1624,7 @@ redirect_from:
           <strong>American Association of Geographers Annual Meeting</strong>, Detroit, Michigan, March 24–28, 2025
           (<a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23561" target="_blank" rel="noopener">Session 23561</a>,
           <a href="https://aag.secure-platform.com/aag2025/solicitations/82/sessiongallery/23718" target="_blank" rel="noopener">Session 23718</a>,
-          <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104" target="_blank" rel="noopener">Abstract 82104</a>,
+          <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/82104" target="_blank" rel="noopener">Session 82104</a>,
           <a href="https://aag.secure-platform.com/aag2025/organizations/main/gallery/rounds/131/details/83465" target="_blank" rel="noopener">Abstract 83465</a>).
         </li>
         <li>
@@ -1681,7 +1681,8 @@ redirect_from:
         </li>
         <li>
           <strong>American Association of Geographers Annual Meeting</strong>, Honolulu, Hawai'i, April 16–20, 2024
-          (<a href="https://aag.secure-platform.com/aag2024/solicitations/57/sessiongallery/7825" target="_blank" rel="noopener">Session 7825</a>).
+          (<a href="https://aag.secure-platform.com/aag2024/solicitations/57/sessiongallery/7825" target="_blank" rel="noopener">Session 7825</a>,
+          <a href="https://aag.secure-platform.com/aag2024/solicitations/57/sessiongallery/7825/application/32545" target="_blank" rel="noopener">Abstract 32545</a>).
         </li>
         <li>
           <strong>Spatiotemporal Data Science Symposium</strong>, Washington, D.C. (online), July 22, 2024 —
