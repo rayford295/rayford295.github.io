@@ -661,8 +661,8 @@ redirect_from:
 
 <div style="text-align: center; margin-top: 30px; margin-bottom: 35px;">
   <img 
-    src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/Autonomous%20GeoAI%20Research%20Pathway%20for%20Disaster%20Resilience.png"
-    alt="Autonomous GeoAI Research Pathway"
+    src="https://raw.githubusercontent.com/rayford295/rayford295.github.io/main/images/research-interests-geoai-disaster-resilience.png"
+    alt="Research interests: GeoAI for disaster resilience, organized around spatiotemporal complementarity, place specificity vs. transferability, accountability, and place-based decision support"
     style="max-width: 900px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"
   >
 </div>
