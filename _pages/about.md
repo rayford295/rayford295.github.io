@@ -656,7 +656,7 @@ redirect_from:
   <a href="/resume/Yifan_Yang_CV.pdf" target="_blank">
     View CV
   </a>
-  <span style="color:#6b7280; font-size:0.92em;">(last updated: September 5, 2026)</span>
+  <span style="color:#6b7280; font-size:0.92em;">(last updated: October 19, 2026)</span>
 </p>
 
 <div style="text-align: center; margin-top: 30px; margin-bottom: 35px;">
