@@ -1562,7 +1562,7 @@ redirect_from:
           <ul class="presentation-subitems">
             <li>
               <em>Invited Webinar Talk</em> —
-              <strong>Kristina Fillman, Nowshin Nawar, Ravi Thapaliya, Yifan Yang, and Fangzheng Lyu</strong>:
+              <strong>Yifan Yang, Kristina Fillman, Nowshin Nawar, Ravi Thapaliya, and Fangzheng Lyu</strong>:
               Detecting and Correcting Spatial Bias in VGI Using Remote Sensing
               (<a href="https://github.com/rayford295/vgi-spatial-bias" target="_blank" rel="noopener">GitHub</a>).
               Wednesday, September 23, 2026, 11:00 am CT.
