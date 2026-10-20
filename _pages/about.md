@@ -615,7 +615,7 @@ redirect_from:
   <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>,
   advised by <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>
   in the <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.
-  My research centers on Responsible GeoAI and Autonomous GeoAI for explainable spatial reasoning under incomplete, changing, and real-world observations.
+  My research builds autonomous and accountable GeoAI: systems that reason about places from incomplete, conflicting, and changing observations, transfer across regions, and know when the evidence is not enough. Disasters are my current testbed, where these conditions are most extreme.
   Beyond my research, I founded
   <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener"><strong>AutonomousGeoAI4Science</strong></a>,
   an open community hub for papers, tools, benchmarks, and collaboration. My doctoral committee members are
