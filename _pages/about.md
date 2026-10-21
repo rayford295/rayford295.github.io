@@ -736,6 +736,15 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Oct 2026</div>
   <div class="news-text">
+    Serving as the <strong>Student Organizer</strong> of the
+    <a href="https://gisersym.github.io/2027/" target="_blank" rel="noopener"><strong>AAG Symposium on GIScience for Human Experience and Responsibility (GISER 2027)</strong></a>,
+    held at the <strong>AAG Annual Meeting 2027</strong> in New York, NY, <strong>February 8–12, 2027</strong>.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Oct 2026</div>
+  <div class="news-text">
     Selected for a <strong>$500 Travel Award</strong> to attend the <strong>34th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL 2026)</strong>.
   </div>
 </div>
@@ -1934,6 +1943,11 @@ redirect_from:
     <li>
       <em>Student Director, <a href="https://www.aag.org/groups/geographic-information-science-and-systems/" target="_blank" rel="noopener">Geographic Information Science and Systems (GISS) Specialty Group</a></em>,
       <a href="https://www.aag.org/" target="_blank" rel="noopener">American Association of Geographers</a>, 2026 – 2027
+    </li>
+    <li>
+      <em>Student Organizer</em>,
+      <a href="https://gisersym.github.io/2027/" target="_blank" rel="noopener">AAG Symposium on GIScience for Human Experience and Responsibility (GISER 2027)</a>,
+      AAG Annual Meeting, New York, NY, February 8–12, 2027
     </li>
     <li>
       <em>Program Committee Member</em>,
