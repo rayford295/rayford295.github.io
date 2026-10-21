@@ -1587,13 +1587,15 @@ redirect_from:
         </li>
         <li>
           <strong>ACM SIGSPATIAL 2026 / GeoSearch '26</strong>, Riverside, California, November 3–6, 2026
-          (<a href="https://sigspatial2026.sigspatial.org/detailed-program.html" target="_blank" rel="noopener">Detailed Program</a>).
+          (<a href="https://sigspatial2026.sigspatial.org/detailed-program.html" target="_blank" rel="noopener">Detailed Program</a>,
+          <a href="https://geosearch-workshop.github.io/geosearch2026/" target="_blank" rel="noopener">GeoSearch Program</a>).
           <ul class="presentation-subitems">
             <li>
               <em>GeoSearch '26 Lightning Talk</em> —
               <a href="https://arxiv.org/abs/2610.04327" target="_blank" rel="noopener">When Satellite and Street Views Disagree: Cross-View Complementarity in Disaster Damage Assessment</a>
               — <strong>Yang, Yifan</strong>, Lei Zou.
               <em>Proceedings of the 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data</em>, 4 pages.
+              Tuesday, November 3, 2026, 2:15–2:30 pm, Riverside Convention Center.
             </li>
             <li>
               <em>Applications Track, Application 2: Disaster &amp; Flood</em> —
