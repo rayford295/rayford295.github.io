@@ -545,28 +545,30 @@ redirect_from:
       height: auto;
     }
 
+    /* Total pageviews sits on the map itself, in the bottom-right corner
+       (MapMyVisitors puts its zoom buttons bottom-left, its title top-center). */
+    .visitor-map-widgets > .visitor-map-flat {
+      position: relative;
+      width: fit-content;
+      max-width: 100%;
+    }
+
     .visitor-map-total {
-      width: min(100%, 420px);
-      display: flex;
-      align-items: baseline;
-      justify-content: center;
-      gap: 7px;
-      padding: 9px 14px;
-      color: #2f3a4a;
-      background: #f8fafc;
-      border: 1px solid #d8dee8;
-      border-radius: 8px;
-      font-size: .86rem;
-      line-height: 1.35;
+      position: absolute;
+      right: 8px;
+      bottom: 8px;
+      padding: 3px 9px;
+      color: #fff;
+      background: rgba(15, 35, 60, .38);
+      border-radius: 4px;
+      font: 700 12px/1.3 Arial, Helvetica, sans-serif;
+      letter-spacing: .01em;
+      pointer-events: none;
+      white-space: nowrap;
     }
 
-    .visitor-map-total strong {
-      color: #1f2937;
-      font-weight: 700;
-    }
-
-    .visitor-map-total span {
-      color: #52525b;
+    .visitor-map-total[hidden] {
+      display: none;
     }
 
     .visitor-map-fallback {
@@ -2606,11 +2608,10 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
     <div class="visitor-map-widgets">
       <div class="visitor-map-flat" data-visitor-widget>
         <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Qrv5eIcxwcPpgsi2Ge8d293SVIT9aODPJGzL0ZRIB-c&cl=ffffff&w=a"></script>
+        <div class="visitor-map-total" data-visitor-total hidden>
+          <span data-visitor-total-value></span> total pageviews
+        </div>
       </div>
-    </div>
-    <div class="visitor-map-total" data-visitor-total role="status" aria-live="polite">
-      <strong>Total Pageviews</strong>
-      <span data-visitor-total-value>Loading…</span>
     </div>
   </div>
 
@@ -2623,6 +2624,7 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
 
     var fallback = container.querySelector(".visitor-map-fallback");
     var widgets = Array.prototype.slice.call(container.querySelectorAll("[data-visitor-widget]"));
+    var total = container.querySelector("[data-visitor-total]");
     var totalValue = container.querySelector("[data-visitor-total-value]");
 
     // A widget is "live" once MapMyVisitors injects a non-script element
@@ -2630,14 +2632,18 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
     function hasLiveMap() {
       return widgets.some(function (widget) {
         return Array.prototype.some.call(widget.children, function (child) {
-          return child.tagName !== "SCRIPT";
+          return child.tagName !== "SCRIPT" && !child.hasAttribute("data-visitor-total");
         });
       });
     }
 
     function refreshFallback() {
+      var live = hasLiveMap();
       if (fallback) {
-        fallback.hidden = hasLiveMap();
+        fallback.hidden = live;
+      }
+      if (total) {
+        total.hidden = !(live && totalValue.textContent);
       }
     }
 
@@ -2655,14 +2661,16 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
           return response.json();
         })
         .then(function (stats) {
-          var total = Number(stats.total_pageviews);
-          if (!Number.isFinite(total)) {
+          var count = Number(stats.total_pageviews);
+          if (!Number.isFinite(count)) {
             throw new Error("Visitor statistics contain no total.");
           }
-          totalValue.textContent = total.toLocaleString();
+          totalValue.textContent = count.toLocaleString();
+          refreshFallback();
         })
         .catch(function () {
-          totalValue.textContent = "Unavailable";
+          totalValue.textContent = "";
+          refreshFallback();
         });
     }
   }());
