@@ -545,6 +545,30 @@ redirect_from:
       height: auto;
     }
 
+    .visitor-map-total {
+      width: min(100%, 420px);
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 7px;
+      padding: 9px 14px;
+      color: #2f3a4a;
+      background: #f8fafc;
+      border: 1px solid #d8dee8;
+      border-radius: 8px;
+      font-size: .86rem;
+      line-height: 1.35;
+    }
+
+    .visitor-map-total strong {
+      color: #1f2937;
+      font-weight: 700;
+    }
+
+    .visitor-map-total span {
+      color: #52525b;
+    }
+
     .visitor-map-fallback {
       width: min(100%, 420px);
       display: flex;
@@ -2584,6 +2608,10 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
         <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Qrv5eIcxwcPpgsi2Ge8d293SVIT9aODPJGzL0ZRIB-c&cl=ffffff&w=a"></script>
       </div>
     </div>
+    <div class="visitor-map-total" data-visitor-total role="status" aria-live="polite">
+      <strong>Total Pageviews</strong>
+      <span data-visitor-total-value>Loading…</span>
+    </div>
   </div>
 
   <script>
@@ -2595,6 +2623,7 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
 
     var fallback = container.querySelector(".visitor-map-fallback");
     var widgets = Array.prototype.slice.call(container.querySelectorAll("[data-visitor-widget]"));
+    var totalValue = container.querySelector("[data-visitor-total-value]");
 
     // A widget is "live" once MapMyVisitors injects a non-script element
     // (the map or globe image/anchor) beside its script tag.
@@ -2616,6 +2645,26 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       window.setTimeout(refreshFallback, 1200);
     });
     window.setTimeout(refreshFallback, 4000);
+
+    if (totalValue) {
+      fetch("/data/visitor-stats.json", { cache: "no-store" })
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("Visitor statistics are unavailable.");
+          }
+          return response.json();
+        })
+        .then(function (stats) {
+          var total = Number(stats.total_pageviews);
+          if (!Number.isFinite(total)) {
+            throw new Error("Visitor statistics contain no total.");
+          }
+          totalValue.textContent = total.toLocaleString();
+        })
+        .catch(function () {
+          totalValue.textContent = "Unavailable";
+        });
+    }
   }());
   </script>
 
