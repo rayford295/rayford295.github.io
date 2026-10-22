@@ -547,10 +547,10 @@ redirect_from:
 
     /* Total pageviews sits on the map itself, in the bottom-right corner
        (MapMyVisitors puts its zoom buttons bottom-left, its title top-center). */
+    /* No fit-content here: MapMyVisitors reads the container width once at
+       load and freezes it inline, so the container must already be sized. */
     .visitor-map-widgets > .visitor-map-flat {
       position: relative;
-      width: fit-content;
-      max-width: 100%;
     }
 
     .visitor-map-total {
