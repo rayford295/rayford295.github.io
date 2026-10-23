@@ -2041,6 +2041,7 @@ redirect_from:
     <li><em>International Journal of Remote Sensing</em></li>
     <li><em>GeoSearch 2026: 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data</em></li>
     <li><em>npj Natural Hazards</em></li>
+    <li><em>2027 AAG GISS Specialty Group (GISS-SG) Student Honors Paper Competition</em></li>
   </ul>
 </li>
   </ul>
