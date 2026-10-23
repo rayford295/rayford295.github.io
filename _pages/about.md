@@ -1322,21 +1322,29 @@ redirect_from:
     <img src="images/3rd_RS2SVI.png" alt="Satellite-to-Street Framework" width="75%">
   </div>
   <div class="paper-box-text">
-    <a href="https://arxiv.org/abs/2603.20697"
+    <a href="https://ieeexplore.ieee.org/document/11730816"
        target="_blank" rel="noopener">
       Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
     </a>
     — <strong>Yang, Yifan</strong>, Lei Zou, Wendy Jepson. <br>
-    <em>Accepted to IGARSS 2026 — IEEE International Geoscience and Remote Sensing Symposium</em>. <br>
+    <em>IGARSS 2026 — 2026 IEEE International Geoscience and Remote Sensing Symposium</em>, August 9–14, 2026, Washington, DC, USA. IEEE. <br>
 
     <div class="paper-links">
-      <a href="https://arxiv.org/abs/2603.20697"
+      <a href="https://ieeexplore.ieee.org/document/11730816"
          target="_blank" rel="noopener"
          class="paper-link link-paper">📄 Paper</a>
+
+      <a href="https://arxiv.org/abs/2603.20697"
+         target="_blank" rel="noopener"
+         class="paper-link link-paper">📄 arXiv</a>
 
       <a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585&SessionID=1704"
          target="_blank" rel="noopener"
          class="paper-link link-doi">🔗 Conference</a>
+
+      <a href="https://doi.org/10.1109/IGARSS60577.2026.11730816"
+         target="_blank" rel="noopener"
+         class="paper-link link-doi">🔗 DOI</a>
 
       <a href="https://github.com/rayford295/Sat2Street-DisasterGen"
          target="_blank" rel="noopener"
