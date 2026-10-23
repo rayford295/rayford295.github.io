@@ -1316,6 +1316,11 @@ redirect_from:
   </div>
 
   <!-- Satellite-to-Street Paper -->
+<style>
+  .paper-box-text a.doi-inline { color: #005fa3; text-decoration: none; }
+  .paper-box-text a.doi-inline:hover { text-decoration: underline; }
+  html[data-theme="dark"] .paper-box-text a.doi-inline { color: #7cb8e8; }
+</style>
 <div class="paper-box" data-publication-year="2026" data-stage="phd">
   <div class="paper-box-image">
     <div class="badge">Conference Proceedings</div>
@@ -1327,7 +1332,7 @@ redirect_from:
       Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
     </a>
     — <strong>Yang, Yifan</strong>, Lei Zou, Wendy Jepson. <br>
-    <em>IGARSS 2026 – 2026 IEEE International Geoscience and Remote Sensing Symposium</em>, Washington, DC, USA, 2026, pp. 1764–1768, doi: <a href="https://doi.org/10.1109/IGARSS60577.2026.11730816" target="_blank" rel="noopener">10.1109/IGARSS60577.2026.11730816</a>. <br>
+    <em>IGARSS 2026 – 2026 IEEE International Geoscience and Remote Sensing Symposium</em>, Washington, DC, USA, 2026, pp. 1764–1768, doi: <a class="doi-inline" href="https://doi.org/10.1109/IGARSS60577.2026.11730816" target="_blank" rel="noopener">10.1109/IGARSS60577.2026.11730816</a>. <br>
 
     <div class="paper-links">
       <a href="https://ieeexplore.ieee.org/document/11730816"
