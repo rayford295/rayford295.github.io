@@ -1327,16 +1327,12 @@ redirect_from:
       Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
     </a>
     — <strong>Yang, Yifan</strong>, Lei Zou, Wendy Jepson. <br>
-    <em>IGARSS 2026 — 2026 IEEE International Geoscience and Remote Sensing Symposium</em>, August 9–14, 2026, Washington, DC, USA. IEEE. <br>
+    <em>IGARSS 2026 – 2026 IEEE International Geoscience and Remote Sensing Symposium</em>, Washington, DC, USA, 2026, pp. 1764–1768. <br>
 
     <div class="paper-links">
       <a href="https://ieeexplore.ieee.org/document/11730816"
          target="_blank" rel="noopener"
          class="paper-link link-paper">📄 Paper</a>
-
-      <a href="https://arxiv.org/abs/2603.20697"
-         target="_blank" rel="noopener"
-         class="paper-link link-paper">📄 arXiv</a>
 
       <a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585&SessionID=1704"
          target="_blank" rel="noopener"
