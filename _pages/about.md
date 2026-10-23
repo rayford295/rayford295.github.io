@@ -2200,6 +2200,21 @@ redirect_from:
   <ul>
     <li>
       <strong>
+        <a href="https://mp.weixin.qq.com/s/hdapQiYII-huy9pmjt59wg" target="_blank" rel="noopener">
+          Moving Toward Greater Failures!
+        </a>
+      </strong>
+      — <em>Featured Essay, October 2026</em>
+      <p style="margin-left: 1em;">
+        A reflection on failure through Cao Cao after the Battle of Red Cliffs:
+        reflection rarely fixes the past, but it lifts morale and gives one the
+        courage to fight again and aim for greater failures.
+        <a href="https://mp.weixin.qq.com/s/hdapQiYII-huy9pmjt59wg" target="_blank" rel="noopener">Read Essay</a>.
+      </p>
+    </li>
+
+    <li>
+      <strong>
         <a href="https://mp.weixin.qq.com/s/usJs3j2HPjrPcmDVKcf6cg" target="_blank" rel="noopener">
           A Fantasy Novel: The Protagonist Has a Cheat Code, So What About Me?
         </a>
