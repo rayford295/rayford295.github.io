@@ -1317,9 +1317,8 @@ redirect_from:
 
   <!-- Satellite-to-Street Paper -->
 <style>
-  .paper-box-text a.doi-inline { color: #005fa3; text-decoration: none; }
-  .paper-box-text a.doi-inline:hover { text-decoration: underline; }
-  html[data-theme="dark"] .paper-box-text a.doi-inline { color: #7cb8e8; }
+  .paper-box-text a.doi-inline,
+  .paper-box-text a.doi-inline:hover { color: inherit; text-decoration: none; }
 </style>
 <div class="paper-box" data-publication-year="2026" data-stage="phd">
   <div class="paper-box-image">
