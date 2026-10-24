@@ -779,7 +779,7 @@ redirect_from:
   <div class="news-date">Oct 2026</div>
   <div class="news-text">
     Our co-authored paper <strong>“Modeling Hospital Visitation Flows Through Distance-Attractiveness Tradeoffs: Integrating Human Mobility, Hospital Attributes, and Socioeconomic Context”</strong>
-    has been accepted for publication in <em>Transactions in GIS</em>.
+    has been accepted and is now available online in <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/tgis.70432" target="_blank" rel="noopener"><em>Transactions in GIS</em></a>.
   </div>
 </div>
 
