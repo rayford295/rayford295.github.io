@@ -2050,7 +2050,7 @@ redirect_from:
     <li><em>GeoSearch 2026: 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data</em></li>
     <li><em>npj Natural Hazards</em></li>
     <li><em>2027 AAG GISS Specialty Group (GISS-SG) Student Honors Paper Competition</em></li>
-    <li><em><a href="https://iclr.cc/Conferences/2027" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">The 15th International Conference on Learning Representations (ICLR 2027)</a></em></li>
+    <li><em><a href="https://iclr.cc/Conferences/2027" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">The 15th International Conference on Learning Representations (ICLR 2027)</a></em></li>
   </ul>
 </li>
   </ul>
