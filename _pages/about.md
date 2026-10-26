@@ -762,6 +762,14 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Oct 2026</div>
   <div class="news-text">
+    Our co-authored paper <strong>“GeoProbe: Layer-wise Probing of Core Geospatial Concepts in Large Language Models”</strong>
+    has been accepted for publication in the <em>International Journal of Geographical Information Science</em>.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Oct 2026</div>
+  <div class="news-text">
     Serving as the <strong>Student Organizer</strong> of the
     <a href="https://gisersym.github.io/2027/" target="_blank" rel="noopener"><strong>AAG Symposium on GIScience for Human Experience and Responsibility (GISER 2027)</strong></a>,
     held at the <strong>AAG Annual Meeting 2027</strong> in New York, NY, <strong>February 8–12, 2027</strong>.
