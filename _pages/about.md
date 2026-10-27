@@ -2116,46 +2116,53 @@ redirect_from:
 <section id="industry-engagement">
   <h2>🏢 Industry Engagement</h2>
 
-  <ul>
-    <li>
-      <strong>Rayford AI</strong> — <em>Founder-led Venture</em>
-      <p style="margin-left: 1em;">
-        Building a geospatial physical AI company that combines remote sensing, street-level imagery,
-        and multimodal spatial intelligence into auditable real-world workflows for property and infrastructure
-        decisions, starting with disaster assessment, claims triage, and resilience operations.
-        <a href="https://rayford-ai.com/" target="_blank" rel="noopener">Company</a>.
-      </p>
-    </li>
+  <div class="experience-timeline" aria-label="Industry engagement">
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/rayford_ai_mark.png" alt="Rayford AI logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-role">Founder-led Venture</p>
+        <p class="experience-summary">Building a geospatial physical AI company that combines remote sensing, street-level imagery, and multimodal spatial intelligence into auditable real-world workflows for property and infrastructure decisions, starting with disaster assessment, claims triage, and resilience operations.</p>
+        <p class="experience-organization"><a href="https://rayford-ai.com/" target="_blank" rel="noopener noreferrer">Rayford AI</a></p>
+      </div>
+    </article>
 
-    <li>
-      <strong>Niantic Spatial</strong> — <em>Academic Exchange</em>
-      <p style="margin-left: 1em;">
-        Invited by Niantic Spatial for an academic exchange in San Francisco on GeoAI,
-        multimodal spatial intelligence, and disaster-related spatial analytics,
-        highlighting the relevance of my research to large-scale spatial systems in industry.
-        <a href="/images/niantic.png" target="_blank" rel="noopener">Invitation Letter</a>.
-      </p>
-    </li>
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/niantic_spatial_logo.png" alt="Niantic Spatial logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-role">Academic Exchange</p>
+        <p class="experience-summary">Invited by Niantic Spatial for an academic exchange in San Francisco on GeoAI, multimodal spatial intelligence, and disaster-related spatial analytics, highlighting the relevance of my research to large-scale spatial systems in industry.</p>
+        <p class="experience-summary"><a href="/images/niantic.png" target="_blank" rel="noopener">Invitation Letter</a></p>
+        <p class="experience-organization"><a href="https://www.nianticspatial.com/" target="_blank" rel="noopener noreferrer">Niantic Spatial</a></p>
+      </div>
+    </article>
 
-    <li>
-      <strong>Mosaic</strong> — <em>Featured Research</em>
-      <p style="margin-left: 1em;">
-        My disaster assessment research was featured by Mosaic in a story on how
-        Texas A&amp;M is pioneering hyperlocal damage assessment using street-level
-        imagery from Hurricane Milton.
-        <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener">Read Story</a>.
-      </p>
-    </li>
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/mosaic_logo.png" alt="Mosaic logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-role">Featured Research</p>
+        <p class="experience-summary">My disaster assessment research was featured by Mosaic in a story on how Texas A&amp;M is pioneering hyperlocal damage assessment using street-level imagery from Hurricane Milton.</p>
+        <p class="experience-summary"><a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/" target="_blank" rel="noopener">Read Story</a></p>
+        <p class="experience-organization"><a href="https://www.mosaic51.com/" target="_blank" rel="noopener noreferrer">Mosaic</a></p>
+      </div>
+    </article>
 
-    <li>
-      <strong>Vitally AI</strong> — <em>Industry Experience</em>
-      <p style="margin-left: 1em;">
-        Completed an industry internship in data engineering and AI model fine-tuning,
-        gaining hands-on experience in applied generative AI systems and production-oriented workflows.
-        <a href="https://app.vitally-ai.com/" target="_blank" rel="noopener">Company</a>.
-      </p>
-    </li>
-  </ul>
+    <article class="experience-entry">
+      <div class="experience-logo-card">
+        <img src="images/vitally.png" alt="Vitally AI logo">
+      </div>
+      <div class="experience-content">
+        <p class="experience-role">Industry Experience</p>
+        <p class="experience-summary">Completed an industry internship in data engineering and AI model fine-tuning, gaining hands-on experience in applied generative AI systems and production-oriented workflows.</p>
+        <p class="experience-organization"><a href="https://app.vitally-ai.com/" target="_blank" rel="noopener noreferrer">Vitally AI</a></p>
+      </div>
+    </article>
+  </div>
 </section>
 
 
