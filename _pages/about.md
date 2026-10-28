@@ -1064,33 +1064,27 @@ redirect_from:
   </div>
 
   <style>
-    .campus-row { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin:1.6em 0 0.4em; }
+    .campus-row { display:grid; grid-template-columns:repeat(3,1fr); max-width:720px; gap:14px; margin:1.6em 0 0.4em; }
     .campus-row figure { margin:0; }
-    .campus-row img { width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,.12); display:block; }
+    .campus-row img { width:100%; aspect-ratio:3/5; object-fit:cover; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,.12); display:block; }
     .campus-row figcaption { margin-top:6px; font-size:0.78em; text-align:center; color:#555; }
-    .campus-credit { font-size:0.68em; color:#999; margin:0.2em 0 0; }
-    .campus-credit a { color:inherit; }
     html[data-theme="dark"] .campus-row figcaption { color:#bbb; }
-    @media (max-width:600px) { .campus-row { grid-template-columns:1fr; } }
+    @media (max-width:600px) { .campus-row { gap:8px; } .campus-row figcaption { font-size:0.7em; } }
   </style>
-  <div class="campus-row" aria-label="Campus photos">
+  <div class="campus-row" aria-label="Campus illustrations">
     <figure>
-      <img src="images/tamu_campus.jpg" alt="Academic Building, Texas A&amp;M University" loading="lazy">
-      <figcaption>Academic Building · Texas A&amp;M University</figcaption>
+      <img src="images/tamu_mascot.jpg" alt="Chibi illustration of Yifan as a Texas A&amp;M graduate with a collie" loading="lazy">
+      <figcaption>Texas A&amp;M University</figcaption>
     </figure>
     <figure>
-      <img src="images/usc_campus.jpg" alt="Doheny Memorial Library, University of Southern California" loading="lazy">
-      <figcaption>Doheny Memorial Library · USC</figcaption>
+      <img src="images/usc_mascot.jpg" alt="Chibi illustration of Yifan as a USC graduate with a little Trojan" loading="lazy">
+      <figcaption>University of Southern California</figcaption>
     </figure>
     <figure>
-      <img src="images/hainan_campus.jpg" alt="East Gate, Hainan University" loading="lazy">
-      <figcaption>East Gate · Hainan University</figcaption>
+      <img src="images/hainan_mascot.jpg" alt="Chibi illustration of Yifan as a Hainan University graduate with a coconut" loading="lazy">
+      <figcaption>Hainan University</figcaption>
     </figure>
   </div>
-  <p class="campus-credit">Photos via Wikimedia Commons:
-    <a href="https://commons.wikimedia.org/wiki/File:Texas_A%26M_Academic_Building.jpg" target="_blank" rel="noopener noreferrer">Kailynn.Nelson</a> (CC BY-SA 4.0),
-    <a href="https://commons.wikimedia.org/wiki/File:Doheny_Memorial_Library_of_USC.jpg" target="_blank" rel="noopener noreferrer">EEJCC</a> (CC BY-SA 4.0),
-    <a href="https://commons.wikimedia.org/wiki/File:The_east_gate_of_Hainan_University.jpg" target="_blank" rel="noopener noreferrer">Zhangmoon618</a> (CC BY-SA 3.0).</p>
 </section>
 
 <section id="experiences">
