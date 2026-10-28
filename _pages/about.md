@@ -1065,7 +1065,7 @@ redirect_from:
 
   <style>
     .campus-row { display:grid; grid-template-columns:repeat(3,1fr); max-width:720px; gap:14px; margin:1.6em 0 0.4em; }
-    .campus-row figure { margin:0; }
+    #educations .campus-row figure { margin:0; display:block; }
     .campus-row img { width:100%; aspect-ratio:3/5; object-fit:cover; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,.12); display:block; }
     #educations .campus-row figcaption { margin-top:8px; font-family:inherit; font-size:0.78em; line-height:1.35; text-align:center; color:#555; }
     #educations .campus-row figcaption strong { display:block; font-size:0.9em; letter-spacing:.04em; color:#888; font-weight:600; }
