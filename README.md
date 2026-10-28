@@ -29,9 +29,9 @@ He founded [AutonomousGeoAI4Science](https://github.com/AutoGeoAI4Sci), an open 
 
 <table align="center">
   <tr>
-    <td align="center" valign="top" width="33%"><img src="images/hainan_mascot.jpg?v=2" alt="Chibi illustration of Yifan as a Hainan University graduate with a coconut" width="200"><br><sub><b>B.S.</b> · 2018–2022</sub><br>Hainan University</td>
-    <td align="center" valign="top" width="33%"><img src="images/usc_mascot.jpg?v=2" alt="Chibi illustration of Yifan as a USC graduate with a little Trojan" width="200"><br><sub><b>M.S.</b> · 2022–2024</sub><br>University of Southern California</td>
-    <td align="center" valign="top" width="33%"><img src="images/tamu_mascot.jpg?v=2" alt="Chibi illustration of Yifan as a Texas A&amp;M graduate with a collie" width="200"><br><sub><b>Ph.D.</b> · 2024–Present</sub><br>Texas A&amp;M University</td>
+    <td align="center" valign="top" width="33%"><img src="images/hainan_mascot.jpg?v=3" alt="Chibi illustration of Yifan as a Hainan University graduate with a coconut" width="200"><br><sub><b>B.S.</b> · 2018–2022</sub><br>Hainan University</td>
+    <td align="center" valign="top" width="33%"><img src="images/usc_mascot.jpg?v=3" alt="Chibi illustration of Yifan as a USC graduate with a little Trojan" width="200"><br><sub><b>M.S.</b> · 2022–2024</sub><br>University of Southern California</td>
+    <td align="center" valign="top" width="33%"><img src="images/tamu_mascot.jpg?v=3" alt="Chibi illustration of Yifan as a Texas A&amp;M graduate with a collie" width="200"><br><sub><b>Ph.D.</b> · 2024–Present</sub><br>Texas A&amp;M University</td>
   </tr>
 </table>
 
