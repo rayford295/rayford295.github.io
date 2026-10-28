@@ -25,6 +25,16 @@ He founded [AutonomousGeoAI4Science](https://github.com/AutoGeoAI4Sci), an open 
 - AI4Science · [Spatial Data Science](https://scholar.google.com/citations?view_op=search_authors&hl=zh-CN&mauthors=label:spatial_data_science) · GeoAI
 - GIScience · Multimodal AI · Disaster Resilience · Generative AI
 
+### Academic Journey
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%"><img src="images/hainan_mascot.jpg" alt="Chibi illustration of Yifan as a Hainan University graduate with a coconut" width="220"><br><sub><b>B.S.</b> · 2018–2022</sub><br>Hainan University</td>
+    <td align="center" width="33%"><img src="images/usc_mascot.jpg" alt="Chibi illustration of Yifan as a USC graduate with a little Trojan" width="220"><br><sub><b>M.S.</b> · 2022–2024</sub><br>University of Southern California</td>
+    <td align="center" width="33%"><img src="images/tamu_mascot.jpg" alt="Chibi illustration of Yifan as a Texas A&amp;M graduate with a collie" width="220"><br><sub><b>Ph.D.</b> · 2024–Present</sub><br>Texas A&amp;M University</td>
+  </tr>
+</table>
+
 ## The Current Site
 
 The homepage is a light, editorial landing page. It combines a live College Station clock, five world clocks, an illustrated research-and-life wallpaper, concise shortcuts, and a small contact line. The content itself lives on dedicated pages, so the landing page stays focused and easy to scan.

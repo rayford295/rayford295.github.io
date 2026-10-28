@@ -1062,31 +1062,6 @@ redirect_from:
       </div>
     </article>
   </div>
-
-  <style>
-    .campus-row { display:grid; grid-template-columns:repeat(3,1fr); max-width:720px; gap:14px; margin:1.6em 0 0.4em; }
-    #educations .campus-row figure { margin:0; display:block; }
-    .campus-row img { width:100%; aspect-ratio:3/5; object-fit:cover; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,.12); display:block; }
-    #educations .campus-row figcaption { margin-top:8px; font-family:inherit; font-size:0.78em; line-height:1.35; text-align:center; color:#555; }
-    #educations .campus-row figcaption strong { display:block; font-size:0.9em; letter-spacing:.04em; color:#888; font-weight:600; }
-    html[data-theme="dark"] #educations .campus-row figcaption { color:#bbb; }
-    html[data-theme="dark"] #educations .campus-row figcaption strong { color:#999; }
-    @media (max-width:600px) { .campus-row { gap:8px; } #educations .campus-row figcaption { font-size:0.68em; } }
-  </style>
-  <div class="campus-row" aria-label="Campus illustrations">
-    <figure>
-      <img src="images/tamu_mascot.jpg" alt="Chibi illustration of Yifan as a Texas A&amp;M graduate with a collie" loading="lazy">
-      <figcaption><strong>Ph.D.</strong>Texas A&amp;M University</figcaption>
-    </figure>
-    <figure>
-      <img src="images/usc_mascot.jpg" alt="Chibi illustration of Yifan as a USC graduate with a little Trojan" loading="lazy">
-      <figcaption><strong>M.S.</strong>University of Southern California</figcaption>
-    </figure>
-    <figure>
-      <img src="images/hainan_mascot.jpg" alt="Chibi illustration of Yifan as a Hainan University graduate with a coconut" loading="lazy">
-      <figcaption><strong>B.S.</strong>Hainan University</figcaption>
-    </figure>
-  </div>
 </section>
 
 <section id="experiences">
