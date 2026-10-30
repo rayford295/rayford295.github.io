@@ -1211,6 +1211,7 @@ redirect_from:
     <button class="publication-filter is-active" type="button" data-stage-filter="all" aria-pressed="true">All</button>
     <button class="publication-filter publication-filter--phd" type="button" data-stage-filter="phd" aria-pressed="false" title="Texas A&amp;M University · Aug. 2024 – Present"><span class="stage-dot"></span>Ph.D. period</button>
     <button class="publication-filter publication-filter--ms" type="button" data-stage-filter="ms" aria-pressed="false" title="University of Southern California · Aug. 2022 – May 2024"><span class="stage-dot"></span>M.S. period</button>
+    <button class="publication-filter publication-filter--love" type="button" data-stage-filter="love" aria-pressed="false" title="With Jingyi · since Sept. 20, 2026"><span class="stage-heart" aria-hidden="true">♥</span>Love period</button>
   </div>
 
   <div class="publication-filters publication-filters--tight" role="group" aria-label="Filter selected publications by year">
@@ -1219,6 +1220,40 @@ redirect_from:
     <button class="publication-filter" type="button" data-publication-filter="2026" aria-pressed="false">2026</button>
     <button class="publication-filter" type="button" data-publication-filter="2025" aria-pressed="false">2025</button>
     <button class="publication-filter" type="button" data-publication-filter="2024" aria-pressed="false">2024</button>
+  </div>
+
+  <!-- MERIDIAN / Yi Town paper (with Jingyi) -->
+  <div class="paper-box" data-publication-year="2026" data-stage="love">
+    <div class="paper-box-image">
+      <div class="badge">Preprint</div>
+      <img src="images/meridian_yi_town.png" alt="Yi Town: a pixel-art town of nine numbered houses around a fountain, one house per level" width="75%">
+    </div>
+    <div class="paper-box-text">
+      <a href="https://github.com/rayford295/yi-town/blob/main/paper/meridian.pdf"
+         target="_blank" rel="noopener">
+        MERIDIAN: Memory-Encoded Rituals for Intimacy across Distance in an Interactive, Asynchronous Neighbourhood
+      </a>
+      — Jingyi Chen, <strong>Yang, Yifan</strong>.<br>
+      <em>Preprint</em>, October 2026, 13 pages. A design case of Yi Town, a bilingual browser game built for the two of us across a thirteen-hour time difference: nine levels made from shared memories, progress that never leaves the phone, and a wedding at the end.
+
+      <div class="paper-links">
+        <a href="https://github.com/rayford295/yi-town/blob/main/paper/meridian.pdf"
+           target="_blank" rel="noopener"
+           class="paper-link link-paper">📄 Paper</a>
+
+        <a href="https://jingyifan.love/"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">💗 Play</a>
+
+        <a href="https://youtu.be/C0-oPjvNzZk"
+           target="_blank" rel="noopener"
+           class="paper-link link-doi">▶ Video</a>
+
+        <a href="https://github.com/rayford295/yi-town"
+           target="_blank" rel="noopener"
+           class="paper-link link-code">💻 GitHub</a>
+      </div>
+    </div>
   </div>
 
   <!-- CrossViewGate GeoSearch Paper -->
