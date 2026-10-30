@@ -1226,7 +1226,7 @@ redirect_from:
   <div class="paper-box" data-publication-year="2026" data-stage="love">
     <div class="paper-box-image">
       <div class="badge">Preprint</div>
-      <img src="images/meridian_yi_town.png" alt="Yi Town: a pixel-art town of nine numbered houses around a fountain, one house per level" width="75%">
+      <img src="images/meridian_yi_town.png" alt="Yi Town: Jingyi and Yifan by the fountain with the guide Rayford and the cats Coffee and Duoduo, houses 6, 7 and 9 below" width="75%">
     </div>
     <div class="paper-box-text">
       <a href="https://github.com/rayford295/yi-town/blob/main/paper/meridian.pdf"
