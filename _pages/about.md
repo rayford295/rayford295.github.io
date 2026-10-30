@@ -1245,10 +1245,6 @@ redirect_from:
            target="_blank" rel="noopener"
            class="paper-link link-doi">💗 Play</a>
 
-        <a href="https://youtu.be/C0-oPjvNzZk"
-           target="_blank" rel="noopener"
-           class="paper-link link-doi">▶ Video</a>
-
         <a href="https://github.com/rayford295/yi-town"
            target="_blank" rel="noopener"
            class="paper-link link-code">💻 GitHub</a>
