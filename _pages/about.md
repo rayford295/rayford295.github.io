@@ -1211,7 +1211,6 @@ redirect_from:
     <button class="publication-filter is-active" type="button" data-stage-filter="all" aria-pressed="true">All</button>
     <button class="publication-filter publication-filter--phd" type="button" data-stage-filter="phd" aria-pressed="false" title="Texas A&amp;M University · Aug. 2024 – Present"><span class="stage-dot"></span>Ph.D. period</button>
     <button class="publication-filter publication-filter--ms" type="button" data-stage-filter="ms" aria-pressed="false" title="University of Southern California · Aug. 2022 – May 2024"><span class="stage-dot"></span>M.S. period</button>
-    <button class="publication-filter publication-filter--love" type="button" data-stage-filter="love" aria-pressed="false" title="With Jingyi · since Sept. 20, 2026"><span class="stage-heart" aria-hidden="true">♥</span>Love period</button>
   </div>
 
   <div class="publication-filters publication-filters--tight" role="group" aria-label="Filter selected publications by year">
@@ -1223,7 +1222,7 @@ redirect_from:
   </div>
 
   <!-- MERIDIAN / Yi Town paper (with Jingyi) -->
-  <div class="paper-box" data-publication-year="2026" data-stage="love">
+  <div class="paper-box" data-publication-year="2026" data-stage="personal">
     <div class="paper-box-image">
       <div class="badge">Preprint</div>
       <img src="images/meridian_yi_town.png" alt="Yi Town: Jingyi and Yifan by the fountain with the guide Rayford and the cats Coffee and Duoduo, houses 6, 7 and 9 below" width="75%">
