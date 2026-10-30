@@ -2595,7 +2595,7 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       <a href="/images/chinese-paladin-devotion-enhanced.png?v=clean-corner" target="_blank" rel="noopener" aria-label="View the enhanced Chinese Paladin still at full size">
         <img src="/images/chinese-paladin-devotion-enhanced.png?v=clean-corner" alt="Chinese Paladin TV still with the Chinese subtitle 感情贵在专致 始终如一" width="1254" height="1254" loading="lazy" decoding="async">
       </a>
-      <figcaption><em>Chinese Paladin (仙剑奇侠传)</em> — <span lang="zh-Hans">“感情贵在专致，始终如一。”</span><br>Love calls for devotion, steadfast from beginning to end.<br><small>AI-enhanced TV still.</small></figcaption>
+      <figcaption><em>Chinese Paladin</em> — “Love calls for devotion, steadfast from beginning to end.”</figcaption>
     </figure>
   </div>
 </section>
