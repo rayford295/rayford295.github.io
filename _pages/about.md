@@ -2591,6 +2591,12 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       <img src="/images/man-of-science.png" alt="A man of science in a green shirt with the caption I am a man of science" loading="lazy" decoding="async">
       <figcaption><em>The Big Bang Theory</em> — “I am a man of science.”</figcaption>
     </figure>
+    <figure>
+      <a href="/images/chinese-paladin-devotion-enhanced.png" target="_blank" rel="noopener" aria-label="View the enhanced Chinese Paladin still at full size">
+        <img src="/images/chinese-paladin-devotion-enhanced.png" alt="Chinese Paladin TV still with the Chinese subtitle 感情贵在专致 始终如一" width="1254" height="1254" loading="lazy" decoding="async">
+      </a>
+      <figcaption><em>Chinese Paladin (仙剑奇侠传)</em> — <span lang="zh-Hans">“感情贵在专致，始终如一。”</span><br>Love calls for devotion, steadfast from beginning to end.<br><small>AI-enhanced TV still.</small></figcaption>
+    </figure>
   </div>
 </section>
 
