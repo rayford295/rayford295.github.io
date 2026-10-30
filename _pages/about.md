@@ -1225,7 +1225,7 @@ redirect_from:
   <!-- MERIDIAN / Yi Town paper (with Jingyi) -->
   <div class="paper-box" data-publication-year="2026" data-stage="love">
     <div class="paper-box-image">
-      <div class="badge">Preprint</div>
+      <div class="badge">arXiv Preprint</div>
       <img src="images/meridian_yi_town.png" alt="Yi Town: Jingyi and Yifan by the fountain with the guide Rayford and the cats Coffee and Duoduo, houses 6, 7 and 9 below" width="75%">
     </div>
     <div class="paper-box-text">
@@ -1234,7 +1234,7 @@ redirect_from:
         MERIDIAN: Memory-Encoded Rituals for Intimacy across Distance in an Interactive, Asynchronous Neighbourhood
       </a>
       — Jingyi Chen, <strong>Yang, Yifan</strong>.<br>
-      <em>Preprint</em>, October 2026, 13 pages. A design case of Yi Town, a bilingual browser game built for the two of us across a thirteen-hour time difference: nine levels made from shared memories, progress that never leaves the phone, and a wedding at the end.
+      <em>arXiv preprint</em> (cs.HC, cs.CY), submitted October 30, 2026, 13 pages. A design case of Yi Town, a bilingual browser game built for the two of us across a thirteen-hour time difference: nine levels made from shared memories, progress that never leaves the phone, and a wedding at the end.
 
       <div class="paper-links">
         <a href="https://github.com/rayford295/yi-town/blob/main/paper/meridian.pdf"
