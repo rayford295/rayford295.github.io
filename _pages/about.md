@@ -1225,7 +1225,7 @@ redirect_from:
   <!-- MERIDIAN / Yi Town paper (with Jingyi) -->
   <div class="paper-box" data-publication-year="2026" data-stage="love">
     <div class="paper-box-image">
-      <div class="badge">arXiv Preprint</div>
+      <div class="badge">Preprint</div>
       <img src="images/meridian_yi_town.png" alt="Yi Town: Jingyi and Yifan by the fountain with the guide Rayford and the cats Coffee and Duoduo, houses 6, 7 and 9 below" width="75%">
     </div>
     <div class="paper-box-text">
