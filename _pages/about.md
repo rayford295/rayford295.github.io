@@ -2070,6 +2070,7 @@ redirect_from:
     <li><em>Climatic Change</em></li>
     <li><em>Computational Urban Science</em></li>
     <li><em>International Journal of Applied Earth Observation and Geoinformation</em></li>
+    <li><em>International Journal of Digital Earth</em></li>
     <li><em>International Journal of Geographical Information Science</em></li>
     <li><em>International Journal of ITS Research</em></li>
     <li><em>Scientific Reports</em></li>
