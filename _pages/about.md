@@ -1199,11 +1199,12 @@ redirect_from:
 <section id="publications">
   <h2>📕 Selected Publications</h2>
   <p style="font-size: 0.95em; color: #6b7280; margin-top: -6px; margin-bottom: 6px; font-style: italic;">
-    I do not really have a single representative work; I love all of my first-author papers equally, because each of them records a part of my growth.
+    I do not really have a single representative work; I love all of my papers as first or corresponding author equally, because each of them records a part of my growth.
   </p>
   <p style="font-size: 0.95em; color: #6b7280; margin-top: 0; margin-bottom: 18px;">
     For a complete list of my publications, please visit my
     <a href="https://scholar.google.com/citations?user=B-fiSHwAAAAJ" target="_blank" rel="noopener">Google Scholar profile</a>.
+    <sup>*</sup> denotes corresponding author.
   </p>
 
   <div class="publication-filters" role="group" aria-label="Filter selected publications by degree stage">
@@ -1232,7 +1233,7 @@ redirect_from:
          target="_blank" rel="noopener">
         MERIDIAN: Memory-Encoded Rituals for Intimacy across Distance in an Interactive, Asynchronous Neighbourhood
       </a>
-      — Jingyi Chen, <strong>Yang, Yifan</strong>.<br>
+      — Jingyi Chen, <strong>Yang, Yifan</strong><sup>*</sup>.<br>
       <em>arXiv preprint</em> (cs.HC, cs.CY), submitted October 30, 2026, 13 pages. A design case of Yi Town, a bilingual browser game built for the two of us across a thirteen-hour time difference: nine levels made from shared memories, progress that never leaves the phone, and a wedding at the end.
 
       <div class="paper-links">
