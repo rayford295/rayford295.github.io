@@ -21,9 +21,6 @@ main:
   - title: "Honors"
     url: "/honors/"
 
-  - title: "Teaching"
-    url: "/teaching/"
-
   - title: "Service"
     url: "/service/"
 
