@@ -1,4 +1,7 @@
 <meta charset="utf-8">
+{% assign site_build_version = site.time | date: '%Y%m%d%H%M%S' %}
+<meta name="site-build-version" content="{{ site_build_version }}">
+<script src="{{ '/assets/js/site-version-check.js' | relative_url }}?v={{ site_build_version }}" defer></script>
 
 {% include seo.html %}
 
@@ -11,7 +14,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site_build_version }}">
 
 <meta http-equiv="cleartype" content="on">
 <head>
