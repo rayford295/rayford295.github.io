@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Writing"
+title: "Blog"
 permalink: /blog/
 author_profile: true
 ---
@@ -21,7 +21,7 @@ author_profile: true
               background: #f2f3f3; color: #7a8288; }
 </style>
 
-<h1 class="page__title">✍️ Writing</h1>
+<h1 class="page__title">✍️ Blog</h1>
 
 <p class="blog-lead">Reading reflections, research notes, public essays, and thoughts from my Ph.D. journey. Some pieces live here; others were first published on my WeChat official account and are linked out. <a href="{{ '/feed.xml' | relative_url }}">RSS</a></p>
 
