@@ -764,6 +764,7 @@ redirect_from:
   <div class="news-text">
     Our co-authored paper <strong>“GeoProbe: Layer-wise Probing of Core Geospatial Concepts in Large Language Models”</strong>
     has been accepted for publication in the <em>International Journal of Geographical Information Science</em>.
+    DOI: <a href="https://doi.org/10.1080/13658816.2026.2756583">10.1080/13658816.2026.2756583</a>.
   </div>
 </div>
 
