@@ -2564,6 +2564,13 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
 
   <div class="personal-gallery-grid">
     <figure>
+      <img src="/images/empty-gun-dialogue.png" alt="Four consecutive dialogue frames from the film Empty Gun, with Chinese and English subtitles" loading="lazy" decoding="async">
+      <figcaption>
+        <em>《空枪》</em> — “打工没出路的。我没这个耐心。要么就出人头地，要么就人头落地。”
+        <br>台词截图来源：Bilibili @猫九myy（画面标注：楚门聊电影）。
+      </figcaption>
+    </figure>
+    <figure>
       <img src="/images/godfather.png" alt="The Godfather film poster" loading="lazy" decoding="async">
       <figcaption><em>The Godfather</em> — those who see the essence of things in a second are destined for a different fate.</figcaption>
     </figure>
