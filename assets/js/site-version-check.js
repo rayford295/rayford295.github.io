@@ -6,6 +6,19 @@
   var pageVersion = versionMeta.content;
   var pending = false;
 
+  // Once the fresh build has arrived, drop the ?v= cache buster from the address bar.
+  // A stale page keeps it, because checkVersion relies on it to avoid reloading forever.
+  try {
+    var current = new URL(window.location.href);
+    var requested = current.searchParams.get('v');
+    if (requested && window.history.replaceState && requested <= pageVersion) {
+      current.searchParams.delete('v');
+      window.history.replaceState(window.history.state, '', current.href);
+    }
+  } catch (error) {
+    // Leave the URL as it is if it cannot be rewritten.
+  }
+
   async function checkVersion() {
     if (pending || document.visibilityState === 'hidden') return;
     pending = true;
