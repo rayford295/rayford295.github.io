@@ -2567,6 +2567,7 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
       <img src="/images/empty-gun-dialogue.png" alt="Four consecutive dialogue frames from the film Empty Gun, with Chinese and English subtitles" loading="lazy" decoding="async">
       <figcaption>
         <em>《空枪》</em> — “打工没出路的。我没这个耐心。要么就出人头地，要么就人头落地。”
+        <br><span lang="en">“Jobs are a dead end. I don't have the patience. Either make it to the top or sink to the bottom.”</span>
         <br>台词截图来源：Bilibili @猫九myy（画面标注：楚门聊电影）。
       </figcaption>
     </figure>
