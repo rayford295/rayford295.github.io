@@ -764,7 +764,6 @@ redirect_from:
   <div class="news-text">
     Our co-authored paper <strong>“Monitoring Urban Traffic Dynamics at High Spatiotemporal Resolution Using Distributed Acoustic Sensing and Deep Learning”</strong>
     has been accepted for publication in the <em>Journal of Transport Geography</em>.
-    Congratulations to Hao Tian and Heng Cai.
   </div>
 </div>
 
