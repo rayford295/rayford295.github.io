@@ -1262,7 +1262,7 @@ redirect_from:
         When Satellite and Street Views Disagree: Cross-View Complementarity in Disaster Damage Assessment
       </a>
       — <strong>Yang, Yifan</strong>, Lei Zou.<br>
-      <em>Proceedings of the 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data (GeoSearch '26)</em>, November 3–6, 2026, Riverside, CA, USA. ACM, New York, NY, USA, 4 pages. (Lightning talk)
+      <em>Proceedings of the 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data (GeoSearch '26)</em>, November 3–6, 2026, Riverside, CA, USA. ACM, New York, NY, USA, 4 pages.
 
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2610.04327"
