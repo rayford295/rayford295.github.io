@@ -1232,7 +1232,7 @@ redirect_from:
         MERIDIAN: Memory-Encoded Rituals for Intimacy across Distance in an Interactive, Asynchronous Neighbourhood
       </a>
       — Jingyi Chen, <strong>Yang, Yifan</strong><sup>&dagger;</sup>.<br>
-      <em>arXiv</em>, 2026. <a href="https://arxiv.org/abs/2610.41776" target="_blank" rel="noopener">https://arxiv.org/abs/2610.41776</a>
+      <em>arXiv</em>, 2026. <a class="paper-venue-url" href="https://arxiv.org/abs/2610.41776" target="_blank" rel="noopener">https://arxiv.org/abs/2610.41776</a>
 
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2610.41776"
@@ -1402,7 +1402,7 @@ redirect_from:
         DamageArbiter: A Multimodal Arbitration Framework for Disaster Damage Assessment from Street-View Imagery
       </a>
       — <strong>Yang, Yifan</strong>, Lei Zou, Wenjing Gong, Kani Fu, Zongrong Li, Siqin Wang, Bing Zhou, Heng Cai, Hao Tian.<br>
-      <em>arXiv</em>, 2026. <a href="https://arxiv.org/abs/2603.14837" target="_blank" rel="noopener">https://arxiv.org/abs/2603.14837</a><br>
+      <em>arXiv</em>, 2026. <a class="paper-venue-url" href="https://arxiv.org/abs/2603.14837" target="_blank" rel="noopener">https://arxiv.org/abs/2603.14837</a><br>
       <span style="font-weight:500;">
         🏆 2nd Place — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2026
       </span>

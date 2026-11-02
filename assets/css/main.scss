@@ -155,6 +155,16 @@
   }
 }
 
+/* arXiv URL in a publication's venue line: reads as plain citation text, still clickable */
+.paper-box-text a.paper-venue-url,
+.paper-box-text a.paper-venue-url:visited,
+.paper-box-text a.paper-venue-url:hover,
+.paper-box-text a.paper-venue-url:focus {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
 .paper-box[hidden] {
   display: none;
 }
