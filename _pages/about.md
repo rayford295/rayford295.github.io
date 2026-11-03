@@ -1962,6 +1962,7 @@ redirect_from:
         <li>AAG-IGIF Scholarship Award, AAG International Geographic Information Funds (IGIF), $1,200.</li>
         <li>NSF I-GUIDE Summer School: Spatial AI &amp; Convergence Science — Selected Travel Award, over $2,000.</li>
         <li>IEEE GRSS Travel Grant — IGARSS 2026, Washington, D.C., $500.</li>
+        <li>GEOG Graduate Travel Funding, Department of Geography, Texas A&amp;M University, 2026–2027, $1,000.</li>
       </ul>
     </section>
 
@@ -1975,6 +1976,7 @@ redirect_from:
         <li>AAG-GISSG Student Honors Paper Competition — Honorable Mention, $200 (Top 5).</li>
         <li>AAG Applied Geography Specialty Group — AGSG Annual Meeting Award, $196.</li>
         <li>Travel Grant, Summer School on Cyberinfrastructure and Disaster Resilience, TAMU (funded by NSF), $200.</li>
+        <li>GEOG Graduate Travel Funding, Department of Geography, Texas A&amp;M University, 2025–2026, $1,100.</li>
       </ul>
     </section>
 
@@ -1984,6 +1986,7 @@ redirect_from:
         <li>Los Angeles Geospatial Summit — ArcGIS StoryMaps Competition: 🏆 Most Suitably Applied Analysis Methodology.</li>
         <li>Lifetime Membership — Nu Theta Chapter, Gamma Theta Upsilon (International Geographic Honor Society).</li>
         <li>Travel Grant (Visiting), Department of Geography, University of South Carolina, $400.</li>
+        <li>GEOG Graduate Travel Funding, Department of Geography, Texas A&amp;M University, 2024–2025, $1,000.</li>
       </ul>
     </section>
 
