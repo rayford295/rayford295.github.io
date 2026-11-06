@@ -1580,7 +1580,10 @@ redirect_from:
           <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/26496" target="_blank" rel="noopener">Session 26496</a>,
           <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/26121" target="_blank" rel="noopener">Session 26121</a>,
           <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/26340" target="_blank" rel="noopener">Session 26340</a>,
-          <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/26387" target="_blank" rel="noopener">Session 26387</a>).
+          <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/26387" target="_blank" rel="noopener">Session 26387</a>,
+          <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/27330" target="_blank" rel="noopener">Session 27330</a>,
+          <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/27166" target="_blank" rel="noopener">Session 27166</a>,
+          <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/27164" target="_blank" rel="noopener">Session 27164</a>).
         </li>
       </ul>
     </li>
