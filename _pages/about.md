@@ -1577,6 +1577,7 @@ redirect_from:
         <li>
           <strong>American Association of Geographers Annual Meeting</strong>, New York, New York, February 8–12, 2027
           (<a href="https://aag.secure-platform.com/aag2027/gallery/rounds/161/details/108301" target="_blank" rel="noopener">Abstract 108301</a>,
+          <a href="https://aag.secure-platform.com/aag2027/gallery/rounds/161/details/107519" target="_blank" rel="noopener">Abstract 107519</a>,
           <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/26496" target="_blank" rel="noopener">Session 26496</a>,
           <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/26121" target="_blank" rel="noopener">Session 26121</a>,
           <a href="https://aag.secure-platform.com/aag2027/solicitations/103/sessiongallery/26340" target="_blank" rel="noopener">Session 26340</a>,
