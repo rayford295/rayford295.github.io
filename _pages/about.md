@@ -780,7 +780,7 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Oct 2026</div>
   <div class="news-text">
-    Serving as the <strong>Student Organizer</strong> of the
+    Serving as the <strong>Student Co-Lead</strong> of the
     <a href="https://gisersym.github.io/2027/" target="_blank" rel="noopener"><strong>AAG Symposium on GIScience for Human Experience and Responsibility (GISER 2027)</strong></a>,
     held at the <strong>AAG Annual Meeting 2027</strong> in New York, NY, <strong>February 8–12, 2027</strong>.
   </div>
@@ -2033,7 +2033,7 @@ redirect_from:
       <a href="https://www.aag.org/" target="_blank" rel="noopener">American Association of Geographers</a>, 2026 – 2027
     </li>
     <li>
-      <em>Student Organizer</em>,
+      <em>Student Co-Lead</em>,
       <a href="https://gisersym.github.io/2027/" target="_blank" rel="noopener">AAG Symposium on GIScience for Human Experience and Responsibility (GISER 2027)</a>,
       AAG Annual Meeting, New York, NY, February 8–12, 2027
     </li>
