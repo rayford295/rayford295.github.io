@@ -764,6 +764,7 @@ redirect_from:
   <div class="news-text">
     Our co-authored paper <strong>“Monitoring Urban Traffic Dynamics at High Spatiotemporal Resolution Using Distributed Acoustic Sensing and Deep Learning”</strong>
     has been accepted for publication in the <em>Journal of Transport Geography</em>.
+    DOI: <a href="https://doi.org/10.1016/j.jtrangeo.2026.104901">10.1016/j.jtrangeo.2026.104901</a>.
   </div>
 </div>
 
