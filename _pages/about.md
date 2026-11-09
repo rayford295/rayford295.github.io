@@ -746,12 +746,6 @@ redirect_from:
   <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:multimodal_learning" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
     <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Multimodal Learning</span>
   </a>
-  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:street_view_imagery" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
-    <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Street-View Imagery</span>
-  </a>
-  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:remote_sensing" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
-    <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Remote Sensing</span>
-  </a>
   <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:responsible_ai" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
     <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Responsible AI</span>
   </a>
