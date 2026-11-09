@@ -740,11 +740,21 @@ redirect_from:
   <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:agentic_ai" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
     <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Agentic AI</span>
   </a>
-  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">GIScience</span>
-  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Multimodal Learning</span>
-  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Street-View Imagery</span>
-  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Remote Sensing</span>
-  <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Responsible AI</span>
+  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:giscience" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
+    <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">GIScience</span>
+  </a>
+  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:multimodal_learning" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
+    <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Multimodal Learning</span>
+  </a>
+  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:street_view_imagery" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
+    <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Street-View Imagery</span>
+  </a>
+  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:remote_sensing" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
+    <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Remote Sensing</span>
+  </a>
+  <a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:responsible_ai" target="_blank" rel="noopener" style="text-decoration:none;" title="Google Scholar label">
+    <span style="display:inline-block; padding:5px 14px; border-radius:999px; background:#eef4fb; color:#005fa3; border:1px solid #cfe0f1; font-size:0.92em; font-weight:500;">Responsible AI</span>
+  </a>
 </div>
 
 
@@ -2119,6 +2129,9 @@ redirect_from:
       American Association of Geographers (AAG)
     </li>
     <li>
+      International Association of Chinese Professionals in Geographic Information Sciences (CPGIS)
+    </li>
+    <li>
       Gamma Theta Upsilon (GTU), International Geographic Honor Society, Nu Theta Chapter
       <span> (Lifetime Member)</span>
     </li>
@@ -2148,6 +2161,12 @@ redirect_from:
         <a class="society-logo-link" href="https://www.aag.org/" target="_blank" rel="noopener">
           <span class="society-logo-frame"><img class="society-logo" src="{{ '/images/conferences/aag.svg' | relative_url }}" alt="American Association of Geographers logo"></span>
           <span class="society-logo-caption">AAG</span>
+        </a>
+      </li>
+      <li>
+        <a class="society-logo-link" href="https://cpgis.org/" target="_blank" rel="noopener">
+          <span class="society-logo-frame"><img class="society-logo" src="{{ '/images/societies/cpgis.png' | relative_url }}" alt="CPGIS logo"></span>
+          <span class="society-logo-caption">CPGIS</span>
         </a>
       </li>
       <li>
