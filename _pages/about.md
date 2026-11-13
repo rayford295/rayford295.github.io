@@ -2644,6 +2644,13 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
   </p>
 
   <div class="hobby-gallery">
+    <figure class="hobby-card hobby-card--wide">
+      <img src="/hobby/philadelphia-76ers-autograph-photo.png" alt="A woman holding a signed Philadelphia 76ers basketball card" loading="lazy" decoding="async">
+      <figcaption>
+        <strong>Philadelphia 76ers</strong>
+        <span>A signed basketball card.</span>
+      </figcaption>
+    </figure>
     <figure class="hobby-card">
       <img src="/hobby/leah-macy-autograph-card.jpg" alt="Leah Macy autographed Notre Dame trading card" loading="lazy" decoding="async">
       <figcaption>

@@ -473,6 +473,12 @@ h1:before,
   background: #f8fafc;
 }
 
+.hobby-card--wide img {
+  aspect-ratio: 8 / 5;
+  object-fit: contain;
+  background: #f8fafc;
+}
+
 .hobby-card:first-child img {
   object-position: center 42%;
 }
