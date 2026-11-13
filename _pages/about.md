@@ -768,10 +768,8 @@ redirect_from:
   <div class="news-text">
     On <strong>November 13, 2026</strong>, I passed my <strong>dissertation proposal defense</strong>,
     <strong>“Advancing GeoAI for Disaster Resilience: From Damage Assessment to Insightful Decision Support”</strong>,
-    and am now officially a <strong>Ph.D. candidate</strong>. This time the title really did change.
-    The first attempt on October 22 did not pass; many thanks to my committee, Dr. Lei Zou (Chair), Dr. Heng Cai,
-    Dr. Andrew Klein, and Dr. Zhengzhong Tu, for pushing the work to be better. The proposal, slides, and the story of both defenses are
-    <a href="https://github.com/rayford295/rayford-knowledge-atlas/tree/main/phd-journey/dissertation-proposal" target="_blank" rel="noopener">archived here</a>.
+    and am now officially a <strong>Ph.D. candidate</strong>.
+    Many thanks to my committee: Dr. Lei Zou (Chair), Dr. Heng Cai, Dr. Andrew Klein, and Dr. Zhengzhong Tu.
   </div>
 </div>
 
