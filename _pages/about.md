@@ -2651,6 +2651,13 @@ document.querySelectorAll(".video-cover[data-video-src]").forEach(function (cove
         <span>A signed basketball card.</span>
       </figcaption>
     </figure>
+    <figure class="hobby-card hobby-card--wide">
+      <img src="/hobby/atlanta-hawks-franchise-fabrics.png" alt="A woman holding a Topps Franchise Fabrics Atlanta Hawks card featuring a red number 4 jersey" loading="lazy" decoding="async">
+      <figcaption>
+        <strong>Atlanta Hawks — Franchise Fabrics</strong>
+        <span>Topps player-worn memorabilia card.</span>
+      </figcaption>
+    </figure>
     <figure class="hobby-card">
       <img src="/hobby/leah-macy-autograph-card.jpg" alt="Leah Macy autographed Notre Dame trading card" loading="lazy" decoding="async">
       <figcaption>
