@@ -10,13 +10,13 @@
 
 </div>
 
-<p align="center">The source for <a href="https://rayford295.github.io">rayford295.github.io</a>, the academic home of <strong>Yifan Yang</strong>, a Ph.D. student in Geography at Texas A&amp;M University.</p>
+<p align="center">The source for <a href="https://rayford295.github.io">rayford295.github.io</a>, the academic home of <strong>Yifan Yang</strong>, a Ph.D. candidate in Geography at Texas A&amp;M University.</p>
 
 ---
 
 ## About
 
-Yifan Yang is a Ph.D. student in the Department of Geography at Texas A&amp;M University, advised by [Dr. Lei Zou](https://www.geoearlab.com/people) in the [Geospatial Exploration and Resolution (GEAR) Lab](https://www.geoearlab.com). His research centers on Responsible GeoAI and Autonomous GeoAI for explainable spatial reasoning under incomplete, changing, and real-world observations.
+Yifan Yang is a Ph.D. candidate in the Department of Geography at Texas A&amp;M University, advised by [Dr. Lei Zou](https://www.geoearlab.com/people) in the [Geospatial Exploration and Resolution (GEAR) Lab](https://www.geoearlab.com). His research centers on Responsible GeoAI and Autonomous GeoAI for explainable spatial reasoning under incomplete, changing, and real-world observations.
 
 He founded [AutonomousGeoAI4Science](https://github.com/AutoGeoAI4Sci), an open research initiative for papers, tools, benchmarks, and collaboration around autonomous GeoAI for science.
 

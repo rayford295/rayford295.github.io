@@ -637,7 +637,7 @@ redirect_from:
 
   <div>
 <p>
-  I am <strong>Yifan Yang</strong>, a third-year Ph.D. student in the Department of Geography at
+  I am <strong>Yifan Yang</strong>, a third-year Ph.D. candidate in the Department of Geography at
   <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas&nbsp;A&amp;M University</a>,
   advised by <a href="https://www.geoearlab.com/people" target="_blank" rel="noopener">Dr. Lei Zou</a>
   in the <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.
@@ -762,6 +762,18 @@ redirect_from:
   <h2>📰 News</h2>
 
   <div class="news-container">
+
+<div class="news-item">
+  <div class="news-date">Nov 2026</div>
+  <div class="news-text">
+    On <strong>November 13, 2026</strong>, I passed my <strong>dissertation proposal defense</strong>,
+    <strong>“Advancing GeoAI for Disaster Resilience: From Damage Assessment to Insightful Decision Support”</strong>,
+    and am now officially a <strong>Ph.D. candidate</strong>. This time the title really did change.
+    The first attempt on October 22 did not pass; many thanks to my committee, Dr. Lei Zou (Chair), Dr. Heng Cai,
+    Dr. Andrew Klein, and Dr. Zhengzhong Tu, for pushing the work to be better. The proposal, slides, and the story of both defenses are
+    <a href="https://github.com/rayford295/rayford-knowledge-atlas/tree/main/phd-journey/dissertation-proposal" target="_blank" rel="noopener">archived here</a>.
+  </div>
+</div>
 
 <div class="news-item">
   <div class="news-date">Nov 2026</div>
@@ -1046,7 +1058,7 @@ redirect_from:
       </div>
       <div class="experience-content">
         <p class="experience-date">Aug. 2024 – Present</p>
-        <p class="experience-role">Ph.D. Student in Geography</p>
+        <p class="experience-role">Ph.D. Candidate in Geography</p>
         <p class="experience-summary">Advisor: Prof. Lei Zou, GEAR Lab.</p>
         <p class="experience-organization">Texas A&amp;M University</p>
       </div>
