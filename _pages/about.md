@@ -1618,16 +1618,6 @@ redirect_from:
     <li class="presentation-year">
       <span class="presentation-year-label">2026</span>
       <ul class="presentation-items">
-        <li>
-          <strong>Texas A&amp;M University GIS Day 2026</strong>, Memorial Student Center, College Station, Texas, November 17, 2026
-          (<a href="https://gisday.tamu.edu/sessions/details/816c4a80-f28d-431b-95ad-e6dddca0245d" target="_blank" rel="noopener">Research Session</a>,
-          <a href="https://gisday.tamu.edu/sessions/details/7b433068-8171-4f42-8159-07332624c084" target="_blank" rel="noopener">Poster Session</a>).
-          <ul class="presentation-subitems">
-            <li>
-              <em>Graduate Student Research Competition, Oral (Finalist)</em> —
-              <strong>Yifan Yang</strong>, Lei Zou:
-              RAY (Resilience Assistant for You): An Accountable GeoAI Agent for Place-Based Disaster Intelligence.
-            </li>
             <li>
               <em>Student Poster Competition (Finalist)</em> —
               <strong>Yifan Yang</strong>, Lei Zou:
@@ -1761,6 +1751,16 @@ redirect_from:
             </li>
           </ul>
         </li>
+        <li>
+          <strong>Texas A&amp;M University GIS Day 2026</strong>, Memorial Student Center, College Station, Texas, November 17, 2026
+          (<a href="https://gisday.tamu.edu/sessions/details/816c4a80-f28d-431b-95ad-e6dddca0245d" target="_blank" rel="noopener">Research Session</a>,
+          <a href="https://gisday.tamu.edu/sessions/details/7b433068-8171-4f42-8159-07332624c084" target="_blank" rel="noopener">Poster Session</a>).
+          <ul class="presentation-subitems">
+            <li>
+              <em>Graduate Student Research Competition, Oral (Finalist)</em> —
+              <strong>Yifan Yang</strong>, Lei Zou:
+              RAY (Resilience Assistant for You): An Accountable GeoAI Agent for Place-Based Disaster Intelligence.
+            </li>
       </ul>
     </li>
 
