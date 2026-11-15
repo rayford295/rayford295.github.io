@@ -766,6 +766,18 @@ redirect_from:
 <div class="news-item">
   <div class="news-date">Nov 2026</div>
   <div class="news-text">
+    Three of my submissions were selected as <strong>finalists</strong> at
+    <a href="https://gisday.tamu.edu/" target="_blank" rel="noopener"><strong>Texas A&amp;M GIS Day 2026</strong></a>:
+    the oral presentation and the poster <strong>“RAY (Resilience Assistant for You): An Accountable GeoAI Agent for Place-Based Disaster Intelligence”</strong>
+    in the Graduate Student Research and Student Poster competitions, and the poster
+    <strong>“GATES: A Geothermal Acceptance Tracking and Evaluation System Using Multi-Source Social Sensing”</strong>
+    in the Student Poster competition. Presenting on <strong>November 17, 2026</strong>, Memorial Student Center, College Station, Texas.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Nov 2026</div>
+  <div class="news-text">
     On <strong>November 13, 2026</strong>, I passed my <strong>dissertation proposal defense</strong>,
     <strong>“Advancing GeoAI for Disaster Resilience: From Damage Assessment to Insightful Decision Support”</strong>,
     and am now officially a <strong>Ph.D. candidate</strong>.
