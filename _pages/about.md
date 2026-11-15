@@ -1618,18 +1618,6 @@ redirect_from:
     <li class="presentation-year">
       <span class="presentation-year-label">2026</span>
       <ul class="presentation-items">
-            <li>
-              <em>Student Poster Competition (Finalist)</em> —
-              <strong>Yifan Yang</strong>, Lei Zou:
-              RAY (Resilience Assistant for You): An Accountable GeoAI Agent for Place-Based Disaster Intelligence.
-            </li>
-            <li>
-              <em>Student Poster Competition (Finalist)</em> —
-              <strong>Yifan Yang</strong> et al.:
-              GATES: A Geothermal Acceptance Tracking and Evaluation System Using Multi-Source Social Sensing.
-            </li>
-          </ul>
-        </li>
         <li>
           <strong>American Association of Geographers Annual Meeting</strong>, San Francisco, California, March 17–21, 2026
           (<a href="https://aag-meetings.secure-platform.com/aag2026/gallery/rounds/149/details/90541" target="_blank" rel="noopener">Abstract 90541</a>,
@@ -1761,6 +1749,18 @@ redirect_from:
               <strong>Yifan Yang</strong>, Lei Zou:
               RAY (Resilience Assistant for You): An Accountable GeoAI Agent for Place-Based Disaster Intelligence.
             </li>
+            <li>
+              <em>Student Poster Competition (Finalist)</em> —
+              <strong>Yifan Yang</strong>, Lei Zou:
+              RAY (Resilience Assistant for You): An Accountable GeoAI Agent for Place-Based Disaster Intelligence.
+            </li>
+            <li>
+              <em>Student Poster Competition (Finalist)</em> —
+              <strong>Yifan Yang</strong> et al.:
+              GATES: A Geothermal Acceptance Tracking and Evaluation System Using Multi-Source Social Sensing.
+            </li>
+          </ul>
+        </li>
       </ul>
     </li>
 
