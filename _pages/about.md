@@ -1887,7 +1887,7 @@ redirect_from:
       </li>
       <li>
         <a class="conference-logo-link" href="https://gisday.tamu.edu/" target="_blank" rel="noopener">
-          <span class="conference-logo-frame"><img class="conference-logo" src="{{ '/images/conferences/tamu-gis-day.png' | relative_url }}" alt="Texas A&amp;M University GIS Day logo"></span>
+          <span class="conference-logo-frame"><img class="conference-logo" src="{{ '/images/conferences/txgis-day.png' | relative_url }}" alt="Texas GIS Day logo"></span>
           <span class="conference-logo-caption">Texas A&amp;M University GIS Day<span class="conference-years">2025-2026</span></span>
         </a>
       </li>
