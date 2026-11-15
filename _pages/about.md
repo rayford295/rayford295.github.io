@@ -1747,17 +1747,20 @@ redirect_from:
             <li>
               <em>Graduate Student Research Competition, Oral (Finalist)</em> —
               <strong>Yifan Yang</strong>, Lei Zou:
-              RAY (Resilience Assistant for You): An Accountable GeoAI Agent for Place-Based Disaster Intelligence.
+              RAY (Resilience Assistant for You): An Accountable GeoAI Agent for Place-Based Disaster Intelligence
+              (<a href="{{ '/assets/RAY-TAMU-GIS-Day-2026-slides.pdf' | relative_url }}" target="_blank" rel="noopener">📄 PDF</a>).
             </li>
             <li>
               <em>Student Poster Competition (Finalist)</em> —
               <strong>Yifan Yang</strong>, Lei Zou:
-              RAY (Resilience Assistant for You): An Accountable GeoAI Agent for Place-Based Disaster Intelligence.
+              RAY (Resilience Assistant for You): An Accountable GeoAI Agent for Place-Based Disaster Intelligence
+              (<a href="{{ '/assets/RAY-TAMU-GIS-Day-2026-poster.pdf' | relative_url }}" target="_blank" rel="noopener">📄 PDF</a>).
             </li>
             <li>
               <em>Student Poster Competition (Finalist)</em> —
               <strong>Yifan Yang</strong> et al.:
-              GATES: A Geothermal Acceptance Tracking and Evaluation System Using Multi-Source Social Sensing.
+              GATES: A Geothermal Acceptance Tracking and Evaluation System Using Multi-Source Social Sensing
+              (<a href="{{ '/assets/GATES-TAMU-GIS-Day-2026-poster.pdf' | relative_url }}" target="_blank" rel="noopener">📄 PDF</a>).
             </li>
           </ul>
         </li>
