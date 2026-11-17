@@ -1712,7 +1712,7 @@ redirect_from:
           <ul class="presentation-subitems">
             <li>
               <em>GeoSearch '26 Lightning Talk</em> —
-              <a href="https://arxiv.org/abs/2610.04327" target="_blank" rel="noopener">When Satellite and Street Views Disagree: Cross-View Complementarity in Disaster Damage Assessment</a>
+              <a href="https://dl.acm.org/doi/10.1145/3849732.3857333" target="_blank" rel="noopener">When Satellite and Street Views Disagree: Cross-View Complementarity in Disaster Damage Assessment</a>
               — <strong>Yang, Yifan</strong>, Lei Zou.
               <em>Proceedings of the 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data</em>, 4 pages.
               Tuesday, November 3, 2026, 2:15–2:30 pm, Riverside Convention Center.
