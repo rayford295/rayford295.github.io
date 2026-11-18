@@ -1268,7 +1268,7 @@ redirect_from:
         MERIDIAN: Memory-Encoded Rituals for Intimacy across Distance in an Interactive, Asynchronous Neighbourhood
       </a>
       — Jingyi Chen, <strong>Yang, Yifan</strong><sup>&dagger;</sup>.<br>
-      <em>arXiv</em>, 2026. <a class="paper-venue-url" href="https://arxiv.org/abs/2610.41776" target="_blank" rel="noopener">https://arxiv.org/abs/2610.41776</a>
+      <em>arXiv</em>, 2026, doi: <a class="doi-inline" href="https://doi.org/10.48550/arXiv.2610.41776" target="_blank" rel="noopener">10.48550/arXiv.2610.41776</a>.
 
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2610.41776"
@@ -1298,7 +1298,7 @@ redirect_from:
         When Satellite and Street Views Disagree: Cross-View Complementarity in Disaster Damage Assessment
       </a>
       — <strong>Yang, Yifan</strong>, Lei Zou.<br>
-      <em>Proceedings of the 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data (GeoSearch '26)</em>, November 3–6, 2026, Riverside, CA, USA. ACM, New York, NY, USA, 4 pages.
+      <em>Proceedings of the 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data (GeoSearch '26)</em>, November 3–6, 2026, Riverside, CA, USA. ACM, New York, NY, USA, 4 pages, doi: <a class="doi-inline" href="https://doi.org/10.1145/3849732.3857333" target="_blank" rel="noopener">10.1145/3849732.3857333</a>.
 
       <div class="paper-links">
         <a href="https://dl.acm.org/doi/10.1145/3849732.3857333"
@@ -1332,7 +1332,7 @@ redirect_from:
         RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery
       </a>
       — <strong>Yang, Yifan</strong>, Wenjing Gong, Kaili Zhang, Lei Zou, Zhengzhong Tu, Hao Li, Zongrong Li, Xinyue Ye.<br>
-      <em>Proceedings of the 34th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL '26)</em>, November 3–6, 2026, Riverside, CA, USA. ACM, New York, NY, USA, 12 pages.
+      <em>Proceedings of the 34th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL '26)</em>, November 3–6, 2026, Riverside, CA, USA. ACM, New York, NY, USA, 12 pages, doi: <a class="doi-inline" href="https://doi.org/10.1145/3841645.3843346" target="_blank" rel="noopener">10.1145/3841645.3843346</a>.
 
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2606.21819"
@@ -1438,7 +1438,7 @@ redirect_from:
         DamageArbiter: A Multimodal Arbitration Framework for Disaster Damage Assessment from Street-View Imagery
       </a>
       — <strong>Yang, Yifan</strong>, Lei Zou, Wenjing Gong, Kani Fu, Zongrong Li, Siqin Wang, Bing Zhou, Heng Cai, Hao Tian.<br>
-      <em>arXiv</em>, 2026. <a class="paper-venue-url" href="https://arxiv.org/abs/2603.14837" target="_blank" rel="noopener">https://arxiv.org/abs/2603.14837</a><br>
+      <em>arXiv</em>, 2026, doi: <a class="doi-inline" href="https://doi.org/10.48550/arXiv.2603.14837" target="_blank" rel="noopener">10.48550/arXiv.2603.14837</a>.<br>
       <span style="font-weight:500;">
         🏆 2nd Place — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2026
       </span>
@@ -1467,7 +1467,7 @@ redirect_from:
         Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models
       </a>
       — <strong>Yang, Yifan</strong>, Lei Zou. <br>
-      <em>Abstracts of the International Cartographic Association</em>, Volume 10, 310, 2025. <br>
+      <em>Abstracts of the International Cartographic Association</em>, Volume 10, 310, 2025, doi: <a class="doi-inline" href="https://doi.org/10.5194/ica-abs-10-310-2025" target="_blank" rel="noopener">10.5194/ica-abs-10-310-2025</a>. <br>
       <span style="font-weight:600;">
         🏆 Best Student Paper Award — ICC 2025, Vancouver, Canada
       </span>
@@ -1500,7 +1500,7 @@ redirect_from:
         Hyperlocal Disaster Damage Assessment Using Bi-temporal Street-view Imagery and Pre-trained Vision Models
       </a>
       — <strong>Yang, Yifan</strong>, Lei Zou, Bing Zhou, Daoyang Li, Binin Lin, Joynal Abedin, Mengyang Yang. <br>
-      <em>Computers, Environment and Urban Systems</em>, Volume 121, 102335, 2025.
+      <em>Computers, Environment and Urban Systems</em>, Volume 121, 102335, 2025, doi: <a class="doi-inline" href="https://doi.org/10.1016/j.compenvurbsys.2025.102335" target="_blank" rel="noopener">10.1016/j.compenvurbsys.2025.102335</a>.
       <span style="font-weight:500;">
         <br>💐 Honorable Mention — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2025
       </span>
@@ -1573,7 +1573,7 @@ redirect_from:
         GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy
       </a>
       — <strong>Yang, Yifan</strong>, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu. <br>
-      <em>Applied Sciences</em>, 14(16), 7091, 2024.
+      <em>Applied Sciences</em>, 14(16), 7091, 2024, doi: <a class="doi-inline" href="https://doi.org/10.3390/app14167091" target="_blank" rel="noopener">10.3390/app14167091</a>.
 
       <div class="paper-links">
         <a href="https://www.mdpi.com/2076-3417/14/16/7091"
