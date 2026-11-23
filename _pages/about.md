@@ -2141,6 +2141,7 @@ redirect_from:
     <li><em>ACM Transactions on Autonomous and Adaptive Systems</em></li>
     <li><em>Climatic Change</em></li>
     <li><em>Computational Urban Science</em></li>
+    <li><em>Image and Vision Computing</em></li>
     <li><em>International Journal of Applied Earth Observation and Geoinformation</em></li>
     <li><em>International Journal of Digital Earth</em></li>
     <li><em>International Journal of Geographical Information Science</em></li>
