@@ -2541,9 +2541,19 @@ redirect_from:
   align-items: start;
 }
 
+/* Odd count: center the last card under the row above (3 → triangle) */
+.video-list li:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: calc(50% - 16px);
+}
+
 @media (max-width: 640px) {
   .video-list {
     grid-template-columns: 1fr;
+  }
+  .video-list li:last-child:nth-child(odd) {
+    width: 100%;
   }
 }
 
