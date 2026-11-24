@@ -2500,7 +2500,7 @@ redirect_from:
     <li>
       <strong>🏀 NECBL Cup 2026–27 — Southwest Region with TAMU</strong>
       <p>
-        My highlights from two days of the 2026–27 NECBL Cup Southwest Region tournament, playing with the Texas A&amp;M team.
+        My highlights from two days of the 2026–27 NECBL Cup Southwest Region tournament, playing with the Texas A&amp;M team. 🥈 We finished as the Southwest Region runner-up and advanced to the national tournament.
       </p>
       <div class="video-wrapper">
         <iframe
