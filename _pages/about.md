@@ -2513,6 +2513,22 @@ redirect_from:
       </div>
     </li>
 
+    <li>
+      <strong>🏌️ MotionMirror — See Your Form, Phase by Phase</strong>
+      <p>
+        A side project: golf, basketball and badminton technique analysis from one phone video (<a href="https://github.com/rayford295/motionmirror" target="_blank" rel="noopener">GitHub</a>).
+      </p>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/Kd4xoJ1RMb0"
+          title="MotionMirror — See Your Form, Phase by Phase"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </div>
+    </li>
+
   </ul>
 
   <div style="text-align:center; margin:30px auto 6px;">
