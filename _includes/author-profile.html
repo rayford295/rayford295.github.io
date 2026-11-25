@@ -25,6 +25,9 @@
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
+      {% if author.lab %}
+        <li><a href="{{ author.lab }}"><img src="{{ '/images/rayford_ai_mark.png' | relative_url }}" alt="" aria-hidden="true" style="width:1.1em;height:1.1em;object-fit:contain;vertical-align:-0.15em;margin-right:0.3em"> Rayford AI Lab</a></li>
+      {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
@@ -139,6 +142,9 @@
       <div class="author__urls_sm">
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.lab %}
+        <a href="{{ author.lab }}" title="Rayford AI Lab"><img src="{{ '/images/rayford_ai_mark.png' | relative_url }}" alt="Rayford AI Lab" style="width:1.1em;height:1.1em;object-fit:contain;vertical-align:-0.15em"></a>
       {% endif %}
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>

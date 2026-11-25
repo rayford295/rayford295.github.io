@@ -644,7 +644,9 @@ redirect_from:
   My research builds autonomous and accountable GeoAI: systems that reason about places from incomplete, conflicting, and changing observations, transfer across regions, and know when the evidence is not enough. Disasters are my current testbed, where these conditions are most extreme.
   Beyond my research, I founded
   <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener"><strong>AutonomousGeoAI4Science</strong></a>,
-  an open community hub for papers, tools, benchmarks, and collaboration. My doctoral committee members are
+  an open community hub for papers, tools, benchmarks, and collaboration, and I lead
+  <a href="https://rayford-ai.com/" target="_blank" rel="noopener"><strong>Rayford AI Lab</strong></a>,
+  which gathers the projects, live demos, papers, and code from this work in one place. My doctoral committee members are
   <a href="https://artsci.tamu.edu/geography/contact/profiles/heng-cai.html" target="_blank" rel="noopener">Dr. Heng Cai</a>,
   <a href="https://artsci.tamu.edu/geography/contact/profiles/andrew-klein.html" target="_blank" rel="noopener">Dr. Andrew Klein</a>, and
   <a href="https://vztu.github.io/" target="_blank" rel="noopener">Dr. Zhengzhong Tu</a>.
@@ -2233,12 +2235,12 @@ redirect_from:
   <div class="experience-timeline" aria-label="Industry engagement">
     <article class="experience-entry">
       <div class="experience-logo-card">
-        <img src="images/rayford_ai_mark.png" alt="Rayford AI logo">
+        <img src="images/rayford_ai_mark.png" alt="Rayford AI Lab logo">
       </div>
       <div class="experience-content">
-        <p class="experience-role">Founder-led Venture</p>
-        <p class="experience-summary">Building a geospatial physical AI company that combines remote sensing, street-level imagery, and multimodal spatial intelligence into auditable real-world workflows for property and infrastructure decisions, starting with disaster assessment, claims triage, and resilience operations.</p>
-        <p class="experience-organization"><a href="https://rayford-ai.com/" target="_blank" rel="noopener noreferrer">Rayford AI</a></p>
+        <p class="experience-role">Lab Lead</p>
+        <p class="experience-summary">Rayford AI Lab builds geospatial AI for disaster resilience: models and agents that read satellite, street-view, and drone imagery, explain what they see, and show the evidence behind every number. The lab site collects the projects with live demos, papers, and open code; my doctoral committee (Dr. Lei Zou, Dr. Zhengzhong Tu, Dr. Heng Cai, and Dr. Andrew Klein) advises the work.</p>
+        <p class="experience-organization"><a href="https://rayford-ai.com/" target="_blank" rel="noopener noreferrer">Rayford AI Lab</a> · <a href="https://github.com/Rayford-AI" target="_blank" rel="noopener noreferrer">GitHub</a></p>
       </div>
     </article>
 
