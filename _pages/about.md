@@ -643,9 +643,9 @@ redirect_from:
   in the <a href="https://www.geoearlab.com" target="_blank" rel="noopener">Geospatial Exploration and Resolution (GEAR) Lab</a>.
   My research builds autonomous and accountable GeoAI: systems that reason about places from incomplete, conflicting, and changing observations, transfer across regions, and know when the evidence is not enough. Disasters are my current testbed, where these conditions are most extreme.
   Beyond my research, I founded
-  <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener"><strong>AutonomousGeoAI4Science</strong></a>,
+  <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener">AutonomousGeoAI4Science</a>,
   an open community hub for papers, tools, benchmarks, and collaboration, and I lead
-  <a href="https://rayford-ai.com/" target="_blank" rel="noopener"><strong>Rayford AI Lab</strong></a>,
+  <a href="https://rayford-ai.com/" target="_blank" rel="noopener">Rayford AI Lab</a>,
   which gathers the projects, live demos, papers, and code from this work in one place. My doctoral committee members are
   <a href="https://artsci.tamu.edu/geography/contact/profiles/heng-cai.html" target="_blank" rel="noopener">Dr. Heng Cai</a>,
   <a href="https://artsci.tamu.edu/geography/contact/profiles/andrew-klein.html" target="_blank" rel="noopener">Dr. Andrew Klein</a>, and
