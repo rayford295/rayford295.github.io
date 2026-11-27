@@ -1,4 +1,4 @@
-# main links links
+# Top-bar links, shown in this order.
 main:
   - title: "About"
     url: "/about/"
@@ -6,20 +6,20 @@ main:
   - title: "News"
     url: "/news/"
 
+  - title: "Publications"
+    url: "/publications/"
+
   - title: "Education"
     url: "/education/"
 
   - title: "Experience"
     url: "/experience/"
 
-  - title: "Publications"
-    url: "/publications/"
+  - title: "Honors"
+    url: "/honors/"
 
   - title: "Presentation"
     url: "/presentation/"
-
-  - title: "Honors"
-    url: "/honors/"
 
   - title: "Service"
     url: "/service/"
@@ -27,17 +27,20 @@ main:
   - title: "Industry"
     url: "/industry/"
 
-  - title: "Media"
-    url: "/media/"
+  - title: "CV"
+    url: "/resume/Yifan_Yang_CV.pdf"
 
-  - title: "Blog"
-    url: "/blog/"
-
-  - title: "Videos"
-    url: "/videos/"
-
-  - title: "Gallery"
-    url: "/gallery/"
-
-  - title: "Misc."
-    url: "/misc/"
+# Grouped links inside the "More" menu.
+more:
+  - title: "Media & Life"
+    links:
+      - title: "Media"
+        url: "/media/"
+      - title: "Blog"
+        url: "/blog/"
+      - title: "Videos"
+        url: "/videos/"
+      - title: "Gallery"
+        url: "/gallery/"
+      - title: "Misc."
+        url: "/misc/"
