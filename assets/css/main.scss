@@ -619,3 +619,6 @@ h1:before,
   .publication-filter--phd { --stage-color: #f0a3ae; --stage-tint: rgba(240, 163, 174, .08); }
   .publication-filter--ms { --stage-color: #f2c66d; --stage-tint: rgba(242, 198, 109, .08); }
 }
+
+/* Homepage palette for the inner pages; loaded last so it wins. */
+@import "ink-theme";

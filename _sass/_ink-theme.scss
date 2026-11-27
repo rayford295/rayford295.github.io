@@ -1,0 +1,144 @@
+/* ==========================================================================
+   INK THEME
+   Carries the homepage palette (ink navy, teal, gold on warm paper) into the
+   inner pages. Light mode only; dark mode keeps _dark-mode.scss. The homepage
+   styles itself in _layouts/homepage.html, so it is excluded.
+   ========================================================================== */
+
+$ink: #14283d;
+$ink-2: #243b53;
+$ink-text: #2a3d50;
+$ink-muted: #58718a;
+$ink-teal: #1b6682;
+$ink-teal-hover: #0b6e8a;
+$ink-gold: #c99f53;
+$ink-paper: #fbfaf6;
+$ink-line: rgba(38, 69, 99, 0.14);
+
+/* Paper under short pages too, not a white strip below the body. */
+html:not([data-theme="dark"]) {
+  background: $ink-paper;
+}
+
+html:not([data-theme="dark"]) body:not(.homepage-minimal) {
+  background: $ink-paper;
+  color: $ink-text;
+
+  /* Top bar: the homepage's frosted paper strip. */
+  .masthead {
+    border-bottom: 1px solid $ink-line;
+    background: rgba(251, 250, 246, 0.88);
+    backdrop-filter: blur(12px);
+  }
+
+  .greedy-nav {
+    background: transparent;
+  }
+
+  .greedy-nav .visible-links a {
+    color: $ink-2;
+
+    &:hover {
+      color: $ink-teal-hover;
+    }
+
+    &:before {
+      height: 2px;
+      background: linear-gradient(90deg, #78b8cd, $ink-gold);
+    }
+  }
+
+  /* Headings and body copy. */
+  .page__content {
+    color: $ink-text;
+
+    h1, h2, h3, h4 {
+      color: $ink;
+    }
+  }
+
+  /* Links: teal with a light underline that firms up on hover.
+     Publication buttons keep their own colours. */
+  .page__content a:not(.paper-link):not(.publication-filter):not(.paper-venue-url) {
+    color: $ink-teal;
+    text-decoration: underline;
+    text-decoration-color: rgba(27, 102, 130, 0.3);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+    transition: color 0.15s ease, text-decoration-color 0.15s ease;
+
+    &:hover,
+    &:focus-visible {
+      color: $ink-teal-hover;
+      text-decoration-color: currentColor;
+    }
+  }
+
+  .page__content blockquote {
+    border-left-color: $ink-gold;
+    background: rgba(201, 159, 83, 0.06);
+    color: $ink-2;
+  }
+
+  /* Sidebar profile. */
+  .author__avatar img {
+    border: 3px solid #fff;
+    box-shadow: 0 0.5rem 1.6rem rgba(37, 56, 78, 0.16), 0 0 0 1px $ink-line;
+  }
+
+  .author__name {
+    color: $ink;
+  }
+
+  .author__bio,
+  .author__urls li {
+    color: $ink-2;
+  }
+
+  .author__urls a {
+    color: $ink-2;
+
+    &:hover {
+      color: $ink-teal-hover;
+    }
+  }
+
+  /* News cards. */
+  .news-item {
+    border-left-color: $ink-teal;
+    box-shadow: 0 3px 10px rgba(37, 56, 78, 0.08);
+  }
+
+  .news-date {
+    color: $ink-teal;
+  }
+
+  .news-text {
+    color: $ink-text;
+  }
+
+  /* Publication filters follow the homepage's primary button colour. */
+  .publication-filter:not(.publication-filter--phd):not(.publication-filter--ms) {
+    border-color: rgba(38, 69, 99, 0.24);
+    color: $ink-2;
+
+    &:hover {
+      border-color: $ink-teal;
+      color: $ink-teal;
+    }
+
+    &.is-active {
+      border-color: #1d4563;
+      background: #1d4563;
+      color: #fff;
+    }
+  }
+
+  .publication-filters__label {
+    color: $ink-muted;
+  }
+
+  .paper-box {
+    border-bottom-color: $ink-line;
+  }
+}

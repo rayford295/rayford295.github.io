@@ -653,7 +653,7 @@ redirect_from:
 </p>
 
     <!-- 🌟 Added Vision Statement -->
-    <p style="font-style: italic; color: #4b5563; border-left: 4px solid #93c5fd; padding-left: 12px; margin-top: 10px;">
+    <p style="font-style: italic; color: #4b5563; border-left: 3px solid #c99f53; padding-left: 12px; margin-top: 10px;">
       🔭 Vision: To transcend the boundaries of screens and make the real world our playground of intelligence — 
       where AI, space, and humanity coexist and co-create.
     </p>
