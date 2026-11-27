@@ -142,3 +142,129 @@ html:not([data-theme="dark"]) body:not(.homepage-minimal) {
     border-bottom-color: $ink-line;
   }
 }
+
+/* ==========================================================================
+   PUBLICATIONS LAYOUT (both themes)
+   The original layout kept: image column at 40% with the classic drop
+   shadow, text beside it. Fixes: the image fills its column (no gap before
+   the text), the title is a bold heading, the buttons are one pill system.
+   On phones the image sits on top with the badge at its corner.
+   ========================================================================== */
+
+.paper-box {
+  .paper-box-image {
+    position: relative;
+    order: 1;
+    margin-bottom: 1rem;
+
+    img {
+      width: 100% !important;
+      max-width: 100%;
+    }
+  }
+
+  .paper-box-text {
+    order: 2;
+  }
+
+  .badge {
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  @include breakpoint($medium) {
+    flex-wrap: nowrap;
+
+    .paper-box-image {
+      flex: 0 0 40%;
+      max-width: 40%;
+      margin-bottom: 0;
+    }
+
+    .paper-box-text {
+      flex: 1;
+      max-width: none;
+      padding-left: 2em;
+    }
+  }
+}
+
+.paper-box-text {
+  /* The first link in each entry is the paper title. */
+  > a:first-child {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 1.05em;
+    font-weight: 700;
+    line-height: 1.4;
+    text-decoration: none !important;
+
+    &:hover,
+    &:focus-visible {
+      text-decoration: underline !important;
+      text-underline-offset: 0.18em;
+    }
+  }
+}
+
+.paper-link {
+  padding: 7px 13px;
+  border-radius: 999px;
+  text-decoration: none !important;
+
+  i {
+    margin-right: 2px;
+  }
+}
+
+/* Entries without a tone class (all of them today) get the ink palette:
+   Paper filled navy, links outlined, GitHub dark. A tone-journal /
+   tone-conf / tone-book class on .paper-box still takes precedence. */
+.paper-box:not(.tone-journal):not(.tone-conf):not(.tone-book) {
+  --tone-bg: #1d4563;
+  --tone-bg-hover: #123e5a;
+  --tone-border: rgba(38, 69, 99, 0.32);
+  --tone-fg: #fff;
+
+  .link-paper {
+    border-color: #1d4563;
+  }
+
+  .link-doi {
+    color: #1d4563;
+  }
+}
+
+html:not([data-theme="dark"]) body:not(.homepage-minimal) {
+  .link-doi:hover {
+    border-color: $ink-teal;
+    background: rgba(27, 102, 130, 0.06);
+    color: $ink-teal;
+  }
+}
+
+[data-theme="dark"] {
+  .paper-box:not(.tone-journal):not(.tone-conf):not(.tone-book) {
+    --tone-bg: #2b5c80;
+    --tone-bg-hover: #346c95;
+
+    .link-paper {
+      border-color: #2b5c80;
+      color: #fff;
+    }
+
+    .link-code {
+      color: #fff;
+    }
+
+    .link-doi {
+      border-color: #4b5563;
+      color: #c9d1d9;
+    }
+  }
+
+  .paper-box-text > a:first-child {
+    color: #e6edf3;
+  }
+}

@@ -1269,21 +1269,21 @@ redirect_from:
          target="_blank" rel="noopener">
         MERIDIAN: Memory-Encoded Rituals for Intimacy across Distance in an Interactive, Asynchronous Neighbourhood
       </a>
-      — Jingyi Chen, <strong>Yang, Yifan</strong><sup>&dagger;</sup>.<br>
+      Jingyi Chen, <strong>Yang, Yifan</strong><sup>&dagger;</sup>.<br>
       <em>arXiv</em>, 2026. <a class="paper-venue-url" href="https://arxiv.org/abs/2610.41776" target="_blank" rel="noopener">https://arxiv.org/abs/2610.41776</a>
 
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2610.41776"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Paper</a>
+           class="paper-link link-paper"><i class="fas fa-file-alt" aria-hidden="true"></i>Paper</a>
 
         <a href="https://jingyifan.love/"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">💗 Play</a>
+           class="paper-link link-doi"><i class="fas fa-gamepad" aria-hidden="true"></i>Play</a>
 
         <a href="https://github.com/rayford295/yi-town"
            target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
+           class="paper-link link-code"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
       </div>
     </div>
   </div>
@@ -1299,25 +1299,25 @@ redirect_from:
          target="_blank" rel="noopener">
         When Satellite and Street Views Disagree: Cross-View Complementarity in Disaster Damage Assessment
       </a>
-      — <strong>Yang, Yifan</strong>, Lei Zou.<br>
+      <strong>Yang, Yifan</strong>, Lei Zou.<br>
       <em>Proceedings of the 5th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data (GeoSearch '26)</em>, November 3–6, 2026, Riverside, CA, USA. ACM, New York, NY, USA, 4 pages, doi: <a class="doi-inline" href="https://doi.org/10.1145/3849732.3857333" target="_blank" rel="noopener">10.1145/3849732.3857333</a>.
 
       <div class="paper-links">
         <a href="https://dl.acm.org/doi/10.1145/3849732.3857333"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Paper</a>
+           class="paper-link link-paper"><i class="fas fa-file-alt" aria-hidden="true"></i>Paper</a>
 
         <a href="https://geosearch-workshop.github.io/geosearch2026/"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 Conference</a>
+           class="paper-link link-doi"><i class="fas fa-link" aria-hidden="true"></i>Conference</a>
 
         <a href="https://doi.org/10.1145/3849732.3857333"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 DOI</a>
+           class="paper-link link-doi"><i class="fas fa-link" aria-hidden="true"></i>DOI</a>
 
         <a href="https://github.com/rayford295/CrossViewGate"
            target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
+           class="paper-link link-code"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
       </div>
     </div>
   </div>
@@ -1333,25 +1333,25 @@ redirect_from:
          target="_blank" rel="noopener">
         RAPID: A Reproducible Multi-Agent Pipeline for Interpretable Disaster Damage Assessment from Satellite and Street-View Imagery
       </a>
-      — <strong>Yang, Yifan</strong>, Wenjing Gong, Kaili Zhang, Lei Zou, Zhengzhong Tu, Hao Li, Zongrong Li, Xinyue Ye.<br>
+      <strong>Yang, Yifan</strong>, Wenjing Gong, Kaili Zhang, Lei Zou, Zhengzhong Tu, Hao Li, Zongrong Li, Xinyue Ye.<br>
       <em>Proceedings of the 34th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL '26)</em>, November 3–6, 2026, Riverside, CA, USA. ACM, New York, NY, USA, 12 pages, doi: <a class="doi-inline" href="https://doi.org/10.1145/3841645.3843346" target="_blank" rel="noopener">10.1145/3841645.3843346</a>.
 
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2606.21819"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Paper</a>
+           class="paper-link link-paper"><i class="fas fa-file-alt" aria-hidden="true"></i>Paper</a>
 
         <a href="https://sigspatial2026.sigspatial.org/application-accepted/"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 Conference</a>
+           class="paper-link link-doi"><i class="fas fa-link" aria-hidden="true"></i>Conference</a>
 
         <a href="https://doi.org/10.1145/3841645.3843346"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 DOI</a>
+           class="paper-link link-doi"><i class="fas fa-link" aria-hidden="true"></i>DOI</a>
 
         <a href="https://github.com/rayford295/RAPID"
            target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
+           class="paper-link link-code"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
       </div>
     </div>
   </div>
@@ -1367,25 +1367,25 @@ redirect_from:
          target="_blank" rel="noopener">
         RAPIDMap: Rapid Multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery
       </a>
-      — <strong>Yang, Yifan</strong>, Lei Zou.<br>
+      <strong>Yang, Yifan</strong>, Lei Zou.<br>
       <em>CaGIS Conference 2026</em>, September 8–11, 2026, St. Louis, MO, USA.
 
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2609.00046"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Abstract</a>
+           class="paper-link link-paper"><i class="fas fa-align-left" aria-hidden="true"></i>Abstract</a>
 
         <a href="https://cartogis.org/conferences/cagis2026/"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 Conference</a>
+           class="paper-link link-doi"><i class="fas fa-link" aria-hidden="true"></i>Conference</a>
 
         <a href="https://cartogis.org/docs/conferences/CaGIS_2026/abstracts/research/Yang_and_Zou_research_abstract_CaGIS_2026.pdf"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 PDF</a>
+           class="paper-link link-paper"><i class="fas fa-file-pdf" aria-hidden="true"></i>PDF</a>
 
         <a href="https://github.com/rayford295/RAPID"
            target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
+           class="paper-link link-code"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
       </div>
     </div>
   </div>
@@ -1405,25 +1405,25 @@ redirect_from:
        target="_blank" rel="noopener">
       Satellite-to-Street: Synthesizing Post-Disaster Views from Satellite Imagery via Generative Vision Models
     </a>
-    — <strong>Yang, Yifan</strong>, Lei Zou, Wendy Jepson. <br>
+    <strong>Yang, Yifan</strong>, Lei Zou, Wendy Jepson. <br>
     <em>IGARSS 2026 – 2026 IEEE International Geoscience and Remote Sensing Symposium</em>, Washington, DC, USA, 2026, pp. 1764–1768, doi: <a class="doi-inline" href="https://doi.org/10.1109/IGARSS60577.2026.11730816" target="_blank" rel="noopener">10.1109/IGARSS60577.2026.11730816</a>. <br>
 
     <div class="paper-links">
       <a href="https://ieeexplore.ieee.org/document/11730816"
          target="_blank" rel="noopener"
-         class="paper-link link-paper">📄 Paper</a>
+         class="paper-link link-paper"><i class="fas fa-file-alt" aria-hidden="true"></i>Paper</a>
 
       <a href="https://2026.ieeeigarss.org/view_paper.php?PaperNum=2585&SessionID=1704"
          target="_blank" rel="noopener"
-         class="paper-link link-doi">🔗 Conference</a>
+         class="paper-link link-doi"><i class="fas fa-link" aria-hidden="true"></i>Conference</a>
 
       <a href="https://doi.org/10.1109/IGARSS60577.2026.11730816"
          target="_blank" rel="noopener"
-         class="paper-link link-doi">🔗 DOI</a>
+         class="paper-link link-doi"><i class="fas fa-link" aria-hidden="true"></i>DOI</a>
 
       <a href="https://github.com/rayford295/Sat2Street-DisasterGen"
          target="_blank" rel="noopener"
-         class="paper-link link-code">💻 GitHub</a>
+         class="paper-link link-code"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
     </div>
   </div>
 </div>
@@ -1439,7 +1439,7 @@ redirect_from:
          target="_blank" rel="noopener">
         DamageArbiter: A Multimodal Arbitration Framework for Disaster Damage Assessment from Street-View Imagery
       </a>
-      — <strong>Yang, Yifan</strong>, Lei Zou, Wenjing Gong, Kani Fu, Zongrong Li, Siqin Wang, Bing Zhou, Heng Cai, Hao Tian.<br>
+      <strong>Yang, Yifan</strong>, Lei Zou, Wenjing Gong, Kani Fu, Zongrong Li, Siqin Wang, Bing Zhou, Heng Cai, Hao Tian.<br>
       <em>arXiv</em>, 2026. <a class="paper-venue-url" href="https://arxiv.org/abs/2603.14837" target="_blank" rel="noopener">https://arxiv.org/abs/2603.14837</a><br>
       <span style="font-weight:500;">
         🏆 2nd Place — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2026
@@ -1448,11 +1448,11 @@ redirect_from:
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2603.14837"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Paper</a>
+           class="paper-link link-paper"><i class="fas fa-file-alt" aria-hidden="true"></i>Paper</a>
 
         <a href="https://github.com/rayford295/DamageArbiter"
            target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
+           class="paper-link link-code"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
       </div>
     </div>
   </div>
@@ -1468,7 +1468,7 @@ redirect_from:
          target="_blank" rel="noopener">
         Perceiving Multidimensional Disaster Damages from Street-View Images Using Visual-Language Models
       </a>
-      — <strong>Yang, Yifan</strong>, Lei Zou. <br>
+      <strong>Yang, Yifan</strong>, Lei Zou. <br>
       <em>Abstracts of the International Cartographic Association</em>, Volume 10, 310, 2025, doi: <a class="doi-inline" href="https://doi.org/10.5194/ica-abs-10-310-2025" target="_blank" rel="noopener">10.5194/ica-abs-10-310-2025</a>. <br>
       <span style="font-weight:600;">
         🏆 Best Student Paper Award — ICC 2025, Vancouver, Canada
@@ -1477,15 +1477,15 @@ redirect_from:
       <div class="paper-links">
         <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Abstract</a>
+           class="paper-link link-paper"><i class="fas fa-align-left" aria-hidden="true"></i>Abstract</a>
 
         <a href="https://doi.org/10.5194/ica-abs-10-310-2025"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 DOI</a>
+           class="paper-link link-doi"><i class="fas fa-link" aria-hidden="true"></i>DOI</a>
 
         <a href="https://github.com/rayford295/DisasterVLP"
            target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
+           class="paper-link link-code"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
       </div>
     </div>
   </div>
@@ -1501,7 +1501,7 @@ redirect_from:
          target="_blank" rel="noopener">
         Hyperlocal Disaster Damage Assessment Using Bi-temporal Street-view Imagery and Pre-trained Vision Models
       </a>
-      — <strong>Yang, Yifan</strong>, Lei Zou, Bing Zhou, Daoyang Li, Binin Lin, Joynal Abedin, Mengyang Yang. <br>
+      <strong>Yang, Yifan</strong>, Lei Zou, Bing Zhou, Daoyang Li, Binin Lin, Joynal Abedin, Mengyang Yang. <br>
       <em>Computers, Environment and Urban Systems</em>, Volume 121, 102335, 2025, doi: <a class="doi-inline" href="https://doi.org/10.1016/j.compenvurbsys.2025.102335" target="_blank" rel="noopener">10.1016/j.compenvurbsys.2025.102335</a>.
       <span style="font-weight:500;">
         <br>💐 Honorable Mention — AAG GIS Specialty Group (GISSG) Student Honors Paper Competition, 2025
@@ -1510,23 +1510,23 @@ redirect_from:
       <div class="paper-links">
         <a href="https://www.sciencedirect.com/science/article/pii/S0198971525000882"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Paper</a>
+           class="paper-link link-paper"><i class="fas fa-file-alt" aria-hidden="true"></i>Paper</a>
 
         <a href="https://doi.org/10.1016/j.compenvurbsys.2025.102335"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 DOI</a>
+           class="paper-link link-doi"><i class="fas fa-link" aria-hidden="true"></i>DOI</a>
 
         <a href="https://github.com/rayford295/Bi-Temporal-StreetView"
            target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
+           class="paper-link link-code"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
 
         <a href="https://www.mosaic51.com/featured/how-texas-am-is-pioneering-damage-assessment-using-mosaic-imagery-from-hurricane-milton/"
            target="_blank" rel="noopener"
-           class="paper-link link-blog">📝 Blog</a>
+           class="paper-link link-blog"><i class="fas fa-pen-nib" aria-hidden="true"></i>Blog</a>
 
         <a href="https://mp.weixin.qq.com/s/I_5YYTeRy9UWIrApRzBU2A"
            target="_blank" rel="noopener"
-           class="paper-link link-wechat">💬 WeChat</a>
+           class="paper-link link-wechat"><i class="fab fa-weixin" aria-hidden="true"></i>WeChat</a>
       </div>
     </div>
   </div>
@@ -1542,7 +1542,7 @@ redirect_from:
          target="_blank" rel="noopener">
         Object detection and segmentation of trees using Text SAM in ArcGIS Online
       </a>
-      — <strong>Yang, Yifan</strong>, Dominic Borrelli. <br>
+      <strong>Yang, Yifan</strong>, Dominic Borrelli. <br>
       In: Darren Martin Ruddell &amp; Diana Ter-Ghazaryan (eds.),
       <em>Security First: Geospatial Workflows for a Safe and Equitable World</em>. <br>
       Esri Press, 2025. (Chapter 7)
@@ -1550,15 +1550,15 @@ redirect_from:
       <div class="paper-links">
         <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📘 Book</a>
+           class="paper-link link-paper"><i class="fas fa-book" aria-hidden="true"></i>Book</a>
 
         <a href="https://www.esri.com/en-us/esri-press/browse/security-first-geospatial-workflows-for-a-safe-and-equitable-world"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 Link</a>
+           class="paper-link link-doi"><i class="fas fa-link" aria-hidden="true"></i>Link</a>
 
         <a href="https://github.com/rayford295/ArcGIS-SAM-TreeSegmentation"
            target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
+           class="paper-link link-code"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
       </div>
     </div>
   </div>
@@ -1574,21 +1574,21 @@ redirect_from:
          target="_blank" rel="noopener">
         GeoLocator: A Location-Integrated Large Multimodal Model (LMM) for Inferring Geo-Privacy
       </a>
-      — <strong>Yang, Yifan</strong>, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu. <br>
+      <strong>Yang, Yifan</strong>, Siqin Wang, Daoyang Li, Shuju Sun, Qingyang Wu. <br>
       <em>Applied Sciences</em>, 14(16), 7091, 2024, doi: <a class="doi-inline" href="https://doi.org/10.3390/app14167091" target="_blank" rel="noopener">10.3390/app14167091</a>.
 
       <div class="paper-links">
         <a href="https://www.mdpi.com/2076-3417/14/16/7091"
            target="_blank" rel="noopener"
-           class="paper-link link-paper">📄 Paper</a>
+           class="paper-link link-paper"><i class="fas fa-file-alt" aria-hidden="true"></i>Paper</a>
 
         <a href="https://doi.org/10.3390/app14167091"
            target="_blank" rel="noopener"
-           class="paper-link link-doi">🔗 DOI</a>
+           class="paper-link link-doi"><i class="fas fa-link" aria-hidden="true"></i>DOI</a>
 
         <a href="https://github.com/rayford295/GeoLocator"
            target="_blank" rel="noopener"
-           class="paper-link link-code">💻 GitHub</a>
+           class="paper-link link-code"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
       </div>
     </div>
   </div>
