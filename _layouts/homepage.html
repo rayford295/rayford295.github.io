@@ -130,7 +130,7 @@ layout: compress
         box-sizing: border-box;
         align-items: flex-start;
         justify-content: center;
-        padding: clamp(30rem, 63vh, 39rem) 1.5rem 2.5rem;
+        padding: clamp(30rem, 63vh, 39rem) 1.5rem 7rem;
       }
 
       .homepage-minimal__time-suite {
@@ -302,7 +302,7 @@ layout: compress
       .homepage-minimal__panel {
         position: relative;
         overflow: hidden;
-        width: min(100%, 31rem);
+        width: min(100%, 33rem);
         padding: clamp(1.5rem, 4vw, 2.35rem);
         border: 1px solid rgba(38, 69, 99, 0.18);
         border-radius: 1.1rem;
@@ -369,11 +369,44 @@ layout: compress
         white-space: nowrap;
       }
 
-      .homepage-minimal__tagline {
-        margin: 0.72rem auto 0;
-        color: #486277;
-        font-size: clamp(0.88rem, 2vw, 1rem);
+      .homepage-minimal__avatar {
+        display: block;
+        width: 6rem;
+        height: 6rem;
+        margin: 0 auto 0.9rem;
+        border: 3px solid rgba(255, 255, 255, 0.95);
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 0.5rem 1.6rem rgba(37, 56, 78, 0.18), 0 0 0 1px rgba(38, 69, 99, 0.16);
+      }
+
+      .homepage-minimal__role {
+        margin: 0.45rem 0 0;
+        color: #2e607b;
+        font-size: 0.9rem;
+        font-weight: 600;
+        letter-spacing: 0.01em;
+      }
+
+      .homepage-minimal__role span {
+        white-space: nowrap;
+      }
+
+      .homepage-minimal__research {
+        max-width: 26rem;
+        margin: 0.75rem auto 0;
+        color: #1d3a52;
+        font-size: clamp(0.98rem, 2.1vw, 1.08rem);
         font-weight: 500;
+        line-height: 1.5;
+      }
+
+      .homepage-minimal__tagline {
+        margin: 0.55rem auto 0;
+        color: #6a8194;
+        font-size: 0.86rem;
+        font-style: italic;
+        font-weight: 400;
         letter-spacing: 0.01em;
         line-height: 1.45;
       }
@@ -651,7 +684,10 @@ layout: compress
           </span>
           <span class="screen-reader-text">Space, Intelligence, and Discovery</span>
         </p>
+        <img class="homepage-minimal__avatar" src="/avatar-Yifan.jpg" alt="Portrait of Yifan Yang" width="96" height="96">
         <h1 id="homepage-title" class="homepage-minimal__name">Yifan (Rayford) Yang</h1>
+        <p class="homepage-minimal__role"><span>Ph.D. Candidate in Geography</span> · <span>Texas A&amp;M University</span></p>
+        <p class="homepage-minimal__research">Building autonomous and accountable GeoAI that reasons about places from incomplete, conflicting evidence, with disasters as the testbed.</p>
         <p class="homepage-minimal__tagline">Ambition gives direction, courage sustains exploration.</p>
         <nav class="homepage-minimal__links" aria-label="Homepage shortcuts">
           <a href="/about/">🗨 About</a>
