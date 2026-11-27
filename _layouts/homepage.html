@@ -412,11 +412,31 @@ layout: compress
       }
 
       .homepage-minimal__links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0.58rem;
-        margin-top: 1.18rem;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.55rem;
+        max-width: 25rem;
+        margin: 1.25rem auto 0;
+      }
+
+      .homepage-minimal__links a i {
+        width: 1.1em;
+        margin-right: 0.45rem;
+        opacity: 0.85;
+        text-align: center;
+      }
+
+      .homepage-minimal__links a.is-primary {
+        border-color: #1d4563;
+        background: #1d4563;
+        color: #fff;
+      }
+
+      .homepage-minimal__links a.is-primary:hover,
+      .homepage-minimal__links a.is-primary:focus-visible {
+        border-color: #123e5a;
+        background: #123e5a;
+        color: #fff;
       }
 
       .homepage-minimal__links a,
@@ -424,8 +444,9 @@ layout: compress
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        min-width: 6.9rem;
-        padding: 0.58rem 0.78rem;
+        min-width: 0;
+        padding: 0.58rem 0.7rem;
+        white-space: nowrap;
         border: 1px solid rgba(38, 69, 99, 0.24);
         border-radius: 999px;
         background: rgba(255, 255, 255, 0.68);
@@ -452,17 +473,12 @@ layout: compress
       }
 
       .homepage-minimal__updated {
-        margin: 0.85rem 0 0;
-        color: #58718a;
-        font-size: 0.82rem;
-        letter-spacing: 0.02em;
+        margin: 1.1rem 0 0;
+        color: #8297a8;
+        font-size: 0.72rem;
+        letter-spacing: 0.06em;
         text-align: center;
-        opacity: 0;
-        transition: opacity 420ms ease;
-      }
-
-      .homepage-minimal__updated.is-visible {
-        opacity: 1;
+        text-transform: uppercase;
       }
 
       .homepage-minimal__contact {
@@ -583,6 +599,11 @@ layout: compress
           width: clamp(3.45rem, 15vw, 4.1rem);
         }
 
+        .homepage-minimal__links {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          max-width: 19rem;
+        }
+
         .homepage-minimal__panel {
           margin: 0 auto 2rem;
           padding: 1.45rem 1.1rem;
@@ -690,16 +711,14 @@ layout: compress
         <p class="homepage-minimal__research">Building autonomous and accountable GeoAI that reasons about places from incomplete, conflicting evidence, with disasters as the testbed.</p>
         <p class="homepage-minimal__tagline">Ambition gives direction, courage sustains exploration.</p>
         <nav class="homepage-minimal__links" aria-label="Homepage shortcuts">
-          <a href="/about/">🗨 About</a>
-          <a href="/news/">📰 News</a>
-          <a href="/publications/">📕 Publications</a>
-          <a href="/resume/Yifan_Yang_CV.pdf">📄 Curriculum Vitae</a>
-          <a href="https://github.com/rayford295" target="_blank" rel="noopener">🐙 GitHub</a>
-          <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener">🤖 AutoGeoAI4Sci</a>
-          <button type="button" id="homepage-updated-btn" class="homepage-minimal__updated-btn"
-                  aria-expanded="false" aria-controls="homepage-updated">💫 Last Updated</button>
+          <a class="is-primary" href="/publications/"><i class="fas fa-book-open" aria-hidden="true"></i>Publications</a>
+          <a class="is-primary" href="/resume/Yifan_Yang_CV.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i>CV</a>
+          <a href="/about/"><i class="fas fa-user" aria-hidden="true"></i>About</a>
+          <a href="/news/"><i class="fas fa-newspaper" aria-hidden="true"></i>News</a>
+          <a href="https://github.com/rayford295" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
+          <a href="https://autogeoai4sci.github.io/" target="_blank" rel="noopener"><i class="fas fa-robot" aria-hidden="true"></i>AutoGeoAI4Sci</a>
         </nav>
-        <p id="homepage-updated" class="homepage-minimal__updated" data-updated="{{ site.time | date_to_xmlschema }}" hidden></p>
+        <p id="homepage-updated" class="homepage-minimal__updated" data-updated="{{ site.time | date_to_xmlschema }}">Updated {{ site.time | date: "%b %-d, %Y" }}</p>
       </section>
       <aside class="homepage-minimal__contact" aria-label="Contact information">
         <span class="homepage-minimal__contact-label">Let’s connect</span>
@@ -780,42 +799,6 @@ layout: compress
 
         updateClock();
         window.setInterval(updateClock, 1000);
-      }());
-    </script>
-
-    <script>
-      (function () {
-        var btn = document.getElementById("homepage-updated-btn");
-        var line = document.getElementById("homepage-updated");
-        if (!btn || !line) return;
-
-        var updated = new Date(line.getAttribute("data-updated"));
-        var formatted = new Intl.DateTimeFormat("en-US", {
-          timeZone: "America/Chicago",
-          year: "numeric",
-          month: "short",
-          day: "numeric",
-          hour: "numeric",
-          minute: "2-digit",
-          hour12: true,
-          timeZoneName: "short"
-        }).format(updated);
-
-        btn.addEventListener("click", function () {
-          var showing = btn.getAttribute("aria-expanded") === "true";
-          if (showing) {
-            line.classList.remove("is-visible");
-            btn.setAttribute("aria-expanded", "false");
-            window.setTimeout(function () { line.hidden = true; }, 420);
-          } else {
-            line.textContent = "Site last updated on " + formatted;
-            line.hidden = false;
-            window.requestAnimationFrame(function () {
-              line.classList.add("is-visible");
-            });
-            btn.setAttribute("aria-expanded", "true");
-          }
-        });
       }());
     </script>
 
