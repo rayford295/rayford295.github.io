@@ -268,3 +268,15 @@ html:not([data-theme="dark"]) body:not(.homepage-minimal) {
     color: #e6edf3;
   }
 }
+
+/* Sidebar avatar stays a circle at every width. The theme narrows the
+   avatar on phones while main.scss fixes its height at 180px, which
+   stretched it into an oval; let the height follow the width instead. */
+.author__avatar {
+  height: auto;
+
+  img {
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+}

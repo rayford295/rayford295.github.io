@@ -47,6 +47,19 @@
 </script>
 
 
+<!-- Email links are stored as user + domain and joined here, so the address
+     is not sitting in the HTML for scrapers. -->
+<script>
+(function () {
+  var links = document.querySelectorAll('[data-mail-user][data-mail-domain]');
+  Array.prototype.forEach.call(links, function (a) {
+    var addr = a.getAttribute('data-mail-user') + '@' + a.getAttribute('data-mail-domain');
+    a.setAttribute('href', 'mailto:' + addr);
+    if (a.hasAttribute('data-mail-show')) a.textContent = addr;
+  });
+})();
+</script>
+
 <!-- Dark mode: floating toggle button + circle-reveal transition -->
 <button id="dark-mode-toggle" class="dark-mode-fab" aria-label="Toggle dark mode" title="Toggle dark/light mode">
   <span class="fab-icon fab-sun">☀️</span>
@@ -58,20 +71,21 @@
 /* ── Floating Action Button ── */
 .dark-mode-fab {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 1.25rem;
+  right: 1.25rem;
   z-index: 9999;
-  width: 52px;
-  height: 52px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  border: none;
+  border: 1px solid rgba(38,69,99,0.12);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.35rem;
-  background: #ffffff;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.18), 0 1px 4px rgba(0,0,0,0.10);
+  font-size: 1.1rem;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
   transition: transform 0.2s cubic-bezier(.34,1.56,.64,1),
               box-shadow 0.2s ease,
               background 0.3s ease;
@@ -187,17 +201,18 @@ html {
 /* ── Flashlight FAB ── */
 #upside-down-btn {
   position: fixed;
-  bottom: 2rem;
-  left: 2rem;
+  bottom: 1.25rem;
+  left: 1.25rem;
   z-index: 9999;
-  width: 52px;
-  height: 52px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  border: none;
+  border: 1px solid rgba(38,69,99,0.12);
   cursor: pointer;
-  font-size: 1.4rem;
-  background: #ffffff;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+  font-size: 1.1rem;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
   transition: transform 0.2s cubic-bezier(.34,1.56,.64,1), box-shadow 0.2s;
   outline: none;
   display: flex;
@@ -217,6 +232,19 @@ html {
   0%,100% { box-shadow: 0 0 18px rgba(255,40,40,0.6); }
   50%      { box-shadow: 0 0 30px rgba(255,40,40,0.9); }
   75%      { box-shadow: 0 0 10px rgba(255,40,40,0.3); }
+}
+
+/* Phones: smaller, tucked closer to the corners so they cover less text. */
+@media (max-width: 640px) {
+  #upside-down-btn,
+  .dark-mode-fab {
+    bottom: 0.85rem;
+    width: 36px;
+    height: 36px;
+    font-size: 0.95rem;
+  }
+  #upside-down-btn { left: 0.85rem; }
+  .dark-mode-fab { right: 0.85rem; }
 }
 
 /* ── Spore canvas ── */
